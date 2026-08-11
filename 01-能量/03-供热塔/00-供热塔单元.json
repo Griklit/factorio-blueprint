@@ -1,0 +1,567 @@
+{
+  "blueprint": {
+    "item": "blueprint",
+    "label": "供热塔单元",
+    "entities": [
+      {
+        "entity_number": 1,
+        "name": "transport-belt",
+        "position": {
+          "x": -203.5,
+          "y": -174.5
+        }
+      },
+      {
+        "entity_number": 2,
+        "name": "transport-belt",
+        "position": {
+          "x": -203.5,
+          "y": -173.5
+        }
+      },
+      {
+        "entity_number": 3,
+        "name": "transport-belt",
+        "position": {
+          "x": -203.5,
+          "y": -172.5
+        }
+      },
+      {
+        "entity_number": 4,
+        "name": "transport-belt",
+        "position": {
+          "x": -203.5,
+          "y": -171.5
+        }
+      },
+      {
+        "entity_number": 5,
+        "name": "underground-belt",
+        "position": {
+          "x": -203.5,
+          "y": -170.5
+        },
+        "type": "output"
+      },
+      {
+        "entity_number": 6,
+        "name": "medium-electric-pole",
+        "position": {
+          "x": -203.5,
+          "y": -169.5
+        }
+      },
+      {
+        "entity_number": 7,
+        "name": "underground-belt",
+        "position": {
+          "x": -203.5,
+          "y": -166.5
+        },
+        "type": "input"
+      },
+      {
+        "direction": 8,
+        "entity_number": 8,
+        "name": "pipe-to-ground",
+        "position": {
+          "x": -202.5,
+          "y": -173.5
+        }
+      },
+      {
+        "entity_number": 9,
+        "name": "pipe",
+        "position": {
+          "x": -202.5,
+          "y": -172.5
+        }
+      },
+      {
+        "entity_number": 10,
+        "name": "pipe-to-ground",
+        "position": {
+          "x": -202.5,
+          "y": -171.5
+        }
+      },
+      {
+        "direction": 12,
+        "entity_number": 11,
+        "name": "fast-inserter",
+        "position": {
+          "x": -202.5,
+          "y": -170.5
+        }
+      },
+      {
+        "direction": 8,
+        "entity_number": 12,
+        "name": "pipe-to-ground",
+        "position": {
+          "x": -202.5,
+          "y": -169.5
+        }
+      },
+      {
+        "entity_number": 13,
+        "name": "pipe",
+        "position": {
+          "x": -202.5,
+          "y": -168.5
+        }
+      },
+      {
+        "entity_number": 14,
+        "name": "pipe-to-ground",
+        "position": {
+          "x": -202.5,
+          "y": -167.5
+        }
+      },
+      {
+        "entity_number": 15,
+        "name": "pipe",
+        "position": {
+          "x": -200.5,
+          "y": -174.5
+        }
+      },
+      {
+        "entity_number": 16,
+        "name": "heat-exchanger",
+        "position": {
+          "x": -200.5,
+          "y": -173
+        }
+      },
+      {
+        "entity_number": 17,
+        "name": "heating-tower",
+        "position": {
+          "x": -200.5,
+          "y": -170.5
+        }
+      },
+      {
+        "direction": 8,
+        "entity_number": 18,
+        "name": "heat-exchanger",
+        "position": {
+          "x": -200.5,
+          "y": -168
+        }
+      },
+      {
+        "entity_number": 19,
+        "name": "pipe",
+        "position": {
+          "x": -200.5,
+          "y": -166.5
+        }
+      },
+      {
+        "entity_number": 20,
+        "name": "pipe",
+        "position": {
+          "x": -199.5,
+          "y": -174.5
+        }
+      },
+      {
+        "entity_number": 21,
+        "name": "pipe",
+        "position": {
+          "x": -199.5,
+          "y": -166.5
+        }
+      },
+      {
+        "entity_number": 22,
+        "name": "pipe",
+        "position": {
+          "x": -198.5,
+          "y": -174.5
+        }
+      },
+      {
+        "entity_number": 23,
+        "name": "heat-pipe",
+        "position": {
+          "x": -198.5,
+          "y": -170.5
+        }
+      },
+      {
+        "entity_number": 24,
+        "name": "pipe",
+        "position": {
+          "x": -198.5,
+          "y": -166.5
+        }
+      },
+      {
+        "entity_number": 25,
+        "name": "pipe",
+        "position": {
+          "x": -197.5,
+          "y": -174.5
+        }
+      },
+      {
+        "entity_number": 26,
+        "name": "heat-exchanger",
+        "position": {
+          "x": -197.5,
+          "y": -173
+        }
+      },
+      {
+        "entity_number": 27,
+        "name": "heat-pipe",
+        "position": {
+          "x": -197.5,
+          "y": -171.5
+        }
+      },
+      {
+        "entity_number": 28,
+        "name": "heat-pipe",
+        "position": {
+          "x": -197.5,
+          "y": -170.5
+        }
+      },
+      {
+        "entity_number": 29,
+        "name": "heat-pipe",
+        "position": {
+          "x": -197.5,
+          "y": -169.5
+        }
+      },
+      {
+        "direction": 8,
+        "entity_number": 30,
+        "name": "heat-exchanger",
+        "position": {
+          "x": -197.5,
+          "y": -168
+        }
+      },
+      {
+        "entity_number": 31,
+        "name": "pipe",
+        "position": {
+          "x": -197.5,
+          "y": -166.5
+        }
+      },
+      {
+        "entity_number": 32,
+        "name": "pipe",
+        "position": {
+          "x": -196.5,
+          "y": -174.5
+        }
+      },
+      {
+        "entity_number": 33,
+        "name": "medium-electric-pole",
+        "position": {
+          "x": -196.5,
+          "y": -169.5
+        }
+      },
+      {
+        "entity_number": 34,
+        "name": "pipe",
+        "position": {
+          "x": -196.5,
+          "y": -166.5
+        }
+      },
+      {
+        "entity_number": 35,
+        "name": "pipe",
+        "position": {
+          "x": -195.5,
+          "y": -174.5
+        }
+      },
+      {
+        "entity_number": 36,
+        "name": "pipe-to-ground",
+        "position": {
+          "x": -195.5,
+          "y": -173.5
+        }
+      },
+      {
+        "direction": 8,
+        "entity_number": 37,
+        "name": "pipe-to-ground",
+        "position": {
+          "x": -195.5,
+          "y": -171.5
+        }
+      },
+      {
+        "entity_number": 38,
+        "name": "pipe",
+        "position": {
+          "x": -195.5,
+          "y": -170.5
+        }
+      },
+      {
+        "entity_number": 39,
+        "name": "pipe-to-ground",
+        "position": {
+          "x": -195.5,
+          "y": -169.5
+        }
+      },
+      {
+        "direction": 8,
+        "entity_number": 40,
+        "name": "pipe-to-ground",
+        "position": {
+          "x": -195.5,
+          "y": -167.5
+        }
+      },
+      {
+        "entity_number": 41,
+        "name": "pipe",
+        "position": {
+          "x": -195.5,
+          "y": -166.5
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 42,
+        "name": "steam-turbine",
+        "position": {
+          "x": -192.5,
+          "y": -173.5
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 43,
+        "name": "steam-turbine",
+        "position": {
+          "x": -192.5,
+          "y": -170.5
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 44,
+        "name": "steam-turbine",
+        "position": {
+          "x": -192.5,
+          "y": -167.5
+        }
+      },
+      {
+        "entity_number": 45,
+        "name": "pipe",
+        "position": {
+          "x": -189.5,
+          "y": -170.5
+        }
+      },
+      {
+        "entity_number": 46,
+        "name": "medium-electric-pole",
+        "position": {
+          "x": -189.5,
+          "y": -169.5
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 47,
+        "name": "steam-turbine",
+        "position": {
+          "x": -187.5,
+          "y": -173.5
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 48,
+        "name": "steam-turbine",
+        "position": {
+          "x": -187.5,
+          "y": -167.5
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 49,
+        "name": "steam-turbine",
+        "position": {
+          "x": -186.5,
+          "y": -170.5
+        }
+      },
+      {
+        "entity_number": 50,
+        "name": "pipe",
+        "position": {
+          "x": -184.5,
+          "y": -174.5
+        }
+      },
+      {
+        "entity_number": 51,
+        "name": "pipe",
+        "position": {
+          "x": -184.5,
+          "y": -173.5
+        }
+      },
+      {
+        "entity_number": 52,
+        "name": "pipe",
+        "position": {
+          "x": -184.5,
+          "y": -172.5
+        }
+      },
+      {
+        "entity_number": 53,
+        "name": "pipe",
+        "position": {
+          "x": -184.5,
+          "y": -168.5
+        }
+      },
+      {
+        "entity_number": 54,
+        "name": "pipe",
+        "position": {
+          "x": -184.5,
+          "y": -167.5
+        }
+      },
+      {
+        "entity_number": 55,
+        "name": "pipe",
+        "position": {
+          "x": -184.5,
+          "y": -166.5
+        }
+      },
+      {
+        "entity_number": 56,
+        "name": "pipe",
+        "position": {
+          "x": -183.5,
+          "y": -172.5
+        }
+      },
+      {
+        "entity_number": 57,
+        "name": "pipe",
+        "position": {
+          "x": -183.5,
+          "y": -171.5
+        }
+      },
+      {
+        "entity_number": 58,
+        "name": "pipe",
+        "position": {
+          "x": -183.5,
+          "y": -170.5
+        }
+      },
+      {
+        "entity_number": 59,
+        "name": "pipe",
+        "position": {
+          "x": -183.5,
+          "y": -169.5
+        }
+      },
+      {
+        "entity_number": 60,
+        "name": "pipe",
+        "position": {
+          "x": -183.5,
+          "y": -168.5
+        }
+      },
+      {
+        "entity_number": 61,
+        "name": "medium-electric-pole",
+        "position": {
+          "x": -183.5,
+          "y": -167.5
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 62,
+        "name": "storage-tank",
+        "position": {
+          "x": -181.5,
+          "y": -173.5
+        }
+      },
+      {
+        "entity_number": 63,
+        "name": "storage-tank",
+        "position": {
+          "x": -181.5,
+          "y": -167.5
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 64,
+        "name": "steam-turbine",
+        "position": {
+          "x": -180.5,
+          "y": -170.5
+        }
+      }
+    ],
+    "icons": [
+      {
+        "index": 1,
+        "signal": {
+          "name": "heating-tower"
+        }
+      }
+    ],
+    "version": 562954249306113,
+    "wires": [
+      [
+        6,
+        5,
+        33,
+        5
+      ],
+      [
+        33,
+        5,
+        46,
+        5
+      ],
+      [
+        46,
+        5,
+        61,
+        5
+      ]
+    ]
+  },
+  "index": 0
+}

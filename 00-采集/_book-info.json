@@ -1,0 +1,16 @@
+{
+  "active_index": 0,
+  "blueprints": [],
+  "description": "v260803\n--by Sequence[7]",
+  "icons": [
+    {
+      "index": 1,
+      "signal": {
+        "name": "electric-mining-drill"
+      }
+    }
+  ],
+  "item": "blueprint-book",
+  "label": "采集",
+  "version": 562954249306113
+}

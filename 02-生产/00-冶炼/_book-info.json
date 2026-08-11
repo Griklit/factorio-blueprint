@@ -1,0 +1,16 @@
+{
+  "active_index": 0,
+  "blueprints": [],
+  "description": "v260804\n--by Sequence[7]",
+  "icons": [
+    {
+      "index": 1,
+      "signal": {
+        "name": "steel-furnace"
+      }
+    }
+  ],
+  "item": "blueprint-book",
+  "label": "冶炼",
+  "version": 562954249306113
+}

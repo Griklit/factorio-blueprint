@@ -1,0 +1,17 @@
+{
+  "active_index": 0,
+  "blueprints": [],
+  "description": "v260809\n--by Sequence[7]",
+  "icons": [
+    {
+      "index": 1,
+      "signal": {
+        "name": "signal-everything",
+        "type": "virtual"
+      }
+    }
+  ],
+  "item": "blueprint-book",
+  "label": "超市",
+  "version": 562954249306113
+}

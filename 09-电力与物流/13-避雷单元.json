@@ -1,0 +1,55 @@
+{
+  "blueprint": {
+    "item": "blueprint",
+    "label": "避雷单元",
+    "description": "还可以再大一格，但会导致无法对齐",
+    "entities": [
+      {
+        "entity_number": 1,
+        "name": "lightning-collector",
+        "position": {
+          "x": 1,
+          "y": 1
+        }
+      },
+      {
+        "entity_number": 2,
+        "name": "lightning-collector",
+        "position": {
+          "x": 1,
+          "y": 49
+        }
+      },
+      {
+        "entity_number": 3,
+        "name": "lightning-collector",
+        "position": {
+          "x": 49,
+          "y": 1
+        }
+      },
+      {
+        "entity_number": 4,
+        "name": "lightning-collector",
+        "position": {
+          "x": 49,
+          "y": 49
+        }
+      }
+    ],
+    "icons": [
+      {
+        "index": 1,
+        "signal": {
+          "name": "lightning-collector"
+        }
+      }
+    ],
+    "snap-to-grid": {
+      "x": 48,
+      "y": 48
+    },
+    "version": 562954249306113
+  },
+  "index": 13
+}

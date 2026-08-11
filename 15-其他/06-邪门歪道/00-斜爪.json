@@ -1,0 +1,162 @@
+{
+  "blueprint": {
+    "item": "blueprint",
+    "label": "斜爪",
+    "description": "一旦使用本蓝图便会堕入地狱。\n如果你是通过蓝图代码导入的蓝图，那么此蓝图将会失效。\n",
+    "entities": [
+      {
+        "direction": 14,
+        "entity_number": 1,
+        "name": "inserter",
+        "position": {
+          "x": -130.5,
+          "y": 234.5
+        }
+      },
+      {
+        "direction": 13,
+        "entity_number": 2,
+        "name": "inserter",
+        "position": {
+          "x": -130.5,
+          "y": 235.5
+        }
+      },
+      {
+        "direction": 12,
+        "entity_number": 3,
+        "name": "inserter",
+        "position": {
+          "x": -130.5,
+          "y": 236.5
+        }
+      },
+      {
+        "direction": 11,
+        "entity_number": 4,
+        "name": "inserter",
+        "position": {
+          "x": -130.5,
+          "y": 237.5
+        }
+      },
+      {
+        "direction": 10,
+        "entity_number": 5,
+        "name": "inserter",
+        "position": {
+          "x": -130.5,
+          "y": 238.5
+        }
+      },
+      {
+        "direction": 15,
+        "entity_number": 6,
+        "name": "inserter",
+        "position": {
+          "x": -129.5,
+          "y": 234.5
+        }
+      },
+      {
+        "direction": 9,
+        "entity_number": 7,
+        "name": "inserter",
+        "position": {
+          "x": -129.5,
+          "y": 238.5
+        }
+      },
+      {
+        "entity_number": 8,
+        "name": "inserter",
+        "position": {
+          "x": -128.5,
+          "y": 234.5
+        }
+      },
+      {
+        "direction": 8,
+        "entity_number": 9,
+        "name": "inserter",
+        "position": {
+          "x": -128.5,
+          "y": 238.5
+        }
+      },
+      {
+        "direction": 1,
+        "entity_number": 10,
+        "name": "inserter",
+        "position": {
+          "x": -127.5,
+          "y": 234.5
+        }
+      },
+      {
+        "direction": 7,
+        "entity_number": 11,
+        "name": "inserter",
+        "position": {
+          "x": -127.5,
+          "y": 238.5
+        }
+      },
+      {
+        "direction": 2,
+        "entity_number": 12,
+        "name": "inserter",
+        "position": {
+          "x": -126.5,
+          "y": 234.5
+        }
+      },
+      {
+        "direction": 3,
+        "entity_number": 13,
+        "name": "inserter",
+        "position": {
+          "x": -126.5,
+          "y": 235.5
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 14,
+        "name": "inserter",
+        "position": {
+          "x": -126.5,
+          "y": 236.5
+        }
+      },
+      {
+        "direction": 5,
+        "entity_number": 15,
+        "name": "inserter",
+        "position": {
+          "x": -126.5,
+          "y": 237.5
+        }
+      },
+      {
+        "direction": 6,
+        "entity_number": 16,
+        "name": "inserter",
+        "position": {
+          "x": -126.5,
+          "y": 238.5
+        }
+      }
+    ],
+    "icons": [
+      {
+        "index": 1,
+        "signal": {
+          "name": "inserter"
+        }
+      }
+    ],
+    "version": 562954249306113
+  },
+  "index": 0
+}

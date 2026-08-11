@@ -1,0 +1,28 @@
+{
+  "blueprint": {
+    "item": "blueprint",
+    "label": "均分器布局生成器",
+    "description": "均分器布局可以使用Factory-SAT自动生成。\n\nhttps://github.com/R-O-C-K-E-T/Factorio-SAT\nhttps://www.reddit.com/r/factorio/comments/u7zv6d/balancer_book_update_spring_2022/i5hvmxw/\n",
+    "entities": [
+      {
+        "direction": 4,
+        "entity_number": 1,
+        "name": "express-splitter",
+        "position": {
+          "x": 504.5,
+          "y": 301
+        }
+      }
+    ],
+    "icons": [
+      {
+        "index": 1,
+        "signal": {
+          "name": "express-splitter"
+        }
+      }
+    ],
+    "version": 562954249306113
+  },
+  "index": 13
+}

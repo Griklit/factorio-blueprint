@@ -1,0 +1,23 @@
+{
+  "active_index": 12,
+  "blueprints": [],
+  "icons": [
+    {
+      "index": 1,
+      "signal": {
+        "name": "signal-6",
+        "type": "virtual"
+      }
+    },
+    {
+      "index": 2,
+      "signal": {
+        "name": "signal-X",
+        "type": "virtual"
+      }
+    }
+  ],
+  "item": "blueprint-book",
+  "label": "6-x均分器",
+  "version": 562954249306113
+}

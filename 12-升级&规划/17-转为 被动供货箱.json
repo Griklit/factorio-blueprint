@@ -1,0 +1,51 @@
+{
+  "upgrade_planner": {
+    "label": "转为 被动供货箱",
+    "item": "upgrade-planner",
+    "settings": {
+      "mappers": [
+        {
+          "from": {
+            "comparator": "=",
+            "name": "wooden-chest",
+            "quality": "normal",
+            "type": "entity"
+          },
+          "index": 0,
+          "to": {
+            "name": "passive-provider-chest",
+            "type": "entity"
+          }
+        },
+        {
+          "from": {
+            "comparator": "=",
+            "name": "iron-chest",
+            "quality": "normal",
+            "type": "entity"
+          },
+          "index": 4,
+          "to": {
+            "name": "passive-provider-chest",
+            "type": "entity"
+          }
+        },
+        {
+          "from": {
+            "comparator": "=",
+            "name": "steel-chest",
+            "quality": "normal",
+            "type": "entity"
+          },
+          "index": 8,
+          "to": {
+            "name": "passive-provider-chest",
+            "type": "entity"
+          }
+        }
+      ]
+    },
+    "version": 562954249306113
+  },
+  "index": 17
+}

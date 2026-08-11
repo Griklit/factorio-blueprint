@@ -1,0 +1,215 @@
+{
+  "blueprint": {
+    "item": "blueprint",
+    "entities": [
+      {
+        "entity_number": 1,
+        "name": "stone-wall",
+        "position": {
+          "x": 51.5,
+          "y": 99.5
+        }
+      },
+      {
+        "entity_number": 2,
+        "name": "stone-wall",
+        "position": {
+          "x": 50.5,
+          "y": 99.5
+        }
+      },
+      {
+        "entity_number": 3,
+        "name": "stone-wall",
+        "position": {
+          "x": 53.5,
+          "y": 99.5
+        }
+      },
+      {
+        "entity_number": 4,
+        "name": "stone-wall",
+        "position": {
+          "x": 52.5,
+          "y": 99.5
+        }
+      },
+      {
+        "entity_number": 5,
+        "name": "stone-wall",
+        "position": {
+          "x": 55.5,
+          "y": 99.5
+        }
+      },
+      {
+        "entity_number": 6,
+        "name": "stone-wall",
+        "position": {
+          "x": 54.5,
+          "y": 99.5
+        }
+      },
+      {
+        "entity_number": 7,
+        "name": "stone-wall",
+        "position": {
+          "x": 50.5,
+          "y": 100.5
+        }
+      },
+      {
+        "entity_number": 8,
+        "name": "stone-wall",
+        "position": {
+          "x": 50.5,
+          "y": 101.5
+        }
+      },
+      {
+        "entity_number": 9,
+        "name": "gun-turret",
+        "position": {
+          "x": 52,
+          "y": 101
+        }
+      },
+      {
+        "entity_number": 10,
+        "name": "stone-wall",
+        "position": {
+          "x": 55.5,
+          "y": 101.5
+        }
+      },
+      {
+        "entity_number": 11,
+        "name": "stone-wall",
+        "position": {
+          "x": 55.5,
+          "y": 100.5
+        }
+      },
+      {
+        "entity_number": 12,
+        "name": "gun-turret",
+        "position": {
+          "x": 54,
+          "y": 101
+        }
+      },
+      {
+        "entity_number": 13,
+        "name": "stone-wall",
+        "position": {
+          "x": 50.5,
+          "y": 102.5
+        }
+      },
+      {
+        "entity_number": 14,
+        "name": "stone-wall",
+        "position": {
+          "x": 50.5,
+          "y": 103.5
+        }
+      },
+      {
+        "entity_number": 15,
+        "name": "gun-turret",
+        "position": {
+          "x": 52,
+          "y": 103
+        }
+      },
+      {
+        "entity_number": 16,
+        "name": "stone-wall",
+        "position": {
+          "x": 55.5,
+          "y": 103.5
+        }
+      },
+      {
+        "entity_number": 17,
+        "name": "stone-wall",
+        "position": {
+          "x": 55.5,
+          "y": 102.5
+        }
+      },
+      {
+        "entity_number": 18,
+        "name": "gun-turret",
+        "position": {
+          "x": 54,
+          "y": 103
+        }
+      },
+      {
+        "entity_number": 19,
+        "name": "stone-wall",
+        "position": {
+          "x": 50.5,
+          "y": 104.5
+        }
+      },
+      {
+        "entity_number": 20,
+        "name": "stone-wall",
+        "position": {
+          "x": 51.5,
+          "y": 104.5
+        }
+      },
+      {
+        "entity_number": 21,
+        "name": "stone-wall",
+        "position": {
+          "x": 52.5,
+          "y": 104.5
+        }
+      },
+      {
+        "entity_number": 22,
+        "name": "stone-wall",
+        "position": {
+          "x": 53.5,
+          "y": 104.5
+        }
+      },
+      {
+        "entity_number": 23,
+        "name": "stone-wall",
+        "position": {
+          "x": 54.5,
+          "y": 104.5
+        }
+      },
+      {
+        "entity_number": 24,
+        "name": "stone-wall",
+        "position": {
+          "x": 55.5,
+          "y": 104.5
+        }
+      }
+    ],
+    "icons": [
+      {
+        "index": 1,
+        "signal": {
+          "name": "gun-turret"
+        }
+      },
+      {
+        "index": 2,
+        "signal": {
+          "name": "stone-wall"
+        }
+      }
+    ],
+    "version": 562954249306113
+  },
+  "index": 12
+}

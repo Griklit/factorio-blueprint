@@ -1,0 +1,33 @@
+{
+  "upgrade_planner": {
+    "label": "置入 品质插件1",
+    "item": "upgrade-planner",
+    "settings": {
+      "icons": [
+        {
+          "index": 1,
+          "signal": {
+            "name": "quality-module"
+          }
+        }
+      ],
+      "mappers": [
+        {
+          "from": {
+            "comparator": "=",
+            "name": "empty-module-slot",
+            "quality": "normal",
+            "type": "item"
+          },
+          "index": 0,
+          "to": {
+            "name": "quality-module",
+            "type": "item"
+          }
+        }
+      ]
+    },
+    "version": 562954249306113
+  },
+  "index": 27
+}

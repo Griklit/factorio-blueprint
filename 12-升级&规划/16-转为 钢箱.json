@@ -1,0 +1,103 @@
+{
+  "upgrade_planner": {
+    "label": "转为 钢箱",
+    "item": "upgrade-planner",
+    "settings": {
+      "mappers": [
+        {
+          "from": {
+            "comparator": "=",
+            "name": "wooden-chest",
+            "quality": "normal",
+            "type": "entity"
+          },
+          "index": 0,
+          "to": {
+            "name": "steel-chest",
+            "type": "entity"
+          }
+        },
+        {
+          "from": {
+            "comparator": "=",
+            "name": "passive-provider-chest",
+            "quality": "normal",
+            "type": "entity"
+          },
+          "index": 1,
+          "to": {
+            "name": "steel-chest",
+            "type": "entity"
+          }
+        },
+        {
+          "from": {
+            "comparator": "=",
+            "name": "active-provider-chest",
+            "quality": "normal",
+            "type": "entity"
+          },
+          "index": 2,
+          "to": {
+            "name": "steel-chest",
+            "type": "entity"
+          }
+        },
+        {
+          "from": {
+            "comparator": "=",
+            "name": "requester-chest",
+            "quality": "normal",
+            "type": "entity"
+          },
+          "index": 3,
+          "to": {
+            "name": "steel-chest",
+            "type": "entity"
+          }
+        },
+        {
+          "from": {
+            "comparator": "=",
+            "name": "iron-chest",
+            "quality": "normal",
+            "type": "entity"
+          },
+          "index": 4,
+          "to": {
+            "name": "steel-chest",
+            "type": "entity"
+          }
+        },
+        {
+          "from": {
+            "comparator": "=",
+            "name": "storage-chest",
+            "quality": "normal",
+            "type": "entity"
+          },
+          "index": 5,
+          "to": {
+            "name": "steel-chest",
+            "type": "entity"
+          }
+        },
+        {
+          "from": {
+            "comparator": "=",
+            "name": "buffer-chest",
+            "quality": "normal",
+            "type": "entity"
+          },
+          "index": 6,
+          "to": {
+            "name": "steel-chest",
+            "type": "entity"
+          }
+        }
+      ]
+    },
+    "version": 562954249306113
+  },
+  "index": 16
+}

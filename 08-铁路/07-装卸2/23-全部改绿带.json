@@ -1,0 +1,137 @@
+{
+  "upgrade_planner": {
+    "label": "全部改绿带",
+    "item": "upgrade-planner",
+    "settings": {
+      "icons": [
+        {
+          "index": 1,
+          "signal": {
+            "name": "turbo-transport-belt"
+          }
+        }
+      ],
+      "mappers": [
+        {
+          "from": {
+            "comparator": "=",
+            "name": "transport-belt",
+            "quality": "normal",
+            "type": "entity"
+          },
+          "index": 0,
+          "to": {
+            "name": "turbo-transport-belt",
+            "type": "entity"
+          }
+        },
+        {
+          "from": {
+            "comparator": "=",
+            "name": "splitter",
+            "quality": "normal",
+            "type": "entity"
+          },
+          "index": 1,
+          "to": {
+            "name": "turbo-splitter",
+            "type": "entity"
+          }
+        },
+        {
+          "from": {
+            "comparator": "=",
+            "name": "fast-transport-belt",
+            "quality": "normal",
+            "type": "entity"
+          },
+          "index": 4,
+          "to": {
+            "name": "turbo-transport-belt",
+            "type": "entity"
+          }
+        },
+        {
+          "from": {
+            "comparator": "=",
+            "name": "fast-splitter",
+            "quality": "normal",
+            "type": "entity"
+          },
+          "index": 5,
+          "to": {
+            "name": "turbo-splitter",
+            "type": "entity"
+          }
+        },
+        {
+          "from": {
+            "comparator": "=",
+            "name": "express-transport-belt",
+            "quality": "normal",
+            "type": "entity"
+          },
+          "index": 8,
+          "to": {
+            "name": "turbo-transport-belt",
+            "type": "entity"
+          }
+        },
+        {
+          "from": {
+            "comparator": "=",
+            "name": "express-splitter",
+            "quality": "normal",
+            "type": "entity"
+          },
+          "index": 9,
+          "to": {
+            "name": "turbo-splitter",
+            "type": "entity"
+          }
+        },
+        {
+          "from": {
+            "comparator": "=",
+            "name": "underground-belt",
+            "quality": "normal",
+            "type": "entity"
+          },
+          "index": 12,
+          "to": {
+            "name": "turbo-underground-belt",
+            "type": "entity"
+          }
+        },
+        {
+          "from": {
+            "comparator": "=",
+            "name": "fast-underground-belt",
+            "quality": "normal",
+            "type": "entity"
+          },
+          "index": 16,
+          "to": {
+            "name": "turbo-underground-belt",
+            "type": "entity"
+          }
+        },
+        {
+          "from": {
+            "comparator": "=",
+            "name": "express-underground-belt",
+            "quality": "normal",
+            "type": "entity"
+          },
+          "index": 20,
+          "to": {
+            "name": "turbo-underground-belt",
+            "type": "entity"
+          }
+        }
+      ]
+    },
+    "version": 562954249306113
+  },
+  "index": 23
+}

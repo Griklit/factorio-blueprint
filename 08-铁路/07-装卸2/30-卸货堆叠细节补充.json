@@ -1,0 +1,34 @@
+{
+  "blueprint": {
+    "item": "blueprint",
+    "label": "卸货堆叠细节补充",
+    "description": "4绿爪对红带：传送带下游设置8，上游设置6；\n4绿爪对蓝带：均设置7；\n4绿爪对绿带：均设置10；\n4白爪对蓝带：",
+    "entities": [
+      {
+        "color": {
+          "a": 1,
+          "b": 0.75,
+          "g": 1,
+          "r": 1
+        },
+        "entity_number": 1,
+        "name": "small-lamp",
+        "position": {
+          "x": 318.5,
+          "y": -321.5
+        }
+      }
+    ],
+    "icons": [
+      {
+        "index": 1,
+        "signal": {
+          "name": "signal-star",
+          "type": "virtual"
+        }
+      }
+    ],
+    "version": 562954249306113
+  },
+  "index": 30
+}

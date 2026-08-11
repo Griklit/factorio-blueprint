@@ -1,0 +1,28 @@
+{
+  "blueprint": {
+    "item": "blueprint",
+    "label": "更多关于全流量均分器(TU)的解法",
+    "description": "参见：\nhttps://www.reddit.com/r/factorio/comments/u4nwzj/33_tu_balancer_and_new_construction_method/\nhttps://www.reddit.com/r/factorio/comments/v20w30/new_throughput_unlimited_balancers_details_in/\n",
+    "entities": [
+      {
+        "direction": 4,
+        "entity_number": 1,
+        "name": "express-splitter",
+        "position": {
+          "x": 504.5,
+          "y": 301
+        }
+      }
+    ],
+    "icons": [
+      {
+        "index": 1,
+        "signal": {
+          "name": "express-splitter"
+        }
+      }
+    ],
+    "version": 562954249306113
+  },
+  "index": 12
+}

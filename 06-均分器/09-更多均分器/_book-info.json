@@ -1,0 +1,23 @@
+{
+  "active_index": 9,
+  "blueprints": [],
+  "icons": [
+    {
+      "index": 1,
+      "signal": {
+        "name": "signal-X",
+        "type": "virtual"
+      }
+    },
+    {
+      "index": 2,
+      "signal": {
+        "name": "signal-Y",
+        "type": "virtual"
+      }
+    }
+  ],
+  "item": "blueprint-book",
+  "label": "更多均分器",
+  "version": 562954249306113
+}

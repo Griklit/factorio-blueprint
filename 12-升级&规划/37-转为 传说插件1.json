@@ -1,0 +1,185 @@
+{
+  "upgrade_planner": {
+    "label": "转为 传说插件1",
+    "item": "upgrade-planner",
+    "settings": {
+      "icons": [
+        {
+          "index": 1,
+          "signal": {
+            "name": "speed-module",
+            "quality": "legendary"
+          }
+        },
+        {
+          "index": 2,
+          "signal": {
+            "name": "efficiency-module",
+            "quality": "legendary"
+          }
+        },
+        {
+          "index": 3,
+          "signal": {
+            "name": "productivity-module",
+            "quality": "legendary"
+          }
+        },
+        {
+          "index": 4,
+          "signal": {
+            "name": "quality-module",
+            "quality": "legendary"
+          }
+        }
+      ],
+      "mappers": [
+        {
+          "from": {
+            "name": "productivity-module",
+            "type": "item"
+          },
+          "index": 0,
+          "to": {
+            "name": "productivity-module",
+            "quality": "legendary",
+            "type": "item"
+          }
+        },
+        {
+          "from": {
+            "name": "speed-module",
+            "type": "item"
+          },
+          "index": 1,
+          "to": {
+            "name": "speed-module",
+            "quality": "legendary",
+            "type": "item"
+          }
+        },
+        {
+          "from": {
+            "name": "efficiency-module",
+            "type": "item"
+          },
+          "index": 2,
+          "to": {
+            "name": "efficiency-module",
+            "quality": "legendary",
+            "type": "item"
+          }
+        },
+        {
+          "from": {
+            "name": "quality-module",
+            "type": "item"
+          },
+          "index": 3,
+          "to": {
+            "name": "quality-module",
+            "quality": "legendary",
+            "type": "item"
+          }
+        },
+        {
+          "from": {
+            "name": "productivity-module-2",
+            "type": "item"
+          },
+          "index": 4,
+          "to": {
+            "name": "productivity-module",
+            "quality": "legendary",
+            "type": "item"
+          }
+        },
+        {
+          "from": {
+            "name": "speed-module-2",
+            "type": "item"
+          },
+          "index": 5,
+          "to": {
+            "name": "speed-module",
+            "quality": "legendary",
+            "type": "item"
+          }
+        },
+        {
+          "from": {
+            "name": "efficiency-module-2",
+            "type": "item"
+          },
+          "index": 6,
+          "to": {
+            "name": "efficiency-module",
+            "quality": "legendary",
+            "type": "item"
+          }
+        },
+        {
+          "from": {
+            "name": "quality-module-2",
+            "type": "item"
+          },
+          "index": 7,
+          "to": {
+            "name": "quality-module",
+            "quality": "legendary",
+            "type": "item"
+          }
+        },
+        {
+          "from": {
+            "name": "productivity-module-3",
+            "type": "item"
+          },
+          "index": 8,
+          "to": {
+            "name": "productivity-module",
+            "quality": "legendary",
+            "type": "item"
+          }
+        },
+        {
+          "from": {
+            "name": "speed-module-3",
+            "type": "item"
+          },
+          "index": 9,
+          "to": {
+            "name": "speed-module",
+            "quality": "legendary",
+            "type": "item"
+          }
+        },
+        {
+          "from": {
+            "name": "efficiency-module-3",
+            "type": "item"
+          },
+          "index": 10,
+          "to": {
+            "name": "efficiency-module",
+            "quality": "legendary",
+            "type": "item"
+          }
+        },
+        {
+          "from": {
+            "name": "quality-module-3",
+            "type": "item"
+          },
+          "index": 11,
+          "to": {
+            "name": "quality-module",
+            "type": "item"
+          }
+        }
+      ]
+    },
+    "version": 562954249306113
+  },
+  "index": 37
+}

@@ -1,0 +1,16 @@
+{
+  "active_index": 12,
+  "blueprints": [],
+  "description": "v260806\n--by Sequence[7]",
+  "icons": [
+    {
+      "index": 1,
+      "signal": {
+        "name": "rail"
+      }
+    }
+  ],
+  "item": "blueprint-book",
+  "label": "铁路",
+  "version": 562954249306113
+}

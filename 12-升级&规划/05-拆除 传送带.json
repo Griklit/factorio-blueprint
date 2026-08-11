@@ -1,0 +1,111 @@
+{
+  "deconstruction_planner": {
+    "label": "拆除 传送带",
+    "item": "deconstruction-planner",
+    "settings": {
+      "entity_filters": [
+        {
+          "comparator": "=",
+          "index": 0,
+          "name": "transport-belt",
+          "quality": "normal"
+        },
+        {
+          "comparator": "=",
+          "index": 1,
+          "name": "fast-transport-belt",
+          "quality": "normal"
+        },
+        {
+          "comparator": "=",
+          "index": 2,
+          "name": "express-transport-belt",
+          "quality": "normal"
+        },
+        {
+          "comparator": "=",
+          "index": 3,
+          "name": "turbo-transport-belt",
+          "quality": "normal"
+        },
+        {
+          "comparator": "=",
+          "index": 10,
+          "name": "underground-belt",
+          "quality": "normal"
+        },
+        {
+          "comparator": "=",
+          "index": 11,
+          "name": "fast-underground-belt",
+          "quality": "normal"
+        },
+        {
+          "comparator": "=",
+          "index": 12,
+          "name": "express-underground-belt",
+          "quality": "normal"
+        },
+        {
+          "comparator": "=",
+          "index": 13,
+          "name": "turbo-underground-belt",
+          "quality": "normal"
+        },
+        {
+          "comparator": "=",
+          "index": 20,
+          "name": "splitter",
+          "quality": "normal"
+        },
+        {
+          "comparator": "=",
+          "index": 21,
+          "name": "fast-splitter",
+          "quality": "normal"
+        },
+        {
+          "comparator": "=",
+          "index": 22,
+          "name": "express-splitter",
+          "quality": "normal"
+        },
+        {
+          "comparator": "=",
+          "index": 23,
+          "name": "turbo-splitter",
+          "quality": "normal"
+        }
+      ],
+      "icons": [
+        {
+          "index": 1,
+          "signal": {
+            "name": "transport-belt"
+          }
+        },
+        {
+          "index": 2,
+          "signal": {
+            "name": "fast-transport-belt"
+          }
+        },
+        {
+          "index": 3,
+          "signal": {
+            "name": "express-transport-belt"
+          }
+        },
+        {
+          "index": 4,
+          "signal": {
+            "name": "turbo-transport-belt"
+          }
+        }
+      ],
+      "tile_selection_mode": 2
+    },
+    "version": 562954249306113
+  },
+  "index": 5
+}

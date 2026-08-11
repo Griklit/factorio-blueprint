@@ -1,0 +1,216 @@
+{
+  "blueprint": {
+    "item": "blueprint",
+    "entities": [
+      {
+        "direction": 4,
+        "entity_number": 1,
+        "name": "electric-mining-drill",
+        "position": {
+          "x": 1.5,
+          "y": 2.5
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 2,
+        "name": "electric-mining-drill",
+        "position": {
+          "x": 1.5,
+          "y": 5.5
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 3,
+        "name": "electric-mining-drill",
+        "position": {
+          "x": 1.5,
+          "y": 8.5
+        }
+      },
+      {
+        "entity_number": 4,
+        "name": "small-electric-pole",
+        "position": {
+          "x": 2.5,
+          "y": 0.5
+        }
+      },
+      {
+        "entity_number": 5,
+        "name": "small-electric-pole",
+        "position": {
+          "x": 2.5,
+          "y": 10.5
+        }
+      },
+      {
+        "entity_number": 6,
+        "name": "transport-belt",
+        "position": {
+          "x": 3.5,
+          "y": 0.5
+        }
+      },
+      {
+        "entity_number": 7,
+        "name": "transport-belt",
+        "position": {
+          "x": 3.5,
+          "y": 1.5
+        }
+      },
+      {
+        "entity_number": 8,
+        "name": "transport-belt",
+        "position": {
+          "x": 3.5,
+          "y": 2.5
+        }
+      },
+      {
+        "entity_number": 9,
+        "name": "transport-belt",
+        "position": {
+          "x": 3.5,
+          "y": 3.5
+        }
+      },
+      {
+        "entity_number": 10,
+        "name": "transport-belt",
+        "position": {
+          "x": 3.5,
+          "y": 4.5
+        }
+      },
+      {
+        "entity_number": 11,
+        "name": "transport-belt",
+        "position": {
+          "x": 3.5,
+          "y": 5.5
+        }
+      },
+      {
+        "entity_number": 12,
+        "name": "transport-belt",
+        "position": {
+          "x": 3.5,
+          "y": 6.5
+        }
+      },
+      {
+        "entity_number": 13,
+        "name": "transport-belt",
+        "position": {
+          "x": 3.5,
+          "y": 7.5
+        }
+      },
+      {
+        "entity_number": 14,
+        "name": "transport-belt",
+        "position": {
+          "x": 3.5,
+          "y": 8.5
+        }
+      },
+      {
+        "entity_number": 15,
+        "name": "transport-belt",
+        "position": {
+          "x": 3.5,
+          "y": 9.5
+        }
+      },
+      {
+        "entity_number": 16,
+        "name": "transport-belt",
+        "position": {
+          "x": 3.5,
+          "y": 10.5
+        }
+      },
+      {
+        "entity_number": 17,
+        "name": "small-electric-pole",
+        "position": {
+          "x": 4.5,
+          "y": 5.5
+        }
+      },
+      {
+        "direction": 12,
+        "entity_number": 18,
+        "name": "electric-mining-drill",
+        "position": {
+          "x": 5.5,
+          "y": 0.5
+        }
+      },
+      {
+        "direction": 12,
+        "entity_number": 19,
+        "name": "electric-mining-drill",
+        "position": {
+          "x": 5.5,
+          "y": 3.5
+        }
+      },
+      {
+        "direction": 12,
+        "entity_number": 20,
+        "name": "electric-mining-drill",
+        "position": {
+          "x": 5.5,
+          "y": 7.5
+        }
+      },
+      {
+        "direction": 12,
+        "entity_number": 21,
+        "name": "electric-mining-drill",
+        "position": {
+          "x": 5.5,
+          "y": 10.5
+        }
+      }
+    ],
+    "icons": [
+      {
+        "index": 1,
+        "signal": {
+          "name": "electric-mining-drill"
+        }
+      },
+      {
+        "index": 2,
+        "signal": {
+          "name": "small-electric-pole"
+        }
+      }
+    ],
+    "snap-to-grid": {
+      "x": 7,
+      "y": 10
+    },
+    "version": 562954249306113,
+    "wires": [
+      [
+        4,
+        5,
+        17,
+        5
+      ],
+      [
+        5,
+        5,
+        17,
+        5
+      ]
+    ]
+  },
+  "index": 0
+}

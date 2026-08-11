@@ -1,0 +1,21 @@
+{
+  "deconstruction_planner": {
+    "label": "清理 环境",
+    "item": "deconstruction-planner",
+    "settings": {
+      "icons": [
+        {
+          "index": 1,
+          "signal": {
+            "name": "big-sand-rock",
+            "type": "entity"
+          }
+        }
+      ],
+      "tile_selection_mode": 2,
+      "trees_and_rocks_only": true
+    },
+    "version": 562954249306113
+  },
+  "index": 42
+}

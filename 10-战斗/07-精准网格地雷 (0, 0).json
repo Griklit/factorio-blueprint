@@ -1,0 +1,32 @@
+{
+  "blueprint": {
+    "item": "blueprint",
+    "label": "精准网格地雷 (0, 0)",
+    "description": "坐标(0,0)的精准网格地雷",
+    "absolute-snapping": true,
+    "entities": [
+      {
+        "entity_number": 1,
+        "name": "land-mine",
+        "position": {
+          "x": 1,
+          "y": 1
+        }
+      }
+    ],
+    "icons": [
+      {
+        "index": 1,
+        "signal": {
+          "name": "land-mine"
+        }
+      }
+    ],
+    "snap-to-grid": {
+      "x": 1,
+      "y": 1
+    },
+    "version": 562954249306113
+  },
+  "index": 7
+}

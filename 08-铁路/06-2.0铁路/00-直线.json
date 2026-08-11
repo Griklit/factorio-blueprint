@@ -1,0 +1,398 @@
+{
+  "blueprint": {
+    "item": "blueprint",
+    "label": "直线",
+    "absolute-snapping": true,
+    "entities": [
+      {
+        "direction": 4,
+        "entity_number": 1,
+        "name": "straight-rail",
+        "position": {
+          "x": 1,
+          "y": 13
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 2,
+        "name": "straight-rail",
+        "position": {
+          "x": 3,
+          "y": 13
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 3,
+        "name": "straight-rail",
+        "position": {
+          "x": 5,
+          "y": 13
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 4,
+        "name": "straight-rail",
+        "position": {
+          "x": 7,
+          "y": 13
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 5,
+        "name": "straight-rail",
+        "position": {
+          "x": 9,
+          "y": 13
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 6,
+        "name": "straight-rail",
+        "position": {
+          "x": 11,
+          "y": 13
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 7,
+        "name": "straight-rail",
+        "position": {
+          "x": 13,
+          "y": 13
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 8,
+        "name": "straight-rail",
+        "position": {
+          "x": 15,
+          "y": 13
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 9,
+        "name": "straight-rail",
+        "position": {
+          "x": 17,
+          "y": 13
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 10,
+        "name": "straight-rail",
+        "position": {
+          "x": 19,
+          "y": 13
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 11,
+        "name": "straight-rail",
+        "position": {
+          "x": 21,
+          "y": 13
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 12,
+        "name": "straight-rail",
+        "position": {
+          "x": 23,
+          "y": 13
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 13,
+        "name": "straight-rail",
+        "position": {
+          "x": 25,
+          "y": 13
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 14,
+        "name": "straight-rail",
+        "position": {
+          "x": 27,
+          "y": 13
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 15,
+        "name": "straight-rail",
+        "position": {
+          "x": 29,
+          "y": 13
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 16,
+        "name": "straight-rail",
+        "position": {
+          "x": 31,
+          "y": 13
+        }
+      },
+      {
+        "direction": 12,
+        "entity_number": 17,
+        "name": "rail-signal",
+        "position": {
+          "x": 15.5,
+          "y": 14.5
+        }
+      },
+      {
+        "entity_number": 18,
+        "name": "big-electric-pole",
+        "position": {
+          "x": -16,
+          "y": 16
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 19,
+        "name": "rail-signal",
+        "position": {
+          "x": 16.5,
+          "y": 17.5
+        }
+      },
+      {
+        "entity_number": 20,
+        "name": "big-electric-pole",
+        "position": {
+          "x": 16,
+          "y": 16
+        }
+      },
+      {
+        "entity_number": 21,
+        "name": "big-electric-pole",
+        "position": {
+          "x": 48,
+          "y": 16
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 22,
+        "name": "straight-rail",
+        "position": {
+          "x": 1,
+          "y": 19
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 23,
+        "name": "straight-rail",
+        "position": {
+          "x": 3,
+          "y": 19
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 24,
+        "name": "straight-rail",
+        "position": {
+          "x": 5,
+          "y": 19
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 25,
+        "name": "straight-rail",
+        "position": {
+          "x": 7,
+          "y": 19
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 26,
+        "name": "straight-rail",
+        "position": {
+          "x": 9,
+          "y": 19
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 27,
+        "name": "straight-rail",
+        "position": {
+          "x": 11,
+          "y": 19
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 28,
+        "name": "straight-rail",
+        "position": {
+          "x": 13,
+          "y": 19
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 29,
+        "name": "straight-rail",
+        "position": {
+          "x": 15,
+          "y": 19
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 30,
+        "name": "straight-rail",
+        "position": {
+          "x": 17,
+          "y": 19
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 31,
+        "name": "straight-rail",
+        "position": {
+          "x": 19,
+          "y": 19
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 32,
+        "name": "straight-rail",
+        "position": {
+          "x": 21,
+          "y": 19
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 33,
+        "name": "straight-rail",
+        "position": {
+          "x": 23,
+          "y": 19
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 34,
+        "name": "straight-rail",
+        "position": {
+          "x": 25,
+          "y": 19
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 35,
+        "name": "straight-rail",
+        "position": {
+          "x": 27,
+          "y": 19
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 36,
+        "name": "straight-rail",
+        "position": {
+          "x": 29,
+          "y": 19
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 37,
+        "name": "straight-rail",
+        "position": {
+          "x": 31,
+          "y": 19
+        }
+      }
+    ],
+    "icons": [
+      {
+        "index": 1,
+        "signal": {
+          "name": "rail"
+        }
+      },
+      {
+        "index": 2,
+        "signal": {
+          "name": "shape-horizontal",
+          "type": "virtual"
+        }
+      }
+    ],
+    "snap-to-grid": {
+      "x": 32,
+      "y": 32
+    },
+    "version": 562954249306113,
+    "wires": [
+      [
+        18,
+        1,
+        20,
+        1
+      ],
+      [
+        18,
+        2,
+        20,
+        2
+      ],
+      [
+        18,
+        5,
+        20,
+        5
+      ],
+      [
+        20,
+        1,
+        21,
+        1
+      ],
+      [
+        20,
+        2,
+        21,
+        2
+      ],
+      [
+        20,
+        5,
+        21,
+        5
+      ]
+    ]
+  },
+  "index": 0
+}

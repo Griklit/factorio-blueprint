@@ -1,0 +1,185 @@
+{
+  "blueprint": {
+    "item": "blueprint",
+    "label": "堆叠输出超速传送带",
+    "entities": [
+      {
+        "buffer_size": 10000000000,
+        "direction": 4,
+        "entity_number": 1,
+        "name": "electric-energy-interface",
+        "position": {
+          "x": 133,
+          "y": 37
+        }
+      },
+      {
+        "entity_number": 2,
+        "name": "medium-electric-pole",
+        "position": {
+          "x": 133.5,
+          "y": 39.5
+        }
+      },
+      {
+        "entity_number": 3,
+        "infinity_settings": {
+          "filters": [
+            {
+              "count": 100,
+              "index": 1,
+              "mode": "at-least",
+              "name": "parameter-0"
+            }
+          ],
+          "remove_unfiltered_items": false
+        },
+        "name": "infinity-chest",
+        "position": {
+          "x": 134.5,
+          "y": 36.5
+        }
+      },
+      {
+        "entity_number": 4,
+        "name": "stack-inserter",
+        "position": {
+          "x": 134.5,
+          "y": 37.5
+        },
+        "quality": "legendary"
+      },
+      {
+        "direction": 4,
+        "entity_number": 5,
+        "name": "turbo-transport-belt",
+        "position": {
+          "x": 134.5,
+          "y": 38.5
+        }
+      },
+      {
+        "direction": 8,
+        "entity_number": 6,
+        "name": "stack-inserter",
+        "position": {
+          "x": 134.5,
+          "y": 39.5
+        },
+        "quality": "legendary"
+      },
+      {
+        "entity_number": 7,
+        "infinity_settings": {
+          "filters": [
+            {
+              "count": 100,
+              "index": 1,
+              "mode": "at-least",
+              "name": "parameter-0"
+            }
+          ],
+          "remove_unfiltered_items": false
+        },
+        "name": "infinity-chest",
+        "position": {
+          "x": 134.5,
+          "y": 40.5
+        }
+      },
+      {
+        "entity_number": 8,
+        "infinity_settings": {
+          "filters": [
+            {
+              "count": 100,
+              "index": 1,
+              "mode": "at-least",
+              "name": "parameter-0"
+            }
+          ],
+          "remove_unfiltered_items": false
+        },
+        "name": "infinity-chest",
+        "position": {
+          "x": 135.5,
+          "y": 36.5
+        }
+      },
+      {
+        "entity_number": 9,
+        "name": "stack-inserter",
+        "position": {
+          "x": 135.5,
+          "y": 37.5
+        },
+        "quality": "legendary"
+      },
+      {
+        "direction": 4,
+        "entity_number": 10,
+        "name": "turbo-transport-belt",
+        "position": {
+          "x": 135.5,
+          "y": 38.5
+        }
+      },
+      {
+        "direction": 8,
+        "entity_number": 11,
+        "name": "stack-inserter",
+        "position": {
+          "x": 135.5,
+          "y": 39.5
+        },
+        "quality": "legendary"
+      },
+      {
+        "entity_number": 12,
+        "infinity_settings": {
+          "filters": [
+            {
+              "count": 100,
+              "index": 1,
+              "mode": "at-least",
+              "name": "parameter-0"
+            }
+          ],
+          "remove_unfiltered_items": false
+        },
+        "name": "infinity-chest",
+        "position": {
+          "x": 135.5,
+          "y": 40.5
+        }
+      }
+    ],
+    "icons": [
+      {
+        "index": 1,
+        "signal": {
+          "name": "infinity-chest"
+        }
+      },
+      {
+        "index": 2,
+        "signal": {
+          "name": "stack-inserter"
+        }
+      }
+    ],
+    "parameters": [
+      {
+        "id": "parameter-0",
+        "name": "输出",
+        "quality-condition": {
+          "comparator": "=",
+          "quality": "normal"
+        },
+        "type": "id"
+      }
+    ],
+    "version": 562954249306113
+  },
+  "index": 0
+}

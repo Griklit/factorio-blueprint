@@ -1,0 +1,588 @@
+{
+  "blueprint": {
+    "item": "blueprint",
+    "label": "《我们仨》",
+    "description": "抽象玩应凑合凑合用无人机造造得了",
+    "entities": [
+      {
+        "direction": 8,
+        "entity_number": 1,
+        "name": "bulk-inserter",
+        "position": {
+          "x": 171.5,
+          "y": 479.5
+        }
+      },
+      {
+        "entity_number": 2,
+        "name": "requester-chest",
+        "position": {
+          "x": 171.5,
+          "y": 480.5
+        },
+        "request_filters": {
+          "sections": [
+            {
+              "filters": [
+                {
+                  "comparator": "=",
+                  "count": 100,
+                  "import_from": "nauvis",
+                  "index": 1,
+                  "name": "copper-plate",
+                  "quality": "normal"
+                },
+                {
+                  "comparator": "=",
+                  "count": 100,
+                  "import_from": "nauvis",
+                  "index": 2,
+                  "name": "steel-plate",
+                  "quality": "normal"
+                },
+                {
+                  "comparator": "=",
+                  "count": 200,
+                  "import_from": "nauvis",
+                  "index": 3,
+                  "name": "advanced-circuit",
+                  "quality": "normal"
+                },
+                {
+                  "comparator": "=",
+                  "count": 100,
+                  "import_from": "nauvis",
+                  "index": 4,
+                  "name": "concrete",
+                  "quality": "normal"
+                }
+              ],
+              "index": 1
+            }
+          ]
+        }
+      },
+      {
+        "entity_number": 3,
+        "name": "assembling-machine-2",
+        "position": {
+          "x": 172.5,
+          "y": 477.5
+        },
+        "recipe": "nuclear-reactor",
+        "recipe_quality": "normal"
+      },
+      {
+        "control_behavior": {
+          "circuit_condition": {
+            "comparator": "<",
+            "constant": 16,
+            "first_signal": {
+              "name": "nuclear-reactor"
+            }
+          },
+          "circuit_enabled": true
+        },
+        "entity_number": 4,
+        "mirror": true,
+        "name": "inserter",
+        "position": {
+          "x": 172.5,
+          "y": 479.5
+        }
+      },
+      {
+        "control_behavior": {
+          "circuit_condition_enabled": false
+        },
+        "entity_number": 5,
+        "name": "storage-chest",
+        "position": {
+          "x": 172.5,
+          "y": 480.5
+        },
+        "request_filters": {
+          "sections": [
+            {
+              "filters": [
+                {
+                  "comparator": "=",
+                  "count": 0,
+                  "import_from": "nauvis",
+                  "index": 1,
+                  "name": "nuclear-reactor",
+                  "quality": "normal"
+                }
+              ],
+              "index": 1
+            }
+          ]
+        }
+      },
+      {
+        "entity_number": 6,
+        "name": "medium-electric-pole",
+        "position": {
+          "x": 173.5,
+          "y": 480.5
+        }
+      },
+      {
+        "direction": 8,
+        "entity_number": 7,
+        "name": "bulk-inserter",
+        "position": {
+          "x": 174.5,
+          "y": 479.5
+        }
+      },
+      {
+        "entity_number": 8,
+        "name": "requester-chest",
+        "position": {
+          "x": 174.5,
+          "y": 480.5
+        },
+        "request_filters": {
+          "sections": [
+            {
+              "filters": [
+                {
+                  "comparator": "=",
+                  "count": 100,
+                  "import_from": "nauvis",
+                  "index": 1,
+                  "name": "steel-plate",
+                  "quality": "normal"
+                },
+                {
+                  "comparator": "=",
+                  "count": 200,
+                  "import_from": "nauvis",
+                  "index": 2,
+                  "name": "advanced-circuit",
+                  "quality": "normal"
+                },
+                {
+                  "comparator": "=",
+                  "count": 100,
+                  "import_from": "nauvis",
+                  "index": 3,
+                  "name": "concrete",
+                  "quality": "normal"
+                }
+              ],
+              "index": 1
+            }
+          ]
+        }
+      },
+      {
+        "entity_number": 9,
+        "name": "assembling-machine-2",
+        "position": {
+          "x": 175.5,
+          "y": 477.5
+        },
+        "recipe": "centrifuge",
+        "recipe_quality": "normal"
+      },
+      {
+        "control_behavior": {
+          "circuit_condition": {
+            "comparator": "<",
+            "constant": 20,
+            "first_signal": {
+              "name": "centrifuge"
+            }
+          },
+          "circuit_enabled": true
+        },
+        "entity_number": 10,
+        "name": "inserter",
+        "position": {
+          "x": 175.5,
+          "y": 479.5
+        }
+      },
+      {
+        "control_behavior": {
+          "circuit_condition_enabled": false
+        },
+        "entity_number": 11,
+        "name": "storage-chest",
+        "position": {
+          "x": 175.5,
+          "y": 480.5
+        },
+        "request_filters": {
+          "sections": [
+            {
+              "filters": [
+                {
+                  "comparator": "=",
+                  "count": 0,
+                  "import_from": "nauvis",
+                  "index": 1,
+                  "name": "centrifuge",
+                  "quality": "normal"
+                }
+              ],
+              "index": 1
+            }
+          ]
+        }
+      },
+      {
+        "direction": 8,
+        "entity_number": 12,
+        "name": "inserter",
+        "position": {
+          "x": 176.5,
+          "y": 479.5
+        }
+      },
+      {
+        "direction": 12,
+        "entity_number": 13,
+        "name": "transport-belt",
+        "position": {
+          "x": 176.5,
+          "y": 480.5
+        }
+      },
+      {
+        "entity_number": 14,
+        "name": "inserter",
+        "position": {
+          "x": 177.5,
+          "y": 479.5
+        }
+      },
+      {
+        "direction": 12,
+        "entity_number": 15,
+        "name": "transport-belt",
+        "position": {
+          "x": 177.5,
+          "y": 480.5
+        }
+      },
+      {
+        "entity_number": 16,
+        "name": "assembling-machine-2",
+        "position": {
+          "x": 178.5,
+          "y": 477.5
+        },
+        "recipe": "iron-gear-wheel",
+        "recipe_quality": "normal"
+      },
+      {
+        "direction": 8,
+        "entity_number": 17,
+        "mirror": true,
+        "name": "inserter",
+        "position": {
+          "x": 178.5,
+          "y": 479.5
+        }
+      },
+      {
+        "entity_number": 18,
+        "name": "requester-chest",
+        "position": {
+          "x": 178.5,
+          "y": 480.5
+        },
+        "request_filters": {
+          "sections": [
+            {
+              "filters": [
+                {
+                  "comparator": "=",
+                  "count": 100,
+                  "import_from": "nauvis",
+                  "index": 1,
+                  "name": "iron-plate",
+                  "quality": "normal"
+                }
+              ],
+              "index": 1
+            }
+          ]
+        }
+      },
+      {
+        "entity_number": 19,
+        "name": "medium-electric-pole",
+        "position": {
+          "x": 179.5,
+          "y": 479.5
+        }
+      },
+      {
+        "direction": 12,
+        "entity_number": 20,
+        "mirror": true,
+        "name": "inserter",
+        "position": {
+          "x": 179.5,
+          "y": 480.5
+        }
+      },
+      {
+        "direction": 8,
+        "entity_number": 21,
+        "mirror": true,
+        "name": "inserter",
+        "position": {
+          "x": 180.5,
+          "y": 479.5
+        }
+      },
+      {
+        "bar": 1,
+        "entity_number": 22,
+        "name": "steel-chest",
+        "position": {
+          "x": 180.5,
+          "y": 480.5
+        }
+      },
+      {
+        "entity_number": 23,
+        "name": "assembling-machine-2",
+        "position": {
+          "x": 181.5,
+          "y": 477.5
+        },
+        "recipe": "pipe",
+        "recipe_quality": "normal"
+      },
+      {
+        "entity_number": 24,
+        "mirror": true,
+        "name": "inserter",
+        "position": {
+          "x": 181.5,
+          "y": 479.5
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 25,
+        "name": "transport-belt",
+        "position": {
+          "x": 181.5,
+          "y": 480.5
+        }
+      },
+      {
+        "entity_number": 26,
+        "name": "medium-electric-pole",
+        "position": {
+          "x": 182.5,
+          "y": 479.5
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 27,
+        "name": "transport-belt",
+        "position": {
+          "x": 182.5,
+          "y": 480.5
+        }
+      },
+      {
+        "direction": 8,
+        "entity_number": 28,
+        "mirror": true,
+        "name": "inserter",
+        "position": {
+          "x": 183.5,
+          "y": 479.5
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 29,
+        "name": "transport-belt",
+        "position": {
+          "x": 183.5,
+          "y": 480.5
+        }
+      },
+      {
+        "entity_number": 30,
+        "name": "assembling-machine-2",
+        "position": {
+          "x": 184.5,
+          "y": 477.5
+        },
+        "recipe": "rocket-silo",
+        "recipe_quality": "normal"
+      },
+      {
+        "direction": 8,
+        "entity_number": 31,
+        "name": "bulk-inserter",
+        "position": {
+          "x": 184.5,
+          "y": 479.5
+        }
+      },
+      {
+        "entity_number": 32,
+        "name": "requester-chest",
+        "position": {
+          "x": 184.5,
+          "y": 480.5
+        },
+        "request_filters": {
+          "sections": [
+            {
+              "filters": [
+                {
+                  "comparator": "=",
+                  "count": 100,
+                  "import_from": "nauvis",
+                  "index": 1,
+                  "name": "steel-plate",
+                  "quality": "normal"
+                },
+                {
+                  "comparator": "=",
+                  "count": 100,
+                  "import_from": "nauvis",
+                  "index": 2,
+                  "name": "processing-unit",
+                  "quality": "normal"
+                },
+                {
+                  "comparator": "=",
+                  "count": 50,
+                  "import_from": "nauvis",
+                  "index": 3,
+                  "name": "electric-engine-unit",
+                  "quality": "normal"
+                },
+                {
+                  "comparator": "=",
+                  "count": 100,
+                  "import_from": "nauvis",
+                  "index": 4,
+                  "name": "concrete",
+                  "quality": "normal"
+                }
+              ],
+              "index": 1
+            }
+          ]
+        }
+      },
+      {
+        "control_behavior": {
+          "circuit_condition": {
+            "comparator": "<",
+            "constant": 10,
+            "first_signal": {
+              "name": "rocket-silo"
+            }
+          },
+          "circuit_enabled": true
+        },
+        "entity_number": 33,
+        "mirror": true,
+        "name": "inserter",
+        "position": {
+          "x": 185.5,
+          "y": 479.5
+        }
+      },
+      {
+        "control_behavior": {
+          "circuit_condition_enabled": false
+        },
+        "entity_number": 34,
+        "name": "storage-chest",
+        "position": {
+          "x": 185.5,
+          "y": 480.5
+        },
+        "request_filters": {
+          "sections": [
+            {
+              "filters": [
+                {
+                  "comparator": "=",
+                  "count": 0,
+                  "import_from": "nauvis",
+                  "index": 1,
+                  "name": "rocket-silo",
+                  "quality": "normal"
+                }
+              ],
+              "index": 1
+            }
+          ]
+        }
+      }
+    ],
+    "icons": [
+      {
+        "index": 1,
+        "signal": {
+          "name": "centrifuge"
+        }
+      },
+      {
+        "index": 2,
+        "signal": {
+          "name": "nuclear-reactor"
+        }
+      },
+      {
+        "index": 3,
+        "signal": {
+          "name": "rocket-silo"
+        }
+      }
+    ],
+    "version": 562954249306113,
+    "wires": [
+      [
+        4,
+        1,
+        5,
+        1
+      ],
+      [
+        6,
+        5,
+        19,
+        5
+      ],
+      [
+        10,
+        1,
+        11,
+        1
+      ],
+      [
+        19,
+        5,
+        26,
+        5
+      ],
+      [
+        33,
+        1,
+        34,
+        1
+      ]
+    ]
+  },
+  "index": 4
+}

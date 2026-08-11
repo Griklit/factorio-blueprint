@@ -1,0 +1,124 @@
+{
+  "blueprint": {
+    "item": "blueprint",
+    "label": "2拖4 货运",
+    "entities": [
+      {
+        "enable_logistics_while_moving": false,
+        "entity_number": 1,
+        "name": "locomotive",
+        "orientation": 0.75,
+        "position": {
+          "x": 85.71875,
+          "y": 65
+        }
+      },
+      {
+        "enable_logistics_while_moving": false,
+        "entity_number": 2,
+        "name": "locomotive",
+        "orientation": 0.75,
+        "position": {
+          "x": 92.71875,
+          "y": 65
+        }
+      },
+      {
+        "enable_logistics_while_moving": false,
+        "entity_number": 3,
+        "inventory": null,
+        "name": "cargo-wagon",
+        "orientation": 0.25,
+        "position": {
+          "x": 99.71875,
+          "y": 65
+        }
+      },
+      {
+        "enable_logistics_while_moving": false,
+        "entity_number": 4,
+        "inventory": null,
+        "name": "cargo-wagon",
+        "orientation": 0.25,
+        "position": {
+          "x": 106.71875,
+          "y": 65
+        }
+      },
+      {
+        "enable_logistics_while_moving": false,
+        "entity_number": 5,
+        "inventory": null,
+        "name": "cargo-wagon",
+        "orientation": 0.25,
+        "position": {
+          "x": 113.71875,
+          "y": 65
+        }
+      },
+      {
+        "enable_logistics_while_moving": false,
+        "entity_number": 6,
+        "inventory": null,
+        "name": "cargo-wagon",
+        "orientation": 0.25,
+        "position": {
+          "x": 120.71875,
+          "y": 65
+        }
+      }
+    ],
+    "icons": [
+      {
+        "index": 1,
+        "signal": {
+          "name": "locomotive"
+        }
+      },
+      {
+        "index": 2,
+        "signal": {
+          "name": "cargo-wagon"
+        }
+      },
+      {
+        "index": 3,
+        "signal": {
+          "name": "cargo-wagon"
+        }
+      }
+    ],
+    "stock_connections": [
+      {
+        "back": 2,
+        "stock": 1
+      },
+      {
+        "back": 3,
+        "front": 1,
+        "stock": 2
+      },
+      {
+        "back": 2,
+        "front": 4,
+        "stock": 3
+      },
+      {
+        "back": 3,
+        "front": 5,
+        "stock": 4
+      },
+      {
+        "back": 4,
+        "front": 6,
+        "stock": 5
+      },
+      {
+        "back": 5,
+        "stock": 6
+      }
+    ],
+    "version": 562954249306113
+  },
+  "index": 6
+}

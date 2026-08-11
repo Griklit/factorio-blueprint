@@ -1,0 +1,128 @@
+{
+  "upgrade_planner": {
+    "label": "转为 集装机械臂",
+    "item": "upgrade-planner",
+    "settings": {
+      "icons": [
+        {
+          "index": 1,
+          "signal": {
+            "name": "bulk-inserter"
+          }
+        }
+      ],
+      "mappers": [
+        {
+          "from": {
+            "comparator": "=",
+            "name": "burner-inserter",
+            "quality": "normal",
+            "type": "entity"
+          },
+          "index": 0,
+          "to": {
+            "name": "bulk-inserter",
+            "type": "entity"
+          }
+        },
+        {
+          "from": {
+            "comparator": "=",
+            "name": "inserter",
+            "quality": "normal",
+            "type": "entity"
+          },
+          "index": 1,
+          "to": {
+            "name": "bulk-inserter",
+            "type": "entity"
+          }
+        },
+        {
+          "from": {
+            "comparator": "=",
+            "name": "fast-inserter",
+            "quality": "normal",
+            "type": "entity"
+          },
+          "index": 2,
+          "to": {
+            "name": "bulk-inserter",
+            "type": "entity"
+          }
+        },
+        {
+          "from": {
+            "comparator": "=",
+            "name": "stack-inserter",
+            "quality": "normal",
+            "type": "entity"
+          },
+          "index": 3,
+          "to": {
+            "name": "bulk-inserter",
+            "type": "entity"
+          }
+        },
+        {
+          "from": {
+            "comparator": "=",
+            "name": "burner-inserter",
+            "quality": "legendary",
+            "type": "entity"
+          },
+          "index": 4,
+          "to": {
+            "name": "bulk-inserter",
+            "quality": "legendary",
+            "type": "entity"
+          }
+        },
+        {
+          "from": {
+            "comparator": "=",
+            "name": "inserter",
+            "quality": "legendary",
+            "type": "entity"
+          },
+          "index": 5,
+          "to": {
+            "name": "bulk-inserter",
+            "quality": "legendary",
+            "type": "entity"
+          }
+        },
+        {
+          "from": {
+            "comparator": "=",
+            "name": "fast-inserter",
+            "quality": "legendary",
+            "type": "entity"
+          },
+          "index": 6,
+          "to": {
+            "name": "bulk-inserter",
+            "quality": "legendary",
+            "type": "entity"
+          }
+        },
+        {
+          "from": {
+            "comparator": "=",
+            "name": "stack-inserter",
+            "quality": "legendary",
+            "type": "entity"
+          },
+          "index": 7,
+          "to": {
+            "name": "bulk-inserter",
+            "quality": "legendary",
+            "type": "entity"
+          }
+        }
+      ]
+    },
+    "version": 562954249306113
+  },
+  "index": 9
+}

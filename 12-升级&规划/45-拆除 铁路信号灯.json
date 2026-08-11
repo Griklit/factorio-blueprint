@@ -1,0 +1,35 @@
+{
+  "deconstruction_planner": {
+    "label": "拆除 铁路信号灯",
+    "item": "deconstruction-planner",
+    "settings": {
+      "entity_filters": [
+        {
+          "index": 0,
+          "name": "rail-signal"
+        },
+        {
+          "index": 1,
+          "name": "rail-chain-signal"
+        }
+      ],
+      "icons": [
+        {
+          "index": 1,
+          "signal": {
+            "name": "rail-signal"
+          }
+        },
+        {
+          "index": 2,
+          "signal": {
+            "name": "rail-chain-signal"
+          }
+        }
+      ],
+      "tile_selection_mode": 2
+    },
+    "version": 562954249306113
+  },
+  "index": 45
+}

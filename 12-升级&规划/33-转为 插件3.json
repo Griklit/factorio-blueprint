@@ -1,0 +1,142 @@
+{
+  "upgrade_planner": {
+    "label": "转为 插件3",
+    "item": "upgrade-planner",
+    "settings": {
+      "icons": [
+        {
+          "index": 1,
+          "signal": {
+            "name": "speed-module-3"
+          }
+        },
+        {
+          "index": 2,
+          "signal": {
+            "name": "efficiency-module-3"
+          }
+        },
+        {
+          "index": 3,
+          "signal": {
+            "name": "productivity-module-3"
+          }
+        },
+        {
+          "index": 4,
+          "signal": {
+            "name": "quality-module-3"
+          }
+        }
+      ],
+      "mappers": [
+        {
+          "from": {
+            "comparator": "=",
+            "name": "speed-module",
+            "quality": "normal",
+            "type": "item"
+          },
+          "index": 0,
+          "to": {
+            "name": "speed-module-3",
+            "type": "item"
+          }
+        },
+        {
+          "from": {
+            "comparator": "=",
+            "name": "efficiency-module",
+            "quality": "normal",
+            "type": "item"
+          },
+          "index": 1,
+          "to": {
+            "name": "efficiency-module-3",
+            "type": "item"
+          }
+        },
+        {
+          "from": {
+            "comparator": "=",
+            "name": "productivity-module",
+            "quality": "normal",
+            "type": "item"
+          },
+          "index": 2,
+          "to": {
+            "name": "productivity-module-3",
+            "type": "item"
+          }
+        },
+        {
+          "from": {
+            "comparator": "=",
+            "name": "quality-module",
+            "quality": "normal",
+            "type": "item"
+          },
+          "index": 3,
+          "to": {
+            "name": "quality-module-3",
+            "type": "item"
+          }
+        },
+        {
+          "from": {
+            "comparator": "=",
+            "name": "speed-module-2",
+            "quality": "normal",
+            "type": "item"
+          },
+          "index": 4,
+          "to": {
+            "name": "speed-module-3",
+            "type": "item"
+          }
+        },
+        {
+          "from": {
+            "comparator": "=",
+            "name": "efficiency-module-2",
+            "quality": "normal",
+            "type": "item"
+          },
+          "index": 5,
+          "to": {
+            "name": "efficiency-module-3",
+            "type": "item"
+          }
+        },
+        {
+          "from": {
+            "comparator": "=",
+            "name": "productivity-module-2",
+            "quality": "normal",
+            "type": "item"
+          },
+          "index": 6,
+          "to": {
+            "name": "productivity-module-3",
+            "type": "item"
+          }
+        },
+        {
+          "from": {
+            "comparator": "=",
+            "name": "quality-module-2",
+            "quality": "normal",
+            "type": "item"
+          },
+          "index": 7,
+          "to": {
+            "name": "quality-module-3",
+            "type": "item"
+          }
+        }
+      ]
+    },
+    "version": 562954249306113
+  },
+  "index": 33
+}

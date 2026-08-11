@@ -1,0 +1,16 @@
+{
+  "active_index": 0,
+  "blueprints": [],
+  "description": "v260807\n--by Sequence[7]",
+  "icons": [
+    {
+      "index": 1,
+      "signal": {
+        "name": "assembling-machine-3"
+      }
+    }
+  ],
+  "item": "blueprint-book",
+  "label": "生产",
+  "version": 562954249306113
+}

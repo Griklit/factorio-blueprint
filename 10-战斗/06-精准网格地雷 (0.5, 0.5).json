@@ -1,0 +1,32 @@
+{
+  "blueprint": {
+    "item": "blueprint",
+    "label": "精准网格地雷 (0.5, 0.5)",
+    "description": "此蓝图的地雷极其精准，坐标一个浮点数都不差\n\n因为是用代码改的",
+    "absolute-snapping": true,
+    "entities": [
+      {
+        "entity_number": 1,
+        "name": "land-mine",
+        "position": {
+          "x": 0.5,
+          "y": 0.5
+        }
+      }
+    ],
+    "icons": [
+      {
+        "index": 1,
+        "signal": {
+          "name": "land-mine"
+        }
+      }
+    ],
+    "snap-to-grid": {
+      "x": 1,
+      "y": 1
+    },
+    "version": 562954249306113
+  },
+  "index": 6
+}

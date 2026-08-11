@@ -1,0 +1,16 @@
+{
+  "active_index": 11,
+  "blueprints": [],
+  "description": "作者：[font=count-font][color=blue]raynquist[/color][/font]\n翻译：[font=count-font][color=blue]白羊星骑士[/color][/font]",
+  "icons": [
+    {
+      "index": 1,
+      "signal": {
+        "name": "express-splitter"
+      }
+    }
+  ],
+  "item": "blueprint-book",
+  "label": "均分器",
+  "version": 562954249306113
+}

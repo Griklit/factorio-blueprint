@@ -1,0 +1,261 @@
+{
+  "blueprint": {
+    "item": "blueprint",
+    "label": "3拖12 液罐",
+    "entities": [
+      {
+        "enable_logistics_while_moving": false,
+        "entity_number": 1,
+        "name": "locomotive",
+        "orientation": 0.75,
+        "position": {
+          "x": 78.71875,
+          "y": 65
+        }
+      },
+      {
+        "enable_logistics_while_moving": false,
+        "entity_number": 2,
+        "name": "locomotive",
+        "orientation": 0.75,
+        "position": {
+          "x": 85.71875,
+          "y": 65
+        }
+      },
+      {
+        "enable_logistics_while_moving": false,
+        "entity_number": 3,
+        "name": "locomotive",
+        "orientation": 0.75,
+        "position": {
+          "x": 92.71875,
+          "y": 65
+        }
+      },
+      {
+        "enable_logistics_while_moving": false,
+        "entity_number": 4,
+        "name": "fluid-wagon",
+        "orientation": 0.25,
+        "position": {
+          "x": 99.71875,
+          "y": 65
+        }
+      },
+      {
+        "enable_logistics_while_moving": false,
+        "entity_number": 5,
+        "name": "fluid-wagon",
+        "orientation": 0.25,
+        "position": {
+          "x": 106.71875,
+          "y": 65
+        }
+      },
+      {
+        "enable_logistics_while_moving": false,
+        "entity_number": 6,
+        "name": "fluid-wagon",
+        "orientation": 0.25,
+        "position": {
+          "x": 113.71875,
+          "y": 65
+        }
+      },
+      {
+        "enable_logistics_while_moving": false,
+        "entity_number": 7,
+        "name": "fluid-wagon",
+        "orientation": 0.25,
+        "position": {
+          "x": 120.71875,
+          "y": 65
+        }
+      },
+      {
+        "enable_logistics_while_moving": false,
+        "entity_number": 8,
+        "name": "fluid-wagon",
+        "orientation": 0.25,
+        "position": {
+          "x": 127.71875,
+          "y": 65
+        }
+      },
+      {
+        "enable_logistics_while_moving": false,
+        "entity_number": 9,
+        "name": "fluid-wagon",
+        "orientation": 0.25,
+        "position": {
+          "x": 134.71875,
+          "y": 65
+        }
+      },
+      {
+        "enable_logistics_while_moving": false,
+        "entity_number": 10,
+        "name": "fluid-wagon",
+        "orientation": 0.25,
+        "position": {
+          "x": 141.71875,
+          "y": 65
+        }
+      },
+      {
+        "enable_logistics_while_moving": false,
+        "entity_number": 11,
+        "name": "fluid-wagon",
+        "orientation": 0.25,
+        "position": {
+          "x": 148.71875,
+          "y": 65
+        }
+      },
+      {
+        "enable_logistics_while_moving": false,
+        "entity_number": 12,
+        "name": "fluid-wagon",
+        "orientation": 0.25,
+        "position": {
+          "x": 155.71875,
+          "y": 65
+        }
+      },
+      {
+        "enable_logistics_while_moving": false,
+        "entity_number": 13,
+        "name": "fluid-wagon",
+        "orientation": 0.25,
+        "position": {
+          "x": 162.71875,
+          "y": 65
+        }
+      },
+      {
+        "enable_logistics_while_moving": false,
+        "entity_number": 14,
+        "name": "fluid-wagon",
+        "orientation": 0.25,
+        "position": {
+          "x": 169.71875,
+          "y": 65
+        }
+      },
+      {
+        "enable_logistics_while_moving": false,
+        "entity_number": 15,
+        "name": "fluid-wagon",
+        "orientation": 0.25,
+        "position": {
+          "x": 176.71875,
+          "y": 65
+        }
+      }
+    ],
+    "icons": [
+      {
+        "index": 1,
+        "signal": {
+          "name": "locomotive"
+        }
+      },
+      {
+        "index": 2,
+        "signal": {
+          "name": "fluid-wagon"
+        }
+      },
+      {
+        "index": 3,
+        "signal": {
+          "name": "fluid-wagon"
+        }
+      },
+      {
+        "index": 4,
+        "signal": {
+          "name": "fluid-wagon"
+        }
+      }
+    ],
+    "stock_connections": [
+      {
+        "back": 3,
+        "front": 1,
+        "stock": 2
+      },
+      {
+        "back": 4,
+        "front": 2,
+        "stock": 3
+      },
+      {
+        "back": 3,
+        "front": 5,
+        "stock": 4
+      },
+      {
+        "back": 4,
+        "front": 6,
+        "stock": 5
+      },
+      {
+        "back": 5,
+        "front": 7,
+        "stock": 6
+      },
+      {
+        "back": 6,
+        "front": 8,
+        "stock": 7
+      },
+      {
+        "back": 2,
+        "stock": 1
+      },
+      {
+        "back": 7,
+        "front": 9,
+        "stock": 8
+      },
+      {
+        "back": 8,
+        "front": 10,
+        "stock": 9
+      },
+      {
+        "back": 9,
+        "front": 11,
+        "stock": 10
+      },
+      {
+        "back": 10,
+        "front": 12,
+        "stock": 11
+      },
+      {
+        "back": 11,
+        "front": 13,
+        "stock": 12
+      },
+      {
+        "back": 12,
+        "front": 14,
+        "stock": 13
+      },
+      {
+        "back": 13,
+        "front": 15,
+        "stock": 14
+      },
+      {
+        "back": 14,
+        "stock": 15
+      }
+    ],
+    "version": 562954249306113
+  },
+  "index": 9
+}

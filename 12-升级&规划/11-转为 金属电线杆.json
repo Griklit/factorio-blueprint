@@ -1,0 +1,89 @@
+{
+  "upgrade_planner": {
+    "label": "转为 金属电线杆",
+    "item": "upgrade-planner",
+    "settings": {
+      "icons": [
+        {
+          "index": 1,
+          "signal": {
+            "name": "medium-electric-pole"
+          }
+        }
+      ],
+      "mappers": [
+        {
+          "from": {
+            "comparator": "=",
+            "name": "small-electric-pole",
+            "quality": "normal",
+            "type": "entity"
+          },
+          "index": 0,
+          "to": {
+            "name": "medium-electric-pole",
+            "type": "entity"
+          }
+        },
+        {
+          "from": {
+            "comparator": "=",
+            "name": "small-electric-pole",
+            "quality": "uncommon",
+            "type": "entity"
+          },
+          "index": 1,
+          "to": {
+            "name": "medium-electric-pole",
+            "quality": "uncommon",
+            "type": "entity"
+          }
+        },
+        {
+          "from": {
+            "comparator": "=",
+            "name": "small-electric-pole",
+            "quality": "rare",
+            "type": "entity"
+          },
+          "index": 2,
+          "to": {
+            "name": "medium-electric-pole",
+            "quality": "rare",
+            "type": "entity"
+          }
+        },
+        {
+          "from": {
+            "comparator": "=",
+            "name": "small-electric-pole",
+            "quality": "epic",
+            "type": "entity"
+          },
+          "index": 3,
+          "to": {
+            "name": "medium-electric-pole",
+            "quality": "epic",
+            "type": "entity"
+          }
+        },
+        {
+          "from": {
+            "comparator": "=",
+            "name": "small-electric-pole",
+            "quality": "legendary",
+            "type": "entity"
+          },
+          "index": 4,
+          "to": {
+            "name": "medium-electric-pole",
+            "quality": "legendary",
+            "type": "entity"
+          }
+        }
+      ]
+    },
+    "version": 562954249306113
+  },
+  "index": 11
+}

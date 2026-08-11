@@ -1,0 +1,664 @@
+{
+  "blueprint": {
+    "item": "blueprint",
+    "label": "6宽10带",
+    "description": "你也可以将其看作3宽5带",
+    "entities": [
+      {
+        "direction": 4,
+        "entity_number": 1,
+        "name": "turbo-underground-belt",
+        "position": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "type": "input"
+      },
+      {
+        "direction": 4,
+        "entity_number": 2,
+        "name": "turbo-transport-belt",
+        "position": {
+          "x": 0.5,
+          "y": 1.5
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 3,
+        "name": "turbo-transport-belt",
+        "position": {
+          "x": 0.5,
+          "y": 2.5
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 4,
+        "name": "turbo-transport-belt",
+        "position": {
+          "x": 0.5,
+          "y": 3.5
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 5,
+        "name": "turbo-transport-belt",
+        "position": {
+          "x": 0.5,
+          "y": 4.5
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 6,
+        "name": "turbo-underground-belt",
+        "position": {
+          "x": 0.5,
+          "y": 5.5
+        },
+        "type": "input"
+      },
+      {
+        "direction": 4,
+        "entity_number": 7,
+        "name": "turbo-transport-belt",
+        "position": {
+          "x": 1.5,
+          "y": 0.5
+        }
+      },
+      {
+        "entity_number": 8,
+        "name": "turbo-transport-belt",
+        "position": {
+          "x": 1.5,
+          "y": 1.5
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 9,
+        "name": "turbo-transport-belt",
+        "position": {
+          "x": 1.5,
+          "y": 2.5
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 10,
+        "name": "turbo-transport-belt",
+        "position": {
+          "x": 1.5,
+          "y": 3.5
+        }
+      },
+      {
+        "direction": 8,
+        "entity_number": 11,
+        "name": "turbo-transport-belt",
+        "position": {
+          "x": 1.5,
+          "y": 4.5
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 12,
+        "name": "turbo-transport-belt",
+        "position": {
+          "x": 1.5,
+          "y": 5.5
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 13,
+        "name": "turbo-transport-belt",
+        "position": {
+          "x": 2.5,
+          "y": 0.5
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 14,
+        "name": "turbo-underground-belt",
+        "position": {
+          "x": 2.5,
+          "y": 1.5
+        },
+        "type": "output"
+      },
+      {
+        "direction": 4,
+        "entity_number": 15,
+        "name": "turbo-transport-belt",
+        "position": {
+          "x": 2.5,
+          "y": 2.5
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 16,
+        "name": "turbo-transport-belt",
+        "position": {
+          "x": 2.5,
+          "y": 3.5
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 17,
+        "name": "turbo-underground-belt",
+        "position": {
+          "x": 2.5,
+          "y": 4.5
+        },
+        "type": "output"
+      },
+      {
+        "direction": 4,
+        "entity_number": 18,
+        "name": "turbo-transport-belt",
+        "position": {
+          "x": 2.5,
+          "y": 5.5
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 19,
+        "name": "turbo-transport-belt",
+        "position": {
+          "x": 3.5,
+          "y": 0.5
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 20,
+        "name": "turbo-underground-belt",
+        "position": {
+          "x": 3.5,
+          "y": 1.5
+        },
+        "type": "input"
+      },
+      {
+        "direction": 4,
+        "entity_number": 21,
+        "name": "turbo-transport-belt",
+        "position": {
+          "x": 3.5,
+          "y": 2.5
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 22,
+        "name": "turbo-transport-belt",
+        "position": {
+          "x": 3.5,
+          "y": 3.5
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 23,
+        "name": "turbo-underground-belt",
+        "position": {
+          "x": 3.5,
+          "y": 4.5
+        },
+        "type": "input"
+      },
+      {
+        "direction": 4,
+        "entity_number": 24,
+        "name": "turbo-transport-belt",
+        "position": {
+          "x": 3.5,
+          "y": 5.5
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 25,
+        "name": "turbo-transport-belt",
+        "position": {
+          "x": 4.5,
+          "y": 0.5
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 26,
+        "name": "turbo-transport-belt",
+        "position": {
+          "x": 4.5,
+          "y": 1.5
+        }
+      },
+      {
+        "entity_number": 27,
+        "name": "turbo-transport-belt",
+        "position": {
+          "x": 4.5,
+          "y": 2.5
+        }
+      },
+      {
+        "direction": 8,
+        "entity_number": 28,
+        "name": "turbo-transport-belt",
+        "position": {
+          "x": 4.5,
+          "y": 3.5
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 29,
+        "name": "turbo-transport-belt",
+        "position": {
+          "x": 4.5,
+          "y": 4.5
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 30,
+        "name": "turbo-transport-belt",
+        "position": {
+          "x": 4.5,
+          "y": 5.5
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 31,
+        "name": "turbo-transport-belt",
+        "position": {
+          "x": 5.5,
+          "y": 0.5
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 32,
+        "name": "turbo-transport-belt",
+        "position": {
+          "x": 5.5,
+          "y": 1.5
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 33,
+        "name": "turbo-underground-belt",
+        "position": {
+          "x": 5.5,
+          "y": 2.5
+        },
+        "type": "output"
+      },
+      {
+        "direction": 4,
+        "entity_number": 34,
+        "name": "turbo-underground-belt",
+        "position": {
+          "x": 5.5,
+          "y": 3.5
+        },
+        "type": "output"
+      },
+      {
+        "direction": 4,
+        "entity_number": 35,
+        "name": "turbo-transport-belt",
+        "position": {
+          "x": 5.5,
+          "y": 4.5
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 36,
+        "name": "turbo-transport-belt",
+        "position": {
+          "x": 5.5,
+          "y": 5.5
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 37,
+        "name": "turbo-transport-belt",
+        "position": {
+          "x": 6.5,
+          "y": 0.5
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 38,
+        "name": "turbo-transport-belt",
+        "position": {
+          "x": 6.5,
+          "y": 1.5
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 39,
+        "name": "turbo-underground-belt",
+        "position": {
+          "x": 6.5,
+          "y": 2.5
+        },
+        "type": "input"
+      },
+      {
+        "direction": 4,
+        "entity_number": 40,
+        "name": "turbo-underground-belt",
+        "position": {
+          "x": 6.5,
+          "y": 3.5
+        },
+        "type": "input"
+      },
+      {
+        "direction": 4,
+        "entity_number": 41,
+        "name": "turbo-transport-belt",
+        "position": {
+          "x": 6.5,
+          "y": 4.5
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 42,
+        "name": "turbo-transport-belt",
+        "position": {
+          "x": 6.5,
+          "y": 5.5
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 43,
+        "name": "turbo-transport-belt",
+        "position": {
+          "x": 7.5,
+          "y": 0.5
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 44,
+        "name": "turbo-transport-belt",
+        "position": {
+          "x": 7.5,
+          "y": 1.5
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 45,
+        "name": "turbo-transport-belt",
+        "position": {
+          "x": 7.5,
+          "y": 4.5
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 46,
+        "name": "turbo-transport-belt",
+        "position": {
+          "x": 7.5,
+          "y": 5.5
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 47,
+        "name": "turbo-transport-belt",
+        "position": {
+          "x": 8.5,
+          "y": 0.5
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 48,
+        "name": "turbo-transport-belt",
+        "position": {
+          "x": 8.5,
+          "y": 1.5
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 49,
+        "name": "turbo-transport-belt",
+        "position": {
+          "x": 8.5,
+          "y": 4.5
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 50,
+        "name": "turbo-transport-belt",
+        "position": {
+          "x": 8.5,
+          "y": 5.5
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 51,
+        "name": "turbo-transport-belt",
+        "position": {
+          "x": 9.5,
+          "y": 0.5
+        }
+      },
+      {
+        "direction": 8,
+        "entity_number": 52,
+        "name": "turbo-transport-belt",
+        "position": {
+          "x": 9.5,
+          "y": 1.5
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 53,
+        "name": "turbo-transport-belt",
+        "position": {
+          "x": 9.5,
+          "y": 2.5
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 54,
+        "name": "turbo-transport-belt",
+        "position": {
+          "x": 9.5,
+          "y": 3.5
+        }
+      },
+      {
+        "entity_number": 55,
+        "name": "turbo-transport-belt",
+        "position": {
+          "x": 9.5,
+          "y": 4.5
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 56,
+        "name": "turbo-transport-belt",
+        "position": {
+          "x": 9.5,
+          "y": 5.5
+        }
+      },
+      {
+        "direction": 8,
+        "entity_number": 57,
+        "name": "turbo-transport-belt",
+        "position": {
+          "x": 10.5,
+          "y": 0.5
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 58,
+        "name": "turbo-transport-belt",
+        "position": {
+          "x": 10.5,
+          "y": 1.5
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 59,
+        "name": "turbo-transport-belt",
+        "position": {
+          "x": 10.5,
+          "y": 2.5
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 60,
+        "name": "turbo-transport-belt",
+        "position": {
+          "x": 10.5,
+          "y": 3.5
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 61,
+        "name": "turbo-transport-belt",
+        "position": {
+          "x": 10.5,
+          "y": 4.5
+        }
+      },
+      {
+        "entity_number": 62,
+        "name": "turbo-transport-belt",
+        "position": {
+          "x": 10.5,
+          "y": 5.5
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 63,
+        "name": "turbo-underground-belt",
+        "position": {
+          "x": 11.5,
+          "y": 0.5
+        },
+        "type": "output"
+      },
+      {
+        "direction": 4,
+        "entity_number": 64,
+        "name": "turbo-transport-belt",
+        "position": {
+          "x": 11.5,
+          "y": 1.5
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 65,
+        "name": "turbo-transport-belt",
+        "position": {
+          "x": 11.5,
+          "y": 2.5
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 66,
+        "name": "turbo-transport-belt",
+        "position": {
+          "x": 11.5,
+          "y": 3.5
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 67,
+        "name": "turbo-transport-belt",
+        "position": {
+          "x": 11.5,
+          "y": 4.5
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 68,
+        "name": "turbo-underground-belt",
+        "position": {
+          "x": 11.5,
+          "y": 5.5
+        },
+        "type": "output"
+      }
+    ],
+    "icons": [
+      {
+        "index": 1,
+        "signal": {
+          "name": "signal-6",
+          "type": "virtual"
+        }
+      },
+      {
+        "index": 2,
+        "signal": {
+          "name": "turbo-transport-belt"
+        }
+      },
+      {
+        "index": 3,
+        "signal": {
+          "name": "signal-1",
+          "type": "virtual"
+        }
+      },
+      {
+        "index": 4,
+        "signal": {
+          "name": "signal-0",
+          "type": "virtual"
+        }
+      }
+    ],
+    "snap-to-grid": {
+      "x": 12,
+      "y": 6
+    },
+    "version": 562954249306113
+  },
+  "index": 1
+}

@@ -1,0 +1,28 @@
+{
+  "blueprint": {
+    "item": "blueprint",
+    "label": "全流量n-m均分器理论(n-m TU balancer)",
+    "description": "n-m TU均分器可以通过遵循与n-n TU平衡器相同的基本理论来制造。\n假设m>n，通常可以通过将普通n-m与普通m-m串联起来制作n-m全流量均分器。\n假设n>m，则将常规n-n与常规n-m串联起来。",
+    "entities": [
+      {
+        "direction": 4,
+        "entity_number": 1,
+        "name": "express-splitter",
+        "position": {
+          "x": 504.5,
+          "y": 301
+        }
+      }
+    ],
+    "icons": [
+      {
+        "index": 1,
+        "signal": {
+          "name": "express-splitter"
+        }
+      }
+    ],
+    "version": 562954249306113
+  },
+  "index": 3
+}

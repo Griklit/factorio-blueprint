@@ -1,0 +1,22 @@
+{
+  "active_index": 24,
+  "blueprints": [],
+  "description": "作者：Gavin1978（清欢）",
+  "icons": [
+    {
+      "index": 1,
+      "signal": {
+        "name": "rail"
+      }
+    },
+    {
+      "index": 2,
+      "signal": {
+        "name": "rail-support"
+      }
+    }
+  ],
+  "item": "blueprint-book",
+  "label": "2.0铁路",
+  "version": 562954249306113
+}

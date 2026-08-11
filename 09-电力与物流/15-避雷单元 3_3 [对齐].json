@@ -1,0 +1,55 @@
+{
+  "blueprint": {
+    "item": "blueprint",
+    "label": "避雷单元 3*3 [对齐]",
+    "absolute-snapping": true,
+    "entities": [
+      {
+        "entity_number": 1,
+        "name": "lightning-collector",
+        "position": {
+          "x": 16,
+          "y": 16
+        }
+      },
+      {
+        "entity_number": 2,
+        "name": "lightning-collector",
+        "position": {
+          "x": 16,
+          "y": 64
+        }
+      },
+      {
+        "entity_number": 3,
+        "name": "lightning-collector",
+        "position": {
+          "x": 64,
+          "y": 16
+        }
+      },
+      {
+        "entity_number": 4,
+        "name": "lightning-collector",
+        "position": {
+          "x": 64,
+          "y": 64
+        }
+      }
+    ],
+    "icons": [
+      {
+        "index": 1,
+        "signal": {
+          "name": "lightning-collector"
+        }
+      }
+    ],
+    "snap-to-grid": {
+      "x": 96,
+      "y": 96
+    },
+    "version": 562954249306113
+  },
+  "index": 15
+}

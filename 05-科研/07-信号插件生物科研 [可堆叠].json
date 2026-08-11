@@ -1,0 +1,1611 @@
+{
+  "blueprint": {
+    "item": "blueprint",
+    "label": "信号插件生物科研 [可堆叠]",
+    "description": "常量箱设置每个瓶子在传送带上的数量\n不是很建议使用",
+    "entities": [
+      {
+        "entity_number": 1,
+        "name": "beacon",
+        "position": {
+          "x": 1.5,
+          "y": 1.5
+        }
+      },
+      {
+        "entity_number": 2,
+        "name": "beacon",
+        "position": {
+          "x": 4.5,
+          "y": 1.5
+        }
+      },
+      {
+        "entity_number": 3,
+        "name": "beacon",
+        "position": {
+          "x": 7.5,
+          "y": 1.5
+        }
+      },
+      {
+        "entity_number": 4,
+        "name": "beacon",
+        "position": {
+          "x": 10.5,
+          "y": 1.5
+        }
+      },
+      {
+        "entity_number": 5,
+        "name": "beacon",
+        "position": {
+          "x": 13.5,
+          "y": 1.5
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 6,
+        "name": "transport-belt",
+        "position": {
+          "x": -0.5,
+          "y": 3.5
+        }
+      },
+      {
+        "entity_number": 7,
+        "name": "splitter",
+        "position": {
+          "x": 0,
+          "y": 4.5
+        }
+      },
+      {
+        "entity_number": 8,
+        "name": "medium-electric-pole",
+        "position": {
+          "x": 1.5,
+          "y": 4.5
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 9,
+        "name": "transport-belt",
+        "position": {
+          "x": 1.5,
+          "y": 3.5
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 10,
+        "name": "transport-belt",
+        "position": {
+          "x": 0.5,
+          "y": 3.5
+        }
+      },
+      {
+        "direction": 8,
+        "entity_number": 11,
+        "filters": [
+          {
+            "comparator": "=",
+            "index": 1,
+            "name": "spoilage",
+            "quality": "normal"
+          }
+        ],
+        "name": "inserter",
+        "position": {
+          "x": 3.5,
+          "y": 4.5
+        },
+        "use_filters": true
+      },
+      {
+        "entity_number": 12,
+        "name": "inserter",
+        "position": {
+          "x": 2.5,
+          "y": 4.5
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 13,
+        "name": "transport-belt",
+        "position": {
+          "x": 3.5,
+          "y": 3.5
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 14,
+        "name": "transport-belt",
+        "position": {
+          "x": 2.5,
+          "y": 3.5
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 15,
+        "name": "transport-belt",
+        "position": {
+          "x": 5.5,
+          "y": 3.5
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 16,
+        "name": "transport-belt",
+        "position": {
+          "x": 4.5,
+          "y": 3.5
+        }
+      },
+      {
+        "entity_number": 17,
+        "name": "medium-electric-pole",
+        "position": {
+          "x": 6.5,
+          "y": 4.5
+        }
+      },
+      {
+        "entity_number": 18,
+        "name": "inserter",
+        "position": {
+          "x": 7.5,
+          "y": 4.5
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 19,
+        "name": "transport-belt",
+        "position": {
+          "x": 7.5,
+          "y": 3.5
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 20,
+        "name": "transport-belt",
+        "position": {
+          "x": 6.5,
+          "y": 3.5
+        }
+      },
+      {
+        "direction": 8,
+        "entity_number": 21,
+        "filters": [
+          {
+            "comparator": "=",
+            "index": 1,
+            "name": "spoilage",
+            "quality": "normal"
+          }
+        ],
+        "name": "inserter",
+        "position": {
+          "x": 8.5,
+          "y": 4.5
+        },
+        "use_filters": true
+      },
+      {
+        "direction": 4,
+        "entity_number": 22,
+        "name": "transport-belt",
+        "position": {
+          "x": 9.5,
+          "y": 3.5
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 23,
+        "name": "transport-belt",
+        "position": {
+          "x": 8.5,
+          "y": 3.5
+        }
+      },
+      {
+        "entity_number": 24,
+        "name": "medium-electric-pole",
+        "position": {
+          "x": 11.5,
+          "y": 4.5
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 25,
+        "name": "transport-belt",
+        "position": {
+          "x": 11.5,
+          "y": 3.5
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 26,
+        "name": "transport-belt",
+        "position": {
+          "x": 10.5,
+          "y": 3.5
+        }
+      },
+      {
+        "direction": 8,
+        "entity_number": 27,
+        "filters": [
+          {
+            "comparator": "=",
+            "index": 1,
+            "name": "spoilage",
+            "quality": "normal"
+          }
+        ],
+        "name": "inserter",
+        "position": {
+          "x": 13.5,
+          "y": 4.5
+        },
+        "use_filters": true
+      },
+      {
+        "entity_number": 28,
+        "name": "inserter",
+        "position": {
+          "x": 12.5,
+          "y": 4.5
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 29,
+        "name": "transport-belt",
+        "position": {
+          "x": 13.5,
+          "y": 3.5
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 30,
+        "name": "transport-belt",
+        "position": {
+          "x": 12.5,
+          "y": 3.5
+        }
+      },
+      {
+        "direction": 8,
+        "entity_number": 31,
+        "name": "transport-belt",
+        "position": {
+          "x": 15.5,
+          "y": 3.5
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 32,
+        "name": "transport-belt",
+        "position": {
+          "x": 14.5,
+          "y": 3.5
+        }
+      },
+      {
+        "direction": 8,
+        "entity_number": 33,
+        "name": "transport-belt",
+        "position": {
+          "x": 15.5,
+          "y": 4.5
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 34,
+        "name": "transport-belt",
+        "position": {
+          "x": -2.5,
+          "y": 6.5
+        }
+      },
+      {
+        "entity_number": 35,
+        "name": "transport-belt",
+        "position": {
+          "x": -0.5,
+          "y": 5.5
+        }
+      },
+      {
+        "control_behavior": {
+          "circuit_condition": {
+            "comparator": "<",
+            "first_signal": {
+              "name": "automation-science-pack"
+            },
+            "second_signal": {
+              "name": "signal-N",
+              "type": "virtual"
+            }
+          },
+          "circuit_contents_read_mode": 0,
+          "circuit_enabled": true,
+          "circuit_read_hand_contents": false
+        },
+        "direction": 4,
+        "entity_number": 36,
+        "name": "transport-belt",
+        "position": {
+          "x": -1.5,
+          "y": 6.5
+        }
+      },
+      {
+        "control_behavior": {
+          "circuit_contents_read_mode": 2,
+          "circuit_read_hand_contents": true
+        },
+        "entity_number": 37,
+        "name": "transport-belt",
+        "position": {
+          "x": -0.5,
+          "y": 6.5
+        }
+      },
+      {
+        "control_behavior": {
+          "sections": {
+            "sections": [
+              {
+                "filters": [
+                  {
+                    "comparator": "=",
+                    "count": 10,
+                    "index": 1,
+                    "name": "signal-N",
+                    "quality": "normal",
+                    "type": "virtual"
+                  }
+                ],
+                "index": 1
+              }
+            ]
+          }
+        },
+        "entity_number": 38,
+        "name": "constant-combinator",
+        "position": {
+          "x": -1.5,
+          "y": 5.5
+        }
+      },
+      {
+        "direction": 8,
+        "entity_number": 39,
+        "name": "transport-belt",
+        "position": {
+          "x": 15.5,
+          "y": 6.5
+        }
+      },
+      {
+        "direction": 8,
+        "entity_number": 40,
+        "name": "transport-belt",
+        "position": {
+          "x": 15.5,
+          "y": 5.5
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 41,
+        "name": "transport-belt",
+        "position": {
+          "x": -2.5,
+          "y": 8.5
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 42,
+        "name": "transport-belt",
+        "position": {
+          "x": -2.5,
+          "y": 7.5
+        }
+      },
+      {
+        "control_behavior": {
+          "circuit_condition": {
+            "comparator": "<",
+            "first_signal": {
+              "name": "military-science-pack"
+            },
+            "second_signal": {
+              "name": "signal-N",
+              "type": "virtual"
+            }
+          },
+          "circuit_contents_read_mode": 0,
+          "circuit_enabled": true,
+          "circuit_read_hand_contents": false
+        },
+        "direction": 4,
+        "entity_number": 43,
+        "name": "transport-belt",
+        "position": {
+          "x": -1.5,
+          "y": 8.5
+        }
+      },
+      {
+        "entity_number": 44,
+        "name": "transport-belt",
+        "position": {
+          "x": -0.5,
+          "y": 8.5
+        }
+      },
+      {
+        "control_behavior": {
+          "circuit_condition": {
+            "comparator": "<",
+            "first_signal": {
+              "name": "logistic-science-pack"
+            },
+            "second_signal": {
+              "name": "signal-N",
+              "type": "virtual"
+            }
+          },
+          "circuit_contents_read_mode": 0,
+          "circuit_enabled": true,
+          "circuit_read_hand_contents": false
+        },
+        "direction": 4,
+        "entity_number": 45,
+        "name": "transport-belt",
+        "position": {
+          "x": -1.5,
+          "y": 7.5
+        }
+      },
+      {
+        "entity_number": 46,
+        "name": "transport-belt",
+        "position": {
+          "x": -0.5,
+          "y": 7.5
+        }
+      },
+      {
+        "entity_number": 47,
+        "name": "biolab",
+        "position": {
+          "x": 2.5,
+          "y": 7.5
+        }
+      },
+      {
+        "entity_number": 48,
+        "name": "biolab",
+        "position": {
+          "x": 7.5,
+          "y": 7.5
+        }
+      },
+      {
+        "entity_number": 49,
+        "name": "biolab",
+        "position": {
+          "x": 12.5,
+          "y": 7.5
+        }
+      },
+      {
+        "direction": 8,
+        "entity_number": 50,
+        "name": "transport-belt",
+        "position": {
+          "x": 15.5,
+          "y": 8.5
+        }
+      },
+      {
+        "direction": 8,
+        "entity_number": 51,
+        "name": "transport-belt",
+        "position": {
+          "x": 15.5,
+          "y": 7.5
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 52,
+        "name": "transport-belt",
+        "position": {
+          "x": -2.5,
+          "y": 10.5
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 53,
+        "name": "transport-belt",
+        "position": {
+          "x": -2.5,
+          "y": 9.5
+        }
+      },
+      {
+        "control_behavior": {
+          "circuit_condition": {
+            "comparator": "<",
+            "first_signal": {
+              "name": "production-science-pack"
+            },
+            "second_signal": {
+              "name": "signal-N",
+              "type": "virtual"
+            }
+          },
+          "circuit_contents_read_mode": 0,
+          "circuit_enabled": true,
+          "circuit_read_hand_contents": false
+        },
+        "direction": 4,
+        "entity_number": 54,
+        "name": "transport-belt",
+        "position": {
+          "x": -1.5,
+          "y": 10.5
+        }
+      },
+      {
+        "entity_number": 55,
+        "name": "transport-belt",
+        "position": {
+          "x": -0.5,
+          "y": 10.5
+        }
+      },
+      {
+        "control_behavior": {
+          "circuit_condition": {
+            "comparator": "<",
+            "first_signal": {
+              "name": "chemical-science-pack"
+            },
+            "second_signal": {
+              "name": "signal-N",
+              "type": "virtual"
+            }
+          },
+          "circuit_contents_read_mode": 0,
+          "circuit_enabled": true,
+          "circuit_read_hand_contents": false
+        },
+        "direction": 4,
+        "entity_number": 56,
+        "name": "transport-belt",
+        "position": {
+          "x": -1.5,
+          "y": 9.5
+        }
+      },
+      {
+        "entity_number": 57,
+        "name": "transport-belt",
+        "position": {
+          "x": -0.5,
+          "y": 9.5
+        }
+      },
+      {
+        "entity_number": 58,
+        "name": "medium-electric-pole",
+        "position": {
+          "x": 1.5,
+          "y": 10.5
+        }
+      },
+      {
+        "entity_number": 59,
+        "name": "medium-electric-pole",
+        "position": {
+          "x": 6.5,
+          "y": 10.5
+        }
+      },
+      {
+        "entity_number": 60,
+        "name": "medium-electric-pole",
+        "position": {
+          "x": 11.5,
+          "y": 10.5
+        }
+      },
+      {
+        "direction": 8,
+        "entity_number": 61,
+        "name": "transport-belt",
+        "position": {
+          "x": 15.5,
+          "y": 10.5
+        }
+      },
+      {
+        "direction": 8,
+        "entity_number": 62,
+        "name": "transport-belt",
+        "position": {
+          "x": 15.5,
+          "y": 9.5
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 63,
+        "name": "transport-belt",
+        "position": {
+          "x": -2.5,
+          "y": 12.5
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 64,
+        "name": "transport-belt",
+        "position": {
+          "x": -2.5,
+          "y": 11.5
+        }
+      },
+      {
+        "control_behavior": {
+          "circuit_condition": {
+            "comparator": "<",
+            "first_signal": {
+              "name": "space-science-pack"
+            },
+            "second_signal": {
+              "name": "signal-N",
+              "type": "virtual"
+            }
+          },
+          "circuit_contents_read_mode": 0,
+          "circuit_enabled": true,
+          "circuit_read_hand_contents": false
+        },
+        "direction": 4,
+        "entity_number": 65,
+        "name": "transport-belt",
+        "position": {
+          "x": -1.5,
+          "y": 12.5
+        }
+      },
+      {
+        "entity_number": 66,
+        "name": "transport-belt",
+        "position": {
+          "x": -0.5,
+          "y": 12.5
+        }
+      },
+      {
+        "control_behavior": {
+          "circuit_condition": {
+            "comparator": "<",
+            "first_signal": {
+              "name": "utility-science-pack"
+            },
+            "second_signal": {
+              "name": "signal-N",
+              "type": "virtual"
+            }
+          },
+          "circuit_contents_read_mode": 0,
+          "circuit_enabled": true,
+          "circuit_read_hand_contents": false
+        },
+        "direction": 4,
+        "entity_number": 67,
+        "name": "transport-belt",
+        "position": {
+          "x": -1.5,
+          "y": 11.5
+        }
+      },
+      {
+        "entity_number": 68,
+        "name": "transport-belt",
+        "position": {
+          "x": -0.5,
+          "y": 11.5
+        }
+      },
+      {
+        "entity_number": 69,
+        "name": "beacon",
+        "position": {
+          "x": 1.5,
+          "y": 12.5
+        }
+      },
+      {
+        "entity_number": 70,
+        "name": "beacon",
+        "position": {
+          "x": 4.5,
+          "y": 12.5
+        }
+      },
+      {
+        "entity_number": 71,
+        "name": "beacon",
+        "position": {
+          "x": 7.5,
+          "y": 12.5
+        }
+      },
+      {
+        "entity_number": 72,
+        "name": "beacon",
+        "position": {
+          "x": 10.5,
+          "y": 12.5
+        }
+      },
+      {
+        "entity_number": 73,
+        "name": "beacon",
+        "position": {
+          "x": 13.5,
+          "y": 12.5
+        }
+      },
+      {
+        "direction": 8,
+        "entity_number": 74,
+        "name": "transport-belt",
+        "position": {
+          "x": 15.5,
+          "y": 12.5
+        }
+      },
+      {
+        "direction": 8,
+        "entity_number": 75,
+        "name": "transport-belt",
+        "position": {
+          "x": 15.5,
+          "y": 11.5
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 76,
+        "name": "transport-belt",
+        "position": {
+          "x": -2.5,
+          "y": 14.5
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 77,
+        "name": "transport-belt",
+        "position": {
+          "x": -2.5,
+          "y": 13.5
+        }
+      },
+      {
+        "control_behavior": {
+          "circuit_condition": {
+            "comparator": "<",
+            "first_signal": {
+              "name": "electromagnetic-science-pack"
+            },
+            "second_signal": {
+              "name": "signal-N",
+              "type": "virtual"
+            }
+          },
+          "circuit_contents_read_mode": 0,
+          "circuit_enabled": true,
+          "circuit_read_hand_contents": false
+        },
+        "direction": 4,
+        "entity_number": 78,
+        "name": "transport-belt",
+        "position": {
+          "x": -1.5,
+          "y": 14.5
+        }
+      },
+      {
+        "entity_number": 79,
+        "name": "transport-belt",
+        "position": {
+          "x": -0.5,
+          "y": 14.5
+        }
+      },
+      {
+        "control_behavior": {
+          "circuit_condition": {
+            "comparator": "<",
+            "first_signal": {
+              "name": "metallurgic-science-pack"
+            },
+            "second_signal": {
+              "name": "signal-N",
+              "type": "virtual"
+            }
+          },
+          "circuit_contents_read_mode": 0,
+          "circuit_enabled": true,
+          "circuit_read_hand_contents": false
+        },
+        "direction": 4,
+        "entity_number": 80,
+        "name": "transport-belt",
+        "position": {
+          "x": -1.5,
+          "y": 13.5
+        }
+      },
+      {
+        "entity_number": 81,
+        "name": "transport-belt",
+        "position": {
+          "x": -0.5,
+          "y": 13.5
+        }
+      },
+      {
+        "direction": 8,
+        "entity_number": 82,
+        "name": "transport-belt",
+        "position": {
+          "x": 15.5,
+          "y": 14.5
+        }
+      },
+      {
+        "direction": 8,
+        "entity_number": 83,
+        "name": "transport-belt",
+        "position": {
+          "x": 15.5,
+          "y": 13.5
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 84,
+        "name": "transport-belt",
+        "position": {
+          "x": -2.5,
+          "y": 16.5
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 85,
+        "name": "transport-belt",
+        "position": {
+          "x": -2.5,
+          "y": 15.5
+        }
+      },
+      {
+        "control_behavior": {
+          "circuit_condition": {
+            "comparator": "<",
+            "first_signal": {
+              "name": "cryogenic-science-pack"
+            },
+            "second_signal": {
+              "name": "signal-N",
+              "type": "virtual"
+            }
+          },
+          "circuit_contents_read_mode": 0,
+          "circuit_enabled": true,
+          "circuit_read_hand_contents": false
+        },
+        "direction": 4,
+        "entity_number": 86,
+        "name": "transport-belt",
+        "position": {
+          "x": -1.5,
+          "y": 16.5
+        }
+      },
+      {
+        "entity_number": 87,
+        "name": "transport-belt",
+        "position": {
+          "x": -0.5,
+          "y": 16.5
+        }
+      },
+      {
+        "control_behavior": {
+          "circuit_condition": {
+            "comparator": "<",
+            "first_signal": {
+              "name": "agricultural-science-pack"
+            },
+            "second_signal": {
+              "name": "signal-N",
+              "type": "virtual"
+            }
+          },
+          "circuit_contents_read_mode": 0,
+          "circuit_enabled": true,
+          "circuit_read_hand_contents": false
+        },
+        "direction": 4,
+        "entity_number": 88,
+        "name": "transport-belt",
+        "position": {
+          "x": -1.5,
+          "y": 15.5
+        }
+      },
+      {
+        "entity_number": 89,
+        "name": "transport-belt",
+        "position": {
+          "x": -0.5,
+          "y": 15.5
+        }
+      },
+      {
+        "entity_number": 90,
+        "name": "biolab",
+        "position": {
+          "x": 2.5,
+          "y": 16.5
+        }
+      },
+      {
+        "entity_number": 91,
+        "name": "biolab",
+        "position": {
+          "x": 7.5,
+          "y": 16.5
+        }
+      },
+      {
+        "entity_number": 92,
+        "name": "biolab",
+        "position": {
+          "x": 12.5,
+          "y": 16.5
+        }
+      },
+      {
+        "direction": 8,
+        "entity_number": 93,
+        "name": "transport-belt",
+        "position": {
+          "x": 15.5,
+          "y": 16.5
+        }
+      },
+      {
+        "direction": 8,
+        "entity_number": 94,
+        "name": "transport-belt",
+        "position": {
+          "x": 15.5,
+          "y": 15.5
+        }
+      },
+      {
+        "direction": 12,
+        "entity_number": 95,
+        "name": "transport-belt",
+        "position": {
+          "x": -2.5,
+          "y": 18.5
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 96,
+        "name": "transport-belt",
+        "position": {
+          "x": -2.5,
+          "y": 17.5
+        }
+      },
+      {
+        "entity_number": 97,
+        "name": "transport-belt",
+        "position": {
+          "x": -0.5,
+          "y": 18.5
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 98,
+        "filters": [
+          {
+            "comparator": "=",
+            "index": 1,
+            "name": "spoilage",
+            "quality": "normal"
+          }
+        ],
+        "name": "inserter",
+        "position": {
+          "x": -1.5,
+          "y": 18.5
+        },
+        "use_filters": true
+      },
+      {
+        "control_behavior": {
+          "circuit_condition": {
+            "comparator": "<",
+            "first_signal": {
+              "name": "promethium-science-pack"
+            },
+            "second_signal": {
+              "name": "signal-N",
+              "type": "virtual"
+            }
+          },
+          "circuit_contents_read_mode": 0,
+          "circuit_enabled": true,
+          "circuit_read_hand_contents": false
+        },
+        "direction": 4,
+        "entity_number": 99,
+        "name": "transport-belt",
+        "position": {
+          "x": -1.5,
+          "y": 17.5
+        }
+      },
+      {
+        "entity_number": 100,
+        "name": "transport-belt",
+        "position": {
+          "x": -0.5,
+          "y": 17.5
+        }
+      },
+      {
+        "direction": 8,
+        "entity_number": 101,
+        "name": "transport-belt",
+        "position": {
+          "x": 15.5,
+          "y": 18.5
+        }
+      },
+      {
+        "direction": 8,
+        "entity_number": 102,
+        "name": "transport-belt",
+        "position": {
+          "x": 15.5,
+          "y": 17.5
+        }
+      },
+      {
+        "entity_number": 103,
+        "name": "transport-belt",
+        "position": {
+          "x": -0.5,
+          "y": 19.5
+        }
+      },
+      {
+        "entity_number": 104,
+        "name": "transport-belt",
+        "position": {
+          "x": -0.5,
+          "y": 20.5
+        }
+      },
+      {
+        "entity_number": 105,
+        "name": "medium-electric-pole",
+        "position": {
+          "x": 1.5,
+          "y": 19.5
+        }
+      },
+      {
+        "direction": 12,
+        "entity_number": 106,
+        "name": "transport-belt",
+        "position": {
+          "x": 0.5,
+          "y": 20.5
+        }
+      },
+      {
+        "direction": 12,
+        "entity_number": 107,
+        "name": "transport-belt",
+        "position": {
+          "x": 1.5,
+          "y": 20.5
+        }
+      },
+      {
+        "entity_number": 108,
+        "filters": [
+          {
+            "comparator": "=",
+            "index": 1,
+            "name": "spoilage",
+            "quality": "normal"
+          }
+        ],
+        "name": "inserter",
+        "position": {
+          "x": 3.5,
+          "y": 19.5
+        },
+        "use_filters": true
+      },
+      {
+        "direction": 8,
+        "entity_number": 109,
+        "name": "inserter",
+        "position": {
+          "x": 2.5,
+          "y": 19.5
+        }
+      },
+      {
+        "direction": 12,
+        "entity_number": 110,
+        "name": "transport-belt",
+        "position": {
+          "x": 2.5,
+          "y": 20.5
+        }
+      },
+      {
+        "direction": 12,
+        "entity_number": 111,
+        "name": "transport-belt",
+        "position": {
+          "x": 3.5,
+          "y": 20.5
+        }
+      },
+      {
+        "direction": 12,
+        "entity_number": 112,
+        "name": "transport-belt",
+        "position": {
+          "x": 4.5,
+          "y": 20.5
+        }
+      },
+      {
+        "direction": 12,
+        "entity_number": 113,
+        "name": "transport-belt",
+        "position": {
+          "x": 5.5,
+          "y": 20.5
+        }
+      },
+      {
+        "entity_number": 114,
+        "name": "medium-electric-pole",
+        "position": {
+          "x": 6.5,
+          "y": 19.5
+        }
+      },
+      {
+        "direction": 8,
+        "entity_number": 115,
+        "name": "inserter",
+        "position": {
+          "x": 7.5,
+          "y": 19.5
+        }
+      },
+      {
+        "direction": 12,
+        "entity_number": 116,
+        "name": "transport-belt",
+        "position": {
+          "x": 6.5,
+          "y": 20.5
+        }
+      },
+      {
+        "direction": 12,
+        "entity_number": 117,
+        "name": "transport-belt",
+        "position": {
+          "x": 7.5,
+          "y": 20.5
+        }
+      },
+      {
+        "entity_number": 118,
+        "filters": [
+          {
+            "comparator": "=",
+            "index": 1,
+            "name": "spoilage",
+            "quality": "normal"
+          }
+        ],
+        "name": "inserter",
+        "position": {
+          "x": 8.5,
+          "y": 19.5
+        },
+        "use_filters": true
+      },
+      {
+        "direction": 12,
+        "entity_number": 119,
+        "name": "transport-belt",
+        "position": {
+          "x": 8.5,
+          "y": 20.5
+        }
+      },
+      {
+        "direction": 12,
+        "entity_number": 120,
+        "name": "transport-belt",
+        "position": {
+          "x": 9.5,
+          "y": 20.5
+        }
+      },
+      {
+        "entity_number": 121,
+        "name": "medium-electric-pole",
+        "position": {
+          "x": 11.5,
+          "y": 19.5
+        }
+      },
+      {
+        "direction": 12,
+        "entity_number": 122,
+        "name": "transport-belt",
+        "position": {
+          "x": 10.5,
+          "y": 20.5
+        }
+      },
+      {
+        "direction": 12,
+        "entity_number": 123,
+        "name": "transport-belt",
+        "position": {
+          "x": 11.5,
+          "y": 20.5
+        }
+      },
+      {
+        "entity_number": 124,
+        "filters": [
+          {
+            "comparator": "=",
+            "index": 1,
+            "name": "spoilage",
+            "quality": "normal"
+          }
+        ],
+        "name": "inserter",
+        "position": {
+          "x": 13.5,
+          "y": 19.5
+        },
+        "use_filters": true
+      },
+      {
+        "direction": 8,
+        "entity_number": 125,
+        "name": "inserter",
+        "position": {
+          "x": 12.5,
+          "y": 19.5
+        }
+      },
+      {
+        "direction": 12,
+        "entity_number": 126,
+        "name": "transport-belt",
+        "position": {
+          "x": 12.5,
+          "y": 20.5
+        }
+      },
+      {
+        "direction": 12,
+        "entity_number": 127,
+        "name": "transport-belt",
+        "position": {
+          "x": 13.5,
+          "y": 20.5
+        }
+      },
+      {
+        "direction": 12,
+        "entity_number": 128,
+        "name": "transport-belt",
+        "position": {
+          "x": 14.5,
+          "y": 20.5
+        }
+      },
+      {
+        "direction": 12,
+        "entity_number": 129,
+        "name": "transport-belt",
+        "position": {
+          "x": 15.5,
+          "y": 20.5
+        }
+      },
+      {
+        "direction": 8,
+        "entity_number": 130,
+        "name": "transport-belt",
+        "position": {
+          "x": 15.5,
+          "y": 19.5
+        }
+      },
+      {
+        "entity_number": 131,
+        "name": "beacon",
+        "position": {
+          "x": 1.5,
+          "y": 22.5
+        }
+      },
+      {
+        "entity_number": 132,
+        "name": "beacon",
+        "position": {
+          "x": 4.5,
+          "y": 22.5
+        }
+      },
+      {
+        "entity_number": 133,
+        "name": "beacon",
+        "position": {
+          "x": 7.5,
+          "y": 22.5
+        }
+      },
+      {
+        "entity_number": 134,
+        "name": "beacon",
+        "position": {
+          "x": 10.5,
+          "y": 22.5
+        }
+      },
+      {
+        "entity_number": 135,
+        "name": "beacon",
+        "position": {
+          "x": 13.5,
+          "y": 22.5
+        }
+      }
+    ],
+    "icons": [
+      {
+        "index": 1,
+        "signal": {
+          "name": "biolab"
+        }
+      },
+      {
+        "index": 2,
+        "signal": {
+          "name": "signal-signal-parameter",
+          "type": "virtual"
+        }
+      },
+      {
+        "index": 3,
+        "signal": {
+          "name": "beacon"
+        }
+      }
+    ],
+    "version": 562954249306113,
+    "wires": [
+      [
+        8,
+        5,
+        17,
+        5
+      ],
+      [
+        8,
+        5,
+        58,
+        5
+      ],
+      [
+        17,
+        5,
+        24,
+        5
+      ],
+      [
+        17,
+        5,
+        59,
+        5
+      ],
+      [
+        24,
+        5,
+        60,
+        5
+      ],
+      [
+        36,
+        1,
+        37,
+        1
+      ],
+      [
+        36,
+        1,
+        38,
+        1
+      ],
+      [
+        36,
+        1,
+        45,
+        1
+      ],
+      [
+        43,
+        1,
+        45,
+        1
+      ],
+      [
+        43,
+        1,
+        56,
+        1
+      ],
+      [
+        54,
+        1,
+        56,
+        1
+      ],
+      [
+        54,
+        1,
+        67,
+        1
+      ],
+      [
+        58,
+        5,
+        59,
+        5
+      ],
+      [
+        58,
+        5,
+        105,
+        5
+      ],
+      [
+        59,
+        5,
+        60,
+        5
+      ],
+      [
+        59,
+        5,
+        114,
+        5
+      ],
+      [
+        60,
+        5,
+        121,
+        5
+      ],
+      [
+        65,
+        1,
+        67,
+        1
+      ],
+      [
+        65,
+        1,
+        80,
+        1
+      ],
+      [
+        78,
+        1,
+        80,
+        1
+      ],
+      [
+        78,
+        1,
+        88,
+        1
+      ],
+      [
+        86,
+        1,
+        88,
+        1
+      ],
+      [
+        86,
+        1,
+        99,
+        1
+      ],
+      [
+        105,
+        5,
+        114,
+        5
+      ],
+      [
+        114,
+        5,
+        121,
+        5
+      ]
+    ]
+  },
+  "index": 7
+}

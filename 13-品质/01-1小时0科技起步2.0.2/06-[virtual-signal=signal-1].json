@@ -1,0 +1,6144 @@
+{
+  "blueprint": {
+    "item": "blueprint",
+    "label": "[virtual-signal=signal-1]",
+    "absolute-snapping": true,
+    "entities": [
+      {
+        "entity_number": 1,
+        "name": "roboport",
+        "position": {
+          "x": -80,
+          "y": -42
+        },
+        "request_filters": {
+          "sections": [
+            {
+              "index": 1
+            }
+          ]
+        }
+      },
+      {
+        "entity_number": 2,
+        "name": "roboport",
+        "position": {
+          "x": -80,
+          "y": -8
+        },
+        "request_filters": {
+          "sections": [
+            {
+              "index": 1
+            }
+          ]
+        }
+      },
+      {
+        "entity_number": 3,
+        "name": "roboport",
+        "position": {
+          "x": -80,
+          "y": 27
+        },
+        "request_filters": {
+          "sections": [
+            {
+              "index": 1
+            }
+          ]
+        }
+      },
+      {
+        "control_behavior": {
+          "index_constant": 0,
+          "operation": "select",
+          "select_max": true
+        },
+        "direction": 4,
+        "entity_number": 4,
+        "name": "selector-combinator",
+        "position": {
+          "x": -78,
+          "y": -5.5
+        }
+      },
+      {
+        "control_behavior": {
+          "index_constant": 0,
+          "operation": "select",
+          "select_max": true
+        },
+        "direction": 4,
+        "entity_number": 5,
+        "name": "selector-combinator",
+        "position": {
+          "x": -78,
+          "y": 24.5
+        }
+      },
+      {
+        "entity_number": 6,
+        "items": [
+          {
+            "id": {
+              "name": "speed-module",
+              "quality": "legendary"
+            },
+            "items": {
+              "in_inventory": [
+                {
+                  "inventory": 1,
+                  "stack": 0
+                }
+              ]
+            }
+          }
+        ],
+        "name": "beacon",
+        "position": {
+          "x": -76.5,
+          "y": 9.5
+        }
+      },
+      {
+        "entity_number": 7,
+        "name": "roboport",
+        "position": {
+          "x": -76,
+          "y": -42
+        },
+        "request_filters": {
+          "sections": [
+            {
+              "index": 1
+            }
+          ]
+        }
+      },
+      {
+        "entity_number": 8,
+        "name": "roboport",
+        "position": {
+          "x": -76,
+          "y": -8
+        },
+        "request_filters": {
+          "sections": [
+            {
+              "index": 1
+            }
+          ]
+        }
+      },
+      {
+        "entity_number": 9,
+        "name": "roboport",
+        "position": {
+          "x": -76,
+          "y": 27
+        },
+        "request_filters": {
+          "sections": [
+            {
+              "index": 1
+            }
+          ]
+        }
+      },
+      {
+        "control_behavior": {
+          "operation": "random",
+          "random_update_interval": 100
+        },
+        "entity_number": 10,
+        "name": "selector-combinator",
+        "position": {
+          "x": -74.5,
+          "y": -29
+        }
+      },
+      {
+        "control_behavior": {
+          "index_constant": 0,
+          "operation": "select",
+          "select_max": true
+        },
+        "entity_number": 11,
+        "name": "selector-combinator",
+        "position": {
+          "x": -74.5,
+          "y": -21
+        }
+      },
+      {
+        "control_behavior": {
+          "index_constant": 0,
+          "operation": "select",
+          "select_max": true
+        },
+        "direction": 8,
+        "entity_number": 12,
+        "name": "selector-combinator",
+        "position": {
+          "x": -73.5,
+          "y": 5
+        }
+      },
+      {
+        "control_behavior": {
+          "index_constant": 0,
+          "operation": "select",
+          "select_max": true
+        },
+        "entity_number": 13,
+        "name": "selector-combinator",
+        "position": {
+          "x": -73.5,
+          "y": 14
+        }
+      },
+      {
+        "control_behavior": {
+          "index_constant": 0,
+          "operation": "select",
+          "select_max": true
+        },
+        "direction": 8,
+        "entity_number": 14,
+        "name": "selector-combinator",
+        "position": {
+          "x": -72.5,
+          "y": 5
+        }
+      },
+      {
+        "control_behavior": {
+          "index_constant": 0,
+          "operation": "select",
+          "select_max": true
+        },
+        "entity_number": 15,
+        "name": "selector-combinator",
+        "position": {
+          "x": -72.5,
+          "y": 14
+        }
+      },
+      {
+        "entity_number": 16,
+        "name": "roboport",
+        "position": {
+          "x": -72,
+          "y": -42
+        },
+        "request_filters": {
+          "sections": [
+            {
+              "index": 1
+            }
+          ]
+        }
+      },
+      {
+        "entity_number": 17,
+        "name": "roboport",
+        "position": {
+          "x": -72,
+          "y": -8
+        },
+        "request_filters": {
+          "sections": [
+            {
+              "index": 1
+            }
+          ]
+        }
+      },
+      {
+        "entity_number": 18,
+        "name": "roboport",
+        "position": {
+          "x": -72,
+          "y": 27
+        },
+        "request_filters": {
+          "sections": [
+            {
+              "index": 1
+            }
+          ]
+        }
+      },
+      {
+        "entity_number": 19,
+        "items": [
+          {
+            "id": {
+              "name": "speed-module",
+              "quality": "legendary"
+            },
+            "items": {
+              "in_inventory": [
+                {
+                  "inventory": 1,
+                  "stack": 0
+                }
+              ]
+            }
+          }
+        ],
+        "name": "beacon",
+        "position": {
+          "x": -69.5,
+          "y": 9.5
+        }
+      },
+      {
+        "entity_number": 20,
+        "name": "roboport",
+        "position": {
+          "x": -68,
+          "y": -42
+        },
+        "request_filters": {
+          "sections": [
+            {
+              "index": 1
+            }
+          ]
+        }
+      },
+      {
+        "entity_number": 21,
+        "name": "roboport",
+        "position": {
+          "x": -68,
+          "y": -8
+        },
+        "request_filters": {
+          "sections": [
+            {
+              "index": 1
+            }
+          ]
+        }
+      },
+      {
+        "control_behavior": {
+          "index_constant": 0,
+          "operation": "select",
+          "select_max": true
+        },
+        "direction": 12,
+        "entity_number": 22,
+        "name": "selector-combinator",
+        "position": {
+          "x": -68,
+          "y": -5.5
+        }
+      },
+      {
+        "control_behavior": {
+          "index_constant": 0,
+          "operation": "select",
+          "select_max": true
+        },
+        "direction": 12,
+        "entity_number": 23,
+        "name": "selector-combinator",
+        "position": {
+          "x": -68,
+          "y": 24.5
+        }
+      },
+      {
+        "entity_number": 24,
+        "name": "roboport",
+        "position": {
+          "x": -68,
+          "y": 27
+        },
+        "request_filters": {
+          "sections": [
+            {
+              "index": 1
+            }
+          ]
+        }
+      },
+      {
+        "entity_number": 25,
+        "name": "roboport",
+        "position": {
+          "x": -64,
+          "y": -42
+        },
+        "request_filters": {
+          "sections": [
+            {
+              "index": 1
+            }
+          ]
+        }
+      },
+      {
+        "entity_number": 26,
+        "name": "roboport",
+        "position": {
+          "x": -64,
+          "y": -8
+        },
+        "request_filters": {
+          "sections": [
+            {
+              "index": 1
+            }
+          ]
+        }
+      },
+      {
+        "entity_number": 27,
+        "name": "roboport",
+        "position": {
+          "x": -60,
+          "y": -42
+        },
+        "request_filters": {
+          "sections": [
+            {
+              "index": 1
+            }
+          ]
+        }
+      },
+      {
+        "entity_number": 28,
+        "name": "roboport",
+        "position": {
+          "x": -60,
+          "y": -8
+        },
+        "request_filters": {
+          "sections": [
+            {
+              "index": 1
+            }
+          ]
+        }
+      },
+      {
+        "control_behavior": {
+          "index_constant": 0,
+          "operation": "select",
+          "select_max": true
+        },
+        "direction": 4,
+        "entity_number": 29,
+        "name": "selector-combinator",
+        "position": {
+          "x": -60,
+          "y": -5.5
+        }
+      },
+      {
+        "control_behavior": {
+          "index_constant": 0,
+          "operation": "select",
+          "select_max": true
+        },
+        "direction": 4,
+        "entity_number": 30,
+        "name": "selector-combinator",
+        "position": {
+          "x": -60,
+          "y": 24.5
+        }
+      },
+      {
+        "entity_number": 31,
+        "items": [
+          {
+            "id": {
+              "name": "speed-module",
+              "quality": "legendary"
+            },
+            "items": {
+              "in_inventory": [
+                {
+                  "inventory": 1,
+                  "stack": 0
+                }
+              ]
+            }
+          }
+        ],
+        "name": "beacon",
+        "position": {
+          "x": -58.5,
+          "y": 9.5
+        }
+      },
+      {
+        "entity_number": 32,
+        "name": "roboport",
+        "position": {
+          "x": -56,
+          "y": -42
+        },
+        "request_filters": {
+          "sections": [
+            {
+              "index": 1
+            }
+          ]
+        }
+      },
+      {
+        "entity_number": 33,
+        "name": "roboport",
+        "position": {
+          "x": -56,
+          "y": -8
+        },
+        "request_filters": {
+          "sections": [
+            {
+              "index": 1
+            }
+          ]
+        }
+      },
+      {
+        "entity_number": 34,
+        "name": "roboport",
+        "position": {
+          "x": -56,
+          "y": 27
+        },
+        "request_filters": {
+          "sections": [
+            {
+              "index": 1
+            }
+          ]
+        }
+      },
+      {
+        "entity_number": 35,
+        "name": "roboport",
+        "position": {
+          "x": -56,
+          "y": 50
+        },
+        "request_filters": {
+          "sections": [
+            {
+              "index": 1
+            }
+          ]
+        }
+      },
+      {
+        "control_behavior": {
+          "index_constant": 0,
+          "operation": "select",
+          "select_max": true
+        },
+        "direction": 8,
+        "entity_number": 36,
+        "name": "selector-combinator",
+        "position": {
+          "x": -55.5,
+          "y": 5
+        }
+      },
+      {
+        "control_behavior": {
+          "index_constant": 0,
+          "operation": "select",
+          "select_max": true
+        },
+        "entity_number": 37,
+        "name": "selector-combinator",
+        "position": {
+          "x": -55.5,
+          "y": 14
+        }
+      },
+      {
+        "control_behavior": {
+          "index_constant": 0,
+          "operation": "select",
+          "select_max": true
+        },
+        "direction": 8,
+        "entity_number": 38,
+        "name": "selector-combinator",
+        "position": {
+          "x": -54.5,
+          "y": 5
+        }
+      },
+      {
+        "control_behavior": {
+          "index_constant": 0,
+          "operation": "select",
+          "select_max": true
+        },
+        "entity_number": 39,
+        "name": "selector-combinator",
+        "position": {
+          "x": -54.5,
+          "y": 14
+        }
+      },
+      {
+        "control_behavior": {
+          "index_constant": 0,
+          "operation": "select",
+          "select_max": true
+        },
+        "direction": 12,
+        "entity_number": 40,
+        "name": "selector-combinator",
+        "position": {
+          "x": -53,
+          "y": 29.5
+        }
+      },
+      {
+        "control_behavior": {
+          "index_constant": 0,
+          "operation": "select",
+          "select_max": true
+        },
+        "direction": 12,
+        "entity_number": 41,
+        "name": "selector-combinator",
+        "position": {
+          "x": -53,
+          "y": 47.5
+        }
+      },
+      {
+        "entity_number": 42,
+        "name": "roboport",
+        "position": {
+          "x": -52,
+          "y": -42
+        },
+        "request_filters": {
+          "sections": [
+            {
+              "index": 1
+            }
+          ]
+        }
+      },
+      {
+        "entity_number": 43,
+        "name": "roboport",
+        "position": {
+          "x": -52,
+          "y": -8
+        },
+        "request_filters": {
+          "sections": [
+            {
+              "index": 1
+            }
+          ]
+        }
+      },
+      {
+        "entity_number": 44,
+        "name": "roboport",
+        "position": {
+          "x": -52,
+          "y": 27
+        },
+        "request_filters": {
+          "sections": [
+            {
+              "index": 1
+            }
+          ]
+        }
+      },
+      {
+        "entity_number": 45,
+        "name": "roboport",
+        "position": {
+          "x": -52,
+          "y": 50
+        },
+        "request_filters": {
+          "sections": [
+            {
+              "index": 1
+            }
+          ]
+        }
+      },
+      {
+        "entity_number": 46,
+        "items": [
+          {
+            "id": {
+              "name": "speed-module",
+              "quality": "legendary"
+            },
+            "items": {
+              "in_inventory": [
+                {
+                  "inventory": 1,
+                  "stack": 0
+                }
+              ]
+            }
+          }
+        ],
+        "name": "beacon",
+        "position": {
+          "x": -51.5,
+          "y": 9.5
+        }
+      },
+      {
+        "control_behavior": {
+          "operation": "random",
+          "random_update_interval": 100
+        },
+        "entity_number": 47,
+        "name": "selector-combinator",
+        "position": {
+          "x": -50.5,
+          "y": -29
+        }
+      },
+      {
+        "control_behavior": {
+          "index_constant": 0,
+          "operation": "select",
+          "select_max": true
+        },
+        "entity_number": 48,
+        "name": "selector-combinator",
+        "position": {
+          "x": -50.5,
+          "y": -21
+        }
+      },
+      {
+        "control_behavior": {
+          "index_constant": 0,
+          "operation": "select",
+          "select_max": true
+        },
+        "direction": 8,
+        "entity_number": 49,
+        "name": "selector-combinator",
+        "position": {
+          "x": -50.5,
+          "y": 36
+        }
+      },
+      {
+        "control_behavior": {
+          "index_constant": 0,
+          "operation": "select",
+          "select_max": true
+        },
+        "entity_number": 50,
+        "name": "selector-combinator",
+        "position": {
+          "x": -50.5,
+          "y": 41
+        }
+      },
+      {
+        "control_behavior": {
+          "index_constant": 0,
+          "operation": "select",
+          "select_max": true
+        },
+        "direction": 12,
+        "entity_number": 51,
+        "name": "selector-combinator",
+        "position": {
+          "x": -50,
+          "y": -5.5
+        }
+      },
+      {
+        "control_behavior": {
+          "index_constant": 0,
+          "operation": "select",
+          "select_max": true
+        },
+        "direction": 12,
+        "entity_number": 52,
+        "name": "selector-combinator",
+        "position": {
+          "x": -50,
+          "y": 24.5
+        }
+      },
+      {
+        "entity_number": 53,
+        "name": "roboport",
+        "position": {
+          "x": -48,
+          "y": -42
+        },
+        "request_filters": {
+          "sections": [
+            {
+              "index": 1
+            }
+          ]
+        }
+      },
+      {
+        "entity_number": 54,
+        "name": "roboport",
+        "position": {
+          "x": -48,
+          "y": -8
+        },
+        "request_filters": {
+          "sections": [
+            {
+              "index": 1
+            }
+          ]
+        }
+      },
+      {
+        "entity_number": 55,
+        "name": "roboport",
+        "position": {
+          "x": -48,
+          "y": 27
+        },
+        "request_filters": {
+          "sections": [
+            {
+              "index": 1
+            }
+          ]
+        }
+      },
+      {
+        "entity_number": 56,
+        "name": "roboport",
+        "position": {
+          "x": -48,
+          "y": 50
+        },
+        "request_filters": {
+          "sections": [
+            {
+              "index": 1
+            }
+          ]
+        }
+      },
+      {
+        "control_behavior": {
+          "index_constant": 0,
+          "operation": "select",
+          "select_max": false
+        },
+        "direction": 4,
+        "entity_number": 57,
+        "name": "selector-combinator",
+        "position": {
+          "x": -46,
+          "y": 29.5
+        }
+      },
+      {
+        "control_behavior": {
+          "index_constant": 0,
+          "operation": "select",
+          "select_max": false
+        },
+        "direction": 4,
+        "entity_number": 58,
+        "name": "selector-combinator",
+        "position": {
+          "x": -46,
+          "y": 47.5
+        }
+      },
+      {
+        "entity_number": 59,
+        "name": "roboport",
+        "position": {
+          "x": -44,
+          "y": -42
+        },
+        "request_filters": {
+          "sections": [
+            {
+              "index": 1
+            }
+          ]
+        }
+      },
+      {
+        "entity_number": 60,
+        "name": "roboport",
+        "position": {
+          "x": -44,
+          "y": -8
+        },
+        "request_filters": {
+          "sections": [
+            {
+              "index": 1
+            }
+          ]
+        }
+      },
+      {
+        "entity_number": 61,
+        "name": "roboport",
+        "position": {
+          "x": -44,
+          "y": 27
+        },
+        "request_filters": {
+          "sections": [
+            {
+              "index": 1
+            }
+          ]
+        }
+      },
+      {
+        "entity_number": 62,
+        "name": "roboport",
+        "position": {
+          "x": -44,
+          "y": 50
+        },
+        "request_filters": {
+          "sections": [
+            {
+              "index": 1
+            }
+          ]
+        }
+      },
+      {
+        "control_behavior": {
+          "index_constant": 0,
+          "operation": "select",
+          "select_max": true
+        },
+        "direction": 4,
+        "entity_number": 63,
+        "name": "selector-combinator",
+        "position": {
+          "x": -42,
+          "y": -5.5
+        }
+      },
+      {
+        "control_behavior": {
+          "index_constant": 0,
+          "operation": "select",
+          "select_max": true
+        },
+        "direction": 4,
+        "entity_number": 64,
+        "name": "selector-combinator",
+        "position": {
+          "x": -42,
+          "y": 24.5
+        }
+      },
+      {
+        "control_behavior": {
+          "index_constant": 0,
+          "operation": "select",
+          "select_max": true
+        },
+        "direction": 12,
+        "entity_number": 65,
+        "name": "selector-combinator",
+        "position": {
+          "x": -42,
+          "y": 29.5
+        }
+      },
+      {
+        "control_behavior": {
+          "index_constant": 0,
+          "operation": "select",
+          "select_max": true
+        },
+        "direction": 12,
+        "entity_number": 66,
+        "name": "selector-combinator",
+        "position": {
+          "x": -42,
+          "y": 47.5
+        }
+      },
+      {
+        "entity_number": 67,
+        "items": [
+          {
+            "id": {
+              "name": "speed-module",
+              "quality": "legendary"
+            },
+            "items": {
+              "in_inventory": [
+                {
+                  "inventory": 1,
+                  "stack": 0
+                }
+              ]
+            }
+          }
+        ],
+        "name": "beacon",
+        "position": {
+          "x": -40.5,
+          "y": 9.5
+        }
+      },
+      {
+        "entity_number": 68,
+        "name": "roboport",
+        "position": {
+          "x": -40,
+          "y": -42
+        },
+        "request_filters": {
+          "sections": [
+            {
+              "index": 1
+            }
+          ]
+        }
+      },
+      {
+        "entity_number": 69,
+        "name": "roboport",
+        "position": {
+          "x": -40,
+          "y": -8
+        },
+        "request_filters": {
+          "sections": [
+            {
+              "index": 1
+            }
+          ]
+        }
+      },
+      {
+        "entity_number": 70,
+        "name": "roboport",
+        "position": {
+          "x": -40,
+          "y": 27
+        },
+        "request_filters": {
+          "sections": [
+            {
+              "index": 1
+            }
+          ]
+        }
+      },
+      {
+        "entity_number": 71,
+        "name": "roboport",
+        "position": {
+          "x": -40,
+          "y": 50
+        },
+        "request_filters": {
+          "sections": [
+            {
+              "index": 1
+            }
+          ]
+        }
+      },
+      {
+        "control_behavior": {
+          "index_constant": 0,
+          "operation": "select",
+          "select_max": true
+        },
+        "direction": 8,
+        "entity_number": 72,
+        "name": "selector-combinator",
+        "position": {
+          "x": -39.5,
+          "y": 36
+        }
+      },
+      {
+        "control_behavior": {
+          "index_constant": 0,
+          "operation": "select",
+          "select_max": true
+        },
+        "entity_number": 73,
+        "name": "selector-combinator",
+        "position": {
+          "x": -39.5,
+          "y": 41
+        }
+      },
+      {
+        "control_behavior": {
+          "index_constant": 0,
+          "operation": "select",
+          "select_max": true
+        },
+        "direction": 8,
+        "entity_number": 74,
+        "name": "selector-combinator",
+        "position": {
+          "x": -37.5,
+          "y": 5
+        }
+      },
+      {
+        "control_behavior": {
+          "index_constant": 0,
+          "operation": "select",
+          "select_max": true
+        },
+        "entity_number": 75,
+        "name": "selector-combinator",
+        "position": {
+          "x": -37.5,
+          "y": 14
+        }
+      },
+      {
+        "control_behavior": {
+          "index_constant": 0,
+          "operation": "select",
+          "select_max": true
+        },
+        "direction": 8,
+        "entity_number": 76,
+        "name": "selector-combinator",
+        "position": {
+          "x": -36.5,
+          "y": 5
+        }
+      },
+      {
+        "control_behavior": {
+          "index_constant": 0,
+          "operation": "select",
+          "select_max": true
+        },
+        "entity_number": 77,
+        "name": "selector-combinator",
+        "position": {
+          "x": -36.5,
+          "y": 14
+        }
+      },
+      {
+        "entity_number": 78,
+        "name": "roboport",
+        "position": {
+          "x": -36,
+          "y": -42
+        },
+        "request_filters": {
+          "sections": [
+            {
+              "index": 1
+            }
+          ]
+        }
+      },
+      {
+        "entity_number": 79,
+        "name": "roboport",
+        "position": {
+          "x": -36,
+          "y": -8
+        },
+        "request_filters": {
+          "sections": [
+            {
+              "index": 1
+            }
+          ]
+        }
+      },
+      {
+        "entity_number": 80,
+        "name": "roboport",
+        "position": {
+          "x": -36,
+          "y": 27
+        },
+        "request_filters": {
+          "sections": [
+            {
+              "index": 1
+            }
+          ]
+        }
+      },
+      {
+        "entity_number": 81,
+        "name": "roboport",
+        "position": {
+          "x": -36,
+          "y": 50
+        },
+        "request_filters": {
+          "sections": [
+            {
+              "index": 1
+            }
+          ]
+        }
+      },
+      {
+        "control_behavior": {
+          "index_constant": 0,
+          "operation": "select",
+          "select_max": false
+        },
+        "direction": 4,
+        "entity_number": 82,
+        "name": "selector-combinator",
+        "position": {
+          "x": -35,
+          "y": 29.5
+        }
+      },
+      {
+        "control_behavior": {
+          "index_constant": 0,
+          "operation": "select",
+          "select_max": false
+        },
+        "direction": 4,
+        "entity_number": 83,
+        "name": "selector-combinator",
+        "position": {
+          "x": -35,
+          "y": 47.5
+        }
+      },
+      {
+        "entity_number": 84,
+        "items": [
+          {
+            "id": {
+              "name": "speed-module",
+              "quality": "legendary"
+            },
+            "items": {
+              "in_inventory": [
+                {
+                  "inventory": 1,
+                  "stack": 0
+                }
+              ]
+            }
+          }
+        ],
+        "name": "beacon",
+        "position": {
+          "x": -33.5,
+          "y": 9.5
+        }
+      },
+      {
+        "entity_number": 85,
+        "name": "roboport",
+        "position": {
+          "x": -32,
+          "y": -42
+        },
+        "request_filters": {
+          "sections": [
+            {
+              "index": 1
+            }
+          ]
+        }
+      },
+      {
+        "entity_number": 86,
+        "name": "roboport",
+        "position": {
+          "x": -32,
+          "y": -8
+        },
+        "request_filters": {
+          "sections": [
+            {
+              "index": 1
+            }
+          ]
+        }
+      },
+      {
+        "control_behavior": {
+          "index_constant": 0,
+          "operation": "select",
+          "select_max": true
+        },
+        "direction": 12,
+        "entity_number": 87,
+        "name": "selector-combinator",
+        "position": {
+          "x": -32,
+          "y": -5.5
+        }
+      },
+      {
+        "control_behavior": {
+          "index_constant": 0,
+          "operation": "select",
+          "select_max": true
+        },
+        "direction": 12,
+        "entity_number": 88,
+        "name": "selector-combinator",
+        "position": {
+          "x": -32,
+          "y": 24.5
+        }
+      },
+      {
+        "entity_number": 89,
+        "name": "roboport",
+        "position": {
+          "x": -32,
+          "y": 27
+        },
+        "request_filters": {
+          "sections": [
+            {
+              "index": 1
+            }
+          ]
+        }
+      },
+      {
+        "entity_number": 90,
+        "name": "roboport",
+        "position": {
+          "x": -32,
+          "y": 50
+        },
+        "request_filters": {
+          "sections": [
+            {
+              "index": 1
+            }
+          ]
+        }
+      },
+      {
+        "control_behavior": {
+          "index_constant": 0,
+          "operation": "select",
+          "select_max": true
+        },
+        "direction": 12,
+        "entity_number": 91,
+        "name": "selector-combinator",
+        "position": {
+          "x": -31,
+          "y": 29.5
+        }
+      },
+      {
+        "control_behavior": {
+          "index_constant": 0,
+          "operation": "select",
+          "select_max": true
+        },
+        "direction": 12,
+        "entity_number": 92,
+        "name": "selector-combinator",
+        "position": {
+          "x": -31,
+          "y": 47.5
+        }
+      },
+      {
+        "control_behavior": {
+          "index_constant": 0,
+          "operation": "select",
+          "select_max": true
+        },
+        "direction": 8,
+        "entity_number": 93,
+        "name": "selector-combinator",
+        "position": {
+          "x": -28.5,
+          "y": 36
+        }
+      },
+      {
+        "control_behavior": {
+          "index_constant": 0,
+          "operation": "select",
+          "select_max": true
+        },
+        "entity_number": 94,
+        "name": "selector-combinator",
+        "position": {
+          "x": -28.5,
+          "y": 41
+        }
+      },
+      {
+        "entity_number": 95,
+        "name": "roboport",
+        "position": {
+          "x": -28,
+          "y": -42
+        },
+        "request_filters": {
+          "sections": [
+            {
+              "index": 1
+            }
+          ]
+        }
+      },
+      {
+        "entity_number": 96,
+        "name": "roboport",
+        "position": {
+          "x": -28,
+          "y": -8
+        },
+        "request_filters": {
+          "sections": [
+            {
+              "index": 1
+            }
+          ]
+        }
+      },
+      {
+        "entity_number": 97,
+        "name": "roboport",
+        "position": {
+          "x": -28,
+          "y": 27
+        },
+        "request_filters": {
+          "sections": [
+            {
+              "index": 1
+            }
+          ]
+        }
+      },
+      {
+        "entity_number": 98,
+        "name": "roboport",
+        "position": {
+          "x": -28,
+          "y": 50
+        },
+        "request_filters": {
+          "sections": [
+            {
+              "index": 1
+            }
+          ]
+        }
+      },
+      {
+        "control_behavior": {
+          "operation": "random",
+          "random_update_interval": 100
+        },
+        "entity_number": 99,
+        "name": "selector-combinator",
+        "position": {
+          "x": -26.5,
+          "y": -29
+        }
+      },
+      {
+        "control_behavior": {
+          "index_constant": 0,
+          "operation": "select",
+          "select_max": true
+        },
+        "entity_number": 100,
+        "name": "selector-combinator",
+        "position": {
+          "x": -26.5,
+          "y": -21
+        }
+      },
+      {
+        "entity_number": 101,
+        "name": "roboport",
+        "position": {
+          "x": -24,
+          "y": -42
+        },
+        "request_filters": {
+          "sections": [
+            {
+              "index": 1
+            }
+          ]
+        }
+      },
+      {
+        "entity_number": 102,
+        "name": "roboport",
+        "position": {
+          "x": -24,
+          "y": -8
+        },
+        "request_filters": {
+          "sections": [
+            {
+              "index": 1
+            }
+          ]
+        }
+      },
+      {
+        "control_behavior": {
+          "index_constant": 0,
+          "operation": "select",
+          "select_max": true
+        },
+        "direction": 4,
+        "entity_number": 103,
+        "name": "selector-combinator",
+        "position": {
+          "x": -24,
+          "y": -5.5
+        }
+      },
+      {
+        "control_behavior": {
+          "index_constant": 0,
+          "operation": "select",
+          "select_max": true
+        },
+        "direction": 4,
+        "entity_number": 104,
+        "name": "selector-combinator",
+        "position": {
+          "x": -24,
+          "y": 24.5
+        }
+      },
+      {
+        "entity_number": 105,
+        "name": "roboport",
+        "position": {
+          "x": -24,
+          "y": 27
+        },
+        "request_filters": {
+          "sections": [
+            {
+              "index": 1
+            }
+          ]
+        }
+      },
+      {
+        "control_behavior": {
+          "index_constant": 0,
+          "operation": "select",
+          "select_max": false
+        },
+        "direction": 4,
+        "entity_number": 106,
+        "name": "selector-combinator",
+        "position": {
+          "x": -24,
+          "y": 29.5
+        }
+      },
+      {
+        "control_behavior": {
+          "index_constant": 0,
+          "operation": "select",
+          "select_max": false
+        },
+        "direction": 4,
+        "entity_number": 107,
+        "name": "selector-combinator",
+        "position": {
+          "x": -24,
+          "y": 47.5
+        }
+      },
+      {
+        "entity_number": 108,
+        "name": "roboport",
+        "position": {
+          "x": -24,
+          "y": 50
+        },
+        "request_filters": {
+          "sections": [
+            {
+              "index": 1
+            }
+          ]
+        }
+      },
+      {
+        "entity_number": 109,
+        "items": [
+          {
+            "id": {
+              "name": "speed-module",
+              "quality": "legendary"
+            },
+            "items": {
+              "in_inventory": [
+                {
+                  "inventory": 1,
+                  "stack": 0
+                }
+              ]
+            }
+          }
+        ],
+        "name": "beacon",
+        "position": {
+          "x": -22.5,
+          "y": 9.5
+        }
+      },
+      {
+        "entity_number": 110,
+        "name": "roboport",
+        "position": {
+          "x": -20,
+          "y": -42
+        },
+        "request_filters": {
+          "sections": [
+            {
+              "index": 1
+            }
+          ]
+        }
+      },
+      {
+        "entity_number": 111,
+        "name": "roboport",
+        "position": {
+          "x": -20,
+          "y": -8
+        },
+        "request_filters": {
+          "sections": [
+            {
+              "index": 1
+            }
+          ]
+        }
+      },
+      {
+        "entity_number": 112,
+        "name": "roboport",
+        "position": {
+          "x": -20,
+          "y": 27
+        },
+        "request_filters": {
+          "sections": [
+            {
+              "index": 1
+            }
+          ]
+        }
+      },
+      {
+        "control_behavior": {
+          "index_constant": 0,
+          "operation": "select",
+          "select_max": true
+        },
+        "direction": 4,
+        "entity_number": 113,
+        "name": "selector-combinator",
+        "position": {
+          "x": -20,
+          "y": 29.5
+        }
+      },
+      {
+        "control_behavior": {
+          "index_constant": 0,
+          "operation": "select",
+          "select_max": true
+        },
+        "direction": 12,
+        "entity_number": 114,
+        "name": "selector-combinator",
+        "position": {
+          "x": -20,
+          "y": 47.5
+        }
+      },
+      {
+        "entity_number": 115,
+        "name": "roboport",
+        "position": {
+          "x": -20,
+          "y": 50
+        },
+        "request_filters": {
+          "sections": [
+            {
+              "index": 1
+            }
+          ]
+        }
+      },
+      {
+        "control_behavior": {
+          "index_constant": 0,
+          "operation": "select",
+          "select_max": true
+        },
+        "direction": 8,
+        "entity_number": 116,
+        "name": "selector-combinator",
+        "position": {
+          "x": -19.5,
+          "y": 5
+        }
+      },
+      {
+        "control_behavior": {
+          "index_constant": 0,
+          "operation": "select",
+          "select_max": true
+        },
+        "entity_number": 117,
+        "name": "selector-combinator",
+        "position": {
+          "x": -19.5,
+          "y": 14
+        }
+      },
+      {
+        "control_behavior": {
+          "index_constant": 0,
+          "operation": "select",
+          "select_max": true
+        },
+        "direction": 8,
+        "entity_number": 118,
+        "name": "selector-combinator",
+        "position": {
+          "x": -18.5,
+          "y": 5
+        }
+      },
+      {
+        "control_behavior": {
+          "index_constant": 0,
+          "operation": "select",
+          "select_max": true
+        },
+        "entity_number": 119,
+        "name": "selector-combinator",
+        "position": {
+          "x": -18.5,
+          "y": 14
+        }
+      },
+      {
+        "control_behavior": {
+          "index_constant": 0,
+          "operation": "select",
+          "select_max": true
+        },
+        "direction": 8,
+        "entity_number": 120,
+        "name": "selector-combinator",
+        "position": {
+          "x": -17.5,
+          "y": 36
+        }
+      },
+      {
+        "control_behavior": {
+          "index_constant": 0,
+          "operation": "select",
+          "select_max": true
+        },
+        "entity_number": 121,
+        "name": "selector-combinator",
+        "position": {
+          "x": -17.5,
+          "y": 41
+        }
+      },
+      {
+        "entity_number": 122,
+        "name": "roboport",
+        "position": {
+          "x": -16,
+          "y": -42
+        },
+        "request_filters": {
+          "sections": [
+            {
+              "index": 1
+            }
+          ]
+        }
+      },
+      {
+        "entity_number": 123,
+        "name": "roboport",
+        "position": {
+          "x": -16,
+          "y": -8
+        },
+        "request_filters": {
+          "sections": [
+            {
+              "index": 1
+            }
+          ]
+        }
+      },
+      {
+        "entity_number": 124,
+        "name": "roboport",
+        "position": {
+          "x": -16,
+          "y": 27
+        },
+        "request_filters": {
+          "sections": [
+            {
+              "index": 1
+            }
+          ]
+        }
+      },
+      {
+        "entity_number": 125,
+        "name": "roboport",
+        "position": {
+          "x": -16,
+          "y": 50
+        },
+        "request_filters": {
+          "sections": [
+            {
+              "index": 1
+            }
+          ]
+        }
+      },
+      {
+        "entity_number": 126,
+        "items": [
+          {
+            "id": {
+              "name": "speed-module",
+              "quality": "legendary"
+            },
+            "items": {
+              "in_inventory": [
+                {
+                  "inventory": 1,
+                  "stack": 0
+                }
+              ]
+            }
+          }
+        ],
+        "name": "beacon",
+        "position": {
+          "x": -15.5,
+          "y": 9.5
+        }
+      },
+      {
+        "control_behavior": {
+          "index_constant": 0,
+          "operation": "select",
+          "select_max": true
+        },
+        "direction": 12,
+        "entity_number": 127,
+        "name": "selector-combinator",
+        "position": {
+          "x": -14,
+          "y": -5.5
+        }
+      },
+      {
+        "control_behavior": {
+          "index_constant": 0,
+          "operation": "select",
+          "select_max": true
+        },
+        "direction": 12,
+        "entity_number": 128,
+        "name": "selector-combinator",
+        "position": {
+          "x": -14,
+          "y": 24.5
+        }
+      },
+      {
+        "control_behavior": {
+          "index_constant": 0,
+          "operation": "select",
+          "select_max": false
+        },
+        "direction": 4,
+        "entity_number": 129,
+        "name": "selector-combinator",
+        "position": {
+          "x": -13,
+          "y": 29.5
+        }
+      },
+      {
+        "control_behavior": {
+          "index_constant": 0,
+          "operation": "select",
+          "select_max": false
+        },
+        "direction": 4,
+        "entity_number": 130,
+        "name": "selector-combinator",
+        "position": {
+          "x": -13,
+          "y": 47.5
+        }
+      },
+      {
+        "entity_number": 131,
+        "name": "roboport",
+        "position": {
+          "x": -12,
+          "y": -42
+        },
+        "request_filters": {
+          "sections": [
+            {
+              "index": 1
+            }
+          ]
+        }
+      },
+      {
+        "entity_number": 132,
+        "name": "roboport",
+        "position": {
+          "x": -12,
+          "y": -8
+        },
+        "request_filters": {
+          "sections": [
+            {
+              "index": 1
+            }
+          ]
+        }
+      },
+      {
+        "entity_number": 133,
+        "name": "roboport",
+        "position": {
+          "x": -12,
+          "y": 27
+        },
+        "request_filters": {
+          "sections": [
+            {
+              "index": 1
+            }
+          ]
+        }
+      },
+      {
+        "entity_number": 134,
+        "name": "roboport",
+        "position": {
+          "x": -12,
+          "y": 50
+        },
+        "request_filters": {
+          "sections": [
+            {
+              "index": 1
+            }
+          ]
+        }
+      },
+      {
+        "entity_number": 135,
+        "name": "roboport",
+        "position": {
+          "x": -8,
+          "y": 15
+        },
+        "request_filters": {
+          "sections": [
+            {
+              "index": 1
+            }
+          ]
+        }
+      },
+      {
+        "control_behavior": {
+          "index_constant": 0,
+          "operation": "select",
+          "select_max": true
+        },
+        "direction": 4,
+        "entity_number": 136,
+        "name": "selector-combinator",
+        "player_description": "选择更大的信号，用于信号覆盖",
+        "position": {
+          "x": -6,
+          "y": -34.5
+        }
+      },
+      {
+        "control_behavior": {
+          "operation": "random",
+          "random_update_interval": 100
+        },
+        "direction": 12,
+        "entity_number": 137,
+        "name": "selector-combinator",
+        "position": {
+          "x": -5,
+          "y": -43.5
+        }
+      },
+      {
+        "control_behavior": {
+          "index_constant": 0,
+          "operation": "select",
+          "select_max": true
+        },
+        "direction": 12,
+        "entity_number": 138,
+        "name": "selector-combinator",
+        "position": {
+          "x": -5,
+          "y": -42.5
+        }
+      },
+      {
+        "control_behavior": {
+          "index_constant": 0,
+          "operation": "select",
+          "select_max": true
+        },
+        "direction": 12,
+        "entity_number": 139,
+        "name": "selector-combinator",
+        "position": {
+          "x": -5,
+          "y": -23.5
+        }
+      },
+      {
+        "control_behavior": {
+          "operation": "random",
+          "random_update_interval": 100
+        },
+        "direction": 12,
+        "entity_number": 140,
+        "name": "selector-combinator",
+        "position": {
+          "x": -5,
+          "y": -22.5
+        }
+      },
+      {
+        "control_behavior": {
+          "include_in_crafting": false,
+          "input_networks": {
+            "green": true,
+            "red": false
+          },
+          "read_contents": true,
+          "read_recipe_finished": true,
+          "recipe_finished_signal": {
+            "name": "signal-check",
+            "type": "virtual"
+          },
+          "set_recipe": true
+        },
+        "direction": 4,
+        "entity_number": 141,
+        "items": [
+          {
+            "id": {
+              "name": "quality-module-3",
+              "quality": "uncommon"
+            },
+            "items": {
+              "in_inventory": [
+                {
+                  "inventory": 4,
+                  "stack": 0
+                },
+                {
+                  "inventory": 4,
+                  "stack": 1
+                },
+                {
+                  "inventory": 4,
+                  "stack": 2
+                },
+                {
+                  "inventory": 4,
+                  "stack": 3
+                },
+                {
+                  "inventory": 4,
+                  "stack": 4
+                }
+              ]
+            }
+          }
+        ],
+        "mirror": true,
+        "name": "electromagnetic-plant",
+        "position": {
+          "x": -3,
+          "y": -30
+        },
+        "recipe": "substation",
+        "recipe_quality": "uncommon"
+      },
+      {
+        "control_behavior": {
+          "index_constant": 0,
+          "operation": "select",
+          "select_max": true
+        },
+        "direction": 8,
+        "entity_number": 142,
+        "name": "selector-combinator",
+        "player_description": "选择更大的信号，用于信号覆盖",
+        "position": {
+          "x": -2.5,
+          "y": 0
+        }
+      },
+      {
+        "direction": 12,
+        "entity_number": 143,
+        "items": [
+          {
+            "id": {
+              "name": "quality-module-3",
+              "quality": "uncommon"
+            },
+            "items": {
+              "in_inventory": [
+                {
+                  "inventory": 4,
+                  "stack": 0
+                },
+                {
+                  "inventory": 4,
+                  "stack": 1
+                },
+                {
+                  "inventory": 4,
+                  "stack": 2
+                },
+                {
+                  "inventory": 4,
+                  "stack": 3
+                }
+              ]
+            }
+          }
+        ],
+        "name": "recycler",
+        "position": {
+          "x": -1,
+          "y": -27
+        }
+      },
+      {
+        "control_behavior": {
+          "index_constant": 0,
+          "operation": "select",
+          "select_max": true
+        },
+        "direction": 4,
+        "entity_number": 144,
+        "name": "selector-combinator",
+        "position": {
+          "x": -1,
+          "y": 10.5
+        }
+      },
+      {
+        "control_behavior": {
+          "index_constant": 0,
+          "operation": "select",
+          "select_max": true
+        },
+        "direction": 4,
+        "entity_number": 145,
+        "name": "selector-combinator",
+        "position": {
+          "x": -1,
+          "y": 28.5
+        }
+      },
+      {
+        "control_behavior": {
+          "include_in_crafting": false,
+          "input_networks": {
+            "green": false,
+            "red": true
+          },
+          "output_networks": {
+            "green": true,
+            "red": false
+          },
+          "read_contents": true,
+          "read_recipe_finished": true,
+          "recipe_finished_signal": {
+            "name": "signal-check",
+            "type": "virtual"
+          },
+          "set_recipe": true
+        },
+        "direction": 8,
+        "entity_number": 146,
+        "items": [
+          {
+            "id": {
+              "name": "quality-module-3",
+              "quality": "uncommon"
+            },
+            "items": {
+              "in_inventory": [
+                {
+                  "inventory": 4,
+                  "stack": 0
+                },
+                {
+                  "inventory": 4,
+                  "stack": 1
+                },
+                {
+                  "inventory": 4,
+                  "stack": 2
+                },
+                {
+                  "inventory": 4,
+                  "stack": 3
+                },
+                {
+                  "inventory": 4,
+                  "stack": 4
+                }
+              ]
+            }
+          }
+        ],
+        "mirror": true,
+        "name": "electromagnetic-plant",
+        "position": {
+          "x": -1,
+          "y": 33
+        }
+      },
+      {
+        "control_behavior": {
+          "include_in_crafting": false,
+          "input_networks": {
+            "green": false,
+            "red": true
+          },
+          "output_networks": {
+            "green": true,
+            "red": false
+          },
+          "read_contents": true,
+          "read_recipe_finished": true,
+          "recipe_finished_signal": {
+            "name": "signal-check",
+            "type": "virtual"
+          },
+          "set_recipe": true
+        },
+        "entity_number": 147,
+        "items": [
+          {
+            "id": {
+              "name": "quality-module-3",
+              "quality": "uncommon"
+            },
+            "items": {
+              "in_inventory": [
+                {
+                  "inventory": 4,
+                  "stack": 0
+                },
+                {
+                  "inventory": 4,
+                  "stack": 1
+                },
+                {
+                  "inventory": 4,
+                  "stack": 2
+                },
+                {
+                  "inventory": 4,
+                  "stack": 3
+                },
+                {
+                  "inventory": 4,
+                  "stack": 4
+                }
+              ]
+            }
+          }
+        ],
+        "name": "electromagnetic-plant",
+        "position": {
+          "x": -1,
+          "y": 44
+        }
+      },
+      {
+        "control_behavior": {
+          "index_constant": 0,
+          "operation": "select",
+          "select_max": true
+        },
+        "direction": 8,
+        "entity_number": 148,
+        "name": "selector-combinator",
+        "player_description": "选择更大的信号，用于信号覆盖",
+        "position": {
+          "x": -0.5,
+          "y": 30
+        }
+      },
+      {
+        "control_behavior": {
+          "index_constant": 0,
+          "operation": "select",
+          "select_max": true
+        },
+        "entity_number": 149,
+        "name": "selector-combinator",
+        "player_description": "选择更大的信号，用于信号覆盖",
+        "position": {
+          "x": -0.5,
+          "y": 47
+        }
+      },
+      {
+        "control_behavior": {
+          "index_constant": 0,
+          "operation": "select",
+          "select_max": true
+        },
+        "direction": 12,
+        "entity_number": 150,
+        "name": "selector-combinator",
+        "position": {
+          "x": 0,
+          "y": -35.5
+        }
+      },
+      {
+        "control_behavior": {
+          "index_constant": 0,
+          "operation": "select",
+          "select_max": true
+        },
+        "direction": 12,
+        "entity_number": 151,
+        "name": "selector-combinator",
+        "position": {
+          "x": 0,
+          "y": -30.5
+        }
+      },
+      {
+        "entity_number": 152,
+        "items": [
+          {
+            "id": {
+              "name": "speed-module",
+              "quality": "legendary"
+            },
+            "items": {
+              "in_inventory": [
+                {
+                  "inventory": 1,
+                  "stack": 0
+                },
+                {
+                  "inventory": 1,
+                  "stack": 1
+                }
+              ]
+            }
+          }
+        ],
+        "name": "beacon",
+        "position": {
+          "x": 1.5,
+          "y": 19.5
+        }
+      },
+      {
+        "entity_number": 153,
+        "items": [
+          {
+            "id": {
+              "name": "speed-module",
+              "quality": "legendary"
+            },
+            "items": {
+              "in_inventory": [
+                {
+                  "inventory": 1,
+                  "stack": 0
+                },
+                {
+                  "inventory": 1,
+                  "stack": 1
+                }
+              ]
+            }
+          }
+        ],
+        "name": "beacon",
+        "position": {
+          "x": 1.5,
+          "y": 38.5
+        }
+      },
+      {
+        "control_behavior": {
+          "index_constant": 0,
+          "operation": "select",
+          "select_max": true
+        },
+        "direction": 12,
+        "entity_number": 154,
+        "name": "selector-combinator",
+        "position": {
+          "x": 2,
+          "y": 10.5
+        }
+      },
+      {
+        "control_behavior": {
+          "index_constant": 0,
+          "operation": "select",
+          "select_max": true
+        },
+        "direction": 12,
+        "entity_number": 155,
+        "name": "selector-combinator",
+        "position": {
+          "x": 2,
+          "y": 28.5
+        }
+      },
+      {
+        "control_behavior": {
+          "index_constant": 0,
+          "operation": "select",
+          "select_max": true
+        },
+        "direction": 8,
+        "entity_number": 156,
+        "name": "selector-combinator",
+        "player_description": "选择更大的信号，用于信号覆盖",
+        "position": {
+          "x": 3.5,
+          "y": 30
+        }
+      },
+      {
+        "control_behavior": {
+          "index_constant": 0,
+          "operation": "select",
+          "select_max": true
+        },
+        "entity_number": 157,
+        "name": "selector-combinator",
+        "player_description": "选择更大的信号，用于信号覆盖",
+        "position": {
+          "x": 3.5,
+          "y": 47
+        }
+      },
+      {
+        "entity_number": 158,
+        "name": "roboport",
+        "position": {
+          "x": 5,
+          "y": -34
+        },
+        "request_filters": {
+          "sections": [
+            {
+              "index": 1
+            }
+          ]
+        }
+      },
+      {
+        "entity_number": 159,
+        "name": "roboport",
+        "position": {
+          "x": 5,
+          "y": -24
+        },
+        "request_filters": {
+          "sections": [
+            {
+              "index": 1
+            }
+          ]
+        }
+      },
+      {
+        "entity_number": 160,
+        "name": "roboport",
+        "position": {
+          "x": 5,
+          "y": -14
+        },
+        "request_filters": {
+          "sections": [
+            {
+              "index": 1
+            }
+          ]
+        }
+      },
+      {
+        "entity_number": 161,
+        "name": "roboport",
+        "position": {
+          "x": 5,
+          "y": -4
+        },
+        "request_filters": {
+          "sections": [
+            {
+              "index": 1
+            }
+          ]
+        }
+      },
+      {
+        "entity_number": 162,
+        "name": "roboport",
+        "position": {
+          "x": 6,
+          "y": 50
+        },
+        "request_filters": {
+          "sections": [
+            {
+              "index": 1
+            }
+          ]
+        }
+      },
+      {
+        "control_behavior": {
+          "index_constant": 0,
+          "operation": "select",
+          "select_max": true
+        },
+        "entity_number": 163,
+        "name": "selector-combinator",
+        "position": {
+          "x": 6.5,
+          "y": 5
+        }
+      },
+      {
+        "control_behavior": {
+          "sections": {
+            "sections": [
+              {
+                "filters": [
+                  {
+                    "comparator": "=",
+                    "count": -140,
+                    "import_from": "nauvis",
+                    "index": 1,
+                    "name": "electronic-circuit",
+                    "quality": "uncommon"
+                  },
+                  {
+                    "comparator": "=",
+                    "count": -140,
+                    "import_from": "nauvis",
+                    "index": 2,
+                    "name": "electronic-circuit",
+                    "quality": "rare"
+                  },
+                  {
+                    "comparator": "=",
+                    "count": -140,
+                    "import_from": "nauvis",
+                    "index": 3,
+                    "name": "electronic-circuit",
+                    "quality": "epic"
+                  }
+                ],
+                "index": 1
+              },
+              {
+                "filters": [
+                  {
+                    "comparator": "=",
+                    "count": -90,
+                    "import_from": "nauvis",
+                    "index": 1,
+                    "name": "advanced-circuit",
+                    "quality": "uncommon"
+                  },
+                  {
+                    "comparator": "=",
+                    "count": -90,
+                    "import_from": "nauvis",
+                    "index": 2,
+                    "name": "advanced-circuit",
+                    "quality": "rare"
+                  },
+                  {
+                    "comparator": "=",
+                    "count": -90,
+                    "import_from": "nauvis",
+                    "index": 3,
+                    "name": "advanced-circuit",
+                    "quality": "epic"
+                  }
+                ],
+                "index": 2
+              },
+              {
+                "filters": [
+                  {
+                    "comparator": "=",
+                    "count": -100,
+                    "import_from": "nauvis",
+                    "index": 1,
+                    "name": "processing-unit",
+                    "quality": "uncommon"
+                  },
+                  {
+                    "comparator": "=",
+                    "count": -100,
+                    "import_from": "nauvis",
+                    "index": 2,
+                    "name": "processing-unit",
+                    "quality": "rare"
+                  },
+                  {
+                    "comparator": "=",
+                    "count": -100,
+                    "import_from": "nauvis",
+                    "index": 3,
+                    "name": "processing-unit",
+                    "quality": "epic"
+                  }
+                ],
+                "index": 3
+              },
+              {
+                "filters": [
+                  {
+                    "comparator": "=",
+                    "count": -30,
+                    "import_from": "nauvis",
+                    "index": 1,
+                    "name": "quality-module",
+                    "quality": "uncommon"
+                  },
+                  {
+                    "comparator": "=",
+                    "count": -30,
+                    "import_from": "nauvis",
+                    "index": 2,
+                    "name": "quality-module",
+                    "quality": "rare"
+                  },
+                  {
+                    "comparator": "=",
+                    "count": -30,
+                    "import_from": "nauvis",
+                    "index": 3,
+                    "name": "quality-module",
+                    "quality": "epic"
+                  }
+                ],
+                "index": 4
+              },
+              {
+                "active": false,
+                "filters": [
+                  {
+                    "comparator": "=",
+                    "count": -100,
+                    "import_from": "nauvis",
+                    "index": 1,
+                    "name": "quality-module-2",
+                    "quality": "uncommon"
+                  },
+                  {
+                    "comparator": "=",
+                    "count": -100,
+                    "import_from": "nauvis",
+                    "index": 2,
+                    "name": "quality-module-2",
+                    "quality": "rare"
+                  },
+                  {
+                    "comparator": "=",
+                    "count": -100,
+                    "import_from": "nauvis",
+                    "index": 3,
+                    "name": "quality-module-2",
+                    "quality": "epic"
+                  }
+                ],
+                "index": 5
+              },
+              {
+                "filters": [
+                  {
+                    "comparator": "=",
+                    "count": -10,
+                    "import_from": "nauvis",
+                    "index": 1,
+                    "name": "superconductor",
+                    "quality": "uncommon"
+                  },
+                  {
+                    "comparator": "=",
+                    "count": -10,
+                    "import_from": "nauvis",
+                    "index": 2,
+                    "name": "superconductor",
+                    "quality": "rare"
+                  },
+                  {
+                    "comparator": "=",
+                    "count": -10,
+                    "import_from": "nauvis",
+                    "index": 3,
+                    "name": "superconductor",
+                    "quality": "epic"
+                  }
+                ],
+                "index": 6
+              }
+            ]
+          }
+        },
+        "direction": 4,
+        "entity_number": 164,
+        "name": "constant-combinator",
+        "player_description": "单个电磁厂需求",
+        "position": {
+          "x": 7.5,
+          "y": 35.5
+        }
+      },
+      {
+        "control_behavior": {
+          "sections": {
+            "sections": [
+              {
+                "filters": [
+                  {
+                    "comparator": "=",
+                    "count": 1,
+                    "import_from": "nauvis",
+                    "index": 1,
+                    "name": "electronic-circuit",
+                    "quality": "uncommon"
+                  },
+                  {
+                    "comparator": "=",
+                    "count": 1,
+                    "import_from": "nauvis",
+                    "index": 2,
+                    "name": "electronic-circuit",
+                    "quality": "rare"
+                  },
+                  {
+                    "comparator": "=",
+                    "count": 1,
+                    "import_from": "nauvis",
+                    "index": 3,
+                    "name": "electronic-circuit",
+                    "quality": "epic"
+                  }
+                ],
+                "index": 1,
+                "multiplier": -130
+              },
+              {
+                "filters": [
+                  {
+                    "comparator": "=",
+                    "count": 1,
+                    "import_from": "nauvis",
+                    "index": 1,
+                    "name": "advanced-circuit",
+                    "quality": "uncommon"
+                  },
+                  {
+                    "comparator": "=",
+                    "count": 1,
+                    "import_from": "nauvis",
+                    "index": 2,
+                    "name": "advanced-circuit",
+                    "quality": "rare"
+                  },
+                  {
+                    "comparator": "=",
+                    "count": 1,
+                    "import_from": "nauvis",
+                    "index": 3,
+                    "name": "advanced-circuit",
+                    "quality": "epic"
+                  }
+                ],
+                "index": 2,
+                "multiplier": -84
+              },
+              {
+                "filters": [
+                  {
+                    "comparator": "=",
+                    "count": 1,
+                    "import_from": "nauvis",
+                    "index": 1,
+                    "name": "processing-unit",
+                    "quality": "uncommon"
+                  },
+                  {
+                    "comparator": "=",
+                    "count": 1,
+                    "import_from": "nauvis",
+                    "index": 2,
+                    "name": "processing-unit",
+                    "quality": "rare"
+                  },
+                  {
+                    "comparator": "=",
+                    "count": 1,
+                    "import_from": "nauvis",
+                    "index": 3,
+                    "name": "processing-unit",
+                    "quality": "epic"
+                  }
+                ],
+                "index": 3,
+                "multiplier": -60
+              },
+              {
+                "filters": [
+                  {
+                    "comparator": "=",
+                    "count": 1,
+                    "import_from": "nauvis",
+                    "index": 1,
+                    "name": "quality-module",
+                    "quality": "uncommon"
+                  },
+                  {
+                    "comparator": "=",
+                    "count": 1,
+                    "import_from": "nauvis",
+                    "index": 2,
+                    "name": "quality-module",
+                    "quality": "rare"
+                  },
+                  {
+                    "comparator": "=",
+                    "count": 1,
+                    "import_from": "nauvis",
+                    "index": 3,
+                    "name": "quality-module",
+                    "quality": "epic"
+                  }
+                ],
+                "index": 4,
+                "multiplier": -30
+              },
+              {
+                "filters": [
+                  {
+                    "comparator": "=",
+                    "count": 1,
+                    "import_from": "nauvis",
+                    "index": 1,
+                    "name": "quality-module-2",
+                    "quality": "uncommon"
+                  },
+                  {
+                    "comparator": "=",
+                    "count": 1,
+                    "import_from": "nauvis",
+                    "index": 2,
+                    "name": "quality-module-2",
+                    "quality": "rare"
+                  },
+                  {
+                    "comparator": "=",
+                    "count": 1,
+                    "import_from": "nauvis",
+                    "index": 3,
+                    "name": "quality-module-2",
+                    "quality": "epic"
+                  }
+                ],
+                "index": 5,
+                "multiplier": 30
+              },
+              {
+                "filters": [
+                  {
+                    "comparator": "=",
+                    "count": 1,
+                    "import_from": "nauvis",
+                    "index": 1,
+                    "name": "superconductor",
+                    "quality": "uncommon"
+                  },
+                  {
+                    "comparator": "=",
+                    "count": 1,
+                    "import_from": "nauvis",
+                    "index": 2,
+                    "name": "superconductor",
+                    "quality": "rare"
+                  },
+                  {
+                    "comparator": "=",
+                    "count": 1,
+                    "import_from": "nauvis",
+                    "index": 3,
+                    "name": "superconductor",
+                    "quality": "epic"
+                  }
+                ],
+                "index": 6,
+                "multiplier": 8
+              },
+              {
+                "filters": [
+                  {
+                    "comparator": "=",
+                    "count": -1000000000,
+                    "import_from": "nauvis",
+                    "index": 1,
+                    "name": "quality-module-3",
+                    "quality": "uncommon"
+                  },
+                  {
+                    "comparator": "=",
+                    "count": -1000000000,
+                    "import_from": "nauvis",
+                    "index": 2,
+                    "name": "quality-module-3",
+                    "quality": "rare"
+                  },
+                  {
+                    "comparator": "=",
+                    "count": -1000000000,
+                    "import_from": "nauvis",
+                    "index": 3,
+                    "name": "quality-module-3",
+                    "quality": "epic"
+                  }
+                ],
+                "index": 7
+              },
+              {
+                "filters": [
+                  {
+                    "comparator": "=",
+                    "count": 2147483647,
+                    "import_from": "nauvis",
+                    "index": 1,
+                    "name": "electronic-circuit",
+                    "quality": "uncommon"
+                  },
+                  {
+                    "comparator": "=",
+                    "count": 2147483647,
+                    "import_from": "nauvis",
+                    "index": 2,
+                    "name": "electronic-circuit",
+                    "quality": "rare"
+                  },
+                  {
+                    "comparator": "=",
+                    "count": 2147483647,
+                    "import_from": "nauvis",
+                    "index": 3,
+                    "name": "electronic-circuit",
+                    "quality": "epic"
+                  }
+                ],
+                "index": 8
+              },
+              {
+                "filters": [
+                  {
+                    "comparator": "=",
+                    "count": 2147483647,
+                    "import_from": "nauvis",
+                    "index": 1,
+                    "name": "advanced-circuit",
+                    "quality": "uncommon"
+                  },
+                  {
+                    "comparator": "=",
+                    "count": 2147483647,
+                    "import_from": "nauvis",
+                    "index": 2,
+                    "name": "advanced-circuit",
+                    "quality": "rare"
+                  },
+                  {
+                    "comparator": "=",
+                    "count": 2147483647,
+                    "import_from": "nauvis",
+                    "index": 3,
+                    "name": "advanced-circuit",
+                    "quality": "epic"
+                  }
+                ],
+                "index": 9
+              },
+              {
+                "filters": [
+                  {
+                    "comparator": "=",
+                    "count": 2147483647,
+                    "import_from": "nauvis",
+                    "index": 1,
+                    "name": "processing-unit",
+                    "quality": "uncommon"
+                  },
+                  {
+                    "comparator": "=",
+                    "count": 2147483647,
+                    "import_from": "nauvis",
+                    "index": 2,
+                    "name": "processing-unit",
+                    "quality": "rare"
+                  },
+                  {
+                    "comparator": "=",
+                    "count": 2147483647,
+                    "import_from": "nauvis",
+                    "index": 3,
+                    "name": "processing-unit",
+                    "quality": "epic"
+                  }
+                ],
+                "index": 10
+              },
+              {
+                "filters": [
+                  {
+                    "comparator": "=",
+                    "count": 2147483647,
+                    "import_from": "nauvis",
+                    "index": 1,
+                    "name": "quality-module",
+                    "quality": "uncommon"
+                  },
+                  {
+                    "comparator": "=",
+                    "count": 2147483647,
+                    "import_from": "nauvis",
+                    "index": 2,
+                    "name": "quality-module",
+                    "quality": "rare"
+                  },
+                  {
+                    "comparator": "=",
+                    "count": 2147483647,
+                    "import_from": "nauvis",
+                    "index": 3,
+                    "name": "quality-module",
+                    "quality": "epic"
+                  }
+                ],
+                "index": 11
+              },
+              {
+                "filters": [
+                  {
+                    "comparator": "=",
+                    "count": 2147483647,
+                    "import_from": "nauvis",
+                    "index": 1,
+                    "name": "quality-module-2",
+                    "quality": "uncommon"
+                  },
+                  {
+                    "comparator": "=",
+                    "count": 2147483647,
+                    "import_from": "nauvis",
+                    "index": 2,
+                    "name": "quality-module-2",
+                    "quality": "rare"
+                  },
+                  {
+                    "comparator": "=",
+                    "count": 2147483647,
+                    "import_from": "nauvis",
+                    "index": 3,
+                    "name": "quality-module-2",
+                    "quality": "epic"
+                  }
+                ],
+                "index": 12
+              },
+              {
+                "filters": [
+                  {
+                    "comparator": "=",
+                    "count": 2147483647,
+                    "import_from": "nauvis",
+                    "index": 1,
+                    "name": "superconductor",
+                    "quality": "uncommon"
+                  },
+                  {
+                    "comparator": "=",
+                    "count": 2147483647,
+                    "import_from": "nauvis",
+                    "index": 2,
+                    "name": "superconductor",
+                    "quality": "rare"
+                  },
+                  {
+                    "comparator": "=",
+                    "count": 2147483647,
+                    "import_from": "nauvis",
+                    "index": 3,
+                    "name": "superconductor",
+                    "quality": "epic"
+                  }
+                ],
+                "index": 13
+              },
+              {
+                "filters": [
+                  {
+                    "comparator": "=",
+                    "count": 5000000,
+                    "import_from": "nauvis",
+                    "index": 5,
+                    "name": "quality-module-3",
+                    "quality": "uncommon"
+                  },
+                  {
+                    "comparator": "=",
+                    "count": 6000000,
+                    "import_from": "nauvis",
+                    "index": 6,
+                    "name": "quality-module-2",
+                    "quality": "uncommon"
+                  },
+                  {
+                    "comparator": "=",
+                    "count": 7000000,
+                    "import_from": "nauvis",
+                    "index": 7,
+                    "name": "quality-module",
+                    "quality": "uncommon"
+                  },
+                  {
+                    "comparator": "=",
+                    "count": 8000000,
+                    "import_from": "nauvis",
+                    "index": 8,
+                    "name": "processing-unit",
+                    "quality": "uncommon"
+                  },
+                  {
+                    "comparator": "=",
+                    "count": 9000000,
+                    "import_from": "nauvis",
+                    "index": 11,
+                    "name": "quality-module-3",
+                    "quality": "rare"
+                  },
+                  {
+                    "comparator": "=",
+                    "count": 10000000,
+                    "import_from": "nauvis",
+                    "index": 12,
+                    "name": "quality-module-2",
+                    "quality": "rare"
+                  },
+                  {
+                    "comparator": "=",
+                    "count": 11000000,
+                    "import_from": "nauvis",
+                    "index": 13,
+                    "name": "quality-module",
+                    "quality": "rare"
+                  },
+                  {
+                    "comparator": "=",
+                    "count": 12000000,
+                    "import_from": "nauvis",
+                    "index": 14,
+                    "name": "processing-unit",
+                    "quality": "rare"
+                  },
+                  {
+                    "comparator": "=",
+                    "count": 13000000,
+                    "import_from": "nauvis",
+                    "index": 15,
+                    "name": "quality-module-3",
+                    "quality": "epic"
+                  },
+                  {
+                    "comparator": "=",
+                    "count": 14000000,
+                    "import_from": "nauvis",
+                    "index": 16,
+                    "name": "quality-module-2",
+                    "quality": "epic"
+                  },
+                  {
+                    "comparator": "=",
+                    "count": 15000000,
+                    "import_from": "nauvis",
+                    "index": 17,
+                    "name": "quality-module",
+                    "quality": "epic"
+                  },
+                  {
+                    "comparator": "=",
+                    "count": 16000000,
+                    "import_from": "nauvis",
+                    "index": 18,
+                    "name": "processing-unit",
+                    "quality": "epic"
+                  }
+                ],
+                "index": 14,
+                "multiplier": -1
+              },
+              {
+                "filters": [
+                  {
+                    "comparator": "=",
+                    "count": -1000000000,
+                    "import_from": "nauvis",
+                    "index": 1,
+                    "name": "processing-unit",
+                    "quality": "legendary"
+                  },
+                  {
+                    "comparator": "=",
+                    "count": -1000000000,
+                    "import_from": "nauvis",
+                    "index": 2,
+                    "name": "quality-module",
+                    "quality": "legendary"
+                  },
+                  {
+                    "comparator": "=",
+                    "count": -1000000000,
+                    "import_from": "nauvis",
+                    "index": 3,
+                    "name": "quality-module-2",
+                    "quality": "legendary"
+                  },
+                  {
+                    "comparator": "=",
+                    "count": -1000000000,
+                    "import_from": "nauvis",
+                    "index": 4,
+                    "name": "quality-module-3",
+                    "quality": "legendary"
+                  }
+                ],
+                "index": 15
+              }
+            ]
+          }
+        },
+        "direction": 4,
+        "entity_number": 165,
+        "name": "constant-combinator",
+        "player_description": "供货箱需求。使用数据溢出关闭筛选器。",
+        "position": {
+          "x": 7.5,
+          "y": 37.5
+        }
+      },
+      {
+        "control_behavior": {
+          "sections": {
+            "sections": [
+              {
+                "filters": [
+                  {
+                    "comparator": "=",
+                    "count": -140,
+                    "import_from": "nauvis",
+                    "index": 1,
+                    "name": "electronic-circuit",
+                    "quality": "uncommon"
+                  },
+                  {
+                    "comparator": "=",
+                    "count": -140,
+                    "import_from": "nauvis",
+                    "index": 2,
+                    "name": "electronic-circuit",
+                    "quality": "rare"
+                  },
+                  {
+                    "comparator": "=",
+                    "count": -140,
+                    "import_from": "nauvis",
+                    "index": 3,
+                    "name": "electronic-circuit",
+                    "quality": "epic"
+                  }
+                ],
+                "index": 1
+              },
+              {
+                "filters": [
+                  {
+                    "comparator": "=",
+                    "count": -90,
+                    "import_from": "nauvis",
+                    "index": 1,
+                    "name": "advanced-circuit",
+                    "quality": "uncommon"
+                  },
+                  {
+                    "comparator": "=",
+                    "count": -90,
+                    "import_from": "nauvis",
+                    "index": 2,
+                    "name": "advanced-circuit",
+                    "quality": "rare"
+                  },
+                  {
+                    "comparator": "=",
+                    "count": -90,
+                    "import_from": "nauvis",
+                    "index": 3,
+                    "name": "advanced-circuit",
+                    "quality": "epic"
+                  }
+                ],
+                "index": 2
+              },
+              {
+                "filters": [
+                  {
+                    "comparator": "=",
+                    "count": -100,
+                    "import_from": "nauvis",
+                    "index": 1,
+                    "name": "processing-unit",
+                    "quality": "uncommon"
+                  },
+                  {
+                    "comparator": "=",
+                    "count": -100,
+                    "import_from": "nauvis",
+                    "index": 2,
+                    "name": "processing-unit",
+                    "quality": "rare"
+                  },
+                  {
+                    "comparator": "=",
+                    "count": -100,
+                    "import_from": "nauvis",
+                    "index": 3,
+                    "name": "processing-unit",
+                    "quality": "epic"
+                  }
+                ],
+                "index": 3
+              },
+              {
+                "filters": [
+                  {
+                    "comparator": "=",
+                    "count": -30,
+                    "import_from": "nauvis",
+                    "index": 1,
+                    "name": "quality-module",
+                    "quality": "uncommon"
+                  },
+                  {
+                    "comparator": "=",
+                    "count": -30,
+                    "import_from": "nauvis",
+                    "index": 2,
+                    "name": "quality-module",
+                    "quality": "rare"
+                  },
+                  {
+                    "comparator": "=",
+                    "count": -30,
+                    "import_from": "nauvis",
+                    "index": 3,
+                    "name": "quality-module",
+                    "quality": "epic"
+                  }
+                ],
+                "index": 4
+              },
+              {
+                "active": false,
+                "filters": [
+                  {
+                    "comparator": "=",
+                    "count": -100,
+                    "import_from": "nauvis",
+                    "index": 1,
+                    "name": "quality-module-2",
+                    "quality": "uncommon"
+                  },
+                  {
+                    "comparator": "=",
+                    "count": -100,
+                    "import_from": "nauvis",
+                    "index": 2,
+                    "name": "quality-module-2",
+                    "quality": "rare"
+                  },
+                  {
+                    "comparator": "=",
+                    "count": -100,
+                    "import_from": "nauvis",
+                    "index": 3,
+                    "name": "quality-module-2",
+                    "quality": "epic"
+                  }
+                ],
+                "index": 5
+              },
+              {
+                "filters": [
+                  {
+                    "comparator": "=",
+                    "count": -10,
+                    "import_from": "nauvis",
+                    "index": 1,
+                    "name": "superconductor",
+                    "quality": "uncommon"
+                  },
+                  {
+                    "comparator": "=",
+                    "count": -10,
+                    "import_from": "nauvis",
+                    "index": 2,
+                    "name": "superconductor",
+                    "quality": "rare"
+                  },
+                  {
+                    "comparator": "=",
+                    "count": -10,
+                    "import_from": "nauvis",
+                    "index": 3,
+                    "name": "superconductor",
+                    "quality": "epic"
+                  }
+                ],
+                "index": 6
+              }
+            ]
+          }
+        },
+        "direction": 4,
+        "entity_number": 166,
+        "name": "constant-combinator",
+        "player_description": "单个电磁厂需求",
+        "position": {
+          "x": 7.5,
+          "y": 41.5
+        }
+      },
+      {
+        "control_behavior": {
+          "operation": "quality-filter",
+          "quality_filter": {
+            "comparator": "≠",
+            "quality": "uncommon"
+          }
+        },
+        "direction": 8,
+        "entity_number": 167,
+        "name": "selector-combinator",
+        "player_description": "过滤出三色板产线对绿铜丝的需求信号",
+        "position": {
+          "x": 8.5,
+          "y": 11
+        }
+      },
+      {
+        "control_behavior": {
+          "index_constant": 0,
+          "operation": "select",
+          "select_max": true
+        },
+        "direction": 8,
+        "entity_number": 168,
+        "name": "selector-combinator",
+        "player_description": "选择更大的信号，用于信号覆盖",
+        "position": {
+          "x": 8.5,
+          "y": 30
+        }
+      },
+      {
+        "control_behavior": {
+          "index_constant": 0,
+          "operation": "select",
+          "select_max": true
+        },
+        "entity_number": 169,
+        "name": "selector-combinator",
+        "player_description": "选择更大的信号，用于信号覆盖",
+        "position": {
+          "x": 8.5,
+          "y": 47
+        }
+      },
+      {
+        "control_behavior": {
+          "sections": {
+            "sections": [
+              {
+                "active": false,
+                "filters": [
+                  {
+                    "comparator": "=",
+                    "count": -1000000000,
+                    "import_from": "nauvis",
+                    "index": 1,
+                    "name": "processing-unit",
+                    "quality": "uncommon"
+                  },
+                  {
+                    "comparator": "=",
+                    "count": -1000000000,
+                    "import_from": "nauvis",
+                    "index": 2,
+                    "name": "processing-unit",
+                    "quality": "rare"
+                  },
+                  {
+                    "comparator": "=",
+                    "count": -1000000000,
+                    "import_from": "nauvis",
+                    "index": 3,
+                    "name": "processing-unit",
+                    "quality": "epic"
+                  }
+                ],
+                "index": 1
+              },
+              {
+                "active": false,
+                "filters": [
+                  {
+                    "comparator": "=",
+                    "count": -1000000000,
+                    "import_from": "nauvis",
+                    "index": 1,
+                    "name": "quality-module",
+                    "quality": "uncommon"
+                  },
+                  {
+                    "comparator": "=",
+                    "count": -1000000000,
+                    "import_from": "nauvis",
+                    "index": 2,
+                    "name": "quality-module",
+                    "quality": "rare"
+                  },
+                  {
+                    "comparator": "=",
+                    "count": -1000000000,
+                    "import_from": "nauvis",
+                    "index": 3,
+                    "name": "quality-module",
+                    "quality": "epic"
+                  }
+                ],
+                "index": 2
+              },
+              {
+                "active": false,
+                "filters": [
+                  {
+                    "comparator": "=",
+                    "count": -1000000000,
+                    "import_from": "nauvis",
+                    "index": 1,
+                    "name": "quality-module-2",
+                    "quality": "uncommon"
+                  },
+                  {
+                    "comparator": "=",
+                    "count": -1000000000,
+                    "import_from": "nauvis",
+                    "index": 2,
+                    "name": "quality-module-2",
+                    "quality": "rare"
+                  },
+                  {
+                    "comparator": "=",
+                    "count": -1000000000,
+                    "import_from": "nauvis",
+                    "index": 3,
+                    "name": "quality-module-2",
+                    "quality": "epic"
+                  }
+                ],
+                "index": 3
+              }
+            ]
+          }
+        },
+        "direction": 8,
+        "entity_number": 170,
+        "name": "constant-combinator",
+        "player_description": "打开物流组以禁止合成此组物品",
+        "position": {
+          "x": 10.5,
+          "y": 31.5
+        }
+      },
+      {
+        "control_behavior": {
+          "sections": {
+            "sections": [
+              {
+                "active": false,
+                "filters": [
+                  {
+                    "comparator": "=",
+                    "count": -1000000000,
+                    "import_from": "nauvis",
+                    "index": 1,
+                    "name": "processing-unit",
+                    "quality": "uncommon"
+                  },
+                  {
+                    "comparator": "=",
+                    "count": -1000000000,
+                    "import_from": "nauvis",
+                    "index": 2,
+                    "name": "processing-unit",
+                    "quality": "rare"
+                  },
+                  {
+                    "comparator": "=",
+                    "count": -1000000000,
+                    "import_from": "nauvis",
+                    "index": 3,
+                    "name": "processing-unit",
+                    "quality": "epic"
+                  }
+                ],
+                "index": 1
+              },
+              {
+                "active": false,
+                "filters": [
+                  {
+                    "comparator": "=",
+                    "count": -1000000000,
+                    "import_from": "nauvis",
+                    "index": 1,
+                    "name": "quality-module",
+                    "quality": "uncommon"
+                  },
+                  {
+                    "comparator": "=",
+                    "count": -1000000000,
+                    "import_from": "nauvis",
+                    "index": 2,
+                    "name": "quality-module",
+                    "quality": "rare"
+                  },
+                  {
+                    "comparator": "=",
+                    "count": -1000000000,
+                    "import_from": "nauvis",
+                    "index": 3,
+                    "name": "quality-module",
+                    "quality": "epic"
+                  }
+                ],
+                "index": 2
+              },
+              {
+                "active": false,
+                "filters": [
+                  {
+                    "comparator": "=",
+                    "count": -1000000000,
+                    "import_from": "nauvis",
+                    "index": 1,
+                    "name": "quality-module-2",
+                    "quality": "uncommon"
+                  },
+                  {
+                    "comparator": "=",
+                    "count": -1000000000,
+                    "import_from": "nauvis",
+                    "index": 2,
+                    "name": "quality-module-2",
+                    "quality": "rare"
+                  },
+                  {
+                    "comparator": "=",
+                    "count": -1000000000,
+                    "import_from": "nauvis",
+                    "index": 3,
+                    "name": "quality-module-2",
+                    "quality": "epic"
+                  }
+                ],
+                "index": 3
+              }
+            ]
+          }
+        },
+        "direction": 8,
+        "entity_number": 171,
+        "name": "constant-combinator",
+        "player_description": "打开物流组以禁止合成此组物品",
+        "position": {
+          "x": 10.5,
+          "y": 32.5
+        }
+      },
+      {
+        "entity_number": 172,
+        "items": [
+          {
+            "id": {
+              "name": "speed-module",
+              "quality": "legendary"
+            },
+            "items": {
+              "in_inventory": [
+                {
+                  "inventory": 1,
+                  "stack": 0
+                },
+                {
+                  "inventory": 1,
+                  "stack": 1
+                }
+              ]
+            }
+          }
+        ],
+        "name": "beacon",
+        "position": {
+          "x": 10.5,
+          "y": 38.5
+        }
+      },
+      {
+        "control_behavior": {
+          "sections": {
+            "sections": [
+              {
+                "active": false,
+                "filters": [
+                  {
+                    "comparator": "=",
+                    "count": -1000000000,
+                    "import_from": "nauvis",
+                    "index": 1,
+                    "name": "processing-unit",
+                    "quality": "uncommon"
+                  },
+                  {
+                    "comparator": "=",
+                    "count": -1000000000,
+                    "import_from": "nauvis",
+                    "index": 2,
+                    "name": "processing-unit",
+                    "quality": "rare"
+                  },
+                  {
+                    "comparator": "=",
+                    "count": -1000000000,
+                    "import_from": "nauvis",
+                    "index": 3,
+                    "name": "processing-unit",
+                    "quality": "epic"
+                  }
+                ],
+                "index": 1
+              },
+              {
+                "active": false,
+                "filters": [
+                  {
+                    "comparator": "=",
+                    "count": -1000000000,
+                    "import_from": "nauvis",
+                    "index": 1,
+                    "name": "quality-module",
+                    "quality": "uncommon"
+                  },
+                  {
+                    "comparator": "=",
+                    "count": -1000000000,
+                    "import_from": "nauvis",
+                    "index": 2,
+                    "name": "quality-module",
+                    "quality": "rare"
+                  },
+                  {
+                    "comparator": "=",
+                    "count": -1000000000,
+                    "import_from": "nauvis",
+                    "index": 3,
+                    "name": "quality-module",
+                    "quality": "epic"
+                  }
+                ],
+                "index": 2
+              },
+              {
+                "active": false,
+                "filters": [
+                  {
+                    "comparator": "=",
+                    "count": -1000000000,
+                    "import_from": "nauvis",
+                    "index": 1,
+                    "name": "quality-module-2",
+                    "quality": "uncommon"
+                  },
+                  {
+                    "comparator": "=",
+                    "count": -1000000000,
+                    "import_from": "nauvis",
+                    "index": 2,
+                    "name": "quality-module-2",
+                    "quality": "rare"
+                  },
+                  {
+                    "comparator": "=",
+                    "count": -1000000000,
+                    "import_from": "nauvis",
+                    "index": 3,
+                    "name": "quality-module-2",
+                    "quality": "epic"
+                  }
+                ],
+                "index": 3
+              }
+            ]
+          }
+        },
+        "entity_number": 173,
+        "name": "constant-combinator",
+        "player_description": "打开物流组以禁止合成此组物品",
+        "position": {
+          "x": 10.5,
+          "y": 45.5
+        }
+      },
+      {
+        "control_behavior": {
+          "index_constant": 0,
+          "operation": "select",
+          "select_max": true
+        },
+        "direction": 12,
+        "entity_number": 174,
+        "name": "selector-combinator",
+        "position": {
+          "x": 11,
+          "y": 10.5
+        }
+      },
+      {
+        "control_behavior": {
+          "read_contents": true,
+          "read_recipe_finished": true,
+          "recipe_finished_signal": {
+            "name": "signal-check",
+            "type": "virtual"
+          },
+          "set_recipe": true
+        },
+        "direction": 4,
+        "entity_number": 175,
+        "items": [
+          {
+            "id": {
+              "name": "quality-module-3",
+              "quality": "uncommon"
+            },
+            "items": {
+              "in_inventory": [
+                {
+                  "inventory": 4,
+                  "stack": 0
+                },
+                {
+                  "inventory": 4,
+                  "stack": 1
+                },
+                {
+                  "inventory": 4,
+                  "stack": 2
+                },
+                {
+                  "inventory": 4,
+                  "stack": 3
+                },
+                {
+                  "inventory": 4,
+                  "stack": 4
+                }
+              ]
+            }
+          }
+        ],
+        "name": "electromagnetic-plant",
+        "position": {
+          "x": 11,
+          "y": 20
+        },
+        "recipe": "teslagun",
+        "recipe_quality": "normal"
+      },
+      {
+        "control_behavior": {
+          "include_in_crafting": false,
+          "input_networks": {
+            "green": false,
+            "red": true
+          },
+          "output_networks": {
+            "green": true,
+            "red": false
+          },
+          "read_contents": true,
+          "read_recipe_finished": true,
+          "recipe_finished_signal": {
+            "name": "signal-check",
+            "type": "virtual"
+          },
+          "set_recipe": true
+        },
+        "direction": 12,
+        "entity_number": 176,
+        "items": [
+          {
+            "id": {
+              "name": "quality-module-3",
+              "quality": "uncommon"
+            },
+            "items": {
+              "in_inventory": [
+                {
+                  "inventory": 4,
+                  "stack": 0
+                },
+                {
+                  "inventory": 4,
+                  "stack": 1
+                },
+                {
+                  "inventory": 4,
+                  "stack": 2
+                },
+                {
+                  "inventory": 4,
+                  "stack": 3
+                },
+                {
+                  "inventory": 4,
+                  "stack": 4
+                }
+              ]
+            }
+          }
+        ],
+        "mirror": true,
+        "name": "electromagnetic-plant",
+        "position": {
+          "x": 11,
+          "y": 24
+        },
+        "recipe": "teslagun",
+        "recipe_quality": "normal"
+      },
+      {
+        "control_behavior": {
+          "index_constant": 0,
+          "operation": "select",
+          "select_max": true
+        },
+        "direction": 12,
+        "entity_number": 177,
+        "name": "selector-combinator",
+        "player_description": "选择更大的信号，用于信号覆盖",
+        "position": {
+          "x": 11,
+          "y": 27.5
+        }
+      },
+      {
+        "control_behavior": {
+          "sections": {
+            "sections": [
+              {
+                "active": false,
+                "filters": [
+                  {
+                    "comparator": "=",
+                    "count": -1000000000,
+                    "import_from": "nauvis",
+                    "index": 1,
+                    "name": "processing-unit",
+                    "quality": "uncommon"
+                  },
+                  {
+                    "comparator": "=",
+                    "count": -1000000000,
+                    "import_from": "nauvis",
+                    "index": 2,
+                    "name": "processing-unit",
+                    "quality": "rare"
+                  },
+                  {
+                    "comparator": "=",
+                    "count": -1000000000,
+                    "import_from": "nauvis",
+                    "index": 3,
+                    "name": "processing-unit",
+                    "quality": "epic"
+                  }
+                ],
+                "index": 1
+              },
+              {
+                "active": false,
+                "filters": [
+                  {
+                    "comparator": "=",
+                    "count": -1000000000,
+                    "import_from": "nauvis",
+                    "index": 1,
+                    "name": "quality-module",
+                    "quality": "uncommon"
+                  },
+                  {
+                    "comparator": "=",
+                    "count": -1000000000,
+                    "import_from": "nauvis",
+                    "index": 2,
+                    "name": "quality-module",
+                    "quality": "rare"
+                  },
+                  {
+                    "comparator": "=",
+                    "count": -1000000000,
+                    "import_from": "nauvis",
+                    "index": 3,
+                    "name": "quality-module",
+                    "quality": "epic"
+                  }
+                ],
+                "index": 2
+              },
+              {
+                "active": false,
+                "filters": [
+                  {
+                    "comparator": "=",
+                    "count": -1000000000,
+                    "import_from": "nauvis",
+                    "index": 1,
+                    "name": "quality-module-2",
+                    "quality": "uncommon"
+                  },
+                  {
+                    "comparator": "=",
+                    "count": -1000000000,
+                    "import_from": "nauvis",
+                    "index": 2,
+                    "name": "quality-module-2",
+                    "quality": "rare"
+                  },
+                  {
+                    "comparator": "=",
+                    "count": -1000000000,
+                    "import_from": "nauvis",
+                    "index": 3,
+                    "name": "quality-module-2",
+                    "quality": "epic"
+                  }
+                ],
+                "index": 3
+              }
+            ]
+          }
+        },
+        "entity_number": 178,
+        "name": "constant-combinator",
+        "player_description": "打开物流组以禁止合成此组物品",
+        "position": {
+          "x": 11.5,
+          "y": 41.5
+        }
+      },
+      {
+        "control_behavior": {
+          "index_constant": 0,
+          "operation": "select",
+          "select_max": true
+        },
+        "direction": 8,
+        "entity_number": 179,
+        "name": "selector-combinator",
+        "player_description": "选择更大的信号，用于信号覆盖",
+        "position": {
+          "x": 12.5,
+          "y": 30
+        }
+      },
+      {
+        "control_behavior": {
+          "index_constant": 0,
+          "operation": "select",
+          "select_max": true
+        },
+        "entity_number": 180,
+        "name": "selector-combinator",
+        "player_description": "选择更大的信号，用于信号覆盖",
+        "position": {
+          "x": 12.5,
+          "y": 47
+        }
+      },
+      {
+        "control_behavior": {
+          "sections": {
+            "sections": [
+              {
+                "filters": [
+                  {
+                    "comparator": "=",
+                    "count": -140,
+                    "import_from": "nauvis",
+                    "index": 1,
+                    "name": "electronic-circuit",
+                    "quality": "uncommon"
+                  },
+                  {
+                    "comparator": "=",
+                    "count": -140,
+                    "import_from": "nauvis",
+                    "index": 2,
+                    "name": "electronic-circuit",
+                    "quality": "rare"
+                  },
+                  {
+                    "comparator": "=",
+                    "count": -140,
+                    "import_from": "nauvis",
+                    "index": 3,
+                    "name": "electronic-circuit",
+                    "quality": "epic"
+                  }
+                ],
+                "index": 1
+              },
+              {
+                "filters": [
+                  {
+                    "comparator": "=",
+                    "count": -90,
+                    "import_from": "nauvis",
+                    "index": 1,
+                    "name": "advanced-circuit",
+                    "quality": "uncommon"
+                  },
+                  {
+                    "comparator": "=",
+                    "count": -90,
+                    "import_from": "nauvis",
+                    "index": 2,
+                    "name": "advanced-circuit",
+                    "quality": "rare"
+                  },
+                  {
+                    "comparator": "=",
+                    "count": -90,
+                    "import_from": "nauvis",
+                    "index": 3,
+                    "name": "advanced-circuit",
+                    "quality": "epic"
+                  }
+                ],
+                "index": 2
+              },
+              {
+                "filters": [
+                  {
+                    "comparator": "=",
+                    "count": -100,
+                    "import_from": "nauvis",
+                    "index": 1,
+                    "name": "processing-unit",
+                    "quality": "uncommon"
+                  },
+                  {
+                    "comparator": "=",
+                    "count": -100,
+                    "import_from": "nauvis",
+                    "index": 2,
+                    "name": "processing-unit",
+                    "quality": "rare"
+                  },
+                  {
+                    "comparator": "=",
+                    "count": -100,
+                    "import_from": "nauvis",
+                    "index": 3,
+                    "name": "processing-unit",
+                    "quality": "epic"
+                  }
+                ],
+                "index": 3
+              },
+              {
+                "filters": [
+                  {
+                    "comparator": "=",
+                    "count": -30,
+                    "import_from": "nauvis",
+                    "index": 1,
+                    "name": "quality-module",
+                    "quality": "uncommon"
+                  },
+                  {
+                    "comparator": "=",
+                    "count": -30,
+                    "import_from": "nauvis",
+                    "index": 2,
+                    "name": "quality-module",
+                    "quality": "rare"
+                  },
+                  {
+                    "comparator": "=",
+                    "count": -30,
+                    "import_from": "nauvis",
+                    "index": 3,
+                    "name": "quality-module",
+                    "quality": "epic"
+                  }
+                ],
+                "index": 4
+              },
+              {
+                "active": false,
+                "filters": [
+                  {
+                    "comparator": "=",
+                    "count": -100,
+                    "import_from": "nauvis",
+                    "index": 1,
+                    "name": "quality-module-2",
+                    "quality": "uncommon"
+                  },
+                  {
+                    "comparator": "=",
+                    "count": -100,
+                    "import_from": "nauvis",
+                    "index": 2,
+                    "name": "quality-module-2",
+                    "quality": "rare"
+                  },
+                  {
+                    "comparator": "=",
+                    "count": -100,
+                    "import_from": "nauvis",
+                    "index": 3,
+                    "name": "quality-module-2",
+                    "quality": "epic"
+                  }
+                ],
+                "index": 5
+              },
+              {
+                "filters": [
+                  {
+                    "comparator": "=",
+                    "count": -10,
+                    "import_from": "nauvis",
+                    "index": 1,
+                    "name": "superconductor",
+                    "quality": "uncommon"
+                  },
+                  {
+                    "comparator": "=",
+                    "count": -10,
+                    "import_from": "nauvis",
+                    "index": 2,
+                    "name": "superconductor",
+                    "quality": "rare"
+                  },
+                  {
+                    "comparator": "=",
+                    "count": -10,
+                    "import_from": "nauvis",
+                    "index": 3,
+                    "name": "superconductor",
+                    "quality": "epic"
+                  }
+                ],
+                "index": 6
+              }
+            ]
+          }
+        },
+        "direction": 4,
+        "entity_number": 181,
+        "name": "constant-combinator",
+        "player_description": "单个电磁厂需求",
+        "position": {
+          "x": 13.5,
+          "y": 35.5
+        }
+      },
+      {
+        "control_behavior": {
+          "sections": {
+            "sections": [
+              {
+                "filters": [
+                  {
+                    "comparator": "=",
+                    "count": 1,
+                    "import_from": "nauvis",
+                    "index": 1,
+                    "name": "electronic-circuit",
+                    "quality": "uncommon"
+                  },
+                  {
+                    "comparator": "=",
+                    "count": 1,
+                    "import_from": "nauvis",
+                    "index": 2,
+                    "name": "electronic-circuit",
+                    "quality": "rare"
+                  },
+                  {
+                    "comparator": "=",
+                    "count": 1,
+                    "import_from": "nauvis",
+                    "index": 3,
+                    "name": "electronic-circuit",
+                    "quality": "epic"
+                  }
+                ],
+                "index": 1,
+                "multiplier": -130
+              },
+              {
+                "filters": [
+                  {
+                    "comparator": "=",
+                    "count": 1,
+                    "import_from": "nauvis",
+                    "index": 1,
+                    "name": "advanced-circuit",
+                    "quality": "uncommon"
+                  },
+                  {
+                    "comparator": "=",
+                    "count": 1,
+                    "import_from": "nauvis",
+                    "index": 2,
+                    "name": "advanced-circuit",
+                    "quality": "rare"
+                  },
+                  {
+                    "comparator": "=",
+                    "count": 1,
+                    "import_from": "nauvis",
+                    "index": 3,
+                    "name": "advanced-circuit",
+                    "quality": "epic"
+                  }
+                ],
+                "index": 2,
+                "multiplier": -84
+              },
+              {
+                "filters": [
+                  {
+                    "comparator": "=",
+                    "count": 1,
+                    "import_from": "nauvis",
+                    "index": 1,
+                    "name": "processing-unit",
+                    "quality": "uncommon"
+                  },
+                  {
+                    "comparator": "=",
+                    "count": 1,
+                    "import_from": "nauvis",
+                    "index": 2,
+                    "name": "processing-unit",
+                    "quality": "rare"
+                  },
+                  {
+                    "comparator": "=",
+                    "count": 1,
+                    "import_from": "nauvis",
+                    "index": 3,
+                    "name": "processing-unit",
+                    "quality": "epic"
+                  }
+                ],
+                "index": 3,
+                "multiplier": -60
+              },
+              {
+                "filters": [
+                  {
+                    "comparator": "=",
+                    "count": 1,
+                    "import_from": "nauvis",
+                    "index": 1,
+                    "name": "quality-module",
+                    "quality": "uncommon"
+                  },
+                  {
+                    "comparator": "=",
+                    "count": 1,
+                    "import_from": "nauvis",
+                    "index": 2,
+                    "name": "quality-module",
+                    "quality": "rare"
+                  },
+                  {
+                    "comparator": "=",
+                    "count": 1,
+                    "import_from": "nauvis",
+                    "index": 3,
+                    "name": "quality-module",
+                    "quality": "epic"
+                  }
+                ],
+                "index": 4,
+                "multiplier": -30
+              },
+              {
+                "filters": [
+                  {
+                    "comparator": "=",
+                    "count": 1,
+                    "import_from": "nauvis",
+                    "index": 1,
+                    "name": "quality-module-2",
+                    "quality": "uncommon"
+                  },
+                  {
+                    "comparator": "=",
+                    "count": 1,
+                    "import_from": "nauvis",
+                    "index": 2,
+                    "name": "quality-module-2",
+                    "quality": "rare"
+                  },
+                  {
+                    "comparator": "=",
+                    "count": 1,
+                    "import_from": "nauvis",
+                    "index": 3,
+                    "name": "quality-module-2",
+                    "quality": "epic"
+                  }
+                ],
+                "index": 5,
+                "multiplier": 30
+              },
+              {
+                "filters": [
+                  {
+                    "comparator": "=",
+                    "count": 1,
+                    "import_from": "nauvis",
+                    "index": 1,
+                    "name": "superconductor",
+                    "quality": "uncommon"
+                  },
+                  {
+                    "comparator": "=",
+                    "count": 1,
+                    "import_from": "nauvis",
+                    "index": 2,
+                    "name": "superconductor",
+                    "quality": "rare"
+                  },
+                  {
+                    "comparator": "=",
+                    "count": 1,
+                    "import_from": "nauvis",
+                    "index": 3,
+                    "name": "superconductor",
+                    "quality": "epic"
+                  }
+                ],
+                "index": 6,
+                "multiplier": 8
+              },
+              {
+                "filters": [
+                  {
+                    "comparator": "=",
+                    "count": -1000000000,
+                    "import_from": "nauvis",
+                    "index": 1,
+                    "name": "quality-module-3",
+                    "quality": "uncommon"
+                  },
+                  {
+                    "comparator": "=",
+                    "count": -1000000000,
+                    "import_from": "nauvis",
+                    "index": 2,
+                    "name": "quality-module-3",
+                    "quality": "rare"
+                  },
+                  {
+                    "comparator": "=",
+                    "count": -1000000000,
+                    "import_from": "nauvis",
+                    "index": 3,
+                    "name": "quality-module-3",
+                    "quality": "epic"
+                  }
+                ],
+                "index": 7
+              },
+              {
+                "filters": [
+                  {
+                    "comparator": "=",
+                    "count": 2147483647,
+                    "import_from": "nauvis",
+                    "index": 1,
+                    "name": "electronic-circuit",
+                    "quality": "uncommon"
+                  },
+                  {
+                    "comparator": "=",
+                    "count": 2147483647,
+                    "import_from": "nauvis",
+                    "index": 2,
+                    "name": "electronic-circuit",
+                    "quality": "rare"
+                  },
+                  {
+                    "comparator": "=",
+                    "count": 2147483647,
+                    "import_from": "nauvis",
+                    "index": 3,
+                    "name": "electronic-circuit",
+                    "quality": "epic"
+                  }
+                ],
+                "index": 8
+              },
+              {
+                "filters": [
+                  {
+                    "comparator": "=",
+                    "count": 2147483647,
+                    "import_from": "nauvis",
+                    "index": 1,
+                    "name": "advanced-circuit",
+                    "quality": "uncommon"
+                  },
+                  {
+                    "comparator": "=",
+                    "count": 2147483647,
+                    "import_from": "nauvis",
+                    "index": 2,
+                    "name": "advanced-circuit",
+                    "quality": "rare"
+                  },
+                  {
+                    "comparator": "=",
+                    "count": 2147483647,
+                    "import_from": "nauvis",
+                    "index": 3,
+                    "name": "advanced-circuit",
+                    "quality": "epic"
+                  }
+                ],
+                "index": 9
+              },
+              {
+                "filters": [
+                  {
+                    "comparator": "=",
+                    "count": 2147483647,
+                    "import_from": "nauvis",
+                    "index": 1,
+                    "name": "processing-unit",
+                    "quality": "uncommon"
+                  },
+                  {
+                    "comparator": "=",
+                    "count": 2147483647,
+                    "import_from": "nauvis",
+                    "index": 2,
+                    "name": "processing-unit",
+                    "quality": "rare"
+                  },
+                  {
+                    "comparator": "=",
+                    "count": 2147483647,
+                    "import_from": "nauvis",
+                    "index": 3,
+                    "name": "processing-unit",
+                    "quality": "epic"
+                  }
+                ],
+                "index": 10
+              },
+              {
+                "filters": [
+                  {
+                    "comparator": "=",
+                    "count": 2147483647,
+                    "import_from": "nauvis",
+                    "index": 1,
+                    "name": "quality-module",
+                    "quality": "uncommon"
+                  },
+                  {
+                    "comparator": "=",
+                    "count": 2147483647,
+                    "import_from": "nauvis",
+                    "index": 2,
+                    "name": "quality-module",
+                    "quality": "rare"
+                  },
+                  {
+                    "comparator": "=",
+                    "count": 2147483647,
+                    "import_from": "nauvis",
+                    "index": 3,
+                    "name": "quality-module",
+                    "quality": "epic"
+                  }
+                ],
+                "index": 11
+              },
+              {
+                "filters": [
+                  {
+                    "comparator": "=",
+                    "count": 2147483647,
+                    "import_from": "nauvis",
+                    "index": 1,
+                    "name": "quality-module-2",
+                    "quality": "uncommon"
+                  },
+                  {
+                    "comparator": "=",
+                    "count": 2147483647,
+                    "import_from": "nauvis",
+                    "index": 2,
+                    "name": "quality-module-2",
+                    "quality": "rare"
+                  },
+                  {
+                    "comparator": "=",
+                    "count": 2147483647,
+                    "import_from": "nauvis",
+                    "index": 3,
+                    "name": "quality-module-2",
+                    "quality": "epic"
+                  }
+                ],
+                "index": 12
+              },
+              {
+                "filters": [
+                  {
+                    "comparator": "=",
+                    "count": 2147483647,
+                    "import_from": "nauvis",
+                    "index": 1,
+                    "name": "superconductor",
+                    "quality": "uncommon"
+                  },
+                  {
+                    "comparator": "=",
+                    "count": 2147483647,
+                    "import_from": "nauvis",
+                    "index": 2,
+                    "name": "superconductor",
+                    "quality": "rare"
+                  },
+                  {
+                    "comparator": "=",
+                    "count": 2147483647,
+                    "import_from": "nauvis",
+                    "index": 3,
+                    "name": "superconductor",
+                    "quality": "epic"
+                  }
+                ],
+                "index": 13
+              },
+              {
+                "filters": [
+                  {
+                    "comparator": "=",
+                    "count": 5000000,
+                    "import_from": "nauvis",
+                    "index": 5,
+                    "name": "quality-module-3",
+                    "quality": "uncommon"
+                  },
+                  {
+                    "comparator": "=",
+                    "count": 6000000,
+                    "import_from": "nauvis",
+                    "index": 6,
+                    "name": "quality-module-2",
+                    "quality": "uncommon"
+                  },
+                  {
+                    "comparator": "=",
+                    "count": 7000000,
+                    "import_from": "nauvis",
+                    "index": 7,
+                    "name": "quality-module",
+                    "quality": "uncommon"
+                  },
+                  {
+                    "comparator": "=",
+                    "count": 8000000,
+                    "import_from": "nauvis",
+                    "index": 8,
+                    "name": "processing-unit",
+                    "quality": "uncommon"
+                  },
+                  {
+                    "comparator": "=",
+                    "count": 9000000,
+                    "import_from": "nauvis",
+                    "index": 11,
+                    "name": "quality-module-3",
+                    "quality": "rare"
+                  },
+                  {
+                    "comparator": "=",
+                    "count": 10000000,
+                    "import_from": "nauvis",
+                    "index": 12,
+                    "name": "quality-module-2",
+                    "quality": "rare"
+                  },
+                  {
+                    "comparator": "=",
+                    "count": 11000000,
+                    "import_from": "nauvis",
+                    "index": 13,
+                    "name": "quality-module",
+                    "quality": "rare"
+                  },
+                  {
+                    "comparator": "=",
+                    "count": 12000000,
+                    "import_from": "nauvis",
+                    "index": 14,
+                    "name": "processing-unit",
+                    "quality": "rare"
+                  },
+                  {
+                    "comparator": "=",
+                    "count": 13000000,
+                    "import_from": "nauvis",
+                    "index": 15,
+                    "name": "quality-module-3",
+                    "quality": "epic"
+                  },
+                  {
+                    "comparator": "=",
+                    "count": 14000000,
+                    "import_from": "nauvis",
+                    "index": 16,
+                    "name": "quality-module-2",
+                    "quality": "epic"
+                  },
+                  {
+                    "comparator": "=",
+                    "count": 15000000,
+                    "import_from": "nauvis",
+                    "index": 17,
+                    "name": "quality-module",
+                    "quality": "epic"
+                  },
+                  {
+                    "comparator": "=",
+                    "count": 16000000,
+                    "import_from": "nauvis",
+                    "index": 18,
+                    "name": "processing-unit",
+                    "quality": "epic"
+                  }
+                ],
+                "index": 14,
+                "multiplier": -1
+              },
+              {
+                "filters": [
+                  {
+                    "comparator": "=",
+                    "count": -1000000000,
+                    "import_from": "nauvis",
+                    "index": 1,
+                    "name": "processing-unit",
+                    "quality": "legendary"
+                  },
+                  {
+                    "comparator": "=",
+                    "count": -1000000000,
+                    "import_from": "nauvis",
+                    "index": 2,
+                    "name": "quality-module",
+                    "quality": "legendary"
+                  },
+                  {
+                    "comparator": "=",
+                    "count": -1000000000,
+                    "import_from": "nauvis",
+                    "index": 3,
+                    "name": "quality-module-2",
+                    "quality": "legendary"
+                  },
+                  {
+                    "comparator": "=",
+                    "count": -1000000000,
+                    "import_from": "nauvis",
+                    "index": 4,
+                    "name": "quality-module-3",
+                    "quality": "legendary"
+                  }
+                ],
+                "index": 15
+              }
+            ]
+          }
+        },
+        "direction": 4,
+        "entity_number": 182,
+        "name": "constant-combinator",
+        "player_description": "供货箱需求。使用数据溢出关闭筛选器。",
+        "position": {
+          "x": 13.5,
+          "y": 37.5
+        }
+      },
+      {
+        "control_behavior": {
+          "sections": {
+            "sections": [
+              {
+                "filters": [
+                  {
+                    "comparator": "=",
+                    "count": -140,
+                    "import_from": "nauvis",
+                    "index": 1,
+                    "name": "electronic-circuit",
+                    "quality": "uncommon"
+                  },
+                  {
+                    "comparator": "=",
+                    "count": -140,
+                    "import_from": "nauvis",
+                    "index": 2,
+                    "name": "electronic-circuit",
+                    "quality": "rare"
+                  },
+                  {
+                    "comparator": "=",
+                    "count": -140,
+                    "import_from": "nauvis",
+                    "index": 3,
+                    "name": "electronic-circuit",
+                    "quality": "epic"
+                  }
+                ],
+                "index": 1
+              },
+              {
+                "filters": [
+                  {
+                    "comparator": "=",
+                    "count": -90,
+                    "import_from": "nauvis",
+                    "index": 1,
+                    "name": "advanced-circuit",
+                    "quality": "uncommon"
+                  },
+                  {
+                    "comparator": "=",
+                    "count": -90,
+                    "import_from": "nauvis",
+                    "index": 2,
+                    "name": "advanced-circuit",
+                    "quality": "rare"
+                  },
+                  {
+                    "comparator": "=",
+                    "count": -90,
+                    "import_from": "nauvis",
+                    "index": 3,
+                    "name": "advanced-circuit",
+                    "quality": "epic"
+                  }
+                ],
+                "index": 2
+              },
+              {
+                "filters": [
+                  {
+                    "comparator": "=",
+                    "count": -100,
+                    "import_from": "nauvis",
+                    "index": 1,
+                    "name": "processing-unit",
+                    "quality": "uncommon"
+                  },
+                  {
+                    "comparator": "=",
+                    "count": -100,
+                    "import_from": "nauvis",
+                    "index": 2,
+                    "name": "processing-unit",
+                    "quality": "rare"
+                  },
+                  {
+                    "comparator": "=",
+                    "count": -100,
+                    "import_from": "nauvis",
+                    "index": 3,
+                    "name": "processing-unit",
+                    "quality": "epic"
+                  }
+                ],
+                "index": 3
+              },
+              {
+                "filters": [
+                  {
+                    "comparator": "=",
+                    "count": -30,
+                    "import_from": "nauvis",
+                    "index": 1,
+                    "name": "quality-module",
+                    "quality": "uncommon"
+                  },
+                  {
+                    "comparator": "=",
+                    "count": -30,
+                    "import_from": "nauvis",
+                    "index": 2,
+                    "name": "quality-module",
+                    "quality": "rare"
+                  },
+                  {
+                    "comparator": "=",
+                    "count": -30,
+                    "import_from": "nauvis",
+                    "index": 3,
+                    "name": "quality-module",
+                    "quality": "epic"
+                  }
+                ],
+                "index": 4
+              },
+              {
+                "active": false,
+                "filters": [
+                  {
+                    "comparator": "=",
+                    "count": -100,
+                    "import_from": "nauvis",
+                    "index": 1,
+                    "name": "quality-module-2",
+                    "quality": "uncommon"
+                  },
+                  {
+                    "comparator": "=",
+                    "count": -100,
+                    "import_from": "nauvis",
+                    "index": 2,
+                    "name": "quality-module-2",
+                    "quality": "rare"
+                  },
+                  {
+                    "comparator": "=",
+                    "count": -100,
+                    "import_from": "nauvis",
+                    "index": 3,
+                    "name": "quality-module-2",
+                    "quality": "epic"
+                  }
+                ],
+                "index": 5
+              },
+              {
+                "filters": [
+                  {
+                    "comparator": "=",
+                    "count": -10,
+                    "import_from": "nauvis",
+                    "index": 1,
+                    "name": "superconductor",
+                    "quality": "uncommon"
+                  },
+                  {
+                    "comparator": "=",
+                    "count": -10,
+                    "import_from": "nauvis",
+                    "index": 2,
+                    "name": "superconductor",
+                    "quality": "rare"
+                  },
+                  {
+                    "comparator": "=",
+                    "count": -10,
+                    "import_from": "nauvis",
+                    "index": 3,
+                    "name": "superconductor",
+                    "quality": "epic"
+                  }
+                ],
+                "index": 6
+              }
+            ]
+          }
+        },
+        "direction": 4,
+        "entity_number": 183,
+        "name": "constant-combinator",
+        "player_description": "单个电磁厂需求",
+        "position": {
+          "x": 13.5,
+          "y": 41.5
+        }
+      },
+      {
+        "entity_number": 184,
+        "name": "roboport",
+        "position": {
+          "x": 14,
+          "y": 50
+        },
+        "request_filters": {
+          "sections": [
+            {
+              "index": 1
+            }
+          ]
+        }
+      },
+      {
+        "control_behavior": {
+          "index_constant": 0,
+          "operation": "select",
+          "select_max": true
+        },
+        "direction": 4,
+        "entity_number": 185,
+        "name": "selector-combinator",
+        "player_description": "选择更大的信号，用于信号覆盖",
+        "position": {
+          "x": 15,
+          "y": -33.5
+        }
+      },
+      {
+        "control_behavior": {
+          "index_constant": 0,
+          "operation": "select",
+          "select_max": true
+        },
+        "direction": 4,
+        "entity_number": 186,
+        "name": "selector-combinator",
+        "player_description": "选择更大的信号，用于信号覆盖",
+        "position": {
+          "x": 15,
+          "y": -23.5
+        }
+      },
+      {
+        "control_behavior": {
+          "index_constant": 0,
+          "operation": "select",
+          "select_max": true
+        },
+        "direction": 4,
+        "entity_number": 187,
+        "name": "selector-combinator",
+        "player_description": "选择更大的信号，用于信号覆盖",
+        "position": {
+          "x": 15,
+          "y": -13.5
+        }
+      },
+      {
+        "control_behavior": {
+          "index_constant": 0,
+          "operation": "select",
+          "select_max": true
+        },
+        "direction": 4,
+        "entity_number": 188,
+        "name": "selector-combinator",
+        "player_description": "选择更大的信号，用于信号覆盖",
+        "position": {
+          "x": 15,
+          "y": -3.5
+        }
+      },
+      {
+        "control_behavior": {
+          "index_constant": 0,
+          "operation": "select",
+          "select_max": true
+        },
+        "direction": 4,
+        "entity_number": 189,
+        "name": "selector-combinator",
+        "player_description": "选择更大的信号，用于信号覆盖",
+        "position": {
+          "x": 15,
+          "y": 6.5
+        }
+      },
+      {
+        "control_behavior": {
+          "decider_conditions": {
+            "conditions": [
+              {
+                "comparator": ">",
+                "constant": 5,
+                "first_signal": {
+                  "name": "quality-module-3",
+                  "quality": "rare"
+                },
+                "first_signal_networks": {
+                  "green": false,
+                  "red": true
+                }
+              },
+              {
+                "comparator": ">",
+                "compare_type": "and",
+                "first_signal": {
+                  "name": "speed-module",
+                  "quality": "legendary"
+                }
+              }
+            ],
+            "else_outputs": [],
+            "outputs": [
+              {
+                "copy_count_from_input": false,
+                "signal": {
+                  "name": "signal-check",
+                  "type": "virtual"
+                }
+              }
+            ]
+          }
+        },
+        "direction": 4,
+        "entity_number": 190,
+        "name": "decider-combinator",
+        "position": {
+          "x": 16,
+          "y": 45.5
+        }
+      },
+      {
+        "entity_number": 191,
+        "items": [
+          {
+            "id": {
+              "name": "speed-module",
+              "quality": "legendary"
+            },
+            "items": {
+              "in_inventory": [
+                {
+                  "inventory": 1,
+                  "stack": 0
+                },
+                {
+                  "inventory": 1,
+                  "stack": 1
+                }
+              ]
+            }
+          }
+        ],
+        "name": "beacon",
+        "position": {
+          "x": 16.5,
+          "y": 18.5
+        }
+      },
+      {
+        "direction": 12,
+        "entity_number": 192,
+        "items": [
+          {
+            "id": {
+              "name": "quality-module-3",
+              "quality": "uncommon"
+            },
+            "items": {
+              "in_inventory": [
+                {
+                  "inventory": 4,
+                  "stack": 0
+                },
+                {
+                  "inventory": 4,
+                  "stack": 1
+                },
+                {
+                  "inventory": 4,
+                  "stack": 2
+                },
+                {
+                  "inventory": 4,
+                  "stack": 3
+                }
+              ]
+            }
+          }
+        ],
+        "mirror": true,
+        "name": "recycler",
+        "position": {
+          "x": 17,
+          "y": 21
+        }
+      },
+      {
+        "alert_parameters": {
+          "alert_message": "拍蓝图[virtual-signal=signal-2]",
+          "icon_signal_id": {
+            "name": "signal-2",
+            "type": "virtual"
+          },
+          "show_alert": true,
+          "show_on_map": true
+        },
+        "control_behavior": {
+          "circuit_condition": {
+            "comparator": ">",
+            "constant": 0,
+            "first_signal": {
+              "name": "signal-check",
+              "type": "virtual"
+            }
+          },
+          "circuit_parameters": {
+            "instrument_id": 0,
+            "note_id": 2,
+            "signal_value_is_pitch": false,
+            "stop_playing_sounds": false
+          }
+        },
+        "entity_number": 193,
+        "name": "programmable-speaker",
+        "parameters": {
+          "allow_polyphony": false,
+          "playback_mode": "global",
+          "playback_volume": 1,
+          "volume_controlled_by_signal": false
+        },
+        "position": {
+          "x": 17.5,
+          "y": 45.5
+        }
+      },
+      {
+        "always_show": true,
+        "control_behavior": {
+          "parameters": [
+            {
+              "icon": {
+                "name": "signal-1",
+                "type": "virtual"
+              },
+              "text": "蓝图阶段[virtual-signal=signal-1]——[item=quality-module-3,quality=uncommon]量产"
+            }
+          ]
+        },
+        "entity_number": 194,
+        "icon": {
+          "name": "signal-1",
+          "type": "virtual"
+        },
+        "name": "display-panel",
+        "position": {
+          "x": 17.5,
+          "y": 46.5
+        },
+        "show_in_chart": true,
+        "text": "蓝图阶段[virtual-signal=signal-1]——[item=quality-module-3,quality=uncommon]量产，此时可分割物流网"
+      },
+      {
+        "control_behavior": {
+          "index_constant": 0,
+          "operation": "select",
+          "select_max": true
+        },
+        "direction": 12,
+        "entity_number": 195,
+        "name": "selector-combinator",
+        "position": {
+          "x": 22,
+          "y": 32.5
+        }
+      },
+      {
+        "control_behavior": {
+          "index_constant": 0,
+          "operation": "select",
+          "select_max": true
+        },
+        "direction": 12,
+        "entity_number": 196,
+        "name": "selector-combinator",
+        "player_description": "选择更大的信号，用于信号覆盖",
+        "position": {
+          "x": 23,
+          "y": -33.5
+        }
+      },
+      {
+        "control_behavior": {
+          "index_constant": 0,
+          "operation": "select",
+          "select_max": true
+        },
+        "direction": 12,
+        "entity_number": 197,
+        "name": "selector-combinator",
+        "player_description": "选择更大的信号，用于信号覆盖",
+        "position": {
+          "x": 23,
+          "y": -23.5
+        }
+      },
+      {
+        "control_behavior": {
+          "index_constant": 0,
+          "operation": "select",
+          "select_max": true
+        },
+        "direction": 12,
+        "entity_number": 198,
+        "name": "selector-combinator",
+        "player_description": "选择更大的信号，用于信号覆盖",
+        "position": {
+          "x": 23,
+          "y": -13.5
+        }
+      },
+      {
+        "control_behavior": {
+          "index_constant": 0,
+          "operation": "select",
+          "select_max": true
+        },
+        "direction": 12,
+        "entity_number": 199,
+        "name": "selector-combinator",
+        "player_description": "选择更大的信号，用于信号覆盖",
+        "position": {
+          "x": 23,
+          "y": -3.5
+        }
+      },
+      {
+        "control_behavior": {
+          "index_constant": 0,
+          "operation": "select",
+          "select_max": true
+        },
+        "direction": 12,
+        "entity_number": 200,
+        "name": "selector-combinator",
+        "player_description": "选择更大的信号，用于信号覆盖",
+        "position": {
+          "x": 23,
+          "y": 6.5
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 201,
+        "items": [
+          {
+            "id": {
+              "name": "quality-module-3",
+              "quality": "uncommon"
+            },
+            "items": {
+              "in_inventory": [
+                {
+                  "inventory": 4,
+                  "stack": 0
+                },
+                {
+                  "inventory": 4,
+                  "stack": 1
+                },
+                {
+                  "inventory": 4,
+                  "stack": 2
+                },
+                {
+                  "inventory": 4,
+                  "stack": 3
+                }
+              ]
+            }
+          }
+        ],
+        "name": "recycler",
+        "position": {
+          "x": 32,
+          "y": 18
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 202,
+        "items": [
+          {
+            "id": {
+              "name": "quality-module-3",
+              "quality": "uncommon"
+            },
+            "items": {
+              "in_inventory": [
+                {
+                  "inventory": 4,
+                  "stack": 0
+                },
+                {
+                  "inventory": 4,
+                  "stack": 1
+                },
+                {
+                  "inventory": 4,
+                  "stack": 2
+                },
+                {
+                  "inventory": 4,
+                  "stack": 3
+                }
+              ]
+            }
+          }
+        ],
+        "mirror": true,
+        "name": "recycler",
+        "position": {
+          "x": 32,
+          "y": 21
+        }
+      },
+      {
+        "control_behavior": {
+          "set_recipe": true
+        },
+        "direction": 4,
+        "entity_number": 203,
+        "items": [
+          {
+            "id": {
+              "name": "quality-module-3",
+              "quality": "uncommon"
+            },
+            "items": {
+              "in_inventory": [
+                {
+                  "inventory": 4,
+                  "stack": 0
+                },
+                {
+                  "inventory": 4,
+                  "stack": 1
+                },
+                {
+                  "inventory": 4,
+                  "stack": 2
+                },
+                {
+                  "inventory": 4,
+                  "stack": 3
+                }
+              ]
+            }
+          }
+        ],
+        "mirror": true,
+        "name": "foundry",
+        "position": {
+          "x": 32.5,
+          "y": 13.5
+        }
+      },
+      {
+        "control_behavior": {
+          "set_recipe": true
+        },
+        "direction": 4,
+        "entity_number": 204,
+        "items": [
+          {
+            "id": {
+              "name": "quality-module-3",
+              "quality": "uncommon"
+            },
+            "items": {
+              "in_inventory": [
+                {
+                  "inventory": 4,
+                  "stack": 0
+                },
+                {
+                  "inventory": 4,
+                  "stack": 1
+                },
+                {
+                  "inventory": 4,
+                  "stack": 2
+                },
+                {
+                  "inventory": 4,
+                  "stack": 3
+                }
+              ]
+            }
+          }
+        ],
+        "name": "foundry",
+        "position": {
+          "x": 32.5,
+          "y": 25.5
+        }
+      },
+      {
+        "entity_number": 205,
+        "items": [
+          {
+            "id": {
+              "name": "speed-module",
+              "quality": "legendary"
+            },
+            "items": {
+              "in_inventory": [
+                {
+                  "inventory": 1,
+                  "stack": 0
+                },
+                {
+                  "inventory": 1,
+                  "stack": 1
+                }
+              ]
+            }
+          }
+        ],
+        "name": "beacon",
+        "position": {
+          "x": 36.5,
+          "y": 19.5
+        }
+      },
+      {
+        "control_behavior": {
+          "index_constant": 0,
+          "operation": "select",
+          "select_max": true
+        },
+        "entity_number": 206,
+        "name": "selector-combinator",
+        "position": {
+          "x": 37.5,
+          "y": 12
+        }
+      },
+      {
+        "control_behavior": {
+          "index_constant": 0,
+          "operation": "select",
+          "select_max": true
+        },
+        "direction": 8,
+        "entity_number": 207,
+        "name": "selector-combinator",
+        "position": {
+          "x": 37.5,
+          "y": 27
+        }
+      },
+      {
+        "control_behavior": {
+          "set_recipe": true
+        },
+        "direction": 12,
+        "entity_number": 208,
+        "items": [
+          {
+            "id": {
+              "name": "quality-module-3",
+              "quality": "uncommon"
+            },
+            "items": {
+              "in_inventory": [
+                {
+                  "inventory": 4,
+                  "stack": 0
+                },
+                {
+                  "inventory": 4,
+                  "stack": 1
+                },
+                {
+                  "inventory": 4,
+                  "stack": 2
+                },
+                {
+                  "inventory": 4,
+                  "stack": 3
+                }
+              ]
+            }
+          }
+        ],
+        "name": "foundry",
+        "position": {
+          "x": 40.5,
+          "y": 13.5
+        }
+      },
+      {
+        "control_behavior": {
+          "set_recipe": true
+        },
+        "direction": 12,
+        "entity_number": 209,
+        "items": [
+          {
+            "id": {
+              "name": "quality-module-3",
+              "quality": "uncommon"
+            },
+            "items": {
+              "in_inventory": [
+                {
+                  "inventory": 4,
+                  "stack": 0
+                },
+                {
+                  "inventory": 4,
+                  "stack": 1
+                },
+                {
+                  "inventory": 4,
+                  "stack": 2
+                },
+                {
+                  "inventory": 4,
+                  "stack": 3
+                }
+              ]
+            }
+          }
+        ],
+        "mirror": true,
+        "name": "foundry",
+        "position": {
+          "x": 40.5,
+          "y": 25.5
+        }
+      },
+      {
+        "direction": 12,
+        "entity_number": 210,
+        "items": [
+          {
+            "id": {
+              "name": "quality-module-3",
+              "quality": "uncommon"
+            },
+            "items": {
+              "in_inventory": [
+                {
+                  "inventory": 4,
+                  "stack": 0
+                },
+                {
+                  "inventory": 4,
+                  "stack": 1
+                },
+                {
+                  "inventory": 4,
+                  "stack": 2
+                },
+                {
+                  "inventory": 4,
+                  "stack": 3
+                }
+              ]
+            }
+          }
+        ],
+        "mirror": true,
+        "name": "recycler",
+        "position": {
+          "x": 41,
+          "y": 18
+        }
+      },
+      {
+        "direction": 12,
+        "entity_number": 211,
+        "items": [
+          {
+            "id": {
+              "name": "quality-module-3",
+              "quality": "uncommon"
+            },
+            "items": {
+              "in_inventory": [
+                {
+                  "inventory": 4,
+                  "stack": 0
+                },
+                {
+                  "inventory": 4,
+                  "stack": 1
+                },
+                {
+                  "inventory": 4,
+                  "stack": 2
+                },
+                {
+                  "inventory": 4,
+                  "stack": 3
+                }
+              ]
+            }
+          }
+        ],
+        "name": "recycler",
+        "position": {
+          "x": 41,
+          "y": 21
+        }
+      },
+      {
+        "entity_number": 212,
+        "name": "roboport",
+        "position": {
+          "x": 49,
+          "y": 11
+        },
+        "request_filters": {
+          "sections": [
+            {
+              "index": 1
+            }
+          ]
+        }
+      },
+      {
+        "control_behavior": {
+          "index_constant": 0,
+          "operation": "select",
+          "select_max": true
+        },
+        "direction": 8,
+        "entity_number": 213,
+        "name": "selector-combinator",
+        "player_description": "选择更大的信号，用于信号覆盖",
+        "position": {
+          "x": 58.5,
+          "y": 10
+        }
+      },
+      {
+        "entity_number": 214,
+        "name": "roboport",
+        "position": {
+          "x": 70,
+          "y": 14
+        },
+        "request_filters": {
+          "sections": [
+            {
+              "index": 1
+            }
+          ]
+        }
+      },
+      {
+        "entity_number": 215,
+        "name": "roboport",
+        "position": {
+          "x": 70,
+          "y": 18
+        },
+        "request_filters": {
+          "sections": [
+            {
+              "index": 1
+            }
+          ]
+        }
+      },
+      {
+        "entity_number": 216,
+        "name": "roboport",
+        "position": {
+          "x": 70,
+          "y": 22
+        },
+        "request_filters": {
+          "sections": [
+            {
+              "index": 1
+            }
+          ]
+        }
+      },
+      {
+        "entity_number": 217,
+        "name": "roboport",
+        "position": {
+          "x": 70,
+          "y": 26
+        },
+        "request_filters": {
+          "sections": [
+            {
+              "index": 1
+            }
+          ]
+        }
+      },
+      {
+        "entity_number": 218,
+        "name": "roboport",
+        "position": {
+          "x": 70,
+          "y": 34
+        },
+        "request_filters": {
+          "sections": [
+            {
+              "index": 1
+            }
+          ]
+        }
+      },
+      {
+        "entity_number": 219,
+        "name": "roboport",
+        "position": {
+          "x": 70,
+          "y": 38
+        },
+        "request_filters": {
+          "sections": [
+            {
+              "index": 1
+            }
+          ]
+        }
+      },
+      {
+        "entity_number": 220,
+        "name": "roboport",
+        "position": {
+          "x": 70,
+          "y": 42
+        },
+        "request_filters": {
+          "sections": [
+            {
+              "index": 1
+            }
+          ]
+        }
+      },
+      {
+        "entity_number": 221,
+        "name": "roboport",
+        "position": {
+          "x": 70,
+          "y": 46
+        },
+        "request_filters": {
+          "sections": [
+            {
+              "index": 1
+            }
+          ]
+        }
+      },
+      {
+        "entity_number": 222,
+        "name": "roboport",
+        "position": {
+          "x": 70,
+          "y": 50
+        },
+        "request_filters": {
+          "sections": [
+            {
+              "index": 1
+            }
+          ]
+        }
+      }
+    ],
+    "icons": [
+      {
+        "index": 1,
+        "signal": {
+          "name": "signal-1",
+          "type": "virtual"
+        }
+      }
+    ],
+    "snap-to-grid": {
+      "x": 8,
+      "y": 8
+    },
+    "version": 562954249306113,
+    "wires": [
+      [
+        10,
+        1,
+        11,
+        3
+      ],
+      [
+        47,
+        1,
+        48,
+        3
+      ],
+      [
+        99,
+        1,
+        100,
+        3
+      ],
+      [
+        136,
+        4,
+        141,
+        2
+      ],
+      [
+        137,
+        1,
+        138,
+        3
+      ],
+      [
+        139,
+        3,
+        140,
+        1
+      ],
+      [
+        146,
+        1,
+        148,
+        3
+      ],
+      [
+        147,
+        1,
+        149,
+        3
+      ],
+      [
+        164,
+        1,
+        166,
+        1
+      ],
+      [
+        164,
+        1,
+        181,
+        1
+      ],
+      [
+        166,
+        1,
+        183,
+        1
+      ],
+      [
+        168,
+        2,
+        170,
+        2
+      ],
+      [
+        169,
+        2,
+        173,
+        2
+      ],
+      [
+        171,
+        2,
+        179,
+        2
+      ],
+      [
+        176,
+        1,
+        177,
+        3
+      ],
+      [
+        178,
+        2,
+        180,
+        2
+      ],
+      [
+        190,
+        3,
+        193,
+        1
+      ],
+      [
+        203,
+        1,
+        206,
+        3
+      ],
+      [
+        204,
+        1,
+        207,
+        3
+      ],
+      [
+        206,
+        3,
+        208,
+        1
+      ],
+      [
+        207,
+        3,
+        209,
+        1
+      ]
+    ]
+  },
+  "index": 6
+}

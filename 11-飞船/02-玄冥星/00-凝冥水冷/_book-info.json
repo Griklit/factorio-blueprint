@@ -1,0 +1,16 @@
+{
+  "active_index": 4,
+  "blueprints": [],
+  "description": "v250118\n--by sequence[7]",
+  "icons": [
+    {
+      "index": 1,
+      "signal": {
+        "name": "thruster"
+      }
+    }
+  ],
+  "item": "blueprint-book",
+  "label": "凝冥水冷",
+  "version": 562954249306113
+}

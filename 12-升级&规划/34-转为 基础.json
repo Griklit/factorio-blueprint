@@ -1,0 +1,978 @@
+{
+  "upgrade_planner": {
+    "label": "转为 基础",
+    "item": "upgrade-planner",
+    "settings": {
+      "icons": [
+        {
+          "index": 1,
+          "signal": {
+            "name": "normal",
+            "type": "quality"
+          }
+        }
+      ],
+      "mappers": [
+        {
+          "from": {
+            "name": "assembling-machine-1",
+            "type": "entity"
+          },
+          "index": 0,
+          "to": {
+            "name": "assembling-machine-1",
+            "type": "entity"
+          }
+        },
+        {
+          "from": {
+            "name": "solar-panel",
+            "type": "entity"
+          },
+          "index": 1,
+          "to": {
+            "name": "solar-panel",
+            "type": "entity"
+          }
+        },
+        {
+          "from": {
+            "name": "burner-inserter",
+            "type": "entity"
+          },
+          "index": 2,
+          "to": {
+            "name": "burner-inserter",
+            "type": "entity"
+          }
+        },
+        {
+          "from": {
+            "name": "burner-mining-drill",
+            "type": "entity"
+          },
+          "index": 3,
+          "to": {
+            "name": "burner-mining-drill",
+            "type": "entity"
+          }
+        },
+        {
+          "from": {
+            "name": "assembling-machine-2",
+            "type": "entity"
+          },
+          "index": 4,
+          "to": {
+            "name": "assembling-machine-2",
+            "type": "entity"
+          }
+        },
+        {
+          "from": {
+            "name": "accumulator",
+            "type": "entity"
+          },
+          "index": 5,
+          "to": {
+            "name": "accumulator",
+            "type": "entity"
+          }
+        },
+        {
+          "from": {
+            "name": "inserter",
+            "type": "entity"
+          },
+          "index": 6,
+          "to": {
+            "name": "inserter",
+            "type": "entity"
+          }
+        },
+        {
+          "from": {
+            "name": "offshore-pump",
+            "type": "entity"
+          },
+          "index": 7,
+          "to": {
+            "name": "offshore-pump",
+            "type": "entity"
+          }
+        },
+        {
+          "from": {
+            "name": "assembling-machine-3",
+            "type": "entity"
+          },
+          "index": 8,
+          "to": {
+            "name": "assembling-machine-3",
+            "type": "entity"
+          }
+        },
+        {
+          "from": {
+            "name": "biolab",
+            "type": "entity"
+          },
+          "index": 9,
+          "to": {
+            "name": "biolab",
+            "type": "entity"
+          }
+        },
+        {
+          "from": {
+            "name": "long-handed-inserter",
+            "type": "entity"
+          },
+          "index": 10,
+          "to": {
+            "name": "long-handed-inserter",
+            "type": "entity"
+          }
+        },
+        {
+          "from": {
+            "name": "electric-mining-drill",
+            "type": "entity"
+          },
+          "index": 11,
+          "to": {
+            "name": "electric-mining-drill",
+            "type": "entity"
+          }
+        },
+        {
+          "from": {
+            "name": "oil-refinery",
+            "type": "entity"
+          },
+          "index": 12,
+          "to": {
+            "name": "oil-refinery",
+            "type": "entity"
+          }
+        },
+        {
+          "from": {
+            "name": "lab",
+            "type": "entity"
+          },
+          "index": 13,
+          "to": {
+            "name": "lab",
+            "type": "entity"
+          }
+        },
+        {
+          "from": {
+            "name": "fast-inserter",
+            "type": "entity"
+          },
+          "index": 14,
+          "to": {
+            "name": "fast-inserter",
+            "type": "entity"
+          }
+        },
+        {
+          "from": {
+            "name": "pumpjack",
+            "type": "entity"
+          },
+          "index": 15,
+          "to": {
+            "name": "pumpjack",
+            "type": "entity"
+          }
+        },
+        {
+          "from": {
+            "name": "chemical-plant",
+            "type": "entity"
+          },
+          "index": 16,
+          "to": {
+            "name": "chemical-plant",
+            "type": "entity"
+          }
+        },
+        {
+          "from": {
+            "name": "roboport",
+            "type": "entity"
+          },
+          "index": 17,
+          "to": {
+            "name": "roboport",
+            "type": "entity"
+          }
+        },
+        {
+          "from": {
+            "name": "bulk-inserter",
+            "type": "entity"
+          },
+          "index": 18,
+          "to": {
+            "name": "bulk-inserter",
+            "type": "entity"
+          }
+        },
+        {
+          "from": {
+            "name": "big-mining-drill",
+            "type": "entity"
+          },
+          "index": 19,
+          "to": {
+            "name": "big-mining-drill",
+            "type": "entity"
+          }
+        },
+        {
+          "from": {
+            "name": "foundry",
+            "type": "entity"
+          },
+          "index": 20,
+          "to": {
+            "name": "foundry",
+            "type": "entity"
+          }
+        },
+        {
+          "from": {
+            "name": "nuclear-reactor",
+            "type": "entity"
+          },
+          "index": 21,
+          "to": {
+            "name": "nuclear-reactor",
+            "type": "entity"
+          }
+        },
+        {
+          "from": {
+            "name": "stack-inserter",
+            "type": "entity"
+          },
+          "index": 22,
+          "to": {
+            "name": "stack-inserter",
+            "type": "entity"
+          }
+        },
+        {
+          "from": {
+            "name": "pump",
+            "type": "entity"
+          },
+          "index": 23,
+          "to": {
+            "name": "pump",
+            "type": "entity"
+          }
+        },
+        {
+          "from": {
+            "name": "biochamber",
+            "type": "entity"
+          },
+          "index": 24,
+          "to": {
+            "name": "biochamber",
+            "type": "entity"
+          }
+        },
+        {
+          "from": {
+            "name": "heat-exchanger",
+            "type": "entity"
+          },
+          "index": 25,
+          "to": {
+            "name": "heat-exchanger",
+            "type": "entity"
+          }
+        },
+        {
+          "from": {
+            "name": "small-electric-pole",
+            "type": "entity"
+          },
+          "index": 26,
+          "to": {
+            "name": "small-electric-pole",
+            "type": "entity"
+          }
+        },
+        {
+          "from": {
+            "name": "locomotive",
+            "type": "entity"
+          },
+          "index": 27,
+          "to": {
+            "name": "locomotive",
+            "type": "entity"
+          }
+        },
+        {
+          "from": {
+            "name": "electromagnetic-plant",
+            "type": "entity"
+          },
+          "index": 28,
+          "to": {
+            "name": "electromagnetic-plant",
+            "type": "entity"
+          }
+        },
+        {
+          "from": {
+            "name": "steam-turbine",
+            "type": "entity"
+          },
+          "index": 29,
+          "to": {
+            "name": "steam-turbine",
+            "type": "entity"
+          }
+        },
+        {
+          "from": {
+            "name": "medium-electric-pole",
+            "type": "entity"
+          },
+          "index": 30,
+          "to": {
+            "name": "medium-electric-pole",
+            "type": "entity"
+          }
+        },
+        {
+          "from": {
+            "name": "cargo-wagon",
+            "type": "entity"
+          },
+          "index": 31,
+          "to": {
+            "name": "cargo-wagon",
+            "type": "entity"
+          }
+        },
+        {
+          "from": {
+            "name": "cryogenic-plant",
+            "type": "entity"
+          },
+          "index": 32,
+          "to": {
+            "name": "cryogenic-plant",
+            "type": "entity"
+          }
+        },
+        {
+          "from": {
+            "name": "fusion-reactor",
+            "type": "entity"
+          },
+          "index": 33,
+          "to": {
+            "name": "fusion-reactor",
+            "type": "entity"
+          }
+        },
+        {
+          "from": {
+            "name": "big-electric-pole",
+            "type": "entity"
+          },
+          "index": 34,
+          "to": {
+            "name": "big-electric-pole",
+            "type": "entity"
+          }
+        },
+        {
+          "from": {
+            "name": "fluid-wagon",
+            "type": "entity"
+          },
+          "index": 35,
+          "to": {
+            "name": "fluid-wagon",
+            "type": "entity"
+          }
+        },
+        {
+          "from": {
+            "name": "centrifuge",
+            "type": "entity"
+          },
+          "index": 36,
+          "to": {
+            "name": "centrifuge",
+            "type": "entity"
+          }
+        },
+        {
+          "from": {
+            "name": "fusion-generator",
+            "type": "entity"
+          },
+          "index": 37,
+          "to": {
+            "name": "fusion-generator",
+            "type": "entity"
+          }
+        },
+        {
+          "from": {
+            "name": "substation",
+            "type": "entity"
+          },
+          "index": 38,
+          "to": {
+            "name": "substation",
+            "type": "entity"
+          }
+        },
+        {
+          "from": {
+            "name": "artillery-wagon",
+            "type": "entity"
+          },
+          "index": 39,
+          "to": {
+            "name": "artillery-wagon",
+            "type": "entity"
+          }
+        },
+        {
+          "from": {
+            "name": "beacon",
+            "type": "entity"
+          },
+          "index": 40,
+          "to": {
+            "name": "beacon",
+            "type": "entity"
+          }
+        },
+        {
+          "from": {
+            "name": "heating-tower",
+            "type": "entity"
+          },
+          "index": 41,
+          "to": {
+            "name": "heating-tower",
+            "type": "entity"
+          }
+        },
+        {
+          "from": {
+            "name": "radar",
+            "type": "entity"
+          },
+          "index": 42,
+          "to": {
+            "name": "radar",
+            "type": "entity"
+          }
+        },
+        {
+          "from": {
+            "name": "asteroid-collector",
+            "type": "entity"
+          },
+          "index": 43,
+          "to": {
+            "name": "asteroid-collector",
+            "type": "entity"
+          }
+        },
+        {
+          "from": {
+            "name": "speed-module",
+            "type": "item"
+          },
+          "index": 44,
+          "to": {
+            "name": "speed-module",
+            "type": "item"
+          }
+        },
+        {
+          "from": {
+            "name": "boiler",
+            "type": "entity"
+          },
+          "index": 45,
+          "to": {
+            "name": "boiler",
+            "type": "entity"
+          }
+        },
+        {
+          "from": {
+            "name": "land-mine",
+            "type": "entity"
+          },
+          "index": 46,
+          "to": {
+            "name": "land-mine",
+            "type": "entity"
+          }
+        },
+        {
+          "from": {
+            "name": "crusher",
+            "type": "entity"
+          },
+          "index": 47,
+          "to": {
+            "name": "crusher",
+            "type": "entity"
+          }
+        },
+        {
+          "from": {
+            "name": "speed-module-2",
+            "type": "item"
+          },
+          "index": 48,
+          "to": {
+            "name": "speed-module-2",
+            "type": "item"
+          }
+        },
+        {
+          "from": {
+            "name": "steam-engine",
+            "type": "entity"
+          },
+          "index": 49,
+          "to": {
+            "name": "steam-engine",
+            "type": "entity"
+          }
+        },
+        {
+          "from": {
+            "name": "gun-turret",
+            "type": "entity"
+          },
+          "index": 50,
+          "to": {
+            "name": "gun-turret",
+            "type": "entity"
+          }
+        },
+        {
+          "from": {
+            "name": "thruster",
+            "type": "entity"
+          },
+          "index": 51,
+          "to": {
+            "name": "thruster",
+            "type": "entity"
+          }
+        },
+        {
+          "from": {
+            "name": "speed-module-3",
+            "type": "item"
+          },
+          "index": 52,
+          "to": {
+            "name": "speed-module-3",
+            "type": "item"
+          }
+        },
+        {
+          "from": {
+            "name": "recycler",
+            "type": "entity"
+          },
+          "index": 53,
+          "to": {
+            "name": "recycler",
+            "type": "entity"
+          }
+        },
+        {
+          "from": {
+            "name": "laser-turret",
+            "type": "entity"
+          },
+          "index": 54,
+          "to": {
+            "name": "laser-turret",
+            "type": "entity"
+          }
+        },
+        {
+          "from": {
+            "name": "cargo-bay",
+            "type": "entity"
+          },
+          "index": 55,
+          "to": {
+            "name": "cargo-bay",
+            "type": "entity"
+          }
+        },
+        {
+          "from": {
+            "name": "efficiency-module",
+            "type": "item"
+          },
+          "index": 56,
+          "to": {
+            "name": "efficiency-module",
+            "type": "item"
+          }
+        },
+        {
+          "from": {
+            "name": "stone-furnace",
+            "type": "entity"
+          },
+          "index": 57,
+          "to": {
+            "name": "stone-furnace",
+            "type": "entity"
+          }
+        },
+        {
+          "from": {
+            "name": "flamethrower-turret",
+            "type": "entity"
+          },
+          "index": 58,
+          "to": {
+            "name": "flamethrower-turret",
+            "type": "entity"
+          }
+        },
+        {
+          "from": {
+            "name": "landing-pad-unloading-bay",
+            "type": "entity"
+          },
+          "index": 59,
+          "to": {
+            "name": "landing-pad-unloading-bay",
+            "type": "entity"
+          }
+        },
+        {
+          "from": {
+            "name": "efficiency-module-2",
+            "type": "item"
+          },
+          "index": 60,
+          "to": {
+            "name": "efficiency-module-2",
+            "type": "item"
+          }
+        },
+        {
+          "from": {
+            "name": "lightning-rod",
+            "type": "entity"
+          },
+          "index": 61,
+          "to": {
+            "name": "lightning-rod",
+            "type": "entity"
+          }
+        },
+        {
+          "from": {
+            "name": "artillery-turret",
+            "type": "entity"
+          },
+          "index": 62,
+          "to": {
+            "name": "artillery-turret",
+            "type": "entity"
+          }
+        },
+        {
+          "from": {
+            "name": "rocket-silo",
+            "type": "entity"
+          },
+          "index": 63,
+          "to": {
+            "name": "rocket-silo",
+            "type": "entity"
+          }
+        },
+        {
+          "from": {
+            "name": "efficiency-module-3",
+            "type": "item"
+          },
+          "index": 64,
+          "to": {
+            "name": "efficiency-module-3",
+            "type": "item"
+          }
+        },
+        {
+          "from": {
+            "name": "lightning-collector",
+            "type": "entity"
+          },
+          "index": 65,
+          "to": {
+            "name": "lightning-collector",
+            "type": "entity"
+          }
+        },
+        {
+          "from": {
+            "name": "rocket-turret",
+            "type": "entity"
+          },
+          "index": 66,
+          "to": {
+            "name": "rocket-turret",
+            "type": "entity"
+          }
+        },
+        {
+          "from": {
+            "name": "cargo-landing-pad",
+            "type": "entity"
+          },
+          "index": 67,
+          "to": {
+            "name": "cargo-landing-pad",
+            "type": "entity"
+          }
+        },
+        {
+          "from": {
+            "name": "productivity-module",
+            "type": "item"
+          },
+          "index": 68,
+          "to": {
+            "name": "productivity-module",
+            "type": "item"
+          }
+        },
+        {
+          "from": {
+            "name": "wooden-chest",
+            "type": "entity"
+          },
+          "index": 69,
+          "to": {
+            "name": "wooden-chest",
+            "type": "entity"
+          }
+        },
+        {
+          "from": {
+            "name": "tesla-turret",
+            "type": "entity"
+          },
+          "index": 70,
+          "to": {
+            "name": "tesla-turret",
+            "type": "entity"
+          }
+        },
+        {
+          "from": {
+            "name": "active-provider-chest",
+            "type": "entity"
+          },
+          "index": 71,
+          "to": {
+            "name": "active-provider-chest",
+            "type": "entity"
+          }
+        },
+        {
+          "from": {
+            "name": "productivity-module-2",
+            "type": "item"
+          },
+          "index": 72,
+          "to": {
+            "name": "productivity-module-2",
+            "type": "item"
+          }
+        },
+        {
+          "from": {
+            "name": "iron-chest",
+            "type": "entity"
+          },
+          "index": 73,
+          "to": {
+            "name": "iron-chest",
+            "type": "entity"
+          }
+        },
+        {
+          "from": {
+            "name": "railgun-turret",
+            "type": "entity"
+          },
+          "index": 74,
+          "to": {
+            "name": "railgun-turret",
+            "type": "entity"
+          }
+        },
+        {
+          "from": {
+            "name": "passive-provider-chest",
+            "type": "entity"
+          },
+          "index": 75,
+          "to": {
+            "name": "passive-provider-chest",
+            "type": "entity"
+          }
+        },
+        {
+          "from": {
+            "name": "productivity-module-3",
+            "type": "item"
+          },
+          "index": 76,
+          "to": {
+            "name": "productivity-module-3",
+            "type": "item"
+          }
+        },
+        {
+          "from": {
+            "name": "steel-chest",
+            "type": "entity"
+          },
+          "index": 77,
+          "to": {
+            "name": "steel-chest",
+            "type": "entity"
+          }
+        },
+        {
+          "from": {
+            "name": "storage-chest",
+            "type": "entity"
+          },
+          "index": 79,
+          "to": {
+            "name": "storage-chest",
+            "type": "entity"
+          }
+        },
+        {
+          "from": {
+            "name": "quality-module",
+            "type": "item"
+          },
+          "index": 80,
+          "to": {
+            "name": "quality-module",
+            "type": "item"
+          }
+        },
+        {
+          "from": {
+            "name": "storage-tank",
+            "type": "entity"
+          },
+          "index": 81,
+          "to": {
+            "name": "storage-tank",
+            "type": "entity"
+          }
+        },
+        {
+          "from": {
+            "name": "buffer-chest",
+            "type": "entity"
+          },
+          "index": 83,
+          "to": {
+            "name": "buffer-chest",
+            "type": "entity"
+          }
+        },
+        {
+          "from": {
+            "name": "quality-module-2",
+            "type": "item"
+          },
+          "index": 84,
+          "to": {
+            "name": "quality-module-2",
+            "type": "item"
+          }
+        },
+        {
+          "from": {
+            "name": "steel-furnace",
+            "type": "entity"
+          },
+          "index": 85,
+          "to": {
+            "name": "steel-furnace",
+            "type": "entity"
+          }
+        },
+        {
+          "from": {
+            "name": "requester-chest",
+            "type": "entity"
+          },
+          "index": 87,
+          "to": {
+            "name": "requester-chest",
+            "type": "entity"
+          }
+        },
+        {
+          "from": {
+            "name": "quality-module-3",
+            "type": "item"
+          },
+          "index": 88,
+          "to": {
+            "name": "quality-module-3",
+            "type": "item"
+          }
+        },
+        {
+          "from": {
+            "name": "electric-furnace",
+            "type": "entity"
+          },
+          "index": 89,
+          "to": {
+            "name": "electric-furnace",
+            "type": "entity"
+          }
+        }
+      ]
+    },
+    "version": 562954249306113
+  },
+  "index": 34
+}

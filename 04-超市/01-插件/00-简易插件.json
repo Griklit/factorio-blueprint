@@ -1,0 +1,1461 @@
+{
+  "blueprint": {
+    "item": "blueprint",
+    "label": "简易插件",
+    "description": "可自行拓展或删除，直接复制粘贴即可\n产能3的虫卵记得加摆点炮塔",
+    "entities": [
+      {
+        "direction": 8,
+        "entity_number": 1,
+        "name": "long-handed-inserter",
+        "position": {
+          "x": 142.5,
+          "y": 405.5
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 2,
+        "name": "underground-belt",
+        "position": {
+          "x": 142.5,
+          "y": 406.5
+        },
+        "type": "input"
+      },
+      {
+        "direction": 4,
+        "entity_number": 3,
+        "name": "underground-belt",
+        "position": {
+          "x": 142.5,
+          "y": 407.5
+        },
+        "type": "input"
+      },
+      {
+        "entity_number": 4,
+        "name": "long-handed-inserter",
+        "position": {
+          "x": 142.5,
+          "y": 408.5
+        }
+      },
+      {
+        "entity_number": 5,
+        "name": "assembling-machine-3",
+        "position": {
+          "x": 143.5,
+          "y": 403.5
+        },
+        "recipe": "speed-module-2",
+        "recipe_quality": "normal"
+      },
+      {
+        "control_behavior": {
+          "circuit_condition": {
+            "comparator": "<",
+            "constant": 100,
+            "first_signal": {
+              "name": "speed-module-2"
+            }
+          },
+          "circuit_enabled": true
+        },
+        "entity_number": 6,
+        "name": "long-handed-inserter",
+        "position": {
+          "x": 143.5,
+          "y": 405.5
+        }
+      },
+      {
+        "entity_number": 7,
+        "name": "long-handed-inserter",
+        "position": {
+          "x": 143.5,
+          "y": 406.5
+        }
+      },
+      {
+        "control_behavior": {
+          "circuit_condition_enabled": false
+        },
+        "entity_number": 8,
+        "name": "storage-chest",
+        "position": {
+          "x": 143.5,
+          "y": 407.5
+        },
+        "request_filters": {
+          "sections": [
+            {
+              "filters": [
+                {
+                  "comparator": "=",
+                  "count": 0,
+                  "import_from": "nauvis",
+                  "index": 1,
+                  "name": "speed-module-2",
+                  "quality": "normal"
+                }
+              ],
+              "index": 1
+            }
+          ]
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 9,
+        "name": "underground-belt",
+        "position": {
+          "x": 143.5,
+          "y": 408.5
+        },
+        "type": "input"
+      },
+      {
+        "entity_number": 10,
+        "name": "assembling-machine-3",
+        "position": {
+          "x": 143.5,
+          "y": 410.5
+        },
+        "recipe": "speed-module",
+        "recipe_quality": "normal"
+      },
+      {
+        "direction": 8,
+        "entity_number": 11,
+        "name": "long-handed-inserter",
+        "position": {
+          "x": 144.5,
+          "y": 405.5
+        }
+      },
+      {
+        "entity_number": 12,
+        "name": "medium-electric-pole",
+        "position": {
+          "x": 144.5,
+          "y": 406.5
+        }
+      },
+      {
+        "direction": 12,
+        "entity_number": 13,
+        "name": "transport-belt",
+        "position": {
+          "x": 144.5,
+          "y": 407.5
+        }
+      },
+      {
+        "direction": 8,
+        "entity_number": 14,
+        "name": "inserter",
+        "position": {
+          "x": 144.5,
+          "y": 408.5
+        }
+      },
+      {
+        "direction": 8,
+        "entity_number": 15,
+        "name": "inserter",
+        "position": {
+          "x": 145.5,
+          "y": 405.5
+        }
+      },
+      {
+        "entity_number": 16,
+        "name": "requester-chest",
+        "position": {
+          "x": 145.5,
+          "y": 406.5
+        },
+        "request_filters": {
+          "sections": [
+            {
+              "filters": [
+                {
+                  "comparator": "=",
+                  "count": 50,
+                  "import_from": "vulcanus",
+                  "index": 1,
+                  "name": "tungsten-carbide",
+                  "quality": "normal"
+                }
+              ],
+              "index": 1
+            }
+          ]
+        }
+      },
+      {
+        "direction": 12,
+        "entity_number": 17,
+        "name": "transport-belt",
+        "position": {
+          "x": 145.5,
+          "y": 407.5
+        }
+      },
+      {
+        "direction": 8,
+        "entity_number": 18,
+        "name": "inserter",
+        "position": {
+          "x": 145.5,
+          "y": 408.5
+        }
+      },
+      {
+        "entity_number": 19,
+        "name": "assembling-machine-3",
+        "position": {
+          "x": 146.5,
+          "y": 403.5
+        },
+        "recipe": "speed-module-3",
+        "recipe_quality": "normal"
+      },
+      {
+        "control_behavior": {
+          "circuit_condition": {
+            "comparator": "<",
+            "constant": 100,
+            "first_signal": {
+              "name": "speed-module-3"
+            }
+          },
+          "circuit_enabled": true
+        },
+        "entity_number": 20,
+        "name": "long-handed-inserter",
+        "position": {
+          "x": 146.5,
+          "y": 405.5
+        }
+      },
+      {
+        "direction": 8,
+        "entity_number": 21,
+        "name": "long-handed-inserter",
+        "position": {
+          "x": 146.5,
+          "y": 406.5
+        }
+      },
+      {
+        "control_behavior": {
+          "circuit_condition_enabled": false
+        },
+        "entity_number": 22,
+        "name": "storage-chest",
+        "position": {
+          "x": 146.5,
+          "y": 407.5
+        },
+        "request_filters": {
+          "sections": [
+            {
+              "filters": [
+                {
+                  "comparator": "=",
+                  "count": 0,
+                  "import_from": "nauvis",
+                  "index": 1,
+                  "name": "speed-module-3",
+                  "quality": "normal"
+                }
+              ],
+              "index": 1
+            }
+          ]
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 23,
+        "name": "underground-belt",
+        "position": {
+          "x": 146.5,
+          "y": 408.5
+        },
+        "type": "output"
+      },
+      {
+        "entity_number": 24,
+        "name": "assembling-machine-3",
+        "position": {
+          "x": 146.5,
+          "y": 410.5
+        },
+        "recipe": "speed-module",
+        "recipe_quality": "normal"
+      },
+      {
+        "direction": 8,
+        "entity_number": 25,
+        "name": "long-handed-inserter",
+        "position": {
+          "x": 147.5,
+          "y": 405.5
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 26,
+        "name": "underground-belt",
+        "position": {
+          "x": 147.5,
+          "y": 406.5
+        },
+        "type": "output"
+      },
+      {
+        "direction": 4,
+        "entity_number": 27,
+        "name": "underground-belt",
+        "position": {
+          "x": 147.5,
+          "y": 407.5
+        },
+        "type": "output"
+      },
+      {
+        "entity_number": 28,
+        "name": "long-handed-inserter",
+        "position": {
+          "x": 147.5,
+          "y": 408.5
+        }
+      },
+      {
+        "direction": 8,
+        "entity_number": 29,
+        "name": "long-handed-inserter",
+        "position": {
+          "x": 148.5,
+          "y": 405.5
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 30,
+        "name": "underground-belt",
+        "position": {
+          "x": 148.5,
+          "y": 406.5
+        },
+        "type": "input"
+      },
+      {
+        "direction": 4,
+        "entity_number": 31,
+        "name": "underground-belt",
+        "position": {
+          "x": 148.5,
+          "y": 407.5
+        },
+        "type": "input"
+      },
+      {
+        "entity_number": 32,
+        "name": "long-handed-inserter",
+        "position": {
+          "x": 148.5,
+          "y": 408.5
+        }
+      },
+      {
+        "entity_number": 33,
+        "name": "assembling-machine-3",
+        "position": {
+          "x": 149.5,
+          "y": 403.5
+        },
+        "recipe": "efficiency-module-2",
+        "recipe_quality": "normal"
+      },
+      {
+        "control_behavior": {
+          "circuit_condition": {
+            "comparator": "<",
+            "constant": 100,
+            "first_signal": {
+              "name": "efficiency-module-2"
+            }
+          },
+          "circuit_enabled": true
+        },
+        "entity_number": 34,
+        "name": "long-handed-inserter",
+        "position": {
+          "x": 149.5,
+          "y": 405.5
+        }
+      },
+      {
+        "entity_number": 35,
+        "name": "long-handed-inserter",
+        "position": {
+          "x": 149.5,
+          "y": 406.5
+        }
+      },
+      {
+        "control_behavior": {
+          "circuit_condition_enabled": false
+        },
+        "entity_number": 36,
+        "name": "storage-chest",
+        "position": {
+          "x": 149.5,
+          "y": 407.5
+        },
+        "request_filters": {
+          "sections": [
+            {
+              "filters": [
+                {
+                  "comparator": "=",
+                  "count": 0,
+                  "import_from": "nauvis",
+                  "index": 1,
+                  "name": "efficiency-module-2",
+                  "quality": "normal"
+                }
+              ],
+              "index": 1
+            }
+          ]
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 37,
+        "name": "underground-belt",
+        "position": {
+          "x": 149.5,
+          "y": 408.5
+        },
+        "type": "input"
+      },
+      {
+        "entity_number": 38,
+        "name": "assembling-machine-3",
+        "position": {
+          "x": 149.5,
+          "y": 410.5
+        },
+        "recipe": "efficiency-module",
+        "recipe_quality": "normal"
+      },
+      {
+        "direction": 8,
+        "entity_number": 39,
+        "name": "long-handed-inserter",
+        "position": {
+          "x": 150.5,
+          "y": 405.5
+        }
+      },
+      {
+        "entity_number": 40,
+        "name": "medium-electric-pole",
+        "position": {
+          "x": 150.5,
+          "y": 406.5
+        }
+      },
+      {
+        "direction": 12,
+        "entity_number": 41,
+        "name": "transport-belt",
+        "position": {
+          "x": 150.5,
+          "y": 407.5
+        }
+      },
+      {
+        "direction": 8,
+        "entity_number": 42,
+        "name": "inserter",
+        "position": {
+          "x": 150.5,
+          "y": 408.5
+        }
+      },
+      {
+        "direction": 8,
+        "entity_number": 43,
+        "name": "inserter",
+        "position": {
+          "x": 151.5,
+          "y": 405.5
+        }
+      },
+      {
+        "entity_number": 44,
+        "name": "requester-chest",
+        "position": {
+          "x": 151.5,
+          "y": 406.5
+        },
+        "request_filters": {
+          "sections": [
+            {
+              "filters": [
+                {
+                  "comparator": "=",
+                  "count": 200,
+                  "import_from": "vulcanus",
+                  "index": 1,
+                  "name": "spoilage",
+                  "quality": "normal"
+                }
+              ],
+              "index": 1
+            }
+          ]
+        }
+      },
+      {
+        "direction": 12,
+        "entity_number": 45,
+        "name": "transport-belt",
+        "position": {
+          "x": 151.5,
+          "y": 407.5
+        }
+      },
+      {
+        "direction": 8,
+        "entity_number": 46,
+        "name": "inserter",
+        "position": {
+          "x": 151.5,
+          "y": 408.5
+        }
+      },
+      {
+        "entity_number": 47,
+        "name": "assembling-machine-3",
+        "position": {
+          "x": 152.5,
+          "y": 403.5
+        },
+        "recipe": "efficiency-module-3",
+        "recipe_quality": "normal"
+      },
+      {
+        "control_behavior": {
+          "circuit_condition": {
+            "comparator": "<",
+            "constant": 100,
+            "first_signal": {
+              "name": "efficiency-module-3"
+            }
+          },
+          "circuit_enabled": true
+        },
+        "entity_number": 48,
+        "name": "long-handed-inserter",
+        "position": {
+          "x": 152.5,
+          "y": 405.5
+        }
+      },
+      {
+        "direction": 8,
+        "entity_number": 49,
+        "name": "long-handed-inserter",
+        "position": {
+          "x": 152.5,
+          "y": 406.5
+        }
+      },
+      {
+        "control_behavior": {
+          "circuit_condition_enabled": false
+        },
+        "entity_number": 50,
+        "name": "storage-chest",
+        "position": {
+          "x": 152.5,
+          "y": 407.5
+        },
+        "request_filters": {
+          "sections": [
+            {
+              "filters": [
+                {
+                  "comparator": "=",
+                  "count": 0,
+                  "import_from": "nauvis",
+                  "index": 1,
+                  "name": "efficiency-module-3",
+                  "quality": "normal"
+                }
+              ],
+              "index": 1
+            }
+          ]
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 51,
+        "name": "underground-belt",
+        "position": {
+          "x": 152.5,
+          "y": 408.5
+        },
+        "type": "output"
+      },
+      {
+        "entity_number": 52,
+        "name": "assembling-machine-3",
+        "position": {
+          "x": 152.5,
+          "y": 410.5
+        },
+        "recipe": "efficiency-module",
+        "recipe_quality": "normal"
+      },
+      {
+        "direction": 8,
+        "entity_number": 53,
+        "name": "long-handed-inserter",
+        "position": {
+          "x": 153.5,
+          "y": 405.5
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 54,
+        "name": "underground-belt",
+        "position": {
+          "x": 153.5,
+          "y": 406.5
+        },
+        "type": "output"
+      },
+      {
+        "direction": 4,
+        "entity_number": 55,
+        "name": "underground-belt",
+        "position": {
+          "x": 153.5,
+          "y": 407.5
+        },
+        "type": "output"
+      },
+      {
+        "entity_number": 56,
+        "name": "long-handed-inserter",
+        "position": {
+          "x": 153.5,
+          "y": 408.5
+        }
+      },
+      {
+        "direction": 8,
+        "entity_number": 57,
+        "name": "long-handed-inserter",
+        "position": {
+          "x": 154.5,
+          "y": 405.5
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 58,
+        "name": "underground-belt",
+        "position": {
+          "x": 154.5,
+          "y": 406.5
+        },
+        "type": "input"
+      },
+      {
+        "direction": 4,
+        "entity_number": 59,
+        "name": "underground-belt",
+        "position": {
+          "x": 154.5,
+          "y": 407.5
+        },
+        "type": "input"
+      },
+      {
+        "entity_number": 60,
+        "name": "long-handed-inserter",
+        "position": {
+          "x": 154.5,
+          "y": 408.5
+        }
+      },
+      {
+        "entity_number": 61,
+        "name": "assembling-machine-3",
+        "position": {
+          "x": 155.5,
+          "y": 403.5
+        },
+        "recipe": "productivity-module-2",
+        "recipe_quality": "normal"
+      },
+      {
+        "control_behavior": {
+          "circuit_condition": {
+            "comparator": "<",
+            "constant": 100,
+            "first_signal": {
+              "name": "productivity-module-2"
+            }
+          },
+          "circuit_enabled": true
+        },
+        "entity_number": 62,
+        "name": "long-handed-inserter",
+        "position": {
+          "x": 155.5,
+          "y": 405.5
+        }
+      },
+      {
+        "entity_number": 63,
+        "name": "long-handed-inserter",
+        "position": {
+          "x": 155.5,
+          "y": 406.5
+        }
+      },
+      {
+        "control_behavior": {
+          "circuit_condition_enabled": false
+        },
+        "entity_number": 64,
+        "name": "storage-chest",
+        "position": {
+          "x": 155.5,
+          "y": 407.5
+        },
+        "request_filters": {
+          "sections": [
+            {
+              "filters": [
+                {
+                  "comparator": "=",
+                  "count": 0,
+                  "import_from": "nauvis",
+                  "index": 1,
+                  "name": "productivity-module-2",
+                  "quality": "normal"
+                }
+              ],
+              "index": 1
+            }
+          ]
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 65,
+        "name": "underground-belt",
+        "position": {
+          "x": 155.5,
+          "y": 408.5
+        },
+        "type": "input"
+      },
+      {
+        "entity_number": 66,
+        "name": "assembling-machine-3",
+        "position": {
+          "x": 155.5,
+          "y": 410.5
+        },
+        "recipe": "productivity-module",
+        "recipe_quality": "normal"
+      },
+      {
+        "direction": 8,
+        "entity_number": 67,
+        "name": "long-handed-inserter",
+        "position": {
+          "x": 156.5,
+          "y": 405.5
+        }
+      },
+      {
+        "entity_number": 68,
+        "name": "medium-electric-pole",
+        "position": {
+          "x": 156.5,
+          "y": 406.5
+        }
+      },
+      {
+        "direction": 12,
+        "entity_number": 69,
+        "name": "transport-belt",
+        "position": {
+          "x": 156.5,
+          "y": 407.5
+        }
+      },
+      {
+        "direction": 8,
+        "entity_number": 70,
+        "name": "inserter",
+        "position": {
+          "x": 156.5,
+          "y": 408.5
+        }
+      },
+      {
+        "control_behavior": {
+          "circuit_condition": {
+            "comparator": "<",
+            "constant": 1,
+            "first_signal": {
+              "name": "biter-egg"
+            }
+          },
+          "circuit_enabled": true
+        },
+        "direction": 8,
+        "entity_number": 71,
+        "name": "inserter",
+        "position": {
+          "x": 157.5,
+          "y": 405.5
+        }
+      },
+      {
+        "control_behavior": {
+          "circuit_condition": {
+            "comparator": "≥",
+            "constant": 4,
+            "first_signal": {
+              "name": "productivity-module-2"
+            }
+          },
+          "circuit_condition_enabled": true,
+          "read_contents": false
+        },
+        "entity_number": 72,
+        "name": "requester-chest",
+        "position": {
+          "x": 157.5,
+          "y": 406.5
+        },
+        "request_filters": {
+          "sections": [
+            {
+              "filters": [
+                {
+                  "comparator": "=",
+                  "count": 1,
+                  "import_from": "vulcanus",
+                  "index": 1,
+                  "name": "biter-egg",
+                  "quality": "normal"
+                }
+              ],
+              "index": 1
+            }
+          ]
+        }
+      },
+      {
+        "direction": 12,
+        "entity_number": 73,
+        "name": "transport-belt",
+        "position": {
+          "x": 157.5,
+          "y": 407.5
+        }
+      },
+      {
+        "direction": 8,
+        "entity_number": 74,
+        "name": "inserter",
+        "position": {
+          "x": 157.5,
+          "y": 408.5
+        }
+      },
+      {
+        "control_behavior": {
+          "read_contents": true
+        },
+        "entity_number": 75,
+        "name": "assembling-machine-3",
+        "position": {
+          "x": 158.5,
+          "y": 403.5
+        },
+        "recipe": "productivity-module-3",
+        "recipe_quality": "normal"
+      },
+      {
+        "control_behavior": {
+          "circuit_condition": {
+            "comparator": "<",
+            "constant": 100,
+            "first_signal": {
+              "name": "productivity-module-3"
+            }
+          },
+          "circuit_enabled": true
+        },
+        "entity_number": 76,
+        "name": "long-handed-inserter",
+        "position": {
+          "x": 158.5,
+          "y": 405.5
+        }
+      },
+      {
+        "direction": 8,
+        "entity_number": 77,
+        "name": "long-handed-inserter",
+        "position": {
+          "x": 158.5,
+          "y": 406.5
+        }
+      },
+      {
+        "control_behavior": {
+          "circuit_condition_enabled": false
+        },
+        "entity_number": 78,
+        "name": "storage-chest",
+        "position": {
+          "x": 158.5,
+          "y": 407.5
+        },
+        "request_filters": {
+          "sections": [
+            {
+              "filters": [
+                {
+                  "comparator": "=",
+                  "count": 0,
+                  "import_from": "nauvis",
+                  "index": 1,
+                  "name": "productivity-module-3",
+                  "quality": "normal"
+                }
+              ],
+              "index": 1
+            }
+          ]
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 79,
+        "name": "underground-belt",
+        "position": {
+          "x": 158.5,
+          "y": 408.5
+        },
+        "type": "output"
+      },
+      {
+        "entity_number": 80,
+        "name": "assembling-machine-3",
+        "position": {
+          "x": 158.5,
+          "y": 410.5
+        },
+        "recipe": "productivity-module",
+        "recipe_quality": "normal"
+      },
+      {
+        "direction": 8,
+        "entity_number": 81,
+        "name": "long-handed-inserter",
+        "position": {
+          "x": 159.5,
+          "y": 405.5
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 82,
+        "name": "underground-belt",
+        "position": {
+          "x": 159.5,
+          "y": 406.5
+        },
+        "type": "output"
+      },
+      {
+        "direction": 4,
+        "entity_number": 83,
+        "name": "underground-belt",
+        "position": {
+          "x": 159.5,
+          "y": 407.5
+        },
+        "type": "output"
+      },
+      {
+        "entity_number": 84,
+        "name": "long-handed-inserter",
+        "position": {
+          "x": 159.5,
+          "y": 408.5
+        }
+      },
+      {
+        "direction": 8,
+        "entity_number": 85,
+        "name": "long-handed-inserter",
+        "position": {
+          "x": 160.5,
+          "y": 405.5
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 86,
+        "name": "underground-belt",
+        "position": {
+          "x": 160.5,
+          "y": 406.5
+        },
+        "type": "input"
+      },
+      {
+        "direction": 4,
+        "entity_number": 87,
+        "name": "underground-belt",
+        "position": {
+          "x": 160.5,
+          "y": 407.5
+        },
+        "type": "input"
+      },
+      {
+        "entity_number": 88,
+        "name": "long-handed-inserter",
+        "position": {
+          "x": 160.5,
+          "y": 408.5
+        }
+      },
+      {
+        "entity_number": 89,
+        "name": "assembling-machine-3",
+        "position": {
+          "x": 161.5,
+          "y": 403.5
+        },
+        "recipe": "quality-module-2",
+        "recipe_quality": "normal"
+      },
+      {
+        "control_behavior": {
+          "circuit_condition": {
+            "comparator": "<",
+            "constant": 100,
+            "first_signal": {
+              "name": "quality-module-2"
+            }
+          },
+          "circuit_enabled": true
+        },
+        "entity_number": 90,
+        "name": "long-handed-inserter",
+        "position": {
+          "x": 161.5,
+          "y": 405.5
+        }
+      },
+      {
+        "entity_number": 91,
+        "name": "long-handed-inserter",
+        "position": {
+          "x": 161.5,
+          "y": 406.5
+        }
+      },
+      {
+        "control_behavior": {
+          "circuit_condition_enabled": false
+        },
+        "entity_number": 92,
+        "name": "storage-chest",
+        "position": {
+          "x": 161.5,
+          "y": 407.5
+        },
+        "request_filters": {
+          "sections": [
+            {
+              "filters": [
+                {
+                  "comparator": "=",
+                  "count": 0,
+                  "import_from": "nauvis",
+                  "index": 1,
+                  "name": "quality-module-2",
+                  "quality": "normal"
+                }
+              ],
+              "index": 1
+            }
+          ]
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 93,
+        "name": "underground-belt",
+        "position": {
+          "x": 161.5,
+          "y": 408.5
+        },
+        "type": "input"
+      },
+      {
+        "entity_number": 94,
+        "name": "assembling-machine-3",
+        "position": {
+          "x": 161.5,
+          "y": 410.5
+        },
+        "recipe": "quality-module",
+        "recipe_quality": "normal"
+      },
+      {
+        "direction": 8,
+        "entity_number": 95,
+        "name": "long-handed-inserter",
+        "position": {
+          "x": 162.5,
+          "y": 405.5
+        }
+      },
+      {
+        "entity_number": 96,
+        "name": "medium-electric-pole",
+        "position": {
+          "x": 162.5,
+          "y": 406.5
+        }
+      },
+      {
+        "direction": 12,
+        "entity_number": 97,
+        "name": "transport-belt",
+        "position": {
+          "x": 162.5,
+          "y": 407.5
+        }
+      },
+      {
+        "direction": 8,
+        "entity_number": 98,
+        "name": "inserter",
+        "position": {
+          "x": 162.5,
+          "y": 408.5
+        }
+      },
+      {
+        "direction": 8,
+        "entity_number": 99,
+        "name": "inserter",
+        "position": {
+          "x": 163.5,
+          "y": 405.5
+        }
+      },
+      {
+        "entity_number": 100,
+        "name": "requester-chest",
+        "position": {
+          "x": 163.5,
+          "y": 406.5
+        },
+        "request_filters": {
+          "sections": [
+            {
+              "filters": [
+                {
+                  "comparator": "=",
+                  "count": 200,
+                  "import_from": "vulcanus",
+                  "index": 1,
+                  "name": "superconductor",
+                  "quality": "normal"
+                }
+              ],
+              "index": 1
+            }
+          ]
+        }
+      },
+      {
+        "direction": 12,
+        "entity_number": 101,
+        "name": "transport-belt",
+        "position": {
+          "x": 163.5,
+          "y": 407.5
+        }
+      },
+      {
+        "direction": 8,
+        "entity_number": 102,
+        "name": "inserter",
+        "position": {
+          "x": 163.5,
+          "y": 408.5
+        }
+      },
+      {
+        "entity_number": 103,
+        "name": "assembling-machine-3",
+        "position": {
+          "x": 164.5,
+          "y": 403.5
+        },
+        "recipe": "quality-module-3",
+        "recipe_quality": "normal"
+      },
+      {
+        "control_behavior": {
+          "circuit_condition": {
+            "comparator": "<",
+            "constant": 100,
+            "first_signal": {
+              "name": "quality-module-3"
+            }
+          },
+          "circuit_enabled": true
+        },
+        "entity_number": 104,
+        "name": "long-handed-inserter",
+        "position": {
+          "x": 164.5,
+          "y": 405.5
+        }
+      },
+      {
+        "direction": 8,
+        "entity_number": 105,
+        "name": "long-handed-inserter",
+        "position": {
+          "x": 164.5,
+          "y": 406.5
+        }
+      },
+      {
+        "control_behavior": {
+          "circuit_condition_enabled": false
+        },
+        "entity_number": 106,
+        "name": "storage-chest",
+        "position": {
+          "x": 164.5,
+          "y": 407.5
+        },
+        "request_filters": {
+          "sections": [
+            {
+              "filters": [
+                {
+                  "comparator": "=",
+                  "count": 0,
+                  "import_from": "nauvis",
+                  "index": 1,
+                  "name": "quality-module-3",
+                  "quality": "normal"
+                }
+              ],
+              "index": 1
+            }
+          ]
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 107,
+        "name": "underground-belt",
+        "position": {
+          "x": 164.5,
+          "y": 408.5
+        },
+        "type": "output"
+      },
+      {
+        "entity_number": 108,
+        "name": "assembling-machine-3",
+        "position": {
+          "x": 164.5,
+          "y": 410.5
+        },
+        "recipe": "quality-module",
+        "recipe_quality": "normal"
+      },
+      {
+        "direction": 8,
+        "entity_number": 109,
+        "name": "long-handed-inserter",
+        "position": {
+          "x": 165.5,
+          "y": 405.5
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 110,
+        "name": "underground-belt",
+        "position": {
+          "x": 165.5,
+          "y": 406.5
+        },
+        "type": "output"
+      },
+      {
+        "direction": 4,
+        "entity_number": 111,
+        "name": "underground-belt",
+        "position": {
+          "x": 165.5,
+          "y": 407.5
+        },
+        "type": "output"
+      },
+      {
+        "entity_number": 112,
+        "name": "long-handed-inserter",
+        "position": {
+          "x": 165.5,
+          "y": 408.5
+        }
+      }
+    ],
+    "icons": [
+      {
+        "index": 1,
+        "signal": {
+          "name": "speed-module"
+        }
+      },
+      {
+        "index": 2,
+        "signal": {
+          "name": "efficiency-module"
+        }
+      },
+      {
+        "index": 3,
+        "signal": {
+          "name": "productivity-module"
+        }
+      },
+      {
+        "index": 4,
+        "signal": {
+          "name": "quality-module"
+        }
+      }
+    ],
+    "version": 562954249306113,
+    "wires": [
+      [
+        6,
+        1,
+        8,
+        1
+      ],
+      [
+        12,
+        5,
+        40,
+        5
+      ],
+      [
+        20,
+        1,
+        22,
+        1
+      ],
+      [
+        34,
+        1,
+        36,
+        1
+      ],
+      [
+        40,
+        5,
+        68,
+        5
+      ],
+      [
+        48,
+        1,
+        50,
+        1
+      ],
+      [
+        62,
+        1,
+        64,
+        1
+      ],
+      [
+        68,
+        5,
+        96,
+        5
+      ],
+      [
+        71,
+        1,
+        75,
+        1
+      ],
+      [
+        72,
+        1,
+        75,
+        1
+      ],
+      [
+        76,
+        1,
+        78,
+        1
+      ],
+      [
+        90,
+        1,
+        92,
+        1
+      ],
+      [
+        104,
+        1,
+        106,
+        1
+      ]
+    ]
+  },
+  "index": 0
+}

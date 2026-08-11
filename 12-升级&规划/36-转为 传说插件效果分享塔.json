@@ -1,0 +1,33 @@
+{
+  "upgrade_planner": {
+    "label": "转为 传说插件效果分享塔",
+    "item": "upgrade-planner",
+    "settings": {
+      "icons": [
+        {
+          "index": 1,
+          "signal": {
+            "name": "beacon",
+            "quality": "legendary"
+          }
+        }
+      ],
+      "mappers": [
+        {
+          "from": {
+            "name": "beacon",
+            "type": "entity"
+          },
+          "index": 0,
+          "to": {
+            "name": "beacon",
+            "quality": "legendary",
+            "type": "entity"
+          }
+        }
+      ]
+    },
+    "version": 562954249306113
+  },
+  "index": 36
+}

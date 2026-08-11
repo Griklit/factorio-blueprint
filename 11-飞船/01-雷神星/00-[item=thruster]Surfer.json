@@ -1,0 +1,4209 @@
+{
+  "blueprint": {
+    "item": "blueprint",
+    "label": "[item=thruster]Surfer",
+    "description": "A nearly perfect starter ship.\nSet your request in the constant combinator near the engine.\nFor auto pilot, research physical projectile damage and shooting speed lv5, or add more turrets.\nFor Fulgora, add 4 solar panels.\nFor Gleba, add 2 solar panels,  set the minimum rocket capacity of agri sci to 400 or anything you like, and set the wait condition sci>0. With more firepower and advanced asteroid processing, engines can be added.\n--blueprint by internet pantheon 可爱猫娘",
+    "entities": [
+      {
+        "control_behavior": {
+          "circuit_set_filters": true
+        },
+        "entity_number": 1,
+        "name": "asteroid-collector",
+        "position": {
+          "x": -3.5,
+          "y": -11.5
+        },
+        "result-inventory": null
+      },
+      {
+        "direction": 8,
+        "entity_number": 2,
+        "name": "inserter",
+        "position": {
+          "x": -1.5,
+          "y": -10.5
+        }
+      },
+      {
+        "entity_number": 3,
+        "name": "gun-turret",
+        "position": {
+          "x": -1,
+          "y": -12
+        }
+      },
+      {
+        "direction": 8,
+        "entity_number": 4,
+        "name": "inserter",
+        "position": {
+          "x": 1.5,
+          "y": -10.5
+        }
+      },
+      {
+        "entity_number": 5,
+        "name": "gun-turret",
+        "position": {
+          "x": 1,
+          "y": -12
+        }
+      },
+      {
+        "control_behavior": {
+          "decider_conditions": {
+            "conditions": [
+              {
+                "constant": 60,
+                "first_signal": {
+                  "name": "signal-each",
+                  "type": "virtual"
+                }
+              }
+            ],
+            "else_outputs": [],
+            "outputs": [
+              {
+                "copy_count_from_input": false,
+                "signal": {
+                  "name": "signal-each",
+                  "type": "virtual"
+                }
+              }
+            ]
+          }
+        },
+        "direction": 4,
+        "entity_number": 6,
+        "name": "decider-combinator",
+        "position": {
+          "x": 0,
+          "y": -10.5
+        }
+      },
+      {
+        "control_behavior": {
+          "circuit_set_filters": true
+        },
+        "entity_number": 7,
+        "name": "asteroid-collector",
+        "position": {
+          "x": 3.5,
+          "y": -11.5
+        },
+        "result-inventory": null
+      },
+      {
+        "control_behavior": {
+          "circuit_contents_read_mode": 2,
+          "circuit_read_hand_contents": true
+        },
+        "direction": 8,
+        "entity_number": 8,
+        "name": "transport-belt",
+        "position": {
+          "x": -4.5,
+          "y": -8.5
+        }
+      },
+      {
+        "control_behavior": {
+          "decider_conditions": {
+            "conditions": [
+              {
+                "first_signal": {
+                  "name": "calcite"
+                }
+              },
+              {
+                "comparator": ">",
+                "compare_type": "and",
+                "constant": 1,
+                "first_signal": {
+                  "name": "oxide-asteroid-chunk"
+                }
+              }
+            ],
+            "else_outputs": [],
+            "outputs": [
+              {
+                "copy_count_from_input": false,
+                "signal": {
+                  "name": "advanced-oxide-asteroid-crushing",
+                  "type": "recipe"
+                }
+              }
+            ]
+          }
+        },
+        "direction": 4,
+        "entity_number": 9,
+        "name": "decider-combinator",
+        "position": {
+          "x": -4,
+          "y": -9.5
+        }
+      },
+      {
+        "entity_number": 10,
+        "name": "fast-inserter",
+        "position": {
+          "x": -2.5,
+          "y": -9.5
+        }
+      },
+      {
+        "direction": 12,
+        "entity_number": 11,
+        "name": "underground-belt",
+        "position": {
+          "x": -2.5,
+          "y": -8.5
+        },
+        "type": "output"
+      },
+      {
+        "direction": 12,
+        "entity_number": 12,
+        "name": "transport-belt",
+        "position": {
+          "x": -3.5,
+          "y": -8.5
+        }
+      },
+      {
+        "entity_number": 13,
+        "name": "gun-turret",
+        "position": {
+          "x": -1,
+          "y": -9
+        }
+      },
+      {
+        "entity_number": 14,
+        "name": "gun-turret",
+        "position": {
+          "x": 1,
+          "y": -9
+        }
+      },
+      {
+        "direction": 8,
+        "entity_number": 15,
+        "name": "transport-belt",
+        "position": {
+          "x": 3.5,
+          "y": -9.5
+        }
+      },
+      {
+        "entity_number": 16,
+        "name": "fast-inserter",
+        "position": {
+          "x": 2.5,
+          "y": -9.5
+        }
+      },
+      {
+        "direction": 12,
+        "entity_number": 17,
+        "name": "transport-belt",
+        "position": {
+          "x": 3.5,
+          "y": -8.5
+        }
+      },
+      {
+        "direction": 12,
+        "entity_number": 18,
+        "name": "underground-belt",
+        "position": {
+          "x": 2.5,
+          "y": -8.5
+        },
+        "type": "input"
+      },
+      {
+        "direction": 12,
+        "entity_number": 19,
+        "name": "transport-belt",
+        "position": {
+          "x": 4.5,
+          "y": -9.5
+        }
+      },
+      {
+        "control_behavior": {
+          "circuit_contents_read_mode": 2,
+          "circuit_read_hand_contents": true
+        },
+        "entity_number": 20,
+        "name": "transport-belt",
+        "position": {
+          "x": 4.5,
+          "y": -8.5
+        }
+      },
+      {
+        "direction": 8,
+        "entity_number": 21,
+        "name": "transport-belt",
+        "position": {
+          "x": -4.5,
+          "y": -7.5
+        }
+      },
+      {
+        "control_behavior": {
+          "circuit_contents_read_mode": 2,
+          "circuit_read_hand_contents": true
+        },
+        "direction": 8,
+        "entity_number": 22,
+        "name": "transport-belt",
+        "position": {
+          "x": -4.5,
+          "y": -6.5
+        }
+      },
+      {
+        "control_behavior": {
+          "circuit_hand_read_mode": 1,
+          "circuit_read_hand_contents": true
+        },
+        "direction": 12,
+        "entity_number": 23,
+        "filters": [
+          {
+            "comparator": "=",
+            "index": 1,
+            "name": "metallic-asteroid-chunk",
+            "quality": "normal"
+          },
+          {
+            "comparator": "=",
+            "index": 2,
+            "name": "carbonic-asteroid-chunk",
+            "quality": "normal"
+          },
+          {
+            "comparator": "=",
+            "index": 3,
+            "name": "oxide-asteroid-chunk",
+            "quality": "normal"
+          }
+        ],
+        "name": "inserter",
+        "position": {
+          "x": -3.5,
+          "y": -6.5
+        },
+        "use_filters": true
+      },
+      {
+        "direction": 8,
+        "entity_number": 24,
+        "name": "fast-inserter",
+        "position": {
+          "x": -0.5,
+          "y": -7.5
+        }
+      },
+      {
+        "control_behavior": {
+          "set_recipe": true
+        },
+        "entity_number": 25,
+        "items": [
+          {
+            "id": {
+              "name": "efficiency-module-2"
+            },
+            "items": {
+              "in_inventory": [
+                {
+                  "inventory": 4,
+                  "stack": 0
+                },
+                {
+                  "inventory": 4,
+                  "stack": 1
+                }
+              ]
+            }
+          }
+        ],
+        "name": "crusher",
+        "position": {
+          "x": -2,
+          "y": -6.5
+        }
+      },
+      {
+        "direction": 8,
+        "entity_number": 26,
+        "name": "fast-inserter",
+        "position": {
+          "x": 0.5,
+          "y": -7.5
+        }
+      },
+      {
+        "control_behavior": {
+          "circuit_hand_read_mode": 1,
+          "circuit_read_hand_contents": true
+        },
+        "direction": 4,
+        "entity_number": 27,
+        "filters": [
+          {
+            "comparator": "=",
+            "index": 1,
+            "name": "metallic-asteroid-chunk",
+            "quality": "normal"
+          },
+          {
+            "comparator": "=",
+            "index": 2,
+            "name": "carbonic-asteroid-chunk",
+            "quality": "normal"
+          },
+          {
+            "comparator": "=",
+            "index": 3,
+            "name": "oxide-asteroid-chunk",
+            "quality": "normal"
+          }
+        ],
+        "name": "inserter",
+        "position": {
+          "x": 3.5,
+          "y": -6.5
+        },
+        "use_filters": true
+      },
+      {
+        "control_behavior": {
+          "set_recipe": true
+        },
+        "direction": 8,
+        "entity_number": 28,
+        "items": [
+          {
+            "id": {
+              "name": "efficiency-module-2"
+            },
+            "items": {
+              "in_inventory": [
+                {
+                  "inventory": 4,
+                  "stack": 0
+                },
+                {
+                  "inventory": 4,
+                  "stack": 1
+                }
+              ]
+            }
+          }
+        ],
+        "name": "crusher",
+        "position": {
+          "x": 2,
+          "y": -6.5
+        }
+      },
+      {
+        "entity_number": 29,
+        "name": "transport-belt",
+        "position": {
+          "x": 4.5,
+          "y": -6.5
+        }
+      },
+      {
+        "entity_number": 30,
+        "name": "splitter",
+        "position": {
+          "x": 4,
+          "y": -7.5
+        }
+      },
+      {
+        "entity_number": 31,
+        "name": "solar-panel",
+        "position": {
+          "x": -6.5,
+          "y": -5.5
+        }
+      },
+      {
+        "direction": 8,
+        "entity_number": 32,
+        "name": "transport-belt",
+        "position": {
+          "x": -4.5,
+          "y": -5.5
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 33,
+        "name": "transport-belt",
+        "position": {
+          "x": -4.5,
+          "y": -4.5
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 34,
+        "name": "transport-belt",
+        "position": {
+          "x": -3.5,
+          "y": -4.5
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 35,
+        "name": "underground-belt",
+        "position": {
+          "x": -2.5,
+          "y": -4.5
+        },
+        "type": "input"
+      },
+      {
+        "direction": 4,
+        "entity_number": 36,
+        "filters": [
+          {
+            "comparator": "=",
+            "index": 1,
+            "name": "metallic-asteroid-chunk",
+            "quality": "normal"
+          },
+          {
+            "comparator": "=",
+            "index": 2,
+            "name": "carbonic-asteroid-chunk",
+            "quality": "normal"
+          },
+          {
+            "comparator": "=",
+            "index": 3,
+            "name": "oxide-asteroid-chunk",
+            "quality": "normal"
+          }
+        ],
+        "name": "inserter",
+        "position": {
+          "x": -3.5,
+          "y": -5.5
+        },
+        "use_filters": true
+      },
+      {
+        "entity_number": 37,
+        "filter_mode": "blacklist",
+        "filters": [
+          {
+            "comparator": "=",
+            "index": 1,
+            "name": "metallic-asteroid-chunk",
+            "quality": "normal"
+          },
+          {
+            "comparator": "=",
+            "index": 2,
+            "name": "carbonic-asteroid-chunk",
+            "quality": "normal"
+          },
+          {
+            "comparator": "=",
+            "index": 3,
+            "name": "oxide-asteroid-chunk",
+            "quality": "normal"
+          }
+        ],
+        "name": "bulk-inserter",
+        "position": {
+          "x": -1.5,
+          "y": -4.5
+        },
+        "use_filters": true
+      },
+      {
+        "direction": 8,
+        "entity_number": 38,
+        "name": "fast-inserter",
+        "position": {
+          "x": -0.5,
+          "y": -4.5
+        }
+      },
+      {
+        "entity_number": 39,
+        "filter_mode": "blacklist",
+        "filters": [
+          {
+            "comparator": "=",
+            "index": 1,
+            "name": "metallic-asteroid-chunk",
+            "quality": "normal"
+          },
+          {
+            "comparator": "=",
+            "index": 2,
+            "name": "carbonic-asteroid-chunk",
+            "quality": "normal"
+          },
+          {
+            "comparator": "=",
+            "index": 3,
+            "name": "oxide-asteroid-chunk",
+            "quality": "normal"
+          }
+        ],
+        "name": "bulk-inserter",
+        "position": {
+          "x": 1.5,
+          "y": -4.5
+        },
+        "use_filters": true
+      },
+      {
+        "direction": 8,
+        "entity_number": 40,
+        "name": "fast-inserter",
+        "position": {
+          "x": 0.5,
+          "y": -4.5
+        }
+      },
+      {
+        "entity_number": 41,
+        "name": "gun-turret",
+        "position": {
+          "x": 0,
+          "y": -6
+        }
+      },
+      {
+        "direction": 12,
+        "entity_number": 42,
+        "filters": [
+          {
+            "comparator": "=",
+            "index": 1,
+            "name": "metallic-asteroid-chunk",
+            "quality": "normal"
+          },
+          {
+            "comparator": "=",
+            "index": 2,
+            "name": "carbonic-asteroid-chunk",
+            "quality": "normal"
+          },
+          {
+            "comparator": "=",
+            "index": 3,
+            "name": "oxide-asteroid-chunk",
+            "quality": "normal"
+          }
+        ],
+        "name": "inserter",
+        "position": {
+          "x": 3.5,
+          "y": -5.5
+        },
+        "use_filters": true
+      },
+      {
+        "direction": 4,
+        "entity_number": 43,
+        "name": "underground-belt",
+        "position": {
+          "x": 2.5,
+          "y": -4.5
+        },
+        "type": "output"
+      },
+      {
+        "direction": 4,
+        "entity_number": 44,
+        "name": "transport-belt",
+        "position": {
+          "x": 3.5,
+          "y": -4.5
+        }
+      },
+      {
+        "entity_number": 45,
+        "name": "transport-belt",
+        "position": {
+          "x": 4.5,
+          "y": -5.5
+        }
+      },
+      {
+        "entity_number": 46,
+        "name": "transport-belt",
+        "position": {
+          "x": 4.5,
+          "y": -4.5
+        }
+      },
+      {
+        "entity_number": 47,
+        "name": "solar-panel",
+        "position": {
+          "x": 6.5,
+          "y": -5.5
+        }
+      },
+      {
+        "entity_number": 48,
+        "items": [
+          {
+            "id": {
+              "name": "efficiency-module-2"
+            },
+            "items": {
+              "in_inventory": [
+                {
+                  "inventory": 4,
+                  "stack": 0
+                },
+                {
+                  "inventory": 4,
+                  "stack": 1
+                }
+              ]
+            }
+          }
+        ],
+        "name": "assembling-machine-2",
+        "position": {
+          "x": -6.5,
+          "y": -2.5
+        },
+        "recipe": "firearm-magazine",
+        "recipe_quality": "normal"
+      },
+      {
+        "direction": 4,
+        "entity_number": 49,
+        "name": "fast-inserter",
+        "position": {
+          "x": -4.5,
+          "y": -2.5
+        }
+      },
+      {
+        "control_behavior": {
+          "circuit_condition": {
+            "comparator": "<",
+            "constant": 0,
+            "first_signal": {
+              "name": "firearm-magazine"
+            }
+          },
+          "circuit_enabled": true,
+          "circuit_hand_read_mode": 1,
+          "circuit_read_hand_contents": true
+        },
+        "direction": 12,
+        "entity_number": 50,
+        "name": "inserter",
+        "position": {
+          "x": -4.5,
+          "y": -3.5
+        }
+      },
+      {
+        "direction": 12,
+        "entity_number": 51,
+        "filters": [
+          {
+            "comparator": "=",
+            "index": 1,
+            "name": "iron-ore",
+            "quality": "normal"
+          }
+        ],
+        "name": "inserter",
+        "position": {
+          "x": 4.5,
+          "y": -2.5
+        },
+        "use_filters": true
+      },
+      {
+        "control_behavior": {
+          "circuit_condition": {
+            "comparator": "<",
+            "constant": 0,
+            "first_signal": {
+              "name": "iron-plate"
+            }
+          },
+          "circuit_enabled": true,
+          "circuit_hand_read_mode": 1,
+          "circuit_read_hand_contents": true
+        },
+        "direction": 4,
+        "entity_number": 52,
+        "name": "inserter",
+        "position": {
+          "x": 4.5,
+          "y": -3.5
+        }
+      },
+      {
+        "entity_number": 53,
+        "items": [
+          {
+            "id": {
+              "name": "efficiency-module-2"
+            },
+            "items": {
+              "in_inventory": [
+                {
+                  "inventory": 4,
+                  "stack": 0
+                },
+                {
+                  "inventory": 4,
+                  "stack": 1
+                }
+              ]
+            }
+          }
+        ],
+        "name": "electric-furnace",
+        "position": {
+          "x": 6.5,
+          "y": -2.5
+        }
+      },
+      {
+        "control_behavior": {
+          "decider_conditions": {
+            "conditions": [
+              {
+                "first_signal": {
+                  "name": "iron-ore"
+                }
+              },
+              {
+                "comparator": ">",
+                "compare_type": "and",
+                "constant": 1,
+                "first_signal": {
+                  "name": "metallic-asteroid-chunk"
+                }
+              }
+            ],
+            "else_outputs": [],
+            "outputs": [
+              {
+                "copy_count_from_input": false,
+                "signal": {
+                  "name": "metallic-asteroid-crushing",
+                  "type": "recipe"
+                }
+              }
+            ]
+          }
+        },
+        "entity_number": 54,
+        "name": "decider-combinator",
+        "position": {
+          "x": -4.5,
+          "y": -1
+        }
+      },
+      {
+        "control_behavior": {
+          "decider_conditions": {
+            "conditions": [
+              {
+                "first_signal": {
+                  "name": "carbon"
+                }
+              },
+              {
+                "comparator": ">",
+                "compare_type": "and",
+                "constant": 1,
+                "first_signal": {
+                  "name": "carbonic-asteroid-chunk"
+                }
+              }
+            ],
+            "else_outputs": [],
+            "outputs": [
+              {
+                "copy_count_from_input": false,
+                "signal": {
+                  "name": "carbonic-asteroid-crushing",
+                  "type": "recipe"
+                }
+              }
+            ]
+          }
+        },
+        "entity_number": 55,
+        "name": "decider-combinator",
+        "position": {
+          "x": 4.5,
+          "y": -1
+        }
+      },
+      {
+        "entity_number": 56,
+        "items": [
+          {
+            "id": {
+              "name": "efficiency-module-2"
+            },
+            "items": {
+              "in_inventory": [
+                {
+                  "inventory": 4,
+                  "stack": 0
+                },
+                {
+                  "inventory": 4,
+                  "stack": 1
+                }
+              ]
+            }
+          }
+        ],
+        "name": "electric-furnace",
+        "position": {
+          "x": -6.5,
+          "y": 0.5
+        }
+      },
+      {
+        "control_behavior": {
+          "circuit_condition": {
+            "comparator": "<",
+            "constant": 0,
+            "first_signal": {
+              "name": "iron-plate"
+            }
+          },
+          "circuit_enabled": true,
+          "circuit_hand_read_mode": 1,
+          "circuit_read_hand_contents": true
+        },
+        "direction": 12,
+        "entity_number": 57,
+        "name": "inserter",
+        "position": {
+          "x": -4.5,
+          "y": 1.5
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 58,
+        "filters": [
+          {
+            "comparator": "=",
+            "index": 1,
+            "name": "iron-ore",
+            "quality": "normal"
+          }
+        ],
+        "name": "inserter",
+        "position": {
+          "x": -4.5,
+          "y": 0.5
+        },
+        "use_filters": true
+      },
+      {
+        "control_behavior": {
+          "send_to_platform": false
+        },
+        "entity_number": 59,
+        "name": "space-platform-hub",
+        "position": {
+          "x": 0,
+          "y": 0
+        },
+        "providing_to_other_platforms": false,
+        "request_filters": {
+          "request_from_buffers": true,
+          "sections": [
+            {
+              "active": false,
+              "group": "[planet=nauvis]NauvisSurfer",
+              "index": 1
+            },
+            {
+              "active": false,
+              "filters": [
+                {
+                  "comparator": "=",
+                  "count": 1000,
+                  "import_from": "vulcanus",
+                  "index": 1,
+                  "name": "metallurgic-science-pack",
+                  "quality": "normal"
+                },
+                {
+                  "comparator": "=",
+                  "count": 20,
+                  "import_from": "vulcanus",
+                  "index": 2,
+                  "name": "big-mining-drill",
+                  "quality": "normal"
+                },
+                {
+                  "comparator": "=",
+                  "count": 20,
+                  "import_from": "vulcanus",
+                  "index": 3,
+                  "name": "foundry",
+                  "quality": "normal"
+                },
+                {
+                  "comparator": "=",
+                  "count": 500,
+                  "import_from": "vulcanus",
+                  "index": 4,
+                  "name": "calcite",
+                  "quality": "normal"
+                },
+                {
+                  "comparator": "=",
+                  "count": 500,
+                  "import_from": "vulcanus",
+                  "index": 5,
+                  "name": "tungsten-carbide",
+                  "quality": "normal"
+                },
+                {
+                  "comparator": "=",
+                  "count": 200,
+                  "import_from": "vulcanus",
+                  "index": 8,
+                  "name": "low-density-structure",
+                  "quality": "normal"
+                }
+              ],
+              "group": "[planet=vulcanus]VulcanusSurfer",
+              "index": 2
+            },
+            {
+              "active": false,
+              "filters": [
+                {
+                  "comparator": "=",
+                  "count": 1000,
+                  "import_from": "fulgora",
+                  "index": 1,
+                  "name": "electromagnetic-science-pack",
+                  "quality": "normal"
+                },
+                {
+                  "comparator": "=",
+                  "count": 20,
+                  "import_from": "fulgora",
+                  "index": 2,
+                  "name": "electromagnetic-plant",
+                  "quality": "normal"
+                },
+                {
+                  "comparator": "=",
+                  "count": 20,
+                  "import_from": "fulgora",
+                  "index": 3,
+                  "name": "recycler",
+                  "quality": "normal"
+                },
+                {
+                  "comparator": "=",
+                  "count": 1000,
+                  "import_from": "fulgora",
+                  "index": 4,
+                  "name": "holmium-plate",
+                  "quality": "normal"
+                },
+                {
+                  "comparator": "=",
+                  "count": 1000,
+                  "import_from": "fulgora",
+                  "index": 5,
+                  "name": "superconductor",
+                  "quality": "normal"
+                },
+                {
+                  "comparator": "=",
+                  "count": 500,
+                  "import_from": "fulgora",
+                  "index": 6,
+                  "name": "supercapacitor",
+                  "quality": "normal"
+                },
+                {
+                  "comparator": "=",
+                  "count": 300,
+                  "import_from": "fulgora",
+                  "index": 8,
+                  "name": "processing-unit",
+                  "quality": "normal"
+                }
+              ],
+              "group": "[planet=fulgora]FulgoraSurfer",
+              "index": 3
+            },
+            {
+              "active": false,
+              "filters": [
+                {
+                  "comparator": "=",
+                  "count": 1000,
+                  "import_from": "gleba",
+                  "index": 1,
+                  "minimum_delivery_count": 1000,
+                  "name": "agricultural-science-pack",
+                  "quality": "normal"
+                },
+                {
+                  "comparator": "=",
+                  "count": 20,
+                  "import_from": "gleba",
+                  "index": 2,
+                  "name": "biochamber",
+                  "quality": "normal"
+                },
+                {
+                  "comparator": "=",
+                  "count": 20,
+                  "import_from": "gleba",
+                  "index": 3,
+                  "name": "agricultural-tower",
+                  "quality": "normal"
+                },
+                {
+                  "comparator": "=",
+                  "count": 1000,
+                  "import_from": "gleba",
+                  "index": 4,
+                  "name": "bioflux",
+                  "quality": "normal"
+                },
+                {
+                  "comparator": "=",
+                  "count": 500,
+                  "import_from": "gleba",
+                  "index": 5,
+                  "name": "carbon-fiber",
+                  "quality": "normal"
+                },
+                {
+                  "comparator": "=",
+                  "count": 100,
+                  "import_from": "gleba",
+                  "index": 8,
+                  "name": "rocket-fuel",
+                  "quality": "normal"
+                }
+              ],
+              "group": "[planet=gleba]GlebaSurfer",
+              "index": 4
+            }
+          ]
+        },
+        "request_missing_construction_materials": false
+      },
+      {
+        "control_behavior": {
+          "circuit_condition": {
+            "comparator": "<",
+            "constant": 0,
+            "first_signal": {
+              "name": "iron-plate"
+            }
+          },
+          "circuit_enabled": true,
+          "circuit_hand_read_mode": 1,
+          "circuit_read_hand_contents": true
+        },
+        "direction": 4,
+        "entity_number": 60,
+        "name": "inserter",
+        "position": {
+          "x": 4.5,
+          "y": 1.5
+        }
+      },
+      {
+        "direction": 12,
+        "entity_number": 61,
+        "filters": [
+          {
+            "comparator": "=",
+            "index": 1,
+            "name": "iron-ore",
+            "quality": "normal"
+          }
+        ],
+        "name": "inserter",
+        "position": {
+          "x": 4.5,
+          "y": 0.5
+        },
+        "use_filters": true
+      },
+      {
+        "entity_number": 62,
+        "items": [
+          {
+            "id": {
+              "name": "efficiency-module-2"
+            },
+            "items": {
+              "in_inventory": [
+                {
+                  "inventory": 4,
+                  "stack": 0
+                },
+                {
+                  "inventory": 4,
+                  "stack": 1
+                }
+              ]
+            }
+          }
+        ],
+        "name": "electric-furnace",
+        "position": {
+          "x": 6.5,
+          "y": 0.5
+        }
+      },
+      {
+        "entity_number": 63,
+        "items": [
+          {
+            "id": {
+              "name": "efficiency-module-2"
+            },
+            "items": {
+              "in_inventory": [
+                {
+                  "inventory": 4,
+                  "stack": 0
+                },
+                {
+                  "inventory": 4,
+                  "stack": 1
+                }
+              ]
+            }
+          }
+        ],
+        "name": "electric-furnace",
+        "position": {
+          "x": -6.5,
+          "y": 3.5
+        }
+      },
+      {
+        "control_behavior": {
+          "circuit_condition": {
+            "comparator": "<",
+            "constant": 0,
+            "first_signal": {
+              "name": "iron-plate"
+            }
+          },
+          "circuit_enabled": true,
+          "circuit_hand_read_mode": 1,
+          "circuit_read_hand_contents": true
+        },
+        "direction": 12,
+        "entity_number": 64,
+        "name": "inserter",
+        "position": {
+          "x": -4.5,
+          "y": 2.5
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 65,
+        "filters": [
+          {
+            "comparator": "=",
+            "index": 1,
+            "name": "iron-ore",
+            "quality": "normal"
+          }
+        ],
+        "name": "inserter",
+        "position": {
+          "x": -4.5,
+          "y": 3.5
+        },
+        "use_filters": true
+      },
+      {
+        "control_behavior": {
+          "circuit_condition": {
+            "comparator": "<",
+            "constant": 0,
+            "first_signal": {
+              "name": "iron-plate"
+            }
+          },
+          "circuit_enabled": true,
+          "circuit_hand_read_mode": 1,
+          "circuit_read_hand_contents": true
+        },
+        "direction": 4,
+        "entity_number": 66,
+        "name": "inserter",
+        "position": {
+          "x": 4.5,
+          "y": 2.5
+        }
+      },
+      {
+        "direction": 12,
+        "entity_number": 67,
+        "filters": [
+          {
+            "comparator": "=",
+            "index": 1,
+            "name": "iron-ore",
+            "quality": "normal"
+          }
+        ],
+        "name": "inserter",
+        "position": {
+          "x": 4.5,
+          "y": 3.5
+        },
+        "use_filters": true
+      },
+      {
+        "entity_number": 68,
+        "items": [
+          {
+            "id": {
+              "name": "efficiency-module-2"
+            },
+            "items": {
+              "in_inventory": [
+                {
+                  "inventory": 4,
+                  "stack": 0
+                },
+                {
+                  "inventory": 4,
+                  "stack": 1
+                }
+              ]
+            }
+          }
+        ],
+        "name": "electric-furnace",
+        "position": {
+          "x": 6.5,
+          "y": 3.5
+        }
+      },
+      {
+        "entity_number": 69,
+        "name": "inserter",
+        "position": {
+          "x": -3.5,
+          "y": 4.5
+        }
+      },
+      {
+        "entity_number": 70,
+        "name": "pipe",
+        "position": {
+          "x": -2.5,
+          "y": 4.5
+        }
+      },
+      {
+        "entity_number": 71,
+        "name": "pipe",
+        "position": {
+          "x": -1.5,
+          "y": 4.5
+        }
+      },
+      {
+        "entity_number": 72,
+        "name": "inserter",
+        "position": {
+          "x": -0.5,
+          "y": 4.5
+        }
+      },
+      {
+        "entity_number": 73,
+        "name": "pipe",
+        "position": {
+          "x": 0.5,
+          "y": 4.5
+        }
+      },
+      {
+        "entity_number": 74,
+        "name": "pipe",
+        "position": {
+          "x": 1.5,
+          "y": 4.5
+        }
+      },
+      {
+        "entity_number": 75,
+        "name": "pipe",
+        "position": {
+          "x": 2.5,
+          "y": 4.5
+        }
+      },
+      {
+        "entity_number": 76,
+        "name": "inserter",
+        "position": {
+          "x": 3.5,
+          "y": 4.5
+        }
+      },
+      {
+        "entity_number": 77,
+        "name": "solar-panel",
+        "position": {
+          "x": -6.5,
+          "y": 6.5
+        }
+      },
+      {
+        "entity_number": 78,
+        "items": [
+          {
+            "id": {
+              "name": "efficiency-module-2"
+            },
+            "items": {
+              "in_inventory": [
+                {
+                  "inventory": 4,
+                  "stack": 0
+                },
+                {
+                  "inventory": 4,
+                  "stack": 1
+                }
+              ]
+            }
+          }
+        ],
+        "name": "chemical-plant",
+        "position": {
+          "x": -3.5,
+          "y": 6.5
+        },
+        "recipe": "thruster-fuel",
+        "recipe_quality": "normal"
+      },
+      {
+        "direction": 8,
+        "entity_number": 79,
+        "items": [
+          {
+            "id": {
+              "name": "efficiency-module-2"
+            },
+            "items": {
+              "in_inventory": [
+                {
+                  "inventory": 4,
+                  "stack": 0
+                },
+                {
+                  "inventory": 4,
+                  "stack": 1
+                }
+              ]
+            }
+          }
+        ],
+        "name": "chemical-plant",
+        "position": {
+          "x": -0.5,
+          "y": 6.5
+        },
+        "recipe": "ice-melting",
+        "recipe_quality": "normal"
+      },
+      {
+        "control_behavior": {
+          "decider_conditions": {
+            "conditions": [
+              {
+                "first_signal": {
+                  "name": "ice"
+                }
+              },
+              {
+                "comparator": ">",
+                "compare_type": "and",
+                "constant": 1,
+                "first_signal": {
+                  "name": "oxide-asteroid-chunk"
+                }
+              }
+            ],
+            "else_outputs": [],
+            "outputs": [
+              {
+                "copy_count_from_input": false,
+                "signal": {
+                  "name": "oxide-asteroid-crushing",
+                  "type": "recipe"
+                }
+              }
+            ]
+          }
+        },
+        "entity_number": 80,
+        "name": "decider-combinator",
+        "position": {
+          "x": 1.5,
+          "y": 6
+        }
+      },
+      {
+        "control_behavior": {
+          "sections": {
+            "sections": [
+              {
+                "filters": [
+                  {
+                    "comparator": "=",
+                    "count": -20,
+                    "import_from": "nauvis",
+                    "index": 1,
+                    "max_count": 4294967276,
+                    "name": "iron-ore",
+                    "quality": "normal"
+                  },
+                  {
+                    "comparator": "=",
+                    "count": -20,
+                    "import_from": "nauvis",
+                    "index": 2,
+                    "max_count": 4294967276,
+                    "name": "carbon",
+                    "quality": "normal"
+                  },
+                  {
+                    "comparator": "=",
+                    "count": -20,
+                    "import_from": "nauvis",
+                    "index": 3,
+                    "max_count": 4294967276,
+                    "name": "ice",
+                    "quality": "normal"
+                  },
+                  {
+                    "comparator": "=",
+                    "count": -90,
+                    "import_from": "nauvis",
+                    "index": 4,
+                    "max_count": 4294967206,
+                    "name": "iron-plate",
+                    "quality": "normal"
+                  },
+                  {
+                    "comparator": "=",
+                    "count": -10,
+                    "import_from": "vulcanus",
+                    "index": 6,
+                    "max_count": 4294967286,
+                    "name": "calcite",
+                    "quality": "normal"
+                  },
+                  {
+                    "comparator": "=",
+                    "count": -400,
+                    "import_from": "nauvis",
+                    "index": 10,
+                    "max_count": 4294966896,
+                    "name": "firearm-magazine",
+                    "quality": "normal"
+                  }
+                ],
+                "group": "SurferStorage",
+                "index": 1
+              },
+              {
+                "filters": [
+                  {
+                    "comparator": "=",
+                    "count": 1,
+                    "import_from": "nauvis",
+                    "index": 1,
+                    "name": "metallic-asteroid-chunk",
+                    "quality": "normal"
+                  },
+                  {
+                    "comparator": "=",
+                    "count": 1,
+                    "import_from": "nauvis",
+                    "index": 2,
+                    "name": "carbonic-asteroid-chunk",
+                    "quality": "normal"
+                  },
+                  {
+                    "comparator": "=",
+                    "count": 1,
+                    "import_from": "nauvis",
+                    "index": 3,
+                    "name": "oxide-asteroid-chunk",
+                    "quality": "normal"
+                  }
+                ],
+                "group": "VirtualAsteroid",
+                "index": 2
+              }
+            ]
+          }
+        },
+        "entity_number": 81,
+        "name": "constant-combinator",
+        "position": {
+          "x": 1.5,
+          "y": 7.5
+        }
+      },
+      {
+        "entity_number": 82,
+        "items": [
+          {
+            "id": {
+              "name": "efficiency-module-2"
+            },
+            "items": {
+              "in_inventory": [
+                {
+                  "inventory": 4,
+                  "stack": 0
+                },
+                {
+                  "inventory": 4,
+                  "stack": 1
+                }
+              ]
+            }
+          }
+        ],
+        "name": "chemical-plant",
+        "position": {
+          "x": 3.5,
+          "y": 6.5
+        },
+        "recipe": "thruster-oxidizer",
+        "recipe_quality": "normal"
+      },
+      {
+        "entity_number": 83,
+        "name": "solar-panel",
+        "position": {
+          "x": 6.5,
+          "y": 6.5
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 84,
+        "name": "storage-tank",
+        "position": {
+          "x": -3.5,
+          "y": 9.5
+        }
+      },
+      {
+        "entity_number": 85,
+        "name": "storage-tank",
+        "position": {
+          "x": 3.5,
+          "y": 9.5
+        }
+      },
+      {
+        "entity_number": 86,
+        "name": "thruster",
+        "position": {
+          "x": 0,
+          "y": 10.5
+        }
+      }
+    ],
+    "icons": [
+      {
+        "index": 1,
+        "signal": {
+          "name": "vulcanus",
+          "type": "space-location"
+        }
+      },
+      {
+        "index": 2,
+        "signal": {
+          "name": "gleba",
+          "type": "space-location"
+        }
+      },
+      {
+        "index": 3,
+        "signal": {
+          "name": "thruster"
+        }
+      },
+      {
+        "index": 4,
+        "signal": {
+          "name": "fulgora",
+          "type": "space-location"
+        }
+      }
+    ],
+    "schedules": [
+      {
+        "locomotives": [
+          59
+        ],
+        "schedule": {
+          "records": [
+            {
+              "station": "nauvis",
+              "wait_conditions": [
+                {
+                  "compare_type": "and",
+                  "type": "any_request_zero"
+                },
+                {
+                  "compare_type": "and",
+                  "condition": {
+                    "comparator": "≥",
+                    "constant": 350,
+                    "first_signal": {
+                      "name": "firearm-magazine"
+                    }
+                  },
+                  "type": "item_count"
+                }
+              ]
+            }
+          ]
+        }
+      }
+    ],
+    "tiles": [
+      {
+        "name": "space-platform-foundation",
+        "position": {
+          "x": -8,
+          "y": -7
+        }
+      },
+      {
+        "name": "space-platform-foundation",
+        "position": {
+          "x": -8,
+          "y": -6
+        }
+      },
+      {
+        "name": "space-platform-foundation",
+        "position": {
+          "x": -8,
+          "y": -5
+        }
+      },
+      {
+        "name": "space-platform-foundation",
+        "position": {
+          "x": -8,
+          "y": -4
+        }
+      },
+      {
+        "name": "space-platform-foundation",
+        "position": {
+          "x": -8,
+          "y": -3
+        }
+      },
+      {
+        "name": "space-platform-foundation",
+        "position": {
+          "x": -8,
+          "y": -2
+        }
+      },
+      {
+        "name": "space-platform-foundation",
+        "position": {
+          "x": -8,
+          "y": -1
+        }
+      },
+      {
+        "name": "space-platform-foundation",
+        "position": {
+          "x": -8,
+          "y": 0
+        }
+      },
+      {
+        "name": "space-platform-foundation",
+        "position": {
+          "x": -8,
+          "y": 1
+        }
+      },
+      {
+        "name": "space-platform-foundation",
+        "position": {
+          "x": -8,
+          "y": 2
+        }
+      },
+      {
+        "name": "space-platform-foundation",
+        "position": {
+          "x": -8,
+          "y": 3
+        }
+      },
+      {
+        "name": "space-platform-foundation",
+        "position": {
+          "x": -8,
+          "y": 4
+        }
+      },
+      {
+        "name": "space-platform-foundation",
+        "position": {
+          "x": -8,
+          "y": 5
+        }
+      },
+      {
+        "name": "space-platform-foundation",
+        "position": {
+          "x": -8,
+          "y": 6
+        }
+      },
+      {
+        "name": "space-platform-foundation",
+        "position": {
+          "x": -8,
+          "y": 7
+        }
+      },
+      {
+        "name": "space-platform-foundation",
+        "position": {
+          "x": -7,
+          "y": -7
+        }
+      },
+      {
+        "name": "space-platform-foundation",
+        "position": {
+          "x": -7,
+          "y": -6
+        }
+      },
+      {
+        "name": "space-platform-foundation",
+        "position": {
+          "x": -7,
+          "y": -5
+        }
+      },
+      {
+        "name": "space-platform-foundation",
+        "position": {
+          "x": -7,
+          "y": -4
+        }
+      },
+      {
+        "name": "space-platform-foundation",
+        "position": {
+          "x": -7,
+          "y": -3
+        }
+      },
+      {
+        "name": "space-platform-foundation",
+        "position": {
+          "x": -7,
+          "y": -2
+        }
+      },
+      {
+        "name": "space-platform-foundation",
+        "position": {
+          "x": -7,
+          "y": -1
+        }
+      },
+      {
+        "name": "space-platform-foundation",
+        "position": {
+          "x": -7,
+          "y": 0
+        }
+      },
+      {
+        "name": "space-platform-foundation",
+        "position": {
+          "x": -7,
+          "y": 1
+        }
+      },
+      {
+        "name": "space-platform-foundation",
+        "position": {
+          "x": -7,
+          "y": 2
+        }
+      },
+      {
+        "name": "space-platform-foundation",
+        "position": {
+          "x": -7,
+          "y": 3
+        }
+      },
+      {
+        "name": "space-platform-foundation",
+        "position": {
+          "x": -7,
+          "y": 4
+        }
+      },
+      {
+        "name": "space-platform-foundation",
+        "position": {
+          "x": -7,
+          "y": 5
+        }
+      },
+      {
+        "name": "space-platform-foundation",
+        "position": {
+          "x": -7,
+          "y": 6
+        }
+      },
+      {
+        "name": "space-platform-foundation",
+        "position": {
+          "x": -7,
+          "y": 7
+        }
+      },
+      {
+        "name": "space-platform-foundation",
+        "position": {
+          "x": -6,
+          "y": -7
+        }
+      },
+      {
+        "name": "space-platform-foundation",
+        "position": {
+          "x": -6,
+          "y": -6
+        }
+      },
+      {
+        "name": "space-platform-foundation",
+        "position": {
+          "x": -6,
+          "y": -5
+        }
+      },
+      {
+        "name": "space-platform-foundation",
+        "position": {
+          "x": -6,
+          "y": -4
+        }
+      },
+      {
+        "name": "space-platform-foundation",
+        "position": {
+          "x": -6,
+          "y": -3
+        }
+      },
+      {
+        "name": "space-platform-foundation",
+        "position": {
+          "x": -6,
+          "y": -2
+        }
+      },
+      {
+        "name": "space-platform-foundation",
+        "position": {
+          "x": -6,
+          "y": -1
+        }
+      },
+      {
+        "name": "space-platform-foundation",
+        "position": {
+          "x": -6,
+          "y": 0
+        }
+      },
+      {
+        "name": "space-platform-foundation",
+        "position": {
+          "x": -6,
+          "y": 1
+        }
+      },
+      {
+        "name": "space-platform-foundation",
+        "position": {
+          "x": -6,
+          "y": 2
+        }
+      },
+      {
+        "name": "space-platform-foundation",
+        "position": {
+          "x": -6,
+          "y": 3
+        }
+      },
+      {
+        "name": "space-platform-foundation",
+        "position": {
+          "x": -6,
+          "y": 4
+        }
+      },
+      {
+        "name": "space-platform-foundation",
+        "position": {
+          "x": -6,
+          "y": 5
+        }
+      },
+      {
+        "name": "space-platform-foundation",
+        "position": {
+          "x": -6,
+          "y": 6
+        }
+      },
+      {
+        "name": "space-platform-foundation",
+        "position": {
+          "x": -6,
+          "y": 7
+        }
+      },
+      {
+        "name": "space-platform-foundation",
+        "position": {
+          "x": -5,
+          "y": -12
+        }
+      },
+      {
+        "name": "space-platform-foundation",
+        "position": {
+          "x": -5,
+          "y": -11
+        }
+      },
+      {
+        "name": "space-platform-foundation",
+        "position": {
+          "x": -5,
+          "y": -10
+        }
+      },
+      {
+        "name": "space-platform-foundation",
+        "position": {
+          "x": -5,
+          "y": -9
+        }
+      },
+      {
+        "name": "space-platform-foundation",
+        "position": {
+          "x": -5,
+          "y": -8
+        }
+      },
+      {
+        "name": "space-platform-foundation",
+        "position": {
+          "x": -5,
+          "y": -7
+        }
+      },
+      {
+        "name": "space-platform-foundation",
+        "position": {
+          "x": -5,
+          "y": -6
+        }
+      },
+      {
+        "name": "space-platform-foundation",
+        "position": {
+          "x": -5,
+          "y": -5
+        }
+      },
+      {
+        "name": "space-platform-foundation",
+        "position": {
+          "x": -5,
+          "y": -4
+        }
+      },
+      {
+        "name": "space-platform-foundation",
+        "position": {
+          "x": -5,
+          "y": -3
+        }
+      },
+      {
+        "name": "space-platform-foundation",
+        "position": {
+          "x": -5,
+          "y": -2
+        }
+      },
+      {
+        "name": "space-platform-foundation",
+        "position": {
+          "x": -5,
+          "y": -1
+        }
+      },
+      {
+        "name": "space-platform-foundation",
+        "position": {
+          "x": -5,
+          "y": 0
+        }
+      },
+      {
+        "name": "space-platform-foundation",
+        "position": {
+          "x": -5,
+          "y": 1
+        }
+      },
+      {
+        "name": "space-platform-foundation",
+        "position": {
+          "x": -5,
+          "y": 2
+        }
+      },
+      {
+        "name": "space-platform-foundation",
+        "position": {
+          "x": -5,
+          "y": 3
+        }
+      },
+      {
+        "name": "space-platform-foundation",
+        "position": {
+          "x": -5,
+          "y": 4
+        }
+      },
+      {
+        "name": "space-platform-foundation",
+        "position": {
+          "x": -5,
+          "y": 5
+        }
+      },
+      {
+        "name": "space-platform-foundation",
+        "position": {
+          "x": -5,
+          "y": 6
+        }
+      },
+      {
+        "name": "space-platform-foundation",
+        "position": {
+          "x": -5,
+          "y": 7
+        }
+      },
+      {
+        "name": "space-platform-foundation",
+        "position": {
+          "x": -5,
+          "y": 8
+        }
+      },
+      {
+        "name": "space-platform-foundation",
+        "position": {
+          "x": -5,
+          "y": 9
+        }
+      },
+      {
+        "name": "space-platform-foundation",
+        "position": {
+          "x": -5,
+          "y": 10
+        }
+      },
+      {
+        "name": "space-platform-foundation",
+        "position": {
+          "x": -4,
+          "y": -12
+        }
+      },
+      {
+        "name": "space-platform-foundation",
+        "position": {
+          "x": -4,
+          "y": -11
+        }
+      },
+      {
+        "name": "space-platform-foundation",
+        "position": {
+          "x": -4,
+          "y": -10
+        }
+      },
+      {
+        "name": "space-platform-foundation",
+        "position": {
+          "x": -4,
+          "y": -9
+        }
+      },
+      {
+        "name": "space-platform-foundation",
+        "position": {
+          "x": -4,
+          "y": -8
+        }
+      },
+      {
+        "name": "space-platform-foundation",
+        "position": {
+          "x": -4,
+          "y": -7
+        }
+      },
+      {
+        "name": "space-platform-foundation",
+        "position": {
+          "x": -4,
+          "y": -6
+        }
+      },
+      {
+        "name": "space-platform-foundation",
+        "position": {
+          "x": -4,
+          "y": -5
+        }
+      },
+      {
+        "name": "space-platform-foundation",
+        "position": {
+          "x": -4,
+          "y": -4
+        }
+      },
+      {
+        "name": "space-platform-foundation",
+        "position": {
+          "x": -4,
+          "y": -3
+        }
+      },
+      {
+        "name": "space-platform-foundation",
+        "position": {
+          "x": -4,
+          "y": -2
+        }
+      },
+      {
+        "name": "space-platform-foundation",
+        "position": {
+          "x": -4,
+          "y": -1
+        }
+      },
+      {
+        "name": "space-platform-foundation",
+        "position": {
+          "x": -4,
+          "y": 0
+        }
+      },
+      {
+        "name": "space-platform-foundation",
+        "position": {
+          "x": -4,
+          "y": 1
+        }
+      },
+      {
+        "name": "space-platform-foundation",
+        "position": {
+          "x": -4,
+          "y": 2
+        }
+      },
+      {
+        "name": "space-platform-foundation",
+        "position": {
+          "x": -4,
+          "y": 3
+        }
+      },
+      {
+        "name": "space-platform-foundation",
+        "position": {
+          "x": -4,
+          "y": 4
+        }
+      },
+      {
+        "name": "space-platform-foundation",
+        "position": {
+          "x": -4,
+          "y": 5
+        }
+      },
+      {
+        "name": "space-platform-foundation",
+        "position": {
+          "x": -4,
+          "y": 6
+        }
+      },
+      {
+        "name": "space-platform-foundation",
+        "position": {
+          "x": -4,
+          "y": 7
+        }
+      },
+      {
+        "name": "space-platform-foundation",
+        "position": {
+          "x": -4,
+          "y": 8
+        }
+      },
+      {
+        "name": "space-platform-foundation",
+        "position": {
+          "x": -4,
+          "y": 9
+        }
+      },
+      {
+        "name": "space-platform-foundation",
+        "position": {
+          "x": -4,
+          "y": 10
+        }
+      },
+      {
+        "name": "space-platform-foundation",
+        "position": {
+          "x": -3,
+          "y": -12
+        }
+      },
+      {
+        "name": "space-platform-foundation",
+        "position": {
+          "x": -3,
+          "y": -11
+        }
+      },
+      {
+        "name": "space-platform-foundation",
+        "position": {
+          "x": -3,
+          "y": -10
+        }
+      },
+      {
+        "name": "space-platform-foundation",
+        "position": {
+          "x": -3,
+          "y": -9
+        }
+      },
+      {
+        "name": "space-platform-foundation",
+        "position": {
+          "x": -3,
+          "y": -8
+        }
+      },
+      {
+        "name": "space-platform-foundation",
+        "position": {
+          "x": -3,
+          "y": -7
+        }
+      },
+      {
+        "name": "space-platform-foundation",
+        "position": {
+          "x": -3,
+          "y": -6
+        }
+      },
+      {
+        "name": "space-platform-foundation",
+        "position": {
+          "x": -3,
+          "y": -5
+        }
+      },
+      {
+        "name": "space-platform-foundation",
+        "position": {
+          "x": -3,
+          "y": -4
+        }
+      },
+      {
+        "name": "space-platform-foundation",
+        "position": {
+          "x": -3,
+          "y": -3
+        }
+      },
+      {
+        "name": "space-platform-foundation",
+        "position": {
+          "x": -3,
+          "y": -2
+        }
+      },
+      {
+        "name": "space-platform-foundation",
+        "position": {
+          "x": -3,
+          "y": -1
+        }
+      },
+      {
+        "name": "space-platform-foundation",
+        "position": {
+          "x": -3,
+          "y": 0
+        }
+      },
+      {
+        "name": "space-platform-foundation",
+        "position": {
+          "x": -3,
+          "y": 1
+        }
+      },
+      {
+        "name": "space-platform-foundation",
+        "position": {
+          "x": -3,
+          "y": 2
+        }
+      },
+      {
+        "name": "space-platform-foundation",
+        "position": {
+          "x": -3,
+          "y": 3
+        }
+      },
+      {
+        "name": "space-platform-foundation",
+        "position": {
+          "x": -3,
+          "y": 4
+        }
+      },
+      {
+        "name": "space-platform-foundation",
+        "position": {
+          "x": -3,
+          "y": 5
+        }
+      },
+      {
+        "name": "space-platform-foundation",
+        "position": {
+          "x": -3,
+          "y": 6
+        }
+      },
+      {
+        "name": "space-platform-foundation",
+        "position": {
+          "x": -3,
+          "y": 7
+        }
+      },
+      {
+        "name": "space-platform-foundation",
+        "position": {
+          "x": -3,
+          "y": 8
+        }
+      },
+      {
+        "name": "space-platform-foundation",
+        "position": {
+          "x": -3,
+          "y": 9
+        }
+      },
+      {
+        "name": "space-platform-foundation",
+        "position": {
+          "x": -3,
+          "y": 10
+        }
+      },
+      {
+        "name": "space-platform-foundation",
+        "position": {
+          "x": -2,
+          "y": -13
+        }
+      },
+      {
+        "name": "space-platform-foundation",
+        "position": {
+          "x": -2,
+          "y": -12
+        }
+      },
+      {
+        "name": "space-platform-foundation",
+        "position": {
+          "x": -2,
+          "y": -11
+        }
+      },
+      {
+        "name": "space-platform-foundation",
+        "position": {
+          "x": -2,
+          "y": -10
+        }
+      },
+      {
+        "name": "space-platform-foundation",
+        "position": {
+          "x": -2,
+          "y": -9
+        }
+      },
+      {
+        "name": "space-platform-foundation",
+        "position": {
+          "x": -2,
+          "y": -8
+        }
+      },
+      {
+        "name": "space-platform-foundation",
+        "position": {
+          "x": -2,
+          "y": -7
+        }
+      },
+      {
+        "name": "space-platform-foundation",
+        "position": {
+          "x": -2,
+          "y": -6
+        }
+      },
+      {
+        "name": "space-platform-foundation",
+        "position": {
+          "x": -2,
+          "y": -5
+        }
+      },
+      {
+        "name": "space-platform-foundation",
+        "position": {
+          "x": -2,
+          "y": -4
+        }
+      },
+      {
+        "name": "space-platform-foundation",
+        "position": {
+          "x": -2,
+          "y": -3
+        }
+      },
+      {
+        "name": "space-platform-foundation",
+        "position": {
+          "x": -2,
+          "y": -2
+        }
+      },
+      {
+        "name": "space-platform-foundation",
+        "position": {
+          "x": -2,
+          "y": -1
+        }
+      },
+      {
+        "name": "space-platform-foundation",
+        "position": {
+          "x": -2,
+          "y": 0
+        }
+      },
+      {
+        "name": "space-platform-foundation",
+        "position": {
+          "x": -2,
+          "y": 1
+        }
+      },
+      {
+        "name": "space-platform-foundation",
+        "position": {
+          "x": -2,
+          "y": 2
+        }
+      },
+      {
+        "name": "space-platform-foundation",
+        "position": {
+          "x": -2,
+          "y": 3
+        }
+      },
+      {
+        "name": "space-platform-foundation",
+        "position": {
+          "x": -2,
+          "y": 4
+        }
+      },
+      {
+        "name": "space-platform-foundation",
+        "position": {
+          "x": -2,
+          "y": 5
+        }
+      },
+      {
+        "name": "space-platform-foundation",
+        "position": {
+          "x": -2,
+          "y": 6
+        }
+      },
+      {
+        "name": "space-platform-foundation",
+        "position": {
+          "x": -2,
+          "y": 7
+        }
+      },
+      {
+        "name": "space-platform-foundation",
+        "position": {
+          "x": -2,
+          "y": 8
+        }
+      },
+      {
+        "name": "space-platform-foundation",
+        "position": {
+          "x": -2,
+          "y": 9
+        }
+      },
+      {
+        "name": "space-platform-foundation",
+        "position": {
+          "x": -2,
+          "y": 10
+        }
+      },
+      {
+        "name": "space-platform-foundation",
+        "position": {
+          "x": -2,
+          "y": 11
+        }
+      },
+      {
+        "name": "space-platform-foundation",
+        "position": {
+          "x": -2,
+          "y": 12
+        }
+      },
+      {
+        "name": "space-platform-foundation",
+        "position": {
+          "x": -1,
+          "y": -13
+        }
+      },
+      {
+        "name": "space-platform-foundation",
+        "position": {
+          "x": -1,
+          "y": -12
+        }
+      },
+      {
+        "name": "space-platform-foundation",
+        "position": {
+          "x": -1,
+          "y": -11
+        }
+      },
+      {
+        "name": "space-platform-foundation",
+        "position": {
+          "x": -1,
+          "y": -10
+        }
+      },
+      {
+        "name": "space-platform-foundation",
+        "position": {
+          "x": -1,
+          "y": -9
+        }
+      },
+      {
+        "name": "space-platform-foundation",
+        "position": {
+          "x": -1,
+          "y": -8
+        }
+      },
+      {
+        "name": "space-platform-foundation",
+        "position": {
+          "x": -1,
+          "y": -7
+        }
+      },
+      {
+        "name": "space-platform-foundation",
+        "position": {
+          "x": -1,
+          "y": -6
+        }
+      },
+      {
+        "name": "space-platform-foundation",
+        "position": {
+          "x": -1,
+          "y": -5
+        }
+      },
+      {
+        "name": "space-platform-foundation",
+        "position": {
+          "x": -1,
+          "y": -4
+        }
+      },
+      {
+        "name": "space-platform-foundation",
+        "position": {
+          "x": -1,
+          "y": -3
+        }
+      },
+      {
+        "name": "space-platform-foundation",
+        "position": {
+          "x": -1,
+          "y": -2
+        }
+      },
+      {
+        "name": "space-platform-foundation",
+        "position": {
+          "x": -1,
+          "y": -1
+        }
+      },
+      {
+        "name": "space-platform-foundation",
+        "position": {
+          "x": -1,
+          "y": 0
+        }
+      },
+      {
+        "name": "space-platform-foundation",
+        "position": {
+          "x": -1,
+          "y": 1
+        }
+      },
+      {
+        "name": "space-platform-foundation",
+        "position": {
+          "x": -1,
+          "y": 2
+        }
+      },
+      {
+        "name": "space-platform-foundation",
+        "position": {
+          "x": -1,
+          "y": 3
+        }
+      },
+      {
+        "name": "space-platform-foundation",
+        "position": {
+          "x": -1,
+          "y": 4
+        }
+      },
+      {
+        "name": "space-platform-foundation",
+        "position": {
+          "x": -1,
+          "y": 5
+        }
+      },
+      {
+        "name": "space-platform-foundation",
+        "position": {
+          "x": -1,
+          "y": 6
+        }
+      },
+      {
+        "name": "space-platform-foundation",
+        "position": {
+          "x": -1,
+          "y": 7
+        }
+      },
+      {
+        "name": "space-platform-foundation",
+        "position": {
+          "x": -1,
+          "y": 8
+        }
+      },
+      {
+        "name": "space-platform-foundation",
+        "position": {
+          "x": -1,
+          "y": 9
+        }
+      },
+      {
+        "name": "space-platform-foundation",
+        "position": {
+          "x": -1,
+          "y": 10
+        }
+      },
+      {
+        "name": "space-platform-foundation",
+        "position": {
+          "x": -1,
+          "y": 11
+        }
+      },
+      {
+        "name": "space-platform-foundation",
+        "position": {
+          "x": -1,
+          "y": 12
+        }
+      },
+      {
+        "name": "space-platform-foundation",
+        "position": {
+          "x": 0,
+          "y": -13
+        }
+      },
+      {
+        "name": "space-platform-foundation",
+        "position": {
+          "x": 0,
+          "y": -12
+        }
+      },
+      {
+        "name": "space-platform-foundation",
+        "position": {
+          "x": 0,
+          "y": -11
+        }
+      },
+      {
+        "name": "space-platform-foundation",
+        "position": {
+          "x": 0,
+          "y": -10
+        }
+      },
+      {
+        "name": "space-platform-foundation",
+        "position": {
+          "x": 0,
+          "y": -9
+        }
+      },
+      {
+        "name": "space-platform-foundation",
+        "position": {
+          "x": 0,
+          "y": -8
+        }
+      },
+      {
+        "name": "space-platform-foundation",
+        "position": {
+          "x": 0,
+          "y": -7
+        }
+      },
+      {
+        "name": "space-platform-foundation",
+        "position": {
+          "x": 0,
+          "y": -6
+        }
+      },
+      {
+        "name": "space-platform-foundation",
+        "position": {
+          "x": 0,
+          "y": -5
+        }
+      },
+      {
+        "name": "space-platform-foundation",
+        "position": {
+          "x": 0,
+          "y": -4
+        }
+      },
+      {
+        "name": "space-platform-foundation",
+        "position": {
+          "x": 0,
+          "y": -3
+        }
+      },
+      {
+        "name": "space-platform-foundation",
+        "position": {
+          "x": 0,
+          "y": -2
+        }
+      },
+      {
+        "name": "space-platform-foundation",
+        "position": {
+          "x": 0,
+          "y": -1
+        }
+      },
+      {
+        "name": "space-platform-foundation",
+        "position": {
+          "x": 0,
+          "y": 0
+        }
+      },
+      {
+        "name": "space-platform-foundation",
+        "position": {
+          "x": 0,
+          "y": 1
+        }
+      },
+      {
+        "name": "space-platform-foundation",
+        "position": {
+          "x": 0,
+          "y": 2
+        }
+      },
+      {
+        "name": "space-platform-foundation",
+        "position": {
+          "x": 0,
+          "y": 3
+        }
+      },
+      {
+        "name": "space-platform-foundation",
+        "position": {
+          "x": 0,
+          "y": 4
+        }
+      },
+      {
+        "name": "space-platform-foundation",
+        "position": {
+          "x": 0,
+          "y": 5
+        }
+      },
+      {
+        "name": "space-platform-foundation",
+        "position": {
+          "x": 0,
+          "y": 6
+        }
+      },
+      {
+        "name": "space-platform-foundation",
+        "position": {
+          "x": 0,
+          "y": 7
+        }
+      },
+      {
+        "name": "space-platform-foundation",
+        "position": {
+          "x": 0,
+          "y": 8
+        }
+      },
+      {
+        "name": "space-platform-foundation",
+        "position": {
+          "x": 0,
+          "y": 9
+        }
+      },
+      {
+        "name": "space-platform-foundation",
+        "position": {
+          "x": 0,
+          "y": 10
+        }
+      },
+      {
+        "name": "space-platform-foundation",
+        "position": {
+          "x": 0,
+          "y": 11
+        }
+      },
+      {
+        "name": "space-platform-foundation",
+        "position": {
+          "x": 0,
+          "y": 12
+        }
+      },
+      {
+        "name": "space-platform-foundation",
+        "position": {
+          "x": 1,
+          "y": -13
+        }
+      },
+      {
+        "name": "space-platform-foundation",
+        "position": {
+          "x": 1,
+          "y": -12
+        }
+      },
+      {
+        "name": "space-platform-foundation",
+        "position": {
+          "x": 1,
+          "y": -11
+        }
+      },
+      {
+        "name": "space-platform-foundation",
+        "position": {
+          "x": 1,
+          "y": -10
+        }
+      },
+      {
+        "name": "space-platform-foundation",
+        "position": {
+          "x": 1,
+          "y": -9
+        }
+      },
+      {
+        "name": "space-platform-foundation",
+        "position": {
+          "x": 1,
+          "y": -8
+        }
+      },
+      {
+        "name": "space-platform-foundation",
+        "position": {
+          "x": 1,
+          "y": -7
+        }
+      },
+      {
+        "name": "space-platform-foundation",
+        "position": {
+          "x": 1,
+          "y": -6
+        }
+      },
+      {
+        "name": "space-platform-foundation",
+        "position": {
+          "x": 1,
+          "y": -5
+        }
+      },
+      {
+        "name": "space-platform-foundation",
+        "position": {
+          "x": 1,
+          "y": -4
+        }
+      },
+      {
+        "name": "space-platform-foundation",
+        "position": {
+          "x": 1,
+          "y": -3
+        }
+      },
+      {
+        "name": "space-platform-foundation",
+        "position": {
+          "x": 1,
+          "y": -2
+        }
+      },
+      {
+        "name": "space-platform-foundation",
+        "position": {
+          "x": 1,
+          "y": -1
+        }
+      },
+      {
+        "name": "space-platform-foundation",
+        "position": {
+          "x": 1,
+          "y": 0
+        }
+      },
+      {
+        "name": "space-platform-foundation",
+        "position": {
+          "x": 1,
+          "y": 1
+        }
+      },
+      {
+        "name": "space-platform-foundation",
+        "position": {
+          "x": 1,
+          "y": 2
+        }
+      },
+      {
+        "name": "space-platform-foundation",
+        "position": {
+          "x": 1,
+          "y": 3
+        }
+      },
+      {
+        "name": "space-platform-foundation",
+        "position": {
+          "x": 1,
+          "y": 4
+        }
+      },
+      {
+        "name": "space-platform-foundation",
+        "position": {
+          "x": 1,
+          "y": 5
+        }
+      },
+      {
+        "name": "space-platform-foundation",
+        "position": {
+          "x": 1,
+          "y": 6
+        }
+      },
+      {
+        "name": "space-platform-foundation",
+        "position": {
+          "x": 1,
+          "y": 7
+        }
+      },
+      {
+        "name": "space-platform-foundation",
+        "position": {
+          "x": 1,
+          "y": 8
+        }
+      },
+      {
+        "name": "space-platform-foundation",
+        "position": {
+          "x": 1,
+          "y": 9
+        }
+      },
+      {
+        "name": "space-platform-foundation",
+        "position": {
+          "x": 1,
+          "y": 10
+        }
+      },
+      {
+        "name": "space-platform-foundation",
+        "position": {
+          "x": 1,
+          "y": 11
+        }
+      },
+      {
+        "name": "space-platform-foundation",
+        "position": {
+          "x": 1,
+          "y": 12
+        }
+      },
+      {
+        "name": "space-platform-foundation",
+        "position": {
+          "x": 2,
+          "y": -12
+        }
+      },
+      {
+        "name": "space-platform-foundation",
+        "position": {
+          "x": 2,
+          "y": -11
+        }
+      },
+      {
+        "name": "space-platform-foundation",
+        "position": {
+          "x": 2,
+          "y": -10
+        }
+      },
+      {
+        "name": "space-platform-foundation",
+        "position": {
+          "x": 2,
+          "y": -9
+        }
+      },
+      {
+        "name": "space-platform-foundation",
+        "position": {
+          "x": 2,
+          "y": -8
+        }
+      },
+      {
+        "name": "space-platform-foundation",
+        "position": {
+          "x": 2,
+          "y": -7
+        }
+      },
+      {
+        "name": "space-platform-foundation",
+        "position": {
+          "x": 2,
+          "y": -6
+        }
+      },
+      {
+        "name": "space-platform-foundation",
+        "position": {
+          "x": 2,
+          "y": -5
+        }
+      },
+      {
+        "name": "space-platform-foundation",
+        "position": {
+          "x": 2,
+          "y": -4
+        }
+      },
+      {
+        "name": "space-platform-foundation",
+        "position": {
+          "x": 2,
+          "y": -3
+        }
+      },
+      {
+        "name": "space-platform-foundation",
+        "position": {
+          "x": 2,
+          "y": -2
+        }
+      },
+      {
+        "name": "space-platform-foundation",
+        "position": {
+          "x": 2,
+          "y": -1
+        }
+      },
+      {
+        "name": "space-platform-foundation",
+        "position": {
+          "x": 2,
+          "y": 0
+        }
+      },
+      {
+        "name": "space-platform-foundation",
+        "position": {
+          "x": 2,
+          "y": 1
+        }
+      },
+      {
+        "name": "space-platform-foundation",
+        "position": {
+          "x": 2,
+          "y": 2
+        }
+      },
+      {
+        "name": "space-platform-foundation",
+        "position": {
+          "x": 2,
+          "y": 3
+        }
+      },
+      {
+        "name": "space-platform-foundation",
+        "position": {
+          "x": 2,
+          "y": 4
+        }
+      },
+      {
+        "name": "space-platform-foundation",
+        "position": {
+          "x": 2,
+          "y": 5
+        }
+      },
+      {
+        "name": "space-platform-foundation",
+        "position": {
+          "x": 2,
+          "y": 6
+        }
+      },
+      {
+        "name": "space-platform-foundation",
+        "position": {
+          "x": 2,
+          "y": 7
+        }
+      },
+      {
+        "name": "space-platform-foundation",
+        "position": {
+          "x": 2,
+          "y": 8
+        }
+      },
+      {
+        "name": "space-platform-foundation",
+        "position": {
+          "x": 2,
+          "y": 9
+        }
+      },
+      {
+        "name": "space-platform-foundation",
+        "position": {
+          "x": 2,
+          "y": 10
+        }
+      },
+      {
+        "name": "space-platform-foundation",
+        "position": {
+          "x": 3,
+          "y": -12
+        }
+      },
+      {
+        "name": "space-platform-foundation",
+        "position": {
+          "x": 3,
+          "y": -11
+        }
+      },
+      {
+        "name": "space-platform-foundation",
+        "position": {
+          "x": 3,
+          "y": -10
+        }
+      },
+      {
+        "name": "space-platform-foundation",
+        "position": {
+          "x": 3,
+          "y": -9
+        }
+      },
+      {
+        "name": "space-platform-foundation",
+        "position": {
+          "x": 3,
+          "y": -8
+        }
+      },
+      {
+        "name": "space-platform-foundation",
+        "position": {
+          "x": 3,
+          "y": -7
+        }
+      },
+      {
+        "name": "space-platform-foundation",
+        "position": {
+          "x": 3,
+          "y": -6
+        }
+      },
+      {
+        "name": "space-platform-foundation",
+        "position": {
+          "x": 3,
+          "y": -5
+        }
+      },
+      {
+        "name": "space-platform-foundation",
+        "position": {
+          "x": 3,
+          "y": -4
+        }
+      },
+      {
+        "name": "space-platform-foundation",
+        "position": {
+          "x": 3,
+          "y": -3
+        }
+      },
+      {
+        "name": "space-platform-foundation",
+        "position": {
+          "x": 3,
+          "y": -2
+        }
+      },
+      {
+        "name": "space-platform-foundation",
+        "position": {
+          "x": 3,
+          "y": -1
+        }
+      },
+      {
+        "name": "space-platform-foundation",
+        "position": {
+          "x": 3,
+          "y": 0
+        }
+      },
+      {
+        "name": "space-platform-foundation",
+        "position": {
+          "x": 3,
+          "y": 1
+        }
+      },
+      {
+        "name": "space-platform-foundation",
+        "position": {
+          "x": 3,
+          "y": 2
+        }
+      },
+      {
+        "name": "space-platform-foundation",
+        "position": {
+          "x": 3,
+          "y": 3
+        }
+      },
+      {
+        "name": "space-platform-foundation",
+        "position": {
+          "x": 3,
+          "y": 4
+        }
+      },
+      {
+        "name": "space-platform-foundation",
+        "position": {
+          "x": 3,
+          "y": 5
+        }
+      },
+      {
+        "name": "space-platform-foundation",
+        "position": {
+          "x": 3,
+          "y": 6
+        }
+      },
+      {
+        "name": "space-platform-foundation",
+        "position": {
+          "x": 3,
+          "y": 7
+        }
+      },
+      {
+        "name": "space-platform-foundation",
+        "position": {
+          "x": 3,
+          "y": 8
+        }
+      },
+      {
+        "name": "space-platform-foundation",
+        "position": {
+          "x": 3,
+          "y": 9
+        }
+      },
+      {
+        "name": "space-platform-foundation",
+        "position": {
+          "x": 3,
+          "y": 10
+        }
+      },
+      {
+        "name": "space-platform-foundation",
+        "position": {
+          "x": 4,
+          "y": -12
+        }
+      },
+      {
+        "name": "space-platform-foundation",
+        "position": {
+          "x": 4,
+          "y": -11
+        }
+      },
+      {
+        "name": "space-platform-foundation",
+        "position": {
+          "x": 4,
+          "y": -10
+        }
+      },
+      {
+        "name": "space-platform-foundation",
+        "position": {
+          "x": 4,
+          "y": -9
+        }
+      },
+      {
+        "name": "space-platform-foundation",
+        "position": {
+          "x": 4,
+          "y": -8
+        }
+      },
+      {
+        "name": "space-platform-foundation",
+        "position": {
+          "x": 4,
+          "y": -7
+        }
+      },
+      {
+        "name": "space-platform-foundation",
+        "position": {
+          "x": 4,
+          "y": -6
+        }
+      },
+      {
+        "name": "space-platform-foundation",
+        "position": {
+          "x": 4,
+          "y": -5
+        }
+      },
+      {
+        "name": "space-platform-foundation",
+        "position": {
+          "x": 4,
+          "y": -4
+        }
+      },
+      {
+        "name": "space-platform-foundation",
+        "position": {
+          "x": 4,
+          "y": -3
+        }
+      },
+      {
+        "name": "space-platform-foundation",
+        "position": {
+          "x": 4,
+          "y": -2
+        }
+      },
+      {
+        "name": "space-platform-foundation",
+        "position": {
+          "x": 4,
+          "y": -1
+        }
+      },
+      {
+        "name": "space-platform-foundation",
+        "position": {
+          "x": 4,
+          "y": 0
+        }
+      },
+      {
+        "name": "space-platform-foundation",
+        "position": {
+          "x": 4,
+          "y": 1
+        }
+      },
+      {
+        "name": "space-platform-foundation",
+        "position": {
+          "x": 4,
+          "y": 2
+        }
+      },
+      {
+        "name": "space-platform-foundation",
+        "position": {
+          "x": 4,
+          "y": 3
+        }
+      },
+      {
+        "name": "space-platform-foundation",
+        "position": {
+          "x": 4,
+          "y": 4
+        }
+      },
+      {
+        "name": "space-platform-foundation",
+        "position": {
+          "x": 4,
+          "y": 5
+        }
+      },
+      {
+        "name": "space-platform-foundation",
+        "position": {
+          "x": 4,
+          "y": 6
+        }
+      },
+      {
+        "name": "space-platform-foundation",
+        "position": {
+          "x": 4,
+          "y": 7
+        }
+      },
+      {
+        "name": "space-platform-foundation",
+        "position": {
+          "x": 4,
+          "y": 8
+        }
+      },
+      {
+        "name": "space-platform-foundation",
+        "position": {
+          "x": 4,
+          "y": 9
+        }
+      },
+      {
+        "name": "space-platform-foundation",
+        "position": {
+          "x": 4,
+          "y": 10
+        }
+      },
+      {
+        "name": "space-platform-foundation",
+        "position": {
+          "x": 5,
+          "y": -7
+        }
+      },
+      {
+        "name": "space-platform-foundation",
+        "position": {
+          "x": 5,
+          "y": -6
+        }
+      },
+      {
+        "name": "space-platform-foundation",
+        "position": {
+          "x": 5,
+          "y": -5
+        }
+      },
+      {
+        "name": "space-platform-foundation",
+        "position": {
+          "x": 5,
+          "y": -4
+        }
+      },
+      {
+        "name": "space-platform-foundation",
+        "position": {
+          "x": 5,
+          "y": -3
+        }
+      },
+      {
+        "name": "space-platform-foundation",
+        "position": {
+          "x": 5,
+          "y": -2
+        }
+      },
+      {
+        "name": "space-platform-foundation",
+        "position": {
+          "x": 5,
+          "y": -1
+        }
+      },
+      {
+        "name": "space-platform-foundation",
+        "position": {
+          "x": 5,
+          "y": 0
+        }
+      },
+      {
+        "name": "space-platform-foundation",
+        "position": {
+          "x": 5,
+          "y": 1
+        }
+      },
+      {
+        "name": "space-platform-foundation",
+        "position": {
+          "x": 5,
+          "y": 2
+        }
+      },
+      {
+        "name": "space-platform-foundation",
+        "position": {
+          "x": 5,
+          "y": 3
+        }
+      },
+      {
+        "name": "space-platform-foundation",
+        "position": {
+          "x": 5,
+          "y": 4
+        }
+      },
+      {
+        "name": "space-platform-foundation",
+        "position": {
+          "x": 5,
+          "y": 5
+        }
+      },
+      {
+        "name": "space-platform-foundation",
+        "position": {
+          "x": 5,
+          "y": 6
+        }
+      },
+      {
+        "name": "space-platform-foundation",
+        "position": {
+          "x": 5,
+          "y": 7
+        }
+      },
+      {
+        "name": "space-platform-foundation",
+        "position": {
+          "x": 6,
+          "y": -7
+        }
+      },
+      {
+        "name": "space-platform-foundation",
+        "position": {
+          "x": 6,
+          "y": -6
+        }
+      },
+      {
+        "name": "space-platform-foundation",
+        "position": {
+          "x": 6,
+          "y": -5
+        }
+      },
+      {
+        "name": "space-platform-foundation",
+        "position": {
+          "x": 6,
+          "y": -4
+        }
+      },
+      {
+        "name": "space-platform-foundation",
+        "position": {
+          "x": 6,
+          "y": -3
+        }
+      },
+      {
+        "name": "space-platform-foundation",
+        "position": {
+          "x": 6,
+          "y": -2
+        }
+      },
+      {
+        "name": "space-platform-foundation",
+        "position": {
+          "x": 6,
+          "y": -1
+        }
+      },
+      {
+        "name": "space-platform-foundation",
+        "position": {
+          "x": 6,
+          "y": 0
+        }
+      },
+      {
+        "name": "space-platform-foundation",
+        "position": {
+          "x": 6,
+          "y": 1
+        }
+      },
+      {
+        "name": "space-platform-foundation",
+        "position": {
+          "x": 6,
+          "y": 2
+        }
+      },
+      {
+        "name": "space-platform-foundation",
+        "position": {
+          "x": 6,
+          "y": 3
+        }
+      },
+      {
+        "name": "space-platform-foundation",
+        "position": {
+          "x": 6,
+          "y": 4
+        }
+      },
+      {
+        "name": "space-platform-foundation",
+        "position": {
+          "x": 6,
+          "y": 5
+        }
+      },
+      {
+        "name": "space-platform-foundation",
+        "position": {
+          "x": 6,
+          "y": 6
+        }
+      },
+      {
+        "name": "space-platform-foundation",
+        "position": {
+          "x": 6,
+          "y": 7
+        }
+      },
+      {
+        "name": "space-platform-foundation",
+        "position": {
+          "x": 7,
+          "y": -7
+        }
+      },
+      {
+        "name": "space-platform-foundation",
+        "position": {
+          "x": 7,
+          "y": -6
+        }
+      },
+      {
+        "name": "space-platform-foundation",
+        "position": {
+          "x": 7,
+          "y": -5
+        }
+      },
+      {
+        "name": "space-platform-foundation",
+        "position": {
+          "x": 7,
+          "y": -4
+        }
+      },
+      {
+        "name": "space-platform-foundation",
+        "position": {
+          "x": 7,
+          "y": -3
+        }
+      },
+      {
+        "name": "space-platform-foundation",
+        "position": {
+          "x": 7,
+          "y": -2
+        }
+      },
+      {
+        "name": "space-platform-foundation",
+        "position": {
+          "x": 7,
+          "y": -1
+        }
+      },
+      {
+        "name": "space-platform-foundation",
+        "position": {
+          "x": 7,
+          "y": 0
+        }
+      },
+      {
+        "name": "space-platform-foundation",
+        "position": {
+          "x": 7,
+          "y": 1
+        }
+      },
+      {
+        "name": "space-platform-foundation",
+        "position": {
+          "x": 7,
+          "y": 2
+        }
+      },
+      {
+        "name": "space-platform-foundation",
+        "position": {
+          "x": 7,
+          "y": 3
+        }
+      },
+      {
+        "name": "space-platform-foundation",
+        "position": {
+          "x": 7,
+          "y": 4
+        }
+      },
+      {
+        "name": "space-platform-foundation",
+        "position": {
+          "x": 7,
+          "y": 5
+        }
+      },
+      {
+        "name": "space-platform-foundation",
+        "position": {
+          "x": 7,
+          "y": 6
+        }
+      },
+      {
+        "name": "space-platform-foundation",
+        "position": {
+          "x": 7,
+          "y": 7
+        }
+      }
+    ],
+    "version": 562954249306113,
+    "wires": [
+      [
+        1,
+        1,
+        6,
+        3
+      ],
+      [
+        6,
+        2,
+        8,
+        2
+      ],
+      [
+        6,
+        3,
+        7,
+        1
+      ],
+      [
+        8,
+        2,
+        9,
+        2
+      ],
+      [
+        8,
+        2,
+        23,
+        2
+      ],
+      [
+        9,
+        3,
+        25,
+        1
+      ],
+      [
+        20,
+        2,
+        27,
+        2
+      ],
+      [
+        23,
+        2,
+        27,
+        2
+      ],
+      [
+        23,
+        2,
+        36,
+        2
+      ],
+      [
+        25,
+        1,
+        28,
+        1
+      ],
+      [
+        25,
+        1,
+        54,
+        3
+      ],
+      [
+        27,
+        2,
+        42,
+        2
+      ],
+      [
+        28,
+        1,
+        55,
+        3
+      ],
+      [
+        36,
+        2,
+        50,
+        2
+      ],
+      [
+        50,
+        2,
+        59,
+        2
+      ],
+      [
+        52,
+        2,
+        59,
+        2
+      ],
+      [
+        54,
+        2,
+        59,
+        2
+      ],
+      [
+        54,
+        3,
+        80,
+        3
+      ],
+      [
+        55,
+        2,
+        59,
+        2
+      ],
+      [
+        55,
+        3,
+        80,
+        3
+      ],
+      [
+        57,
+        2,
+        59,
+        2
+      ],
+      [
+        59,
+        2,
+        60,
+        2
+      ],
+      [
+        59,
+        2,
+        64,
+        2
+      ],
+      [
+        59,
+        2,
+        66,
+        2
+      ],
+      [
+        59,
+        2,
+        80,
+        2
+      ],
+      [
+        80,
+        2,
+        81,
+        2
+      ]
+    ]
+  },
+  "index": 0
+}

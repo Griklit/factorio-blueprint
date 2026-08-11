@@ -1,0 +1,2362 @@
+{
+  "blueprint": {
+    "item": "blueprint",
+    "entities": [
+      {
+        "entity_number": 1,
+        "items": [
+          {
+            "id": {
+              "name": "speed-module-3",
+              "quality": "legendary"
+            },
+            "items": {
+              "in_inventory": [
+                {
+                  "inventory": 1,
+                  "stack": 0
+                },
+                {
+                  "inventory": 1,
+                  "stack": 1
+                }
+              ]
+            }
+          }
+        ],
+        "name": "beacon",
+        "position": {
+          "x": 1.5,
+          "y": 1.5
+        },
+        "quality": "legendary"
+      },
+      {
+        "entity_number": 2,
+        "items": [
+          {
+            "id": {
+              "name": "speed-module-3",
+              "quality": "legendary"
+            },
+            "items": {
+              "in_inventory": [
+                {
+                  "inventory": 1,
+                  "stack": 0
+                },
+                {
+                  "inventory": 1,
+                  "stack": 1
+                }
+              ]
+            }
+          }
+        ],
+        "name": "beacon",
+        "position": {
+          "x": 1.5,
+          "y": 4.5
+        },
+        "quality": "legendary"
+      },
+      {
+        "entity_number": 3,
+        "items": [
+          {
+            "id": {
+              "name": "speed-module-3",
+              "quality": "legendary"
+            },
+            "items": {
+              "in_inventory": [
+                {
+                  "inventory": 1,
+                  "stack": 0
+                },
+                {
+                  "inventory": 1,
+                  "stack": 1
+                }
+              ]
+            }
+          }
+        ],
+        "name": "beacon",
+        "position": {
+          "x": 1.5,
+          "y": 7.5
+        },
+        "quality": "legendary"
+      },
+      {
+        "entity_number": 4,
+        "items": [
+          {
+            "id": {
+              "name": "speed-module-3",
+              "quality": "legendary"
+            },
+            "items": {
+              "in_inventory": [
+                {
+                  "inventory": 1,
+                  "stack": 0
+                },
+                {
+                  "inventory": 1,
+                  "stack": 1
+                }
+              ]
+            }
+          }
+        ],
+        "name": "beacon",
+        "position": {
+          "x": 1.5,
+          "y": 10.5
+        },
+        "quality": "legendary"
+      },
+      {
+        "entity_number": 5,
+        "items": [
+          {
+            "id": {
+              "name": "speed-module-3",
+              "quality": "legendary"
+            },
+            "items": {
+              "in_inventory": [
+                {
+                  "inventory": 1,
+                  "stack": 0
+                },
+                {
+                  "inventory": 1,
+                  "stack": 1
+                }
+              ]
+            }
+          }
+        ],
+        "name": "beacon",
+        "position": {
+          "x": 1.5,
+          "y": 13.5
+        },
+        "quality": "legendary"
+      },
+      {
+        "entity_number": 6,
+        "items": [
+          {
+            "id": {
+              "name": "speed-module-3",
+              "quality": "legendary"
+            },
+            "items": {
+              "in_inventory": [
+                {
+                  "inventory": 1,
+                  "stack": 0
+                },
+                {
+                  "inventory": 1,
+                  "stack": 1
+                }
+              ]
+            }
+          }
+        ],
+        "name": "beacon",
+        "position": {
+          "x": 1.5,
+          "y": 16.5
+        },
+        "quality": "legendary"
+      },
+      {
+        "entity_number": 7,
+        "items": [
+          {
+            "id": {
+              "name": "speed-module-3",
+              "quality": "legendary"
+            },
+            "items": {
+              "in_inventory": [
+                {
+                  "inventory": 1,
+                  "stack": 0
+                },
+                {
+                  "inventory": 1,
+                  "stack": 1
+                }
+              ]
+            }
+          }
+        ],
+        "name": "beacon",
+        "position": {
+          "x": 1.5,
+          "y": 19.5
+        },
+        "quality": "legendary"
+      },
+      {
+        "entity_number": 8,
+        "items": [
+          {
+            "id": {
+              "name": "speed-module-3",
+              "quality": "legendary"
+            },
+            "items": {
+              "in_inventory": [
+                {
+                  "inventory": 1,
+                  "stack": 0
+                },
+                {
+                  "inventory": 1,
+                  "stack": 1
+                }
+              ]
+            }
+          }
+        ],
+        "name": "beacon",
+        "position": {
+          "x": 1.5,
+          "y": 22.5
+        },
+        "quality": "legendary"
+      },
+      {
+        "entity_number": 9,
+        "items": [
+          {
+            "id": {
+              "name": "speed-module-3",
+              "quality": "legendary"
+            },
+            "items": {
+              "in_inventory": [
+                {
+                  "inventory": 1,
+                  "stack": 0
+                },
+                {
+                  "inventory": 1,
+                  "stack": 1
+                }
+              ]
+            }
+          }
+        ],
+        "name": "beacon",
+        "position": {
+          "x": 1.5,
+          "y": 25.5
+        },
+        "quality": "legendary"
+      },
+      {
+        "entity_number": 10,
+        "items": [
+          {
+            "id": {
+              "name": "speed-module-3",
+              "quality": "legendary"
+            },
+            "items": {
+              "in_inventory": [
+                {
+                  "inventory": 1,
+                  "stack": 0
+                },
+                {
+                  "inventory": 1,
+                  "stack": 1
+                }
+              ]
+            }
+          }
+        ],
+        "name": "beacon",
+        "position": {
+          "x": 1.5,
+          "y": 28.5
+        },
+        "quality": "legendary"
+      },
+      {
+        "direction": 4,
+        "entity_number": 11,
+        "name": "pipe-to-ground",
+        "position": {
+          "x": 3.5,
+          "y": 4.5
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 12,
+        "name": "pipe-to-ground",
+        "position": {
+          "x": 3.5,
+          "y": 25.5
+        }
+      },
+      {
+        "entity_number": 13,
+        "items": [
+          {
+            "id": {
+              "name": "speed-module-3",
+              "quality": "legendary"
+            },
+            "items": {
+              "in_inventory": [
+                {
+                  "inventory": 1,
+                  "stack": 0
+                },
+                {
+                  "inventory": 1,
+                  "stack": 1
+                }
+              ]
+            }
+          }
+        ],
+        "name": "beacon",
+        "position": {
+          "x": 4.5,
+          "y": 1.5
+        },
+        "quality": "legendary"
+      },
+      {
+        "entity_number": 14,
+        "name": "pipe",
+        "position": {
+          "x": 4.5,
+          "y": 4.5
+        }
+      },
+      {
+        "entity_number": 15,
+        "name": "pipe",
+        "position": {
+          "x": 4.5,
+          "y": 25.5
+        }
+      },
+      {
+        "entity_number": 16,
+        "items": [
+          {
+            "id": {
+              "name": "speed-module-3",
+              "quality": "legendary"
+            },
+            "items": {
+              "in_inventory": [
+                {
+                  "inventory": 1,
+                  "stack": 0
+                },
+                {
+                  "inventory": 1,
+                  "stack": 1
+                }
+              ]
+            }
+          }
+        ],
+        "name": "beacon",
+        "position": {
+          "x": 4.5,
+          "y": 28.5
+        },
+        "quality": "legendary"
+      },
+      {
+        "direction": 12,
+        "entity_number": 17,
+        "name": "pipe-to-ground",
+        "position": {
+          "x": 5.5,
+          "y": 4.5
+        }
+      },
+      {
+        "entity_number": 18,
+        "items": [
+          {
+            "id": {
+              "name": "productivity-module-3",
+              "quality": "legendary"
+            },
+            "items": {
+              "in_inventory": [
+                {
+                  "inventory": 4,
+                  "stack": 0
+                },
+                {
+                  "inventory": 4,
+                  "stack": 1
+                },
+                {
+                  "inventory": 4,
+                  "stack": 2
+                },
+                {
+                  "inventory": 4,
+                  "stack": 3
+                }
+              ]
+            }
+          }
+        ],
+        "name": "foundry",
+        "position": {
+          "x": 5.5,
+          "y": 7.5
+        },
+        "quality": "legendary",
+        "recipe": "copper-ore-melting",
+        "recipe_quality": "normal"
+      },
+      {
+        "entity_number": 19,
+        "items": [
+          {
+            "id": {
+              "name": "efficiency-module-3",
+              "quality": "legendary"
+            },
+            "items": {
+              "in_inventory": [
+                {
+                  "inventory": 2,
+                  "stack": 0
+                },
+                {
+                  "inventory": 2,
+                  "stack": 1
+                },
+                {
+                  "inventory": 2,
+                  "stack": 2
+                },
+                {
+                  "inventory": 2,
+                  "stack": 3
+                }
+              ]
+            }
+          }
+        ],
+        "name": "big-mining-drill",
+        "position": {
+          "x": 5.5,
+          "y": 12.5
+        },
+        "quality": "legendary"
+      },
+      {
+        "direction": 8,
+        "entity_number": 20,
+        "items": [
+          {
+            "id": {
+              "name": "efficiency-module-3",
+              "quality": "legendary"
+            },
+            "items": {
+              "in_inventory": [
+                {
+                  "inventory": 2,
+                  "stack": 0
+                },
+                {
+                  "inventory": 2,
+                  "stack": 1
+                },
+                {
+                  "inventory": 2,
+                  "stack": 2
+                },
+                {
+                  "inventory": 2,
+                  "stack": 3
+                }
+              ]
+            }
+          }
+        ],
+        "name": "big-mining-drill",
+        "position": {
+          "x": 5.5,
+          "y": 17.5
+        },
+        "quality": "legendary"
+      },
+      {
+        "direction": 8,
+        "entity_number": 21,
+        "items": [
+          {
+            "id": {
+              "name": "productivity-module-3",
+              "quality": "legendary"
+            },
+            "items": {
+              "in_inventory": [
+                {
+                  "inventory": 4,
+                  "stack": 0
+                },
+                {
+                  "inventory": 4,
+                  "stack": 1
+                },
+                {
+                  "inventory": 4,
+                  "stack": 2
+                },
+                {
+                  "inventory": 4,
+                  "stack": 3
+                }
+              ]
+            }
+          }
+        ],
+        "name": "foundry",
+        "position": {
+          "x": 5.5,
+          "y": 22.5
+        },
+        "quality": "legendary",
+        "recipe": "copper-ore-melting",
+        "recipe_quality": "normal"
+      },
+      {
+        "direction": 12,
+        "entity_number": 22,
+        "name": "pipe-to-ground",
+        "position": {
+          "x": 5.5,
+          "y": 25.5
+        }
+      },
+      {
+        "direction": 12,
+        "entity_number": 23,
+        "name": "turbo-underground-belt",
+        "position": {
+          "x": 6.5,
+          "y": 3.5
+        },
+        "type": "input"
+      },
+      {
+        "entity_number": 24,
+        "name": "fast-inserter",
+        "position": {
+          "x": 6.5,
+          "y": 4.5
+        }
+      },
+      {
+        "direction": 8,
+        "entity_number": 25,
+        "name": "fast-inserter",
+        "position": {
+          "x": 6.5,
+          "y": 25.5
+        }
+      },
+      {
+        "direction": 12,
+        "entity_number": 26,
+        "name": "turbo-underground-belt",
+        "position": {
+          "x": 6.5,
+          "y": 26.5
+        },
+        "type": "input"
+      },
+      {
+        "entity_number": 27,
+        "items": [
+          {
+            "id": {
+              "name": "speed-module-3",
+              "quality": "legendary"
+            },
+            "items": {
+              "in_inventory": [
+                {
+                  "inventory": 1,
+                  "stack": 0
+                },
+                {
+                  "inventory": 1,
+                  "stack": 1
+                }
+              ]
+            }
+          }
+        ],
+        "name": "beacon",
+        "position": {
+          "x": 7.5,
+          "y": 1.5
+        },
+        "quality": "legendary"
+      },
+      {
+        "direction": 12,
+        "entity_number": 28,
+        "name": "turbo-underground-belt",
+        "position": {
+          "x": 7.5,
+          "y": 3.5
+        },
+        "type": "output"
+      },
+      {
+        "entity_number": 29,
+        "name": "medium-electric-pole",
+        "position": {
+          "x": 7.5,
+          "y": 4.5
+        },
+        "quality": "legendary"
+      },
+      {
+        "entity_number": 30,
+        "name": "medium-electric-pole",
+        "position": {
+          "x": 7.5,
+          "y": 25.5
+        },
+        "quality": "legendary"
+      },
+      {
+        "direction": 12,
+        "entity_number": 31,
+        "name": "turbo-underground-belt",
+        "position": {
+          "x": 7.5,
+          "y": 26.5
+        },
+        "type": "output"
+      },
+      {
+        "entity_number": 32,
+        "items": [
+          {
+            "id": {
+              "name": "speed-module-3",
+              "quality": "legendary"
+            },
+            "items": {
+              "in_inventory": [
+                {
+                  "inventory": 1,
+                  "stack": 0
+                },
+                {
+                  "inventory": 1,
+                  "stack": 1
+                }
+              ]
+            }
+          }
+        ],
+        "name": "beacon",
+        "position": {
+          "x": 7.5,
+          "y": 28.5
+        },
+        "quality": "legendary"
+      },
+      {
+        "entity_number": 33,
+        "items": [
+          {
+            "id": {
+              "name": "speed-module-3",
+              "quality": "legendary"
+            },
+            "items": {
+              "in_inventory": [
+                {
+                  "inventory": 1,
+                  "stack": 0
+                },
+                {
+                  "inventory": 1,
+                  "stack": 1
+                }
+              ]
+            }
+          }
+        ],
+        "name": "beacon",
+        "position": {
+          "x": 9.5,
+          "y": 4.5
+        },
+        "quality": "legendary"
+      },
+      {
+        "entity_number": 34,
+        "items": [
+          {
+            "id": {
+              "name": "speed-module-3",
+              "quality": "legendary"
+            },
+            "items": {
+              "in_inventory": [
+                {
+                  "inventory": 1,
+                  "stack": 0
+                },
+                {
+                  "inventory": 1,
+                  "stack": 1
+                }
+              ]
+            }
+          }
+        ],
+        "name": "beacon",
+        "position": {
+          "x": 9.5,
+          "y": 7.5
+        },
+        "quality": "legendary"
+      },
+      {
+        "entity_number": 35,
+        "items": [
+          {
+            "id": {
+              "name": "speed-module-3",
+              "quality": "legendary"
+            },
+            "items": {
+              "in_inventory": [
+                {
+                  "inventory": 1,
+                  "stack": 0
+                },
+                {
+                  "inventory": 1,
+                  "stack": 1
+                }
+              ]
+            }
+          }
+        ],
+        "name": "beacon",
+        "position": {
+          "x": 9.5,
+          "y": 10.5
+        },
+        "quality": "legendary"
+      },
+      {
+        "entity_number": 36,
+        "items": [
+          {
+            "id": {
+              "name": "speed-module-3",
+              "quality": "legendary"
+            },
+            "items": {
+              "in_inventory": [
+                {
+                  "inventory": 1,
+                  "stack": 0
+                },
+                {
+                  "inventory": 1,
+                  "stack": 1
+                }
+              ]
+            }
+          }
+        ],
+        "name": "beacon",
+        "position": {
+          "x": 9.5,
+          "y": 13.5
+        },
+        "quality": "legendary"
+      },
+      {
+        "entity_number": 37,
+        "items": [
+          {
+            "id": {
+              "name": "speed-module-3",
+              "quality": "legendary"
+            },
+            "items": {
+              "in_inventory": [
+                {
+                  "inventory": 1,
+                  "stack": 0
+                },
+                {
+                  "inventory": 1,
+                  "stack": 1
+                }
+              ]
+            }
+          }
+        ],
+        "name": "beacon",
+        "position": {
+          "x": 9.5,
+          "y": 16.5
+        },
+        "quality": "legendary"
+      },
+      {
+        "entity_number": 38,
+        "items": [
+          {
+            "id": {
+              "name": "speed-module-3",
+              "quality": "legendary"
+            },
+            "items": {
+              "in_inventory": [
+                {
+                  "inventory": 1,
+                  "stack": 0
+                },
+                {
+                  "inventory": 1,
+                  "stack": 1
+                }
+              ]
+            }
+          }
+        ],
+        "name": "beacon",
+        "position": {
+          "x": 9.5,
+          "y": 19.5
+        },
+        "quality": "legendary"
+      },
+      {
+        "entity_number": 39,
+        "items": [
+          {
+            "id": {
+              "name": "speed-module-3",
+              "quality": "legendary"
+            },
+            "items": {
+              "in_inventory": [
+                {
+                  "inventory": 1,
+                  "stack": 0
+                },
+                {
+                  "inventory": 1,
+                  "stack": 1
+                }
+              ]
+            }
+          }
+        ],
+        "name": "beacon",
+        "position": {
+          "x": 9.5,
+          "y": 22.5
+        },
+        "quality": "legendary"
+      },
+      {
+        "entity_number": 40,
+        "items": [
+          {
+            "id": {
+              "name": "speed-module-3",
+              "quality": "legendary"
+            },
+            "items": {
+              "in_inventory": [
+                {
+                  "inventory": 1,
+                  "stack": 0
+                },
+                {
+                  "inventory": 1,
+                  "stack": 1
+                }
+              ]
+            }
+          }
+        ],
+        "name": "beacon",
+        "position": {
+          "x": 9.5,
+          "y": 25.5
+        },
+        "quality": "legendary"
+      },
+      {
+        "entity_number": 41,
+        "items": [
+          {
+            "id": {
+              "name": "speed-module-3",
+              "quality": "legendary"
+            },
+            "items": {
+              "in_inventory": [
+                {
+                  "inventory": 1,
+                  "stack": 0
+                },
+                {
+                  "inventory": 1,
+                  "stack": 1
+                }
+              ]
+            }
+          }
+        ],
+        "name": "beacon",
+        "position": {
+          "x": 10.5,
+          "y": 1.5
+        },
+        "quality": "legendary"
+      },
+      {
+        "entity_number": 42,
+        "items": [
+          {
+            "id": {
+              "name": "speed-module-3",
+              "quality": "legendary"
+            },
+            "items": {
+              "in_inventory": [
+                {
+                  "inventory": 1,
+                  "stack": 0
+                },
+                {
+                  "inventory": 1,
+                  "stack": 1
+                }
+              ]
+            }
+          }
+        ],
+        "name": "beacon",
+        "position": {
+          "x": 10.5,
+          "y": 28.5
+        },
+        "quality": "legendary"
+      },
+      {
+        "direction": 4,
+        "entity_number": 43,
+        "name": "pipe-to-ground",
+        "position": {
+          "x": 11.5,
+          "y": 4.5
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 44,
+        "name": "pipe-to-ground",
+        "position": {
+          "x": 11.5,
+          "y": 25.5
+        }
+      },
+      {
+        "entity_number": 45,
+        "name": "pipe",
+        "position": {
+          "x": 12.5,
+          "y": 4.5
+        }
+      },
+      {
+        "entity_number": 46,
+        "name": "pipe",
+        "position": {
+          "x": 12.5,
+          "y": 25.5
+        }
+      },
+      {
+        "entity_number": 47,
+        "items": [
+          {
+            "id": {
+              "name": "speed-module-3",
+              "quality": "legendary"
+            },
+            "items": {
+              "in_inventory": [
+                {
+                  "inventory": 1,
+                  "stack": 0
+                },
+                {
+                  "inventory": 1,
+                  "stack": 1
+                }
+              ]
+            }
+          }
+        ],
+        "name": "beacon",
+        "position": {
+          "x": 13.5,
+          "y": 1.5
+        },
+        "quality": "legendary"
+      },
+      {
+        "direction": 12,
+        "entity_number": 48,
+        "name": "pipe-to-ground",
+        "position": {
+          "x": 13.5,
+          "y": 4.5
+        }
+      },
+      {
+        "entity_number": 49,
+        "items": [
+          {
+            "id": {
+              "name": "productivity-module-3",
+              "quality": "legendary"
+            },
+            "items": {
+              "in_inventory": [
+                {
+                  "inventory": 4,
+                  "stack": 0
+                },
+                {
+                  "inventory": 4,
+                  "stack": 1
+                },
+                {
+                  "inventory": 4,
+                  "stack": 2
+                },
+                {
+                  "inventory": 4,
+                  "stack": 3
+                }
+              ]
+            }
+          }
+        ],
+        "name": "foundry",
+        "position": {
+          "x": 13.5,
+          "y": 7.5
+        },
+        "quality": "legendary",
+        "recipe": "copper-ore-melting",
+        "recipe_quality": "normal"
+      },
+      {
+        "entity_number": 50,
+        "items": [
+          {
+            "id": {
+              "name": "efficiency-module-3",
+              "quality": "legendary"
+            },
+            "items": {
+              "in_inventory": [
+                {
+                  "inventory": 2,
+                  "stack": 0
+                },
+                {
+                  "inventory": 2,
+                  "stack": 1
+                },
+                {
+                  "inventory": 2,
+                  "stack": 2
+                },
+                {
+                  "inventory": 2,
+                  "stack": 3
+                }
+              ]
+            }
+          }
+        ],
+        "name": "big-mining-drill",
+        "position": {
+          "x": 13.5,
+          "y": 12.5
+        },
+        "quality": "legendary"
+      },
+      {
+        "direction": 8,
+        "entity_number": 51,
+        "items": [
+          {
+            "id": {
+              "name": "efficiency-module-3",
+              "quality": "legendary"
+            },
+            "items": {
+              "in_inventory": [
+                {
+                  "inventory": 2,
+                  "stack": 0
+                },
+                {
+                  "inventory": 2,
+                  "stack": 1
+                },
+                {
+                  "inventory": 2,
+                  "stack": 2
+                },
+                {
+                  "inventory": 2,
+                  "stack": 3
+                }
+              ]
+            }
+          }
+        ],
+        "name": "big-mining-drill",
+        "position": {
+          "x": 13.5,
+          "y": 17.5
+        },
+        "quality": "legendary"
+      },
+      {
+        "direction": 8,
+        "entity_number": 52,
+        "items": [
+          {
+            "id": {
+              "name": "productivity-module-3",
+              "quality": "legendary"
+            },
+            "items": {
+              "in_inventory": [
+                {
+                  "inventory": 4,
+                  "stack": 0
+                },
+                {
+                  "inventory": 4,
+                  "stack": 1
+                },
+                {
+                  "inventory": 4,
+                  "stack": 2
+                },
+                {
+                  "inventory": 4,
+                  "stack": 3
+                }
+              ]
+            }
+          }
+        ],
+        "name": "foundry",
+        "position": {
+          "x": 13.5,
+          "y": 22.5
+        },
+        "quality": "legendary",
+        "recipe": "copper-ore-melting",
+        "recipe_quality": "normal"
+      },
+      {
+        "direction": 12,
+        "entity_number": 53,
+        "name": "pipe-to-ground",
+        "position": {
+          "x": 13.5,
+          "y": 25.5
+        }
+      },
+      {
+        "entity_number": 54,
+        "items": [
+          {
+            "id": {
+              "name": "speed-module-3",
+              "quality": "legendary"
+            },
+            "items": {
+              "in_inventory": [
+                {
+                  "inventory": 1,
+                  "stack": 0
+                },
+                {
+                  "inventory": 1,
+                  "stack": 1
+                }
+              ]
+            }
+          }
+        ],
+        "name": "beacon",
+        "position": {
+          "x": 13.5,
+          "y": 28.5
+        },
+        "quality": "legendary"
+      },
+      {
+        "direction": 12,
+        "entity_number": 55,
+        "name": "turbo-underground-belt",
+        "position": {
+          "x": 14.5,
+          "y": 3.5
+        },
+        "type": "input"
+      },
+      {
+        "entity_number": 56,
+        "name": "fast-inserter",
+        "position": {
+          "x": 14.5,
+          "y": 4.5
+        }
+      },
+      {
+        "direction": 8,
+        "entity_number": 57,
+        "name": "fast-inserter",
+        "position": {
+          "x": 14.5,
+          "y": 25.5
+        }
+      },
+      {
+        "direction": 12,
+        "entity_number": 58,
+        "name": "turbo-underground-belt",
+        "position": {
+          "x": 14.5,
+          "y": 26.5
+        },
+        "type": "input"
+      },
+      {
+        "direction": 12,
+        "entity_number": 59,
+        "name": "turbo-underground-belt",
+        "position": {
+          "x": 15.5,
+          "y": 3.5
+        },
+        "type": "output"
+      },
+      {
+        "entity_number": 60,
+        "name": "medium-electric-pole",
+        "position": {
+          "x": 15.5,
+          "y": 4.5
+        },
+        "quality": "legendary"
+      },
+      {
+        "entity_number": 61,
+        "name": "medium-electric-pole",
+        "position": {
+          "x": 15.5,
+          "y": 25.5
+        },
+        "quality": "legendary"
+      },
+      {
+        "direction": 12,
+        "entity_number": 62,
+        "name": "turbo-underground-belt",
+        "position": {
+          "x": 15.5,
+          "y": 26.5
+        },
+        "type": "output"
+      },
+      {
+        "entity_number": 63,
+        "items": [
+          {
+            "id": {
+              "name": "speed-module-3",
+              "quality": "legendary"
+            },
+            "items": {
+              "in_inventory": [
+                {
+                  "inventory": 1,
+                  "stack": 0
+                },
+                {
+                  "inventory": 1,
+                  "stack": 1
+                }
+              ]
+            }
+          }
+        ],
+        "name": "beacon",
+        "position": {
+          "x": 16.5,
+          "y": 1.5
+        },
+        "quality": "legendary"
+      },
+      {
+        "entity_number": 64,
+        "items": [
+          {
+            "id": {
+              "name": "speed-module-3",
+              "quality": "legendary"
+            },
+            "items": {
+              "in_inventory": [
+                {
+                  "inventory": 1,
+                  "stack": 0
+                },
+                {
+                  "inventory": 1,
+                  "stack": 1
+                }
+              ]
+            }
+          }
+        ],
+        "name": "beacon",
+        "position": {
+          "x": 16.5,
+          "y": 28.5
+        },
+        "quality": "legendary"
+      },
+      {
+        "entity_number": 65,
+        "items": [
+          {
+            "id": {
+              "name": "speed-module-3",
+              "quality": "legendary"
+            },
+            "items": {
+              "in_inventory": [
+                {
+                  "inventory": 1,
+                  "stack": 0
+                },
+                {
+                  "inventory": 1,
+                  "stack": 1
+                }
+              ]
+            }
+          }
+        ],
+        "name": "beacon",
+        "position": {
+          "x": 17.5,
+          "y": 4.5
+        },
+        "quality": "legendary"
+      },
+      {
+        "entity_number": 66,
+        "items": [
+          {
+            "id": {
+              "name": "speed-module-3",
+              "quality": "legendary"
+            },
+            "items": {
+              "in_inventory": [
+                {
+                  "inventory": 1,
+                  "stack": 0
+                },
+                {
+                  "inventory": 1,
+                  "stack": 1
+                }
+              ]
+            }
+          }
+        ],
+        "name": "beacon",
+        "position": {
+          "x": 17.5,
+          "y": 7.5
+        },
+        "quality": "legendary"
+      },
+      {
+        "entity_number": 67,
+        "items": [
+          {
+            "id": {
+              "name": "speed-module-3",
+              "quality": "legendary"
+            },
+            "items": {
+              "in_inventory": [
+                {
+                  "inventory": 1,
+                  "stack": 0
+                },
+                {
+                  "inventory": 1,
+                  "stack": 1
+                }
+              ]
+            }
+          }
+        ],
+        "name": "beacon",
+        "position": {
+          "x": 17.5,
+          "y": 10.5
+        },
+        "quality": "legendary"
+      },
+      {
+        "entity_number": 68,
+        "items": [
+          {
+            "id": {
+              "name": "speed-module-3",
+              "quality": "legendary"
+            },
+            "items": {
+              "in_inventory": [
+                {
+                  "inventory": 1,
+                  "stack": 0
+                },
+                {
+                  "inventory": 1,
+                  "stack": 1
+                }
+              ]
+            }
+          }
+        ],
+        "name": "beacon",
+        "position": {
+          "x": 17.5,
+          "y": 13.5
+        },
+        "quality": "legendary"
+      },
+      {
+        "entity_number": 69,
+        "items": [
+          {
+            "id": {
+              "name": "speed-module-3",
+              "quality": "legendary"
+            },
+            "items": {
+              "in_inventory": [
+                {
+                  "inventory": 1,
+                  "stack": 0
+                },
+                {
+                  "inventory": 1,
+                  "stack": 1
+                }
+              ]
+            }
+          }
+        ],
+        "name": "beacon",
+        "position": {
+          "x": 17.5,
+          "y": 16.5
+        },
+        "quality": "legendary"
+      },
+      {
+        "entity_number": 70,
+        "items": [
+          {
+            "id": {
+              "name": "speed-module-3",
+              "quality": "legendary"
+            },
+            "items": {
+              "in_inventory": [
+                {
+                  "inventory": 1,
+                  "stack": 0
+                },
+                {
+                  "inventory": 1,
+                  "stack": 1
+                }
+              ]
+            }
+          }
+        ],
+        "name": "beacon",
+        "position": {
+          "x": 17.5,
+          "y": 19.5
+        },
+        "quality": "legendary"
+      },
+      {
+        "entity_number": 71,
+        "items": [
+          {
+            "id": {
+              "name": "speed-module-3",
+              "quality": "legendary"
+            },
+            "items": {
+              "in_inventory": [
+                {
+                  "inventory": 1,
+                  "stack": 0
+                },
+                {
+                  "inventory": 1,
+                  "stack": 1
+                }
+              ]
+            }
+          }
+        ],
+        "name": "beacon",
+        "position": {
+          "x": 17.5,
+          "y": 22.5
+        },
+        "quality": "legendary"
+      },
+      {
+        "entity_number": 72,
+        "items": [
+          {
+            "id": {
+              "name": "speed-module-3",
+              "quality": "legendary"
+            },
+            "items": {
+              "in_inventory": [
+                {
+                  "inventory": 1,
+                  "stack": 0
+                },
+                {
+                  "inventory": 1,
+                  "stack": 1
+                }
+              ]
+            }
+          }
+        ],
+        "name": "beacon",
+        "position": {
+          "x": 17.5,
+          "y": 25.5
+        },
+        "quality": "legendary"
+      },
+      {
+        "entity_number": 73,
+        "items": [
+          {
+            "id": {
+              "name": "speed-module-3",
+              "quality": "legendary"
+            },
+            "items": {
+              "in_inventory": [
+                {
+                  "inventory": 1,
+                  "stack": 0
+                },
+                {
+                  "inventory": 1,
+                  "stack": 1
+                }
+              ]
+            }
+          }
+        ],
+        "name": "beacon",
+        "position": {
+          "x": 19.5,
+          "y": 1.5
+        },
+        "quality": "legendary"
+      },
+      {
+        "direction": 4,
+        "entity_number": 74,
+        "name": "pipe-to-ground",
+        "position": {
+          "x": 19.5,
+          "y": 4.5
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 75,
+        "name": "pipe-to-ground",
+        "position": {
+          "x": 19.5,
+          "y": 25.5
+        }
+      },
+      {
+        "entity_number": 76,
+        "items": [
+          {
+            "id": {
+              "name": "speed-module-3",
+              "quality": "legendary"
+            },
+            "items": {
+              "in_inventory": [
+                {
+                  "inventory": 1,
+                  "stack": 0
+                },
+                {
+                  "inventory": 1,
+                  "stack": 1
+                }
+              ]
+            }
+          }
+        ],
+        "name": "beacon",
+        "position": {
+          "x": 19.5,
+          "y": 28.5
+        },
+        "quality": "legendary"
+      },
+      {
+        "entity_number": 77,
+        "name": "pipe",
+        "position": {
+          "x": 20.5,
+          "y": 4.5
+        }
+      },
+      {
+        "entity_number": 78,
+        "name": "pipe",
+        "position": {
+          "x": 20.5,
+          "y": 25.5
+        }
+      },
+      {
+        "direction": 12,
+        "entity_number": 79,
+        "name": "pipe-to-ground",
+        "position": {
+          "x": 21.5,
+          "y": 4.5
+        }
+      },
+      {
+        "entity_number": 80,
+        "items": [
+          {
+            "id": {
+              "name": "productivity-module-3",
+              "quality": "legendary"
+            },
+            "items": {
+              "in_inventory": [
+                {
+                  "inventory": 4,
+                  "stack": 0
+                },
+                {
+                  "inventory": 4,
+                  "stack": 1
+                },
+                {
+                  "inventory": 4,
+                  "stack": 2
+                },
+                {
+                  "inventory": 4,
+                  "stack": 3
+                }
+              ]
+            }
+          }
+        ],
+        "name": "foundry",
+        "position": {
+          "x": 21.5,
+          "y": 7.5
+        },
+        "quality": "legendary",
+        "recipe": "copper-ore-melting",
+        "recipe_quality": "normal"
+      },
+      {
+        "entity_number": 81,
+        "items": [
+          {
+            "id": {
+              "name": "efficiency-module-3",
+              "quality": "legendary"
+            },
+            "items": {
+              "in_inventory": [
+                {
+                  "inventory": 2,
+                  "stack": 0
+                },
+                {
+                  "inventory": 2,
+                  "stack": 1
+                },
+                {
+                  "inventory": 2,
+                  "stack": 2
+                },
+                {
+                  "inventory": 2,
+                  "stack": 3
+                }
+              ]
+            }
+          }
+        ],
+        "name": "big-mining-drill",
+        "position": {
+          "x": 21.5,
+          "y": 12.5
+        },
+        "quality": "legendary"
+      },
+      {
+        "direction": 8,
+        "entity_number": 82,
+        "items": [
+          {
+            "id": {
+              "name": "efficiency-module-3",
+              "quality": "legendary"
+            },
+            "items": {
+              "in_inventory": [
+                {
+                  "inventory": 2,
+                  "stack": 0
+                },
+                {
+                  "inventory": 2,
+                  "stack": 1
+                },
+                {
+                  "inventory": 2,
+                  "stack": 2
+                },
+                {
+                  "inventory": 2,
+                  "stack": 3
+                }
+              ]
+            }
+          }
+        ],
+        "name": "big-mining-drill",
+        "position": {
+          "x": 21.5,
+          "y": 17.5
+        },
+        "quality": "legendary"
+      },
+      {
+        "direction": 8,
+        "entity_number": 83,
+        "items": [
+          {
+            "id": {
+              "name": "productivity-module-3",
+              "quality": "legendary"
+            },
+            "items": {
+              "in_inventory": [
+                {
+                  "inventory": 4,
+                  "stack": 0
+                },
+                {
+                  "inventory": 4,
+                  "stack": 1
+                },
+                {
+                  "inventory": 4,
+                  "stack": 2
+                },
+                {
+                  "inventory": 4,
+                  "stack": 3
+                }
+              ]
+            }
+          }
+        ],
+        "name": "foundry",
+        "position": {
+          "x": 21.5,
+          "y": 22.5
+        },
+        "quality": "legendary",
+        "recipe": "copper-ore-melting",
+        "recipe_quality": "normal"
+      },
+      {
+        "direction": 12,
+        "entity_number": 84,
+        "name": "pipe-to-ground",
+        "position": {
+          "x": 21.5,
+          "y": 25.5
+        }
+      },
+      {
+        "entity_number": 85,
+        "items": [
+          {
+            "id": {
+              "name": "speed-module-3",
+              "quality": "legendary"
+            },
+            "items": {
+              "in_inventory": [
+                {
+                  "inventory": 1,
+                  "stack": 0
+                },
+                {
+                  "inventory": 1,
+                  "stack": 1
+                }
+              ]
+            }
+          }
+        ],
+        "name": "beacon",
+        "position": {
+          "x": 22.5,
+          "y": 1.5
+        },
+        "quality": "legendary"
+      },
+      {
+        "direction": 12,
+        "entity_number": 86,
+        "name": "turbo-underground-belt",
+        "position": {
+          "x": 22.5,
+          "y": 3.5
+        },
+        "type": "input"
+      },
+      {
+        "entity_number": 87,
+        "name": "fast-inserter",
+        "position": {
+          "x": 22.5,
+          "y": 4.5
+        }
+      },
+      {
+        "direction": 8,
+        "entity_number": 88,
+        "name": "fast-inserter",
+        "position": {
+          "x": 22.5,
+          "y": 25.5
+        }
+      },
+      {
+        "direction": 12,
+        "entity_number": 89,
+        "name": "turbo-underground-belt",
+        "position": {
+          "x": 22.5,
+          "y": 26.5
+        },
+        "type": "input"
+      },
+      {
+        "entity_number": 90,
+        "items": [
+          {
+            "id": {
+              "name": "speed-module-3",
+              "quality": "legendary"
+            },
+            "items": {
+              "in_inventory": [
+                {
+                  "inventory": 1,
+                  "stack": 0
+                },
+                {
+                  "inventory": 1,
+                  "stack": 1
+                }
+              ]
+            }
+          }
+        ],
+        "name": "beacon",
+        "position": {
+          "x": 22.5,
+          "y": 28.5
+        },
+        "quality": "legendary"
+      },
+      {
+        "direction": 12,
+        "entity_number": 91,
+        "name": "turbo-underground-belt",
+        "position": {
+          "x": 23.5,
+          "y": 3.5
+        },
+        "type": "output"
+      },
+      {
+        "entity_number": 92,
+        "name": "medium-electric-pole",
+        "position": {
+          "x": 23.5,
+          "y": 4.5
+        },
+        "quality": "legendary"
+      },
+      {
+        "entity_number": 93,
+        "name": "medium-electric-pole",
+        "position": {
+          "x": 23.5,
+          "y": 25.5
+        },
+        "quality": "legendary"
+      },
+      {
+        "direction": 12,
+        "entity_number": 94,
+        "name": "turbo-underground-belt",
+        "position": {
+          "x": 23.5,
+          "y": 26.5
+        },
+        "type": "output"
+      },
+      {
+        "entity_number": 95,
+        "items": [
+          {
+            "id": {
+              "name": "speed-module-3",
+              "quality": "legendary"
+            },
+            "items": {
+              "in_inventory": [
+                {
+                  "inventory": 1,
+                  "stack": 0
+                },
+                {
+                  "inventory": 1,
+                  "stack": 1
+                }
+              ]
+            }
+          }
+        ],
+        "name": "beacon",
+        "position": {
+          "x": 25.5,
+          "y": 1.5
+        },
+        "quality": "legendary"
+      },
+      {
+        "entity_number": 96,
+        "items": [
+          {
+            "id": {
+              "name": "speed-module-3",
+              "quality": "legendary"
+            },
+            "items": {
+              "in_inventory": [
+                {
+                  "inventory": 1,
+                  "stack": 0
+                },
+                {
+                  "inventory": 1,
+                  "stack": 1
+                }
+              ]
+            }
+          }
+        ],
+        "name": "beacon",
+        "position": {
+          "x": 25.5,
+          "y": 4.5
+        },
+        "quality": "legendary"
+      },
+      {
+        "entity_number": 97,
+        "items": [
+          {
+            "id": {
+              "name": "speed-module-3",
+              "quality": "legendary"
+            },
+            "items": {
+              "in_inventory": [
+                {
+                  "inventory": 1,
+                  "stack": 0
+                },
+                {
+                  "inventory": 1,
+                  "stack": 1
+                }
+              ]
+            }
+          }
+        ],
+        "name": "beacon",
+        "position": {
+          "x": 25.5,
+          "y": 7.5
+        },
+        "quality": "legendary"
+      },
+      {
+        "entity_number": 98,
+        "items": [
+          {
+            "id": {
+              "name": "speed-module-3",
+              "quality": "legendary"
+            },
+            "items": {
+              "in_inventory": [
+                {
+                  "inventory": 1,
+                  "stack": 0
+                },
+                {
+                  "inventory": 1,
+                  "stack": 1
+                }
+              ]
+            }
+          }
+        ],
+        "name": "beacon",
+        "position": {
+          "x": 25.5,
+          "y": 10.5
+        },
+        "quality": "legendary"
+      },
+      {
+        "entity_number": 99,
+        "items": [
+          {
+            "id": {
+              "name": "speed-module-3",
+              "quality": "legendary"
+            },
+            "items": {
+              "in_inventory": [
+                {
+                  "inventory": 1,
+                  "stack": 0
+                },
+                {
+                  "inventory": 1,
+                  "stack": 1
+                }
+              ]
+            }
+          }
+        ],
+        "name": "beacon",
+        "position": {
+          "x": 25.5,
+          "y": 13.5
+        },
+        "quality": "legendary"
+      },
+      {
+        "entity_number": 100,
+        "items": [
+          {
+            "id": {
+              "name": "speed-module-3",
+              "quality": "legendary"
+            },
+            "items": {
+              "in_inventory": [
+                {
+                  "inventory": 1,
+                  "stack": 0
+                },
+                {
+                  "inventory": 1,
+                  "stack": 1
+                }
+              ]
+            }
+          }
+        ],
+        "name": "beacon",
+        "position": {
+          "x": 25.5,
+          "y": 16.5
+        },
+        "quality": "legendary"
+      },
+      {
+        "entity_number": 101,
+        "items": [
+          {
+            "id": {
+              "name": "speed-module-3",
+              "quality": "legendary"
+            },
+            "items": {
+              "in_inventory": [
+                {
+                  "inventory": 1,
+                  "stack": 0
+                },
+                {
+                  "inventory": 1,
+                  "stack": 1
+                }
+              ]
+            }
+          }
+        ],
+        "name": "beacon",
+        "position": {
+          "x": 25.5,
+          "y": 19.5
+        },
+        "quality": "legendary"
+      },
+      {
+        "entity_number": 102,
+        "items": [
+          {
+            "id": {
+              "name": "speed-module-3",
+              "quality": "legendary"
+            },
+            "items": {
+              "in_inventory": [
+                {
+                  "inventory": 1,
+                  "stack": 0
+                },
+                {
+                  "inventory": 1,
+                  "stack": 1
+                }
+              ]
+            }
+          }
+        ],
+        "name": "beacon",
+        "position": {
+          "x": 25.5,
+          "y": 22.5
+        },
+        "quality": "legendary"
+      },
+      {
+        "entity_number": 103,
+        "items": [
+          {
+            "id": {
+              "name": "speed-module-3",
+              "quality": "legendary"
+            },
+            "items": {
+              "in_inventory": [
+                {
+                  "inventory": 1,
+                  "stack": 0
+                },
+                {
+                  "inventory": 1,
+                  "stack": 1
+                }
+              ]
+            }
+          }
+        ],
+        "name": "beacon",
+        "position": {
+          "x": 25.5,
+          "y": 25.5
+        },
+        "quality": "legendary"
+      },
+      {
+        "entity_number": 104,
+        "items": [
+          {
+            "id": {
+              "name": "speed-module-3",
+              "quality": "legendary"
+            },
+            "items": {
+              "in_inventory": [
+                {
+                  "inventory": 1,
+                  "stack": 0
+                },
+                {
+                  "inventory": 1,
+                  "stack": 1
+                }
+              ]
+            }
+          }
+        ],
+        "name": "beacon",
+        "position": {
+          "x": 25.5,
+          "y": 28.5
+        },
+        "quality": "legendary"
+      }
+    ],
+    "icons": [
+      {
+        "index": 1,
+        "signal": {
+          "name": "big-mining-drill",
+          "quality": "legendary"
+        }
+      },
+      {
+        "index": 2,
+        "signal": {
+          "name": "foundry",
+          "quality": "legendary"
+        }
+      },
+      {
+        "index": 3,
+        "signal": {
+          "name": "beacon",
+          "quality": "legendary"
+        }
+      },
+      {
+        "index": 4,
+        "signal": {
+          "name": "molten-copper",
+          "type": "fluid"
+        }
+      }
+    ],
+    "snap-to-grid": {
+      "x": 24,
+      "y": 27
+    },
+    "version": 562954249306113,
+    "wires": [
+      [
+        29,
+        5,
+        60,
+        5
+      ],
+      [
+        30,
+        5,
+        61,
+        5
+      ],
+      [
+        30,
+        5,
+        93,
+        5
+      ],
+      [
+        60,
+        5,
+        92,
+        5
+      ]
+    ]
+  },
+  "index": 10
+}

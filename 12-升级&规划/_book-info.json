@@ -1,0 +1,16 @@
+{
+  "active_index": 11,
+  "blueprints": [],
+  "description": "v260804\n--by sequence[7]",
+  "icons": [
+    {
+      "index": 1,
+      "signal": {
+        "name": "upgrade-planner"
+      }
+    }
+  ],
+  "item": "blueprint-book",
+  "label": "升级&规划",
+  "version": 562954249306113
+}

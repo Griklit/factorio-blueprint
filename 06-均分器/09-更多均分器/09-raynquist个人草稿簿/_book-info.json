@@ -1,0 +1,38 @@
+{
+  "active_index": 13,
+  "blueprints": [],
+  "description": "这是一些【特解原型机】。可作为参考。",
+  "icons": [
+    {
+      "index": 1,
+      "signal": {
+        "name": "signal-M",
+        "type": "virtual"
+      }
+    },
+    {
+      "index": 2,
+      "signal": {
+        "name": "signal-I",
+        "type": "virtual"
+      }
+    },
+    {
+      "index": 3,
+      "signal": {
+        "name": "signal-S",
+        "type": "virtual"
+      }
+    },
+    {
+      "index": 4,
+      "signal": {
+        "name": "signal-C",
+        "type": "virtual"
+      }
+    }
+  ],
+  "item": "blueprint-book",
+  "label": "raynquist个人草稿簿",
+  "version": 562954249306113
+}

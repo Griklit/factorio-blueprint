@@ -1,0 +1,111 @@
+{
+  "blueprint": {
+    "item": "blueprint",
+    "label": "为什么要放 [item=deconstruction-planner] 筛选？",
+    "description": "这是为了阻止分流器在[item=deconstruction-planner]的一侧输出，让分流器成为一个\n2-1合流器。否则从分流器右侧输出的物料也会流到地下传送带。\n将筛选器设置为红图，意味着只有红图才能在这一侧输出。而一般来说，红图不太可能被放在传送带上。这实际上意味着【禁止在这一侧输出】，从而让分流器像2-1合流器一样工作。",
+    "entities": [
+      {
+        "direction": 4,
+        "entity_number": 1,
+        "name": "express-transport-belt",
+        "position": {
+          "x": 501.5,
+          "y": 295.5
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 2,
+        "name": "express-underground-belt",
+        "position": {
+          "x": 502.5,
+          "y": 295.5
+        },
+        "type": "input"
+      },
+      {
+        "entity_number": 3,
+        "name": "express-transport-belt",
+        "position": {
+          "x": 501.5,
+          "y": 297.5
+        }
+      },
+      {
+        "entity_number": 4,
+        "name": "express-splitter",
+        "position": {
+          "x": 502,
+          "y": 296.5
+        }
+      },
+      {
+        "entity_number": 5,
+        "name": "express-transport-belt",
+        "position": {
+          "x": 502.5,
+          "y": 297.5
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 6,
+        "name": "express-transport-belt",
+        "position": {
+          "x": 501.5,
+          "y": 300.5
+        }
+      },
+      {
+        "entity_number": 7,
+        "filter": {
+          "comparator": "=",
+          "name": "deconstruction-planner",
+          "quality": "normal"
+        },
+        "name": "express-splitter",
+        "output_priority": "right",
+        "position": {
+          "x": 502,
+          "y": 301.5
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 8,
+        "name": "express-underground-belt",
+        "position": {
+          "x": 502.5,
+          "y": 300.5
+        },
+        "type": "input"
+      },
+      {
+        "entity_number": 9,
+        "name": "express-transport-belt",
+        "position": {
+          "x": 501.5,
+          "y": 302.5
+        }
+      },
+      {
+        "entity_number": 10,
+        "name": "express-transport-belt",
+        "position": {
+          "x": 502.5,
+          "y": 302.5
+        }
+      }
+    ],
+    "icons": [
+      {
+        "index": 1,
+        "signal": {
+          "name": "express-splitter"
+        }
+      }
+    ],
+    "version": 562954249306113
+  },
+  "index": 0
+}

@@ -1,0 +1,185 @@
+{
+  "blueprint": {
+    "item": "blueprint",
+    "entities": [
+      {
+        "entity_number": 1,
+        "name": "beacon",
+        "position": {
+          "x": -69.5,
+          "y": 41.5
+        }
+      },
+      {
+        "entity_number": 2,
+        "name": "beacon",
+        "position": {
+          "x": -69.5,
+          "y": 44.5
+        }
+      },
+      {
+        "entity_number": 3,
+        "name": "beacon",
+        "position": {
+          "x": -69.5,
+          "y": 47.5
+        }
+      },
+      {
+        "entity_number": 4,
+        "name": "beacon",
+        "position": {
+          "x": -69.5,
+          "y": 50.5
+        }
+      },
+      {
+        "entity_number": 5,
+        "name": "medium-electric-pole",
+        "position": {
+          "x": -67.5,
+          "y": 43.5
+        }
+      },
+      {
+        "entity_number": 6,
+        "name": "medium-electric-pole",
+        "position": {
+          "x": -67.5,
+          "y": 48.5
+        }
+      },
+      {
+        "entity_number": 7,
+        "name": "beacon",
+        "position": {
+          "x": -66.5,
+          "y": 41.5
+        }
+      },
+      {
+        "entity_number": 8,
+        "name": "beacon",
+        "position": {
+          "x": -66.5,
+          "y": 50.5
+        }
+      },
+      {
+        "entity_number": 9,
+        "name": "pumpjack",
+        "position": {
+          "x": -65.5,
+          "y": 46.5
+        }
+      },
+      {
+        "entity_number": 10,
+        "name": "beacon",
+        "position": {
+          "x": -63.5,
+          "y": 41.5
+        }
+      },
+      {
+        "entity_number": 11,
+        "name": "beacon",
+        "position": {
+          "x": -63.5,
+          "y": 50.5
+        }
+      },
+      {
+        "entity_number": 12,
+        "name": "big-electric-pole",
+        "position": {
+          "x": -63,
+          "y": 48
+        }
+      },
+      {
+        "entity_number": 13,
+        "name": "medium-electric-pole",
+        "position": {
+          "x": -62.5,
+          "y": 43.5
+        }
+      },
+      {
+        "entity_number": 14,
+        "name": "beacon",
+        "position": {
+          "x": -60.5,
+          "y": 41.5
+        }
+      },
+      {
+        "entity_number": 15,
+        "name": "beacon",
+        "position": {
+          "x": -60.5,
+          "y": 44.5
+        }
+      },
+      {
+        "entity_number": 16,
+        "name": "beacon",
+        "position": {
+          "x": -60.5,
+          "y": 47.5
+        }
+      },
+      {
+        "entity_number": 17,
+        "name": "beacon",
+        "position": {
+          "x": -60.5,
+          "y": 50.5
+        }
+      }
+    ],
+    "icons": [
+      {
+        "index": 1,
+        "signal": {
+          "name": "pumpjack"
+        }
+      },
+      {
+        "index": 2,
+        "signal": {
+          "name": "beacon"
+        }
+      }
+    ],
+    "version": 562954249306113,
+    "wires": [
+      [
+        5,
+        5,
+        6,
+        5
+      ],
+      [
+        5,
+        5,
+        13,
+        5
+      ],
+      [
+        6,
+        5,
+        12,
+        5
+      ],
+      [
+        12,
+        5,
+        13,
+        5
+      ]
+    ]
+  },
+  "index": 12
+}

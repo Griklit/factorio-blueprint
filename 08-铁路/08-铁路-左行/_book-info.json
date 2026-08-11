@@ -1,0 +1,15 @@
+{
+  "active_index": 7,
+  "blueprints": [],
+  "icons": [
+    {
+      "index": 1,
+      "signal": {
+        "name": "rail"
+      }
+    }
+  ],
+  "item": "blueprint-book",
+  "label": "铁路-左行",
+  "version": 562954249306113
+}

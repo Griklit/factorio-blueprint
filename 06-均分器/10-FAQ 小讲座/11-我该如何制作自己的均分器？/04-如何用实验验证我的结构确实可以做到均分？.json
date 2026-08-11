@@ -1,0 +1,28 @@
+{
+  "blueprint": {
+    "item": "blueprint",
+    "label": "如何用实验验证我的结构确实可以做到均分？",
+    "description": "有一些代码可以验证平衡器的正确性。我所知道的有：\n\ngithub.com/d4rkc0d3r/FactorioSimulation/releases\ngithub.com/tzwaan/factorio_balancers/releases\ngithub.com/alegnani/verifactory/releases\n\n我只用过第一个。我知道第一个有时候可能会给出错误的验证结果，所以这并不总是正确的。不知道另外两个的正确性如何。\n\n[1]reddit.com/r/factorio/comments/9c9raz\n[2]v.redd.it/os7hd7lu12z11\n[3]v.redd.it/qbyh68mr6vf21",
+    "entities": [
+      {
+        "direction": 4,
+        "entity_number": 1,
+        "name": "express-splitter",
+        "position": {
+          "x": 504.5,
+          "y": 301
+        }
+      }
+    ],
+    "icons": [
+      {
+        "index": 1,
+        "signal": {
+          "name": "express-splitter"
+        }
+      }
+    ],
+    "version": 562954249306113
+  },
+  "index": 4
+}

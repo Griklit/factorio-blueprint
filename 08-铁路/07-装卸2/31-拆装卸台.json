@@ -1,0 +1,201 @@
+{
+  "deconstruction_planner": {
+    "label": "拆装卸台",
+    "item": "deconstruction-planner",
+    "settings": {
+      "entity_filters": [
+        {
+          "comparator": "=",
+          "index": 0,
+          "name": "turbo-transport-belt",
+          "quality": "normal"
+        },
+        {
+          "comparator": "=",
+          "index": 1,
+          "name": "express-transport-belt",
+          "quality": "normal"
+        },
+        {
+          "comparator": "=",
+          "index": 2,
+          "name": "fast-transport-belt",
+          "quality": "normal"
+        },
+        {
+          "comparator": "=",
+          "index": 3,
+          "name": "transport-belt",
+          "quality": "normal"
+        },
+        {
+          "comparator": "=",
+          "index": 4,
+          "name": "turbo-underground-belt",
+          "quality": "normal"
+        },
+        {
+          "comparator": "=",
+          "index": 5,
+          "name": "express-underground-belt",
+          "quality": "normal"
+        },
+        {
+          "comparator": "=",
+          "index": 6,
+          "name": "fast-underground-belt",
+          "quality": "normal"
+        },
+        {
+          "comparator": "=",
+          "index": 7,
+          "name": "underground-belt",
+          "quality": "normal"
+        },
+        {
+          "comparator": "=",
+          "index": 8,
+          "name": "turbo-splitter",
+          "quality": "normal"
+        },
+        {
+          "comparator": "=",
+          "index": 9,
+          "name": "express-splitter",
+          "quality": "normal"
+        },
+        {
+          "comparator": "=",
+          "index": 10,
+          "name": "fast-splitter",
+          "quality": "normal"
+        },
+        {
+          "comparator": "=",
+          "index": 11,
+          "name": "splitter",
+          "quality": "normal"
+        },
+        {
+          "comparator": "=",
+          "index": 12,
+          "name": "fast-inserter",
+          "quality": "normal"
+        },
+        {
+          "comparator": "=",
+          "index": 13,
+          "name": "bulk-inserter",
+          "quality": "normal"
+        },
+        {
+          "comparator": "=",
+          "index": 14,
+          "name": "stack-inserter",
+          "quality": "normal"
+        },
+        {
+          "comparator": "=",
+          "index": 15,
+          "name": "pipe",
+          "quality": "normal"
+        },
+        {
+          "comparator": "=",
+          "index": 16,
+          "name": "pipe-to-ground",
+          "quality": "normal"
+        },
+        {
+          "comparator": "=",
+          "index": 17,
+          "name": "pump",
+          "quality": "normal"
+        },
+        {
+          "comparator": "=",
+          "index": 18,
+          "name": "steel-chest",
+          "quality": "normal"
+        },
+        {
+          "comparator": "=",
+          "index": 19,
+          "name": "storage-tank",
+          "quality": "normal"
+        },
+        {
+          "comparator": "=",
+          "index": 20,
+          "name": "small-lamp",
+          "quality": "normal"
+        },
+        {
+          "comparator": "=",
+          "index": 21,
+          "name": "arithmetic-combinator",
+          "quality": "normal"
+        },
+        {
+          "comparator": "=",
+          "index": 22,
+          "name": "decider-combinator",
+          "quality": "normal"
+        },
+        {
+          "comparator": "=",
+          "index": 23,
+          "name": "selector-combinator",
+          "quality": "normal"
+        },
+        {
+          "comparator": "=",
+          "index": 24,
+          "name": "constant-combinator",
+          "quality": "normal"
+        },
+        {
+          "comparator": "=",
+          "index": 25,
+          "name": "programmable-speaker",
+          "quality": "normal"
+        },
+        {
+          "comparator": "=",
+          "index": 26,
+          "name": "display-panel",
+          "quality": "normal"
+        },
+        {
+          "comparator": "=",
+          "index": 27,
+          "name": "medium-electric-pole",
+          "quality": "normal"
+        },
+        {
+          "comparator": "=",
+          "index": 28,
+          "name": "substation",
+          "quality": "normal"
+        }
+      ],
+      "icons": [
+        {
+          "index": 1,
+          "signal": {
+            "name": "turbo-transport-belt"
+          }
+        },
+        {
+          "index": 2,
+          "signal": {
+            "name": "stack-inserter"
+          }
+        }
+      ],
+      "tile_selection_mode": 2
+    },
+    "version": 562954249306113
+  },
+  "index": 31
+}

@@ -1,0 +1,15 @@
+{
+  "active_index": 0,
+  "blueprints": [],
+  "icons": [
+    {
+      "index": 1,
+      "signal": {
+        "name": "lightning-rod"
+      }
+    }
+  ],
+  "item": "blueprint-book",
+  "label": "避雷针",
+  "version": 562954249306113
+}

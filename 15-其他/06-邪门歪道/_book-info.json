@@ -1,0 +1,17 @@
+{
+  "active_index": 1,
+  "blueprints": [],
+  "description": "你不该使用这些",
+  "icons": [
+    {
+      "index": 1,
+      "signal": {
+        "name": "signal-skull",
+        "type": "virtual"
+      }
+    }
+  ],
+  "item": "blueprint-book",
+  "label": "邪门歪道",
+  "version": 562954249306113
+}

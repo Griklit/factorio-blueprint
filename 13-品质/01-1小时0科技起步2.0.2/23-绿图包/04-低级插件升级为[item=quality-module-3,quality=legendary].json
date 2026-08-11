@@ -1,0 +1,40 @@
+{
+  "upgrade_planner": {
+    "label": "低级插件升级为[item=quality-module-3,quality=legendary]",
+    "item": "upgrade-planner",
+    "settings": {
+      "mappers": [
+        {
+          "from": {
+            "comparator": "=",
+            "name": "quality-module-2",
+            "quality": "legendary",
+            "type": "item"
+          },
+          "index": 0,
+          "to": {
+            "name": "quality-module-3",
+            "quality": "legendary",
+            "type": "item"
+          }
+        },
+        {
+          "from": {
+            "comparator": "<",
+            "name": "quality-module-3",
+            "quality": "legendary",
+            "type": "item"
+          },
+          "index": 4,
+          "to": {
+            "name": "quality-module-3",
+            "quality": "legendary",
+            "type": "item"
+          }
+        }
+      ]
+    },
+    "version": 562954249306113
+  },
+  "index": 4
+}

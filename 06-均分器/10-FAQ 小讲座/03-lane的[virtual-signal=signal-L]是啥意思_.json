@@ -1,0 +1,154 @@
+{
+  "blueprint": {
+    "item": "blueprint",
+    "label": "lane的[virtual-signal=signal-L]是啥意思?",
+    "description": "-“完全均分器(Lane balancers)”\n：哪怕输出发生半带堵塞，也会均分输入带两侧的所有物品",
+    "entities": [
+      {
+        "entity_number": 1,
+        "name": "express-splitter",
+        "position": {
+          "x": 1547,
+          "y": -160.5
+        }
+      },
+      {
+        "entity_number": 2,
+        "name": "express-transport-belt",
+        "position": {
+          "x": 1547.5,
+          "y": -161.5
+        }
+      },
+      {
+        "entity_number": 3,
+        "name": "express-transport-belt",
+        "position": {
+          "x": 1546.5,
+          "y": -161.5
+        }
+      },
+      {
+        "entity_number": 4,
+        "name": "express-underground-belt",
+        "position": {
+          "x": 1547.5,
+          "y": -158.5
+        },
+        "type": "input"
+      },
+      {
+        "direction": 4,
+        "entity_number": 5,
+        "name": "express-transport-belt",
+        "position": {
+          "x": 1546.5,
+          "y": -158.5
+        }
+      },
+      {
+        "entity_number": 6,
+        "name": "express-underground-belt",
+        "position": {
+          "x": 1547.5,
+          "y": -159.5
+        },
+        "type": "output"
+      },
+      {
+        "entity_number": 7,
+        "name": "express-underground-belt",
+        "position": {
+          "x": 1546.5,
+          "y": -159.5
+        },
+        "type": "output"
+      },
+      {
+        "direction": 12,
+        "entity_number": 8,
+        "name": "express-transport-belt",
+        "position": {
+          "x": 1548.5,
+          "y": -158.5
+        }
+      },
+      {
+        "entity_number": 9,
+        "name": "express-underground-belt",
+        "position": {
+          "x": 1546.5,
+          "y": -156.5
+        },
+        "type": "input"
+      },
+      {
+        "direction": 12,
+        "entity_number": 10,
+        "name": "express-transport-belt",
+        "position": {
+          "x": 1547.5,
+          "y": -157.5
+        }
+      },
+      {
+        "entity_number": 11,
+        "name": "express-transport-belt",
+        "position": {
+          "x": 1546.5,
+          "y": -157.5
+        }
+      },
+      {
+        "entity_number": 12,
+        "name": "express-splitter",
+        "position": {
+          "x": 1548,
+          "y": -156.5
+        }
+      },
+      {
+        "entity_number": 13,
+        "name": "express-transport-belt",
+        "position": {
+          "x": 1548.5,
+          "y": -157.5
+        }
+      },
+      {
+        "entity_number": 14,
+        "name": "express-transport-belt",
+        "position": {
+          "x": 1547.5,
+          "y": -154.5
+        }
+      },
+      {
+        "entity_number": 15,
+        "name": "express-transport-belt",
+        "position": {
+          "x": 1546.5,
+          "y": -154.5
+        }
+      },
+      {
+        "entity_number": 16,
+        "name": "express-splitter",
+        "position": {
+          "x": 1547,
+          "y": -155.5
+        }
+      }
+    ],
+    "icons": [
+      {
+        "index": 1,
+        "signal": {
+          "name": "express-splitter"
+        }
+      }
+    ],
+    "version": 562954249306113
+  },
+  "index": 3
+}

@@ -1,0 +1,170 @@
+{
+  "blueprint": {
+    "item": "blueprint",
+    "label": "永久雷达 [雷神星]",
+    "description": "并不是很永久……",
+    "entities": [
+      {
+        "entity_number": 1,
+        "name": "accumulator",
+        "position": {
+          "x": 9,
+          "y": -373
+        }
+      },
+      {
+        "entity_number": 2,
+        "name": "accumulator",
+        "position": {
+          "x": 9,
+          "y": -369
+        }
+      },
+      {
+        "entity_number": 3,
+        "name": "accumulator",
+        "position": {
+          "x": 10,
+          "y": -371
+        }
+      },
+      {
+        "entity_number": 4,
+        "name": "accumulator",
+        "position": {
+          "x": 10,
+          "y": -367
+        }
+      },
+      {
+        "entity_number": 5,
+        "name": "accumulator",
+        "position": {
+          "x": 11,
+          "y": -369
+        }
+      },
+      {
+        "entity_number": 6,
+        "name": "radar",
+        "position": {
+          "x": 11.5,
+          "y": -373.5
+        }
+      },
+      {
+        "entity_number": 7,
+        "name": "accumulator",
+        "position": {
+          "x": 12,
+          "y": -371
+        }
+      },
+      {
+        "entity_number": 8,
+        "name": "accumulator",
+        "position": {
+          "x": 12,
+          "y": -367
+        }
+      },
+      {
+        "entity_number": 9,
+        "name": "medium-electric-pole",
+        "position": {
+          "x": 12.5,
+          "y": -369.5
+        }
+      },
+      {
+        "entity_number": 10,
+        "name": "lightning-rod",
+        "position": {
+          "x": 12.5,
+          "y": -368.5
+        }
+      },
+      {
+        "entity_number": 11,
+        "name": "accumulator",
+        "position": {
+          "x": 14,
+          "y": -373
+        }
+      },
+      {
+        "entity_number": 12,
+        "name": "accumulator",
+        "position": {
+          "x": 14,
+          "y": -371
+        }
+      },
+      {
+        "entity_number": 13,
+        "name": "accumulator",
+        "position": {
+          "x": 14,
+          "y": -369
+        }
+      },
+      {
+        "entity_number": 14,
+        "name": "accumulator",
+        "position": {
+          "x": 14,
+          "y": -367
+        }
+      },
+      {
+        "entity_number": 15,
+        "name": "accumulator",
+        "position": {
+          "x": 16,
+          "y": -373
+        }
+      },
+      {
+        "entity_number": 16,
+        "name": "accumulator",
+        "position": {
+          "x": 16,
+          "y": -371
+        }
+      },
+      {
+        "entity_number": 17,
+        "name": "accumulator",
+        "position": {
+          "x": 16,
+          "y": -369
+        }
+      },
+      {
+        "entity_number": 18,
+        "name": "accumulator",
+        "position": {
+          "x": 16,
+          "y": -367
+        }
+      }
+    ],
+    "icons": [
+      {
+        "index": 1,
+        "signal": {
+          "name": "radar"
+        }
+      },
+      {
+        "index": 2,
+        "signal": {
+          "name": "fulgora",
+          "type": "space-location"
+        }
+      }
+    ],
+    "version": 562954249306113
+  },
+  "index": 3
+}

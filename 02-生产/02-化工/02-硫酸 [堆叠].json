@@ -1,0 +1,767 @@
+{
+  "blueprint": {
+    "item": "blueprint",
+    "label": "硫酸 [堆叠]",
+    "entities": [
+      {
+        "control_behavior": {
+          "sections": {
+            "sections": [
+              {
+                "filters": [
+                  {
+                    "comparator": "=",
+                    "count": 1,
+                    "index": 1,
+                    "name": "signal-deny",
+                    "quality": "normal",
+                    "type": "virtual"
+                  },
+                  {
+                    "comparator": "=",
+                    "count": 1,
+                    "import_from": "nauvis",
+                    "index": 2,
+                    "name": "iron-plate",
+                    "quality": "normal"
+                  }
+                ],
+                "index": 1
+              }
+            ]
+          }
+        },
+        "direction": 4,
+        "entity_number": 1,
+        "name": "constant-combinator",
+        "position": {
+          "x": -1.5,
+          "y": 0.5
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 2,
+        "icon": {
+          "name": "water",
+          "type": "fluid"
+        },
+        "name": "display-panel",
+        "position": {
+          "x": -1.5,
+          "y": 5.5
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 3,
+        "icon": {
+          "name": "petroleum-gas",
+          "type": "fluid"
+        },
+        "name": "display-panel",
+        "position": {
+          "x": -1.5,
+          "y": 6.5
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 4,
+        "name": "underground-belt",
+        "position": {
+          "x": -0.5,
+          "y": 0.5
+        },
+        "type": "output"
+      },
+      {
+        "direction": 4,
+        "entity_number": 5,
+        "name": "pipe-to-ground",
+        "position": {
+          "x": -0.5,
+          "y": 6.5
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 6,
+        "name": "fast-transport-belt",
+        "position": {
+          "x": 0.5,
+          "y": 0.5
+        }
+      },
+      {
+        "entity_number": 7,
+        "name": "pipe",
+        "position": {
+          "x": 0.5,
+          "y": 5.5
+        }
+      },
+      {
+        "entity_number": 8,
+        "name": "pipe",
+        "position": {
+          "x": 0.5,
+          "y": 6.5
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 9,
+        "name": "fast-transport-belt",
+        "position": {
+          "x": 1.5,
+          "y": 0.5
+        }
+      },
+      {
+        "entity_number": 10,
+        "name": "medium-electric-pole",
+        "position": {
+          "x": 1.5,
+          "y": 1.5
+        }
+      },
+      {
+        "direction": 8,
+        "entity_number": 11,
+        "name": "chemical-plant",
+        "position": {
+          "x": 1.5,
+          "y": 3.5
+        },
+        "recipe": "sulfur",
+        "recipe_quality": "normal"
+      },
+      {
+        "direction": 4,
+        "entity_number": 12,
+        "name": "pipe-to-ground",
+        "position": {
+          "x": 1.5,
+          "y": 5.5
+        }
+      },
+      {
+        "direction": 12,
+        "entity_number": 13,
+        "name": "pipe-to-ground",
+        "position": {
+          "x": 1.5,
+          "y": 6.5
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 14,
+        "name": "fast-transport-belt",
+        "position": {
+          "x": 2.5,
+          "y": 0.5
+        }
+      },
+      {
+        "direction": 8,
+        "entity_number": 15,
+        "name": "inserter",
+        "position": {
+          "x": 2.5,
+          "y": 1.5
+        }
+      },
+      {
+        "entity_number": 16,
+        "name": "pipe",
+        "position": {
+          "x": 2.5,
+          "y": 5.5
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 17,
+        "name": "fast-transport-belt",
+        "position": {
+          "x": 3.5,
+          "y": 0.5
+        }
+      },
+      {
+        "direction": 8,
+        "entity_number": 18,
+        "name": "inserter",
+        "position": {
+          "x": 3.5,
+          "y": 1.5
+        }
+      },
+      {
+        "entity_number": 19,
+        "name": "pipe",
+        "position": {
+          "x": 3.5,
+          "y": 5.5
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 20,
+        "name": "fast-transport-belt",
+        "position": {
+          "x": 4.5,
+          "y": 0.5
+        }
+      },
+      {
+        "direction": 8,
+        "entity_number": 21,
+        "mirror": true,
+        "name": "chemical-plant",
+        "position": {
+          "x": 4.5,
+          "y": 3.5
+        },
+        "recipe": "sulfur",
+        "recipe_quality": "normal"
+      },
+      {
+        "direction": 12,
+        "entity_number": 22,
+        "name": "pipe-to-ground",
+        "position": {
+          "x": 4.5,
+          "y": 5.5
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 23,
+        "name": "pipe-to-ground",
+        "position": {
+          "x": 4.5,
+          "y": 6.5
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 24,
+        "name": "fast-transport-belt",
+        "position": {
+          "x": 5.5,
+          "y": 0.5
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 25,
+        "name": "pipe-to-ground",
+        "position": {
+          "x": 5.5,
+          "y": 1.5
+        }
+      },
+      {
+        "entity_number": 26,
+        "name": "pipe",
+        "position": {
+          "x": 5.5,
+          "y": 5.5
+        }
+      },
+      {
+        "entity_number": 27,
+        "name": "pipe",
+        "position": {
+          "x": 5.5,
+          "y": 6.5
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 28,
+        "name": "fast-transport-belt",
+        "position": {
+          "x": 6.5,
+          "y": 0.5
+        }
+      },
+      {
+        "direction": 12,
+        "entity_number": 29,
+        "name": "pipe-to-ground",
+        "position": {
+          "x": 6.5,
+          "y": 1.5
+        }
+      },
+      {
+        "entity_number": 30,
+        "name": "pipe",
+        "position": {
+          "x": 6.5,
+          "y": 5.5
+        }
+      },
+      {
+        "direction": 12,
+        "entity_number": 31,
+        "name": "pipe-to-ground",
+        "position": {
+          "x": 6.5,
+          "y": 6.5
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 32,
+        "name": "fast-transport-belt",
+        "position": {
+          "x": 7.5,
+          "y": 0.5
+        }
+      },
+      {
+        "entity_number": 33,
+        "name": "medium-electric-pole",
+        "position": {
+          "x": 7.5,
+          "y": 1.5
+        }
+      },
+      {
+        "direction": 8,
+        "entity_number": 34,
+        "name": "chemical-plant",
+        "position": {
+          "x": 7.5,
+          "y": 3.5
+        },
+        "recipe": "sulfur",
+        "recipe_quality": "normal"
+      },
+      {
+        "direction": 4,
+        "entity_number": 35,
+        "name": "pipe-to-ground",
+        "position": {
+          "x": 7.5,
+          "y": 5.5
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 36,
+        "name": "fast-transport-belt",
+        "position": {
+          "x": 8.5,
+          "y": 0.5
+        }
+      },
+      {
+        "direction": 8,
+        "entity_number": 37,
+        "name": "inserter",
+        "position": {
+          "x": 8.5,
+          "y": 1.5
+        }
+      },
+      {
+        "entity_number": 38,
+        "name": "pipe",
+        "position": {
+          "x": 8.5,
+          "y": 5.5
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 39,
+        "name": "fast-transport-belt",
+        "position": {
+          "x": 9.5,
+          "y": 0.5
+        }
+      },
+      {
+        "direction": 8,
+        "entity_number": 40,
+        "name": "inserter",
+        "position": {
+          "x": 9.5,
+          "y": 1.5
+        }
+      },
+      {
+        "entity_number": 41,
+        "name": "pipe",
+        "position": {
+          "x": 9.5,
+          "y": 5.5
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 42,
+        "name": "fast-transport-belt",
+        "position": {
+          "x": 10.5,
+          "y": 0.5
+        }
+      },
+      {
+        "direction": 8,
+        "entity_number": 43,
+        "mirror": true,
+        "name": "chemical-plant",
+        "position": {
+          "x": 10.5,
+          "y": 3.5
+        },
+        "recipe": "sulfur",
+        "recipe_quality": "normal"
+      },
+      {
+        "direction": 12,
+        "entity_number": 44,
+        "name": "pipe-to-ground",
+        "position": {
+          "x": 10.5,
+          "y": 5.5
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 45,
+        "name": "pipe-to-ground",
+        "position": {
+          "x": 10.5,
+          "y": 6.5
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 46,
+        "name": "fast-transport-belt",
+        "position": {
+          "x": 11.5,
+          "y": 0.5
+        }
+      },
+      {
+        "entity_number": 47,
+        "name": "pipe",
+        "position": {
+          "x": 11.5,
+          "y": 5.5
+        }
+      },
+      {
+        "entity_number": 48,
+        "name": "pipe",
+        "position": {
+          "x": 11.5,
+          "y": 6.5
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 49,
+        "name": "fast-transport-belt",
+        "position": {
+          "x": 12.5,
+          "y": 0.5
+        }
+      },
+      {
+        "entity_number": 50,
+        "name": "pipe",
+        "position": {
+          "x": 12.5,
+          "y": 5.5
+        }
+      },
+      {
+        "direction": 12,
+        "entity_number": 51,
+        "name": "pipe-to-ground",
+        "position": {
+          "x": 12.5,
+          "y": 6.5
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 52,
+        "name": "fast-transport-belt",
+        "position": {
+          "x": 13.5,
+          "y": 0.5
+        }
+      },
+      {
+        "entity_number": 53,
+        "name": "medium-electric-pole",
+        "position": {
+          "x": 13.5,
+          "y": 1.5
+        }
+      },
+      {
+        "direction": 8,
+        "entity_number": 54,
+        "name": "chemical-plant",
+        "position": {
+          "x": 13.5,
+          "y": 3.5
+        },
+        "recipe": "sulfur",
+        "recipe_quality": "normal"
+      },
+      {
+        "direction": 4,
+        "entity_number": 55,
+        "name": "pipe-to-ground",
+        "position": {
+          "x": 13.5,
+          "y": 5.5
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 56,
+        "name": "fast-transport-belt",
+        "position": {
+          "x": 14.5,
+          "y": 0.5
+        }
+      },
+      {
+        "direction": 8,
+        "entity_number": 57,
+        "name": "inserter",
+        "position": {
+          "x": 14.5,
+          "y": 1.5
+        }
+      },
+      {
+        "entity_number": 58,
+        "name": "pipe",
+        "position": {
+          "x": 14.5,
+          "y": 5.5
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 59,
+        "name": "fast-transport-belt",
+        "position": {
+          "x": 15.5,
+          "y": 0.5
+        }
+      },
+      {
+        "entity_number": 60,
+        "name": "inserter",
+        "position": {
+          "x": 15.5,
+          "y": 1.5
+        }
+      },
+      {
+        "entity_number": 61,
+        "name": "pipe",
+        "position": {
+          "x": 15.5,
+          "y": 5.5
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 62,
+        "name": "fast-transport-belt",
+        "position": {
+          "x": 16.5,
+          "y": 0.5
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 63,
+        "name": "pipe-to-ground",
+        "position": {
+          "x": 16.5,
+          "y": 1.5
+        }
+      },
+      {
+        "direction": 8,
+        "entity_number": 64,
+        "name": "chemical-plant",
+        "position": {
+          "x": 16.5,
+          "y": 3.5
+        },
+        "recipe": "sulfuric-acid",
+        "recipe_quality": "normal"
+      },
+      {
+        "entity_number": 65,
+        "name": "pipe",
+        "position": {
+          "x": 16.5,
+          "y": 5.5
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 66,
+        "name": "fast-transport-belt",
+        "position": {
+          "x": 17.5,
+          "y": 0.5
+        }
+      },
+      {
+        "entity_number": 67,
+        "name": "pipe",
+        "position": {
+          "x": 17.5,
+          "y": 1.5
+        }
+      },
+      {
+        "entity_number": 68,
+        "name": "pipe",
+        "position": {
+          "x": 17.5,
+          "y": 5.5
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 69,
+        "name": "fast-transport-belt",
+        "position": {
+          "x": 18.5,
+          "y": 0.5
+        }
+      },
+      {
+        "entity_number": 70,
+        "name": "pipe",
+        "position": {
+          "x": 18.5,
+          "y": 1.5
+        }
+      },
+      {
+        "entity_number": 71,
+        "name": "pipe",
+        "position": {
+          "x": 18.5,
+          "y": 5.5
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 72,
+        "name": "fast-transport-belt",
+        "position": {
+          "x": 19.5,
+          "y": 0.5
+        }
+      },
+      {
+        "direction": 12,
+        "entity_number": 73,
+        "name": "pipe-to-ground",
+        "position": {
+          "x": 19.5,
+          "y": 1.5
+        }
+      },
+      {
+        "direction": 8,
+        "entity_number": 74,
+        "name": "chemical-plant",
+        "position": {
+          "x": 19.5,
+          "y": 3.5
+        },
+        "recipe": "sulfuric-acid",
+        "recipe_quality": "normal"
+      },
+      {
+        "direction": 12,
+        "entity_number": 75,
+        "name": "pipe-to-ground",
+        "position": {
+          "x": 19.5,
+          "y": 5.5
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 76,
+        "name": "fast-transport-belt",
+        "position": {
+          "x": 20.5,
+          "y": 0.5
+        }
+      },
+      {
+        "entity_number": 77,
+        "name": "inserter",
+        "position": {
+          "x": 20.5,
+          "y": 1.5
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 78,
+        "name": "pipe-to-ground",
+        "position": {
+          "x": 20.5,
+          "y": 6.5
+        }
+      }
+    ],
+    "icons": [
+      {
+        "index": 1,
+        "signal": {
+          "name": "sulfuric-acid",
+          "type": "fluid"
+        }
+      }
+    ],
+    "snap-to-grid": {
+      "x": 21,
+      "y": 7
+    },
+    "version": 562954249306113,
+    "wires": [
+      [
+        10,
+        5,
+        33,
+        5
+      ],
+      [
+        33,
+        5,
+        53,
+        5
+      ]
+    ]
+  },
+  "index": 2
+}

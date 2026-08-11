@@ -1,0 +1,189 @@
+{
+  "deconstruction_planner": {
+    "label": "拆铁路站点",
+    "item": "deconstruction-planner",
+    "settings": {
+      "entity_filters": [
+        {
+          "comparator": "=",
+          "index": 0,
+          "name": "straight-rail",
+          "quality": "normal"
+        },
+        {
+          "comparator": "=",
+          "index": 1,
+          "name": "elevated-straight-rail",
+          "quality": "normal"
+        },
+        {
+          "comparator": "=",
+          "index": 2,
+          "name": "rail-ramp",
+          "quality": "normal"
+        },
+        {
+          "comparator": "=",
+          "index": 3,
+          "name": "rail-support",
+          "quality": "normal"
+        },
+        {
+          "comparator": "=",
+          "index": 4,
+          "name": "train-stop",
+          "quality": "normal"
+        },
+        {
+          "comparator": "=",
+          "index": 5,
+          "name": "rail-signal",
+          "quality": "normal"
+        },
+        {
+          "comparator": "=",
+          "index": 6,
+          "name": "rail-chain-signal",
+          "quality": "normal"
+        },
+        {
+          "comparator": "=",
+          "index": 7,
+          "name": "medium-electric-pole",
+          "quality": "normal"
+        },
+        {
+          "comparator": "=",
+          "index": 8,
+          "name": "big-electric-pole",
+          "quality": "normal"
+        },
+        {
+          "comparator": "=",
+          "index": 9,
+          "name": "substation",
+          "quality": "normal"
+        },
+        {
+          "comparator": "=",
+          "index": 10,
+          "name": "roboport",
+          "quality": "normal"
+        },
+        {
+          "comparator": "=",
+          "index": 11,
+          "name": "small-lamp",
+          "quality": "normal"
+        },
+        {
+          "comparator": "=",
+          "index": 12,
+          "name": "arithmetic-combinator",
+          "quality": "normal"
+        },
+        {
+          "comparator": "=",
+          "index": 13,
+          "name": "decider-combinator",
+          "quality": "normal"
+        },
+        {
+          "comparator": "=",
+          "index": 14,
+          "name": "selector-combinator",
+          "quality": "normal"
+        },
+        {
+          "comparator": "=",
+          "index": 15,
+          "name": "constant-combinator",
+          "quality": "normal"
+        },
+        {
+          "comparator": "=",
+          "index": 16,
+          "name": "programmable-speaker",
+          "quality": "normal"
+        },
+        {
+          "comparator": "=",
+          "index": 17,
+          "name": "display-panel",
+          "quality": "normal"
+        },
+        {
+          "comparator": "=",
+          "index": 18,
+          "name": "active-provider-chest",
+          "quality": "normal"
+        },
+        {
+          "comparator": "=",
+          "index": 19,
+          "name": "passive-provider-chest",
+          "quality": "normal"
+        },
+        {
+          "comparator": "=",
+          "index": 20,
+          "name": "storage-chest",
+          "quality": "normal"
+        },
+        {
+          "comparator": "=",
+          "index": 21,
+          "name": "buffer-chest",
+          "quality": "normal"
+        },
+        {
+          "comparator": "=",
+          "index": 22,
+          "name": "requester-chest",
+          "quality": "normal"
+        },
+        {
+          "comparator": "=",
+          "index": 23,
+          "name": "fast-inserter",
+          "quality": "normal"
+        },
+        {
+          "comparator": "=",
+          "index": 24,
+          "name": "bulk-inserter",
+          "quality": "normal"
+        },
+        {
+          "comparator": "=",
+          "index": 25,
+          "name": "stack-inserter",
+          "quality": "normal"
+        },
+        {
+          "comparator": "=",
+          "index": 26,
+          "name": "radar",
+          "quality": "normal"
+        },
+        {
+          "comparator": "=",
+          "index": 27,
+          "name": "heating-tower",
+          "quality": "normal"
+        }
+      ],
+      "icons": [
+        {
+          "index": 1,
+          "signal": {
+            "name": "train-stop"
+          }
+        }
+      ],
+      "tile_selection_mode": 2
+    },
+    "version": 562954249306113
+  },
+  "index": 33
+}

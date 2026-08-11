@@ -1,0 +1,224 @@
+{
+  "blueprint": {
+    "item": "blueprint",
+    "label": "前期通用材料铸造",
+    "entities": [
+      {
+        "entity_number": 1,
+        "name": "medium-electric-pole",
+        "position": {
+          "x": -77.5,
+          "y": 209.5
+        }
+      },
+      {
+        "entity_number": 2,
+        "name": "pipe",
+        "position": {
+          "x": -77.5,
+          "y": 210.5
+        }
+      },
+      {
+        "entity_number": 3,
+        "name": "steel-chest",
+        "position": {
+          "x": -77.5,
+          "y": 211.5
+        }
+      },
+      {
+        "control_behavior": {
+          "index_constant": 0,
+          "operation": "select",
+          "select_max": true
+        },
+        "direction": 4,
+        "entity_number": 4,
+        "name": "selector-combinator",
+        "position": {
+          "x": -77,
+          "y": 207.5
+        }
+      },
+      {
+        "control_behavior": {
+          "arithmetic_conditions": {
+            "first_signal": {
+              "name": "signal-each",
+              "type": "virtual"
+            },
+            "first_signal_networks": {
+              "green": true,
+              "red": false
+            },
+            "operation": "-",
+            "output_signal": {
+              "name": "signal-each",
+              "type": "virtual"
+            },
+            "second_signal": {
+              "name": "signal-each",
+              "type": "virtual"
+            },
+            "second_signal_networks": {
+              "green": false,
+              "red": true
+            }
+          }
+        },
+        "direction": 4,
+        "entity_number": 5,
+        "name": "arithmetic-combinator",
+        "position": {
+          "x": -77,
+          "y": 208.5
+        }
+      },
+      {
+        "control_behavior": {
+          "sections": {
+            "sections": [
+              {
+                "filters": [
+                  {
+                    "comparator": "=",
+                    "count": 1990,
+                    "import_from": "nauvis",
+                    "index": 1,
+                    "name": "iron-plate",
+                    "quality": "normal"
+                  },
+                  {
+                    "comparator": "=",
+                    "count": 990,
+                    "import_from": "nauvis",
+                    "index": 2,
+                    "name": "steel-plate",
+                    "quality": "normal"
+                  },
+                  {
+                    "comparator": "=",
+                    "count": 480,
+                    "import_from": "nauvis",
+                    "index": 3,
+                    "name": "iron-stick",
+                    "quality": "normal"
+                  },
+                  {
+                    "comparator": "=",
+                    "count": 890,
+                    "import_from": "nauvis",
+                    "index": 4,
+                    "name": "iron-gear-wheel",
+                    "quality": "normal"
+                  },
+                  {
+                    "comparator": "=",
+                    "count": 390,
+                    "import_from": "nauvis",
+                    "index": 5,
+                    "name": "pipe",
+                    "quality": "normal"
+                  }
+                ],
+                "index": 1
+              }
+            ]
+          }
+        },
+        "direction": 12,
+        "entity_number": 6,
+        "name": "constant-combinator",
+        "position": {
+          "x": -76.5,
+          "y": 209.5
+        }
+      },
+      {
+        "entity_number": 7,
+        "name": "pipe",
+        "position": {
+          "x": -76.5,
+          "y": 210.5
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 8,
+        "name": "fast-inserter",
+        "position": {
+          "x": -76.5,
+          "y": 211.5
+        }
+      },
+      {
+        "control_behavior": {
+          "set_recipe": true
+        },
+        "direction": 4,
+        "entity_number": 9,
+        "name": "foundry",
+        "position": {
+          "x": -73.5,
+          "y": 209.5
+        }
+      }
+    ],
+    "icons": [
+      {
+        "index": 1,
+        "signal": {
+          "name": "iron-plate"
+        }
+      },
+      {
+        "index": 2,
+        "signal": {
+          "name": "steel-plate"
+        }
+      },
+      {
+        "index": 3,
+        "signal": {
+          "name": "pipe"
+        }
+      },
+      {
+        "index": 4,
+        "signal": {
+          "name": "vulcanus",
+          "type": "space-location"
+        }
+      }
+    ],
+    "version": 562954249306113,
+    "wires": [
+      [
+        3,
+        1,
+        5,
+        1
+      ],
+      [
+        4,
+        2,
+        5,
+        4
+      ],
+      [
+        4,
+        4,
+        9,
+        2
+      ],
+      [
+        5,
+        2,
+        6,
+        2
+      ]
+    ]
+  },
+  "index": 2
+}

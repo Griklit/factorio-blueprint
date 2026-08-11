@@ -1,0 +1,391 @@
+{
+  "blueprint": {
+    "item": "blueprint",
+    "absolute-snapping": true,
+    "entities": [
+      {
+        "direction": 2,
+        "entity_number": 1,
+        "name": "straight-rail",
+        "position": {
+          "x": -2,
+          "y": 30
+        }
+      },
+      {
+        "direction": 2,
+        "entity_number": 2,
+        "name": "straight-rail",
+        "position": {
+          "x": 0,
+          "y": 28
+        }
+      },
+      {
+        "entity_number": 3,
+        "name": "big-electric-pole",
+        "position": {
+          "x": 0,
+          "y": 32
+        }
+      },
+      {
+        "direction": 2,
+        "entity_number": 4,
+        "name": "straight-rail",
+        "position": {
+          "x": 2,
+          "y": 26
+        }
+      },
+      {
+        "direction": 2,
+        "entity_number": 5,
+        "name": "straight-rail",
+        "position": {
+          "x": 2,
+          "y": 34
+        }
+      },
+      {
+        "direction": 2,
+        "entity_number": 6,
+        "name": "straight-rail",
+        "position": {
+          "x": 4,
+          "y": 24
+        }
+      },
+      {
+        "direction": 2,
+        "entity_number": 7,
+        "name": "straight-rail",
+        "position": {
+          "x": 4,
+          "y": 32
+        }
+      },
+      {
+        "direction": 2,
+        "entity_number": 8,
+        "name": "straight-rail",
+        "position": {
+          "x": 6,
+          "y": 22
+        }
+      },
+      {
+        "direction": 2,
+        "entity_number": 9,
+        "name": "straight-rail",
+        "position": {
+          "x": 6,
+          "y": 30
+        }
+      },
+      {
+        "direction": 2,
+        "entity_number": 10,
+        "name": "straight-rail",
+        "position": {
+          "x": 8,
+          "y": 20
+        }
+      },
+      {
+        "direction": 2,
+        "entity_number": 11,
+        "name": "straight-rail",
+        "position": {
+          "x": 8,
+          "y": 28
+        }
+      },
+      {
+        "direction": 2,
+        "entity_number": 12,
+        "name": "straight-rail",
+        "position": {
+          "x": 10,
+          "y": 18
+        }
+      },
+      {
+        "direction": 2,
+        "entity_number": 13,
+        "name": "straight-rail",
+        "position": {
+          "x": 10,
+          "y": 26
+        }
+      },
+      {
+        "direction": 2,
+        "entity_number": 14,
+        "name": "straight-rail",
+        "position": {
+          "x": 12,
+          "y": 16
+        }
+      },
+      {
+        "direction": 2,
+        "entity_number": 15,
+        "name": "straight-rail",
+        "position": {
+          "x": 12,
+          "y": 24
+        }
+      },
+      {
+        "direction": 2,
+        "entity_number": 16,
+        "name": "straight-rail",
+        "position": {
+          "x": 14,
+          "y": 14
+        }
+      },
+      {
+        "direction": 2,
+        "entity_number": 17,
+        "name": "straight-rail",
+        "position": {
+          "x": 14,
+          "y": 22
+        }
+      },
+      {
+        "direction": 10,
+        "entity_number": 18,
+        "name": "rail-signal",
+        "position": {
+          "x": 14.5,
+          "y": 15.5
+        }
+      },
+      {
+        "direction": 2,
+        "entity_number": 19,
+        "name": "straight-rail",
+        "position": {
+          "x": 16,
+          "y": 12
+        }
+      },
+      {
+        "entity_number": 20,
+        "name": "big-electric-pole",
+        "position": {
+          "x": 16,
+          "y": 16
+        }
+      },
+      {
+        "direction": 2,
+        "entity_number": 21,
+        "name": "straight-rail",
+        "position": {
+          "x": 16,
+          "y": 20
+        }
+      },
+      {
+        "direction": 2,
+        "entity_number": 22,
+        "name": "rail-signal",
+        "position": {
+          "x": 17.5,
+          "y": 16.5
+        }
+      },
+      {
+        "direction": 2,
+        "entity_number": 23,
+        "name": "straight-rail",
+        "position": {
+          "x": 18,
+          "y": 10
+        }
+      },
+      {
+        "direction": 2,
+        "entity_number": 24,
+        "name": "straight-rail",
+        "position": {
+          "x": 18,
+          "y": 18
+        }
+      },
+      {
+        "direction": 2,
+        "entity_number": 25,
+        "name": "straight-rail",
+        "position": {
+          "x": 20,
+          "y": 8
+        }
+      },
+      {
+        "direction": 2,
+        "entity_number": 26,
+        "name": "straight-rail",
+        "position": {
+          "x": 20,
+          "y": 16
+        }
+      },
+      {
+        "direction": 2,
+        "entity_number": 27,
+        "name": "straight-rail",
+        "position": {
+          "x": 22,
+          "y": 6
+        }
+      },
+      {
+        "direction": 2,
+        "entity_number": 28,
+        "name": "straight-rail",
+        "position": {
+          "x": 22,
+          "y": 14
+        }
+      },
+      {
+        "direction": 2,
+        "entity_number": 29,
+        "name": "straight-rail",
+        "position": {
+          "x": 24,
+          "y": 4
+        }
+      },
+      {
+        "direction": 2,
+        "entity_number": 30,
+        "name": "straight-rail",
+        "position": {
+          "x": 24,
+          "y": 12
+        }
+      },
+      {
+        "direction": 2,
+        "entity_number": 31,
+        "name": "straight-rail",
+        "position": {
+          "x": 26,
+          "y": 2
+        }
+      },
+      {
+        "direction": 2,
+        "entity_number": 32,
+        "name": "straight-rail",
+        "position": {
+          "x": 26,
+          "y": 10
+        }
+      },
+      {
+        "direction": 2,
+        "entity_number": 33,
+        "name": "straight-rail",
+        "position": {
+          "x": 28,
+          "y": 0
+        }
+      },
+      {
+        "direction": 2,
+        "entity_number": 34,
+        "name": "straight-rail",
+        "position": {
+          "x": 28,
+          "y": 8
+        }
+      },
+      {
+        "direction": 2,
+        "entity_number": 35,
+        "name": "straight-rail",
+        "position": {
+          "x": 30,
+          "y": -2
+        }
+      },
+      {
+        "direction": 2,
+        "entity_number": 36,
+        "name": "straight-rail",
+        "position": {
+          "x": 30,
+          "y": 6
+        }
+      },
+      {
+        "entity_number": 37,
+        "name": "big-electric-pole",
+        "position": {
+          "x": 32,
+          "y": 0
+        }
+      },
+      {
+        "direction": 2,
+        "entity_number": 38,
+        "name": "straight-rail",
+        "position": {
+          "x": 32,
+          "y": 4
+        }
+      },
+      {
+        "direction": 2,
+        "entity_number": 39,
+        "name": "straight-rail",
+        "position": {
+          "x": 34,
+          "y": 2
+        }
+      }
+    ],
+    "icons": [
+      {
+        "index": 1,
+        "signal": {
+          "name": "rail"
+        }
+      },
+      {
+        "index": 2,
+        "signal": {
+          "name": "shape-diagonal",
+          "type": "virtual"
+        }
+      }
+    ],
+    "snap-to-grid": {
+      "x": 32,
+      "y": 32
+    },
+    "version": 562954249306113,
+    "wires": [
+      [
+        3,
+        5,
+        20,
+        5
+      ],
+      [
+        20,
+        5,
+        37,
+        5
+      ]
+    ]
+  },
+  "index": 3
+}

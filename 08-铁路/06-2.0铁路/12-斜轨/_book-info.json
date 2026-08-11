@@ -1,0 +1,30 @@
+{
+  "active_index": 4,
+  "blueprints": [],
+  "description": "直线转斜线",
+  "icons": [
+    {
+      "index": 1,
+      "signal": {
+        "name": "rail"
+      }
+    },
+    {
+      "index": 2,
+      "signal": {
+        "name": "shape-diagonal",
+        "type": "virtual"
+      }
+    },
+    {
+      "index": 3,
+      "signal": {
+        "name": "shape-diagonal-cross",
+        "type": "virtual"
+      }
+    }
+  ],
+  "item": "blueprint-book",
+  "label": "斜轨",
+  "version": 562954249306113
+}

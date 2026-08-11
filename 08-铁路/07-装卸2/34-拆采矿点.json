@@ -1,0 +1,147 @@
+{
+  "deconstruction_planner": {
+    "label": "拆采矿点",
+    "item": "deconstruction-planner",
+    "settings": {
+      "entity_filters": [
+        {
+          "comparator": "=",
+          "index": 0,
+          "name": "medium-electric-pole",
+          "quality": "normal"
+        },
+        {
+          "comparator": "=",
+          "index": 1,
+          "name": "big-electric-pole",
+          "quality": "normal"
+        },
+        {
+          "comparator": "=",
+          "index": 2,
+          "name": "substation",
+          "quality": "normal"
+        },
+        {
+          "comparator": "=",
+          "index": 3,
+          "name": "roboport",
+          "quality": "normal"
+        },
+        {
+          "comparator": "=",
+          "index": 4,
+          "name": "radar",
+          "quality": "normal"
+        },
+        {
+          "comparator": "=",
+          "index": 5,
+          "name": "burner-mining-drill",
+          "quality": "normal"
+        },
+        {
+          "comparator": "=",
+          "index": 6,
+          "name": "electric-mining-drill",
+          "quality": "normal"
+        },
+        {
+          "comparator": "=",
+          "index": 7,
+          "name": "big-mining-drill",
+          "quality": "normal"
+        },
+        {
+          "comparator": "=",
+          "index": 8,
+          "name": "offshore-pump",
+          "quality": "normal"
+        },
+        {
+          "comparator": "=",
+          "index": 9,
+          "name": "pumpjack",
+          "quality": "normal"
+        },
+        {
+          "comparator": "=",
+          "index": 10,
+          "name": "heat-pipe",
+          "quality": "normal"
+        },
+        {
+          "comparator": "=",
+          "index": 11,
+          "name": "beacon",
+          "quality": "normal"
+        },
+        {
+          "comparator": "=",
+          "index": 12,
+          "name": "lightning-rod",
+          "quality": "normal"
+        },
+        {
+          "comparator": "=",
+          "index": 13,
+          "name": "lightning-collector",
+          "quality": "normal"
+        },
+        {
+          "comparator": "=",
+          "index": 14,
+          "name": "small-lamp",
+          "quality": "normal"
+        },
+        {
+          "comparator": "=",
+          "index": 15,
+          "name": "arithmetic-combinator",
+          "quality": "normal"
+        },
+        {
+          "comparator": "=",
+          "index": 16,
+          "name": "decider-combinator",
+          "quality": "normal"
+        },
+        {
+          "comparator": "=",
+          "index": 17,
+          "name": "selector-combinator",
+          "quality": "normal"
+        },
+        {
+          "comparator": "=",
+          "index": 18,
+          "name": "constant-combinator",
+          "quality": "normal"
+        },
+        {
+          "comparator": "=",
+          "index": 19,
+          "name": "programmable-speaker",
+          "quality": "normal"
+        },
+        {
+          "comparator": "=",
+          "index": 20,
+          "name": "display-panel",
+          "quality": "normal"
+        }
+      ],
+      "icons": [
+        {
+          "index": 1,
+          "signal": {
+            "name": "big-mining-drill"
+          }
+        }
+      ],
+      "tile_selection_mode": 2
+    },
+    "version": 562954249306113
+  },
+  "index": 34
+}

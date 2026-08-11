@@ -1,0 +1,19 @@
+{
+  "deconstruction_planner": {
+    "label": "拆除 悬崖",
+    "item": "deconstruction-planner",
+    "settings": {
+      "entity_filters": [
+        {
+          "comparator": "=",
+          "index": 0,
+          "name": "cliff",
+          "quality": "normal"
+        }
+      ],
+      "tile_selection_mode": 2
+    },
+    "version": 562954249306113
+  },
+  "index": 43
+}

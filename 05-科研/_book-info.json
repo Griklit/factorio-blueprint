@@ -1,0 +1,16 @@
+{
+  "active_index": 6,
+  "blueprints": [],
+  "description": "--by Sequence[7]",
+  "icons": [
+    {
+      "index": 1,
+      "signal": {
+        "name": "lab"
+      }
+    }
+  ],
+  "item": "blueprint-book",
+  "label": "科研",
+  "version": 562954249306113
+}

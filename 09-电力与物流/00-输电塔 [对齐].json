@@ -1,0 +1,31 @@
+{
+  "blueprint": {
+    "item": "blueprint",
+    "label": "输电塔 [对齐]",
+    "absolute-snapping": true,
+    "entities": [
+      {
+        "entity_number": 1,
+        "name": "big-electric-pole",
+        "position": {
+          "x": 16,
+          "y": 16
+        }
+      }
+    ],
+    "icons": [
+      {
+        "index": 1,
+        "signal": {
+          "name": "big-electric-pole"
+        }
+      }
+    ],
+    "snap-to-grid": {
+      "x": 32,
+      "y": 32
+    },
+    "version": 562954249306113
+  },
+  "index": 0
+}

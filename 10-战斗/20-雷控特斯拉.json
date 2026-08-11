@@ -1,0 +1,1104 @@
+{
+  "blueprint": {
+    "item": "blueprint",
+    "label": "雷控特斯拉",
+    "description": "不太靠谱，慎用",
+    "entities": [
+      {
+        "entity_number": 1,
+        "name": "stone-wall",
+        "position": {
+          "x": 0.5,
+          "y": 441.5
+        }
+      },
+      {
+        "entity_number": 2,
+        "name": "stone-wall",
+        "position": {
+          "x": 0.5,
+          "y": 443.5
+        }
+      },
+      {
+        "entity_number": 3,
+        "name": "stone-wall",
+        "position": {
+          "x": 0.5,
+          "y": 445.5
+        }
+      },
+      {
+        "entity_number": 4,
+        "name": "big-electric-pole",
+        "position": {
+          "x": 1,
+          "y": 449
+        }
+      },
+      {
+        "control_behavior": {
+          "circuit_condition": {
+            "comparator": "≠",
+            "constant": 1,
+            "first_signal": {
+              "name": "signal-check",
+              "type": "virtual"
+            }
+          },
+          "circuit_enabled": true
+        },
+        "entity_number": 5,
+        "name": "power-switch",
+        "position": {
+          "x": 1,
+          "y": 477
+        },
+        "switch_state": false
+      },
+      {
+        "entity_number": 6,
+        "name": "big-electric-pole",
+        "position": {
+          "x": 1,
+          "y": 479
+        }
+      },
+      {
+        "entity_number": 7,
+        "name": "land-mine",
+        "position": {
+          "x": 1.5,
+          "y": 438.5
+        }
+      },
+      {
+        "entity_number": 8,
+        "name": "stone-wall",
+        "position": {
+          "x": 1.5,
+          "y": 441.5
+        }
+      },
+      {
+        "entity_number": 9,
+        "name": "stone-wall",
+        "position": {
+          "x": 1.5,
+          "y": 443.5
+        }
+      },
+      {
+        "entity_number": 10,
+        "name": "stone-wall",
+        "position": {
+          "x": 1.5,
+          "y": 445.5
+        }
+      },
+      {
+        "entity_number": 11,
+        "name": "tesla-turret",
+        "position": {
+          "x": 2,
+          "y": 468
+        }
+      },
+      {
+        "entity_number": 12,
+        "name": "stone-wall",
+        "position": {
+          "x": 2.5,
+          "y": 441.5
+        }
+      },
+      {
+        "entity_number": 13,
+        "name": "stone-wall",
+        "position": {
+          "x": 2.5,
+          "y": 443.5
+        }
+      },
+      {
+        "entity_number": 14,
+        "name": "stone-wall",
+        "position": {
+          "x": 2.5,
+          "y": 445.5
+        }
+      },
+      {
+        "entity_number": 15,
+        "name": "stone-wall",
+        "position": {
+          "x": 3.5,
+          "y": 441.5
+        }
+      },
+      {
+        "entity_number": 16,
+        "name": "stone-wall",
+        "position": {
+          "x": 3.5,
+          "y": 445.5
+        }
+      },
+      {
+        "entity_number": 17,
+        "name": "stone-wall",
+        "position": {
+          "x": 4.5,
+          "y": 441.5
+        }
+      },
+      {
+        "entity_number": 18,
+        "name": "stone-wall",
+        "position": {
+          "x": 4.5,
+          "y": 443.5
+        }
+      },
+      {
+        "entity_number": 19,
+        "name": "stone-wall",
+        "position": {
+          "x": 4.5,
+          "y": 445.5
+        }
+      },
+      {
+        "entity_number": 20,
+        "name": "land-mine",
+        "position": {
+          "x": 5.5,
+          "y": 438.5
+        }
+      },
+      {
+        "entity_number": 21,
+        "name": "stone-wall",
+        "position": {
+          "x": 5.5,
+          "y": 441.5
+        }
+      },
+      {
+        "entity_number": 22,
+        "name": "stone-wall",
+        "position": {
+          "x": 5.5,
+          "y": 443.5
+        }
+      },
+      {
+        "entity_number": 23,
+        "name": "stone-wall",
+        "position": {
+          "x": 5.5,
+          "y": 445.5
+        }
+      },
+      {
+        "entity_number": 24,
+        "name": "tesla-turret",
+        "position": {
+          "x": 6,
+          "y": 468
+        }
+      },
+      {
+        "entity_number": 25,
+        "name": "stone-wall",
+        "position": {
+          "x": 6.5,
+          "y": 441.5
+        }
+      },
+      {
+        "entity_number": 26,
+        "name": "stone-wall",
+        "position": {
+          "x": 6.5,
+          "y": 443.5
+        }
+      },
+      {
+        "entity_number": 27,
+        "name": "stone-wall",
+        "position": {
+          "x": 6.5,
+          "y": 445.5
+        }
+      },
+      {
+        "entity_number": 28,
+        "name": "medium-electric-pole",
+        "position": {
+          "x": 6.5,
+          "y": 470.5
+        }
+      },
+      {
+        "entity_number": 29,
+        "name": "stone-wall",
+        "position": {
+          "x": 7.5,
+          "y": 443.5
+        }
+      },
+      {
+        "entity_number": 30,
+        "name": "stone-wall",
+        "position": {
+          "x": 8.5,
+          "y": 441.5
+        }
+      },
+      {
+        "entity_number": 31,
+        "name": "stone-wall",
+        "position": {
+          "x": 8.5,
+          "y": 443.5
+        }
+      },
+      {
+        "entity_number": 32,
+        "name": "stone-wall",
+        "position": {
+          "x": 8.5,
+          "y": 445.5
+        }
+      },
+      {
+        "entity_number": 33,
+        "name": "land-mine",
+        "position": {
+          "x": 9.5,
+          "y": 438.5
+        }
+      },
+      {
+        "entity_number": 34,
+        "name": "stone-wall",
+        "position": {
+          "x": 9.5,
+          "y": 441.5
+        }
+      },
+      {
+        "entity_number": 35,
+        "name": "stone-wall",
+        "position": {
+          "x": 9.5,
+          "y": 443.5
+        }
+      },
+      {
+        "entity_number": 36,
+        "name": "stone-wall",
+        "position": {
+          "x": 9.5,
+          "y": 445.5
+        }
+      },
+      {
+        "entity_number": 37,
+        "name": "tesla-turret",
+        "position": {
+          "x": 10,
+          "y": 468
+        }
+      },
+      {
+        "entity_number": 38,
+        "name": "stone-wall",
+        "position": {
+          "x": 10.5,
+          "y": 441.5
+        }
+      },
+      {
+        "entity_number": 39,
+        "name": "stone-wall",
+        "position": {
+          "x": 10.5,
+          "y": 443.5
+        }
+      },
+      {
+        "entity_number": 40,
+        "name": "stone-wall",
+        "position": {
+          "x": 10.5,
+          "y": 445.5
+        }
+      },
+      {
+        "entity_number": 41,
+        "name": "stone-wall",
+        "position": {
+          "x": 11.5,
+          "y": 441.5
+        }
+      },
+      {
+        "entity_number": 42,
+        "name": "stone-wall",
+        "position": {
+          "x": 11.5,
+          "y": 445.5
+        }
+      },
+      {
+        "entity_number": 43,
+        "name": "stone-wall",
+        "position": {
+          "x": 12.5,
+          "y": 441.5
+        }
+      },
+      {
+        "entity_number": 44,
+        "name": "stone-wall",
+        "position": {
+          "x": 12.5,
+          "y": 443.5
+        }
+      },
+      {
+        "entity_number": 45,
+        "name": "stone-wall",
+        "position": {
+          "x": 12.5,
+          "y": 445.5
+        }
+      },
+      {
+        "entity_number": 46,
+        "name": "land-mine",
+        "position": {
+          "x": 13.5,
+          "y": 438.5
+        }
+      },
+      {
+        "entity_number": 47,
+        "name": "stone-wall",
+        "position": {
+          "x": 13.5,
+          "y": 441.5
+        }
+      },
+      {
+        "entity_number": 48,
+        "name": "stone-wall",
+        "position": {
+          "x": 13.5,
+          "y": 443.5
+        }
+      },
+      {
+        "entity_number": 49,
+        "name": "stone-wall",
+        "position": {
+          "x": 13.5,
+          "y": 445.5
+        }
+      },
+      {
+        "entity_number": 50,
+        "name": "medium-electric-pole",
+        "position": {
+          "x": 13.5,
+          "y": 470.5
+        }
+      },
+      {
+        "entity_number": 51,
+        "name": "tesla-turret",
+        "position": {
+          "x": 14,
+          "y": 468
+        }
+      },
+      {
+        "entity_number": 52,
+        "name": "stone-wall",
+        "position": {
+          "x": 14.5,
+          "y": 441.5
+        }
+      },
+      {
+        "entity_number": 53,
+        "name": "stone-wall",
+        "position": {
+          "x": 14.5,
+          "y": 443.5
+        }
+      },
+      {
+        "entity_number": 54,
+        "name": "stone-wall",
+        "position": {
+          "x": 14.5,
+          "y": 445.5
+        }
+      },
+      {
+        "entity_number": 55,
+        "name": "stone-wall",
+        "position": {
+          "x": 15.5,
+          "y": 443.5
+        }
+      },
+      {
+        "entity_number": 56,
+        "name": "stone-wall",
+        "position": {
+          "x": 16.5,
+          "y": 441.5
+        }
+      },
+      {
+        "entity_number": 57,
+        "name": "stone-wall",
+        "position": {
+          "x": 16.5,
+          "y": 443.5
+        }
+      },
+      {
+        "entity_number": 58,
+        "name": "stone-wall",
+        "position": {
+          "x": 16.5,
+          "y": 445.5
+        }
+      },
+      {
+        "entity_number": 59,
+        "name": "stone-wall",
+        "position": {
+          "x": 17.5,
+          "y": 441.5
+        }
+      },
+      {
+        "entity_number": 60,
+        "name": "stone-wall",
+        "position": {
+          "x": 17.5,
+          "y": 443.5
+        }
+      },
+      {
+        "entity_number": 61,
+        "name": "stone-wall",
+        "position": {
+          "x": 17.5,
+          "y": 445.5
+        }
+      },
+      {
+        "entity_number": 62,
+        "name": "tesla-turret",
+        "position": {
+          "x": 18,
+          "y": 468
+        }
+      },
+      {
+        "entity_number": 63,
+        "name": "land-mine",
+        "position": {
+          "x": 18.5,
+          "y": 438.5
+        }
+      },
+      {
+        "entity_number": 64,
+        "name": "stone-wall",
+        "position": {
+          "x": 18.5,
+          "y": 441.5
+        }
+      },
+      {
+        "entity_number": 65,
+        "name": "stone-wall",
+        "position": {
+          "x": 18.5,
+          "y": 443.5
+        }
+      },
+      {
+        "entity_number": 66,
+        "name": "stone-wall",
+        "position": {
+          "x": 18.5,
+          "y": 445.5
+        }
+      },
+      {
+        "entity_number": 67,
+        "name": "medium-electric-pole",
+        "position": {
+          "x": 18.5,
+          "y": 470.5
+        }
+      },
+      {
+        "entity_number": 68,
+        "name": "stone-wall",
+        "position": {
+          "x": 19.5,
+          "y": 441.5
+        }
+      },
+      {
+        "entity_number": 69,
+        "name": "stone-wall",
+        "position": {
+          "x": 19.5,
+          "y": 445.5
+        }
+      },
+      {
+        "entity_number": 70,
+        "name": "stone-wall",
+        "position": {
+          "x": 20.5,
+          "y": 441.5
+        }
+      },
+      {
+        "entity_number": 71,
+        "name": "stone-wall",
+        "position": {
+          "x": 20.5,
+          "y": 443.5
+        }
+      },
+      {
+        "entity_number": 72,
+        "name": "stone-wall",
+        "position": {
+          "x": 20.5,
+          "y": 445.5
+        }
+      },
+      {
+        "entity_number": 73,
+        "name": "stone-wall",
+        "position": {
+          "x": 21.5,
+          "y": 441.5
+        }
+      },
+      {
+        "entity_number": 74,
+        "name": "stone-wall",
+        "position": {
+          "x": 21.5,
+          "y": 443.5
+        }
+      },
+      {
+        "entity_number": 75,
+        "name": "stone-wall",
+        "position": {
+          "x": 21.5,
+          "y": 445.5
+        }
+      },
+      {
+        "entity_number": 76,
+        "name": "tesla-turret",
+        "position": {
+          "x": 22,
+          "y": 468
+        }
+      },
+      {
+        "entity_number": 77,
+        "name": "land-mine",
+        "position": {
+          "x": 22.5,
+          "y": 438.5
+        }
+      },
+      {
+        "entity_number": 78,
+        "name": "stone-wall",
+        "position": {
+          "x": 22.5,
+          "y": 441.5
+        }
+      },
+      {
+        "entity_number": 79,
+        "name": "stone-wall",
+        "position": {
+          "x": 22.5,
+          "y": 443.5
+        }
+      },
+      {
+        "entity_number": 80,
+        "name": "stone-wall",
+        "position": {
+          "x": 22.5,
+          "y": 445.5
+        }
+      },
+      {
+        "entity_number": 81,
+        "name": "stone-wall",
+        "position": {
+          "x": 23.5,
+          "y": 443.5
+        }
+      },
+      {
+        "entity_number": 82,
+        "name": "stone-wall",
+        "position": {
+          "x": 24.5,
+          "y": 441.5
+        }
+      },
+      {
+        "entity_number": 83,
+        "name": "stone-wall",
+        "position": {
+          "x": 24.5,
+          "y": 443.5
+        }
+      },
+      {
+        "entity_number": 84,
+        "name": "stone-wall",
+        "position": {
+          "x": 24.5,
+          "y": 445.5
+        }
+      },
+      {
+        "entity_number": 85,
+        "name": "stone-wall",
+        "position": {
+          "x": 25.5,
+          "y": 441.5
+        }
+      },
+      {
+        "entity_number": 86,
+        "name": "stone-wall",
+        "position": {
+          "x": 25.5,
+          "y": 443.5
+        }
+      },
+      {
+        "entity_number": 87,
+        "name": "stone-wall",
+        "position": {
+          "x": 25.5,
+          "y": 445.5
+        }
+      },
+      {
+        "entity_number": 88,
+        "name": "medium-electric-pole",
+        "position": {
+          "x": 25.5,
+          "y": 470.5
+        }
+      },
+      {
+        "entity_number": 89,
+        "name": "tesla-turret",
+        "position": {
+          "x": 26,
+          "y": 468
+        }
+      },
+      {
+        "entity_number": 90,
+        "name": "land-mine",
+        "position": {
+          "x": 26.5,
+          "y": 438.5
+        }
+      },
+      {
+        "entity_number": 91,
+        "name": "stone-wall",
+        "position": {
+          "x": 26.5,
+          "y": 441.5
+        }
+      },
+      {
+        "entity_number": 92,
+        "name": "stone-wall",
+        "position": {
+          "x": 26.5,
+          "y": 443.5
+        }
+      },
+      {
+        "entity_number": 93,
+        "name": "stone-wall",
+        "position": {
+          "x": 26.5,
+          "y": 445.5
+        }
+      },
+      {
+        "entity_number": 94,
+        "name": "stone-wall",
+        "position": {
+          "x": 27.5,
+          "y": 441.5
+        }
+      },
+      {
+        "entity_number": 95,
+        "name": "stone-wall",
+        "position": {
+          "x": 27.5,
+          "y": 445.5
+        }
+      },
+      {
+        "entity_number": 96,
+        "name": "roboport",
+        "position": {
+          "x": 28,
+          "y": 478
+        },
+        "request_filters": {
+          "sections": [
+            {
+              "index": 1
+            }
+          ]
+        }
+      },
+      {
+        "entity_number": 97,
+        "name": "stone-wall",
+        "position": {
+          "x": 28.5,
+          "y": 441.5
+        }
+      },
+      {
+        "entity_number": 98,
+        "name": "stone-wall",
+        "position": {
+          "x": 28.5,
+          "y": 443.5
+        }
+      },
+      {
+        "entity_number": 99,
+        "name": "stone-wall",
+        "position": {
+          "x": 28.5,
+          "y": 445.5
+        }
+      },
+      {
+        "entity_number": 100,
+        "name": "stone-wall",
+        "position": {
+          "x": 29.5,
+          "y": 441.5
+        }
+      },
+      {
+        "entity_number": 101,
+        "name": "stone-wall",
+        "position": {
+          "x": 29.5,
+          "y": 443.5
+        }
+      },
+      {
+        "entity_number": 102,
+        "name": "stone-wall",
+        "position": {
+          "x": 29.5,
+          "y": 445.5
+        }
+      },
+      {
+        "entity_number": 103,
+        "name": "tesla-turret",
+        "position": {
+          "x": 30,
+          "y": 468
+        }
+      },
+      {
+        "entity_number": 104,
+        "name": "land-mine",
+        "position": {
+          "x": 30.5,
+          "y": 438.5
+        }
+      },
+      {
+        "entity_number": 105,
+        "name": "stone-wall",
+        "position": {
+          "x": 30.5,
+          "y": 441.5
+        }
+      },
+      {
+        "entity_number": 106,
+        "name": "stone-wall",
+        "position": {
+          "x": 30.5,
+          "y": 443.5
+        }
+      },
+      {
+        "entity_number": 107,
+        "name": "stone-wall",
+        "position": {
+          "x": 30.5,
+          "y": 445.5
+        }
+      },
+      {
+        "entity_number": 108,
+        "name": "buffer-chest",
+        "position": {
+          "x": 30.5,
+          "y": 477.5
+        },
+        "request_filters": {
+          "sections": [
+            {
+              "filters": [
+                {
+                  "comparator": "=",
+                  "count": 16,
+                  "import_from": "nauvis",
+                  "index": 1,
+                  "name": "land-mine",
+                  "quality": "normal"
+                }
+              ],
+              "index": 1
+            }
+          ]
+        }
+      },
+      {
+        "entity_number": 109,
+        "name": "big-electric-pole",
+        "position": {
+          "x": 31,
+          "y": 449
+        }
+      },
+      {
+        "entity_number": 110,
+        "name": "big-electric-pole",
+        "position": {
+          "x": 31,
+          "y": 479
+        }
+      },
+      {
+        "entity_number": 111,
+        "name": "stone-wall",
+        "position": {
+          "x": 31.5,
+          "y": 443.5
+        }
+      },
+      {
+        "control_behavior": {
+          "sections": {
+            "sections": [
+              {
+                "filters": [
+                  {
+                    "comparator": "=",
+                    "count": 1,
+                    "index": 1,
+                    "name": "signal-check",
+                    "quality": "normal",
+                    "type": "virtual"
+                  }
+                ],
+                "index": 1
+              }
+            ]
+          }
+        },
+        "entity_number": 112,
+        "name": "constant-combinator",
+        "position": {
+          "x": 31.5,
+          "y": 477.5
+        }
+      }
+    ],
+    "icons": [
+      {
+        "index": 1,
+        "signal": {
+          "name": "tesla-turret"
+        }
+      }
+    ],
+    "version": 562954249306113,
+    "wires": [
+      [
+        4,
+        1,
+        6,
+        1
+      ],
+      [
+        4,
+        1,
+        7,
+        1
+      ],
+      [
+        4,
+        5,
+        6,
+        5
+      ],
+      [
+        4,
+        5,
+        109,
+        5
+      ],
+      [
+        5,
+        1,
+        6,
+        1
+      ],
+      [
+        5,
+        5,
+        6,
+        5
+      ],
+      [
+        5,
+        6,
+        28,
+        5
+      ],
+      [
+        6,
+        5,
+        110,
+        5
+      ],
+      [
+        7,
+        1,
+        20,
+        1
+      ],
+      [
+        20,
+        1,
+        33,
+        1
+      ],
+      [
+        28,
+        5,
+        50,
+        5
+      ],
+      [
+        33,
+        1,
+        46,
+        1
+      ],
+      [
+        46,
+        1,
+        63,
+        1
+      ],
+      [
+        50,
+        5,
+        67,
+        5
+      ],
+      [
+        63,
+        1,
+        77,
+        1
+      ],
+      [
+        67,
+        5,
+        88,
+        5
+      ],
+      [
+        77,
+        1,
+        90,
+        1
+      ],
+      [
+        90,
+        1,
+        104,
+        1
+      ],
+      [
+        104,
+        1,
+        109,
+        1
+      ],
+      [
+        109,
+        1,
+        110,
+        1
+      ],
+      [
+        109,
+        5,
+        110,
+        5
+      ],
+      [
+        110,
+        1,
+        112,
+        1
+      ]
+    ]
+  },
+  "index": 20
+}

@@ -1,0 +1,47 @@
+{
+  "upgrade_planner": {
+    "label": "转为 钢炉",
+    "item": "upgrade-planner",
+    "settings": {
+      "icons": [
+        {
+          "index": 1,
+          "signal": {
+            "name": "steel-furnace"
+          }
+        }
+      ],
+      "mappers": [
+        {
+          "from": {
+            "comparator": "=",
+            "name": "stone-furnace",
+            "quality": "normal",
+            "type": "entity"
+          },
+          "index": 0,
+          "to": {
+            "name": "steel-furnace",
+            "type": "entity"
+          }
+        },
+        {
+          "from": {
+            "comparator": "=",
+            "name": "stone-furnace",
+            "quality": "legendary",
+            "type": "entity"
+          },
+          "index": 4,
+          "to": {
+            "name": "steel-furnace",
+            "quality": "legendary",
+            "type": "entity"
+          }
+        }
+      ]
+    },
+    "version": 562954249306113
+  },
+  "index": 15
+}

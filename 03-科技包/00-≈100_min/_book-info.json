@@ -1,0 +1,37 @@
+{
+  "active_index": 0,
+  "blueprints": [],
+  "icons": [
+    {
+      "index": 1,
+      "signal": {
+        "name": "signal-1",
+        "type": "virtual"
+      }
+    },
+    {
+      "index": 2,
+      "signal": {
+        "name": "signal-0",
+        "type": "virtual"
+      }
+    },
+    {
+      "index": 3,
+      "signal": {
+        "name": "signal-circumflex-accent",
+        "type": "virtual"
+      }
+    },
+    {
+      "index": 4,
+      "signal": {
+        "name": "signal-2",
+        "type": "virtual"
+      }
+    }
+  ],
+  "item": "blueprint-book",
+  "label": "≈100/min",
+  "version": 562954249306113
+}

@@ -1,0 +1,28 @@
+{
+  "blueprint": {
+    "item": "blueprint",
+    "label": "基础全流量均分器理论(TU balancer)(*可参考官网wiki中\"Balancer mechanics\"板块)",
+    "description": "TU全流量均分器/输入输出无限制均分器，一般是通过使用两个常规版本的普通均分器副本背靠背来制作的。\n回想一下，如果输入或输出被充分利用，普通平衡器也可以保证全吞吐量。在TU均分器中，第一级均分器的输出总是被第二级均分器完全利用，而第二级均分器的输入总是被第一个均分器完全利用。因此，该组合始终能保证完全的输入/输出吞吐量。",
+    "entities": [
+      {
+        "direction": 4,
+        "entity_number": 1,
+        "name": "express-splitter",
+        "position": {
+          "x": 504.5,
+          "y": 301
+        }
+      }
+    ],
+    "icons": [
+      {
+        "index": 1,
+        "signal": {
+          "name": "express-splitter"
+        }
+      }
+    ],
+    "version": 562954249306113
+  },
+  "index": 2
+}

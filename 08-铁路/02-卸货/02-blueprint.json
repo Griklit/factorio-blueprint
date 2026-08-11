@@ -1,0 +1,1459 @@
+{
+  "blueprint": {
+    "item": "blueprint",
+    "entities": [
+      {
+        "entity_number": 1,
+        "name": "medium-electric-pole",
+        "position": {
+          "x": -290.5,
+          "y": 722.5
+        }
+      },
+      {
+        "direction": 12,
+        "entity_number": 2,
+        "mirror": true,
+        "name": "stack-inserter",
+        "position": {
+          "x": -290.5,
+          "y": 723.5
+        }
+      },
+      {
+        "direction": 12,
+        "entity_number": 3,
+        "mirror": true,
+        "name": "stack-inserter",
+        "position": {
+          "x": -290.5,
+          "y": 724.5
+        }
+      },
+      {
+        "direction": 12,
+        "entity_number": 4,
+        "mirror": true,
+        "name": "stack-inserter",
+        "position": {
+          "x": -290.5,
+          "y": 725.5
+        }
+      },
+      {
+        "direction": 12,
+        "entity_number": 5,
+        "mirror": true,
+        "name": "stack-inserter",
+        "position": {
+          "x": -290.5,
+          "y": 726.5
+        }
+      },
+      {
+        "direction": 12,
+        "entity_number": 6,
+        "mirror": true,
+        "name": "stack-inserter",
+        "position": {
+          "x": -290.5,
+          "y": 727.5
+        }
+      },
+      {
+        "direction": 12,
+        "entity_number": 7,
+        "mirror": true,
+        "name": "stack-inserter",
+        "position": {
+          "x": -290.5,
+          "y": 728.5
+        }
+      },
+      {
+        "entity_number": 8,
+        "name": "medium-electric-pole",
+        "position": {
+          "x": -290.5,
+          "y": 729.5
+        }
+      },
+      {
+        "direction": 12,
+        "entity_number": 9,
+        "mirror": true,
+        "name": "stack-inserter",
+        "position": {
+          "x": -290.5,
+          "y": 730.5
+        }
+      },
+      {
+        "direction": 12,
+        "entity_number": 10,
+        "mirror": true,
+        "name": "stack-inserter",
+        "position": {
+          "x": -290.5,
+          "y": 731.5
+        }
+      },
+      {
+        "direction": 12,
+        "entity_number": 11,
+        "mirror": true,
+        "name": "stack-inserter",
+        "position": {
+          "x": -290.5,
+          "y": 732.5
+        }
+      },
+      {
+        "direction": 12,
+        "entity_number": 12,
+        "mirror": true,
+        "name": "stack-inserter",
+        "position": {
+          "x": -290.5,
+          "y": 733.5
+        }
+      },
+      {
+        "direction": 12,
+        "entity_number": 13,
+        "mirror": true,
+        "name": "stack-inserter",
+        "position": {
+          "x": -290.5,
+          "y": 734.5
+        }
+      },
+      {
+        "direction": 12,
+        "entity_number": 14,
+        "mirror": true,
+        "name": "stack-inserter",
+        "position": {
+          "x": -290.5,
+          "y": 735.5
+        }
+      },
+      {
+        "entity_number": 15,
+        "name": "medium-electric-pole",
+        "position": {
+          "x": -290.5,
+          "y": 736.5
+        }
+      },
+      {
+        "direction": 12,
+        "entity_number": 16,
+        "mirror": true,
+        "name": "stack-inserter",
+        "position": {
+          "x": -290.5,
+          "y": 737.5
+        }
+      },
+      {
+        "direction": 12,
+        "entity_number": 17,
+        "mirror": true,
+        "name": "stack-inserter",
+        "position": {
+          "x": -290.5,
+          "y": 738.5
+        }
+      },
+      {
+        "direction": 12,
+        "entity_number": 18,
+        "mirror": true,
+        "name": "stack-inserter",
+        "position": {
+          "x": -290.5,
+          "y": 739.5
+        }
+      },
+      {
+        "direction": 12,
+        "entity_number": 19,
+        "mirror": true,
+        "name": "stack-inserter",
+        "position": {
+          "x": -290.5,
+          "y": 740.5
+        }
+      },
+      {
+        "direction": 12,
+        "entity_number": 20,
+        "mirror": true,
+        "name": "stack-inserter",
+        "position": {
+          "x": -290.5,
+          "y": 741.5
+        }
+      },
+      {
+        "direction": 12,
+        "entity_number": 21,
+        "mirror": true,
+        "name": "stack-inserter",
+        "position": {
+          "x": -290.5,
+          "y": 742.5
+        }
+      },
+      {
+        "entity_number": 22,
+        "name": "medium-electric-pole",
+        "position": {
+          "x": -290.5,
+          "y": 743.5
+        }
+      },
+      {
+        "direction": 12,
+        "entity_number": 23,
+        "mirror": true,
+        "name": "stack-inserter",
+        "position": {
+          "x": -290.5,
+          "y": 744.5
+        }
+      },
+      {
+        "direction": 12,
+        "entity_number": 24,
+        "mirror": true,
+        "name": "stack-inserter",
+        "position": {
+          "x": -290.5,
+          "y": 745.5
+        }
+      },
+      {
+        "direction": 12,
+        "entity_number": 25,
+        "mirror": true,
+        "name": "stack-inserter",
+        "position": {
+          "x": -290.5,
+          "y": 746.5
+        }
+      },
+      {
+        "direction": 12,
+        "entity_number": 26,
+        "mirror": true,
+        "name": "stack-inserter",
+        "position": {
+          "x": -290.5,
+          "y": 747.5
+        }
+      },
+      {
+        "direction": 12,
+        "entity_number": 27,
+        "mirror": true,
+        "name": "stack-inserter",
+        "position": {
+          "x": -290.5,
+          "y": 748.5
+        }
+      },
+      {
+        "direction": 12,
+        "entity_number": 28,
+        "mirror": true,
+        "name": "stack-inserter",
+        "position": {
+          "x": -290.5,
+          "y": 749.5
+        }
+      },
+      {
+        "entity_number": 29,
+        "name": "medium-electric-pole",
+        "position": {
+          "x": -290.5,
+          "y": 750.5
+        }
+      },
+      {
+        "entity_number": 30,
+        "name": "small-lamp",
+        "position": {
+          "x": -289.5,
+          "y": 722.5
+        }
+      },
+      {
+        "entity_number": 31,
+        "name": "steel-chest",
+        "position": {
+          "x": -289.5,
+          "y": 723.5
+        }
+      },
+      {
+        "entity_number": 32,
+        "name": "steel-chest",
+        "position": {
+          "x": -289.5,
+          "y": 724.5
+        }
+      },
+      {
+        "entity_number": 33,
+        "name": "steel-chest",
+        "position": {
+          "x": -289.5,
+          "y": 725.5
+        }
+      },
+      {
+        "entity_number": 34,
+        "name": "steel-chest",
+        "position": {
+          "x": -289.5,
+          "y": 726.5
+        }
+      },
+      {
+        "entity_number": 35,
+        "name": "steel-chest",
+        "position": {
+          "x": -289.5,
+          "y": 727.5
+        }
+      },
+      {
+        "entity_number": 36,
+        "name": "steel-chest",
+        "position": {
+          "x": -289.5,
+          "y": 728.5
+        }
+      },
+      {
+        "entity_number": 37,
+        "name": "small-lamp",
+        "position": {
+          "x": -289.5,
+          "y": 729.5
+        }
+      },
+      {
+        "entity_number": 38,
+        "name": "steel-chest",
+        "position": {
+          "x": -289.5,
+          "y": 730.5
+        }
+      },
+      {
+        "entity_number": 39,
+        "name": "steel-chest",
+        "position": {
+          "x": -289.5,
+          "y": 731.5
+        }
+      },
+      {
+        "entity_number": 40,
+        "name": "steel-chest",
+        "position": {
+          "x": -289.5,
+          "y": 732.5
+        }
+      },
+      {
+        "entity_number": 41,
+        "name": "steel-chest",
+        "position": {
+          "x": -289.5,
+          "y": 733.5
+        }
+      },
+      {
+        "entity_number": 42,
+        "name": "steel-chest",
+        "position": {
+          "x": -289.5,
+          "y": 734.5
+        }
+      },
+      {
+        "entity_number": 43,
+        "name": "steel-chest",
+        "position": {
+          "x": -289.5,
+          "y": 735.5
+        }
+      },
+      {
+        "entity_number": 44,
+        "name": "small-lamp",
+        "position": {
+          "x": -289.5,
+          "y": 736.5
+        }
+      },
+      {
+        "entity_number": 45,
+        "name": "steel-chest",
+        "position": {
+          "x": -289.5,
+          "y": 737.5
+        }
+      },
+      {
+        "entity_number": 46,
+        "name": "steel-chest",
+        "position": {
+          "x": -289.5,
+          "y": 738.5
+        }
+      },
+      {
+        "entity_number": 47,
+        "name": "steel-chest",
+        "position": {
+          "x": -289.5,
+          "y": 739.5
+        }
+      },
+      {
+        "entity_number": 48,
+        "name": "steel-chest",
+        "position": {
+          "x": -289.5,
+          "y": 740.5
+        }
+      },
+      {
+        "entity_number": 49,
+        "name": "steel-chest",
+        "position": {
+          "x": -289.5,
+          "y": 741.5
+        }
+      },
+      {
+        "entity_number": 50,
+        "name": "steel-chest",
+        "position": {
+          "x": -289.5,
+          "y": 742.5
+        }
+      },
+      {
+        "entity_number": 51,
+        "name": "small-lamp",
+        "position": {
+          "x": -289.5,
+          "y": 743.5
+        }
+      },
+      {
+        "entity_number": 52,
+        "name": "steel-chest",
+        "position": {
+          "x": -289.5,
+          "y": 744.5
+        }
+      },
+      {
+        "entity_number": 53,
+        "name": "steel-chest",
+        "position": {
+          "x": -289.5,
+          "y": 745.5
+        }
+      },
+      {
+        "entity_number": 54,
+        "name": "steel-chest",
+        "position": {
+          "x": -289.5,
+          "y": 746.5
+        }
+      },
+      {
+        "entity_number": 55,
+        "name": "steel-chest",
+        "position": {
+          "x": -289.5,
+          "y": 747.5
+        }
+      },
+      {
+        "entity_number": 56,
+        "name": "steel-chest",
+        "position": {
+          "x": -289.5,
+          "y": 748.5
+        }
+      },
+      {
+        "entity_number": 57,
+        "name": "steel-chest",
+        "position": {
+          "x": -289.5,
+          "y": 749.5
+        }
+      },
+      {
+        "entity_number": 58,
+        "name": "small-lamp",
+        "position": {
+          "x": -289.5,
+          "y": 750.5
+        }
+      },
+      {
+        "direction": 12,
+        "entity_number": 59,
+        "mirror": true,
+        "name": "stack-inserter",
+        "position": {
+          "x": -288.5,
+          "y": 723.5
+        }
+      },
+      {
+        "direction": 12,
+        "entity_number": 60,
+        "mirror": true,
+        "name": "stack-inserter",
+        "position": {
+          "x": -288.5,
+          "y": 724.5
+        }
+      },
+      {
+        "direction": 12,
+        "entity_number": 61,
+        "mirror": true,
+        "name": "stack-inserter",
+        "position": {
+          "x": -288.5,
+          "y": 725.5
+        }
+      },
+      {
+        "direction": 12,
+        "entity_number": 62,
+        "mirror": true,
+        "name": "stack-inserter",
+        "position": {
+          "x": -288.5,
+          "y": 726.5
+        }
+      },
+      {
+        "direction": 12,
+        "entity_number": 63,
+        "mirror": true,
+        "name": "stack-inserter",
+        "position": {
+          "x": -288.5,
+          "y": 727.5
+        }
+      },
+      {
+        "direction": 12,
+        "entity_number": 64,
+        "mirror": true,
+        "name": "stack-inserter",
+        "position": {
+          "x": -288.5,
+          "y": 728.5
+        }
+      },
+      {
+        "direction": 12,
+        "entity_number": 65,
+        "mirror": true,
+        "name": "stack-inserter",
+        "position": {
+          "x": -288.5,
+          "y": 730.5
+        }
+      },
+      {
+        "direction": 12,
+        "entity_number": 66,
+        "mirror": true,
+        "name": "stack-inserter",
+        "position": {
+          "x": -288.5,
+          "y": 731.5
+        }
+      },
+      {
+        "direction": 12,
+        "entity_number": 67,
+        "mirror": true,
+        "name": "stack-inserter",
+        "position": {
+          "x": -288.5,
+          "y": 732.5
+        }
+      },
+      {
+        "direction": 12,
+        "entity_number": 68,
+        "mirror": true,
+        "name": "stack-inserter",
+        "position": {
+          "x": -288.5,
+          "y": 733.5
+        }
+      },
+      {
+        "direction": 12,
+        "entity_number": 69,
+        "mirror": true,
+        "name": "stack-inserter",
+        "position": {
+          "x": -288.5,
+          "y": 734.5
+        }
+      },
+      {
+        "direction": 12,
+        "entity_number": 70,
+        "mirror": true,
+        "name": "stack-inserter",
+        "position": {
+          "x": -288.5,
+          "y": 735.5
+        }
+      },
+      {
+        "direction": 12,
+        "entity_number": 71,
+        "mirror": true,
+        "name": "stack-inserter",
+        "position": {
+          "x": -288.5,
+          "y": 737.5
+        }
+      },
+      {
+        "direction": 12,
+        "entity_number": 72,
+        "mirror": true,
+        "name": "stack-inserter",
+        "position": {
+          "x": -288.5,
+          "y": 738.5
+        }
+      },
+      {
+        "direction": 12,
+        "entity_number": 73,
+        "mirror": true,
+        "name": "stack-inserter",
+        "position": {
+          "x": -288.5,
+          "y": 739.5
+        }
+      },
+      {
+        "direction": 12,
+        "entity_number": 74,
+        "mirror": true,
+        "name": "stack-inserter",
+        "position": {
+          "x": -288.5,
+          "y": 740.5
+        }
+      },
+      {
+        "direction": 12,
+        "entity_number": 75,
+        "mirror": true,
+        "name": "stack-inserter",
+        "position": {
+          "x": -288.5,
+          "y": 741.5
+        }
+      },
+      {
+        "direction": 12,
+        "entity_number": 76,
+        "mirror": true,
+        "name": "stack-inserter",
+        "position": {
+          "x": -288.5,
+          "y": 742.5
+        }
+      },
+      {
+        "direction": 12,
+        "entity_number": 77,
+        "mirror": true,
+        "name": "stack-inserter",
+        "position": {
+          "x": -288.5,
+          "y": 744.5
+        }
+      },
+      {
+        "direction": 12,
+        "entity_number": 78,
+        "mirror": true,
+        "name": "stack-inserter",
+        "position": {
+          "x": -288.5,
+          "y": 745.5
+        }
+      },
+      {
+        "direction": 12,
+        "entity_number": 79,
+        "mirror": true,
+        "name": "stack-inserter",
+        "position": {
+          "x": -288.5,
+          "y": 746.5
+        }
+      },
+      {
+        "direction": 12,
+        "entity_number": 80,
+        "mirror": true,
+        "name": "stack-inserter",
+        "position": {
+          "x": -288.5,
+          "y": 747.5
+        }
+      },
+      {
+        "direction": 12,
+        "entity_number": 81,
+        "mirror": true,
+        "name": "stack-inserter",
+        "position": {
+          "x": -288.5,
+          "y": 748.5
+        }
+      },
+      {
+        "direction": 12,
+        "entity_number": 82,
+        "mirror": true,
+        "name": "stack-inserter",
+        "position": {
+          "x": -288.5,
+          "y": 749.5
+        }
+      },
+      {
+        "direction": 8,
+        "entity_number": 83,
+        "name": "fast-transport-belt",
+        "position": {
+          "x": -287.5,
+          "y": 723.5
+        }
+      },
+      {
+        "direction": 8,
+        "entity_number": 84,
+        "name": "fast-transport-belt",
+        "position": {
+          "x": -287.5,
+          "y": 724.5
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 85,
+        "name": "fast-transport-belt",
+        "position": {
+          "x": -287.5,
+          "y": 725.5
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 86,
+        "name": "fast-transport-belt",
+        "position": {
+          "x": -287.5,
+          "y": 726.5
+        }
+      },
+      {
+        "entity_number": 87,
+        "name": "fast-transport-belt",
+        "position": {
+          "x": -287.5,
+          "y": 727.5
+        }
+      },
+      {
+        "entity_number": 88,
+        "name": "fast-transport-belt",
+        "position": {
+          "x": -287.5,
+          "y": 728.5
+        }
+      },
+      {
+        "direction": 8,
+        "entity_number": 89,
+        "name": "fast-transport-belt",
+        "position": {
+          "x": -287.5,
+          "y": 730.5
+        }
+      },
+      {
+        "direction": 8,
+        "entity_number": 90,
+        "name": "fast-transport-belt",
+        "position": {
+          "x": -287.5,
+          "y": 731.5
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 91,
+        "name": "fast-transport-belt",
+        "position": {
+          "x": -287.5,
+          "y": 732.5
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 92,
+        "name": "fast-transport-belt",
+        "position": {
+          "x": -287.5,
+          "y": 733.5
+        }
+      },
+      {
+        "entity_number": 93,
+        "name": "fast-transport-belt",
+        "position": {
+          "x": -287.5,
+          "y": 734.5
+        }
+      },
+      {
+        "entity_number": 94,
+        "name": "fast-transport-belt",
+        "position": {
+          "x": -287.5,
+          "y": 735.5
+        }
+      },
+      {
+        "direction": 8,
+        "entity_number": 95,
+        "name": "fast-transport-belt",
+        "position": {
+          "x": -287.5,
+          "y": 737.5
+        }
+      },
+      {
+        "direction": 8,
+        "entity_number": 96,
+        "name": "fast-transport-belt",
+        "position": {
+          "x": -287.5,
+          "y": 738.5
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 97,
+        "name": "fast-transport-belt",
+        "position": {
+          "x": -287.5,
+          "y": 739.5
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 98,
+        "name": "fast-transport-belt",
+        "position": {
+          "x": -287.5,
+          "y": 740.5
+        }
+      },
+      {
+        "entity_number": 99,
+        "name": "fast-transport-belt",
+        "position": {
+          "x": -287.5,
+          "y": 741.5
+        }
+      },
+      {
+        "entity_number": 100,
+        "name": "fast-transport-belt",
+        "position": {
+          "x": -287.5,
+          "y": 742.5
+        }
+      },
+      {
+        "direction": 8,
+        "entity_number": 101,
+        "name": "fast-transport-belt",
+        "position": {
+          "x": -287.5,
+          "y": 744.5
+        }
+      },
+      {
+        "direction": 8,
+        "entity_number": 102,
+        "name": "fast-transport-belt",
+        "position": {
+          "x": -287.5,
+          "y": 745.5
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 103,
+        "name": "fast-transport-belt",
+        "position": {
+          "x": -287.5,
+          "y": 746.5
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 104,
+        "name": "fast-transport-belt",
+        "position": {
+          "x": -287.5,
+          "y": 747.5
+        }
+      },
+      {
+        "entity_number": 105,
+        "name": "fast-transport-belt",
+        "position": {
+          "x": -287.5,
+          "y": 748.5
+        }
+      },
+      {
+        "entity_number": 106,
+        "name": "fast-transport-belt",
+        "position": {
+          "x": -287.5,
+          "y": 749.5
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 107,
+        "name": "fast-splitter",
+        "position": {
+          "x": -286.5,
+          "y": 726
+        }
+      },
+      {
+        "direction": 8,
+        "entity_number": 108,
+        "name": "fast-transport-belt",
+        "position": {
+          "x": -286.5,
+          "y": 727.5
+        }
+      },
+      {
+        "direction": 8,
+        "entity_number": 109,
+        "name": "fast-transport-belt",
+        "position": {
+          "x": -286.5,
+          "y": 728.5
+        }
+      },
+      {
+        "direction": 8,
+        "entity_number": 110,
+        "name": "fast-underground-belt",
+        "position": {
+          "x": -286.5,
+          "y": 729.5
+        },
+        "type": "input"
+      },
+      {
+        "direction": 4,
+        "entity_number": 111,
+        "name": "fast-splitter",
+        "position": {
+          "x": -286.5,
+          "y": 733
+        }
+      },
+      {
+        "direction": 8,
+        "entity_number": 112,
+        "name": "fast-underground-belt",
+        "position": {
+          "x": -286.5,
+          "y": 736.5
+        },
+        "type": "output"
+      },
+      {
+        "direction": 8,
+        "entity_number": 113,
+        "name": "fast-underground-belt",
+        "position": {
+          "x": -286.5,
+          "y": 737.5
+        },
+        "type": "input"
+      },
+      {
+        "direction": 4,
+        "entity_number": 114,
+        "name": "fast-splitter",
+        "position": {
+          "x": -286.5,
+          "y": 740
+        }
+      },
+      {
+        "direction": 8,
+        "entity_number": 115,
+        "name": "fast-underground-belt",
+        "position": {
+          "x": -286.5,
+          "y": 743.5
+        },
+        "type": "output"
+      },
+      {
+        "direction": 8,
+        "entity_number": 116,
+        "name": "fast-underground-belt",
+        "position": {
+          "x": -286.5,
+          "y": 744.5
+        },
+        "type": "input"
+      },
+      {
+        "direction": 4,
+        "entity_number": 117,
+        "name": "fast-splitter",
+        "position": {
+          "x": -286.5,
+          "y": 747
+        }
+      },
+      {
+        "direction": 8,
+        "entity_number": 118,
+        "name": "fast-underground-belt",
+        "position": {
+          "x": -286.5,
+          "y": 750.5
+        },
+        "type": "output"
+      },
+      {
+        "direction": 8,
+        "entity_number": 119,
+        "name": "fast-transport-belt",
+        "position": {
+          "x": -285.5,
+          "y": 726.5
+        }
+      },
+      {
+        "direction": 12,
+        "entity_number": 120,
+        "name": "fast-transport-belt",
+        "position": {
+          "x": -285.5,
+          "y": 727.5
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 121,
+        "name": "fast-transport-belt",
+        "position": {
+          "x": -285.5,
+          "y": 733.5
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 122,
+        "name": "fast-transport-belt",
+        "position": {
+          "x": -285.5,
+          "y": 740.5
+        }
+      },
+      {
+        "direction": 8,
+        "entity_number": 123,
+        "name": "fast-transport-belt",
+        "position": {
+          "x": -285.5,
+          "y": 747.5
+        }
+      },
+      {
+        "direction": 8,
+        "entity_number": 124,
+        "name": "fast-transport-belt",
+        "position": {
+          "x": -285.5,
+          "y": 748.5
+        }
+      },
+      {
+        "direction": 8,
+        "entity_number": 125,
+        "name": "fast-transport-belt",
+        "position": {
+          "x": -285.5,
+          "y": 749.5
+        }
+      },
+      {
+        "direction": 8,
+        "entity_number": 126,
+        "name": "fast-transport-belt",
+        "position": {
+          "x": -285.5,
+          "y": 750.5
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 127,
+        "name": "fast-transport-belt",
+        "position": {
+          "x": -284.5,
+          "y": 733.5
+        }
+      },
+      {
+        "direction": 8,
+        "entity_number": 128,
+        "name": "fast-transport-belt",
+        "position": {
+          "x": -284.5,
+          "y": 740.5
+        }
+      },
+      {
+        "direction": 8,
+        "entity_number": 129,
+        "name": "fast-transport-belt",
+        "position": {
+          "x": -284.5,
+          "y": 741.5
+        }
+      },
+      {
+        "direction": 8,
+        "entity_number": 130,
+        "name": "fast-transport-belt",
+        "position": {
+          "x": -284.5,
+          "y": 742.5
+        }
+      },
+      {
+        "direction": 8,
+        "entity_number": 131,
+        "name": "fast-transport-belt",
+        "position": {
+          "x": -284.5,
+          "y": 743.5
+        }
+      },
+      {
+        "direction": 8,
+        "entity_number": 132,
+        "name": "fast-transport-belt",
+        "position": {
+          "x": -284.5,
+          "y": 744.5
+        }
+      },
+      {
+        "direction": 8,
+        "entity_number": 133,
+        "name": "fast-transport-belt",
+        "position": {
+          "x": -284.5,
+          "y": 745.5
+        }
+      },
+      {
+        "direction": 8,
+        "entity_number": 134,
+        "name": "fast-transport-belt",
+        "position": {
+          "x": -284.5,
+          "y": 746.5
+        }
+      },
+      {
+        "direction": 8,
+        "entity_number": 135,
+        "name": "fast-transport-belt",
+        "position": {
+          "x": -284.5,
+          "y": 747.5
+        }
+      },
+      {
+        "direction": 8,
+        "entity_number": 136,
+        "name": "fast-transport-belt",
+        "position": {
+          "x": -284.5,
+          "y": 748.5
+        }
+      },
+      {
+        "direction": 8,
+        "entity_number": 137,
+        "name": "fast-transport-belt",
+        "position": {
+          "x": -284.5,
+          "y": 749.5
+        }
+      },
+      {
+        "direction": 8,
+        "entity_number": 138,
+        "name": "fast-transport-belt",
+        "position": {
+          "x": -284.5,
+          "y": 750.5
+        }
+      },
+      {
+        "direction": 8,
+        "entity_number": 139,
+        "name": "fast-transport-belt",
+        "position": {
+          "x": -283.5,
+          "y": 733.5
+        }
+      },
+      {
+        "direction": 8,
+        "entity_number": 140,
+        "name": "fast-transport-belt",
+        "position": {
+          "x": -283.5,
+          "y": 734.5
+        }
+      },
+      {
+        "direction": 8,
+        "entity_number": 141,
+        "name": "fast-transport-belt",
+        "position": {
+          "x": -283.5,
+          "y": 735.5
+        }
+      },
+      {
+        "direction": 8,
+        "entity_number": 142,
+        "name": "fast-transport-belt",
+        "position": {
+          "x": -283.5,
+          "y": 736.5
+        }
+      },
+      {
+        "direction": 8,
+        "entity_number": 143,
+        "name": "fast-transport-belt",
+        "position": {
+          "x": -283.5,
+          "y": 737.5
+        }
+      },
+      {
+        "direction": 8,
+        "entity_number": 144,
+        "name": "fast-transport-belt",
+        "position": {
+          "x": -283.5,
+          "y": 738.5
+        }
+      },
+      {
+        "direction": 8,
+        "entity_number": 145,
+        "name": "fast-transport-belt",
+        "position": {
+          "x": -283.5,
+          "y": 739.5
+        }
+      },
+      {
+        "direction": 8,
+        "entity_number": 146,
+        "name": "fast-transport-belt",
+        "position": {
+          "x": -283.5,
+          "y": 740.5
+        }
+      },
+      {
+        "direction": 8,
+        "entity_number": 147,
+        "name": "fast-transport-belt",
+        "position": {
+          "x": -283.5,
+          "y": 741.5
+        }
+      },
+      {
+        "direction": 8,
+        "entity_number": 148,
+        "name": "fast-transport-belt",
+        "position": {
+          "x": -283.5,
+          "y": 742.5
+        }
+      },
+      {
+        "direction": 8,
+        "entity_number": 149,
+        "name": "fast-transport-belt",
+        "position": {
+          "x": -283.5,
+          "y": 743.5
+        }
+      },
+      {
+        "direction": 8,
+        "entity_number": 150,
+        "name": "fast-transport-belt",
+        "position": {
+          "x": -283.5,
+          "y": 744.5
+        }
+      },
+      {
+        "direction": 8,
+        "entity_number": 151,
+        "name": "fast-transport-belt",
+        "position": {
+          "x": -283.5,
+          "y": 745.5
+        }
+      },
+      {
+        "direction": 8,
+        "entity_number": 152,
+        "name": "fast-transport-belt",
+        "position": {
+          "x": -283.5,
+          "y": 746.5
+        }
+      },
+      {
+        "direction": 8,
+        "entity_number": 153,
+        "name": "fast-transport-belt",
+        "position": {
+          "x": -283.5,
+          "y": 747.5
+        }
+      },
+      {
+        "direction": 8,
+        "entity_number": 154,
+        "name": "fast-transport-belt",
+        "position": {
+          "x": -283.5,
+          "y": 748.5
+        }
+      },
+      {
+        "direction": 8,
+        "entity_number": 155,
+        "name": "fast-transport-belt",
+        "position": {
+          "x": -283.5,
+          "y": 749.5
+        }
+      },
+      {
+        "direction": 8,
+        "entity_number": 156,
+        "name": "fast-transport-belt",
+        "position": {
+          "x": -283.5,
+          "y": 750.5
+        }
+      }
+    ],
+    "icons": [
+      {
+        "index": 1,
+        "signal": {
+          "name": "fast-transport-belt"
+        }
+      }
+    ],
+    "version": 562954249306113,
+    "wires": [
+      [
+        1,
+        5,
+        8,
+        5
+      ],
+      [
+        8,
+        5,
+        15,
+        5
+      ],
+      [
+        15,
+        5,
+        22,
+        5
+      ],
+      [
+        22,
+        5,
+        29,
+        5
+      ]
+    ]
+  },
+  "index": 2
+}

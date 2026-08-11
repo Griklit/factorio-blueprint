@@ -1,0 +1,237 @@
+{
+  "blueprint": {
+    "item": "blueprint",
+    "label": "超绝密铺雷",
+    "description": "极致密铺的地雷，经测试地雷为矩形碰撞，碰撞边长在0.8007812与0.8007813之间，\n很可惜，我们做不到在4*4的网格内放入5*5个地雷\n而且回归周期实在是太长了\n如果你不想做一些比如在800*800的网格内放入999*999个地雷之类的事的话，我们大抵是无法得到一个可吸附网格的密铺地雷的。",
+    "entities": [
+      {
+        "entity_number": 1,
+        "name": "land-mine",
+        "position": {
+          "x": 0.5,
+          "y": 0.5
+        }
+      },
+      {
+        "entity_number": 2,
+        "name": "land-mine",
+        "position": {
+          "x": 1.30078125,
+          "y": 0.5
+        }
+      },
+      {
+        "entity_number": 3,
+        "name": "land-mine",
+        "position": {
+          "x": 2.1015625,
+          "y": 0.5
+        }
+      },
+      {
+        "entity_number": 4,
+        "name": "land-mine",
+        "position": {
+          "x": 2.90234375,
+          "y": 0.5
+        }
+      },
+      {
+        "entity_number": 5,
+        "name": "land-mine",
+        "position": {
+          "x": 3.703125,
+          "y": 0.5
+        }
+      },
+      {
+        "entity_number": 6,
+        "name": "land-mine",
+        "position": {
+          "x": 0.5,
+          "y": 1.30078125
+        }
+      },
+      {
+        "entity_number": 7,
+        "name": "land-mine",
+        "position": {
+          "x": 1.30078125,
+          "y": 1.30078125
+        }
+      },
+      {
+        "entity_number": 8,
+        "name": "land-mine",
+        "position": {
+          "x": 2.1015625,
+          "y": 1.30078125
+        }
+      },
+      {
+        "entity_number": 9,
+        "name": "land-mine",
+        "position": {
+          "x": 2.90234375,
+          "y": 1.30078125
+        }
+      },
+      {
+        "entity_number": 10,
+        "name": "land-mine",
+        "position": {
+          "x": 3.703125,
+          "y": 1.30078125
+        }
+      },
+      {
+        "entity_number": 11,
+        "name": "land-mine",
+        "position": {
+          "x": 0.5,
+          "y": 2.1015625
+        }
+      },
+      {
+        "entity_number": 12,
+        "name": "land-mine",
+        "position": {
+          "x": 1.30078125,
+          "y": 2.1015625
+        }
+      },
+      {
+        "entity_number": 13,
+        "name": "land-mine",
+        "position": {
+          "x": 2.1015625,
+          "y": 2.1015625
+        }
+      },
+      {
+        "entity_number": 14,
+        "name": "land-mine",
+        "position": {
+          "x": 2.90234375,
+          "y": 2.1015625
+        }
+      },
+      {
+        "entity_number": 15,
+        "name": "land-mine",
+        "position": {
+          "x": 3.703125,
+          "y": 2.1015625
+        }
+      },
+      {
+        "entity_number": 16,
+        "name": "land-mine",
+        "position": {
+          "x": 0.5,
+          "y": 2.90234375
+        }
+      },
+      {
+        "entity_number": 17,
+        "name": "land-mine",
+        "position": {
+          "x": 1.30078125,
+          "y": 2.90234375
+        }
+      },
+      {
+        "entity_number": 18,
+        "name": "land-mine",
+        "position": {
+          "x": 2.1015625,
+          "y": 2.90234375
+        }
+      },
+      {
+        "entity_number": 19,
+        "name": "land-mine",
+        "position": {
+          "x": 2.90234375,
+          "y": 2.90234375
+        }
+      },
+      {
+        "entity_number": 20,
+        "name": "land-mine",
+        "position": {
+          "x": 3.703125,
+          "y": 2.90234375
+        }
+      },
+      {
+        "entity_number": 21,
+        "name": "land-mine",
+        "position": {
+          "x": 0.5,
+          "y": 3.703125
+        }
+      },
+      {
+        "entity_number": 22,
+        "name": "land-mine",
+        "position": {
+          "x": 1.30078125,
+          "y": 3.703125
+        }
+      },
+      {
+        "entity_number": 23,
+        "name": "land-mine",
+        "position": {
+          "x": 2.1015625,
+          "y": 3.703125
+        }
+      },
+      {
+        "entity_number": 24,
+        "name": "land-mine",
+        "position": {
+          "x": 2.90234375,
+          "y": 3.703125
+        }
+      },
+      {
+        "entity_number": 25,
+        "name": "land-mine",
+        "position": {
+          "x": 3.703125,
+          "y": 3.703125
+        }
+      }
+    ],
+    "icons": [
+      {
+        "index": 1,
+        "signal": {
+          "name": "land-mine"
+        }
+      },
+      {
+        "index": 2,
+        "signal": {
+          "name": "land-mine"
+        }
+      },
+      {
+        "index": 3,
+        "signal": {
+          "name": "land-mine"
+        }
+      },
+      {
+        "index": 4,
+        "signal": {
+          "name": "land-mine"
+        }
+      }
+    ],
+    "version": 562954249306113
+  },
+  "index": 9
+}

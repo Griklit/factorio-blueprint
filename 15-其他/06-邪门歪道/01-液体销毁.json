@@ -1,0 +1,88 @@
+{
+  "blueprint": {
+    "item": "blueprint",
+    "label": "液体销毁",
+    "description": "你应当永远保证你的石油气消耗量大于重油轻油，而不是使用本蓝图。\n你应当把氨做成固体燃料后烧毁，而不是使用本蓝图。",
+    "entities": [
+      {
+        "control_behavior": {
+          "decider_conditions": {
+            "conditions": [
+              {
+                "constant": 500,
+                "first_signal": {
+                  "name": "ammonia",
+                  "type": "fluid"
+                }
+              }
+            ],
+            "else_outputs": [],
+            "outputs": [
+              {
+                "copy_count_from_input": false,
+                "signal": {
+                  "name": "ammonia-rocket-fuel",
+                  "type": "recipe"
+                }
+              }
+            ]
+          }
+        },
+        "direction": 4,
+        "entity_number": 1,
+        "name": "decider-combinator",
+        "position": {
+          "x": -15,
+          "y": 25.5
+        }
+      },
+      {
+        "control_behavior": {
+          "read_contents": true,
+          "set_recipe": true
+        },
+        "direction": 12,
+        "entity_number": 2,
+        "name": "chemical-plant",
+        "position": {
+          "x": -15.5,
+          "y": 27.5
+        },
+        "recipe": "ammonia-rocket-fuel",
+        "recipe_quality": "normal"
+      }
+    ],
+    "icons": [
+      {
+        "index": 1,
+        "signal": {
+          "name": "water",
+          "type": "fluid"
+        }
+      },
+      {
+        "index": 2,
+        "signal": {
+          "name": "signal-trash-bin",
+          "type": "virtual"
+        }
+      }
+    ],
+    "version": 562954249306113,
+    "wires": [
+      [
+        1,
+        1,
+        2,
+        1
+      ],
+      [
+        1,
+        3,
+        2,
+        1
+      ]
+    ]
+  },
+  "index": 1
+}

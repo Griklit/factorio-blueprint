@@ -1,0 +1,345 @@
+{
+  "blueprint": {
+    "item": "blueprint",
+    "label": "下斜-接口",
+    "absolute-snapping": true,
+    "entities": [
+      {
+        "direction": 4,
+        "entity_number": 1,
+        "name": "straight-rail",
+        "position": {
+          "x": 1,
+          "y": 13
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 2,
+        "name": "straight-rail",
+        "position": {
+          "x": 3,
+          "y": 13
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 3,
+        "name": "straight-rail",
+        "position": {
+          "x": 5,
+          "y": 13
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 4,
+        "name": "straight-rail",
+        "position": {
+          "x": 7,
+          "y": 13
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 5,
+        "name": "straight-rail",
+        "position": {
+          "x": 9,
+          "y": 13
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 6,
+        "name": "straight-rail",
+        "position": {
+          "x": 11,
+          "y": 13
+        }
+      },
+      {
+        "direction": 6,
+        "entity_number": 7,
+        "name": "curved-rail-a",
+        "position": {
+          "x": 14,
+          "y": 13
+        }
+      },
+      {
+        "direction": 6,
+        "entity_number": 8,
+        "name": "curved-rail-b",
+        "position": {
+          "x": 19,
+          "y": 15
+        }
+      },
+      {
+        "entity_number": 9,
+        "name": "big-electric-pole",
+        "position": {
+          "x": -16,
+          "y": 16
+        }
+      },
+      {
+        "entity_number": 10,
+        "name": "big-electric-pole",
+        "position": {
+          "x": 16,
+          "y": 16
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 11,
+        "name": "straight-rail",
+        "position": {
+          "x": 1,
+          "y": 19
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 12,
+        "name": "straight-rail",
+        "position": {
+          "x": 3,
+          "y": 19
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 13,
+        "name": "straight-rail",
+        "position": {
+          "x": 5,
+          "y": 19
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 14,
+        "name": "straight-rail",
+        "position": {
+          "x": 7,
+          "y": 19
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 15,
+        "name": "straight-rail",
+        "position": {
+          "x": 9,
+          "y": 19
+        }
+      },
+      {
+        "direction": 6,
+        "entity_number": 16,
+        "name": "curved-rail-a",
+        "position": {
+          "x": 12,
+          "y": 19
+        }
+      },
+      {
+        "direction": 6,
+        "entity_number": 17,
+        "name": "straight-rail",
+        "position": {
+          "x": 22,
+          "y": 18
+        }
+      },
+      {
+        "direction": 6,
+        "entity_number": 18,
+        "name": "curved-rail-b",
+        "position": {
+          "x": 17,
+          "y": 21
+        }
+      },
+      {
+        "direction": 6,
+        "entity_number": 19,
+        "name": "straight-rail",
+        "position": {
+          "x": 24,
+          "y": 20
+        }
+      },
+      {
+        "direction": 6,
+        "entity_number": 20,
+        "name": "straight-rail",
+        "position": {
+          "x": 26,
+          "y": 22
+        }
+      },
+      {
+        "direction": 6,
+        "entity_number": 21,
+        "name": "straight-rail",
+        "position": {
+          "x": 20,
+          "y": 24
+        }
+      },
+      {
+        "direction": 6,
+        "entity_number": 22,
+        "name": "straight-rail",
+        "position": {
+          "x": 28,
+          "y": 24
+        }
+      },
+      {
+        "direction": 6,
+        "entity_number": 23,
+        "name": "straight-rail",
+        "position": {
+          "x": 22,
+          "y": 26
+        }
+      },
+      {
+        "direction": 6,
+        "entity_number": 24,
+        "name": "straight-rail",
+        "position": {
+          "x": 30,
+          "y": 26
+        }
+      },
+      {
+        "direction": 6,
+        "entity_number": 25,
+        "name": "straight-rail",
+        "position": {
+          "x": 24,
+          "y": 28
+        }
+      },
+      {
+        "direction": 6,
+        "entity_number": 26,
+        "name": "straight-rail",
+        "position": {
+          "x": 32,
+          "y": 28
+        }
+      },
+      {
+        "direction": 6,
+        "entity_number": 27,
+        "name": "straight-rail",
+        "position": {
+          "x": 26,
+          "y": 30
+        }
+      },
+      {
+        "direction": 6,
+        "entity_number": 28,
+        "name": "straight-rail",
+        "position": {
+          "x": 34,
+          "y": 30
+        }
+      },
+      {
+        "direction": 6,
+        "entity_number": 29,
+        "name": "straight-rail",
+        "position": {
+          "x": 28,
+          "y": 32
+        }
+      },
+      {
+        "entity_number": 30,
+        "name": "big-electric-pole",
+        "position": {
+          "x": 32,
+          "y": 32
+        }
+      },
+      {
+        "direction": 6,
+        "entity_number": 31,
+        "name": "straight-rail",
+        "position": {
+          "x": 30,
+          "y": 34
+        }
+      }
+    ],
+    "icons": [
+      {
+        "index": 1,
+        "signal": {
+          "name": "shape-diagonal",
+          "type": "virtual"
+        }
+      },
+      {
+        "index": 2,
+        "signal": {
+          "name": "shape-horizontal",
+          "type": "virtual"
+        }
+      }
+    ],
+    "snap-to-grid": {
+      "x": 32,
+      "y": 32
+    },
+    "version": 562954249306113,
+    "wires": [
+      [
+        9,
+        1,
+        10,
+        1
+      ],
+      [
+        9,
+        2,
+        10,
+        2
+      ],
+      [
+        9,
+        5,
+        10,
+        5
+      ],
+      [
+        10,
+        1,
+        30,
+        1
+      ],
+      [
+        10,
+        2,
+        30,
+        2
+      ],
+      [
+        10,
+        5,
+        30,
+        5
+      ]
+    ]
+  },
+  "index": 1
+}

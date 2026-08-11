@@ -1,0 +1,26 @@
+{
+  "upgrade_planner": {
+    "label": "低级插件升级为[item=quality-module-3,quality=epic]",
+    "item": "upgrade-planner",
+    "settings": {
+      "mappers": [
+        {
+          "from": {
+            "comparator": "<",
+            "name": "quality-module-3",
+            "quality": "epic",
+            "type": "item"
+          },
+          "index": 0,
+          "to": {
+            "name": "quality-module-3",
+            "quality": "epic",
+            "type": "item"
+          }
+        }
+      ]
+    },
+    "version": 562954249306113
+  },
+  "index": 2
+}

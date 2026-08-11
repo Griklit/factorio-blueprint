@@ -1,0 +1,28 @@
+{
+  "blueprint": {
+    "item": "blueprint",
+    "label": "基础完全均分器理论(lane balancer)",
+    "description": "参见：\nhttps://www.reddit.com/gallery/jyxv5w\n\n*译者注：我在这篇帖子里也详细讨论了”完全均分器“相关的基础理论：\nhttps://tieba.baidu.com/p/8919498697?pid=149878644552&cid=0#149878644552",
+    "entities": [
+      {
+        "direction": 4,
+        "entity_number": 1,
+        "name": "express-splitter",
+        "position": {
+          "x": 504.5,
+          "y": 301
+        }
+      }
+    ],
+    "icons": [
+      {
+        "index": 1,
+        "signal": {
+          "name": "express-splitter"
+        }
+      }
+    ],
+    "version": 562954249306113
+  },
+  "index": 1
+}

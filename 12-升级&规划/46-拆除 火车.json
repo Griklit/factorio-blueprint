@@ -1,0 +1,55 @@
+{
+  "deconstruction_planner": {
+    "label": "拆除 火车",
+    "item": "deconstruction-planner",
+    "settings": {
+      "entity_filters": [
+        {
+          "index": 0,
+          "name": "locomotive"
+        },
+        {
+          "index": 1,
+          "name": "cargo-wagon"
+        },
+        {
+          "index": 2,
+          "name": "fluid-wagon"
+        },
+        {
+          "index": 3,
+          "name": "artillery-wagon"
+        }
+      ],
+      "icons": [
+        {
+          "index": 1,
+          "signal": {
+            "name": "locomotive"
+          }
+        },
+        {
+          "index": 2,
+          "signal": {
+            "name": "cargo-wagon"
+          }
+        },
+        {
+          "index": 3,
+          "signal": {
+            "name": "fluid-wagon"
+          }
+        },
+        {
+          "index": 4,
+          "signal": {
+            "name": "artillery-wagon"
+          }
+        }
+      ],
+      "tile_selection_mode": 2
+    },
+    "version": 562954249306113
+  },
+  "index": 46
+}

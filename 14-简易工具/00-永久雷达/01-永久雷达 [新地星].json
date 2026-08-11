@@ -1,0 +1,161 @@
+{
+  "blueprint": {
+    "item": "blueprint",
+    "label": "永久雷达 [新地星]",
+    "entities": [
+      {
+        "entity_number": 1,
+        "name": "accumulator",
+        "position": {
+          "x": 157,
+          "y": 126
+        }
+      },
+      {
+        "entity_number": 2,
+        "name": "solar-panel",
+        "position": {
+          "x": 157.5,
+          "y": 117.5
+        }
+      },
+      {
+        "entity_number": 3,
+        "name": "solar-panel",
+        "position": {
+          "x": 157.5,
+          "y": 120.5
+        }
+      },
+      {
+        "entity_number": 4,
+        "name": "solar-panel",
+        "position": {
+          "x": 157.5,
+          "y": 123.5
+        }
+      },
+      {
+        "entity_number": 5,
+        "name": "accumulator",
+        "position": {
+          "x": 159,
+          "y": 126
+        }
+      },
+      {
+        "entity_number": 6,
+        "name": "medium-electric-pole",
+        "position": {
+          "x": 159.5,
+          "y": 120.5
+        }
+      },
+      {
+        "entity_number": 7,
+        "name": "medium-electric-pole",
+        "position": {
+          "x": 159.5,
+          "y": 124.5
+        }
+      },
+      {
+        "entity_number": 8,
+        "name": "solar-panel",
+        "position": {
+          "x": 160.5,
+          "y": 117.5
+        }
+      },
+      {
+        "entity_number": 9,
+        "name": "radar",
+        "position": {
+          "x": 160.5,
+          "y": 122.5
+        }
+      },
+      {
+        "entity_number": 10,
+        "name": "accumulator",
+        "position": {
+          "x": 161,
+          "y": 120
+        }
+      },
+      {
+        "entity_number": 11,
+        "name": "accumulator",
+        "position": {
+          "x": 161,
+          "y": 125
+        }
+      },
+      {
+        "entity_number": 12,
+        "name": "accumulator",
+        "position": {
+          "x": 161,
+          "y": 127
+        }
+      },
+      {
+        "entity_number": 13,
+        "name": "accumulator",
+        "position": {
+          "x": 163,
+          "y": 126
+        }
+      },
+      {
+        "entity_number": 14,
+        "name": "solar-panel",
+        "position": {
+          "x": 163.5,
+          "y": 117.5
+        }
+      },
+      {
+        "entity_number": 15,
+        "name": "solar-panel",
+        "position": {
+          "x": 163.5,
+          "y": 120.5
+        }
+      },
+      {
+        "entity_number": 16,
+        "name": "solar-panel",
+        "position": {
+          "x": 163.5,
+          "y": 123.5
+        }
+      }
+    ],
+    "icons": [
+      {
+        "index": 1,
+        "signal": {
+          "name": "radar"
+        }
+      },
+      {
+        "index": 2,
+        "signal": {
+          "name": "nauvis",
+          "type": "space-location"
+        }
+      }
+    ],
+    "version": 562954249306113,
+    "wires": [
+      [
+        6,
+        5,
+        7,
+        5
+      ]
+    ]
+  },
+  "index": 1
+}

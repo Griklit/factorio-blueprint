@@ -1,0 +1,140 @@
+{
+  "blueprint": {
+    "item": "blueprint",
+    "absolute-snapping": true,
+    "entities": [
+      {
+        "direction": 4,
+        "entity_number": 1,
+        "name": "straight-rail",
+        "position": {
+          "x": 1,
+          "y": 13
+        }
+      },
+      {
+        "direction": 6,
+        "entity_number": 2,
+        "name": "curved-rail-a",
+        "position": {
+          "x": 2,
+          "y": 19
+        }
+      },
+      {
+        "direction": 6,
+        "entity_number": 3,
+        "name": "curved-rail-a",
+        "position": {
+          "x": 4,
+          "y": 13
+        }
+      },
+      {
+        "direction": 6,
+        "entity_number": 4,
+        "name": "curved-rail-b",
+        "position": {
+          "x": 7,
+          "y": 21
+        }
+      },
+      {
+        "direction": 6,
+        "entity_number": 5,
+        "name": "curved-rail-b",
+        "position": {
+          "x": 9,
+          "y": 15
+        }
+      },
+      {
+        "entity_number": 6,
+        "name": "curved-rail-b",
+        "position": {
+          "x": 11,
+          "y": 25
+        }
+      },
+      {
+        "direction": 6,
+        "entity_number": 7,
+        "name": "straight-rail",
+        "position": {
+          "x": 12,
+          "y": 18
+        }
+      },
+      {
+        "entity_number": 8,
+        "name": "curved-rail-a",
+        "position": {
+          "x": 13,
+          "y": 30
+        }
+      },
+      {
+        "direction": 6,
+        "entity_number": 9,
+        "name": "straight-rail",
+        "position": {
+          "x": 14,
+          "y": 20
+        }
+      },
+      {
+        "entity_number": 10,
+        "name": "big-electric-pole",
+        "position": {
+          "x": 16,
+          "y": 16
+        }
+      },
+      {
+        "entity_number": 11,
+        "name": "curved-rail-b",
+        "position": {
+          "x": 17,
+          "y": 23
+        }
+      },
+      {
+        "entity_number": 12,
+        "name": "curved-rail-a",
+        "position": {
+          "x": 19,
+          "y": 28
+        }
+      },
+      {
+        "entity_number": 13,
+        "name": "straight-rail",
+        "position": {
+          "x": 19,
+          "y": 31
+        }
+      }
+    ],
+    "icons": [
+      {
+        "index": 1,
+        "signal": {
+          "name": "rail"
+        }
+      },
+      {
+        "index": 2,
+        "signal": {
+          "name": "shape-corner-2",
+          "type": "virtual"
+        }
+      }
+    ],
+    "snap-to-grid": {
+      "x": 32,
+      "y": 32
+    },
+    "version": 562954249306113
+  },
+  "index": 1
+}

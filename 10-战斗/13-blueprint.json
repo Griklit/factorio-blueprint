@@ -1,0 +1,143 @@
+{
+  "blueprint": {
+    "item": "blueprint",
+    "entities": [
+      {
+        "entity_number": 1,
+        "name": "laser-turret",
+        "position": {
+          "x": -24,
+          "y": 385
+        }
+      },
+      {
+        "entity_number": 2,
+        "name": "laser-turret",
+        "position": {
+          "x": -24,
+          "y": 387
+        }
+      },
+      {
+        "entity_number": 3,
+        "name": "laser-turret",
+        "position": {
+          "x": -24,
+          "y": 389
+        }
+      },
+      {
+        "entity_number": 4,
+        "name": "laser-turret",
+        "position": {
+          "x": -24,
+          "y": 391
+        }
+      },
+      {
+        "entity_number": 5,
+        "name": "laser-turret",
+        "position": {
+          "x": -24,
+          "y": 393
+        }
+      },
+      {
+        "entity_number": 6,
+        "name": "laser-turret",
+        "position": {
+          "x": -24,
+          "y": 395
+        }
+      },
+      {
+        "entity_number": 7,
+        "name": "laser-turret",
+        "position": {
+          "x": -24,
+          "y": 397
+        }
+      },
+      {
+        "entity_number": 8,
+        "name": "laser-turret",
+        "position": {
+          "x": -24,
+          "y": 399
+        }
+      },
+      {
+        "entity_number": 9,
+        "name": "laser-turret",
+        "position": {
+          "x": -24,
+          "y": 401
+        }
+      },
+      {
+        "entity_number": 10,
+        "name": "laser-turret",
+        "position": {
+          "x": -24,
+          "y": 403
+        }
+      },
+      {
+        "entity_number": 11,
+        "name": "laser-turret",
+        "position": {
+          "x": -24,
+          "y": 405
+        }
+      },
+      {
+        "entity_number": 12,
+        "name": "medium-electric-pole",
+        "position": {
+          "x": -22.5,
+          "y": 387.5
+        }
+      },
+      {
+        "entity_number": 13,
+        "name": "medium-electric-pole",
+        "position": {
+          "x": -22.5,
+          "y": 402.5
+        }
+      },
+      {
+        "entity_number": 14,
+        "name": "big-electric-pole",
+        "position": {
+          "x": -22,
+          "y": 395
+        }
+      }
+    ],
+    "icons": [
+      {
+        "index": 1,
+        "signal": {
+          "name": "laser-turret"
+        }
+      }
+    ],
+    "version": 562954249306113,
+    "wires": [
+      [
+        12,
+        5,
+        14,
+        5
+      ],
+      [
+        13,
+        5,
+        14,
+        5
+      ]
+    ]
+  },
+  "index": 13
+}

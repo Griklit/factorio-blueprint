@@ -1,0 +1,16 @@
+{
+  "active_index": 13,
+  "blueprints": [],
+  "icons": [
+    {
+      "index": 1,
+      "signal": {
+        "name": "signal-info",
+        "type": "virtual"
+      }
+    }
+  ],
+  "item": "blueprint-book",
+  "label": "均分器设计-进阶技巧",
+  "version": 562954249306113
+}

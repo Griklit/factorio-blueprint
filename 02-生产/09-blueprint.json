@@ -1,0 +1,1198 @@
+{
+  "blueprint": {
+    "item": "blueprint",
+    "entities": [
+      {
+        "entity_number": 1,
+        "name": "pipe",
+        "position": {
+          "x": 185.5,
+          "y": 75.5
+        }
+      },
+      {
+        "entity_number": 2,
+        "name": "medium-electric-pole",
+        "position": {
+          "x": 185.5,
+          "y": 79.5
+        }
+      },
+      {
+        "direction": 12,
+        "entity_number": 3,
+        "name": "fast-transport-belt",
+        "position": {
+          "x": 185.5,
+          "y": 81.5
+        }
+      },
+      {
+        "entity_number": 4,
+        "name": "pipe",
+        "position": {
+          "x": 186.5,
+          "y": 75.5
+        }
+      },
+      {
+        "entity_number": 5,
+        "name": "chemical-plant",
+        "position": {
+          "x": 186.5,
+          "y": 77.5
+        },
+        "recipe": "solid-fuel-from-light-oil",
+        "recipe_quality": "normal"
+      },
+      {
+        "entity_number": 6,
+        "name": "inserter",
+        "position": {
+          "x": 186.5,
+          "y": 79.5
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 7,
+        "name": "fast-transport-belt",
+        "position": {
+          "x": 186.5,
+          "y": 80.5
+        }
+      },
+      {
+        "direction": 12,
+        "entity_number": 8,
+        "name": "fast-transport-belt",
+        "position": {
+          "x": 186.5,
+          "y": 81.5
+        }
+      },
+      {
+        "entity_number": 9,
+        "name": "pipe",
+        "position": {
+          "x": 187.5,
+          "y": 75.5
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 10,
+        "name": "fast-transport-belt",
+        "position": {
+          "x": 187.5,
+          "y": 80.5
+        }
+      },
+      {
+        "direction": 12,
+        "entity_number": 11,
+        "name": "fast-transport-belt",
+        "position": {
+          "x": 187.5,
+          "y": 81.5
+        }
+      },
+      {
+        "entity_number": 12,
+        "name": "pipe",
+        "position": {
+          "x": 188.5,
+          "y": 75.5
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 13,
+        "name": "fast-transport-belt",
+        "position": {
+          "x": 188.5,
+          "y": 80.5
+        }
+      },
+      {
+        "direction": 12,
+        "entity_number": 14,
+        "name": "fast-transport-belt",
+        "position": {
+          "x": 188.5,
+          "y": 81.5
+        }
+      },
+      {
+        "entity_number": 15,
+        "name": "pipe",
+        "position": {
+          "x": 189.5,
+          "y": 75.5
+        }
+      },
+      {
+        "entity_number": 16,
+        "name": "chemical-plant",
+        "position": {
+          "x": 189.5,
+          "y": 77.5
+        },
+        "recipe": "solid-fuel-from-light-oil",
+        "recipe_quality": "normal"
+      },
+      {
+        "entity_number": 17,
+        "name": "inserter",
+        "position": {
+          "x": 189.5,
+          "y": 79.5
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 18,
+        "name": "fast-transport-belt",
+        "position": {
+          "x": 189.5,
+          "y": 80.5
+        }
+      },
+      {
+        "direction": 12,
+        "entity_number": 19,
+        "name": "fast-transport-belt",
+        "position": {
+          "x": 189.5,
+          "y": 81.5
+        }
+      },
+      {
+        "entity_number": 20,
+        "name": "pipe",
+        "position": {
+          "x": 190.5,
+          "y": 75.5
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 21,
+        "name": "fast-transport-belt",
+        "position": {
+          "x": 190.5,
+          "y": 80.5
+        }
+      },
+      {
+        "direction": 12,
+        "entity_number": 22,
+        "name": "fast-transport-belt",
+        "position": {
+          "x": 190.5,
+          "y": 81.5
+        }
+      },
+      {
+        "entity_number": 23,
+        "name": "pipe",
+        "position": {
+          "x": 191.5,
+          "y": 75.5
+        }
+      },
+      {
+        "entity_number": 24,
+        "name": "medium-electric-pole",
+        "position": {
+          "x": 191.5,
+          "y": 79.5
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 25,
+        "name": "fast-transport-belt",
+        "position": {
+          "x": 191.5,
+          "y": 80.5
+        }
+      },
+      {
+        "direction": 12,
+        "entity_number": 26,
+        "name": "fast-transport-belt",
+        "position": {
+          "x": 191.5,
+          "y": 81.5
+        }
+      },
+      {
+        "entity_number": 27,
+        "name": "pipe",
+        "position": {
+          "x": 192.5,
+          "y": 75.5
+        }
+      },
+      {
+        "entity_number": 28,
+        "name": "chemical-plant",
+        "position": {
+          "x": 192.5,
+          "y": 77.5
+        },
+        "recipe": "solid-fuel-from-light-oil",
+        "recipe_quality": "normal"
+      },
+      {
+        "entity_number": 29,
+        "name": "inserter",
+        "position": {
+          "x": 192.5,
+          "y": 79.5
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 30,
+        "name": "fast-transport-belt",
+        "position": {
+          "x": 192.5,
+          "y": 80.5
+        }
+      },
+      {
+        "direction": 12,
+        "entity_number": 31,
+        "name": "fast-transport-belt",
+        "position": {
+          "x": 192.5,
+          "y": 81.5
+        }
+      },
+      {
+        "entity_number": 32,
+        "name": "pipe",
+        "position": {
+          "x": 193.5,
+          "y": 75.5
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 33,
+        "name": "fast-transport-belt",
+        "position": {
+          "x": 193.5,
+          "y": 80.5
+        }
+      },
+      {
+        "direction": 12,
+        "entity_number": 34,
+        "name": "fast-transport-belt",
+        "position": {
+          "x": 193.5,
+          "y": 81.5
+        }
+      },
+      {
+        "entity_number": 35,
+        "name": "pipe",
+        "position": {
+          "x": 194.5,
+          "y": 75.5
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 36,
+        "name": "fast-transport-belt",
+        "position": {
+          "x": 194.5,
+          "y": 80.5
+        }
+      },
+      {
+        "direction": 12,
+        "entity_number": 37,
+        "name": "fast-transport-belt",
+        "position": {
+          "x": 194.5,
+          "y": 81.5
+        }
+      },
+      {
+        "entity_number": 38,
+        "name": "pipe",
+        "position": {
+          "x": 195.5,
+          "y": 75.5
+        }
+      },
+      {
+        "entity_number": 39,
+        "name": "chemical-plant",
+        "position": {
+          "x": 195.5,
+          "y": 77.5
+        },
+        "recipe": "solid-fuel-from-light-oil",
+        "recipe_quality": "normal"
+      },
+      {
+        "entity_number": 40,
+        "name": "inserter",
+        "position": {
+          "x": 195.5,
+          "y": 79.5
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 41,
+        "name": "fast-transport-belt",
+        "position": {
+          "x": 195.5,
+          "y": 80.5
+        }
+      },
+      {
+        "direction": 12,
+        "entity_number": 42,
+        "name": "fast-transport-belt",
+        "position": {
+          "x": 195.5,
+          "y": 81.5
+        }
+      },
+      {
+        "entity_number": 43,
+        "name": "pipe",
+        "position": {
+          "x": 196.5,
+          "y": 75.5
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 44,
+        "name": "fast-transport-belt",
+        "position": {
+          "x": 196.5,
+          "y": 80.5
+        }
+      },
+      {
+        "direction": 12,
+        "entity_number": 45,
+        "name": "fast-transport-belt",
+        "position": {
+          "x": 196.5,
+          "y": 81.5
+        }
+      },
+      {
+        "entity_number": 46,
+        "name": "pipe",
+        "position": {
+          "x": 197.5,
+          "y": 75.5
+        }
+      },
+      {
+        "entity_number": 47,
+        "name": "medium-electric-pole",
+        "position": {
+          "x": 197.5,
+          "y": 79.5
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 48,
+        "name": "fast-transport-belt",
+        "position": {
+          "x": 197.5,
+          "y": 80.5
+        }
+      },
+      {
+        "direction": 12,
+        "entity_number": 49,
+        "name": "fast-transport-belt",
+        "position": {
+          "x": 197.5,
+          "y": 81.5
+        }
+      },
+      {
+        "entity_number": 50,
+        "name": "pipe",
+        "position": {
+          "x": 198.5,
+          "y": 75.5
+        }
+      },
+      {
+        "entity_number": 51,
+        "name": "chemical-plant",
+        "position": {
+          "x": 198.5,
+          "y": 77.5
+        },
+        "recipe": "solid-fuel-from-light-oil",
+        "recipe_quality": "normal"
+      },
+      {
+        "entity_number": 52,
+        "name": "inserter",
+        "position": {
+          "x": 198.5,
+          "y": 79.5
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 53,
+        "name": "fast-transport-belt",
+        "position": {
+          "x": 198.5,
+          "y": 80.5
+        }
+      },
+      {
+        "direction": 12,
+        "entity_number": 54,
+        "name": "fast-transport-belt",
+        "position": {
+          "x": 198.5,
+          "y": 81.5
+        }
+      },
+      {
+        "entity_number": 55,
+        "name": "pipe",
+        "position": {
+          "x": 199.5,
+          "y": 75.5
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 56,
+        "name": "fast-transport-belt",
+        "position": {
+          "x": 199.5,
+          "y": 80.5
+        }
+      },
+      {
+        "direction": 12,
+        "entity_number": 57,
+        "name": "fast-transport-belt",
+        "position": {
+          "x": 199.5,
+          "y": 81.5
+        }
+      },
+      {
+        "entity_number": 58,
+        "name": "pipe",
+        "position": {
+          "x": 200.5,
+          "y": 75.5
+        }
+      },
+      {
+        "entity_number": 59,
+        "name": "long-handed-inserter",
+        "position": {
+          "x": 200.5,
+          "y": 79.5
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 60,
+        "name": "fast-transport-belt",
+        "position": {
+          "x": 200.5,
+          "y": 80.5
+        }
+      },
+      {
+        "direction": 12,
+        "entity_number": 61,
+        "name": "fast-transport-belt",
+        "position": {
+          "x": 200.5,
+          "y": 81.5
+        }
+      },
+      {
+        "entity_number": 62,
+        "name": "pipe",
+        "position": {
+          "x": 201.5,
+          "y": 75.5
+        }
+      },
+      {
+        "entity_number": 63,
+        "name": "assembling-machine-2",
+        "position": {
+          "x": 201.5,
+          "y": 77.5
+        },
+        "recipe": "rocket-fuel",
+        "recipe_quality": "normal"
+      },
+      {
+        "direction": 8,
+        "entity_number": 64,
+        "name": "inserter",
+        "position": {
+          "x": 201.5,
+          "y": 79.5
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 65,
+        "name": "fast-transport-belt",
+        "position": {
+          "x": 201.5,
+          "y": 80.5
+        }
+      },
+      {
+        "direction": 12,
+        "entity_number": 66,
+        "name": "fast-transport-belt",
+        "position": {
+          "x": 201.5,
+          "y": 81.5
+        }
+      },
+      {
+        "entity_number": 67,
+        "name": "pipe",
+        "position": {
+          "x": 202.5,
+          "y": 75.5
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 68,
+        "name": "fast-transport-belt",
+        "position": {
+          "x": 202.5,
+          "y": 80.5
+        }
+      },
+      {
+        "direction": 12,
+        "entity_number": 69,
+        "name": "fast-transport-belt",
+        "position": {
+          "x": 202.5,
+          "y": 81.5
+        }
+      },
+      {
+        "entity_number": 70,
+        "name": "pipe",
+        "position": {
+          "x": 203.5,
+          "y": 75.5
+        }
+      },
+      {
+        "entity_number": 71,
+        "name": "medium-electric-pole",
+        "position": {
+          "x": 203.5,
+          "y": 79.5
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 72,
+        "name": "fast-transport-belt",
+        "position": {
+          "x": 203.5,
+          "y": 80.5
+        }
+      },
+      {
+        "direction": 12,
+        "entity_number": 73,
+        "name": "fast-transport-belt",
+        "position": {
+          "x": 203.5,
+          "y": 81.5
+        }
+      },
+      {
+        "entity_number": 74,
+        "name": "pipe",
+        "position": {
+          "x": 204.5,
+          "y": 75.5
+        }
+      },
+      {
+        "entity_number": 75,
+        "name": "assembling-machine-2",
+        "position": {
+          "x": 204.5,
+          "y": 77.5
+        },
+        "recipe": "rocket-fuel",
+        "recipe_quality": "normal"
+      },
+      {
+        "direction": 8,
+        "entity_number": 76,
+        "name": "inserter",
+        "position": {
+          "x": 204.5,
+          "y": 79.5
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 77,
+        "name": "fast-transport-belt",
+        "position": {
+          "x": 204.5,
+          "y": 80.5
+        }
+      },
+      {
+        "direction": 12,
+        "entity_number": 78,
+        "name": "fast-transport-belt",
+        "position": {
+          "x": 204.5,
+          "y": 81.5
+        }
+      },
+      {
+        "entity_number": 79,
+        "name": "pipe",
+        "position": {
+          "x": 205.5,
+          "y": 75.5
+        }
+      },
+      {
+        "entity_number": 80,
+        "name": "long-handed-inserter",
+        "position": {
+          "x": 205.5,
+          "y": 79.5
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 81,
+        "name": "fast-transport-belt",
+        "position": {
+          "x": 205.5,
+          "y": 80.5
+        }
+      },
+      {
+        "direction": 12,
+        "entity_number": 82,
+        "name": "fast-transport-belt",
+        "position": {
+          "x": 205.5,
+          "y": 81.5
+        }
+      },
+      {
+        "entity_number": 83,
+        "name": "pipe",
+        "position": {
+          "x": 206.5,
+          "y": 75.5
+        }
+      },
+      {
+        "entity_number": 84,
+        "name": "long-handed-inserter",
+        "position": {
+          "x": 206.5,
+          "y": 79.5
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 85,
+        "name": "fast-transport-belt",
+        "position": {
+          "x": 206.5,
+          "y": 80.5
+        }
+      },
+      {
+        "direction": 12,
+        "entity_number": 86,
+        "name": "fast-transport-belt",
+        "position": {
+          "x": 206.5,
+          "y": 81.5
+        }
+      },
+      {
+        "entity_number": 87,
+        "name": "pipe",
+        "position": {
+          "x": 207.5,
+          "y": 75.5
+        }
+      },
+      {
+        "entity_number": 88,
+        "name": "assembling-machine-2",
+        "position": {
+          "x": 207.5,
+          "y": 77.5
+        },
+        "recipe": "rocket-fuel",
+        "recipe_quality": "normal"
+      },
+      {
+        "direction": 8,
+        "entity_number": 89,
+        "name": "inserter",
+        "position": {
+          "x": 207.5,
+          "y": 79.5
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 90,
+        "name": "fast-transport-belt",
+        "position": {
+          "x": 207.5,
+          "y": 80.5
+        }
+      },
+      {
+        "direction": 12,
+        "entity_number": 91,
+        "name": "fast-transport-belt",
+        "position": {
+          "x": 207.5,
+          "y": 81.5
+        }
+      },
+      {
+        "entity_number": 92,
+        "name": "pipe",
+        "position": {
+          "x": 208.5,
+          "y": 75.5
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 93,
+        "name": "fast-transport-belt",
+        "position": {
+          "x": 208.5,
+          "y": 80.5
+        }
+      },
+      {
+        "direction": 12,
+        "entity_number": 94,
+        "name": "fast-transport-belt",
+        "position": {
+          "x": 208.5,
+          "y": 81.5
+        }
+      },
+      {
+        "entity_number": 95,
+        "name": "pipe",
+        "position": {
+          "x": 209.5,
+          "y": 75.5
+        }
+      },
+      {
+        "entity_number": 96,
+        "name": "medium-electric-pole",
+        "position": {
+          "x": 209.5,
+          "y": 79.5
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 97,
+        "name": "fast-transport-belt",
+        "position": {
+          "x": 209.5,
+          "y": 80.5
+        }
+      },
+      {
+        "direction": 12,
+        "entity_number": 98,
+        "name": "fast-transport-belt",
+        "position": {
+          "x": 209.5,
+          "y": 81.5
+        }
+      },
+      {
+        "entity_number": 99,
+        "name": "pipe",
+        "position": {
+          "x": 210.5,
+          "y": 75.5
+        }
+      },
+      {
+        "entity_number": 100,
+        "name": "assembling-machine-2",
+        "position": {
+          "x": 210.5,
+          "y": 77.5
+        },
+        "recipe": "rocket-fuel",
+        "recipe_quality": "normal"
+      },
+      {
+        "direction": 8,
+        "entity_number": 101,
+        "name": "inserter",
+        "position": {
+          "x": 210.5,
+          "y": 79.5
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 102,
+        "name": "fast-transport-belt",
+        "position": {
+          "x": 210.5,
+          "y": 80.5
+        }
+      },
+      {
+        "direction": 12,
+        "entity_number": 103,
+        "name": "fast-transport-belt",
+        "position": {
+          "x": 210.5,
+          "y": 81.5
+        }
+      },
+      {
+        "entity_number": 104,
+        "name": "pipe",
+        "position": {
+          "x": 211.5,
+          "y": 75.5
+        }
+      },
+      {
+        "entity_number": 105,
+        "name": "long-handed-inserter",
+        "position": {
+          "x": 211.5,
+          "y": 79.5
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 106,
+        "name": "fast-transport-belt",
+        "position": {
+          "x": 211.5,
+          "y": 80.5
+        }
+      },
+      {
+        "direction": 12,
+        "entity_number": 107,
+        "name": "fast-transport-belt",
+        "position": {
+          "x": 211.5,
+          "y": 81.5
+        }
+      },
+      {
+        "entity_number": 108,
+        "name": "pipe",
+        "position": {
+          "x": 212.5,
+          "y": 75.5
+        }
+      },
+      {
+        "entity_number": 109,
+        "name": "long-handed-inserter",
+        "position": {
+          "x": 212.5,
+          "y": 79.5
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 110,
+        "name": "fast-transport-belt",
+        "position": {
+          "x": 212.5,
+          "y": 80.5
+        }
+      },
+      {
+        "direction": 12,
+        "entity_number": 111,
+        "name": "fast-transport-belt",
+        "position": {
+          "x": 212.5,
+          "y": 81.5
+        }
+      },
+      {
+        "entity_number": 112,
+        "name": "pipe",
+        "position": {
+          "x": 213.5,
+          "y": 75.5
+        }
+      },
+      {
+        "entity_number": 113,
+        "name": "assembling-machine-2",
+        "position": {
+          "x": 213.5,
+          "y": 77.5
+        },
+        "recipe": "rocket-fuel",
+        "recipe_quality": "normal"
+      },
+      {
+        "direction": 8,
+        "entity_number": 114,
+        "name": "inserter",
+        "position": {
+          "x": 213.5,
+          "y": 79.5
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 115,
+        "name": "fast-transport-belt",
+        "position": {
+          "x": 213.5,
+          "y": 80.5
+        }
+      },
+      {
+        "direction": 12,
+        "entity_number": 116,
+        "name": "fast-transport-belt",
+        "position": {
+          "x": 213.5,
+          "y": 81.5
+        }
+      },
+      {
+        "entity_number": 117,
+        "name": "pipe",
+        "position": {
+          "x": 214.5,
+          "y": 75.5
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 118,
+        "name": "fast-transport-belt",
+        "position": {
+          "x": 214.5,
+          "y": 80.5
+        }
+      },
+      {
+        "direction": 12,
+        "entity_number": 119,
+        "name": "fast-transport-belt",
+        "position": {
+          "x": 214.5,
+          "y": 81.5
+        }
+      },
+      {
+        "entity_number": 120,
+        "name": "pipe",
+        "position": {
+          "x": 215.5,
+          "y": 75.5
+        }
+      },
+      {
+        "entity_number": 121,
+        "name": "medium-electric-pole",
+        "position": {
+          "x": 215.5,
+          "y": 79.5
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 122,
+        "name": "fast-transport-belt",
+        "position": {
+          "x": 215.5,
+          "y": 80.5
+        }
+      },
+      {
+        "direction": 12,
+        "entity_number": 123,
+        "name": "fast-transport-belt",
+        "position": {
+          "x": 215.5,
+          "y": 81.5
+        }
+      },
+      {
+        "entity_number": 124,
+        "name": "pipe",
+        "position": {
+          "x": 216.5,
+          "y": 75.5
+        }
+      },
+      {
+        "entity_number": 125,
+        "name": "assembling-machine-2",
+        "position": {
+          "x": 216.5,
+          "y": 77.5
+        },
+        "recipe": "rocket-fuel",
+        "recipe_quality": "normal"
+      },
+      {
+        "direction": 8,
+        "entity_number": 126,
+        "name": "inserter",
+        "position": {
+          "x": 216.5,
+          "y": 79.5
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 127,
+        "name": "fast-transport-belt",
+        "position": {
+          "x": 216.5,
+          "y": 80.5
+        }
+      },
+      {
+        "direction": 12,
+        "entity_number": 128,
+        "name": "fast-transport-belt",
+        "position": {
+          "x": 216.5,
+          "y": 81.5
+        }
+      },
+      {
+        "entity_number": 129,
+        "name": "pipe",
+        "position": {
+          "x": 217.5,
+          "y": 75.5
+        }
+      },
+      {
+        "entity_number": 130,
+        "name": "long-handed-inserter",
+        "position": {
+          "x": 217.5,
+          "y": 79.5
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 131,
+        "name": "fast-transport-belt",
+        "position": {
+          "x": 217.5,
+          "y": 80.5
+        }
+      },
+      {
+        "direction": 12,
+        "entity_number": 132,
+        "name": "fast-transport-belt",
+        "position": {
+          "x": 217.5,
+          "y": 81.5
+        }
+      }
+    ],
+    "icons": [
+      {
+        "index": 1,
+        "signal": {
+          "name": "rocket-fuel"
+        }
+      }
+    ],
+    "version": 562954249306113,
+    "wires": [
+      [
+        2,
+        5,
+        24,
+        5
+      ],
+      [
+        24,
+        5,
+        47,
+        5
+      ],
+      [
+        47,
+        5,
+        71,
+        5
+      ],
+      [
+        71,
+        5,
+        96,
+        5
+      ],
+      [
+        96,
+        5,
+        121,
+        5
+      ]
+    ]
+  },
+  "index": 9
+}

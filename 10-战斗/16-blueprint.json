@@ -1,0 +1,246 @@
+{
+  "blueprint": {
+    "item": "blueprint",
+    "entities": [
+      {
+        "entity_number": 1,
+        "name": "laser-turret",
+        "position": {
+          "x": -48,
+          "y": 323
+        }
+      },
+      {
+        "entity_number": 2,
+        "name": "laser-turret",
+        "position": {
+          "x": -48,
+          "y": 326
+        }
+      },
+      {
+        "entity_number": 3,
+        "name": "laser-turret",
+        "position": {
+          "x": -48,
+          "y": 329
+        }
+      },
+      {
+        "entity_number": 4,
+        "name": "laser-turret",
+        "position": {
+          "x": -48,
+          "y": 332
+        }
+      },
+      {
+        "entity_number": 5,
+        "name": "laser-turret",
+        "position": {
+          "x": -45,
+          "y": 323
+        }
+      },
+      {
+        "entity_number": 6,
+        "name": "laser-turret",
+        "position": {
+          "x": -45,
+          "y": 326
+        }
+      },
+      {
+        "entity_number": 7,
+        "name": "laser-turret",
+        "position": {
+          "x": -45,
+          "y": 329
+        }
+      },
+      {
+        "entity_number": 8,
+        "name": "laser-turret",
+        "position": {
+          "x": -45,
+          "y": 332
+        }
+      },
+      {
+        "entity_number": 9,
+        "name": "laser-turret",
+        "position": {
+          "x": -45,
+          "y": 335
+        }
+      },
+      {
+        "entity_number": 10,
+        "name": "laser-turret",
+        "position": {
+          "x": -42,
+          "y": 323
+        }
+      },
+      {
+        "entity_number": 11,
+        "name": "laser-turret",
+        "position": {
+          "x": -42,
+          "y": 326
+        }
+      },
+      {
+        "entity_number": 12,
+        "name": "laser-turret",
+        "position": {
+          "x": -42,
+          "y": 329
+        }
+      },
+      {
+        "entity_number": 13,
+        "name": "laser-turret",
+        "position": {
+          "x": -42,
+          "y": 332
+        }
+      },
+      {
+        "entity_number": 14,
+        "name": "laser-turret",
+        "position": {
+          "x": -42,
+          "y": 335
+        }
+      },
+      {
+        "entity_number": 15,
+        "name": "laser-turret",
+        "position": {
+          "x": -42,
+          "y": 338
+        }
+      },
+      {
+        "entity_number": 16,
+        "name": "substation",
+        "position": {
+          "x": -39,
+          "y": 329
+        }
+      },
+      {
+        "entity_number": 17,
+        "name": "laser-turret",
+        "position": {
+          "x": -39,
+          "y": 332
+        }
+      },
+      {
+        "entity_number": 18,
+        "name": "laser-turret",
+        "position": {
+          "x": -39,
+          "y": 335
+        }
+      },
+      {
+        "entity_number": 19,
+        "name": "laser-turret",
+        "position": {
+          "x": -39,
+          "y": 338
+        }
+      },
+      {
+        "entity_number": 20,
+        "name": "big-electric-pole",
+        "position": {
+          "x": -37,
+          "y": 327
+        }
+      },
+      {
+        "entity_number": 21,
+        "name": "laser-turret",
+        "position": {
+          "x": -36,
+          "y": 332
+        }
+      },
+      {
+        "entity_number": 22,
+        "name": "laser-turret",
+        "position": {
+          "x": -36,
+          "y": 335
+        }
+      },
+      {
+        "entity_number": 23,
+        "name": "laser-turret",
+        "position": {
+          "x": -36,
+          "y": 338
+        }
+      },
+      {
+        "entity_number": 24,
+        "name": "laser-turret",
+        "position": {
+          "x": -33,
+          "y": 332
+        }
+      },
+      {
+        "entity_number": 25,
+        "name": "laser-turret",
+        "position": {
+          "x": -33,
+          "y": 335
+        }
+      },
+      {
+        "entity_number": 26,
+        "name": "laser-turret",
+        "position": {
+          "x": -33,
+          "y": 338
+        }
+      }
+    ],
+    "icons": [
+      {
+        "index": 1,
+        "signal": {
+          "name": "laser-turret"
+        }
+      },
+      {
+        "index": 2,
+        "signal": {
+          "name": "substation"
+        }
+      },
+      {
+        "index": 3,
+        "signal": {
+          "name": "shape-diagonal-2",
+          "type": "virtual"
+        }
+      }
+    ],
+    "version": 562954249306113,
+    "wires": [
+      [
+        16,
+        5,
+        20,
+        5
+      ]
+    ]
+  },
+  "index": 16
+}

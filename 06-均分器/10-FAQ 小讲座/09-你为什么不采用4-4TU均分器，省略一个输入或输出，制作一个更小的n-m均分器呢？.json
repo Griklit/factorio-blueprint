@@ -1,0 +1,611 @@
+{
+  "blueprint": {
+    "item": "blueprint",
+    "label": "你为什么不采用4-4TU均分器，省略一个输入或输出，制作一个更小的n-m均分器呢？",
+    "description": "虽然全流量均分器(TU)确实可以无视输入/输出堵塞而保证全吞吐量，但它并不能为【均分】提供类似的保证。\n完全均分器(TU)的均分属性与常规均分器相同。必须充分利用输入以获得输入平衡，必须充分利用输出以获得输出平衡。例如，省略一个输入的4-4TU平衡器仍将平衡输出，但将不再平衡输入。",
+    "entities": [
+      {
+        "entity_number": 1,
+        "name": "express-transport-belt",
+        "position": {
+          "x": 803.5,
+          "y": 315.5
+        }
+      },
+      {
+        "entity_number": 2,
+        "name": "express-transport-belt",
+        "position": {
+          "x": 802.5,
+          "y": 315.5
+        }
+      },
+      {
+        "entity_number": 3,
+        "name": "express-transport-belt",
+        "position": {
+          "x": 805.5,
+          "y": 315.5
+        }
+      },
+      {
+        "entity_number": 4,
+        "name": "express-transport-belt",
+        "position": {
+          "x": 804.5,
+          "y": 315.5
+        }
+      },
+      {
+        "entity_number": 5,
+        "name": "express-splitter",
+        "position": {
+          "x": 803,
+          "y": 316.5
+        }
+      },
+      {
+        "entity_number": 6,
+        "name": "express-transport-belt",
+        "position": {
+          "x": 802.5,
+          "y": 317.5
+        }
+      },
+      {
+        "entity_number": 7,
+        "name": "express-underground-belt",
+        "position": {
+          "x": 803.5,
+          "y": 317.5
+        },
+        "type": "output"
+      },
+      {
+        "entity_number": 8,
+        "name": "express-splitter",
+        "position": {
+          "x": 805,
+          "y": 316.5
+        }
+      },
+      {
+        "entity_number": 9,
+        "name": "express-underground-belt",
+        "position": {
+          "x": 804.5,
+          "y": 317.5
+        },
+        "type": "output"
+      },
+      {
+        "entity_number": 10,
+        "name": "express-transport-belt",
+        "position": {
+          "x": 805.5,
+          "y": 317.5
+        }
+      },
+      {
+        "entity_number": 11,
+        "name": "express-transport-belt",
+        "position": {
+          "x": 809.5,
+          "y": 317.5
+        }
+      },
+      {
+        "entity_number": 12,
+        "name": "express-transport-belt",
+        "position": {
+          "x": 808.5,
+          "y": 317.5
+        }
+      },
+      {
+        "entity_number": 13,
+        "name": "express-transport-belt",
+        "position": {
+          "x": 811.5,
+          "y": 317.5
+        }
+      },
+      {
+        "entity_number": 14,
+        "name": "express-transport-belt",
+        "position": {
+          "x": 810.5,
+          "y": 317.5
+        }
+      },
+      {
+        "entity_number": 15,
+        "name": "express-transport-belt",
+        "position": {
+          "x": 802.5,
+          "y": 318.5
+        }
+      },
+      {
+        "direction": 12,
+        "entity_number": 16,
+        "name": "express-transport-belt",
+        "position": {
+          "x": 803.5,
+          "y": 318.5
+        }
+      },
+      {
+        "entity_number": 17,
+        "name": "express-splitter",
+        "position": {
+          "x": 804,
+          "y": 319.5
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 18,
+        "name": "express-transport-belt",
+        "position": {
+          "x": 804.5,
+          "y": 318.5
+        }
+      },
+      {
+        "entity_number": 19,
+        "name": "express-transport-belt",
+        "position": {
+          "x": 805.5,
+          "y": 318.5
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 20,
+        "name": "express-transport-belt",
+        "position": {
+          "x": 807.5,
+          "y": 319.5
+        }
+      },
+      {
+        "entity_number": 21,
+        "input_priority": "right",
+        "name": "express-splitter",
+        "position": {
+          "x": 809,
+          "y": 318.5
+        }
+      },
+      {
+        "entity_number": 22,
+        "name": "express-transport-belt",
+        "position": {
+          "x": 808.5,
+          "y": 319.5
+        }
+      },
+      {
+        "entity_number": 23,
+        "name": "express-transport-belt",
+        "position": {
+          "x": 809.5,
+          "y": 319.5
+        }
+      },
+      {
+        "entity_number": 24,
+        "input_priority": "left",
+        "name": "express-splitter",
+        "position": {
+          "x": 811,
+          "y": 318.5
+        }
+      },
+      {
+        "entity_number": 25,
+        "name": "express-transport-belt",
+        "position": {
+          "x": 811.5,
+          "y": 319.5
+        }
+      },
+      {
+        "entity_number": 26,
+        "name": "express-transport-belt",
+        "position": {
+          "x": 810.5,
+          "y": 319.5
+        }
+      },
+      {
+        "direction": 12,
+        "entity_number": 27,
+        "name": "express-splitter",
+        "position": {
+          "x": 812.5,
+          "y": 320
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 28,
+        "name": "express-transport-belt",
+        "position": {
+          "x": 802.5,
+          "y": 320.5
+        }
+      },
+      {
+        "entity_number": 29,
+        "name": "express-transport-belt",
+        "position": {
+          "x": 803.5,
+          "y": 320.5
+        }
+      },
+      {
+        "entity_number": 30,
+        "name": "express-transport-belt",
+        "position": {
+          "x": 802.5,
+          "y": 321.5
+        }
+      },
+      {
+        "entity_number": 31,
+        "name": "express-underground-belt",
+        "position": {
+          "x": 803.5,
+          "y": 321.5
+        },
+        "type": "input"
+      },
+      {
+        "entity_number": 32,
+        "name": "express-transport-belt",
+        "position": {
+          "x": 804.5,
+          "y": 320.5
+        }
+      },
+      {
+        "direction": 12,
+        "entity_number": 33,
+        "name": "express-transport-belt",
+        "position": {
+          "x": 805.5,
+          "y": 320.5
+        }
+      },
+      {
+        "entity_number": 34,
+        "name": "express-underground-belt",
+        "position": {
+          "x": 804.5,
+          "y": 321.5
+        },
+        "type": "input"
+      },
+      {
+        "entity_number": 35,
+        "name": "express-transport-belt",
+        "position": {
+          "x": 805.5,
+          "y": 321.5
+        }
+      },
+      {
+        "entity_number": 36,
+        "name": "express-transport-belt",
+        "position": {
+          "x": 807.5,
+          "y": 320.5
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 37,
+        "name": "express-transport-belt",
+        "position": {
+          "x": 807.5,
+          "y": 321.5
+        }
+      },
+      {
+        "direction": 12,
+        "entity_number": 38,
+        "name": "express-underground-belt",
+        "position": {
+          "x": 808.5,
+          "y": 320.5
+        },
+        "type": "output"
+      },
+      {
+        "entity_number": 39,
+        "name": "express-transport-belt",
+        "position": {
+          "x": 809.5,
+          "y": 320.5
+        }
+      },
+      {
+        "entity_number": 40,
+        "name": "express-transport-belt",
+        "position": {
+          "x": 809.5,
+          "y": 321.5
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 41,
+        "name": "express-underground-belt",
+        "position": {
+          "x": 808.5,
+          "y": 321.5
+        },
+        "type": "input"
+      },
+      {
+        "direction": 12,
+        "entity_number": 42,
+        "name": "express-underground-belt",
+        "position": {
+          "x": 811.5,
+          "y": 320.5
+        },
+        "type": "input"
+      },
+      {
+        "entity_number": 43,
+        "name": "express-transport-belt",
+        "position": {
+          "x": 810.5,
+          "y": 320.5
+        }
+      },
+      {
+        "entity_number": 44,
+        "name": "express-transport-belt",
+        "position": {
+          "x": 810.5,
+          "y": 321.5
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 45,
+        "name": "express-underground-belt",
+        "position": {
+          "x": 811.5,
+          "y": 321.5
+        },
+        "type": "output"
+      },
+      {
+        "direction": 12,
+        "entity_number": 46,
+        "name": "express-transport-belt",
+        "position": {
+          "x": 813.5,
+          "y": 320.5
+        }
+      },
+      {
+        "entity_number": 47,
+        "name": "express-transport-belt",
+        "position": {
+          "x": 813.5,
+          "y": 321.5
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 48,
+        "name": "express-splitter",
+        "output_priority": "left",
+        "position": {
+          "x": 812.5,
+          "y": 322
+        }
+      },
+      {
+        "entity_number": 49,
+        "name": "express-transport-belt",
+        "position": {
+          "x": 802.5,
+          "y": 322.5
+        }
+      },
+      {
+        "entity_number": 50,
+        "name": "express-splitter",
+        "position": {
+          "x": 804,
+          "y": 322.5
+        }
+      },
+      {
+        "entity_number": 51,
+        "name": "express-splitter",
+        "position": {
+          "x": 803,
+          "y": 323.5
+        }
+      },
+      {
+        "entity_number": 52,
+        "name": "express-transport-belt",
+        "position": {
+          "x": 805.5,
+          "y": 322.5
+        }
+      },
+      {
+        "entity_number": 53,
+        "name": "express-splitter",
+        "position": {
+          "x": 805,
+          "y": 323.5
+        }
+      },
+      {
+        "entity_number": 54,
+        "name": "express-transport-belt",
+        "position": {
+          "x": 807.5,
+          "y": 322.5
+        }
+      },
+      {
+        "direction": 12,
+        "entity_number": 55,
+        "name": "express-transport-belt",
+        "position": {
+          "x": 808.5,
+          "y": 322.5
+        }
+      },
+      {
+        "entity_number": 56,
+        "name": "express-splitter",
+        "position": {
+          "x": 810,
+          "y": 322.5
+        }
+      },
+      {
+        "entity_number": 57,
+        "name": "express-splitter",
+        "output_priority": "left",
+        "position": {
+          "x": 809,
+          "y": 323.5
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 58,
+        "name": "express-transport-belt",
+        "position": {
+          "x": 811.5,
+          "y": 322.5
+        }
+      },
+      {
+        "entity_number": 59,
+        "name": "express-splitter",
+        "output_priority": "right",
+        "position": {
+          "x": 811,
+          "y": 323.5
+        }
+      },
+      {
+        "direction": 8,
+        "entity_number": 60,
+        "name": "express-transport-belt",
+        "position": {
+          "x": 813.5,
+          "y": 322.5
+        }
+      },
+      {
+        "direction": 12,
+        "entity_number": 61,
+        "name": "express-transport-belt",
+        "position": {
+          "x": 813.5,
+          "y": 323.5
+        }
+      },
+      {
+        "direction": 8,
+        "entity_number": 62,
+        "name": "express-transport-belt",
+        "position": {
+          "x": 812.5,
+          "y": 323.5
+        }
+      },
+      {
+        "entity_number": 63,
+        "name": "express-transport-belt",
+        "position": {
+          "x": 802.5,
+          "y": 324.5
+        }
+      },
+      {
+        "entity_number": 64,
+        "name": "express-transport-belt",
+        "position": {
+          "x": 803.5,
+          "y": 324.5
+        }
+      },
+      {
+        "entity_number": 65,
+        "name": "express-transport-belt",
+        "position": {
+          "x": 804.5,
+          "y": 324.5
+        }
+      },
+      {
+        "entity_number": 66,
+        "name": "express-transport-belt",
+        "position": {
+          "x": 809.5,
+          "y": 324.5
+        }
+      },
+      {
+        "entity_number": 67,
+        "name": "express-transport-belt",
+        "position": {
+          "x": 808.5,
+          "y": 324.5
+        }
+      },
+      {
+        "entity_number": 68,
+        "name": "express-transport-belt",
+        "position": {
+          "x": 810.5,
+          "y": 324.5
+        }
+      },
+      {
+        "entity_number": 69,
+        "name": "express-transport-belt",
+        "position": {
+          "x": 811.5,
+          "y": 324.5
+        }
+      },
+      {
+        "direction": 12,
+        "entity_number": 70,
+        "name": "express-transport-belt",
+        "position": {
+          "x": 812.5,
+          "y": 324.5
+        }
+      }
+    ],
+    "icons": [
+      {
+        "index": 1,
+        "signal": {
+          "name": "express-splitter"
+        }
+      }
+    ],
+    "version": 562954249306113
+  },
+  "index": 9
+}

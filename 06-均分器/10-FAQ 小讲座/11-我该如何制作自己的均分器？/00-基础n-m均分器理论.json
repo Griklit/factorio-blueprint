@@ -1,0 +1,28 @@
+{
+  "blueprint": {
+    "item": "blueprint",
+    "label": "基础n-m均分器理论",
+    "description": "参见：\nhttps://www.reddit.com/gallery/jqfhlu\n\n*译者注：我的这篇帖子中搬运了上文中的图片：\nhttps://tieba.baidu.com/p/9529993238?fid=12099526&pid=151742360363&cid=0#151742360363",
+    "entities": [
+      {
+        "direction": 4,
+        "entity_number": 1,
+        "name": "express-splitter",
+        "position": {
+          "x": 504.5,
+          "y": 301
+        }
+      }
+    ],
+    "icons": [
+      {
+        "index": 1,
+        "signal": {
+          "name": "express-splitter"
+        }
+      }
+    ],
+    "version": 562954249306113
+  },
+  "index": 0
+}

@@ -1,0 +1,277 @@
+{
+  "blueprint": {
+    "item": "blueprint",
+    "label": "大前期速自动化",
+    "description": "手动在木箱内塞入铁板，铜板，尽快自动生产传送带和爪子这类关键物品。",
+    "entities": [
+      {
+        "entity_number": 1,
+        "name": "assembling-machine-1",
+        "position": {
+          "x": 652.5,
+          "y": 167.5
+        },
+        "recipe": "copper-cable",
+        "recipe_quality": "normal"
+      },
+      {
+        "entity_number": 2,
+        "name": "wooden-chest",
+        "position": {
+          "x": 655.5,
+          "y": 167.5
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 3,
+        "name": "inserter",
+        "position": {
+          "x": 654.5,
+          "y": 167.5
+        }
+      },
+      {
+        "direction": 8,
+        "entity_number": 4,
+        "name": "inserter",
+        "position": {
+          "x": 656.5,
+          "y": 167.5
+        }
+      },
+      {
+        "entity_number": 5,
+        "name": "wooden-chest",
+        "position": {
+          "x": 656.5,
+          "y": 166.5
+        }
+      },
+      {
+        "entity_number": 6,
+        "name": "inserter",
+        "position": {
+          "x": 653.5,
+          "y": 169.5
+        }
+      },
+      {
+        "entity_number": 7,
+        "name": "inserter",
+        "position": {
+          "x": 652.5,
+          "y": 169.5
+        }
+      },
+      {
+        "entity_number": 8,
+        "name": "small-electric-pole",
+        "position": {
+          "x": 654.5,
+          "y": 169.5
+        }
+      },
+      {
+        "direction": 12,
+        "entity_number": 9,
+        "name": "inserter",
+        "position": {
+          "x": 654.5,
+          "y": 168.5
+        }
+      },
+      {
+        "entity_number": 10,
+        "name": "assembling-machine-1",
+        "position": {
+          "x": 656.5,
+          "y": 169.5
+        },
+        "recipe": "inserter",
+        "recipe_quality": "normal"
+      },
+      {
+        "entity_number": 11,
+        "name": "assembling-machine-1",
+        "position": {
+          "x": 652.5,
+          "y": 171.5
+        },
+        "recipe": "electronic-circuit",
+        "recipe_quality": "normal"
+      },
+      {
+        "direction": 8,
+        "entity_number": 12,
+        "name": "inserter",
+        "position": {
+          "x": 655.5,
+          "y": 171.5
+        }
+      },
+      {
+        "direction": 12,
+        "entity_number": 13,
+        "name": "inserter",
+        "position": {
+          "x": 654.5,
+          "y": 170.5
+        }
+      },
+      {
+        "direction": 8,
+        "entity_number": 14,
+        "name": "inserter",
+        "position": {
+          "x": 657.5,
+          "y": 171.5
+        }
+      },
+      {
+        "entity_number": 15,
+        "name": "inserter",
+        "position": {
+          "x": 652.5,
+          "y": 173.5
+        }
+      },
+      {
+        "entity_number": 16,
+        "name": "inserter",
+        "position": {
+          "x": 655.5,
+          "y": 173.5
+        }
+      },
+      {
+        "entity_number": 17,
+        "name": "wooden-chest",
+        "position": {
+          "x": 655.5,
+          "y": 172.5
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 18,
+        "name": "inserter",
+        "position": {
+          "x": 654.5,
+          "y": 172.5
+        }
+      },
+      {
+        "entity_number": 19,
+        "name": "small-electric-pole",
+        "position": {
+          "x": 656.5,
+          "y": 173.5
+        }
+      },
+      {
+        "direction": 12,
+        "entity_number": 20,
+        "name": "inserter",
+        "position": {
+          "x": 656.5,
+          "y": 172.5
+        }
+      },
+      {
+        "entity_number": 21,
+        "name": "assembling-machine-1",
+        "position": {
+          "x": 658.5,
+          "y": 173.5
+        },
+        "recipe": "iron-gear-wheel",
+        "recipe_quality": "normal"
+      },
+      {
+        "entity_number": 22,
+        "name": "wooden-chest",
+        "position": {
+          "x": 652.5,
+          "y": 174.5
+        }
+      },
+      {
+        "entity_number": 23,
+        "name": "assembling-machine-1",
+        "position": {
+          "x": 654.5,
+          "y": 175.5
+        },
+        "recipe": "transport-belt",
+        "recipe_quality": "normal"
+      },
+      {
+        "entity_number": 24,
+        "name": "wooden-chest",
+        "position": {
+          "x": 657.5,
+          "y": 175.5
+        }
+      },
+      {
+        "direction": 12,
+        "entity_number": 25,
+        "name": "inserter",
+        "position": {
+          "x": 656.5,
+          "y": 175.5
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 26,
+        "name": "inserter",
+        "position": {
+          "x": 656.5,
+          "y": 174.5
+        }
+      },
+      {
+        "entity_number": 27,
+        "name": "inserter",
+        "position": {
+          "x": 658.5,
+          "y": 175.5
+        }
+      },
+      {
+        "entity_number": 28,
+        "name": "wooden-chest",
+        "position": {
+          "x": 658.5,
+          "y": 176.5
+        }
+      }
+    ],
+    "icons": [
+      {
+        "index": 1,
+        "signal": {
+          "name": "inserter"
+        }
+      },
+      {
+        "index": 2,
+        "signal": {
+          "name": "transport-belt"
+        }
+      }
+    ],
+    "version": 562954249306113,
+    "wires": [
+      [
+        8,
+        5,
+        19,
+        5
+      ]
+    ]
+  },
+  "index": 0
+}

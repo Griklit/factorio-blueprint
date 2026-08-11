@@ -1,0 +1,252 @@
+{
+  "blueprint": {
+    "item": "blueprint",
+    "label": "12瓶",
+    "entities": [
+      {
+        "entity_number": 1,
+        "infinity_settings": {
+          "filters": [
+            {
+              "count": 200,
+              "index": 1,
+              "mode": "at-least",
+              "name": "promethium-science-pack"
+            }
+          ],
+          "remove_unfiltered_items": false
+        },
+        "name": "infinity-chest",
+        "position": {
+          "x": -87.5,
+          "y": -8.5
+        }
+      },
+      {
+        "entity_number": 2,
+        "infinity_settings": {
+          "filters": [
+            {
+              "count": 200,
+              "index": 1,
+              "mode": "at-least",
+              "name": "cryogenic-science-pack"
+            }
+          ],
+          "remove_unfiltered_items": false
+        },
+        "name": "infinity-chest",
+        "position": {
+          "x": -86.5,
+          "y": -8.5
+        }
+      },
+      {
+        "entity_number": 3,
+        "infinity_settings": {
+          "filters": [
+            {
+              "count": 200,
+              "index": 1,
+              "mode": "at-least",
+              "name": "electromagnetic-science-pack"
+            }
+          ],
+          "remove_unfiltered_items": false
+        },
+        "name": "infinity-chest",
+        "position": {
+          "x": -85.5,
+          "y": -8.5
+        }
+      },
+      {
+        "entity_number": 4,
+        "infinity_settings": {
+          "filters": [
+            {
+              "count": 200,
+              "index": 1,
+              "mode": "at-least",
+              "name": "agricultural-science-pack"
+            }
+          ],
+          "remove_unfiltered_items": false
+        },
+        "name": "infinity-chest",
+        "position": {
+          "x": -84.5,
+          "y": -8.5
+        }
+      },
+      {
+        "entity_number": 5,
+        "infinity_settings": {
+          "filters": [
+            {
+              "count": 200,
+              "index": 1,
+              "mode": "at-least",
+              "name": "metallurgic-science-pack"
+            }
+          ],
+          "remove_unfiltered_items": false
+        },
+        "name": "infinity-chest",
+        "position": {
+          "x": -83.5,
+          "y": -8.5
+        }
+      },
+      {
+        "entity_number": 6,
+        "infinity_settings": {
+          "filters": [
+            {
+              "count": 200,
+              "index": 1,
+              "mode": "at-least",
+              "name": "space-science-pack"
+            }
+          ],
+          "remove_unfiltered_items": false
+        },
+        "name": "infinity-chest",
+        "position": {
+          "x": -82.5,
+          "y": -8.5
+        }
+      },
+      {
+        "entity_number": 7,
+        "infinity_settings": {
+          "filters": [
+            {
+              "count": 200,
+              "index": 1,
+              "mode": "at-least",
+              "name": "utility-science-pack"
+            }
+          ],
+          "remove_unfiltered_items": false
+        },
+        "name": "infinity-chest",
+        "position": {
+          "x": -81.5,
+          "y": -8.5
+        }
+      },
+      {
+        "entity_number": 8,
+        "infinity_settings": {
+          "filters": [
+            {
+              "count": 200,
+              "index": 1,
+              "mode": "at-least",
+              "name": "production-science-pack"
+            }
+          ],
+          "remove_unfiltered_items": false
+        },
+        "name": "infinity-chest",
+        "position": {
+          "x": -80.5,
+          "y": -8.5
+        }
+      },
+      {
+        "entity_number": 9,
+        "infinity_settings": {
+          "filters": [
+            {
+              "count": 200,
+              "index": 1,
+              "mode": "at-least",
+              "name": "chemical-science-pack"
+            }
+          ],
+          "remove_unfiltered_items": false
+        },
+        "name": "infinity-chest",
+        "position": {
+          "x": -79.5,
+          "y": -8.5
+        }
+      },
+      {
+        "entity_number": 10,
+        "infinity_settings": {
+          "filters": [
+            {
+              "count": 200,
+              "index": 1,
+              "mode": "at-least",
+              "name": "military-science-pack"
+            }
+          ],
+          "remove_unfiltered_items": false
+        },
+        "name": "infinity-chest",
+        "position": {
+          "x": -78.5,
+          "y": -8.5
+        }
+      },
+      {
+        "entity_number": 11,
+        "infinity_settings": {
+          "filters": [
+            {
+              "count": 200,
+              "index": 1,
+              "mode": "at-least",
+              "name": "logistic-science-pack"
+            }
+          ],
+          "remove_unfiltered_items": false
+        },
+        "name": "infinity-chest",
+        "position": {
+          "x": -77.5,
+          "y": -8.5
+        }
+      },
+      {
+        "entity_number": 12,
+        "infinity_settings": {
+          "filters": [
+            {
+              "count": 200,
+              "index": 1,
+              "mode": "at-least",
+              "name": "automation-science-pack"
+            }
+          ],
+          "remove_unfiltered_items": false
+        },
+        "name": "infinity-chest",
+        "position": {
+          "x": -76.5,
+          "y": -8.5
+        }
+      }
+    ],
+    "icons": [
+      {
+        "index": 1,
+        "signal": {
+          "name": "promethium-science-pack"
+        }
+      },
+      {
+        "index": 2,
+        "signal": {
+          "name": "infinity-chest"
+        }
+      }
+    ],
+    "version": 562954249306113
+  },
+  "index": 6
+}

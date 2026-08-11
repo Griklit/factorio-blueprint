@@ -1,0 +1,2469 @@
+{
+  "blueprint": {
+    "item": "blueprint",
+    "entities": [
+      {
+        "direction": 4,
+        "entity_number": 1,
+        "name": "straight-rail",
+        "position": {
+          "x": 25,
+          "y": -57
+        }
+      },
+      {
+        "direction": 2,
+        "entity_number": 2,
+        "name": "curved-rail-a",
+        "position": {
+          "x": 25,
+          "y": -46
+        }
+      },
+      {
+        "entity_number": 3,
+        "name": "straight-rail",
+        "position": {
+          "x": 25,
+          "y": -43
+        }
+      },
+      {
+        "entity_number": 4,
+        "name": "straight-rail",
+        "position": {
+          "x": 25,
+          "y": -41
+        }
+      },
+      {
+        "entity_number": 5,
+        "name": "straight-rail",
+        "position": {
+          "x": 25,
+          "y": -39
+        }
+      },
+      {
+        "entity_number": 6,
+        "name": "straight-rail",
+        "position": {
+          "x": 25,
+          "y": -37
+        }
+      },
+      {
+        "entity_number": 7,
+        "name": "straight-rail",
+        "position": {
+          "x": 25,
+          "y": -35
+        }
+      },
+      {
+        "entity_number": 8,
+        "name": "straight-rail",
+        "position": {
+          "x": 25,
+          "y": -33
+        }
+      },
+      {
+        "entity_number": 9,
+        "name": "straight-rail",
+        "position": {
+          "x": 25,
+          "y": -31
+        }
+      },
+      {
+        "entity_number": 10,
+        "name": "straight-rail",
+        "position": {
+          "x": 25,
+          "y": -29
+        }
+      },
+      {
+        "entity_number": 11,
+        "name": "straight-rail",
+        "position": {
+          "x": 25,
+          "y": -27
+        }
+      },
+      {
+        "entity_number": 12,
+        "name": "straight-rail",
+        "position": {
+          "x": 25,
+          "y": -25
+        }
+      },
+      {
+        "entity_number": 13,
+        "name": "straight-rail",
+        "position": {
+          "x": 25,
+          "y": -23
+        }
+      },
+      {
+        "entity_number": 14,
+        "name": "straight-rail",
+        "position": {
+          "x": 25,
+          "y": -21
+        }
+      },
+      {
+        "entity_number": 15,
+        "name": "straight-rail",
+        "position": {
+          "x": 25,
+          "y": -19
+        }
+      },
+      {
+        "entity_number": 16,
+        "name": "straight-rail",
+        "position": {
+          "x": 25,
+          "y": -17
+        }
+      },
+      {
+        "entity_number": 17,
+        "name": "straight-rail",
+        "position": {
+          "x": 25,
+          "y": -15
+        }
+      },
+      {
+        "entity_number": 18,
+        "name": "straight-rail",
+        "position": {
+          "x": 25,
+          "y": -13
+        }
+      },
+      {
+        "entity_number": 19,
+        "name": "straight-rail",
+        "position": {
+          "x": 25,
+          "y": -11
+        }
+      },
+      {
+        "entity_number": 20,
+        "name": "straight-rail",
+        "position": {
+          "x": 25,
+          "y": -9
+        }
+      },
+      {
+        "entity_number": 21,
+        "name": "straight-rail",
+        "position": {
+          "x": 25,
+          "y": -7
+        }
+      },
+      {
+        "entity_number": 22,
+        "name": "straight-rail",
+        "position": {
+          "x": 25,
+          "y": -5
+        }
+      },
+      {
+        "entity_number": 23,
+        "name": "straight-rail",
+        "position": {
+          "x": 25,
+          "y": -3
+        }
+      },
+      {
+        "direction": 8,
+        "entity_number": 24,
+        "name": "curved-rail-a",
+        "position": {
+          "x": 25,
+          "y": 0
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 25,
+        "name": "straight-rail",
+        "position": {
+          "x": 25,
+          "y": 11
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 26,
+        "name": "inserter",
+        "position": {
+          "x": 26.5,
+          "y": -37.5
+        }
+      },
+      {
+        "entity_number": 27,
+        "name": "medium-electric-pole",
+        "position": {
+          "x": 26.5,
+          "y": -36.5
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 28,
+        "name": "inserter",
+        "position": {
+          "x": 26.5,
+          "y": -35.5
+        }
+      },
+      {
+        "entity_number": 29,
+        "name": "medium-electric-pole",
+        "position": {
+          "x": 26.5,
+          "y": -29.5
+        }
+      },
+      {
+        "direction": 12,
+        "entity_number": 30,
+        "mirror": true,
+        "name": "stack-inserter",
+        "position": {
+          "x": 26.5,
+          "y": -28.5
+        }
+      },
+      {
+        "direction": 12,
+        "entity_number": 31,
+        "mirror": true,
+        "name": "stack-inserter",
+        "position": {
+          "x": 26.5,
+          "y": -27.5
+        }
+      },
+      {
+        "direction": 12,
+        "entity_number": 32,
+        "mirror": true,
+        "name": "stack-inserter",
+        "position": {
+          "x": 26.5,
+          "y": -26.5
+        }
+      },
+      {
+        "direction": 12,
+        "entity_number": 33,
+        "mirror": true,
+        "name": "stack-inserter",
+        "position": {
+          "x": 26.5,
+          "y": -25.5
+        }
+      },
+      {
+        "direction": 12,
+        "entity_number": 34,
+        "mirror": true,
+        "name": "stack-inserter",
+        "position": {
+          "x": 26.5,
+          "y": -24.5
+        }
+      },
+      {
+        "direction": 12,
+        "entity_number": 35,
+        "mirror": true,
+        "name": "stack-inserter",
+        "position": {
+          "x": 26.5,
+          "y": -23.5
+        }
+      },
+      {
+        "entity_number": 36,
+        "name": "medium-electric-pole",
+        "position": {
+          "x": 26.5,
+          "y": -22.5
+        }
+      },
+      {
+        "direction": 12,
+        "entity_number": 37,
+        "mirror": true,
+        "name": "stack-inserter",
+        "position": {
+          "x": 26.5,
+          "y": -21.5
+        }
+      },
+      {
+        "direction": 12,
+        "entity_number": 38,
+        "mirror": true,
+        "name": "stack-inserter",
+        "position": {
+          "x": 26.5,
+          "y": -20.5
+        }
+      },
+      {
+        "direction": 12,
+        "entity_number": 39,
+        "mirror": true,
+        "name": "stack-inserter",
+        "position": {
+          "x": 26.5,
+          "y": -19.5
+        }
+      },
+      {
+        "direction": 12,
+        "entity_number": 40,
+        "mirror": true,
+        "name": "stack-inserter",
+        "position": {
+          "x": 26.5,
+          "y": -18.5
+        }
+      },
+      {
+        "direction": 12,
+        "entity_number": 41,
+        "mirror": true,
+        "name": "stack-inserter",
+        "position": {
+          "x": 26.5,
+          "y": -17.5
+        }
+      },
+      {
+        "direction": 12,
+        "entity_number": 42,
+        "mirror": true,
+        "name": "stack-inserter",
+        "position": {
+          "x": 26.5,
+          "y": -16.5
+        }
+      },
+      {
+        "entity_number": 43,
+        "name": "medium-electric-pole",
+        "position": {
+          "x": 26.5,
+          "y": -15.5
+        }
+      },
+      {
+        "direction": 12,
+        "entity_number": 44,
+        "mirror": true,
+        "name": "stack-inserter",
+        "position": {
+          "x": 26.5,
+          "y": -14.5
+        }
+      },
+      {
+        "direction": 12,
+        "entity_number": 45,
+        "mirror": true,
+        "name": "stack-inserter",
+        "position": {
+          "x": 26.5,
+          "y": -13.5
+        }
+      },
+      {
+        "direction": 12,
+        "entity_number": 46,
+        "mirror": true,
+        "name": "stack-inserter",
+        "position": {
+          "x": 26.5,
+          "y": -12.5
+        }
+      },
+      {
+        "direction": 12,
+        "entity_number": 47,
+        "mirror": true,
+        "name": "stack-inserter",
+        "position": {
+          "x": 26.5,
+          "y": -11.5
+        }
+      },
+      {
+        "direction": 12,
+        "entity_number": 48,
+        "mirror": true,
+        "name": "stack-inserter",
+        "position": {
+          "x": 26.5,
+          "y": -10.5
+        }
+      },
+      {
+        "direction": 12,
+        "entity_number": 49,
+        "mirror": true,
+        "name": "stack-inserter",
+        "position": {
+          "x": 26.5,
+          "y": -9.5
+        }
+      },
+      {
+        "entity_number": 50,
+        "name": "medium-electric-pole",
+        "position": {
+          "x": 26.5,
+          "y": -8.5
+        }
+      },
+      {
+        "direction": 12,
+        "entity_number": 51,
+        "mirror": true,
+        "name": "stack-inserter",
+        "position": {
+          "x": 26.5,
+          "y": -7.5
+        }
+      },
+      {
+        "direction": 12,
+        "entity_number": 52,
+        "mirror": true,
+        "name": "stack-inserter",
+        "position": {
+          "x": 26.5,
+          "y": -6.5
+        }
+      },
+      {
+        "direction": 12,
+        "entity_number": 53,
+        "mirror": true,
+        "name": "stack-inserter",
+        "position": {
+          "x": 26.5,
+          "y": -5.5
+        }
+      },
+      {
+        "direction": 12,
+        "entity_number": 54,
+        "mirror": true,
+        "name": "stack-inserter",
+        "position": {
+          "x": 26.5,
+          "y": -4.5
+        }
+      },
+      {
+        "direction": 12,
+        "entity_number": 55,
+        "mirror": true,
+        "name": "stack-inserter",
+        "position": {
+          "x": 26.5,
+          "y": -3.5
+        }
+      },
+      {
+        "direction": 12,
+        "entity_number": 56,
+        "mirror": true,
+        "name": "stack-inserter",
+        "position": {
+          "x": 26.5,
+          "y": -2.5
+        }
+      },
+      {
+        "entity_number": 57,
+        "name": "medium-electric-pole",
+        "position": {
+          "x": 26.5,
+          "y": -1.5
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 58,
+        "name": "straight-rail",
+        "position": {
+          "x": 27,
+          "y": -57
+        }
+      },
+      {
+        "direction": 2,
+        "entity_number": 59,
+        "name": "curved-rail-b",
+        "position": {
+          "x": 27,
+          "y": -51
+        }
+      },
+      {
+        "entity_number": 60,
+        "name": "big-electric-pole",
+        "position": {
+          "x": 27,
+          "y": -45
+        }
+      },
+      {
+        "control_behavior": {
+          "train_stopped_signal": {
+            "name": "signal-T",
+            "type": "virtual"
+          }
+        },
+        "entity_number": 61,
+        "manual_trains_limit": 1,
+        "name": "train-stop",
+        "position": {
+          "x": 27,
+          "y": -43
+        },
+        "station": "[virtual-signal=signal-ghost]"
+      },
+      {
+        "direction": 8,
+        "entity_number": 62,
+        "name": "curved-rail-b",
+        "position": {
+          "x": 27,
+          "y": 5
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 63,
+        "name": "straight-rail",
+        "position": {
+          "x": 27,
+          "y": 11
+        }
+      },
+      {
+        "entity_number": 64,
+        "name": "transport-belt",
+        "position": {
+          "x": 27.5,
+          "y": -37.5
+        }
+      },
+      {
+        "entity_number": 65,
+        "name": "transport-belt",
+        "position": {
+          "x": 27.5,
+          "y": -36.5
+        }
+      },
+      {
+        "direction": 12,
+        "entity_number": 66,
+        "name": "underground-belt",
+        "position": {
+          "x": 27.5,
+          "y": -35.5
+        },
+        "type": "input"
+      },
+      {
+        "entity_number": 67,
+        "name": "small-lamp",
+        "position": {
+          "x": 27.5,
+          "y": -29.5
+        }
+      },
+      {
+        "entity_number": 68,
+        "name": "steel-chest",
+        "position": {
+          "x": 27.5,
+          "y": -28.5
+        }
+      },
+      {
+        "entity_number": 69,
+        "name": "steel-chest",
+        "position": {
+          "x": 27.5,
+          "y": -27.5
+        }
+      },
+      {
+        "entity_number": 70,
+        "name": "steel-chest",
+        "position": {
+          "x": 27.5,
+          "y": -26.5
+        }
+      },
+      {
+        "entity_number": 71,
+        "name": "steel-chest",
+        "position": {
+          "x": 27.5,
+          "y": -25.5
+        }
+      },
+      {
+        "entity_number": 72,
+        "name": "steel-chest",
+        "position": {
+          "x": 27.5,
+          "y": -24.5
+        }
+      },
+      {
+        "entity_number": 73,
+        "name": "steel-chest",
+        "position": {
+          "x": 27.5,
+          "y": -23.5
+        }
+      },
+      {
+        "entity_number": 74,
+        "name": "small-lamp",
+        "position": {
+          "x": 27.5,
+          "y": -22.5
+        }
+      },
+      {
+        "entity_number": 75,
+        "name": "steel-chest",
+        "position": {
+          "x": 27.5,
+          "y": -21.5
+        }
+      },
+      {
+        "entity_number": 76,
+        "name": "steel-chest",
+        "position": {
+          "x": 27.5,
+          "y": -20.5
+        }
+      },
+      {
+        "entity_number": 77,
+        "name": "steel-chest",
+        "position": {
+          "x": 27.5,
+          "y": -19.5
+        }
+      },
+      {
+        "entity_number": 78,
+        "name": "steel-chest",
+        "position": {
+          "x": 27.5,
+          "y": -18.5
+        }
+      },
+      {
+        "entity_number": 79,
+        "name": "steel-chest",
+        "position": {
+          "x": 27.5,
+          "y": -17.5
+        }
+      },
+      {
+        "entity_number": 80,
+        "name": "steel-chest",
+        "position": {
+          "x": 27.5,
+          "y": -16.5
+        }
+      },
+      {
+        "entity_number": 81,
+        "name": "small-lamp",
+        "position": {
+          "x": 27.5,
+          "y": -15.5
+        }
+      },
+      {
+        "entity_number": 82,
+        "name": "steel-chest",
+        "position": {
+          "x": 27.5,
+          "y": -14.5
+        }
+      },
+      {
+        "entity_number": 83,
+        "name": "steel-chest",
+        "position": {
+          "x": 27.5,
+          "y": -13.5
+        }
+      },
+      {
+        "entity_number": 84,
+        "name": "steel-chest",
+        "position": {
+          "x": 27.5,
+          "y": -12.5
+        }
+      },
+      {
+        "entity_number": 85,
+        "name": "steel-chest",
+        "position": {
+          "x": 27.5,
+          "y": -11.5
+        }
+      },
+      {
+        "entity_number": 86,
+        "name": "steel-chest",
+        "position": {
+          "x": 27.5,
+          "y": -10.5
+        }
+      },
+      {
+        "entity_number": 87,
+        "name": "steel-chest",
+        "position": {
+          "x": 27.5,
+          "y": -9.5
+        }
+      },
+      {
+        "entity_number": 88,
+        "name": "small-lamp",
+        "position": {
+          "x": 27.5,
+          "y": -8.5
+        }
+      },
+      {
+        "entity_number": 89,
+        "name": "steel-chest",
+        "position": {
+          "x": 27.5,
+          "y": -7.5
+        }
+      },
+      {
+        "entity_number": 90,
+        "name": "steel-chest",
+        "position": {
+          "x": 27.5,
+          "y": -6.5
+        }
+      },
+      {
+        "entity_number": 91,
+        "name": "steel-chest",
+        "position": {
+          "x": 27.5,
+          "y": -5.5
+        }
+      },
+      {
+        "entity_number": 92,
+        "name": "steel-chest",
+        "position": {
+          "x": 27.5,
+          "y": -4.5
+        }
+      },
+      {
+        "entity_number": 93,
+        "name": "steel-chest",
+        "position": {
+          "x": 27.5,
+          "y": -3.5
+        }
+      },
+      {
+        "entity_number": 94,
+        "name": "steel-chest",
+        "position": {
+          "x": 27.5,
+          "y": -2.5
+        }
+      },
+      {
+        "entity_number": 95,
+        "name": "small-lamp",
+        "position": {
+          "x": 27.5,
+          "y": -1.5
+        }
+      },
+      {
+        "direction": 12,
+        "entity_number": 96,
+        "name": "splitter",
+        "position": {
+          "x": 28.5,
+          "y": -36
+        }
+      },
+      {
+        "direction": 12,
+        "entity_number": 97,
+        "mirror": true,
+        "name": "stack-inserter",
+        "position": {
+          "x": 28.5,
+          "y": -28.5
+        }
+      },
+      {
+        "direction": 12,
+        "entity_number": 98,
+        "mirror": true,
+        "name": "stack-inserter",
+        "position": {
+          "x": 28.5,
+          "y": -27.5
+        }
+      },
+      {
+        "direction": 12,
+        "entity_number": 99,
+        "mirror": true,
+        "name": "stack-inserter",
+        "position": {
+          "x": 28.5,
+          "y": -26.5
+        }
+      },
+      {
+        "direction": 12,
+        "entity_number": 100,
+        "mirror": true,
+        "name": "stack-inserter",
+        "position": {
+          "x": 28.5,
+          "y": -25.5
+        }
+      },
+      {
+        "direction": 12,
+        "entity_number": 101,
+        "mirror": true,
+        "name": "stack-inserter",
+        "position": {
+          "x": 28.5,
+          "y": -24.5
+        }
+      },
+      {
+        "direction": 12,
+        "entity_number": 102,
+        "mirror": true,
+        "name": "stack-inserter",
+        "position": {
+          "x": 28.5,
+          "y": -23.5
+        }
+      },
+      {
+        "direction": 12,
+        "entity_number": 103,
+        "mirror": true,
+        "name": "stack-inserter",
+        "position": {
+          "x": 28.5,
+          "y": -21.5
+        }
+      },
+      {
+        "direction": 12,
+        "entity_number": 104,
+        "mirror": true,
+        "name": "stack-inserter",
+        "position": {
+          "x": 28.5,
+          "y": -20.5
+        }
+      },
+      {
+        "direction": 12,
+        "entity_number": 105,
+        "mirror": true,
+        "name": "stack-inserter",
+        "position": {
+          "x": 28.5,
+          "y": -19.5
+        }
+      },
+      {
+        "direction": 12,
+        "entity_number": 106,
+        "mirror": true,
+        "name": "stack-inserter",
+        "position": {
+          "x": 28.5,
+          "y": -18.5
+        }
+      },
+      {
+        "direction": 12,
+        "entity_number": 107,
+        "mirror": true,
+        "name": "stack-inserter",
+        "position": {
+          "x": 28.5,
+          "y": -17.5
+        }
+      },
+      {
+        "direction": 12,
+        "entity_number": 108,
+        "mirror": true,
+        "name": "stack-inserter",
+        "position": {
+          "x": 28.5,
+          "y": -16.5
+        }
+      },
+      {
+        "direction": 12,
+        "entity_number": 109,
+        "mirror": true,
+        "name": "stack-inserter",
+        "position": {
+          "x": 28.5,
+          "y": -14.5
+        }
+      },
+      {
+        "direction": 12,
+        "entity_number": 110,
+        "mirror": true,
+        "name": "stack-inserter",
+        "position": {
+          "x": 28.5,
+          "y": -13.5
+        }
+      },
+      {
+        "direction": 12,
+        "entity_number": 111,
+        "mirror": true,
+        "name": "stack-inserter",
+        "position": {
+          "x": 28.5,
+          "y": -12.5
+        }
+      },
+      {
+        "direction": 12,
+        "entity_number": 112,
+        "mirror": true,
+        "name": "stack-inserter",
+        "position": {
+          "x": 28.5,
+          "y": -11.5
+        }
+      },
+      {
+        "direction": 12,
+        "entity_number": 113,
+        "mirror": true,
+        "name": "stack-inserter",
+        "position": {
+          "x": 28.5,
+          "y": -10.5
+        }
+      },
+      {
+        "direction": 12,
+        "entity_number": 114,
+        "mirror": true,
+        "name": "stack-inserter",
+        "position": {
+          "x": 28.5,
+          "y": -9.5
+        }
+      },
+      {
+        "direction": 12,
+        "entity_number": 115,
+        "mirror": true,
+        "name": "stack-inserter",
+        "position": {
+          "x": 28.5,
+          "y": -7.5
+        }
+      },
+      {
+        "direction": 12,
+        "entity_number": 116,
+        "mirror": true,
+        "name": "stack-inserter",
+        "position": {
+          "x": 28.5,
+          "y": -6.5
+        }
+      },
+      {
+        "direction": 12,
+        "entity_number": 117,
+        "mirror": true,
+        "name": "stack-inserter",
+        "position": {
+          "x": 28.5,
+          "y": -5.5
+        }
+      },
+      {
+        "direction": 12,
+        "entity_number": 118,
+        "mirror": true,
+        "name": "stack-inserter",
+        "position": {
+          "x": 28.5,
+          "y": -4.5
+        }
+      },
+      {
+        "direction": 12,
+        "entity_number": 119,
+        "mirror": true,
+        "name": "stack-inserter",
+        "position": {
+          "x": 28.5,
+          "y": -3.5
+        }
+      },
+      {
+        "direction": 12,
+        "entity_number": 120,
+        "mirror": true,
+        "name": "stack-inserter",
+        "position": {
+          "x": 28.5,
+          "y": -2.5
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 121,
+        "name": "straight-rail",
+        "position": {
+          "x": 29,
+          "y": -57
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 122,
+        "name": "straight-rail",
+        "position": {
+          "x": 29,
+          "y": 11
+        }
+      },
+      {
+        "direction": 12,
+        "entity_number": 123,
+        "name": "transport-belt",
+        "position": {
+          "x": 29.5,
+          "y": -35.5
+        }
+      },
+      {
+        "direction": 8,
+        "entity_number": 124,
+        "name": "turbo-transport-belt",
+        "position": {
+          "x": 29.5,
+          "y": -28.5
+        }
+      },
+      {
+        "direction": 8,
+        "entity_number": 125,
+        "name": "turbo-transport-belt",
+        "position": {
+          "x": 29.5,
+          "y": -27.5
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 126,
+        "name": "turbo-transport-belt",
+        "position": {
+          "x": 29.5,
+          "y": -26.5
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 127,
+        "name": "turbo-transport-belt",
+        "position": {
+          "x": 29.5,
+          "y": -25.5
+        }
+      },
+      {
+        "entity_number": 128,
+        "name": "turbo-transport-belt",
+        "position": {
+          "x": 29.5,
+          "y": -24.5
+        }
+      },
+      {
+        "entity_number": 129,
+        "name": "turbo-transport-belt",
+        "position": {
+          "x": 29.5,
+          "y": -23.5
+        }
+      },
+      {
+        "direction": 8,
+        "entity_number": 130,
+        "name": "turbo-transport-belt",
+        "position": {
+          "x": 29.5,
+          "y": -21.5
+        }
+      },
+      {
+        "direction": 8,
+        "entity_number": 131,
+        "name": "turbo-transport-belt",
+        "position": {
+          "x": 29.5,
+          "y": -20.5
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 132,
+        "name": "turbo-transport-belt",
+        "position": {
+          "x": 29.5,
+          "y": -19.5
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 133,
+        "name": "turbo-transport-belt",
+        "position": {
+          "x": 29.5,
+          "y": -18.5
+        }
+      },
+      {
+        "entity_number": 134,
+        "name": "turbo-transport-belt",
+        "position": {
+          "x": 29.5,
+          "y": -17.5
+        }
+      },
+      {
+        "entity_number": 135,
+        "name": "turbo-transport-belt",
+        "position": {
+          "x": 29.5,
+          "y": -16.5
+        }
+      },
+      {
+        "direction": 8,
+        "entity_number": 136,
+        "name": "turbo-transport-belt",
+        "position": {
+          "x": 29.5,
+          "y": -14.5
+        }
+      },
+      {
+        "direction": 8,
+        "entity_number": 137,
+        "name": "turbo-transport-belt",
+        "position": {
+          "x": 29.5,
+          "y": -13.5
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 138,
+        "name": "turbo-transport-belt",
+        "position": {
+          "x": 29.5,
+          "y": -12.5
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 139,
+        "name": "turbo-transport-belt",
+        "position": {
+          "x": 29.5,
+          "y": -11.5
+        }
+      },
+      {
+        "entity_number": 140,
+        "name": "turbo-transport-belt",
+        "position": {
+          "x": 29.5,
+          "y": -10.5
+        }
+      },
+      {
+        "entity_number": 141,
+        "name": "turbo-transport-belt",
+        "position": {
+          "x": 29.5,
+          "y": -9.5
+        }
+      },
+      {
+        "direction": 8,
+        "entity_number": 142,
+        "name": "turbo-transport-belt",
+        "position": {
+          "x": 29.5,
+          "y": -7.5
+        }
+      },
+      {
+        "direction": 8,
+        "entity_number": 143,
+        "name": "turbo-transport-belt",
+        "position": {
+          "x": 29.5,
+          "y": -6.5
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 144,
+        "name": "turbo-transport-belt",
+        "position": {
+          "x": 29.5,
+          "y": -5.5
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 145,
+        "name": "turbo-transport-belt",
+        "position": {
+          "x": 29.5,
+          "y": -4.5
+        }
+      },
+      {
+        "entity_number": 146,
+        "name": "turbo-transport-belt",
+        "position": {
+          "x": 29.5,
+          "y": -3.5
+        }
+      },
+      {
+        "entity_number": 147,
+        "name": "turbo-transport-belt",
+        "position": {
+          "x": 29.5,
+          "y": -2.5
+        }
+      },
+      {
+        "direction": 12,
+        "entity_number": 148,
+        "name": "transport-belt",
+        "position": {
+          "x": 30.5,
+          "y": -35.5
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 149,
+        "name": "turbo-splitter",
+        "position": {
+          "x": 30.5,
+          "y": -26
+        }
+      },
+      {
+        "direction": 8,
+        "entity_number": 150,
+        "name": "turbo-transport-belt",
+        "position": {
+          "x": 30.5,
+          "y": -24.5
+        }
+      },
+      {
+        "direction": 8,
+        "entity_number": 151,
+        "name": "turbo-transport-belt",
+        "position": {
+          "x": 30.5,
+          "y": -23.5
+        }
+      },
+      {
+        "direction": 8,
+        "entity_number": 152,
+        "name": "turbo-underground-belt",
+        "position": {
+          "x": 30.5,
+          "y": -22.5
+        },
+        "type": "input"
+      },
+      {
+        "direction": 4,
+        "entity_number": 153,
+        "name": "turbo-splitter",
+        "position": {
+          "x": 30.5,
+          "y": -19
+        }
+      },
+      {
+        "direction": 8,
+        "entity_number": 154,
+        "name": "turbo-underground-belt",
+        "position": {
+          "x": 30.5,
+          "y": -15.5
+        },
+        "type": "output"
+      },
+      {
+        "direction": 8,
+        "entity_number": 155,
+        "name": "turbo-underground-belt",
+        "position": {
+          "x": 30.5,
+          "y": -14.5
+        },
+        "type": "input"
+      },
+      {
+        "direction": 4,
+        "entity_number": 156,
+        "name": "turbo-splitter",
+        "position": {
+          "x": 30.5,
+          "y": -12
+        }
+      },
+      {
+        "direction": 8,
+        "entity_number": 157,
+        "name": "turbo-underground-belt",
+        "position": {
+          "x": 30.5,
+          "y": -8.5
+        },
+        "type": "output"
+      },
+      {
+        "direction": 8,
+        "entity_number": 158,
+        "name": "turbo-underground-belt",
+        "position": {
+          "x": 30.5,
+          "y": -7.5
+        },
+        "type": "input"
+      },
+      {
+        "direction": 4,
+        "entity_number": 159,
+        "name": "turbo-splitter",
+        "position": {
+          "x": 30.5,
+          "y": -5
+        }
+      },
+      {
+        "direction": 8,
+        "entity_number": 160,
+        "name": "turbo-underground-belt",
+        "position": {
+          "x": 30.5,
+          "y": -1.5
+        },
+        "type": "output"
+      },
+      {
+        "direction": 8,
+        "entity_number": 161,
+        "name": "turbo-transport-belt",
+        "position": {
+          "x": 30.5,
+          "y": -0.5
+        }
+      },
+      {
+        "direction": 8,
+        "entity_number": 162,
+        "name": "turbo-transport-belt",
+        "position": {
+          "x": 30.5,
+          "y": 0.5
+        }
+      },
+      {
+        "direction": 8,
+        "entity_number": 163,
+        "name": "turbo-transport-belt",
+        "position": {
+          "x": 30.5,
+          "y": 1.5
+        }
+      },
+      {
+        "direction": 8,
+        "entity_number": 164,
+        "name": "turbo-transport-belt",
+        "position": {
+          "x": 30.5,
+          "y": 2.5
+        }
+      },
+      {
+        "direction": 8,
+        "entity_number": 165,
+        "name": "turbo-transport-belt",
+        "position": {
+          "x": 30.5,
+          "y": 3.5
+        }
+      },
+      {
+        "direction": 8,
+        "entity_number": 166,
+        "name": "turbo-transport-belt",
+        "position": {
+          "x": 30.5,
+          "y": 4.5
+        }
+      },
+      {
+        "direction": 8,
+        "entity_number": 167,
+        "name": "turbo-transport-belt",
+        "position": {
+          "x": 30.5,
+          "y": 5.5
+        }
+      },
+      {
+        "direction": 8,
+        "entity_number": 168,
+        "name": "turbo-underground-belt",
+        "position": {
+          "x": 30.5,
+          "y": 6.5
+        },
+        "type": "input"
+      },
+      {
+        "direction": 8,
+        "entity_number": 169,
+        "name": "turbo-underground-belt",
+        "position": {
+          "x": 30.5,
+          "y": 12.5
+        },
+        "type": "output"
+      },
+      {
+        "direction": 4,
+        "entity_number": 170,
+        "name": "straight-rail",
+        "position": {
+          "x": 31,
+          "y": -57
+        }
+      },
+      {
+        "direction": 12,
+        "entity_number": 171,
+        "name": "curved-rail-b",
+        "position": {
+          "x": 31,
+          "y": -55
+        }
+      },
+      {
+        "direction": 14,
+        "entity_number": 172,
+        "name": "curved-rail-b",
+        "position": {
+          "x": 31,
+          "y": 9
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 173,
+        "name": "straight-rail",
+        "position": {
+          "x": 31,
+          "y": 11
+        }
+      },
+      {
+        "direction": 12,
+        "entity_number": 174,
+        "name": "transport-belt",
+        "position": {
+          "x": 31.5,
+          "y": -35.5
+        }
+      },
+      {
+        "direction": 8,
+        "entity_number": 175,
+        "name": "turbo-transport-belt",
+        "position": {
+          "x": 31.5,
+          "y": -25.5
+        }
+      },
+      {
+        "direction": 12,
+        "entity_number": 176,
+        "name": "turbo-transport-belt",
+        "position": {
+          "x": 31.5,
+          "y": -24.5
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 177,
+        "name": "turbo-transport-belt",
+        "position": {
+          "x": 31.5,
+          "y": -18.5
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 178,
+        "name": "turbo-transport-belt",
+        "position": {
+          "x": 31.5,
+          "y": -11.5
+        }
+      },
+      {
+        "direction": 8,
+        "entity_number": 179,
+        "name": "turbo-transport-belt",
+        "position": {
+          "x": 31.5,
+          "y": -4.5
+        }
+      },
+      {
+        "direction": 8,
+        "entity_number": 180,
+        "name": "turbo-transport-belt",
+        "position": {
+          "x": 31.5,
+          "y": -3.5
+        }
+      },
+      {
+        "direction": 8,
+        "entity_number": 181,
+        "name": "turbo-transport-belt",
+        "position": {
+          "x": 31.5,
+          "y": -2.5
+        }
+      },
+      {
+        "direction": 8,
+        "entity_number": 182,
+        "name": "turbo-transport-belt",
+        "position": {
+          "x": 31.5,
+          "y": -1.5
+        }
+      },
+      {
+        "direction": 8,
+        "entity_number": 183,
+        "name": "turbo-transport-belt",
+        "position": {
+          "x": 31.5,
+          "y": -0.5
+        }
+      },
+      {
+        "direction": 8,
+        "entity_number": 184,
+        "name": "turbo-transport-belt",
+        "position": {
+          "x": 31.5,
+          "y": 0.5
+        }
+      },
+      {
+        "direction": 8,
+        "entity_number": 185,
+        "name": "turbo-transport-belt",
+        "position": {
+          "x": 31.5,
+          "y": 1.5
+        }
+      },
+      {
+        "direction": 8,
+        "entity_number": 186,
+        "name": "turbo-transport-belt",
+        "position": {
+          "x": 31.5,
+          "y": 2.5
+        }
+      },
+      {
+        "direction": 8,
+        "entity_number": 187,
+        "name": "turbo-transport-belt",
+        "position": {
+          "x": 31.5,
+          "y": 3.5
+        }
+      },
+      {
+        "direction": 8,
+        "entity_number": 188,
+        "name": "turbo-transport-belt",
+        "position": {
+          "x": 31.5,
+          "y": 4.5
+        }
+      },
+      {
+        "direction": 8,
+        "entity_number": 189,
+        "name": "turbo-transport-belt",
+        "position": {
+          "x": 31.5,
+          "y": 5.5
+        }
+      },
+      {
+        "direction": 8,
+        "entity_number": 190,
+        "name": "turbo-underground-belt",
+        "position": {
+          "x": 31.5,
+          "y": 6.5
+        },
+        "type": "input"
+      },
+      {
+        "direction": 8,
+        "entity_number": 191,
+        "name": "turbo-underground-belt",
+        "position": {
+          "x": 31.5,
+          "y": 12.5
+        },
+        "type": "output"
+      },
+      {
+        "direction": 11,
+        "entity_number": 192,
+        "name": "rail-chain-signal",
+        "position": {
+          "x": 32.5,
+          "y": -54.5
+        }
+      },
+      {
+        "direction": 12,
+        "entity_number": 193,
+        "name": "transport-belt",
+        "position": {
+          "x": 32.5,
+          "y": -35.5
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 194,
+        "name": "turbo-transport-belt",
+        "position": {
+          "x": 32.5,
+          "y": -18.5
+        }
+      },
+      {
+        "direction": 8,
+        "entity_number": 195,
+        "name": "turbo-transport-belt",
+        "position": {
+          "x": 32.5,
+          "y": -11.5
+        }
+      },
+      {
+        "direction": 8,
+        "entity_number": 196,
+        "name": "turbo-transport-belt",
+        "position": {
+          "x": 32.5,
+          "y": -10.5
+        }
+      },
+      {
+        "direction": 8,
+        "entity_number": 197,
+        "name": "turbo-transport-belt",
+        "position": {
+          "x": 32.5,
+          "y": -9.5
+        }
+      },
+      {
+        "direction": 8,
+        "entity_number": 198,
+        "name": "turbo-transport-belt",
+        "position": {
+          "x": 32.5,
+          "y": -8.5
+        }
+      },
+      {
+        "direction": 8,
+        "entity_number": 199,
+        "name": "turbo-transport-belt",
+        "position": {
+          "x": 32.5,
+          "y": -7.5
+        }
+      },
+      {
+        "direction": 8,
+        "entity_number": 200,
+        "name": "turbo-transport-belt",
+        "position": {
+          "x": 32.5,
+          "y": -6.5
+        }
+      },
+      {
+        "direction": 8,
+        "entity_number": 201,
+        "name": "turbo-transport-belt",
+        "position": {
+          "x": 32.5,
+          "y": -5.5
+        }
+      },
+      {
+        "direction": 8,
+        "entity_number": 202,
+        "name": "turbo-transport-belt",
+        "position": {
+          "x": 32.5,
+          "y": -4.5
+        }
+      },
+      {
+        "direction": 8,
+        "entity_number": 203,
+        "name": "turbo-transport-belt",
+        "position": {
+          "x": 32.5,
+          "y": -3.5
+        }
+      },
+      {
+        "direction": 8,
+        "entity_number": 204,
+        "name": "turbo-transport-belt",
+        "position": {
+          "x": 32.5,
+          "y": -2.5
+        }
+      },
+      {
+        "direction": 8,
+        "entity_number": 205,
+        "name": "turbo-transport-belt",
+        "position": {
+          "x": 32.5,
+          "y": -1.5
+        }
+      },
+      {
+        "direction": 8,
+        "entity_number": 206,
+        "name": "turbo-transport-belt",
+        "position": {
+          "x": 32.5,
+          "y": -0.5
+        }
+      },
+      {
+        "direction": 8,
+        "entity_number": 207,
+        "name": "turbo-transport-belt",
+        "position": {
+          "x": 32.5,
+          "y": 0.5
+        }
+      },
+      {
+        "direction": 8,
+        "entity_number": 208,
+        "name": "turbo-transport-belt",
+        "position": {
+          "x": 32.5,
+          "y": 1.5
+        }
+      },
+      {
+        "direction": 8,
+        "entity_number": 209,
+        "name": "turbo-transport-belt",
+        "position": {
+          "x": 32.5,
+          "y": 2.5
+        }
+      },
+      {
+        "direction": 8,
+        "entity_number": 210,
+        "name": "turbo-transport-belt",
+        "position": {
+          "x": 32.5,
+          "y": 3.5
+        }
+      },
+      {
+        "direction": 8,
+        "entity_number": 211,
+        "name": "turbo-transport-belt",
+        "position": {
+          "x": 32.5,
+          "y": 4.5
+        }
+      },
+      {
+        "direction": 8,
+        "entity_number": 212,
+        "name": "turbo-transport-belt",
+        "position": {
+          "x": 32.5,
+          "y": 5.5
+        }
+      },
+      {
+        "direction": 8,
+        "entity_number": 213,
+        "name": "turbo-underground-belt",
+        "position": {
+          "x": 32.5,
+          "y": 6.5
+        },
+        "type": "input"
+      },
+      {
+        "direction": 5,
+        "entity_number": 214,
+        "name": "rail-signal",
+        "position": {
+          "x": 32.5,
+          "y": 8.5
+        }
+      },
+      {
+        "direction": 8,
+        "entity_number": 215,
+        "name": "turbo-underground-belt",
+        "position": {
+          "x": 32.5,
+          "y": 12.5
+        },
+        "type": "output"
+      },
+      {
+        "direction": 4,
+        "entity_number": 216,
+        "name": "straight-rail",
+        "position": {
+          "x": 33,
+          "y": -57
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 217,
+        "name": "straight-rail",
+        "position": {
+          "x": 33,
+          "y": 11
+        }
+      },
+      {
+        "direction": 12,
+        "entity_number": 218,
+        "name": "underground-belt",
+        "position": {
+          "x": 33.5,
+          "y": -35.5
+        },
+        "type": "output"
+      },
+      {
+        "direction": 8,
+        "entity_number": 219,
+        "name": "turbo-transport-belt",
+        "position": {
+          "x": 33.5,
+          "y": -18.5
+        }
+      },
+      {
+        "direction": 8,
+        "entity_number": 220,
+        "name": "turbo-transport-belt",
+        "position": {
+          "x": 33.5,
+          "y": -17.5
+        }
+      },
+      {
+        "direction": 8,
+        "entity_number": 221,
+        "name": "turbo-transport-belt",
+        "position": {
+          "x": 33.5,
+          "y": -16.5
+        }
+      },
+      {
+        "direction": 8,
+        "entity_number": 222,
+        "name": "turbo-transport-belt",
+        "position": {
+          "x": 33.5,
+          "y": -15.5
+        }
+      },
+      {
+        "direction": 8,
+        "entity_number": 223,
+        "name": "turbo-transport-belt",
+        "position": {
+          "x": 33.5,
+          "y": -14.5
+        }
+      },
+      {
+        "direction": 8,
+        "entity_number": 224,
+        "name": "turbo-transport-belt",
+        "position": {
+          "x": 33.5,
+          "y": -13.5
+        }
+      },
+      {
+        "direction": 8,
+        "entity_number": 225,
+        "name": "turbo-transport-belt",
+        "position": {
+          "x": 33.5,
+          "y": -12.5
+        }
+      },
+      {
+        "direction": 8,
+        "entity_number": 226,
+        "name": "turbo-transport-belt",
+        "position": {
+          "x": 33.5,
+          "y": -11.5
+        }
+      },
+      {
+        "direction": 8,
+        "entity_number": 227,
+        "name": "turbo-transport-belt",
+        "position": {
+          "x": 33.5,
+          "y": -10.5
+        }
+      },
+      {
+        "direction": 8,
+        "entity_number": 228,
+        "name": "turbo-transport-belt",
+        "position": {
+          "x": 33.5,
+          "y": -9.5
+        }
+      },
+      {
+        "direction": 8,
+        "entity_number": 229,
+        "name": "turbo-transport-belt",
+        "position": {
+          "x": 33.5,
+          "y": -8.5
+        }
+      },
+      {
+        "direction": 8,
+        "entity_number": 230,
+        "name": "turbo-transport-belt",
+        "position": {
+          "x": 33.5,
+          "y": -7.5
+        }
+      },
+      {
+        "direction": 8,
+        "entity_number": 231,
+        "name": "turbo-transport-belt",
+        "position": {
+          "x": 33.5,
+          "y": -6.5
+        }
+      },
+      {
+        "direction": 8,
+        "entity_number": 232,
+        "name": "turbo-transport-belt",
+        "position": {
+          "x": 33.5,
+          "y": -5.5
+        }
+      },
+      {
+        "direction": 8,
+        "entity_number": 233,
+        "name": "turbo-transport-belt",
+        "position": {
+          "x": 33.5,
+          "y": -4.5
+        }
+      },
+      {
+        "direction": 8,
+        "entity_number": 234,
+        "name": "turbo-transport-belt",
+        "position": {
+          "x": 33.5,
+          "y": -3.5
+        }
+      },
+      {
+        "direction": 8,
+        "entity_number": 235,
+        "name": "turbo-transport-belt",
+        "position": {
+          "x": 33.5,
+          "y": -2.5
+        }
+      },
+      {
+        "direction": 8,
+        "entity_number": 236,
+        "name": "turbo-transport-belt",
+        "position": {
+          "x": 33.5,
+          "y": -1.5
+        }
+      },
+      {
+        "direction": 8,
+        "entity_number": 237,
+        "name": "turbo-transport-belt",
+        "position": {
+          "x": 33.5,
+          "y": -0.5
+        }
+      },
+      {
+        "direction": 8,
+        "entity_number": 238,
+        "name": "turbo-transport-belt",
+        "position": {
+          "x": 33.5,
+          "y": 0.5
+        }
+      },
+      {
+        "direction": 8,
+        "entity_number": 239,
+        "name": "turbo-transport-belt",
+        "position": {
+          "x": 33.5,
+          "y": 1.5
+        }
+      },
+      {
+        "direction": 8,
+        "entity_number": 240,
+        "name": "turbo-transport-belt",
+        "position": {
+          "x": 33.5,
+          "y": 2.5
+        }
+      },
+      {
+        "direction": 8,
+        "entity_number": 241,
+        "name": "turbo-transport-belt",
+        "position": {
+          "x": 33.5,
+          "y": 3.5
+        }
+      },
+      {
+        "direction": 8,
+        "entity_number": 242,
+        "name": "turbo-transport-belt",
+        "position": {
+          "x": 33.5,
+          "y": 4.5
+        }
+      },
+      {
+        "direction": 8,
+        "entity_number": 243,
+        "name": "turbo-transport-belt",
+        "position": {
+          "x": 33.5,
+          "y": 5.5
+        }
+      },
+      {
+        "direction": 8,
+        "entity_number": 244,
+        "name": "turbo-underground-belt",
+        "position": {
+          "x": 33.5,
+          "y": 6.5
+        },
+        "type": "input"
+      },
+      {
+        "direction": 8,
+        "entity_number": 245,
+        "name": "turbo-underground-belt",
+        "position": {
+          "x": 33.5,
+          "y": 12.5
+        },
+        "type": "output"
+      },
+      {
+        "direction": 12,
+        "entity_number": 246,
+        "name": "curved-rail-a",
+        "position": {
+          "x": 36,
+          "y": -57
+        }
+      },
+      {
+        "direction": 14,
+        "entity_number": 247,
+        "name": "curved-rail-a",
+        "position": {
+          "x": 36,
+          "y": 11
+        }
+      }
+    ],
+    "icons": [
+      {
+        "index": 1,
+        "signal": {
+          "name": "train-stop"
+        }
+      },
+      {
+        "index": 2,
+        "signal": {
+          "name": "steel-chest"
+        }
+      },
+      {
+        "index": 3,
+        "signal": {
+          "name": "signal-output",
+          "type": "virtual"
+        }
+      }
+    ],
+    "version": 562954249306113,
+    "wires": [
+      [
+        27,
+        1,
+        29,
+        1
+      ],
+      [
+        27,
+        1,
+        61,
+        1
+      ],
+      [
+        27,
+        5,
+        29,
+        5
+      ],
+      [
+        27,
+        5,
+        60,
+        5
+      ],
+      [
+        29,
+        1,
+        36,
+        1
+      ],
+      [
+        29,
+        1,
+        68,
+        1
+      ],
+      [
+        29,
+        5,
+        36,
+        5
+      ],
+      [
+        36,
+        1,
+        43,
+        1
+      ],
+      [
+        36,
+        1,
+        75,
+        1
+      ],
+      [
+        36,
+        5,
+        43,
+        5
+      ],
+      [
+        43,
+        1,
+        50,
+        1
+      ],
+      [
+        43,
+        1,
+        82,
+        1
+      ],
+      [
+        43,
+        5,
+        50,
+        5
+      ],
+      [
+        50,
+        1,
+        89,
+        1
+      ],
+      [
+        50,
+        5,
+        57,
+        5
+      ],
+      [
+        68,
+        1,
+        69,
+        1
+      ],
+      [
+        69,
+        1,
+        70,
+        1
+      ],
+      [
+        70,
+        1,
+        71,
+        1
+      ],
+      [
+        71,
+        1,
+        72,
+        1
+      ],
+      [
+        72,
+        1,
+        73,
+        1
+      ],
+      [
+        75,
+        1,
+        76,
+        1
+      ],
+      [
+        76,
+        1,
+        77,
+        1
+      ],
+      [
+        77,
+        1,
+        78,
+        1
+      ],
+      [
+        78,
+        1,
+        79,
+        1
+      ],
+      [
+        79,
+        1,
+        80,
+        1
+      ],
+      [
+        82,
+        1,
+        83,
+        1
+      ],
+      [
+        83,
+        1,
+        84,
+        1
+      ],
+      [
+        84,
+        1,
+        85,
+        1
+      ],
+      [
+        85,
+        1,
+        86,
+        1
+      ],
+      [
+        86,
+        1,
+        87,
+        1
+      ],
+      [
+        89,
+        1,
+        90,
+        1
+      ],
+      [
+        90,
+        1,
+        91,
+        1
+      ],
+      [
+        91,
+        1,
+        92,
+        1
+      ],
+      [
+        92,
+        1,
+        93,
+        1
+      ],
+      [
+        93,
+        1,
+        94,
+        1
+      ]
+    ]
+  },
+  "index": 7
+}

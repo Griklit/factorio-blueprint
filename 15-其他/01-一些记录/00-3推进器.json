@@ -1,0 +1,34 @@
+{
+  "blueprint": {
+    "item": "blueprint",
+    "label": "3推进器",
+    "description": "巡航路线：地->火->草->雷\n速度受飞船质量轻微影响\n\n+2格\n288.54±10km/s\n连续飞行子弹消耗约217/m\n\n+1格\n299.96±10km/s\n连续飞行子弹消耗约226/m",
+    "entities": [
+      {
+        "entity_number": 1,
+        "name": "display-panel",
+        "position": {
+          "x": -10.5,
+          "y": 116.5
+        }
+      }
+    ],
+    "icons": [
+      {
+        "index": 1,
+        "signal": {
+          "name": "thruster"
+        }
+      },
+      {
+        "index": 2,
+        "signal": {
+          "name": "signal-3",
+          "type": "virtual"
+        }
+      }
+    ],
+    "version": 562954249306113
+  },
+  "index": 0
+}

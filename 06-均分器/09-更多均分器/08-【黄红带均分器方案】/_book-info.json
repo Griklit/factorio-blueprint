@@ -1,0 +1,21 @@
+{
+  "active_index": 39,
+  "blueprints": [],
+  "icons": [
+    {
+      "index": 1,
+      "signal": {
+        "name": "splitter"
+      }
+    },
+    {
+      "index": 2,
+      "signal": {
+        "name": "fast-splitter"
+      }
+    }
+  ],
+  "item": "blueprint-book",
+  "label": "【黄红带均分器方案】",
+  "version": 562954249306113
+}

@@ -1,0 +1,1097 @@
+{
+  "blueprint": {
+    "item": "blueprint",
+    "entities": [
+      {
+        "control_behavior": {
+          "sections": {
+            "sections": [
+              {
+                "filters": [
+                  {
+                    "comparator": "=",
+                    "count": 1,
+                    "import_from": "nauvis",
+                    "index": 1,
+                    "name": "advanced-circuit",
+                    "quality": "normal"
+                  },
+                  {
+                    "comparator": "=",
+                    "count": 1,
+                    "import_from": "nauvis",
+                    "index": 2,
+                    "name": "processing-unit",
+                    "quality": "normal"
+                  }
+                ],
+                "index": 1
+              }
+            ]
+          }
+        },
+        "direction": 12,
+        "entity_number": 1,
+        "name": "constant-combinator",
+        "position": {
+          "x": 287.5,
+          "y": 377.5
+        }
+      },
+      {
+        "control_behavior": {
+          "sections": {
+            "sections": [
+              {
+                "filters": [
+                  {
+                    "comparator": "=",
+                    "count": 1,
+                    "import_from": "nauvis",
+                    "index": 1,
+                    "name": "electronic-circuit",
+                    "quality": "normal"
+                  },
+                  {
+                    "comparator": "=",
+                    "count": 1,
+                    "import_from": "nauvis",
+                    "index": 2,
+                    "name": "spoilage",
+                    "quality": "normal"
+                  }
+                ],
+                "index": 1
+              }
+            ]
+          }
+        },
+        "direction": 12,
+        "entity_number": 2,
+        "name": "constant-combinator",
+        "position": {
+          "x": 287.5,
+          "y": 379.5
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 3,
+        "name": "fast-underground-belt",
+        "position": {
+          "x": 288.5,
+          "y": 377.5
+        },
+        "type": "output"
+      },
+      {
+        "direction": 4,
+        "entity_number": 4,
+        "name": "fast-transport-belt",
+        "position": {
+          "x": 289.5,
+          "y": 377.5
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 5,
+        "name": "fast-transport-belt",
+        "position": {
+          "x": 289.5,
+          "y": 378.5
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 6,
+        "name": "fast-underground-belt",
+        "position": {
+          "x": 289.5,
+          "y": 379.5
+        },
+        "type": "output"
+      },
+      {
+        "entity_number": 7,
+        "name": "medium-electric-pole",
+        "position": {
+          "x": 290.5,
+          "y": 376.5
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 8,
+        "name": "fast-transport-belt",
+        "position": {
+          "x": 290.5,
+          "y": 377.5
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 9,
+        "name": "fast-transport-belt",
+        "position": {
+          "x": 290.5,
+          "y": 378.5
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 10,
+        "name": "fast-underground-belt",
+        "position": {
+          "x": 290.5,
+          "y": 379.5
+        },
+        "type": "input"
+      },
+      {
+        "entity_number": 11,
+        "name": "inserter",
+        "position": {
+          "x": 290.5,
+          "y": 380.5
+        }
+      },
+      {
+        "entity_number": 12,
+        "name": "electromagnetic-plant",
+        "position": {
+          "x": 291,
+          "y": 374
+        },
+        "recipe": "efficiency-module",
+        "recipe_quality": "normal"
+      },
+      {
+        "entity_number": 13,
+        "name": "electromagnetic-plant",
+        "position": {
+          "x": 291,
+          "y": 383
+        },
+        "recipe": "efficiency-module",
+        "recipe_quality": "normal"
+      },
+      {
+        "direction": 8,
+        "entity_number": 14,
+        "name": "inserter",
+        "position": {
+          "x": 291.5,
+          "y": 376.5
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 15,
+        "name": "fast-underground-belt",
+        "position": {
+          "x": 291.5,
+          "y": 377.5
+        },
+        "type": "input"
+      },
+      {
+        "direction": 4,
+        "entity_number": 16,
+        "name": "fast-transport-belt",
+        "position": {
+          "x": 291.5,
+          "y": 378.5
+        }
+      },
+      {
+        "entity_number": 17,
+        "name": "long-handed-inserter",
+        "position": {
+          "x": 291.5,
+          "y": 379.5
+        }
+      },
+      {
+        "entity_number": 18,
+        "name": "medium-electric-pole",
+        "position": {
+          "x": 291.5,
+          "y": 380.5
+        }
+      },
+      {
+        "entity_number": 19,
+        "name": "long-handed-inserter",
+        "position": {
+          "x": 292.5,
+          "y": 376.5
+        }
+      },
+      {
+        "direction": 8,
+        "entity_number": 20,
+        "name": "long-handed-inserter",
+        "position": {
+          "x": 292.5,
+          "y": 377.5
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 21,
+        "name": "fast-transport-belt",
+        "position": {
+          "x": 292.5,
+          "y": 378.5
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 22,
+        "name": "fast-underground-belt",
+        "position": {
+          "x": 292.5,
+          "y": 379.5
+        },
+        "type": "output"
+      },
+      {
+        "direction": 8,
+        "entity_number": 23,
+        "name": "long-handed-inserter",
+        "position": {
+          "x": 292.5,
+          "y": 380.5
+        }
+      },
+      {
+        "entity_number": 24,
+        "name": "long-handed-inserter",
+        "position": {
+          "x": 293.5,
+          "y": 376.5
+        }
+      },
+      {
+        "direction": 8,
+        "entity_number": 25,
+        "name": "long-handed-inserter",
+        "position": {
+          "x": 293.5,
+          "y": 377.5
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 26,
+        "name": "fast-transport-belt",
+        "position": {
+          "x": 293.5,
+          "y": 378.5
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 27,
+        "name": "fast-underground-belt",
+        "position": {
+          "x": 293.5,
+          "y": 379.5
+        },
+        "type": "input"
+      },
+      {
+        "direction": 8,
+        "entity_number": 28,
+        "name": "long-handed-inserter",
+        "position": {
+          "x": 293.5,
+          "y": 380.5
+        }
+      },
+      {
+        "direction": 8,
+        "entity_number": 29,
+        "name": "inserter",
+        "position": {
+          "x": 294.5,
+          "y": 376.5
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 30,
+        "name": "fast-underground-belt",
+        "position": {
+          "x": 294.5,
+          "y": 377.5
+        },
+        "type": "output"
+      },
+      {
+        "direction": 4,
+        "entity_number": 31,
+        "name": "fast-underground-belt",
+        "position": {
+          "x": 294.5,
+          "y": 378.5
+        },
+        "type": "input"
+      },
+      {
+        "entity_number": 32,
+        "name": "long-handed-inserter",
+        "position": {
+          "x": 294.5,
+          "y": 379.5
+        }
+      },
+      {
+        "entity_number": 33,
+        "name": "electromagnetic-plant",
+        "position": {
+          "x": 295,
+          "y": 374
+        },
+        "recipe": "efficiency-module",
+        "recipe_quality": "normal"
+      },
+      {
+        "entity_number": 34,
+        "name": "electromagnetic-plant",
+        "position": {
+          "x": 295,
+          "y": 383
+        },
+        "recipe": "efficiency-module",
+        "recipe_quality": "normal"
+      },
+      {
+        "direction": 4,
+        "entity_number": 35,
+        "name": "fast-transport-belt",
+        "position": {
+          "x": 295.5,
+          "y": 377.5
+        }
+      },
+      {
+        "direction": 12,
+        "entity_number": 36,
+        "name": "inserter",
+        "position": {
+          "x": 295.5,
+          "y": 378.5
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 37,
+        "name": "fast-underground-belt",
+        "position": {
+          "x": 295.5,
+          "y": 379.5
+        },
+        "type": "output"
+      },
+      {
+        "entity_number": 38,
+        "name": "inserter",
+        "position": {
+          "x": 295.5,
+          "y": 380.5
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 39,
+        "name": "fast-transport-belt",
+        "position": {
+          "x": 296.5,
+          "y": 377.5
+        }
+      },
+      {
+        "bar": 0,
+        "entity_number": 40,
+        "name": "storage-chest",
+        "position": {
+          "x": 296.5,
+          "y": 378.5
+        },
+        "request_filters": {
+          "sections": [
+            {
+              "filters": [
+                {
+                  "comparator": "=",
+                  "count": 0,
+                  "import_from": "nauvis",
+                  "index": 1,
+                  "name": "speed-module",
+                  "quality": "normal"
+                }
+              ],
+              "index": 1
+            }
+          ]
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 41,
+        "name": "fast-transport-belt",
+        "position": {
+          "x": 296.5,
+          "y": 379.5
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 42,
+        "name": "fast-underground-belt",
+        "position": {
+          "x": 297.5,
+          "y": 377.5
+        },
+        "type": "input"
+      },
+      {
+        "entity_number": 43,
+        "name": "medium-electric-pole",
+        "position": {
+          "x": 297.5,
+          "y": 378.5
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 44,
+        "name": "fast-transport-belt",
+        "position": {
+          "x": 297.5,
+          "y": 379.5
+        }
+      },
+      {
+        "entity_number": 45,
+        "name": "long-handed-inserter",
+        "position": {
+          "x": 298.5,
+          "y": 376.5
+        }
+      },
+      {
+        "direction": 8,
+        "entity_number": 46,
+        "name": "long-handed-inserter",
+        "position": {
+          "x": 298.5,
+          "y": 377.5
+        }
+      },
+      {
+        "entity_number": 47,
+        "name": "storage-chest",
+        "position": {
+          "x": 298.5,
+          "y": 378.5
+        },
+        "request_filters": {
+          "sections": [
+            {
+              "filters": [
+                {
+                  "comparator": "=",
+                  "count": 0,
+                  "import_from": "nauvis",
+                  "index": 1,
+                  "name": "speed-module-3",
+                  "quality": "normal"
+                }
+              ],
+              "index": 1
+            }
+          ]
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 48,
+        "name": "fast-underground-belt",
+        "position": {
+          "x": 298.5,
+          "y": 379.5
+        },
+        "type": "input"
+      },
+      {
+        "entity_number": 49,
+        "name": "electromagnetic-plant",
+        "position": {
+          "x": 299,
+          "y": 374
+        },
+        "recipe": "efficiency-module-3",
+        "recipe_quality": "normal"
+      },
+      {
+        "entity_number": 50,
+        "name": "electromagnetic-plant",
+        "position": {
+          "x": 299,
+          "y": 383
+        },
+        "recipe": "efficiency-module-2",
+        "recipe_quality": "normal"
+      },
+      {
+        "direction": 8,
+        "entity_number": 51,
+        "name": "inserter",
+        "position": {
+          "x": 299.5,
+          "y": 376.5
+        }
+      },
+      {
+        "bar": 0,
+        "entity_number": 52,
+        "name": "storage-chest",
+        "position": {
+          "x": 299.5,
+          "y": 378.5
+        },
+        "request_filters": {
+          "sections": [
+            {
+              "filters": [
+                {
+                  "comparator": "=",
+                  "count": 0,
+                  "import_from": "nauvis",
+                  "index": 1,
+                  "name": "speed-module-2",
+                  "quality": "normal"
+                }
+              ],
+              "index": 1
+            }
+          ]
+        }
+      },
+      {
+        "direction": 8,
+        "entity_number": 53,
+        "name": "long-handed-inserter",
+        "position": {
+          "x": 299.5,
+          "y": 379.5
+        }
+      },
+      {
+        "direction": 8,
+        "entity_number": 54,
+        "name": "long-handed-inserter",
+        "position": {
+          "x": 299.5,
+          "y": 380.5
+        }
+      },
+      {
+        "direction": 8,
+        "entity_number": 55,
+        "name": "inserter",
+        "position": {
+          "x": 300.5,
+          "y": 376.5
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 56,
+        "name": "fast-underground-belt",
+        "position": {
+          "x": 300.5,
+          "y": 377.5
+        },
+        "type": "output"
+      },
+      {
+        "direction": 4,
+        "entity_number": 57,
+        "name": "fast-underground-belt",
+        "position": {
+          "x": 300.5,
+          "y": 378.5
+        },
+        "type": "output"
+      },
+      {
+        "entity_number": 58,
+        "name": "long-handed-inserter",
+        "position": {
+          "x": 300.5,
+          "y": 379.5
+        }
+      },
+      {
+        "entity_number": 59,
+        "name": "long-handed-inserter",
+        "position": {
+          "x": 300.5,
+          "y": 380.5
+        }
+      },
+      {
+        "direction": 8,
+        "entity_number": 60,
+        "name": "inserter",
+        "position": {
+          "x": 301.5,
+          "y": 376.5
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 61,
+        "name": "fast-underground-belt",
+        "position": {
+          "x": 301.5,
+          "y": 377.5
+        },
+        "type": "input"
+      },
+      {
+        "direction": 4,
+        "entity_number": 62,
+        "name": "fast-underground-belt",
+        "position": {
+          "x": 301.5,
+          "y": 378.5
+        },
+        "type": "input"
+      },
+      {
+        "entity_number": 63,
+        "name": "long-handed-inserter",
+        "position": {
+          "x": 301.5,
+          "y": 379.5
+        }
+      },
+      {
+        "entity_number": 64,
+        "name": "long-handed-inserter",
+        "position": {
+          "x": 301.5,
+          "y": 380.5
+        }
+      },
+      {
+        "direction": 8,
+        "entity_number": 65,
+        "name": "inserter",
+        "position": {
+          "x": 302.5,
+          "y": 376.5
+        }
+      },
+      {
+        "bar": 0,
+        "entity_number": 66,
+        "name": "storage-chest",
+        "position": {
+          "x": 302.5,
+          "y": 378.5
+        },
+        "request_filters": {
+          "sections": [
+            {
+              "filters": [
+                {
+                  "comparator": "=",
+                  "count": 0,
+                  "import_from": "nauvis",
+                  "index": 1,
+                  "name": "speed-module-2",
+                  "quality": "normal"
+                }
+              ],
+              "index": 1
+            }
+          ]
+        }
+      },
+      {
+        "direction": 8,
+        "entity_number": 67,
+        "name": "long-handed-inserter",
+        "position": {
+          "x": 302.5,
+          "y": 379.5
+        }
+      },
+      {
+        "direction": 8,
+        "entity_number": 68,
+        "name": "long-handed-inserter",
+        "position": {
+          "x": 302.5,
+          "y": 380.5
+        }
+      },
+      {
+        "entity_number": 69,
+        "name": "electromagnetic-plant",
+        "position": {
+          "x": 303,
+          "y": 374
+        },
+        "recipe": "efficiency-module-3",
+        "recipe_quality": "normal"
+      },
+      {
+        "entity_number": 70,
+        "name": "electromagnetic-plant",
+        "position": {
+          "x": 303,
+          "y": 383
+        },
+        "recipe": "efficiency-module-2",
+        "recipe_quality": "normal"
+      },
+      {
+        "entity_number": 71,
+        "name": "long-handed-inserter",
+        "position": {
+          "x": 303.5,
+          "y": 376.5
+        }
+      },
+      {
+        "direction": 8,
+        "entity_number": 72,
+        "name": "long-handed-inserter",
+        "position": {
+          "x": 303.5,
+          "y": 377.5
+        }
+      },
+      {
+        "entity_number": 73,
+        "name": "storage-chest",
+        "position": {
+          "x": 303.5,
+          "y": 378.5
+        },
+        "request_filters": {
+          "sections": [
+            {
+              "filters": [
+                {
+                  "comparator": "=",
+                  "count": 0,
+                  "import_from": "nauvis",
+                  "index": 1,
+                  "name": "speed-module-3",
+                  "quality": "normal"
+                }
+              ],
+              "index": 1
+            }
+          ]
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 74,
+        "name": "fast-underground-belt",
+        "position": {
+          "x": 303.5,
+          "y": 379.5
+        },
+        "type": "output"
+      },
+      {
+        "direction": 4,
+        "entity_number": 75,
+        "name": "fast-underground-belt",
+        "position": {
+          "x": 304.5,
+          "y": 377.5
+        },
+        "type": "output"
+      },
+      {
+        "entity_number": 76,
+        "name": "medium-electric-pole",
+        "position": {
+          "x": 304.5,
+          "y": 378.5
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 77,
+        "name": "fast-transport-belt",
+        "position": {
+          "x": 304.5,
+          "y": 379.5
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 78,
+        "name": "fast-underground-belt",
+        "position": {
+          "x": 305.5,
+          "y": 377.5
+        },
+        "type": "input"
+      },
+      {
+        "entity_number": 79,
+        "name": "medium-electric-pole",
+        "position": {
+          "x": 305.5,
+          "y": 378.5
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 80,
+        "name": "fast-transport-belt",
+        "position": {
+          "x": 305.5,
+          "y": 379.5
+        }
+      },
+      {
+        "entity_number": 81,
+        "name": "long-handed-inserter",
+        "position": {
+          "x": 306.5,
+          "y": 376.5
+        }
+      },
+      {
+        "direction": 8,
+        "entity_number": 82,
+        "name": "long-handed-inserter",
+        "position": {
+          "x": 306.5,
+          "y": 377.5
+        }
+      },
+      {
+        "entity_number": 83,
+        "name": "storage-chest",
+        "position": {
+          "x": 306.5,
+          "y": 378.5
+        },
+        "request_filters": {
+          "sections": [
+            {
+              "filters": [
+                {
+                  "comparator": "=",
+                  "count": 0,
+                  "import_from": "nauvis",
+                  "index": 1,
+                  "name": "speed-module-3",
+                  "quality": "normal"
+                }
+              ],
+              "index": 1
+            }
+          ]
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 84,
+        "name": "fast-underground-belt",
+        "position": {
+          "x": 306.5,
+          "y": 379.5
+        },
+        "type": "input"
+      },
+      {
+        "entity_number": 85,
+        "name": "electromagnetic-plant",
+        "position": {
+          "x": 307,
+          "y": 374
+        },
+        "recipe": "efficiency-module-3",
+        "recipe_quality": "normal"
+      },
+      {
+        "entity_number": 86,
+        "name": "electromagnetic-plant",
+        "position": {
+          "x": 307,
+          "y": 383
+        },
+        "recipe": "efficiency-module-2",
+        "recipe_quality": "normal"
+      },
+      {
+        "direction": 8,
+        "entity_number": 87,
+        "name": "inserter",
+        "position": {
+          "x": 307.5,
+          "y": 376.5
+        }
+      },
+      {
+        "bar": 0,
+        "entity_number": 88,
+        "name": "storage-chest",
+        "position": {
+          "x": 307.5,
+          "y": 378.5
+        },
+        "request_filters": {
+          "sections": [
+            {
+              "filters": [
+                {
+                  "comparator": "=",
+                  "count": 0,
+                  "import_from": "nauvis",
+                  "index": 1,
+                  "name": "speed-module-2",
+                  "quality": "normal"
+                }
+              ],
+              "index": 1
+            }
+          ]
+        }
+      },
+      {
+        "direction": 8,
+        "entity_number": 89,
+        "name": "long-handed-inserter",
+        "position": {
+          "x": 307.5,
+          "y": 379.5
+        }
+      },
+      {
+        "direction": 8,
+        "entity_number": 90,
+        "name": "long-handed-inserter",
+        "position": {
+          "x": 307.5,
+          "y": 380.5
+        }
+      },
+      {
+        "direction": 8,
+        "entity_number": 91,
+        "name": "inserter",
+        "position": {
+          "x": 308.5,
+          "y": 376.5
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 92,
+        "name": "fast-underground-belt",
+        "position": {
+          "x": 308.5,
+          "y": 377.5
+        },
+        "type": "output"
+      },
+      {
+        "direction": 4,
+        "entity_number": 93,
+        "name": "fast-underground-belt",
+        "position": {
+          "x": 308.5,
+          "y": 378.5
+        },
+        "type": "output"
+      },
+      {
+        "entity_number": 94,
+        "name": "long-handed-inserter",
+        "position": {
+          "x": 308.5,
+          "y": 379.5
+        }
+      },
+      {
+        "entity_number": 95,
+        "name": "long-handed-inserter",
+        "position": {
+          "x": 308.5,
+          "y": 380.5
+        }
+      }
+    ],
+    "icons": [
+      {
+        "index": 1,
+        "signal": {
+          "name": "electromagnetic-plant"
+        }
+      },
+      {
+        "index": 2,
+        "signal": {
+          "name": "efficiency-module"
+        }
+      },
+      {
+        "index": 3,
+        "signal": {
+          "name": "efficiency-module-2"
+        }
+      },
+      {
+        "index": 4,
+        "signal": {
+          "name": "efficiency-module-3"
+        }
+      }
+    ],
+    "version": 562954249306113,
+    "wires": [
+      [
+        7,
+        5,
+        18,
+        5
+      ],
+      [
+        7,
+        5,
+        43,
+        5
+      ],
+      [
+        43,
+        5,
+        76,
+        5
+      ],
+      [
+        76,
+        5,
+        79,
+        5
+      ]
+    ]
+  },
+  "index": 2
+}

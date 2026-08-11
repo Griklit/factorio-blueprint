@@ -1,0 +1,4093 @@
+{
+  "blueprint": {
+    "item": "blueprint",
+    "label": "1.16GW 6核酸中和",
+    "entities": [
+      {
+        "entity_number": 1,
+        "name": "underground-belt",
+        "position": {
+          "x": -89.5,
+          "y": 293.5
+        },
+        "type": "output"
+      },
+      {
+        "entity_number": 2,
+        "name": "medium-electric-pole",
+        "position": {
+          "x": -89.5,
+          "y": 294.5
+        }
+      },
+      {
+        "entity_number": 3,
+        "name": "underground-belt",
+        "position": {
+          "x": -89.5,
+          "y": 295.5
+        },
+        "type": "input"
+      },
+      {
+        "entity_number": 4,
+        "name": "transport-belt",
+        "position": {
+          "x": -89.5,
+          "y": 296.5
+        }
+      },
+      {
+        "entity_number": 5,
+        "name": "transport-belt",
+        "position": {
+          "x": -89.5,
+          "y": 297.5
+        }
+      },
+      {
+        "entity_number": 6,
+        "name": "transport-belt",
+        "position": {
+          "x": -89.5,
+          "y": 298.5
+        }
+      },
+      {
+        "entity_number": 7,
+        "name": "underground-belt",
+        "position": {
+          "x": -89.5,
+          "y": 299.5
+        },
+        "type": "output"
+      },
+      {
+        "entity_number": 8,
+        "name": "medium-electric-pole",
+        "position": {
+          "x": -89.5,
+          "y": 300.5
+        }
+      },
+      {
+        "entity_number": 9,
+        "name": "underground-belt",
+        "position": {
+          "x": -89.5,
+          "y": 301.5
+        },
+        "type": "input"
+      },
+      {
+        "entity_number": 10,
+        "name": "transport-belt",
+        "position": {
+          "x": -89.5,
+          "y": 302.5
+        }
+      },
+      {
+        "entity_number": 11,
+        "name": "transport-belt",
+        "position": {
+          "x": -89.5,
+          "y": 303.5
+        }
+      },
+      {
+        "entity_number": 12,
+        "name": "transport-belt",
+        "position": {
+          "x": -89.5,
+          "y": 304.5
+        }
+      },
+      {
+        "entity_number": 13,
+        "name": "transport-belt",
+        "position": {
+          "x": -89.5,
+          "y": 305.5
+        }
+      },
+      {
+        "entity_number": 14,
+        "name": "underground-belt",
+        "position": {
+          "x": -89.5,
+          "y": 306.5
+        },
+        "type": "output"
+      },
+      {
+        "entity_number": 15,
+        "name": "medium-electric-pole",
+        "position": {
+          "x": -89.5,
+          "y": 307.5
+        }
+      },
+      {
+        "entity_number": 16,
+        "name": "underground-belt",
+        "position": {
+          "x": -89.5,
+          "y": 308.5
+        },
+        "type": "input"
+      },
+      {
+        "entity_number": 17,
+        "name": "transport-belt",
+        "position": {
+          "x": -89.5,
+          "y": 309.5
+        }
+      },
+      {
+        "entity_number": 18,
+        "name": "underground-belt",
+        "position": {
+          "x": -89.5,
+          "y": 310.5
+        },
+        "type": "output"
+      },
+      {
+        "entity_number": 19,
+        "icon": {
+          "name": "calcite"
+        },
+        "name": "display-panel",
+        "position": {
+          "x": -89.5,
+          "y": 311.5
+        }
+      },
+      {
+        "direction": 12,
+        "entity_number": 20,
+        "name": "fast-inserter",
+        "position": {
+          "x": -88.5,
+          "y": 293.5
+        }
+      },
+      {
+        "direction": 8,
+        "entity_number": 21,
+        "name": "pipe-to-ground",
+        "position": {
+          "x": -88.5,
+          "y": 294.5
+        }
+      },
+      {
+        "entity_number": 22,
+        "name": "pipe",
+        "position": {
+          "x": -88.5,
+          "y": 295.5
+        }
+      },
+      {
+        "entity_number": 23,
+        "name": "pipe",
+        "position": {
+          "x": -88.5,
+          "y": 296.5
+        }
+      },
+      {
+        "entity_number": 24,
+        "name": "pipe-to-ground",
+        "position": {
+          "x": -88.5,
+          "y": 297.5
+        }
+      },
+      {
+        "direction": 12,
+        "entity_number": 25,
+        "name": "fast-inserter",
+        "position": {
+          "x": -88.5,
+          "y": 298.5
+        }
+      },
+      {
+        "direction": 12,
+        "entity_number": 26,
+        "name": "fast-inserter",
+        "position": {
+          "x": -88.5,
+          "y": 299.5
+        }
+      },
+      {
+        "direction": 8,
+        "entity_number": 27,
+        "name": "pipe-to-ground",
+        "position": {
+          "x": -88.5,
+          "y": 300.5
+        }
+      },
+      {
+        "entity_number": 28,
+        "name": "pipe",
+        "position": {
+          "x": -88.5,
+          "y": 301.5
+        }
+      },
+      {
+        "entity_number": 29,
+        "name": "pipe",
+        "position": {
+          "x": -88.5,
+          "y": 302.5
+        }
+      },
+      {
+        "entity_number": 30,
+        "name": "pipe-to-ground",
+        "position": {
+          "x": -88.5,
+          "y": 303.5
+        }
+      },
+      {
+        "direction": 12,
+        "entity_number": 31,
+        "name": "fast-inserter",
+        "position": {
+          "x": -88.5,
+          "y": 304.5
+        }
+      },
+      {
+        "direction": 12,
+        "entity_number": 32,
+        "name": "fast-inserter",
+        "position": {
+          "x": -88.5,
+          "y": 305.5
+        }
+      },
+      {
+        "direction": 8,
+        "entity_number": 33,
+        "name": "pipe-to-ground",
+        "position": {
+          "x": -88.5,
+          "y": 306.5
+        }
+      },
+      {
+        "entity_number": 34,
+        "name": "pipe",
+        "position": {
+          "x": -88.5,
+          "y": 307.5
+        }
+      },
+      {
+        "entity_number": 35,
+        "name": "pipe",
+        "position": {
+          "x": -88.5,
+          "y": 308.5
+        }
+      },
+      {
+        "entity_number": 36,
+        "name": "pipe-to-ground",
+        "position": {
+          "x": -88.5,
+          "y": 309.5
+        }
+      },
+      {
+        "direction": 12,
+        "entity_number": 37,
+        "name": "fast-inserter",
+        "position": {
+          "x": -88.5,
+          "y": 310.5
+        }
+      },
+      {
+        "entity_number": 38,
+        "icon": {
+          "name": "sulfuric-acid",
+          "type": "fluid"
+        },
+        "name": "display-panel",
+        "position": {
+          "x": -88.5,
+          "y": 311.5
+        }
+      },
+      {
+        "direction": 12,
+        "entity_number": 39,
+        "name": "chemical-plant",
+        "position": {
+          "x": -86.5,
+          "y": 294.5
+        },
+        "recipe": "acid-neutralisation",
+        "recipe_quality": "normal"
+      },
+      {
+        "direction": 12,
+        "entity_number": 40,
+        "name": "chemical-plant",
+        "position": {
+          "x": -86.5,
+          "y": 297.5
+        },
+        "recipe": "acid-neutralisation",
+        "recipe_quality": "normal"
+      },
+      {
+        "direction": 12,
+        "entity_number": 41,
+        "name": "chemical-plant",
+        "position": {
+          "x": -86.5,
+          "y": 300.5
+        },
+        "recipe": "acid-neutralisation",
+        "recipe_quality": "normal"
+      },
+      {
+        "direction": 12,
+        "entity_number": 42,
+        "name": "chemical-plant",
+        "position": {
+          "x": -86.5,
+          "y": 303.5
+        },
+        "recipe": "acid-neutralisation",
+        "recipe_quality": "normal"
+      },
+      {
+        "direction": 12,
+        "entity_number": 43,
+        "name": "chemical-plant",
+        "position": {
+          "x": -86.5,
+          "y": 306.5
+        },
+        "recipe": "acid-neutralisation",
+        "recipe_quality": "normal"
+      },
+      {
+        "direction": 12,
+        "entity_number": 44,
+        "name": "chemical-plant",
+        "position": {
+          "x": -86.5,
+          "y": 309.5
+        },
+        "recipe": "acid-neutralisation",
+        "recipe_quality": "normal"
+      },
+      {
+        "entity_number": 45,
+        "name": "pipe",
+        "position": {
+          "x": -84.5,
+          "y": 294.5
+        }
+      },
+      {
+        "entity_number": 46,
+        "name": "pipe",
+        "position": {
+          "x": -84.5,
+          "y": 295.5
+        }
+      },
+      {
+        "entity_number": 47,
+        "name": "pipe",
+        "position": {
+          "x": -84.5,
+          "y": 296.5
+        }
+      },
+      {
+        "entity_number": 48,
+        "name": "pipe",
+        "position": {
+          "x": -84.5,
+          "y": 297.5
+        }
+      },
+      {
+        "entity_number": 49,
+        "name": "medium-electric-pole",
+        "position": {
+          "x": -84.5,
+          "y": 298.5
+        }
+      },
+      {
+        "entity_number": 50,
+        "name": "pipe",
+        "position": {
+          "x": -84.5,
+          "y": 300.5
+        }
+      },
+      {
+        "entity_number": 51,
+        "name": "pipe",
+        "position": {
+          "x": -84.5,
+          "y": 301.5
+        }
+      },
+      {
+        "entity_number": 52,
+        "name": "pipe",
+        "position": {
+          "x": -84.5,
+          "y": 302.5
+        }
+      },
+      {
+        "entity_number": 53,
+        "name": "pipe",
+        "position": {
+          "x": -84.5,
+          "y": 303.5
+        }
+      },
+      {
+        "entity_number": 54,
+        "name": "medium-electric-pole",
+        "position": {
+          "x": -84.5,
+          "y": 305.5
+        }
+      },
+      {
+        "entity_number": 55,
+        "name": "pipe",
+        "position": {
+          "x": -84.5,
+          "y": 306.5
+        }
+      },
+      {
+        "entity_number": 56,
+        "name": "pipe",
+        "position": {
+          "x": -84.5,
+          "y": 307.5
+        }
+      },
+      {
+        "entity_number": 57,
+        "name": "pipe",
+        "position": {
+          "x": -84.5,
+          "y": 308.5
+        }
+      },
+      {
+        "entity_number": 58,
+        "name": "pipe",
+        "position": {
+          "x": -84.5,
+          "y": 309.5
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 59,
+        "name": "steam-turbine",
+        "position": {
+          "x": -81.5,
+          "y": 294.5
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 60,
+        "name": "steam-turbine",
+        "position": {
+          "x": -81.5,
+          "y": 297.5
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 61,
+        "name": "steam-turbine",
+        "position": {
+          "x": -81.5,
+          "y": 300.5
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 62,
+        "name": "steam-turbine",
+        "position": {
+          "x": -81.5,
+          "y": 303.5
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 63,
+        "name": "steam-turbine",
+        "position": {
+          "x": -81.5,
+          "y": 306.5
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 64,
+        "name": "steam-turbine",
+        "position": {
+          "x": -81.5,
+          "y": 309.5
+        }
+      },
+      {
+        "entity_number": 65,
+        "name": "pipe",
+        "position": {
+          "x": -78.5,
+          "y": 297.5
+        }
+      },
+      {
+        "entity_number": 66,
+        "name": "medium-electric-pole",
+        "position": {
+          "x": -78.5,
+          "y": 298.5
+        }
+      },
+      {
+        "entity_number": 67,
+        "name": "medium-electric-pole",
+        "position": {
+          "x": -78.5,
+          "y": 305.5
+        }
+      },
+      {
+        "entity_number": 68,
+        "name": "pipe",
+        "position": {
+          "x": -78.5,
+          "y": 306.5
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 69,
+        "name": "steam-turbine",
+        "position": {
+          "x": -76.5,
+          "y": 294.5
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 70,
+        "name": "steam-turbine",
+        "position": {
+          "x": -76.5,
+          "y": 300.5
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 71,
+        "name": "steam-turbine",
+        "position": {
+          "x": -76.5,
+          "y": 303.5
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 72,
+        "name": "steam-turbine",
+        "position": {
+          "x": -76.5,
+          "y": 309.5
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 73,
+        "name": "steam-turbine",
+        "position": {
+          "x": -75.5,
+          "y": 297.5
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 74,
+        "name": "steam-turbine",
+        "position": {
+          "x": -75.5,
+          "y": 306.5
+        }
+      },
+      {
+        "entity_number": 75,
+        "name": "pipe",
+        "position": {
+          "x": -72.5,
+          "y": 297.5
+        }
+      },
+      {
+        "entity_number": 76,
+        "name": "medium-electric-pole",
+        "position": {
+          "x": -72.5,
+          "y": 298.5
+        }
+      },
+      {
+        "entity_number": 77,
+        "name": "medium-electric-pole",
+        "position": {
+          "x": -72.5,
+          "y": 305.5
+        }
+      },
+      {
+        "entity_number": 78,
+        "name": "pipe",
+        "position": {
+          "x": -72.5,
+          "y": 306.5
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 79,
+        "name": "steam-turbine",
+        "position": {
+          "x": -71.5,
+          "y": 294.5
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 80,
+        "name": "steam-turbine",
+        "position": {
+          "x": -71.5,
+          "y": 300.5
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 81,
+        "name": "steam-turbine",
+        "position": {
+          "x": -71.5,
+          "y": 303.5
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 82,
+        "name": "steam-turbine",
+        "position": {
+          "x": -71.5,
+          "y": 309.5
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 83,
+        "name": "steam-turbine",
+        "position": {
+          "x": -69.5,
+          "y": 297.5
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 84,
+        "name": "steam-turbine",
+        "position": {
+          "x": -69.5,
+          "y": 306.5
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 85,
+        "name": "steam-turbine",
+        "position": {
+          "x": -66.5,
+          "y": 294.5
+        }
+      },
+      {
+        "entity_number": 86,
+        "name": "pipe",
+        "position": {
+          "x": -66.5,
+          "y": 297.5
+        }
+      },
+      {
+        "entity_number": 87,
+        "name": "medium-electric-pole",
+        "position": {
+          "x": -66.5,
+          "y": 298.5
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 88,
+        "name": "steam-turbine",
+        "position": {
+          "x": -66.5,
+          "y": 300.5
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 89,
+        "name": "steam-turbine",
+        "position": {
+          "x": -66.5,
+          "y": 303.5
+        }
+      },
+      {
+        "entity_number": 90,
+        "name": "medium-electric-pole",
+        "position": {
+          "x": -66.5,
+          "y": 305.5
+        }
+      },
+      {
+        "entity_number": 91,
+        "name": "pipe",
+        "position": {
+          "x": -66.5,
+          "y": 306.5
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 92,
+        "name": "steam-turbine",
+        "position": {
+          "x": -66.5,
+          "y": 309.5
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 93,
+        "name": "steam-turbine",
+        "position": {
+          "x": -63.5,
+          "y": 297.5
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 94,
+        "name": "steam-turbine",
+        "position": {
+          "x": -63.5,
+          "y": 306.5
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 95,
+        "name": "steam-turbine",
+        "position": {
+          "x": -61.5,
+          "y": 294.5
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 96,
+        "name": "steam-turbine",
+        "position": {
+          "x": -61.5,
+          "y": 300.5
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 97,
+        "name": "steam-turbine",
+        "position": {
+          "x": -61.5,
+          "y": 303.5
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 98,
+        "name": "steam-turbine",
+        "position": {
+          "x": -61.5,
+          "y": 309.5
+        }
+      },
+      {
+        "entity_number": 99,
+        "name": "pipe",
+        "position": {
+          "x": -60.5,
+          "y": 297.5
+        }
+      },
+      {
+        "entity_number": 100,
+        "name": "medium-electric-pole",
+        "position": {
+          "x": -60.5,
+          "y": 298.5
+        }
+      },
+      {
+        "entity_number": 101,
+        "name": "medium-electric-pole",
+        "position": {
+          "x": -60.5,
+          "y": 305.5
+        }
+      },
+      {
+        "entity_number": 102,
+        "name": "pipe",
+        "position": {
+          "x": -60.5,
+          "y": 306.5
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 103,
+        "name": "steam-turbine",
+        "position": {
+          "x": -57.5,
+          "y": 297.5
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 104,
+        "name": "steam-turbine",
+        "position": {
+          "x": -57.5,
+          "y": 306.5
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 105,
+        "name": "steam-turbine",
+        "position": {
+          "x": -56.5,
+          "y": 294.5
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 106,
+        "name": "steam-turbine",
+        "position": {
+          "x": -56.5,
+          "y": 300.5
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 107,
+        "name": "steam-turbine",
+        "position": {
+          "x": -56.5,
+          "y": 303.5
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 108,
+        "name": "steam-turbine",
+        "position": {
+          "x": -56.5,
+          "y": 309.5
+        }
+      },
+      {
+        "entity_number": 109,
+        "name": "pipe",
+        "position": {
+          "x": -54.5,
+          "y": 297.5
+        }
+      },
+      {
+        "entity_number": 110,
+        "name": "medium-electric-pole",
+        "position": {
+          "x": -54.5,
+          "y": 298.5
+        }
+      },
+      {
+        "entity_number": 111,
+        "name": "medium-electric-pole",
+        "position": {
+          "x": -54.5,
+          "y": 305.5
+        }
+      },
+      {
+        "entity_number": 112,
+        "name": "pipe",
+        "position": {
+          "x": -54.5,
+          "y": 306.5
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 113,
+        "name": "steam-turbine",
+        "position": {
+          "x": -51.5,
+          "y": 294.5
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 114,
+        "name": "steam-turbine",
+        "position": {
+          "x": -51.5,
+          "y": 297.5
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 115,
+        "name": "steam-turbine",
+        "position": {
+          "x": -51.5,
+          "y": 300.5
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 116,
+        "name": "steam-turbine",
+        "position": {
+          "x": -51.5,
+          "y": 303.5
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 117,
+        "name": "steam-turbine",
+        "position": {
+          "x": -51.5,
+          "y": 306.5
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 118,
+        "name": "steam-turbine",
+        "position": {
+          "x": -51.5,
+          "y": 309.5
+        }
+      },
+      {
+        "entity_number": 119,
+        "name": "pipe",
+        "position": {
+          "x": -48.5,
+          "y": 297.5
+        }
+      },
+      {
+        "entity_number": 120,
+        "name": "medium-electric-pole",
+        "position": {
+          "x": -48.5,
+          "y": 298.5
+        }
+      },
+      {
+        "entity_number": 121,
+        "name": "medium-electric-pole",
+        "position": {
+          "x": -48.5,
+          "y": 305.5
+        }
+      },
+      {
+        "entity_number": 122,
+        "name": "pipe",
+        "position": {
+          "x": -48.5,
+          "y": 306.5
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 123,
+        "name": "steam-turbine",
+        "position": {
+          "x": -46.5,
+          "y": 294.5
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 124,
+        "name": "steam-turbine",
+        "position": {
+          "x": -46.5,
+          "y": 300.5
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 125,
+        "name": "steam-turbine",
+        "position": {
+          "x": -46.5,
+          "y": 303.5
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 126,
+        "name": "steam-turbine",
+        "position": {
+          "x": -46.5,
+          "y": 309.5
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 127,
+        "name": "steam-turbine",
+        "position": {
+          "x": -45.5,
+          "y": 297.5
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 128,
+        "name": "steam-turbine",
+        "position": {
+          "x": -45.5,
+          "y": 306.5
+        }
+      },
+      {
+        "entity_number": 129,
+        "name": "pipe",
+        "position": {
+          "x": -42.5,
+          "y": 297.5
+        }
+      },
+      {
+        "entity_number": 130,
+        "name": "medium-electric-pole",
+        "position": {
+          "x": -42.5,
+          "y": 298.5
+        }
+      },
+      {
+        "entity_number": 131,
+        "name": "medium-electric-pole",
+        "position": {
+          "x": -42.5,
+          "y": 305.5
+        }
+      },
+      {
+        "entity_number": 132,
+        "name": "pipe",
+        "position": {
+          "x": -42.5,
+          "y": 306.5
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 133,
+        "name": "steam-turbine",
+        "position": {
+          "x": -41.5,
+          "y": 294.5
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 134,
+        "name": "steam-turbine",
+        "position": {
+          "x": -41.5,
+          "y": 300.5
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 135,
+        "name": "steam-turbine",
+        "position": {
+          "x": -41.5,
+          "y": 303.5
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 136,
+        "name": "steam-turbine",
+        "position": {
+          "x": -41.5,
+          "y": 309.5
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 137,
+        "name": "steam-turbine",
+        "position": {
+          "x": -39.5,
+          "y": 297.5
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 138,
+        "name": "steam-turbine",
+        "position": {
+          "x": -39.5,
+          "y": 306.5
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 139,
+        "name": "steam-turbine",
+        "position": {
+          "x": -36.5,
+          "y": 294.5
+        }
+      },
+      {
+        "entity_number": 140,
+        "name": "pipe",
+        "position": {
+          "x": -36.5,
+          "y": 297.5
+        }
+      },
+      {
+        "entity_number": 141,
+        "name": "medium-electric-pole",
+        "position": {
+          "x": -36.5,
+          "y": 298.5
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 142,
+        "name": "steam-turbine",
+        "position": {
+          "x": -36.5,
+          "y": 300.5
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 143,
+        "name": "steam-turbine",
+        "position": {
+          "x": -36.5,
+          "y": 303.5
+        }
+      },
+      {
+        "entity_number": 144,
+        "name": "medium-electric-pole",
+        "position": {
+          "x": -36.5,
+          "y": 305.5
+        }
+      },
+      {
+        "entity_number": 145,
+        "name": "pipe",
+        "position": {
+          "x": -36.5,
+          "y": 306.5
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 146,
+        "name": "steam-turbine",
+        "position": {
+          "x": -36.5,
+          "y": 309.5
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 147,
+        "name": "steam-turbine",
+        "position": {
+          "x": -33.5,
+          "y": 297.5
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 148,
+        "name": "steam-turbine",
+        "position": {
+          "x": -33.5,
+          "y": 306.5
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 149,
+        "name": "steam-turbine",
+        "position": {
+          "x": -31.5,
+          "y": 294.5
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 150,
+        "name": "steam-turbine",
+        "position": {
+          "x": -31.5,
+          "y": 300.5
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 151,
+        "name": "steam-turbine",
+        "position": {
+          "x": -31.5,
+          "y": 303.5
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 152,
+        "name": "steam-turbine",
+        "position": {
+          "x": -31.5,
+          "y": 309.5
+        }
+      },
+      {
+        "entity_number": 153,
+        "name": "pipe",
+        "position": {
+          "x": -30.5,
+          "y": 297.5
+        }
+      },
+      {
+        "entity_number": 154,
+        "name": "medium-electric-pole",
+        "position": {
+          "x": -30.5,
+          "y": 298.5
+        }
+      },
+      {
+        "entity_number": 155,
+        "name": "medium-electric-pole",
+        "position": {
+          "x": -30.5,
+          "y": 305.5
+        }
+      },
+      {
+        "entity_number": 156,
+        "name": "pipe",
+        "position": {
+          "x": -30.5,
+          "y": 306.5
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 157,
+        "name": "steam-turbine",
+        "position": {
+          "x": -27.5,
+          "y": 297.5
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 158,
+        "name": "steam-turbine",
+        "position": {
+          "x": -27.5,
+          "y": 306.5
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 159,
+        "name": "steam-turbine",
+        "position": {
+          "x": -26.5,
+          "y": 294.5
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 160,
+        "name": "steam-turbine",
+        "position": {
+          "x": -26.5,
+          "y": 300.5
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 161,
+        "name": "steam-turbine",
+        "position": {
+          "x": -26.5,
+          "y": 303.5
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 162,
+        "name": "steam-turbine",
+        "position": {
+          "x": -26.5,
+          "y": 309.5
+        }
+      },
+      {
+        "entity_number": 163,
+        "name": "pipe",
+        "position": {
+          "x": -24.5,
+          "y": 297.5
+        }
+      },
+      {
+        "entity_number": 164,
+        "name": "medium-electric-pole",
+        "position": {
+          "x": -24.5,
+          "y": 298.5
+        }
+      },
+      {
+        "entity_number": 165,
+        "name": "medium-electric-pole",
+        "position": {
+          "x": -24.5,
+          "y": 305.5
+        }
+      },
+      {
+        "entity_number": 166,
+        "name": "pipe",
+        "position": {
+          "x": -24.5,
+          "y": 306.5
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 167,
+        "name": "steam-turbine",
+        "position": {
+          "x": -21.5,
+          "y": 294.5
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 168,
+        "name": "steam-turbine",
+        "position": {
+          "x": -21.5,
+          "y": 297.5
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 169,
+        "name": "steam-turbine",
+        "position": {
+          "x": -21.5,
+          "y": 300.5
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 170,
+        "name": "steam-turbine",
+        "position": {
+          "x": -21.5,
+          "y": 303.5
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 171,
+        "name": "steam-turbine",
+        "position": {
+          "x": -21.5,
+          "y": 306.5
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 172,
+        "name": "steam-turbine",
+        "position": {
+          "x": -21.5,
+          "y": 309.5
+        }
+      },
+      {
+        "entity_number": 173,
+        "name": "pipe",
+        "position": {
+          "x": -18.5,
+          "y": 297.5
+        }
+      },
+      {
+        "entity_number": 174,
+        "name": "medium-electric-pole",
+        "position": {
+          "x": -18.5,
+          "y": 298.5
+        }
+      },
+      {
+        "entity_number": 175,
+        "name": "medium-electric-pole",
+        "position": {
+          "x": -18.5,
+          "y": 305.5
+        }
+      },
+      {
+        "entity_number": 176,
+        "name": "pipe",
+        "position": {
+          "x": -18.5,
+          "y": 306.5
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 177,
+        "name": "steam-turbine",
+        "position": {
+          "x": -16.5,
+          "y": 294.5
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 178,
+        "name": "steam-turbine",
+        "position": {
+          "x": -16.5,
+          "y": 300.5
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 179,
+        "name": "steam-turbine",
+        "position": {
+          "x": -16.5,
+          "y": 303.5
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 180,
+        "name": "steam-turbine",
+        "position": {
+          "x": -16.5,
+          "y": 309.5
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 181,
+        "name": "steam-turbine",
+        "position": {
+          "x": -15.5,
+          "y": 297.5
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 182,
+        "name": "steam-turbine",
+        "position": {
+          "x": -15.5,
+          "y": 306.5
+        }
+      },
+      {
+        "entity_number": 183,
+        "name": "pipe",
+        "position": {
+          "x": -12.5,
+          "y": 297.5
+        }
+      },
+      {
+        "entity_number": 184,
+        "name": "medium-electric-pole",
+        "position": {
+          "x": -12.5,
+          "y": 298.5
+        }
+      },
+      {
+        "entity_number": 185,
+        "name": "medium-electric-pole",
+        "position": {
+          "x": -12.5,
+          "y": 305.5
+        }
+      },
+      {
+        "entity_number": 186,
+        "name": "pipe",
+        "position": {
+          "x": -12.5,
+          "y": 306.5
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 187,
+        "name": "steam-turbine",
+        "position": {
+          "x": -11.5,
+          "y": 294.5
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 188,
+        "name": "steam-turbine",
+        "position": {
+          "x": -11.5,
+          "y": 300.5
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 189,
+        "name": "steam-turbine",
+        "position": {
+          "x": -11.5,
+          "y": 303.5
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 190,
+        "name": "steam-turbine",
+        "position": {
+          "x": -11.5,
+          "y": 309.5
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 191,
+        "name": "steam-turbine",
+        "position": {
+          "x": -9.5,
+          "y": 297.5
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 192,
+        "name": "steam-turbine",
+        "position": {
+          "x": -9.5,
+          "y": 306.5
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 193,
+        "name": "steam-turbine",
+        "position": {
+          "x": -6.5,
+          "y": 294.5
+        }
+      },
+      {
+        "entity_number": 194,
+        "name": "pipe",
+        "position": {
+          "x": -6.5,
+          "y": 297.5
+        }
+      },
+      {
+        "entity_number": 195,
+        "name": "medium-electric-pole",
+        "position": {
+          "x": -6.5,
+          "y": 298.5
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 196,
+        "name": "steam-turbine",
+        "position": {
+          "x": -6.5,
+          "y": 300.5
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 197,
+        "name": "steam-turbine",
+        "position": {
+          "x": -6.5,
+          "y": 303.5
+        }
+      },
+      {
+        "entity_number": 198,
+        "name": "medium-electric-pole",
+        "position": {
+          "x": -6.5,
+          "y": 305.5
+        }
+      },
+      {
+        "entity_number": 199,
+        "name": "pipe",
+        "position": {
+          "x": -6.5,
+          "y": 306.5
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 200,
+        "name": "steam-turbine",
+        "position": {
+          "x": -6.5,
+          "y": 309.5
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 201,
+        "name": "steam-turbine",
+        "position": {
+          "x": -3.5,
+          "y": 297.5
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 202,
+        "name": "steam-turbine",
+        "position": {
+          "x": -3.5,
+          "y": 306.5
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 203,
+        "name": "steam-turbine",
+        "position": {
+          "x": -1.5,
+          "y": 294.5
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 204,
+        "name": "steam-turbine",
+        "position": {
+          "x": -1.5,
+          "y": 300.5
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 205,
+        "name": "steam-turbine",
+        "position": {
+          "x": -1.5,
+          "y": 303.5
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 206,
+        "name": "steam-turbine",
+        "position": {
+          "x": -1.5,
+          "y": 309.5
+        }
+      },
+      {
+        "entity_number": 207,
+        "name": "pipe",
+        "position": {
+          "x": -0.5,
+          "y": 297.5
+        }
+      },
+      {
+        "entity_number": 208,
+        "name": "medium-electric-pole",
+        "position": {
+          "x": -0.5,
+          "y": 298.5
+        }
+      },
+      {
+        "entity_number": 209,
+        "name": "medium-electric-pole",
+        "position": {
+          "x": -0.5,
+          "y": 305.5
+        }
+      },
+      {
+        "entity_number": 210,
+        "name": "pipe",
+        "position": {
+          "x": -0.5,
+          "y": 306.5
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 211,
+        "name": "steam-turbine",
+        "position": {
+          "x": 2.5,
+          "y": 297.5
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 212,
+        "name": "steam-turbine",
+        "position": {
+          "x": 2.5,
+          "y": 306.5
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 213,
+        "name": "steam-turbine",
+        "position": {
+          "x": 3.5,
+          "y": 294.5
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 214,
+        "name": "steam-turbine",
+        "position": {
+          "x": 3.5,
+          "y": 300.5
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 215,
+        "name": "steam-turbine",
+        "position": {
+          "x": 3.5,
+          "y": 303.5
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 216,
+        "name": "steam-turbine",
+        "position": {
+          "x": 3.5,
+          "y": 309.5
+        }
+      },
+      {
+        "entity_number": 217,
+        "name": "pipe",
+        "position": {
+          "x": 5.5,
+          "y": 297.5
+        }
+      },
+      {
+        "entity_number": 218,
+        "name": "medium-electric-pole",
+        "position": {
+          "x": 5.5,
+          "y": 298.5
+        }
+      },
+      {
+        "entity_number": 219,
+        "name": "medium-electric-pole",
+        "position": {
+          "x": 5.5,
+          "y": 305.5
+        }
+      },
+      {
+        "entity_number": 220,
+        "name": "pipe",
+        "position": {
+          "x": 5.5,
+          "y": 306.5
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 221,
+        "name": "steam-turbine",
+        "position": {
+          "x": 8.5,
+          "y": 294.5
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 222,
+        "name": "steam-turbine",
+        "position": {
+          "x": 8.5,
+          "y": 297.5
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 223,
+        "name": "steam-turbine",
+        "position": {
+          "x": 8.5,
+          "y": 300.5
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 224,
+        "name": "steam-turbine",
+        "position": {
+          "x": 8.5,
+          "y": 303.5
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 225,
+        "name": "steam-turbine",
+        "position": {
+          "x": 8.5,
+          "y": 306.5
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 226,
+        "name": "steam-turbine",
+        "position": {
+          "x": 8.5,
+          "y": 309.5
+        }
+      },
+      {
+        "entity_number": 227,
+        "name": "pipe",
+        "position": {
+          "x": 11.5,
+          "y": 297.5
+        }
+      },
+      {
+        "entity_number": 228,
+        "name": "medium-electric-pole",
+        "position": {
+          "x": 11.5,
+          "y": 298.5
+        }
+      },
+      {
+        "entity_number": 229,
+        "name": "medium-electric-pole",
+        "position": {
+          "x": 11.5,
+          "y": 305.5
+        }
+      },
+      {
+        "entity_number": 230,
+        "name": "pipe",
+        "position": {
+          "x": 11.5,
+          "y": 306.5
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 231,
+        "name": "steam-turbine",
+        "position": {
+          "x": 13.5,
+          "y": 294.5
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 232,
+        "name": "steam-turbine",
+        "position": {
+          "x": 13.5,
+          "y": 300.5
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 233,
+        "name": "steam-turbine",
+        "position": {
+          "x": 13.5,
+          "y": 303.5
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 234,
+        "name": "steam-turbine",
+        "position": {
+          "x": 13.5,
+          "y": 309.5
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 235,
+        "name": "steam-turbine",
+        "position": {
+          "x": 14.5,
+          "y": 297.5
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 236,
+        "name": "steam-turbine",
+        "position": {
+          "x": 14.5,
+          "y": 306.5
+        }
+      },
+      {
+        "entity_number": 237,
+        "name": "pipe",
+        "position": {
+          "x": 17.5,
+          "y": 297.5
+        }
+      },
+      {
+        "entity_number": 238,
+        "name": "medium-electric-pole",
+        "position": {
+          "x": 17.5,
+          "y": 298.5
+        }
+      },
+      {
+        "entity_number": 239,
+        "name": "medium-electric-pole",
+        "position": {
+          "x": 17.5,
+          "y": 305.5
+        }
+      },
+      {
+        "entity_number": 240,
+        "name": "pipe",
+        "position": {
+          "x": 17.5,
+          "y": 306.5
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 241,
+        "name": "steam-turbine",
+        "position": {
+          "x": 18.5,
+          "y": 294.5
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 242,
+        "name": "steam-turbine",
+        "position": {
+          "x": 18.5,
+          "y": 300.5
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 243,
+        "name": "steam-turbine",
+        "position": {
+          "x": 18.5,
+          "y": 303.5
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 244,
+        "name": "steam-turbine",
+        "position": {
+          "x": 18.5,
+          "y": 309.5
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 245,
+        "name": "steam-turbine",
+        "position": {
+          "x": 20.5,
+          "y": 297.5
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 246,
+        "name": "steam-turbine",
+        "position": {
+          "x": 20.5,
+          "y": 306.5
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 247,
+        "name": "steam-turbine",
+        "position": {
+          "x": 23.5,
+          "y": 294.5
+        }
+      },
+      {
+        "entity_number": 248,
+        "name": "pipe",
+        "position": {
+          "x": 23.5,
+          "y": 297.5
+        }
+      },
+      {
+        "entity_number": 249,
+        "name": "medium-electric-pole",
+        "position": {
+          "x": 23.5,
+          "y": 298.5
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 250,
+        "name": "steam-turbine",
+        "position": {
+          "x": 23.5,
+          "y": 300.5
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 251,
+        "name": "steam-turbine",
+        "position": {
+          "x": 23.5,
+          "y": 303.5
+        }
+      },
+      {
+        "entity_number": 252,
+        "name": "medium-electric-pole",
+        "position": {
+          "x": 23.5,
+          "y": 305.5
+        }
+      },
+      {
+        "entity_number": 253,
+        "name": "pipe",
+        "position": {
+          "x": 23.5,
+          "y": 306.5
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 254,
+        "name": "steam-turbine",
+        "position": {
+          "x": 23.5,
+          "y": 309.5
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 255,
+        "name": "steam-turbine",
+        "position": {
+          "x": 26.5,
+          "y": 297.5
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 256,
+        "name": "steam-turbine",
+        "position": {
+          "x": 26.5,
+          "y": 306.5
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 257,
+        "name": "steam-turbine",
+        "position": {
+          "x": 28.5,
+          "y": 294.5
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 258,
+        "name": "steam-turbine",
+        "position": {
+          "x": 28.5,
+          "y": 300.5
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 259,
+        "name": "steam-turbine",
+        "position": {
+          "x": 28.5,
+          "y": 303.5
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 260,
+        "name": "steam-turbine",
+        "position": {
+          "x": 28.5,
+          "y": 309.5
+        }
+      },
+      {
+        "entity_number": 261,
+        "name": "pipe",
+        "position": {
+          "x": 29.5,
+          "y": 297.5
+        }
+      },
+      {
+        "entity_number": 262,
+        "name": "medium-electric-pole",
+        "position": {
+          "x": 29.5,
+          "y": 298.5
+        }
+      },
+      {
+        "entity_number": 263,
+        "name": "medium-electric-pole",
+        "position": {
+          "x": 29.5,
+          "y": 305.5
+        }
+      },
+      {
+        "entity_number": 264,
+        "name": "pipe",
+        "position": {
+          "x": 29.5,
+          "y": 306.5
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 265,
+        "name": "steam-turbine",
+        "position": {
+          "x": 32.5,
+          "y": 297.5
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 266,
+        "name": "steam-turbine",
+        "position": {
+          "x": 32.5,
+          "y": 306.5
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 267,
+        "name": "steam-turbine",
+        "position": {
+          "x": 33.5,
+          "y": 294.5
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 268,
+        "name": "steam-turbine",
+        "position": {
+          "x": 33.5,
+          "y": 300.5
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 269,
+        "name": "steam-turbine",
+        "position": {
+          "x": 33.5,
+          "y": 303.5
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 270,
+        "name": "steam-turbine",
+        "position": {
+          "x": 33.5,
+          "y": 309.5
+        }
+      },
+      {
+        "entity_number": 271,
+        "name": "pipe",
+        "position": {
+          "x": 35.5,
+          "y": 297.5
+        }
+      },
+      {
+        "entity_number": 272,
+        "name": "medium-electric-pole",
+        "position": {
+          "x": 35.5,
+          "y": 298.5
+        }
+      },
+      {
+        "entity_number": 273,
+        "name": "medium-electric-pole",
+        "position": {
+          "x": 35.5,
+          "y": 305.5
+        }
+      },
+      {
+        "entity_number": 274,
+        "name": "pipe",
+        "position": {
+          "x": 35.5,
+          "y": 306.5
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 275,
+        "name": "steam-turbine",
+        "position": {
+          "x": 38.5,
+          "y": 294.5
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 276,
+        "name": "steam-turbine",
+        "position": {
+          "x": 38.5,
+          "y": 297.5
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 277,
+        "name": "steam-turbine",
+        "position": {
+          "x": 38.5,
+          "y": 300.5
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 278,
+        "name": "steam-turbine",
+        "position": {
+          "x": 38.5,
+          "y": 303.5
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 279,
+        "name": "steam-turbine",
+        "position": {
+          "x": 38.5,
+          "y": 306.5
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 280,
+        "name": "steam-turbine",
+        "position": {
+          "x": 38.5,
+          "y": 309.5
+        }
+      },
+      {
+        "entity_number": 281,
+        "name": "pipe",
+        "position": {
+          "x": 41.5,
+          "y": 297.5
+        }
+      },
+      {
+        "entity_number": 282,
+        "name": "medium-electric-pole",
+        "position": {
+          "x": 41.5,
+          "y": 298.5
+        }
+      },
+      {
+        "entity_number": 283,
+        "name": "medium-electric-pole",
+        "position": {
+          "x": 41.5,
+          "y": 305.5
+        }
+      },
+      {
+        "entity_number": 284,
+        "name": "pipe",
+        "position": {
+          "x": 41.5,
+          "y": 306.5
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 285,
+        "name": "steam-turbine",
+        "position": {
+          "x": 43.5,
+          "y": 294.5
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 286,
+        "name": "steam-turbine",
+        "position": {
+          "x": 43.5,
+          "y": 300.5
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 287,
+        "name": "steam-turbine",
+        "position": {
+          "x": 43.5,
+          "y": 303.5
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 288,
+        "name": "steam-turbine",
+        "position": {
+          "x": 43.5,
+          "y": 309.5
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 289,
+        "name": "steam-turbine",
+        "position": {
+          "x": 44.5,
+          "y": 297.5
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 290,
+        "name": "steam-turbine",
+        "position": {
+          "x": 44.5,
+          "y": 306.5
+        }
+      },
+      {
+        "entity_number": 291,
+        "name": "pipe",
+        "position": {
+          "x": 47.5,
+          "y": 297.5
+        }
+      },
+      {
+        "entity_number": 292,
+        "name": "medium-electric-pole",
+        "position": {
+          "x": 47.5,
+          "y": 298.5
+        }
+      },
+      {
+        "entity_number": 293,
+        "name": "medium-electric-pole",
+        "position": {
+          "x": 47.5,
+          "y": 305.5
+        }
+      },
+      {
+        "entity_number": 294,
+        "name": "pipe",
+        "position": {
+          "x": 47.5,
+          "y": 306.5
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 295,
+        "name": "steam-turbine",
+        "position": {
+          "x": 48.5,
+          "y": 294.5
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 296,
+        "name": "steam-turbine",
+        "position": {
+          "x": 48.5,
+          "y": 300.5
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 297,
+        "name": "steam-turbine",
+        "position": {
+          "x": 48.5,
+          "y": 303.5
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 298,
+        "name": "steam-turbine",
+        "position": {
+          "x": 48.5,
+          "y": 309.5
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 299,
+        "name": "steam-turbine",
+        "position": {
+          "x": 50.5,
+          "y": 297.5
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 300,
+        "name": "steam-turbine",
+        "position": {
+          "x": 50.5,
+          "y": 306.5
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 301,
+        "name": "steam-turbine",
+        "position": {
+          "x": 53.5,
+          "y": 294.5
+        }
+      },
+      {
+        "entity_number": 302,
+        "name": "pipe",
+        "position": {
+          "x": 53.5,
+          "y": 297.5
+        }
+      },
+      {
+        "entity_number": 303,
+        "name": "medium-electric-pole",
+        "position": {
+          "x": 53.5,
+          "y": 298.5
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 304,
+        "name": "steam-turbine",
+        "position": {
+          "x": 53.5,
+          "y": 300.5
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 305,
+        "name": "steam-turbine",
+        "position": {
+          "x": 53.5,
+          "y": 303.5
+        }
+      },
+      {
+        "entity_number": 306,
+        "name": "medium-electric-pole",
+        "position": {
+          "x": 53.5,
+          "y": 305.5
+        }
+      },
+      {
+        "entity_number": 307,
+        "name": "pipe",
+        "position": {
+          "x": 53.5,
+          "y": 306.5
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 308,
+        "name": "steam-turbine",
+        "position": {
+          "x": 53.5,
+          "y": 309.5
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 309,
+        "name": "steam-turbine",
+        "position": {
+          "x": 56.5,
+          "y": 297.5
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 310,
+        "name": "steam-turbine",
+        "position": {
+          "x": 56.5,
+          "y": 306.5
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 311,
+        "name": "steam-turbine",
+        "position": {
+          "x": 58.5,
+          "y": 294.5
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 312,
+        "name": "steam-turbine",
+        "position": {
+          "x": 58.5,
+          "y": 300.5
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 313,
+        "name": "steam-turbine",
+        "position": {
+          "x": 58.5,
+          "y": 303.5
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 314,
+        "name": "steam-turbine",
+        "position": {
+          "x": 58.5,
+          "y": 309.5
+        }
+      },
+      {
+        "entity_number": 315,
+        "name": "pipe",
+        "position": {
+          "x": 59.5,
+          "y": 297.5
+        }
+      },
+      {
+        "entity_number": 316,
+        "name": "medium-electric-pole",
+        "position": {
+          "x": 59.5,
+          "y": 298.5
+        }
+      },
+      {
+        "entity_number": 317,
+        "name": "medium-electric-pole",
+        "position": {
+          "x": 59.5,
+          "y": 305.5
+        }
+      },
+      {
+        "entity_number": 318,
+        "name": "pipe",
+        "position": {
+          "x": 59.5,
+          "y": 306.5
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 319,
+        "name": "steam-turbine",
+        "position": {
+          "x": 62.5,
+          "y": 297.5
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 320,
+        "name": "steam-turbine",
+        "position": {
+          "x": 62.5,
+          "y": 306.5
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 321,
+        "name": "steam-turbine",
+        "position": {
+          "x": 63.5,
+          "y": 294.5
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 322,
+        "name": "steam-turbine",
+        "position": {
+          "x": 63.5,
+          "y": 300.5
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 323,
+        "name": "steam-turbine",
+        "position": {
+          "x": 63.5,
+          "y": 303.5
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 324,
+        "name": "steam-turbine",
+        "position": {
+          "x": 63.5,
+          "y": 309.5
+        }
+      },
+      {
+        "entity_number": 325,
+        "name": "pipe",
+        "position": {
+          "x": 65.5,
+          "y": 297.5
+        }
+      },
+      {
+        "entity_number": 326,
+        "name": "medium-electric-pole",
+        "position": {
+          "x": 65.5,
+          "y": 298.5
+        }
+      },
+      {
+        "entity_number": 327,
+        "name": "medium-electric-pole",
+        "position": {
+          "x": 65.5,
+          "y": 305.5
+        }
+      },
+      {
+        "entity_number": 328,
+        "name": "pipe",
+        "position": {
+          "x": 65.5,
+          "y": 306.5
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 329,
+        "name": "steam-turbine",
+        "position": {
+          "x": 68.5,
+          "y": 294.5
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 330,
+        "name": "steam-turbine",
+        "position": {
+          "x": 68.5,
+          "y": 297.5
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 331,
+        "name": "steam-turbine",
+        "position": {
+          "x": 68.5,
+          "y": 300.5
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 332,
+        "name": "steam-turbine",
+        "position": {
+          "x": 68.5,
+          "y": 303.5
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 333,
+        "name": "steam-turbine",
+        "position": {
+          "x": 68.5,
+          "y": 306.5
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 334,
+        "name": "steam-turbine",
+        "position": {
+          "x": 68.5,
+          "y": 309.5
+        }
+      },
+      {
+        "entity_number": 335,
+        "name": "pipe",
+        "position": {
+          "x": 71.5,
+          "y": 297.5
+        }
+      },
+      {
+        "entity_number": 336,
+        "name": "medium-electric-pole",
+        "position": {
+          "x": 71.5,
+          "y": 298.5
+        }
+      },
+      {
+        "entity_number": 337,
+        "name": "medium-electric-pole",
+        "position": {
+          "x": 71.5,
+          "y": 305.5
+        }
+      },
+      {
+        "entity_number": 338,
+        "name": "pipe",
+        "position": {
+          "x": 71.5,
+          "y": 306.5
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 339,
+        "name": "steam-turbine",
+        "position": {
+          "x": 73.5,
+          "y": 294.5
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 340,
+        "name": "steam-turbine",
+        "position": {
+          "x": 73.5,
+          "y": 300.5
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 341,
+        "name": "steam-turbine",
+        "position": {
+          "x": 73.5,
+          "y": 303.5
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 342,
+        "name": "steam-turbine",
+        "position": {
+          "x": 73.5,
+          "y": 309.5
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 343,
+        "name": "steam-turbine",
+        "position": {
+          "x": 74.5,
+          "y": 297.5
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 344,
+        "name": "steam-turbine",
+        "position": {
+          "x": 74.5,
+          "y": 306.5
+        }
+      },
+      {
+        "entity_number": 345,
+        "name": "pipe",
+        "position": {
+          "x": 77.5,
+          "y": 297.5
+        }
+      },
+      {
+        "entity_number": 346,
+        "name": "medium-electric-pole",
+        "position": {
+          "x": 77.5,
+          "y": 298.5
+        }
+      },
+      {
+        "entity_number": 347,
+        "name": "medium-electric-pole",
+        "position": {
+          "x": 77.5,
+          "y": 305.5
+        }
+      },
+      {
+        "entity_number": 348,
+        "name": "pipe",
+        "position": {
+          "x": 77.5,
+          "y": 306.5
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 349,
+        "name": "steam-turbine",
+        "position": {
+          "x": 78.5,
+          "y": 294.5
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 350,
+        "name": "steam-turbine",
+        "position": {
+          "x": 78.5,
+          "y": 300.5
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 351,
+        "name": "steam-turbine",
+        "position": {
+          "x": 78.5,
+          "y": 303.5
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 352,
+        "name": "steam-turbine",
+        "position": {
+          "x": 78.5,
+          "y": 309.5
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 353,
+        "name": "steam-turbine",
+        "position": {
+          "x": 80.5,
+          "y": 297.5
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 354,
+        "name": "steam-turbine",
+        "position": {
+          "x": 80.5,
+          "y": 306.5
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 355,
+        "name": "steam-turbine",
+        "position": {
+          "x": 83.5,
+          "y": 294.5
+        }
+      },
+      {
+        "entity_number": 356,
+        "name": "pipe",
+        "position": {
+          "x": 83.5,
+          "y": 297.5
+        }
+      },
+      {
+        "entity_number": 357,
+        "name": "medium-electric-pole",
+        "position": {
+          "x": 83.5,
+          "y": 298.5
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 358,
+        "name": "steam-turbine",
+        "position": {
+          "x": 83.5,
+          "y": 300.5
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 359,
+        "name": "steam-turbine",
+        "position": {
+          "x": 83.5,
+          "y": 303.5
+        }
+      },
+      {
+        "entity_number": 360,
+        "name": "medium-electric-pole",
+        "position": {
+          "x": 83.5,
+          "y": 305.5
+        }
+      },
+      {
+        "entity_number": 361,
+        "name": "pipe",
+        "position": {
+          "x": 83.5,
+          "y": 306.5
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 362,
+        "name": "steam-turbine",
+        "position": {
+          "x": 83.5,
+          "y": 309.5
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 363,
+        "name": "steam-turbine",
+        "position": {
+          "x": 86.5,
+          "y": 297.5
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 364,
+        "name": "steam-turbine",
+        "position": {
+          "x": 86.5,
+          "y": 306.5
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 365,
+        "name": "steam-turbine",
+        "position": {
+          "x": 88.5,
+          "y": 294.5
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 366,
+        "name": "steam-turbine",
+        "position": {
+          "x": 88.5,
+          "y": 300.5
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 367,
+        "name": "steam-turbine",
+        "position": {
+          "x": 88.5,
+          "y": 303.5
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 368,
+        "name": "steam-turbine",
+        "position": {
+          "x": 88.5,
+          "y": 309.5
+        }
+      },
+      {
+        "entity_number": 369,
+        "name": "pipe",
+        "position": {
+          "x": 89.5,
+          "y": 297.5
+        }
+      },
+      {
+        "entity_number": 370,
+        "name": "medium-electric-pole",
+        "position": {
+          "x": 89.5,
+          "y": 298.5
+        }
+      },
+      {
+        "entity_number": 371,
+        "name": "medium-electric-pole",
+        "position": {
+          "x": 89.5,
+          "y": 305.5
+        }
+      },
+      {
+        "entity_number": 372,
+        "name": "pipe",
+        "position": {
+          "x": 89.5,
+          "y": 306.5
+        }
+      },
+      {
+        "entity_number": 373,
+        "name": "pipe",
+        "position": {
+          "x": 91.5,
+          "y": 293.5
+        }
+      },
+      {
+        "entity_number": 374,
+        "name": "pipe",
+        "position": {
+          "x": 91.5,
+          "y": 294.5
+        }
+      },
+      {
+        "entity_number": 375,
+        "name": "pipe",
+        "position": {
+          "x": 91.5,
+          "y": 300.5
+        }
+      },
+      {
+        "entity_number": 376,
+        "name": "pipe",
+        "position": {
+          "x": 91.5,
+          "y": 301.5
+        }
+      },
+      {
+        "entity_number": 377,
+        "name": "pipe",
+        "position": {
+          "x": 91.5,
+          "y": 302.5
+        }
+      },
+      {
+        "entity_number": 378,
+        "name": "pipe",
+        "position": {
+          "x": 91.5,
+          "y": 303.5
+        }
+      },
+      {
+        "entity_number": 379,
+        "name": "pipe",
+        "position": {
+          "x": 91.5,
+          "y": 309.5
+        }
+      },
+      {
+        "entity_number": 380,
+        "name": "pipe",
+        "position": {
+          "x": 91.5,
+          "y": 310.5
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 381,
+        "name": "steam-turbine",
+        "position": {
+          "x": 92.5,
+          "y": 297.5
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 382,
+        "name": "steam-turbine",
+        "position": {
+          "x": 92.5,
+          "y": 306.5
+        }
+      },
+      {
+        "entity_number": 383,
+        "name": "storage-tank",
+        "position": {
+          "x": 93.5,
+          "y": 294.5
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 384,
+        "name": "storage-tank",
+        "position": {
+          "x": 93.5,
+          "y": 300.5
+        }
+      },
+      {
+        "entity_number": 385,
+        "name": "storage-tank",
+        "position": {
+          "x": 93.5,
+          "y": 303.5
+        }
+      },
+      {
+        "control_behavior": {
+          "temperature_signal": {
+            "name": "signal-T",
+            "type": "virtual"
+          }
+        },
+        "direction": 4,
+        "entity_number": 386,
+        "name": "storage-tank",
+        "position": {
+          "x": 93.5,
+          "y": 309.5
+        }
+      },
+      {
+        "entity_number": 387,
+        "name": "pipe",
+        "position": {
+          "x": 95.5,
+          "y": 295.5
+        }
+      },
+      {
+        "entity_number": 388,
+        "name": "pipe",
+        "position": {
+          "x": 95.5,
+          "y": 296.5
+        }
+      },
+      {
+        "entity_number": 389,
+        "name": "pipe",
+        "position": {
+          "x": 95.5,
+          "y": 297.5
+        }
+      },
+      {
+        "entity_number": 390,
+        "name": "pipe",
+        "position": {
+          "x": 95.5,
+          "y": 298.5
+        }
+      },
+      {
+        "entity_number": 391,
+        "name": "pipe",
+        "position": {
+          "x": 95.5,
+          "y": 299.5
+        }
+      },
+      {
+        "entity_number": 392,
+        "name": "pipe",
+        "position": {
+          "x": 95.5,
+          "y": 300.5
+        }
+      },
+      {
+        "entity_number": 393,
+        "name": "pipe",
+        "position": {
+          "x": 95.5,
+          "y": 301.5
+        }
+      },
+      {
+        "entity_number": 394,
+        "name": "pipe",
+        "position": {
+          "x": 95.5,
+          "y": 302.5
+        }
+      },
+      {
+        "entity_number": 395,
+        "name": "pipe",
+        "position": {
+          "x": 95.5,
+          "y": 303.5
+        }
+      },
+      {
+        "entity_number": 396,
+        "name": "pipe",
+        "position": {
+          "x": 95.5,
+          "y": 304.5
+        }
+      },
+      {
+        "entity_number": 397,
+        "name": "pipe",
+        "position": {
+          "x": 95.5,
+          "y": 305.5
+        }
+      },
+      {
+        "entity_number": 398,
+        "name": "pipe",
+        "position": {
+          "x": 95.5,
+          "y": 306.5
+        }
+      },
+      {
+        "entity_number": 399,
+        "name": "pipe",
+        "position": {
+          "x": 95.5,
+          "y": 307.5
+        }
+      },
+      {
+        "entity_number": 400,
+        "name": "pipe",
+        "position": {
+          "x": 95.5,
+          "y": 308.5
+        }
+      },
+      {
+        "entity_number": 401,
+        "name": "medium-electric-pole",
+        "position": {
+          "x": 95.5,
+          "y": 309.5
+        }
+      },
+      {
+        "alert_parameters": {
+          "alert_message": "电力不足",
+          "icon_signal_id": {
+            "name": "signal-battery-low",
+            "type": "virtual"
+          },
+          "show_alert": true,
+          "show_on_map": true
+        },
+        "control_behavior": {
+          "circuit_condition": {
+            "comparator": "<",
+            "constant": 2000,
+            "first_signal": {
+              "name": "steam",
+              "type": "fluid"
+            }
+          },
+          "circuit_parameters": {
+            "instrument_id": 0,
+            "note_id": 0,
+            "signal_value_is_pitch": false,
+            "stop_playing_sounds": false
+          }
+        },
+        "entity_number": 402,
+        "name": "programmable-speaker",
+        "parameters": {
+          "allow_polyphony": false,
+          "playback_mode": "global",
+          "playback_volume": 1,
+          "volume_controlled_by_signal": false
+        },
+        "position": {
+          "x": 95.5,
+          "y": 310.5
+        }
+      }
+    ],
+    "icons": [
+      {
+        "index": 1,
+        "signal": {
+          "name": "acid-neutralisation",
+          "type": "recipe"
+        }
+      }
+    ],
+    "version": 562954249306113,
+    "wires": [
+      [
+        2,
+        5,
+        49,
+        5
+      ],
+      [
+        2,
+        5,
+        8,
+        5
+      ],
+      [
+        8,
+        5,
+        15,
+        5
+      ],
+      [
+        8,
+        5,
+        54,
+        5
+      ],
+      [
+        8,
+        5,
+        49,
+        5
+      ],
+      [
+        15,
+        5,
+        54,
+        5
+      ],
+      [
+        49,
+        5,
+        66,
+        5
+      ],
+      [
+        49,
+        5,
+        54,
+        5
+      ],
+      [
+        54,
+        5,
+        67,
+        5
+      ],
+      [
+        66,
+        5,
+        67,
+        5
+      ],
+      [
+        66,
+        5,
+        76,
+        5
+      ],
+      [
+        67,
+        5,
+        77,
+        5
+      ],
+      [
+        76,
+        5,
+        77,
+        5
+      ],
+      [
+        76,
+        5,
+        87,
+        5
+      ],
+      [
+        77,
+        5,
+        90,
+        5
+      ],
+      [
+        87,
+        5,
+        90,
+        5
+      ],
+      [
+        87,
+        5,
+        100,
+        5
+      ],
+      [
+        90,
+        5,
+        101,
+        5
+      ],
+      [
+        100,
+        5,
+        101,
+        5
+      ],
+      [
+        100,
+        5,
+        110,
+        5
+      ],
+      [
+        101,
+        5,
+        111,
+        5
+      ],
+      [
+        110,
+        5,
+        111,
+        5
+      ],
+      [
+        110,
+        5,
+        120,
+        5
+      ],
+      [
+        111,
+        5,
+        121,
+        5
+      ],
+      [
+        120,
+        5,
+        121,
+        5
+      ],
+      [
+        120,
+        5,
+        130,
+        5
+      ],
+      [
+        121,
+        5,
+        131,
+        5
+      ],
+      [
+        130,
+        5,
+        131,
+        5
+      ],
+      [
+        130,
+        5,
+        141,
+        5
+      ],
+      [
+        131,
+        5,
+        144,
+        5
+      ],
+      [
+        141,
+        5,
+        144,
+        5
+      ],
+      [
+        141,
+        5,
+        154,
+        5
+      ],
+      [
+        144,
+        5,
+        155,
+        5
+      ],
+      [
+        154,
+        5,
+        155,
+        5
+      ],
+      [
+        154,
+        5,
+        164,
+        5
+      ],
+      [
+        155,
+        5,
+        165,
+        5
+      ],
+      [
+        164,
+        5,
+        165,
+        5
+      ],
+      [
+        164,
+        5,
+        174,
+        5
+      ],
+      [
+        165,
+        5,
+        175,
+        5
+      ],
+      [
+        174,
+        5,
+        175,
+        5
+      ],
+      [
+        174,
+        5,
+        184,
+        5
+      ],
+      [
+        175,
+        5,
+        185,
+        5
+      ],
+      [
+        184,
+        5,
+        185,
+        5
+      ],
+      [
+        184,
+        5,
+        195,
+        5
+      ],
+      [
+        185,
+        5,
+        198,
+        5
+      ],
+      [
+        195,
+        5,
+        198,
+        5
+      ],
+      [
+        195,
+        5,
+        208,
+        5
+      ],
+      [
+        198,
+        5,
+        209,
+        5
+      ],
+      [
+        208,
+        5,
+        209,
+        5
+      ],
+      [
+        208,
+        5,
+        218,
+        5
+      ],
+      [
+        209,
+        5,
+        219,
+        5
+      ],
+      [
+        218,
+        5,
+        219,
+        5
+      ],
+      [
+        218,
+        5,
+        228,
+        5
+      ],
+      [
+        219,
+        5,
+        229,
+        5
+      ],
+      [
+        228,
+        5,
+        229,
+        5
+      ],
+      [
+        228,
+        5,
+        238,
+        5
+      ],
+      [
+        229,
+        5,
+        239,
+        5
+      ],
+      [
+        238,
+        5,
+        239,
+        5
+      ],
+      [
+        238,
+        5,
+        249,
+        5
+      ],
+      [
+        239,
+        5,
+        252,
+        5
+      ],
+      [
+        249,
+        5,
+        252,
+        5
+      ],
+      [
+        249,
+        5,
+        262,
+        5
+      ],
+      [
+        252,
+        5,
+        263,
+        5
+      ],
+      [
+        262,
+        5,
+        263,
+        5
+      ],
+      [
+        262,
+        5,
+        272,
+        5
+      ],
+      [
+        263,
+        5,
+        273,
+        5
+      ],
+      [
+        272,
+        5,
+        273,
+        5
+      ],
+      [
+        272,
+        5,
+        282,
+        5
+      ],
+      [
+        273,
+        5,
+        283,
+        5
+      ],
+      [
+        282,
+        5,
+        283,
+        5
+      ],
+      [
+        282,
+        5,
+        292,
+        5
+      ],
+      [
+        283,
+        5,
+        293,
+        5
+      ],
+      [
+        292,
+        5,
+        293,
+        5
+      ],
+      [
+        292,
+        5,
+        303,
+        5
+      ],
+      [
+        293,
+        5,
+        306,
+        5
+      ],
+      [
+        303,
+        5,
+        306,
+        5
+      ],
+      [
+        303,
+        5,
+        316,
+        5
+      ],
+      [
+        306,
+        5,
+        317,
+        5
+      ],
+      [
+        316,
+        5,
+        317,
+        5
+      ],
+      [
+        316,
+        5,
+        326,
+        5
+      ],
+      [
+        317,
+        5,
+        327,
+        5
+      ],
+      [
+        326,
+        5,
+        327,
+        5
+      ],
+      [
+        326,
+        5,
+        336,
+        5
+      ],
+      [
+        327,
+        5,
+        337,
+        5
+      ],
+      [
+        336,
+        5,
+        337,
+        5
+      ],
+      [
+        336,
+        5,
+        346,
+        5
+      ],
+      [
+        337,
+        5,
+        347,
+        5
+      ],
+      [
+        346,
+        5,
+        347,
+        5
+      ],
+      [
+        346,
+        5,
+        357,
+        5
+      ],
+      [
+        347,
+        5,
+        360,
+        5
+      ],
+      [
+        357,
+        5,
+        360,
+        5
+      ],
+      [
+        357,
+        5,
+        370,
+        5
+      ],
+      [
+        360,
+        5,
+        371,
+        5
+      ],
+      [
+        370,
+        5,
+        371,
+        5
+      ],
+      [
+        371,
+        5,
+        401,
+        5
+      ],
+      [
+        386,
+        1,
+        402,
+        1
+      ]
+    ]
+  },
+  "index": 1
+}

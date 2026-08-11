@@ -1,0 +1,1813 @@
+{
+  "blueprint": {
+    "item": "blueprint",
+    "label": "*实验验证",
+    "description": "*译者注：实验验证在这里。\nraynquist的解答还是存在一些疑问：比如我无法构造出一种让2-2完全均分器失效的输入/输出堵塞情况。而一些更极端的堵塞情况同样也会影响到右侧的lane-TU均分器(如输出堵2个半带，输入只有3个半带)。该论点有待进一步验证。且本人不认为实践中会遇到这么极端的情况（",
+    "entities": [
+      {
+        "entity_number": 1,
+        "infinity_settings": {
+          "remove_unfiltered_items": true
+        },
+        "name": "infinity-chest",
+        "position": {
+          "x": 1316.5,
+          "y": -120.5
+        }
+      },
+      {
+        "entity_number": 2,
+        "infinity_settings": {
+          "remove_unfiltered_items": true
+        },
+        "name": "infinity-chest",
+        "position": {
+          "x": 1321.5,
+          "y": -120.5
+        }
+      },
+      {
+        "entity_number": 3,
+        "infinity_settings": {
+          "remove_unfiltered_items": true
+        },
+        "name": "infinity-chest",
+        "position": {
+          "x": 1330.5,
+          "y": -120.5
+        }
+      },
+      {
+        "entity_number": 4,
+        "infinity_settings": {
+          "remove_unfiltered_items": true
+        },
+        "name": "infinity-chest",
+        "position": {
+          "x": 1335.5,
+          "y": -120.5
+        }
+      },
+      {
+        "entity_number": 5,
+        "name": "express-loader",
+        "position": {
+          "x": 1316.5,
+          "y": -119
+        },
+        "type": "input"
+      },
+      {
+        "entity_number": 6,
+        "name": "express-loader",
+        "position": {
+          "x": 1321.5,
+          "y": -119
+        },
+        "type": "input"
+      },
+      {
+        "entity_number": 7,
+        "name": "express-loader",
+        "position": {
+          "x": 1330.5,
+          "y": -119
+        },
+        "type": "input"
+      },
+      {
+        "entity_number": 8,
+        "name": "express-loader",
+        "position": {
+          "x": 1335.5,
+          "y": -119
+        },
+        "type": "input"
+      },
+      {
+        "entity_number": 9,
+        "name": "express-underground-belt",
+        "position": {
+          "x": 1316.5,
+          "y": -116.5
+        },
+        "type": "output"
+      },
+      {
+        "entity_number": 10,
+        "name": "express-transport-belt",
+        "position": {
+          "x": 1316.5,
+          "y": -117.5
+        }
+      },
+      {
+        "entity_number": 11,
+        "name": "express-underground-belt",
+        "position": {
+          "x": 1321.5,
+          "y": -116.5
+        },
+        "type": "output"
+      },
+      {
+        "entity_number": 12,
+        "name": "express-transport-belt",
+        "position": {
+          "x": 1321.5,
+          "y": -117.5
+        }
+      },
+      {
+        "entity_number": 13,
+        "name": "express-underground-belt",
+        "position": {
+          "x": 1330.5,
+          "y": -116.5
+        },
+        "type": "output"
+      },
+      {
+        "entity_number": 14,
+        "name": "express-transport-belt",
+        "position": {
+          "x": 1330.5,
+          "y": -117.5
+        }
+      },
+      {
+        "entity_number": 15,
+        "name": "express-underground-belt",
+        "position": {
+          "x": 1335.5,
+          "y": -116.5
+        },
+        "type": "output"
+      },
+      {
+        "entity_number": 16,
+        "name": "express-transport-belt",
+        "position": {
+          "x": 1335.5,
+          "y": -117.5
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 17,
+        "name": "express-splitter",
+        "position": {
+          "x": 1315.5,
+          "y": -116
+        }
+      },
+      {
+        "direction": 8,
+        "entity_number": 18,
+        "name": "express-transport-belt",
+        "position": {
+          "x": 1316.5,
+          "y": -114.5
+        }
+      },
+      {
+        "direction": 8,
+        "entity_number": 19,
+        "name": "turbo-underground-belt",
+        "position": {
+          "x": 1316.5,
+          "y": -115.5
+        },
+        "type": "output"
+      },
+      {
+        "direction": 12,
+        "entity_number": 20,
+        "name": "express-splitter",
+        "position": {
+          "x": 1317.5,
+          "y": -116
+        }
+      },
+      {
+        "entity_number": 21,
+        "name": "express-transport-belt",
+        "position": {
+          "x": 1319.5,
+          "y": -114.5
+        }
+      },
+      {
+        "entity_number": 22,
+        "name": "express-transport-belt",
+        "position": {
+          "x": 1318.5,
+          "y": -114.5
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 23,
+        "name": "express-transport-belt",
+        "position": {
+          "x": 1319.5,
+          "y": -115.5
+        }
+      },
+      {
+        "direction": 12,
+        "entity_number": 24,
+        "name": "express-transport-belt",
+        "position": {
+          "x": 1318.5,
+          "y": -115.5
+        }
+      },
+      {
+        "direction": 8,
+        "entity_number": 25,
+        "name": "express-transport-belt",
+        "position": {
+          "x": 1321.5,
+          "y": -114.5
+        }
+      },
+      {
+        "direction": 8,
+        "entity_number": 26,
+        "name": "turbo-underground-belt",
+        "position": {
+          "x": 1321.5,
+          "y": -115.5
+        },
+        "type": "output"
+      },
+      {
+        "direction": 4,
+        "entity_number": 27,
+        "name": "express-splitter",
+        "position": {
+          "x": 1320.5,
+          "y": -116
+        }
+      },
+      {
+        "direction": 12,
+        "entity_number": 28,
+        "name": "express-splitter",
+        "position": {
+          "x": 1322.5,
+          "y": -116
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 29,
+        "name": "express-splitter",
+        "position": {
+          "x": 1329.5,
+          "y": -116
+        }
+      },
+      {
+        "direction": 8,
+        "entity_number": 30,
+        "name": "express-transport-belt",
+        "position": {
+          "x": 1330.5,
+          "y": -114.5
+        }
+      },
+      {
+        "direction": 8,
+        "entity_number": 31,
+        "name": "turbo-underground-belt",
+        "position": {
+          "x": 1330.5,
+          "y": -115.5
+        },
+        "type": "output"
+      },
+      {
+        "direction": 12,
+        "entity_number": 32,
+        "name": "express-splitter",
+        "position": {
+          "x": 1331.5,
+          "y": -116
+        }
+      },
+      {
+        "entity_number": 33,
+        "name": "express-transport-belt",
+        "position": {
+          "x": 1333.5,
+          "y": -114.5
+        }
+      },
+      {
+        "entity_number": 34,
+        "name": "express-transport-belt",
+        "position": {
+          "x": 1332.5,
+          "y": -114.5
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 35,
+        "name": "express-transport-belt",
+        "position": {
+          "x": 1333.5,
+          "y": -115.5
+        }
+      },
+      {
+        "direction": 12,
+        "entity_number": 36,
+        "name": "express-transport-belt",
+        "position": {
+          "x": 1332.5,
+          "y": -115.5
+        }
+      },
+      {
+        "direction": 8,
+        "entity_number": 37,
+        "name": "express-transport-belt",
+        "position": {
+          "x": 1335.5,
+          "y": -114.5
+        }
+      },
+      {
+        "direction": 8,
+        "entity_number": 38,
+        "name": "turbo-underground-belt",
+        "position": {
+          "x": 1335.5,
+          "y": -115.5
+        },
+        "type": "output"
+      },
+      {
+        "direction": 4,
+        "entity_number": 39,
+        "name": "express-splitter",
+        "position": {
+          "x": 1334.5,
+          "y": -116
+        }
+      },
+      {
+        "direction": 12,
+        "entity_number": 40,
+        "name": "express-splitter",
+        "position": {
+          "x": 1336.5,
+          "y": -116
+        }
+      },
+      {
+        "entity_number": 41,
+        "name": "express-transport-belt",
+        "position": {
+          "x": 1319.5,
+          "y": -112.5
+        }
+      },
+      {
+        "entity_number": 42,
+        "name": "express-transport-belt",
+        "position": {
+          "x": 1318.5,
+          "y": -112.5
+        }
+      },
+      {
+        "entity_number": 43,
+        "name": "express-transport-belt",
+        "position": {
+          "x": 1319.5,
+          "y": -113.5
+        }
+      },
+      {
+        "entity_number": 44,
+        "name": "express-transport-belt",
+        "position": {
+          "x": 1318.5,
+          "y": -113.5
+        }
+      },
+      {
+        "entity_number": 45,
+        "name": "express-transport-belt",
+        "position": {
+          "x": 1333.5,
+          "y": -112.5
+        }
+      },
+      {
+        "entity_number": 46,
+        "name": "express-transport-belt",
+        "position": {
+          "x": 1332.5,
+          "y": -112.5
+        }
+      },
+      {
+        "entity_number": 47,
+        "name": "express-transport-belt",
+        "position": {
+          "x": 1333.5,
+          "y": -113.5
+        }
+      },
+      {
+        "entity_number": 48,
+        "name": "express-transport-belt",
+        "position": {
+          "x": 1332.5,
+          "y": -113.5
+        }
+      },
+      {
+        "entity_number": 49,
+        "infinity_settings": {
+          "remove_unfiltered_items": true
+        },
+        "name": "infinity-chest",
+        "position": {
+          "x": 1316.5,
+          "y": -111.5
+        }
+      },
+      {
+        "entity_number": 50,
+        "name": "express-transport-belt",
+        "position": {
+          "x": 1319.5,
+          "y": -110.5
+        }
+      },
+      {
+        "entity_number": 51,
+        "name": "express-transport-belt",
+        "position": {
+          "x": 1318.5,
+          "y": -110.5
+        }
+      },
+      {
+        "entity_number": 52,
+        "name": "express-transport-belt",
+        "position": {
+          "x": 1319.5,
+          "y": -111.5
+        }
+      },
+      {
+        "entity_number": 53,
+        "name": "express-transport-belt",
+        "position": {
+          "x": 1318.5,
+          "y": -111.5
+        }
+      },
+      {
+        "entity_number": 54,
+        "infinity_settings": {
+          "remove_unfiltered_items": true
+        },
+        "name": "infinity-chest",
+        "position": {
+          "x": 1321.5,
+          "y": -111.5
+        }
+      },
+      {
+        "entity_number": 55,
+        "infinity_settings": {
+          "remove_unfiltered_items": true
+        },
+        "name": "infinity-chest",
+        "position": {
+          "x": 1330.5,
+          "y": -111.5
+        }
+      },
+      {
+        "entity_number": 56,
+        "name": "express-transport-belt",
+        "position": {
+          "x": 1333.5,
+          "y": -110.5
+        }
+      },
+      {
+        "entity_number": 57,
+        "name": "express-transport-belt",
+        "position": {
+          "x": 1332.5,
+          "y": -110.5
+        }
+      },
+      {
+        "entity_number": 58,
+        "name": "express-transport-belt",
+        "position": {
+          "x": 1333.5,
+          "y": -111.5
+        }
+      },
+      {
+        "entity_number": 59,
+        "name": "express-transport-belt",
+        "position": {
+          "x": 1332.5,
+          "y": -111.5
+        }
+      },
+      {
+        "entity_number": 60,
+        "infinity_settings": {
+          "remove_unfiltered_items": true
+        },
+        "name": "infinity-chest",
+        "position": {
+          "x": 1335.5,
+          "y": -111.5
+        }
+      },
+      {
+        "entity_number": 61,
+        "name": "express-underground-belt",
+        "position": {
+          "x": 1319.5,
+          "y": -108.5
+        },
+        "type": "output"
+      },
+      {
+        "entity_number": 62,
+        "name": "express-underground-belt",
+        "position": {
+          "x": 1318.5,
+          "y": -108.5
+        },
+        "type": "output"
+      },
+      {
+        "entity_number": 63,
+        "name": "express-splitter",
+        "position": {
+          "x": 1319,
+          "y": -109.5
+        }
+      },
+      {
+        "entity_number": 64,
+        "name": "express-underground-belt",
+        "position": {
+          "x": 1333.5,
+          "y": -108.5
+        },
+        "type": "output"
+      },
+      {
+        "entity_number": 65,
+        "name": "express-underground-belt",
+        "position": {
+          "x": 1332.5,
+          "y": -108.5
+        },
+        "type": "output"
+      },
+      {
+        "entity_number": 66,
+        "name": "express-splitter",
+        "position": {
+          "x": 1333,
+          "y": -109.5
+        }
+      },
+      {
+        "direction": 12,
+        "entity_number": 67,
+        "name": "express-transport-belt",
+        "position": {
+          "x": 1319.5,
+          "y": -106.5
+        }
+      },
+      {
+        "entity_number": 68,
+        "name": "express-transport-belt",
+        "position": {
+          "x": 1318.5,
+          "y": -106.5
+        }
+      },
+      {
+        "entity_number": 69,
+        "name": "express-underground-belt",
+        "position": {
+          "x": 1319.5,
+          "y": -107.5
+        },
+        "type": "input"
+      },
+      {
+        "direction": 4,
+        "entity_number": 70,
+        "name": "express-transport-belt",
+        "position": {
+          "x": 1318.5,
+          "y": -107.5
+        }
+      },
+      {
+        "entity_number": 71,
+        "name": "express-transport-belt",
+        "position": {
+          "x": 1320.5,
+          "y": -106.5
+        }
+      },
+      {
+        "direction": 12,
+        "entity_number": 72,
+        "name": "express-transport-belt",
+        "position": {
+          "x": 1320.5,
+          "y": -107.5
+        }
+      },
+      {
+        "direction": 12,
+        "entity_number": 73,
+        "name": "express-transport-belt",
+        "position": {
+          "x": 1333.5,
+          "y": -106.5
+        }
+      },
+      {
+        "entity_number": 74,
+        "name": "express-transport-belt",
+        "position": {
+          "x": 1332.5,
+          "y": -106.5
+        }
+      },
+      {
+        "entity_number": 75,
+        "name": "express-underground-belt",
+        "position": {
+          "x": 1333.5,
+          "y": -107.5
+        },
+        "type": "input"
+      },
+      {
+        "direction": 4,
+        "entity_number": 76,
+        "name": "express-transport-belt",
+        "position": {
+          "x": 1332.5,
+          "y": -107.5
+        }
+      },
+      {
+        "entity_number": 77,
+        "name": "express-transport-belt",
+        "position": {
+          "x": 1334.5,
+          "y": -106.5
+        }
+      },
+      {
+        "direction": 12,
+        "entity_number": 78,
+        "name": "express-transport-belt",
+        "position": {
+          "x": 1334.5,
+          "y": -107.5
+        }
+      },
+      {
+        "entity_number": 79,
+        "name": "express-splitter",
+        "position": {
+          "x": 1319,
+          "y": -104.5
+        }
+      },
+      {
+        "entity_number": 80,
+        "name": "express-underground-belt",
+        "position": {
+          "x": 1318.5,
+          "y": -105.5
+        },
+        "type": "input"
+      },
+      {
+        "entity_number": 81,
+        "name": "express-splitter",
+        "position": {
+          "x": 1320,
+          "y": -105.5
+        }
+      },
+      {
+        "entity_number": 82,
+        "name": "express-splitter",
+        "position": {
+          "x": 1333,
+          "y": -104.5
+        }
+      },
+      {
+        "entity_number": 83,
+        "name": "express-underground-belt",
+        "position": {
+          "x": 1332.5,
+          "y": -105.5
+        },
+        "type": "input"
+      },
+      {
+        "entity_number": 84,
+        "name": "express-splitter",
+        "position": {
+          "x": 1334,
+          "y": -105.5
+        }
+      },
+      {
+        "entity_number": 85,
+        "name": "express-transport-belt",
+        "position": {
+          "x": 1319.5,
+          "y": -102.5
+        }
+      },
+      {
+        "entity_number": 86,
+        "name": "express-transport-belt",
+        "position": {
+          "x": 1318.5,
+          "y": -102.5
+        }
+      },
+      {
+        "entity_number": 87,
+        "name": "express-transport-belt",
+        "position": {
+          "x": 1319.5,
+          "y": -103.5
+        }
+      },
+      {
+        "entity_number": 88,
+        "name": "express-transport-belt",
+        "position": {
+          "x": 1318.5,
+          "y": -103.5
+        }
+      },
+      {
+        "entity_number": 89,
+        "name": "express-underground-belt",
+        "position": {
+          "x": 1333.5,
+          "y": -102.5
+        },
+        "type": "input"
+      },
+      {
+        "direction": 4,
+        "entity_number": 90,
+        "name": "express-transport-belt",
+        "position": {
+          "x": 1332.5,
+          "y": -102.5
+        }
+      },
+      {
+        "entity_number": 91,
+        "name": "express-underground-belt",
+        "position": {
+          "x": 1333.5,
+          "y": -103.5
+        },
+        "type": "output"
+      },
+      {
+        "entity_number": 92,
+        "name": "express-underground-belt",
+        "position": {
+          "x": 1332.5,
+          "y": -103.5
+        },
+        "type": "output"
+      },
+      {
+        "direction": 12,
+        "entity_number": 93,
+        "name": "express-transport-belt",
+        "position": {
+          "x": 1334.5,
+          "y": -102.5
+        }
+      },
+      {
+        "entity_number": 94,
+        "name": "express-transport-belt",
+        "position": {
+          "x": 1319.5,
+          "y": -100.5
+        }
+      },
+      {
+        "entity_number": 95,
+        "name": "express-transport-belt",
+        "position": {
+          "x": 1318.5,
+          "y": -100.5
+        }
+      },
+      {
+        "entity_number": 96,
+        "name": "express-transport-belt",
+        "position": {
+          "x": 1319.5,
+          "y": -101.5
+        }
+      },
+      {
+        "entity_number": 97,
+        "name": "express-transport-belt",
+        "position": {
+          "x": 1318.5,
+          "y": -101.5
+        }
+      },
+      {
+        "entity_number": 98,
+        "name": "express-underground-belt",
+        "position": {
+          "x": 1332.5,
+          "y": -100.5
+        },
+        "type": "input"
+      },
+      {
+        "direction": 12,
+        "entity_number": 99,
+        "name": "express-transport-belt",
+        "position": {
+          "x": 1333.5,
+          "y": -101.5
+        }
+      },
+      {
+        "entity_number": 100,
+        "name": "express-transport-belt",
+        "position": {
+          "x": 1332.5,
+          "y": -101.5
+        }
+      },
+      {
+        "entity_number": 101,
+        "name": "express-splitter",
+        "position": {
+          "x": 1334,
+          "y": -100.5
+        }
+      },
+      {
+        "entity_number": 102,
+        "name": "express-transport-belt",
+        "position": {
+          "x": 1334.5,
+          "y": -101.5
+        }
+      },
+      {
+        "entity_number": 103,
+        "name": "express-transport-belt",
+        "position": {
+          "x": 1319.5,
+          "y": -98.5
+        }
+      },
+      {
+        "entity_number": 104,
+        "name": "express-transport-belt",
+        "position": {
+          "x": 1318.5,
+          "y": -98.5
+        }
+      },
+      {
+        "entity_number": 105,
+        "name": "express-transport-belt",
+        "position": {
+          "x": 1319.5,
+          "y": -99.5
+        }
+      },
+      {
+        "entity_number": 106,
+        "name": "express-transport-belt",
+        "position": {
+          "x": 1318.5,
+          "y": -99.5
+        }
+      },
+      {
+        "entity_number": 107,
+        "name": "express-transport-belt",
+        "position": {
+          "x": 1333.5,
+          "y": -98.5
+        }
+      },
+      {
+        "entity_number": 108,
+        "name": "express-transport-belt",
+        "position": {
+          "x": 1332.5,
+          "y": -98.5
+        }
+      },
+      {
+        "entity_number": 109,
+        "name": "express-splitter",
+        "position": {
+          "x": 1333,
+          "y": -99.5
+        }
+      },
+      {
+        "entity_number": 110,
+        "infinity_settings": {
+          "filters": [
+            {
+              "count": 200,
+              "index": 1,
+              "mode": "at-least",
+              "name": "automation-science-pack"
+            }
+          ],
+          "remove_unfiltered_items": true
+        },
+        "name": "infinity-chest",
+        "position": {
+          "x": 1317.5,
+          "y": -96.5
+        }
+      },
+      {
+        "control_behavior": {
+          "arithmetic_conditions": {
+            "first_signal": {
+              "name": "signal-each",
+              "type": "virtual"
+            },
+            "operation": "+",
+            "output_signal": {
+              "name": "signal-each",
+              "type": "virtual"
+            },
+            "second_constant": 0
+          }
+        },
+        "entity_number": 111,
+        "name": "arithmetic-combinator",
+        "player_description": "锁存所有的M和A",
+        "position": {
+          "x": 1317.5,
+          "y": -98
+        }
+      },
+      {
+        "entity_number": 112,
+        "name": "express-transport-belt",
+        "position": {
+          "x": 1319.5,
+          "y": -96.5
+        }
+      },
+      {
+        "entity_number": 113,
+        "name": "express-transport-belt",
+        "position": {
+          "x": 1318.5,
+          "y": -96.5
+        }
+      },
+      {
+        "entity_number": 114,
+        "name": "express-transport-belt",
+        "position": {
+          "x": 1319.5,
+          "y": -97.5
+        }
+      },
+      {
+        "entity_number": 115,
+        "name": "express-transport-belt",
+        "position": {
+          "x": 1318.5,
+          "y": -97.5
+        }
+      },
+      {
+        "entity_number": 116,
+        "infinity_settings": {
+          "filters": [
+            {
+              "count": 200,
+              "index": 1,
+              "mode": "at-least",
+              "name": "military-science-pack"
+            }
+          ],
+          "remove_unfiltered_items": true
+        },
+        "name": "infinity-chest",
+        "position": {
+          "x": 1320.5,
+          "y": -96.5
+        }
+      },
+      {
+        "control_behavior": {
+          "arithmetic_conditions": {
+            "first_signal": {
+              "name": "signal-each",
+              "type": "virtual"
+            },
+            "operation": "+",
+            "output_signal": {
+              "name": "signal-each",
+              "type": "virtual"
+            },
+            "second_constant": 0
+          }
+        },
+        "entity_number": 117,
+        "name": "arithmetic-combinator",
+        "player_description": "锁存所有的M和A",
+        "position": {
+          "x": 1320.5,
+          "y": -98
+        }
+      },
+      {
+        "entity_number": 118,
+        "infinity_settings": {
+          "filters": [
+            {
+              "count": 200,
+              "index": 1,
+              "mode": "at-least",
+              "name": "automation-science-pack"
+            }
+          ],
+          "remove_unfiltered_items": true
+        },
+        "name": "infinity-chest",
+        "position": {
+          "x": 1331.5,
+          "y": -96.5
+        }
+      },
+      {
+        "control_behavior": {
+          "arithmetic_conditions": {
+            "first_signal": {
+              "name": "signal-each",
+              "type": "virtual"
+            },
+            "operation": "+",
+            "output_signal": {
+              "name": "signal-each",
+              "type": "virtual"
+            },
+            "second_constant": 0
+          }
+        },
+        "entity_number": 119,
+        "name": "arithmetic-combinator",
+        "player_description": "锁存所有的M和A",
+        "position": {
+          "x": 1331.5,
+          "y": -98
+        }
+      },
+      {
+        "entity_number": 120,
+        "name": "express-transport-belt",
+        "position": {
+          "x": 1333.5,
+          "y": -96.5
+        }
+      },
+      {
+        "entity_number": 121,
+        "name": "express-transport-belt",
+        "position": {
+          "x": 1332.5,
+          "y": -96.5
+        }
+      },
+      {
+        "entity_number": 122,
+        "name": "express-transport-belt",
+        "position": {
+          "x": 1333.5,
+          "y": -97.5
+        }
+      },
+      {
+        "entity_number": 123,
+        "name": "express-transport-belt",
+        "position": {
+          "x": 1332.5,
+          "y": -97.5
+        }
+      },
+      {
+        "entity_number": 124,
+        "infinity_settings": {
+          "filters": [
+            {
+              "count": 200,
+              "index": 1,
+              "mode": "at-least",
+              "name": "military-science-pack"
+            }
+          ],
+          "remove_unfiltered_items": true
+        },
+        "name": "infinity-chest",
+        "position": {
+          "x": 1334.5,
+          "y": -96.5
+        }
+      },
+      {
+        "control_behavior": {
+          "arithmetic_conditions": {
+            "first_signal": {
+              "name": "signal-each",
+              "type": "virtual"
+            },
+            "operation": "+",
+            "output_signal": {
+              "name": "signal-each",
+              "type": "virtual"
+            },
+            "second_constant": 0
+          }
+        },
+        "entity_number": 125,
+        "name": "arithmetic-combinator",
+        "player_description": "锁存所有的M和A",
+        "position": {
+          "x": 1334.5,
+          "y": -98
+        }
+      },
+      {
+        "direction": 8,
+        "entity_number": 126,
+        "name": "express-loader",
+        "position": {
+          "x": 1317.5,
+          "y": -95
+        },
+        "type": "output"
+      },
+      {
+        "entity_number": 127,
+        "name": "express-transport-belt",
+        "position": {
+          "x": 1319.5,
+          "y": -94.5
+        }
+      },
+      {
+        "entity_number": 128,
+        "name": "express-transport-belt",
+        "position": {
+          "x": 1318.5,
+          "y": -94.5
+        }
+      },
+      {
+        "entity_number": 129,
+        "name": "express-transport-belt",
+        "position": {
+          "x": 1319.5,
+          "y": -95.5
+        }
+      },
+      {
+        "entity_number": 130,
+        "name": "express-transport-belt",
+        "position": {
+          "x": 1318.5,
+          "y": -95.5
+        }
+      },
+      {
+        "direction": 8,
+        "entity_number": 131,
+        "name": "express-loader",
+        "position": {
+          "x": 1331.5,
+          "y": -95
+        },
+        "type": "output"
+      },
+      {
+        "entity_number": 132,
+        "name": "express-transport-belt",
+        "position": {
+          "x": 1333.5,
+          "y": -94.5
+        }
+      },
+      {
+        "entity_number": 133,
+        "name": "express-transport-belt",
+        "position": {
+          "x": 1332.5,
+          "y": -94.5
+        }
+      },
+      {
+        "entity_number": 134,
+        "name": "express-transport-belt",
+        "position": {
+          "x": 1333.5,
+          "y": -95.5
+        }
+      },
+      {
+        "entity_number": 135,
+        "name": "express-transport-belt",
+        "position": {
+          "x": 1332.5,
+          "y": -95.5
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 136,
+        "name": "express-transport-belt",
+        "position": {
+          "x": 1317.5,
+          "y": -92.5
+        }
+      },
+      {
+        "control_behavior": {
+          "circuit_contents_read_mode": 0,
+          "circuit_read_hand_contents": true
+        },
+        "direction": 8,
+        "entity_number": 137,
+        "name": "express-transport-belt",
+        "position": {
+          "x": 1317.5,
+          "y": -93.5
+        }
+      },
+      {
+        "entity_number": 138,
+        "name": "express-transport-belt",
+        "position": {
+          "x": 1319.5,
+          "y": -92.5
+        }
+      },
+      {
+        "entity_number": 139,
+        "name": "express-transport-belt",
+        "position": {
+          "x": 1318.5,
+          "y": -92.5
+        }
+      },
+      {
+        "entity_number": 140,
+        "name": "express-transport-belt",
+        "position": {
+          "x": 1319.5,
+          "y": -93.5
+        }
+      },
+      {
+        "entity_number": 141,
+        "name": "express-transport-belt",
+        "position": {
+          "x": 1318.5,
+          "y": -93.5
+        }
+      },
+      {
+        "direction": 12,
+        "entity_number": 142,
+        "name": "express-transport-belt",
+        "position": {
+          "x": 1320.5,
+          "y": -92.5
+        }
+      },
+      {
+        "control_behavior": {
+          "circuit_contents_read_mode": 0,
+          "circuit_read_hand_contents": true
+        },
+        "direction": 8,
+        "entity_number": 143,
+        "name": "express-transport-belt",
+        "position": {
+          "x": 1320.5,
+          "y": -93.5
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 144,
+        "name": "express-transport-belt",
+        "position": {
+          "x": 1331.5,
+          "y": -92.5
+        }
+      },
+      {
+        "control_behavior": {
+          "circuit_contents_read_mode": 0,
+          "circuit_read_hand_contents": true
+        },
+        "direction": 8,
+        "entity_number": 145,
+        "name": "express-transport-belt",
+        "position": {
+          "x": 1331.5,
+          "y": -93.5
+        }
+      },
+      {
+        "entity_number": 146,
+        "name": "express-transport-belt",
+        "position": {
+          "x": 1333.5,
+          "y": -92.5
+        }
+      },
+      {
+        "entity_number": 147,
+        "name": "express-transport-belt",
+        "position": {
+          "x": 1332.5,
+          "y": -92.5
+        }
+      },
+      {
+        "entity_number": 148,
+        "name": "express-transport-belt",
+        "position": {
+          "x": 1333.5,
+          "y": -93.5
+        }
+      },
+      {
+        "entity_number": 149,
+        "name": "express-transport-belt",
+        "position": {
+          "x": 1332.5,
+          "y": -93.5
+        }
+      },
+      {
+        "direction": 12,
+        "entity_number": 150,
+        "name": "express-transport-belt",
+        "position": {
+          "x": 1334.5,
+          "y": -92.5
+        }
+      },
+      {
+        "control_behavior": {
+          "circuit_contents_read_mode": 0,
+          "circuit_read_hand_contents": true
+        },
+        "direction": 8,
+        "entity_number": 151,
+        "name": "express-transport-belt",
+        "position": {
+          "x": 1334.5,
+          "y": -93.5
+        }
+      },
+      {
+        "control_behavior": {
+          "circuit_contents_read_mode": 0,
+          "circuit_read_hand_contents": true
+        },
+        "entity_number": 152,
+        "name": "express-transport-belt",
+        "position": {
+          "x": 1317.5,
+          "y": -91.5
+        }
+      },
+      {
+        "entity_number": 153,
+        "name": "substation",
+        "position": {
+          "x": 1319,
+          "y": -91
+        }
+      },
+      {
+        "control_behavior": {
+          "circuit_contents_read_mode": 0,
+          "circuit_read_hand_contents": true
+        },
+        "entity_number": 154,
+        "name": "express-transport-belt",
+        "position": {
+          "x": 1320.5,
+          "y": -91.5
+        }
+      },
+      {
+        "control_behavior": {
+          "circuit_contents_read_mode": 0,
+          "circuit_read_hand_contents": true
+        },
+        "entity_number": 155,
+        "name": "express-transport-belt",
+        "position": {
+          "x": 1331.5,
+          "y": -91.5
+        }
+      },
+      {
+        "entity_number": 156,
+        "name": "substation",
+        "position": {
+          "x": 1333,
+          "y": -91
+        }
+      },
+      {
+        "control_behavior": {
+          "circuit_contents_read_mode": 0,
+          "circuit_read_hand_contents": true
+        },
+        "entity_number": 157,
+        "name": "express-transport-belt",
+        "position": {
+          "x": 1334.5,
+          "y": -91.5
+        }
+      },
+      {
+        "entity_number": 158,
+        "infinity_settings": {
+          "filters": [
+            {
+              "count": 200,
+              "index": 1,
+              "mode": "at-least",
+              "name": "logistic-science-pack"
+            }
+          ],
+          "remove_unfiltered_items": true
+        },
+        "name": "infinity-chest",
+        "position": {
+          "x": 1317.5,
+          "y": -88.5
+        }
+      },
+      {
+        "buffer_size": 10000000000,
+        "entity_number": 159,
+        "name": "electric-energy-interface",
+        "position": {
+          "x": 1319,
+          "y": -89
+        }
+      },
+      {
+        "entity_number": 160,
+        "infinity_settings": {
+          "filters": [
+            {
+              "count": 200,
+              "index": 1,
+              "mode": "at-least",
+              "name": "chemical-science-pack"
+            }
+          ],
+          "remove_unfiltered_items": true
+        },
+        "name": "infinity-chest",
+        "position": {
+          "x": 1320.5,
+          "y": -88.5
+        }
+      },
+      {
+        "entity_number": 161,
+        "name": "express-loader",
+        "position": {
+          "x": 1320.5,
+          "y": -90
+        },
+        "type": "output"
+      },
+      {
+        "entity_number": 162,
+        "infinity_settings": {
+          "filters": [
+            {
+              "count": 200,
+              "index": 1,
+              "mode": "at-least",
+              "name": "logistic-science-pack"
+            }
+          ],
+          "remove_unfiltered_items": true
+        },
+        "name": "infinity-chest",
+        "position": {
+          "x": 1331.5,
+          "y": -88.5
+        }
+      },
+      {
+        "buffer_size": 10000000000,
+        "entity_number": 163,
+        "name": "electric-energy-interface",
+        "position": {
+          "x": 1333,
+          "y": -89
+        }
+      },
+      {
+        "entity_number": 164,
+        "infinity_settings": {
+          "filters": [
+            {
+              "count": 200,
+              "index": 1,
+              "mode": "at-least",
+              "name": "chemical-science-pack"
+            }
+          ],
+          "remove_unfiltered_items": true
+        },
+        "name": "infinity-chest",
+        "position": {
+          "x": 1334.5,
+          "y": -88.5
+        }
+      },
+      {
+        "entity_number": 165,
+        "name": "express-loader",
+        "position": {
+          "x": 1334.5,
+          "y": -90
+        },
+        "type": "output"
+      },
+      {
+        "control_behavior": {
+          "arithmetic_conditions": {
+            "first_signal": {
+              "name": "signal-each",
+              "type": "virtual"
+            },
+            "operation": "+",
+            "output_signal": {
+              "name": "signal-each",
+              "type": "virtual"
+            },
+            "second_constant": 0
+          }
+        },
+        "direction": 8,
+        "entity_number": 166,
+        "name": "arithmetic-combinator",
+        "player_description": "锁存所有的M和A",
+        "position": {
+          "x": 1317.5,
+          "y": -87
+        }
+      },
+      {
+        "control_behavior": {
+          "arithmetic_conditions": {
+            "first_signal": {
+              "name": "signal-each",
+              "type": "virtual"
+            },
+            "operation": "+",
+            "output_signal": {
+              "name": "signal-each",
+              "type": "virtual"
+            },
+            "second_constant": 0
+          }
+        },
+        "direction": 8,
+        "entity_number": 167,
+        "name": "arithmetic-combinator",
+        "player_description": "锁存所有的M和A",
+        "position": {
+          "x": 1320.5,
+          "y": -87
+        }
+      },
+      {
+        "control_behavior": {
+          "arithmetic_conditions": {
+            "first_signal": {
+              "name": "signal-each",
+              "type": "virtual"
+            },
+            "operation": "+",
+            "output_signal": {
+              "name": "signal-each",
+              "type": "virtual"
+            },
+            "second_constant": 0
+          }
+        },
+        "direction": 8,
+        "entity_number": 168,
+        "name": "arithmetic-combinator",
+        "player_description": "锁存所有的M和A",
+        "position": {
+          "x": 1331.5,
+          "y": -87
+        }
+      },
+      {
+        "control_behavior": {
+          "arithmetic_conditions": {
+            "first_signal": {
+              "name": "signal-each",
+              "type": "virtual"
+            },
+            "operation": "+",
+            "output_signal": {
+              "name": "signal-each",
+              "type": "virtual"
+            },
+            "second_constant": 0
+          }
+        },
+        "direction": 8,
+        "entity_number": 169,
+        "name": "arithmetic-combinator",
+        "player_description": "锁存所有的M和A",
+        "position": {
+          "x": 1334.5,
+          "y": -87
+        }
+      }
+    ],
+    "icons": [
+      {
+        "index": 1,
+        "signal": {
+          "name": "up-arrow",
+          "type": "virtual"
+        }
+      }
+    ],
+    "version": 562954249306113,
+    "wires": [
+      [
+        111,
+        2,
+        111,
+        4
+      ],
+      [
+        111,
+        2,
+        137,
+        2
+      ],
+      [
+        117,
+        2,
+        117,
+        4
+      ],
+      [
+        117,
+        2,
+        143,
+        2
+      ],
+      [
+        119,
+        2,
+        119,
+        4
+      ],
+      [
+        119,
+        2,
+        145,
+        2
+      ],
+      [
+        125,
+        2,
+        125,
+        4
+      ],
+      [
+        125,
+        2,
+        151,
+        2
+      ],
+      [
+        152,
+        2,
+        166,
+        2
+      ],
+      [
+        153,
+        5,
+        156,
+        5
+      ],
+      [
+        154,
+        2,
+        167,
+        2
+      ],
+      [
+        155,
+        2,
+        168,
+        2
+      ],
+      [
+        157,
+        2,
+        169,
+        2
+      ],
+      [
+        166,
+        2,
+        166,
+        4
+      ],
+      [
+        167,
+        2,
+        167,
+        4
+      ],
+      [
+        168,
+        2,
+        168,
+        4
+      ],
+      [
+        169,
+        2,
+        169,
+        4
+      ]
+    ]
+  },
+  "index": 13
+}

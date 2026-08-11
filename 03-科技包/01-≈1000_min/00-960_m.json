@@ -1,0 +1,2441 @@
+{
+  "blueprint": {
+    "item": "blueprint",
+    "label": "960/m",
+    "description": "960/m",
+    "entities": [
+      {
+        "entity_number": 1,
+        "name": "turbo-transport-belt",
+        "position": {
+          "x": -100.5,
+          "y": -162.5
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 2,
+        "name": "turbo-transport-belt",
+        "position": {
+          "x": -100.5,
+          "y": -163.5
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 3,
+        "name": "inserter",
+        "position": {
+          "x": -99.5,
+          "y": -162.5
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 4,
+        "name": "turbo-underground-belt",
+        "position": {
+          "x": -99.5,
+          "y": -163.5
+        },
+        "type": "input"
+      },
+      {
+        "entity_number": 5,
+        "items": [
+          {
+            "id": {
+              "name": "productivity-module-3"
+            },
+            "items": {
+              "in_inventory": [
+                {
+                  "inventory": 4,
+                  "stack": 0
+                },
+                {
+                  "inventory": 4,
+                  "stack": 1
+                },
+                {
+                  "inventory": 4,
+                  "stack": 2
+                },
+                {
+                  "inventory": 4,
+                  "stack": 3
+                }
+              ]
+            }
+          }
+        ],
+        "name": "assembling-machine-3",
+        "position": {
+          "x": -97.5,
+          "y": -162.5
+        },
+        "recipe": "automation-science-pack",
+        "recipe_quality": "normal"
+      },
+      {
+        "direction": 4,
+        "entity_number": 6,
+        "name": "inserter",
+        "position": {
+          "x": -95.5,
+          "y": -162.5
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 7,
+        "name": "turbo-transport-belt",
+        "position": {
+          "x": -94.5,
+          "y": -162.5
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 8,
+        "name": "turbo-transport-belt",
+        "position": {
+          "x": -92.5,
+          "y": -162.5
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 9,
+        "name": "turbo-transport-belt",
+        "position": {
+          "x": -93.5,
+          "y": -162.5
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 10,
+        "name": "turbo-underground-belt",
+        "position": {
+          "x": -93.5,
+          "y": -163.5
+        },
+        "type": "output"
+      },
+      {
+        "entity_number": 11,
+        "name": "turbo-transport-belt",
+        "position": {
+          "x": -92.5,
+          "y": -163.5
+        }
+      },
+      {
+        "direction": 8,
+        "entity_number": 12,
+        "name": "turbo-transport-belt",
+        "position": {
+          "x": -90.5,
+          "y": -162.5
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 13,
+        "name": "turbo-transport-belt",
+        "position": {
+          "x": -91.5,
+          "y": -162.5
+        }
+      },
+      {
+        "direction": 12,
+        "entity_number": 14,
+        "name": "turbo-underground-belt",
+        "position": {
+          "x": -91.5,
+          "y": -163.5
+        },
+        "type": "output"
+      },
+      {
+        "direction": 12,
+        "entity_number": 15,
+        "name": "inserter",
+        "position": {
+          "x": -89.5,
+          "y": -162.5
+        }
+      },
+      {
+        "entity_number": 16,
+        "items": [
+          {
+            "id": {
+              "name": "productivity-module-3"
+            },
+            "items": {
+              "in_inventory": [
+                {
+                  "inventory": 4,
+                  "stack": 0
+                },
+                {
+                  "inventory": 4,
+                  "stack": 1
+                },
+                {
+                  "inventory": 4,
+                  "stack": 2
+                },
+                {
+                  "inventory": 4,
+                  "stack": 3
+                }
+              ]
+            }
+          }
+        ],
+        "name": "assembling-machine-3",
+        "position": {
+          "x": -87.5,
+          "y": -162.5
+        },
+        "recipe": "automation-science-pack",
+        "recipe_quality": "normal"
+      },
+      {
+        "direction": 12,
+        "entity_number": 17,
+        "name": "inserter",
+        "position": {
+          "x": -85.5,
+          "y": -162.5
+        }
+      },
+      {
+        "entity_number": 18,
+        "name": "turbo-transport-belt",
+        "position": {
+          "x": -84.5,
+          "y": -162.5
+        }
+      },
+      {
+        "direction": 12,
+        "entity_number": 19,
+        "name": "turbo-transport-belt",
+        "position": {
+          "x": -84.5,
+          "y": -163.5
+        }
+      },
+      {
+        "direction": 12,
+        "entity_number": 20,
+        "name": "turbo-underground-belt",
+        "position": {
+          "x": -85.5,
+          "y": -163.5
+        },
+        "type": "input"
+      },
+      {
+        "entity_number": 21,
+        "name": "turbo-transport-belt",
+        "position": {
+          "x": -100.5,
+          "y": -160.5
+        }
+      },
+      {
+        "entity_number": 22,
+        "name": "turbo-transport-belt",
+        "position": {
+          "x": -100.5,
+          "y": -161.5
+        }
+      },
+      {
+        "entity_number": 23,
+        "name": "medium-electric-pole",
+        "position": {
+          "x": -99.5,
+          "y": -161.5
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 24,
+        "name": "turbo-underground-belt",
+        "position": {
+          "x": -99.5,
+          "y": -160.5
+        },
+        "type": "input"
+      },
+      {
+        "entity_number": 25,
+        "name": "turbo-transport-belt",
+        "position": {
+          "x": -94.5,
+          "y": -160.5
+        }
+      },
+      {
+        "entity_number": 26,
+        "name": "medium-electric-pole",
+        "position": {
+          "x": -95.5,
+          "y": -161.5
+        }
+      },
+      {
+        "entity_number": 27,
+        "name": "turbo-transport-belt",
+        "position": {
+          "x": -94.5,
+          "y": -161.5
+        }
+      },
+      {
+        "entity_number": 28,
+        "items": [
+          {
+            "id": {
+              "name": "speed-module-3"
+            },
+            "items": {
+              "in_inventory": [
+                {
+                  "inventory": 1,
+                  "stack": 0
+                },
+                {
+                  "inventory": 1,
+                  "stack": 1
+                }
+              ]
+            }
+          }
+        ],
+        "name": "beacon",
+        "position": {
+          "x": -92.5,
+          "y": -160.5
+        }
+      },
+      {
+        "direction": 8,
+        "entity_number": 29,
+        "name": "turbo-transport-belt",
+        "position": {
+          "x": -90.5,
+          "y": -160.5
+        }
+      },
+      {
+        "direction": 8,
+        "entity_number": 30,
+        "name": "turbo-transport-belt",
+        "position": {
+          "x": -90.5,
+          "y": -161.5
+        }
+      },
+      {
+        "entity_number": 31,
+        "name": "medium-electric-pole",
+        "position": {
+          "x": -89.5,
+          "y": -161.5
+        }
+      },
+      {
+        "entity_number": 32,
+        "name": "turbo-transport-belt",
+        "position": {
+          "x": -84.5,
+          "y": -160.5
+        }
+      },
+      {
+        "entity_number": 33,
+        "name": "medium-electric-pole",
+        "position": {
+          "x": -85.5,
+          "y": -161.5
+        }
+      },
+      {
+        "entity_number": 34,
+        "name": "turbo-transport-belt",
+        "position": {
+          "x": -84.5,
+          "y": -161.5
+        }
+      },
+      {
+        "direction": 12,
+        "entity_number": 35,
+        "name": "turbo-underground-belt",
+        "position": {
+          "x": -85.5,
+          "y": -160.5
+        },
+        "type": "input"
+      },
+      {
+        "entity_number": 36,
+        "name": "turbo-transport-belt",
+        "position": {
+          "x": -100.5,
+          "y": -158.5
+        }
+      },
+      {
+        "entity_number": 37,
+        "name": "turbo-transport-belt",
+        "position": {
+          "x": -100.5,
+          "y": -159.5
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 38,
+        "name": "inserter",
+        "position": {
+          "x": -99.5,
+          "y": -159.5
+        }
+      },
+      {
+        "entity_number": 39,
+        "items": [
+          {
+            "id": {
+              "name": "productivity-module-3"
+            },
+            "items": {
+              "in_inventory": [
+                {
+                  "inventory": 4,
+                  "stack": 0
+                },
+                {
+                  "inventory": 4,
+                  "stack": 1
+                },
+                {
+                  "inventory": 4,
+                  "stack": 2
+                },
+                {
+                  "inventory": 4,
+                  "stack": 3
+                }
+              ]
+            }
+          }
+        ],
+        "name": "assembling-machine-3",
+        "position": {
+          "x": -97.5,
+          "y": -159.5
+        },
+        "recipe": "automation-science-pack",
+        "recipe_quality": "normal"
+      },
+      {
+        "entity_number": 40,
+        "name": "turbo-transport-belt",
+        "position": {
+          "x": -94.5,
+          "y": -159.5
+        }
+      },
+      {
+        "entity_number": 41,
+        "name": "turbo-transport-belt",
+        "position": {
+          "x": -94.5,
+          "y": -158.5
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 42,
+        "name": "inserter",
+        "position": {
+          "x": -95.5,
+          "y": -159.5
+        }
+      },
+      {
+        "direction": 8,
+        "entity_number": 43,
+        "name": "turbo-transport-belt",
+        "position": {
+          "x": -90.5,
+          "y": -158.5
+        }
+      },
+      {
+        "direction": 8,
+        "entity_number": 44,
+        "name": "turbo-transport-belt",
+        "position": {
+          "x": -90.5,
+          "y": -159.5
+        }
+      },
+      {
+        "direction": 12,
+        "entity_number": 45,
+        "name": "inserter",
+        "position": {
+          "x": -89.5,
+          "y": -159.5
+        }
+      },
+      {
+        "entity_number": 46,
+        "items": [
+          {
+            "id": {
+              "name": "productivity-module-3"
+            },
+            "items": {
+              "in_inventory": [
+                {
+                  "inventory": 4,
+                  "stack": 0
+                },
+                {
+                  "inventory": 4,
+                  "stack": 1
+                },
+                {
+                  "inventory": 4,
+                  "stack": 2
+                },
+                {
+                  "inventory": 4,
+                  "stack": 3
+                }
+              ]
+            }
+          }
+        ],
+        "name": "assembling-machine-3",
+        "position": {
+          "x": -87.5,
+          "y": -159.5
+        },
+        "recipe": "automation-science-pack",
+        "recipe_quality": "normal"
+      },
+      {
+        "entity_number": 47,
+        "name": "turbo-transport-belt",
+        "position": {
+          "x": -84.5,
+          "y": -159.5
+        }
+      },
+      {
+        "direction": 12,
+        "entity_number": 48,
+        "name": "inserter",
+        "position": {
+          "x": -85.5,
+          "y": -159.5
+        }
+      },
+      {
+        "entity_number": 49,
+        "name": "turbo-transport-belt",
+        "position": {
+          "x": -84.5,
+          "y": -158.5
+        }
+      },
+      {
+        "entity_number": 50,
+        "name": "turbo-transport-belt",
+        "position": {
+          "x": -100.5,
+          "y": -156.5
+        }
+      },
+      {
+        "entity_number": 51,
+        "name": "turbo-transport-belt",
+        "position": {
+          "x": -100.5,
+          "y": -157.5
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 52,
+        "name": "inserter",
+        "position": {
+          "x": -99.5,
+          "y": -156.5
+        }
+      },
+      {
+        "entity_number": 53,
+        "items": [
+          {
+            "id": {
+              "name": "productivity-module-3"
+            },
+            "items": {
+              "in_inventory": [
+                {
+                  "inventory": 4,
+                  "stack": 0
+                },
+                {
+                  "inventory": 4,
+                  "stack": 1
+                },
+                {
+                  "inventory": 4,
+                  "stack": 2
+                },
+                {
+                  "inventory": 4,
+                  "stack": 3
+                }
+              ]
+            }
+          }
+        ],
+        "name": "assembling-machine-3",
+        "position": {
+          "x": -97.5,
+          "y": -156.5
+        },
+        "recipe": "automation-science-pack",
+        "recipe_quality": "normal"
+      },
+      {
+        "entity_number": 54,
+        "name": "turbo-transport-belt",
+        "position": {
+          "x": -94.5,
+          "y": -156.5
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 55,
+        "name": "inserter",
+        "position": {
+          "x": -95.5,
+          "y": -156.5
+        }
+      },
+      {
+        "entity_number": 56,
+        "name": "turbo-transport-belt",
+        "position": {
+          "x": -94.5,
+          "y": -157.5
+        }
+      },
+      {
+        "entity_number": 57,
+        "items": [
+          {
+            "id": {
+              "name": "speed-module-3"
+            },
+            "items": {
+              "in_inventory": [
+                {
+                  "inventory": 1,
+                  "stack": 0
+                },
+                {
+                  "inventory": 1,
+                  "stack": 1
+                }
+              ]
+            }
+          }
+        ],
+        "name": "beacon",
+        "position": {
+          "x": -92.5,
+          "y": -157.5
+        }
+      },
+      {
+        "direction": 8,
+        "entity_number": 58,
+        "name": "turbo-transport-belt",
+        "position": {
+          "x": -90.5,
+          "y": -156.5
+        }
+      },
+      {
+        "direction": 8,
+        "entity_number": 59,
+        "name": "turbo-transport-belt",
+        "position": {
+          "x": -90.5,
+          "y": -157.5
+        }
+      },
+      {
+        "direction": 12,
+        "entity_number": 60,
+        "name": "inserter",
+        "position": {
+          "x": -89.5,
+          "y": -156.5
+        }
+      },
+      {
+        "entity_number": 61,
+        "items": [
+          {
+            "id": {
+              "name": "productivity-module-3"
+            },
+            "items": {
+              "in_inventory": [
+                {
+                  "inventory": 4,
+                  "stack": 0
+                },
+                {
+                  "inventory": 4,
+                  "stack": 1
+                },
+                {
+                  "inventory": 4,
+                  "stack": 2
+                },
+                {
+                  "inventory": 4,
+                  "stack": 3
+                }
+              ]
+            }
+          }
+        ],
+        "name": "assembling-machine-3",
+        "position": {
+          "x": -87.5,
+          "y": -156.5
+        },
+        "recipe": "automation-science-pack",
+        "recipe_quality": "normal"
+      },
+      {
+        "entity_number": 62,
+        "name": "turbo-transport-belt",
+        "position": {
+          "x": -84.5,
+          "y": -156.5
+        }
+      },
+      {
+        "entity_number": 63,
+        "name": "turbo-transport-belt",
+        "position": {
+          "x": -84.5,
+          "y": -157.5
+        }
+      },
+      {
+        "direction": 12,
+        "entity_number": 64,
+        "name": "inserter",
+        "position": {
+          "x": -85.5,
+          "y": -156.5
+        }
+      },
+      {
+        "entity_number": 65,
+        "name": "turbo-transport-belt",
+        "position": {
+          "x": -100.5,
+          "y": -154.5
+        }
+      },
+      {
+        "entity_number": 66,
+        "name": "turbo-transport-belt",
+        "position": {
+          "x": -100.5,
+          "y": -155.5
+        }
+      },
+      {
+        "entity_number": 67,
+        "name": "medium-electric-pole",
+        "position": {
+          "x": -99.5,
+          "y": -155.5
+        }
+      },
+      {
+        "entity_number": 68,
+        "name": "medium-electric-pole",
+        "position": {
+          "x": -95.5,
+          "y": -155.5
+        }
+      },
+      {
+        "entity_number": 69,
+        "name": "turbo-transport-belt",
+        "position": {
+          "x": -94.5,
+          "y": -154.5
+        }
+      },
+      {
+        "entity_number": 70,
+        "name": "turbo-transport-belt",
+        "position": {
+          "x": -94.5,
+          "y": -155.5
+        }
+      },
+      {
+        "entity_number": 71,
+        "items": [
+          {
+            "id": {
+              "name": "speed-module-3"
+            },
+            "items": {
+              "in_inventory": [
+                {
+                  "inventory": 1,
+                  "stack": 0
+                },
+                {
+                  "inventory": 1,
+                  "stack": 1
+                }
+              ]
+            }
+          }
+        ],
+        "name": "beacon",
+        "position": {
+          "x": -92.5,
+          "y": -154.5
+        }
+      },
+      {
+        "direction": 8,
+        "entity_number": 72,
+        "name": "turbo-transport-belt",
+        "position": {
+          "x": -90.5,
+          "y": -154.5
+        }
+      },
+      {
+        "direction": 8,
+        "entity_number": 73,
+        "name": "turbo-transport-belt",
+        "position": {
+          "x": -90.5,
+          "y": -155.5
+        }
+      },
+      {
+        "entity_number": 74,
+        "name": "medium-electric-pole",
+        "position": {
+          "x": -89.5,
+          "y": -155.5
+        }
+      },
+      {
+        "entity_number": 75,
+        "name": "medium-electric-pole",
+        "position": {
+          "x": -85.5,
+          "y": -155.5
+        }
+      },
+      {
+        "entity_number": 76,
+        "name": "turbo-transport-belt",
+        "position": {
+          "x": -84.5,
+          "y": -154.5
+        }
+      },
+      {
+        "entity_number": 77,
+        "name": "turbo-transport-belt",
+        "position": {
+          "x": -84.5,
+          "y": -155.5
+        }
+      },
+      {
+        "entity_number": 78,
+        "name": "turbo-transport-belt",
+        "position": {
+          "x": -100.5,
+          "y": -152.5
+        }
+      },
+      {
+        "entity_number": 79,
+        "name": "turbo-transport-belt",
+        "position": {
+          "x": -100.5,
+          "y": -153.5
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 80,
+        "name": "inserter",
+        "position": {
+          "x": -99.5,
+          "y": -153.5
+        }
+      },
+      {
+        "entity_number": 81,
+        "items": [
+          {
+            "id": {
+              "name": "productivity-module-3"
+            },
+            "items": {
+              "in_inventory": [
+                {
+                  "inventory": 4,
+                  "stack": 0
+                },
+                {
+                  "inventory": 4,
+                  "stack": 1
+                },
+                {
+                  "inventory": 4,
+                  "stack": 2
+                },
+                {
+                  "inventory": 4,
+                  "stack": 3
+                }
+              ]
+            }
+          }
+        ],
+        "name": "assembling-machine-3",
+        "position": {
+          "x": -97.5,
+          "y": -153.5
+        },
+        "recipe": "automation-science-pack",
+        "recipe_quality": "normal"
+      },
+      {
+        "entity_number": 82,
+        "name": "turbo-transport-belt",
+        "position": {
+          "x": -94.5,
+          "y": -152.5
+        }
+      },
+      {
+        "entity_number": 83,
+        "name": "turbo-transport-belt",
+        "position": {
+          "x": -94.5,
+          "y": -153.5
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 84,
+        "name": "inserter",
+        "position": {
+          "x": -95.5,
+          "y": -153.5
+        }
+      },
+      {
+        "direction": 8,
+        "entity_number": 85,
+        "name": "turbo-transport-belt",
+        "position": {
+          "x": -90.5,
+          "y": -152.5
+        }
+      },
+      {
+        "direction": 8,
+        "entity_number": 86,
+        "name": "turbo-transport-belt",
+        "position": {
+          "x": -90.5,
+          "y": -153.5
+        }
+      },
+      {
+        "direction": 12,
+        "entity_number": 87,
+        "name": "inserter",
+        "position": {
+          "x": -89.5,
+          "y": -153.5
+        }
+      },
+      {
+        "entity_number": 88,
+        "items": [
+          {
+            "id": {
+              "name": "productivity-module-3"
+            },
+            "items": {
+              "in_inventory": [
+                {
+                  "inventory": 4,
+                  "stack": 0
+                },
+                {
+                  "inventory": 4,
+                  "stack": 1
+                },
+                {
+                  "inventory": 4,
+                  "stack": 2
+                },
+                {
+                  "inventory": 4,
+                  "stack": 3
+                }
+              ]
+            }
+          }
+        ],
+        "name": "assembling-machine-3",
+        "position": {
+          "x": -87.5,
+          "y": -153.5
+        },
+        "recipe": "automation-science-pack",
+        "recipe_quality": "normal"
+      },
+      {
+        "entity_number": 89,
+        "name": "turbo-transport-belt",
+        "position": {
+          "x": -84.5,
+          "y": -153.5
+        }
+      },
+      {
+        "entity_number": 90,
+        "name": "turbo-transport-belt",
+        "position": {
+          "x": -84.5,
+          "y": -152.5
+        }
+      },
+      {
+        "direction": 12,
+        "entity_number": 91,
+        "name": "inserter",
+        "position": {
+          "x": -85.5,
+          "y": -153.5
+        }
+      },
+      {
+        "entity_number": 92,
+        "name": "turbo-transport-belt",
+        "position": {
+          "x": -100.5,
+          "y": -150.5
+        }
+      },
+      {
+        "entity_number": 93,
+        "name": "turbo-transport-belt",
+        "position": {
+          "x": -100.5,
+          "y": -151.5
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 94,
+        "name": "inserter",
+        "position": {
+          "x": -99.5,
+          "y": -150.5
+        }
+      },
+      {
+        "entity_number": 95,
+        "items": [
+          {
+            "id": {
+              "name": "productivity-module-3"
+            },
+            "items": {
+              "in_inventory": [
+                {
+                  "inventory": 4,
+                  "stack": 0
+                },
+                {
+                  "inventory": 4,
+                  "stack": 1
+                },
+                {
+                  "inventory": 4,
+                  "stack": 2
+                },
+                {
+                  "inventory": 4,
+                  "stack": 3
+                }
+              ]
+            }
+          }
+        ],
+        "name": "assembling-machine-3",
+        "position": {
+          "x": -97.5,
+          "y": -150.5
+        },
+        "recipe": "automation-science-pack",
+        "recipe_quality": "normal"
+      },
+      {
+        "entity_number": 96,
+        "name": "turbo-transport-belt",
+        "position": {
+          "x": -94.5,
+          "y": -150.5
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 97,
+        "name": "inserter",
+        "position": {
+          "x": -95.5,
+          "y": -150.5
+        }
+      },
+      {
+        "entity_number": 98,
+        "name": "turbo-transport-belt",
+        "position": {
+          "x": -94.5,
+          "y": -151.5
+        }
+      },
+      {
+        "entity_number": 99,
+        "items": [
+          {
+            "id": {
+              "name": "speed-module-3"
+            },
+            "items": {
+              "in_inventory": [
+                {
+                  "inventory": 1,
+                  "stack": 0
+                },
+                {
+                  "inventory": 1,
+                  "stack": 1
+                }
+              ]
+            }
+          }
+        ],
+        "name": "beacon",
+        "position": {
+          "x": -92.5,
+          "y": -151.5
+        }
+      },
+      {
+        "direction": 8,
+        "entity_number": 100,
+        "name": "turbo-transport-belt",
+        "position": {
+          "x": -90.5,
+          "y": -150.5
+        }
+      },
+      {
+        "direction": 8,
+        "entity_number": 101,
+        "name": "turbo-transport-belt",
+        "position": {
+          "x": -90.5,
+          "y": -151.5
+        }
+      },
+      {
+        "direction": 12,
+        "entity_number": 102,
+        "name": "inserter",
+        "position": {
+          "x": -89.5,
+          "y": -150.5
+        }
+      },
+      {
+        "entity_number": 103,
+        "items": [
+          {
+            "id": {
+              "name": "productivity-module-3"
+            },
+            "items": {
+              "in_inventory": [
+                {
+                  "inventory": 4,
+                  "stack": 0
+                },
+                {
+                  "inventory": 4,
+                  "stack": 1
+                },
+                {
+                  "inventory": 4,
+                  "stack": 2
+                },
+                {
+                  "inventory": 4,
+                  "stack": 3
+                }
+              ]
+            }
+          }
+        ],
+        "name": "assembling-machine-3",
+        "position": {
+          "x": -87.5,
+          "y": -150.5
+        },
+        "recipe": "automation-science-pack",
+        "recipe_quality": "normal"
+      },
+      {
+        "entity_number": 104,
+        "name": "turbo-transport-belt",
+        "position": {
+          "x": -84.5,
+          "y": -150.5
+        }
+      },
+      {
+        "direction": 12,
+        "entity_number": 105,
+        "name": "inserter",
+        "position": {
+          "x": -85.5,
+          "y": -150.5
+        }
+      },
+      {
+        "entity_number": 106,
+        "name": "turbo-transport-belt",
+        "position": {
+          "x": -84.5,
+          "y": -151.5
+        }
+      },
+      {
+        "entity_number": 107,
+        "name": "turbo-transport-belt",
+        "position": {
+          "x": -100.5,
+          "y": -148.5
+        }
+      },
+      {
+        "entity_number": 108,
+        "name": "turbo-transport-belt",
+        "position": {
+          "x": -100.5,
+          "y": -149.5
+        }
+      },
+      {
+        "entity_number": 109,
+        "name": "medium-electric-pole",
+        "position": {
+          "x": -99.5,
+          "y": -149.5
+        }
+      },
+      {
+        "entity_number": 110,
+        "name": "medium-electric-pole",
+        "position": {
+          "x": -95.5,
+          "y": -149.5
+        }
+      },
+      {
+        "entity_number": 111,
+        "name": "turbo-transport-belt",
+        "position": {
+          "x": -94.5,
+          "y": -148.5
+        }
+      },
+      {
+        "entity_number": 112,
+        "name": "turbo-transport-belt",
+        "position": {
+          "x": -94.5,
+          "y": -149.5
+        }
+      },
+      {
+        "entity_number": 113,
+        "items": [
+          {
+            "id": {
+              "name": "speed-module-3"
+            },
+            "items": {
+              "in_inventory": [
+                {
+                  "inventory": 1,
+                  "stack": 0
+                },
+                {
+                  "inventory": 1,
+                  "stack": 1
+                }
+              ]
+            }
+          }
+        ],
+        "name": "beacon",
+        "position": {
+          "x": -92.5,
+          "y": -148.5
+        }
+      },
+      {
+        "direction": 8,
+        "entity_number": 114,
+        "name": "turbo-transport-belt",
+        "position": {
+          "x": -90.5,
+          "y": -148.5
+        }
+      },
+      {
+        "direction": 8,
+        "entity_number": 115,
+        "name": "turbo-transport-belt",
+        "position": {
+          "x": -90.5,
+          "y": -149.5
+        }
+      },
+      {
+        "entity_number": 116,
+        "name": "medium-electric-pole",
+        "position": {
+          "x": -89.5,
+          "y": -149.5
+        }
+      },
+      {
+        "entity_number": 117,
+        "name": "medium-electric-pole",
+        "position": {
+          "x": -85.5,
+          "y": -149.5
+        }
+      },
+      {
+        "entity_number": 118,
+        "name": "turbo-transport-belt",
+        "position": {
+          "x": -84.5,
+          "y": -148.5
+        }
+      },
+      {
+        "entity_number": 119,
+        "name": "turbo-transport-belt",
+        "position": {
+          "x": -84.5,
+          "y": -149.5
+        }
+      },
+      {
+        "entity_number": 120,
+        "name": "turbo-transport-belt",
+        "position": {
+          "x": -100.5,
+          "y": -146.5
+        }
+      },
+      {
+        "entity_number": 121,
+        "name": "turbo-transport-belt",
+        "position": {
+          "x": -100.5,
+          "y": -147.5
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 122,
+        "name": "inserter",
+        "position": {
+          "x": -99.5,
+          "y": -147.5
+        }
+      },
+      {
+        "entity_number": 123,
+        "items": [
+          {
+            "id": {
+              "name": "productivity-module-3"
+            },
+            "items": {
+              "in_inventory": [
+                {
+                  "inventory": 4,
+                  "stack": 0
+                },
+                {
+                  "inventory": 4,
+                  "stack": 1
+                },
+                {
+                  "inventory": 4,
+                  "stack": 2
+                },
+                {
+                  "inventory": 4,
+                  "stack": 3
+                }
+              ]
+            }
+          }
+        ],
+        "name": "assembling-machine-3",
+        "position": {
+          "x": -97.5,
+          "y": -147.5
+        },
+        "recipe": "automation-science-pack",
+        "recipe_quality": "normal"
+      },
+      {
+        "entity_number": 124,
+        "name": "turbo-transport-belt",
+        "position": {
+          "x": -94.5,
+          "y": -146.5
+        }
+      },
+      {
+        "entity_number": 125,
+        "name": "turbo-transport-belt",
+        "position": {
+          "x": -94.5,
+          "y": -147.5
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 126,
+        "name": "inserter",
+        "position": {
+          "x": -95.5,
+          "y": -147.5
+        }
+      },
+      {
+        "direction": 8,
+        "entity_number": 127,
+        "name": "turbo-transport-belt",
+        "position": {
+          "x": -90.5,
+          "y": -146.5
+        }
+      },
+      {
+        "direction": 8,
+        "entity_number": 128,
+        "name": "turbo-transport-belt",
+        "position": {
+          "x": -90.5,
+          "y": -147.5
+        }
+      },
+      {
+        "direction": 12,
+        "entity_number": 129,
+        "name": "inserter",
+        "position": {
+          "x": -89.5,
+          "y": -147.5
+        }
+      },
+      {
+        "entity_number": 130,
+        "items": [
+          {
+            "id": {
+              "name": "productivity-module-3"
+            },
+            "items": {
+              "in_inventory": [
+                {
+                  "inventory": 4,
+                  "stack": 0
+                },
+                {
+                  "inventory": 4,
+                  "stack": 1
+                },
+                {
+                  "inventory": 4,
+                  "stack": 2
+                },
+                {
+                  "inventory": 4,
+                  "stack": 3
+                }
+              ]
+            }
+          }
+        ],
+        "name": "assembling-machine-3",
+        "position": {
+          "x": -87.5,
+          "y": -147.5
+        },
+        "recipe": "automation-science-pack",
+        "recipe_quality": "normal"
+      },
+      {
+        "entity_number": 131,
+        "name": "turbo-transport-belt",
+        "position": {
+          "x": -84.5,
+          "y": -146.5
+        }
+      },
+      {
+        "entity_number": 132,
+        "name": "turbo-transport-belt",
+        "position": {
+          "x": -84.5,
+          "y": -147.5
+        }
+      },
+      {
+        "direction": 12,
+        "entity_number": 133,
+        "name": "inserter",
+        "position": {
+          "x": -85.5,
+          "y": -147.5
+        }
+      },
+      {
+        "entity_number": 134,
+        "name": "turbo-transport-belt",
+        "position": {
+          "x": -100.5,
+          "y": -144.5
+        }
+      },
+      {
+        "entity_number": 135,
+        "name": "turbo-transport-belt",
+        "position": {
+          "x": -100.5,
+          "y": -145.5
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 136,
+        "name": "inserter",
+        "position": {
+          "x": -99.5,
+          "y": -144.5
+        }
+      },
+      {
+        "entity_number": 137,
+        "items": [
+          {
+            "id": {
+              "name": "productivity-module-3"
+            },
+            "items": {
+              "in_inventory": [
+                {
+                  "inventory": 4,
+                  "stack": 0
+                },
+                {
+                  "inventory": 4,
+                  "stack": 1
+                },
+                {
+                  "inventory": 4,
+                  "stack": 2
+                },
+                {
+                  "inventory": 4,
+                  "stack": 3
+                }
+              ]
+            }
+          }
+        ],
+        "name": "assembling-machine-3",
+        "position": {
+          "x": -97.5,
+          "y": -144.5
+        },
+        "recipe": "automation-science-pack",
+        "recipe_quality": "normal"
+      },
+      {
+        "entity_number": 138,
+        "name": "turbo-transport-belt",
+        "position": {
+          "x": -94.5,
+          "y": -144.5
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 139,
+        "name": "inserter",
+        "position": {
+          "x": -95.5,
+          "y": -144.5
+        }
+      },
+      {
+        "entity_number": 140,
+        "name": "turbo-transport-belt",
+        "position": {
+          "x": -94.5,
+          "y": -145.5
+        }
+      },
+      {
+        "entity_number": 141,
+        "items": [
+          {
+            "id": {
+              "name": "speed-module-3"
+            },
+            "items": {
+              "in_inventory": [
+                {
+                  "inventory": 1,
+                  "stack": 0
+                },
+                {
+                  "inventory": 1,
+                  "stack": 1
+                }
+              ]
+            }
+          }
+        ],
+        "name": "beacon",
+        "position": {
+          "x": -92.5,
+          "y": -145.5
+        }
+      },
+      {
+        "direction": 8,
+        "entity_number": 142,
+        "name": "turbo-transport-belt",
+        "position": {
+          "x": -90.5,
+          "y": -144.5
+        }
+      },
+      {
+        "direction": 8,
+        "entity_number": 143,
+        "name": "turbo-transport-belt",
+        "position": {
+          "x": -90.5,
+          "y": -145.5
+        }
+      },
+      {
+        "direction": 12,
+        "entity_number": 144,
+        "name": "inserter",
+        "position": {
+          "x": -89.5,
+          "y": -144.5
+        }
+      },
+      {
+        "entity_number": 145,
+        "items": [
+          {
+            "id": {
+              "name": "productivity-module-3"
+            },
+            "items": {
+              "in_inventory": [
+                {
+                  "inventory": 4,
+                  "stack": 0
+                },
+                {
+                  "inventory": 4,
+                  "stack": 1
+                },
+                {
+                  "inventory": 4,
+                  "stack": 2
+                },
+                {
+                  "inventory": 4,
+                  "stack": 3
+                }
+              ]
+            }
+          }
+        ],
+        "name": "assembling-machine-3",
+        "position": {
+          "x": -87.5,
+          "y": -144.5
+        },
+        "recipe": "automation-science-pack",
+        "recipe_quality": "normal"
+      },
+      {
+        "entity_number": 146,
+        "name": "turbo-transport-belt",
+        "position": {
+          "x": -84.5,
+          "y": -144.5
+        }
+      },
+      {
+        "direction": 12,
+        "entity_number": 147,
+        "name": "inserter",
+        "position": {
+          "x": -85.5,
+          "y": -144.5
+        }
+      },
+      {
+        "entity_number": 148,
+        "name": "turbo-transport-belt",
+        "position": {
+          "x": -84.5,
+          "y": -145.5
+        }
+      },
+      {
+        "entity_number": 149,
+        "name": "turbo-transport-belt",
+        "position": {
+          "x": -100.5,
+          "y": -142.5
+        }
+      },
+      {
+        "entity_number": 150,
+        "name": "turbo-transport-belt",
+        "position": {
+          "x": -100.5,
+          "y": -143.5
+        }
+      },
+      {
+        "entity_number": 151,
+        "name": "medium-electric-pole",
+        "position": {
+          "x": -99.5,
+          "y": -143.5
+        }
+      },
+      {
+        "entity_number": 152,
+        "name": "medium-electric-pole",
+        "position": {
+          "x": -95.5,
+          "y": -143.5
+        }
+      },
+      {
+        "entity_number": 153,
+        "name": "turbo-transport-belt",
+        "position": {
+          "x": -94.5,
+          "y": -142.5
+        }
+      },
+      {
+        "entity_number": 154,
+        "name": "turbo-transport-belt",
+        "position": {
+          "x": -94.5,
+          "y": -143.5
+        }
+      },
+      {
+        "entity_number": 155,
+        "items": [
+          {
+            "id": {
+              "name": "speed-module-3"
+            },
+            "items": {
+              "in_inventory": [
+                {
+                  "inventory": 1,
+                  "stack": 0
+                },
+                {
+                  "inventory": 1,
+                  "stack": 1
+                }
+              ]
+            }
+          }
+        ],
+        "name": "beacon",
+        "position": {
+          "x": -92.5,
+          "y": -142.5
+        }
+      },
+      {
+        "direction": 8,
+        "entity_number": 156,
+        "name": "turbo-transport-belt",
+        "position": {
+          "x": -90.5,
+          "y": -142.5
+        }
+      },
+      {
+        "direction": 8,
+        "entity_number": 157,
+        "name": "turbo-transport-belt",
+        "position": {
+          "x": -90.5,
+          "y": -143.5
+        }
+      },
+      {
+        "entity_number": 158,
+        "name": "medium-electric-pole",
+        "position": {
+          "x": -89.5,
+          "y": -143.5
+        }
+      },
+      {
+        "entity_number": 159,
+        "name": "medium-electric-pole",
+        "position": {
+          "x": -85.5,
+          "y": -143.5
+        }
+      },
+      {
+        "entity_number": 160,
+        "name": "turbo-transport-belt",
+        "position": {
+          "x": -84.5,
+          "y": -142.5
+        }
+      },
+      {
+        "entity_number": 161,
+        "name": "turbo-transport-belt",
+        "position": {
+          "x": -84.5,
+          "y": -143.5
+        }
+      },
+      {
+        "entity_number": 162,
+        "name": "turbo-transport-belt",
+        "position": {
+          "x": -100.5,
+          "y": -141.5
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 163,
+        "name": "inserter",
+        "position": {
+          "x": -99.5,
+          "y": -141.5
+        }
+      },
+      {
+        "entity_number": 164,
+        "items": [
+          {
+            "id": {
+              "name": "productivity-module-3"
+            },
+            "items": {
+              "in_inventory": [
+                {
+                  "inventory": 4,
+                  "stack": 0
+                },
+                {
+                  "inventory": 4,
+                  "stack": 1
+                },
+                {
+                  "inventory": 4,
+                  "stack": 2
+                },
+                {
+                  "inventory": 4,
+                  "stack": 3
+                }
+              ]
+            }
+          }
+        ],
+        "name": "assembling-machine-3",
+        "position": {
+          "x": -97.5,
+          "y": -141.5
+        },
+        "recipe": "automation-science-pack",
+        "recipe_quality": "normal"
+      },
+      {
+        "entity_number": 165,
+        "name": "turbo-transport-belt",
+        "position": {
+          "x": -94.5,
+          "y": -140.5
+        }
+      },
+      {
+        "entity_number": 166,
+        "name": "turbo-transport-belt",
+        "position": {
+          "x": -94.5,
+          "y": -141.5
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 167,
+        "name": "inserter",
+        "position": {
+          "x": -95.5,
+          "y": -141.5
+        }
+      },
+      {
+        "direction": 12,
+        "entity_number": 168,
+        "name": "turbo-transport-belt",
+        "position": {
+          "x": -93.5,
+          "y": -140.5
+        }
+      },
+      {
+        "direction": 12,
+        "entity_number": 169,
+        "name": "turbo-transport-belt",
+        "position": {
+          "x": -92.5,
+          "y": -140.5
+        }
+      },
+      {
+        "direction": 8,
+        "entity_number": 170,
+        "name": "turbo-transport-belt",
+        "position": {
+          "x": -90.5,
+          "y": -141.5
+        }
+      },
+      {
+        "direction": 12,
+        "entity_number": 171,
+        "name": "inserter",
+        "position": {
+          "x": -89.5,
+          "y": -141.5
+        }
+      },
+      {
+        "entity_number": 172,
+        "items": [
+          {
+            "id": {
+              "name": "productivity-module-3"
+            },
+            "items": {
+              "in_inventory": [
+                {
+                  "inventory": 4,
+                  "stack": 0
+                },
+                {
+                  "inventory": 4,
+                  "stack": 1
+                },
+                {
+                  "inventory": 4,
+                  "stack": 2
+                },
+                {
+                  "inventory": 4,
+                  "stack": 3
+                }
+              ]
+            }
+          }
+        ],
+        "name": "assembling-machine-3",
+        "position": {
+          "x": -87.5,
+          "y": -141.5
+        },
+        "recipe": "automation-science-pack",
+        "recipe_quality": "normal"
+      },
+      {
+        "entity_number": 173,
+        "name": "turbo-transport-belt",
+        "position": {
+          "x": -84.5,
+          "y": -141.5
+        }
+      },
+      {
+        "direction": 12,
+        "entity_number": 174,
+        "name": "inserter",
+        "position": {
+          "x": -85.5,
+          "y": -141.5
+        }
+      },
+      {
+        "direction": 12,
+        "entity_number": 175,
+        "name": "bulk-inserter",
+        "position": {
+          "x": -94.5,
+          "y": -139.5
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 176,
+        "name": "turbo-transport-belt",
+        "position": {
+          "x": -93.5,
+          "y": -139.5
+        }
+      },
+      {
+        "entity_number": 177,
+        "name": "turbo-transport-belt",
+        "position": {
+          "x": -92.5,
+          "y": -139.5
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 178,
+        "name": "bulk-inserter",
+        "position": {
+          "x": -90.5,
+          "y": -139.5
+        }
+      },
+      {
+        "direction": 12,
+        "entity_number": 179,
+        "name": "turbo-transport-belt",
+        "position": {
+          "x": -91.5,
+          "y": -139.5
+        }
+      },
+      {
+        "direction": 12,
+        "entity_number": 180,
+        "items": [
+          {
+            "id": {
+              "name": "productivity-module-3"
+            },
+            "items": {
+              "in_inventory": [
+                {
+                  "inventory": 4,
+                  "stack": 0
+                },
+                {
+                  "inventory": 4,
+                  "stack": 1
+                },
+                {
+                  "inventory": 4,
+                  "stack": 2
+                },
+                {
+                  "inventory": 4,
+                  "stack": 3
+                }
+              ]
+            }
+          }
+        ],
+        "name": "foundry",
+        "position": {
+          "x": -97.5,
+          "y": -137.5
+        },
+        "recipe": "casting-iron-gear-wheel",
+        "recipe_quality": "normal"
+      },
+      {
+        "entity_number": 181,
+        "name": "medium-electric-pole",
+        "position": {
+          "x": -94.5,
+          "y": -137.5
+        }
+      },
+      {
+        "entity_number": 182,
+        "name": "pipe",
+        "position": {
+          "x": -94.5,
+          "y": -136.5
+        }
+      },
+      {
+        "entity_number": 183,
+        "items": [
+          {
+            "id": {
+              "name": "speed-module-3"
+            },
+            "items": {
+              "in_inventory": [
+                {
+                  "inventory": 1,
+                  "stack": 0
+                },
+                {
+                  "inventory": 1,
+                  "stack": 1
+                }
+              ]
+            }
+          }
+        ],
+        "name": "beacon",
+        "position": {
+          "x": -92.5,
+          "y": -137.5
+        }
+      },
+      {
+        "entity_number": 184,
+        "name": "medium-electric-pole",
+        "position": {
+          "x": -90.5,
+          "y": -137.5
+        }
+      },
+      {
+        "entity_number": 185,
+        "name": "pipe",
+        "position": {
+          "x": -90.5,
+          "y": -136.5
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 186,
+        "items": [
+          {
+            "id": {
+              "name": "productivity-module-3"
+            },
+            "items": {
+              "in_inventory": [
+                {
+                  "inventory": 4,
+                  "stack": 0
+                },
+                {
+                  "inventory": 4,
+                  "stack": 1
+                },
+                {
+                  "inventory": 4,
+                  "stack": 2
+                },
+                {
+                  "inventory": 4,
+                  "stack": 3
+                }
+              ]
+            }
+          }
+        ],
+        "name": "foundry",
+        "position": {
+          "x": -87.5,
+          "y": -137.5
+        },
+        "recipe": "casting-copper",
+        "recipe_quality": "normal"
+      },
+      {
+        "entity_number": 187,
+        "name": "pipe-to-ground",
+        "position": {
+          "x": -94.5,
+          "y": -135.5
+        }
+      },
+      {
+        "entity_number": 188,
+        "name": "pipe-to-ground",
+        "position": {
+          "x": -90.5,
+          "y": -135.5
+        }
+      }
+    ],
+    "icons": [
+      {
+        "index": 1,
+        "signal": {
+          "name": "automation-science-pack"
+        }
+      }
+    ],
+    "version": 562954249306113,
+    "wires": [
+      [
+        23,
+        5,
+        26,
+        5
+      ],
+      [
+        23,
+        5,
+        67,
+        5
+      ],
+      [
+        26,
+        5,
+        31,
+        5
+      ],
+      [
+        26,
+        5,
+        68,
+        5
+      ],
+      [
+        31,
+        5,
+        33,
+        5
+      ],
+      [
+        31,
+        5,
+        74,
+        5
+      ],
+      [
+        33,
+        5,
+        75,
+        5
+      ],
+      [
+        67,
+        5,
+        68,
+        5
+      ],
+      [
+        67,
+        5,
+        109,
+        5
+      ],
+      [
+        68,
+        5,
+        74,
+        5
+      ],
+      [
+        68,
+        5,
+        110,
+        5
+      ],
+      [
+        74,
+        5,
+        75,
+        5
+      ],
+      [
+        74,
+        5,
+        116,
+        5
+      ],
+      [
+        75,
+        5,
+        117,
+        5
+      ],
+      [
+        109,
+        5,
+        110,
+        5
+      ],
+      [
+        109,
+        5,
+        151,
+        5
+      ],
+      [
+        110,
+        5,
+        116,
+        5
+      ],
+      [
+        110,
+        5,
+        152,
+        5
+      ],
+      [
+        116,
+        5,
+        117,
+        5
+      ],
+      [
+        116,
+        5,
+        158,
+        5
+      ],
+      [
+        117,
+        5,
+        159,
+        5
+      ],
+      [
+        151,
+        5,
+        152,
+        5
+      ],
+      [
+        152,
+        5,
+        158,
+        5
+      ],
+      [
+        152,
+        5,
+        181,
+        5
+      ],
+      [
+        158,
+        5,
+        159,
+        5
+      ],
+      [
+        158,
+        5,
+        184,
+        5
+      ],
+      [
+        181,
+        5,
+        184,
+        5
+      ]
+    ]
+  },
+  "index": 0
+}

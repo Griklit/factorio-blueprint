@@ -1,0 +1,154 @@
+{
+  "blueprint": {
+    "item": "blueprint",
+    "label": "3宽4物 [双边][无间距]",
+    "entities": [
+      {
+        "direction": 4,
+        "entity_number": 1,
+        "name": "underground-belt",
+        "position": {
+          "x": 0.5,
+          "y": 4.5
+        },
+        "type": "output"
+      },
+      {
+        "direction": 4,
+        "entity_number": 2,
+        "name": "underground-belt",
+        "position": {
+          "x": 0.5,
+          "y": 5.5
+        },
+        "type": "input"
+      },
+      {
+        "direction": 8,
+        "entity_number": 3,
+        "name": "inserter",
+        "position": {
+          "x": 0.5,
+          "y": 6.5
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 4,
+        "name": "underground-belt",
+        "position": {
+          "x": 1.5,
+          "y": 4.5
+        },
+        "type": "input"
+      },
+      {
+        "entity_number": 5,
+        "name": "long-handed-inserter",
+        "position": {
+          "x": 1.5,
+          "y": 6.5
+        }
+      },
+      {
+        "entity_number": 6,
+        "name": "electromagnetic-plant",
+        "position": {
+          "x": 2,
+          "y": 2
+        }
+      },
+      {
+        "entity_number": 7,
+        "name": "electromagnetic-plant",
+        "position": {
+          "x": 2,
+          "y": 9
+        }
+      },
+      {
+        "direction": 8,
+        "entity_number": 8,
+        "name": "long-handed-inserter",
+        "position": {
+          "x": 2.5,
+          "y": 4.5
+        }
+      },
+      {
+        "entity_number": 9,
+        "name": "medium-electric-pole",
+        "position": {
+          "x": 2.5,
+          "y": 5.5
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 10,
+        "name": "underground-belt",
+        "position": {
+          "x": 2.5,
+          "y": 6.5
+        },
+        "type": "output"
+      },
+      {
+        "entity_number": 11,
+        "name": "inserter",
+        "position": {
+          "x": 3.5,
+          "y": 4.5
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 12,
+        "name": "underground-belt",
+        "position": {
+          "x": 3.5,
+          "y": 5.5
+        },
+        "type": "output"
+      },
+      {
+        "direction": 4,
+        "entity_number": 13,
+        "name": "underground-belt",
+        "position": {
+          "x": 3.5,
+          "y": 6.5
+        },
+        "type": "input"
+      }
+    ],
+    "icons": [
+      {
+        "index": 1,
+        "signal": {
+          "name": "signal-3",
+          "type": "virtual"
+        }
+      },
+      {
+        "index": 2,
+        "signal": {
+          "name": "signal-4",
+          "type": "virtual"
+        }
+      },
+      {
+        "index": 3,
+        "signal": {
+          "name": "electromagnetic-plant"
+        }
+      }
+    ],
+    "snap-to-grid": {
+      "x": 4,
+      "y": 11
+    },
+    "version": 562954249306113
+  },
+  "index": 18
+}

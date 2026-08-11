@@ -1,0 +1,473 @@
+{
+  "blueprint": {
+    "item": "blueprint",
+    "entities": [
+      {
+        "entity_number": 1,
+        "name": "stone-wall",
+        "position": {
+          "x": -181.5,
+          "y": 71.5
+        }
+      },
+      {
+        "entity_number": 2,
+        "name": "stone-wall",
+        "position": {
+          "x": -181.5,
+          "y": 72.5
+        }
+      },
+      {
+        "entity_number": 3,
+        "name": "stone-wall",
+        "position": {
+          "x": -181.5,
+          "y": 74.5
+        }
+      },
+      {
+        "entity_number": 4,
+        "name": "stone-wall",
+        "position": {
+          "x": -181.5,
+          "y": 76.5
+        }
+      },
+      {
+        "entity_number": 5,
+        "name": "stone-wall",
+        "position": {
+          "x": -181.5,
+          "y": 77.5
+        }
+      },
+      {
+        "entity_number": 6,
+        "name": "stone-wall",
+        "position": {
+          "x": -180.5,
+          "y": 71.5
+        }
+      },
+      {
+        "entity_number": 7,
+        "name": "stone-wall",
+        "position": {
+          "x": -180.5,
+          "y": 74.5
+        }
+      },
+      {
+        "entity_number": 8,
+        "name": "stone-wall",
+        "position": {
+          "x": -180.5,
+          "y": 77.5
+        }
+      },
+      {
+        "entity_number": 9,
+        "name": "stone-wall",
+        "position": {
+          "x": -179.5,
+          "y": 71.5
+        }
+      },
+      {
+        "entity_number": 10,
+        "name": "stone-wall",
+        "position": {
+          "x": -179.5,
+          "y": 73.5
+        }
+      },
+      {
+        "entity_number": 11,
+        "name": "stone-wall",
+        "position": {
+          "x": -179.5,
+          "y": 74.5
+        }
+      },
+      {
+        "entity_number": 12,
+        "name": "stone-wall",
+        "position": {
+          "x": -179.5,
+          "y": 75.5
+        }
+      },
+      {
+        "entity_number": 13,
+        "name": "stone-wall",
+        "position": {
+          "x": -179.5,
+          "y": 77.5
+        }
+      },
+      {
+        "entity_number": 14,
+        "name": "stone-wall",
+        "position": {
+          "x": -178.5,
+          "y": 71.5
+        }
+      },
+      {
+        "entity_number": 15,
+        "name": "stone-wall",
+        "position": {
+          "x": -178.5,
+          "y": 77.5
+        }
+      },
+      {
+        "entity_number": 16,
+        "name": "stone-wall",
+        "position": {
+          "x": -177.5,
+          "y": 71.5
+        }
+      },
+      {
+        "entity_number": 17,
+        "name": "stone-wall",
+        "position": {
+          "x": -177.5,
+          "y": 73.5
+        }
+      },
+      {
+        "entity_number": 18,
+        "name": "stone-wall",
+        "position": {
+          "x": -177.5,
+          "y": 74.5
+        }
+      },
+      {
+        "entity_number": 19,
+        "name": "stone-wall",
+        "position": {
+          "x": -177.5,
+          "y": 75.5
+        }
+      },
+      {
+        "entity_number": 20,
+        "name": "stone-wall",
+        "position": {
+          "x": -177.5,
+          "y": 77.5
+        }
+      },
+      {
+        "entity_number": 21,
+        "name": "stone-wall",
+        "position": {
+          "x": -176.5,
+          "y": 71.5
+        }
+      },
+      {
+        "entity_number": 22,
+        "name": "stone-wall",
+        "position": {
+          "x": -176.5,
+          "y": 74.5
+        }
+      },
+      {
+        "entity_number": 23,
+        "name": "stone-wall",
+        "position": {
+          "x": -176.5,
+          "y": 77.5
+        }
+      },
+      {
+        "entity_number": 24,
+        "name": "stone-wall",
+        "position": {
+          "x": -175.5,
+          "y": 71.5
+        }
+      },
+      {
+        "entity_number": 25,
+        "name": "stone-wall",
+        "position": {
+          "x": -175.5,
+          "y": 72.5
+        }
+      },
+      {
+        "entity_number": 26,
+        "name": "stone-wall",
+        "position": {
+          "x": -175.5,
+          "y": 74.5
+        }
+      },
+      {
+        "entity_number": 27,
+        "name": "stone-wall",
+        "position": {
+          "x": -175.5,
+          "y": 76.5
+        }
+      },
+      {
+        "entity_number": 28,
+        "name": "stone-wall",
+        "position": {
+          "x": -175.5,
+          "y": 77.5
+        }
+      },
+      {
+        "entity_number": 29,
+        "name": "stone-wall",
+        "position": {
+          "x": -174.5,
+          "y": 74.5
+        }
+      },
+      {
+        "entity_number": 30,
+        "name": "stone-wall",
+        "position": {
+          "x": -173.5,
+          "y": 71.5
+        }
+      },
+      {
+        "entity_number": 31,
+        "name": "stone-wall",
+        "position": {
+          "x": -173.5,
+          "y": 72.5
+        }
+      },
+      {
+        "entity_number": 32,
+        "name": "stone-wall",
+        "position": {
+          "x": -173.5,
+          "y": 74.5
+        }
+      },
+      {
+        "entity_number": 33,
+        "name": "stone-wall",
+        "position": {
+          "x": -173.5,
+          "y": 76.5
+        }
+      },
+      {
+        "entity_number": 34,
+        "name": "stone-wall",
+        "position": {
+          "x": -173.5,
+          "y": 77.5
+        }
+      },
+      {
+        "entity_number": 35,
+        "name": "stone-wall",
+        "position": {
+          "x": -172.5,
+          "y": 71.5
+        }
+      },
+      {
+        "entity_number": 36,
+        "name": "stone-wall",
+        "position": {
+          "x": -172.5,
+          "y": 74.5
+        }
+      },
+      {
+        "entity_number": 37,
+        "name": "stone-wall",
+        "position": {
+          "x": -172.5,
+          "y": 77.5
+        }
+      },
+      {
+        "entity_number": 38,
+        "name": "stone-wall",
+        "position": {
+          "x": -171.5,
+          "y": 71.5
+        }
+      },
+      {
+        "entity_number": 39,
+        "name": "stone-wall",
+        "position": {
+          "x": -171.5,
+          "y": 73.5
+        }
+      },
+      {
+        "entity_number": 40,
+        "name": "stone-wall",
+        "position": {
+          "x": -171.5,
+          "y": 74.5
+        }
+      },
+      {
+        "entity_number": 41,
+        "name": "stone-wall",
+        "position": {
+          "x": -171.5,
+          "y": 75.5
+        }
+      },
+      {
+        "entity_number": 42,
+        "name": "stone-wall",
+        "position": {
+          "x": -171.5,
+          "y": 77.5
+        }
+      },
+      {
+        "entity_number": 43,
+        "name": "stone-wall",
+        "position": {
+          "x": -170.5,
+          "y": 71.5
+        }
+      },
+      {
+        "entity_number": 44,
+        "name": "stone-wall",
+        "position": {
+          "x": -170.5,
+          "y": 77.5
+        }
+      },
+      {
+        "entity_number": 45,
+        "name": "stone-wall",
+        "position": {
+          "x": -169.5,
+          "y": 71.5
+        }
+      },
+      {
+        "entity_number": 46,
+        "name": "stone-wall",
+        "position": {
+          "x": -169.5,
+          "y": 73.5
+        }
+      },
+      {
+        "entity_number": 47,
+        "name": "stone-wall",
+        "position": {
+          "x": -169.5,
+          "y": 74.5
+        }
+      },
+      {
+        "entity_number": 48,
+        "name": "stone-wall",
+        "position": {
+          "x": -169.5,
+          "y": 75.5
+        }
+      },
+      {
+        "entity_number": 49,
+        "name": "stone-wall",
+        "position": {
+          "x": -169.5,
+          "y": 77.5
+        }
+      },
+      {
+        "entity_number": 50,
+        "name": "stone-wall",
+        "position": {
+          "x": -168.5,
+          "y": 71.5
+        }
+      },
+      {
+        "entity_number": 51,
+        "name": "stone-wall",
+        "position": {
+          "x": -168.5,
+          "y": 74.5
+        }
+      },
+      {
+        "entity_number": 52,
+        "name": "stone-wall",
+        "position": {
+          "x": -168.5,
+          "y": 77.5
+        }
+      },
+      {
+        "entity_number": 53,
+        "name": "stone-wall",
+        "position": {
+          "x": -167.5,
+          "y": 71.5
+        }
+      },
+      {
+        "entity_number": 54,
+        "name": "stone-wall",
+        "position": {
+          "x": -167.5,
+          "y": 72.5
+        }
+      },
+      {
+        "entity_number": 55,
+        "name": "stone-wall",
+        "position": {
+          "x": -167.5,
+          "y": 74.5
+        }
+      },
+      {
+        "entity_number": 56,
+        "name": "stone-wall",
+        "position": {
+          "x": -167.5,
+          "y": 76.5
+        }
+      },
+      {
+        "entity_number": 57,
+        "name": "stone-wall",
+        "position": {
+          "x": -167.5,
+          "y": 77.5
+        }
+      }
+    ],
+    "icons": [
+      {
+        "index": 1,
+        "signal": {
+          "name": "stone-wall"
+        }
+      }
+    ],
+    "version": 562954249306113
+  },
+  "index": 1
+}

@@ -1,0 +1,1066 @@
+{
+  "upgrade_planner": {
+    "label": "转为 传说",
+    "item": "upgrade-planner",
+    "settings": {
+      "description": "仅写入了升级至传说后有一定价值的建筑",
+      "icons": [
+        {
+          "index": 1,
+          "signal": {
+            "name": "legendary",
+            "type": "quality"
+          }
+        }
+      ],
+      "mappers": [
+        {
+          "from": {
+            "name": "assembling-machine-1",
+            "type": "entity"
+          },
+          "index": 0,
+          "to": {
+            "name": "assembling-machine-1",
+            "quality": "legendary",
+            "type": "entity"
+          }
+        },
+        {
+          "from": {
+            "name": "solar-panel",
+            "type": "entity"
+          },
+          "index": 1,
+          "to": {
+            "name": "solar-panel",
+            "quality": "legendary",
+            "type": "entity"
+          }
+        },
+        {
+          "from": {
+            "name": "burner-inserter",
+            "type": "entity"
+          },
+          "index": 2,
+          "to": {
+            "name": "burner-inserter",
+            "quality": "legendary",
+            "type": "entity"
+          }
+        },
+        {
+          "from": {
+            "name": "burner-mining-drill",
+            "type": "entity"
+          },
+          "index": 3,
+          "to": {
+            "name": "burner-mining-drill",
+            "quality": "legendary",
+            "type": "entity"
+          }
+        },
+        {
+          "from": {
+            "name": "assembling-machine-2",
+            "type": "entity"
+          },
+          "index": 4,
+          "to": {
+            "name": "assembling-machine-2",
+            "quality": "legendary",
+            "type": "entity"
+          }
+        },
+        {
+          "from": {
+            "name": "accumulator",
+            "type": "entity"
+          },
+          "index": 5,
+          "to": {
+            "name": "accumulator",
+            "quality": "legendary",
+            "type": "entity"
+          }
+        },
+        {
+          "from": {
+            "name": "inserter",
+            "type": "entity"
+          },
+          "index": 6,
+          "to": {
+            "name": "inserter",
+            "quality": "legendary",
+            "type": "entity"
+          }
+        },
+        {
+          "from": {
+            "name": "offshore-pump",
+            "type": "entity"
+          },
+          "index": 7,
+          "to": {
+            "name": "offshore-pump",
+            "quality": "legendary",
+            "type": "entity"
+          }
+        },
+        {
+          "from": {
+            "name": "assembling-machine-3",
+            "type": "entity"
+          },
+          "index": 8,
+          "to": {
+            "name": "assembling-machine-3",
+            "quality": "legendary",
+            "type": "entity"
+          }
+        },
+        {
+          "from": {
+            "name": "biolab",
+            "type": "entity"
+          },
+          "index": 9,
+          "to": {
+            "name": "biolab",
+            "quality": "legendary",
+            "type": "entity"
+          }
+        },
+        {
+          "from": {
+            "name": "long-handed-inserter",
+            "type": "entity"
+          },
+          "index": 10,
+          "to": {
+            "name": "long-handed-inserter",
+            "quality": "legendary",
+            "type": "entity"
+          }
+        },
+        {
+          "from": {
+            "name": "electric-mining-drill",
+            "type": "entity"
+          },
+          "index": 11,
+          "to": {
+            "name": "electric-mining-drill",
+            "quality": "legendary",
+            "type": "entity"
+          }
+        },
+        {
+          "from": {
+            "name": "oil-refinery",
+            "type": "entity"
+          },
+          "index": 12,
+          "to": {
+            "name": "oil-refinery",
+            "quality": "legendary",
+            "type": "entity"
+          }
+        },
+        {
+          "from": {
+            "name": "lab",
+            "type": "entity"
+          },
+          "index": 13,
+          "to": {
+            "name": "lab",
+            "quality": "legendary",
+            "type": "entity"
+          }
+        },
+        {
+          "from": {
+            "name": "fast-inserter",
+            "type": "entity"
+          },
+          "index": 14,
+          "to": {
+            "name": "fast-inserter",
+            "quality": "legendary",
+            "type": "entity"
+          }
+        },
+        {
+          "from": {
+            "name": "pumpjack",
+            "type": "entity"
+          },
+          "index": 15,
+          "to": {
+            "name": "pumpjack",
+            "quality": "legendary",
+            "type": "entity"
+          }
+        },
+        {
+          "from": {
+            "name": "chemical-plant",
+            "type": "entity"
+          },
+          "index": 16,
+          "to": {
+            "name": "chemical-plant",
+            "quality": "legendary",
+            "type": "entity"
+          }
+        },
+        {
+          "from": {
+            "name": "roboport",
+            "type": "entity"
+          },
+          "index": 17,
+          "to": {
+            "name": "roboport",
+            "quality": "legendary",
+            "type": "entity"
+          }
+        },
+        {
+          "from": {
+            "name": "bulk-inserter",
+            "type": "entity"
+          },
+          "index": 18,
+          "to": {
+            "name": "bulk-inserter",
+            "quality": "legendary",
+            "type": "entity"
+          }
+        },
+        {
+          "from": {
+            "name": "big-mining-drill",
+            "type": "entity"
+          },
+          "index": 19,
+          "to": {
+            "name": "big-mining-drill",
+            "quality": "legendary",
+            "type": "entity"
+          }
+        },
+        {
+          "from": {
+            "name": "foundry",
+            "type": "entity"
+          },
+          "index": 20,
+          "to": {
+            "name": "foundry",
+            "quality": "legendary",
+            "type": "entity"
+          }
+        },
+        {
+          "from": {
+            "name": "nuclear-reactor",
+            "type": "entity"
+          },
+          "index": 21,
+          "to": {
+            "name": "nuclear-reactor",
+            "quality": "legendary",
+            "type": "entity"
+          }
+        },
+        {
+          "from": {
+            "name": "stack-inserter",
+            "type": "entity"
+          },
+          "index": 22,
+          "to": {
+            "name": "stack-inserter",
+            "quality": "legendary",
+            "type": "entity"
+          }
+        },
+        {
+          "from": {
+            "name": "pump",
+            "type": "entity"
+          },
+          "index": 23,
+          "to": {
+            "name": "pump",
+            "quality": "legendary",
+            "type": "entity"
+          }
+        },
+        {
+          "from": {
+            "name": "biochamber",
+            "type": "entity"
+          },
+          "index": 24,
+          "to": {
+            "name": "biochamber",
+            "quality": "legendary",
+            "type": "entity"
+          }
+        },
+        {
+          "from": {
+            "name": "heat-exchanger",
+            "type": "entity"
+          },
+          "index": 25,
+          "to": {
+            "name": "heat-exchanger",
+            "quality": "legendary",
+            "type": "entity"
+          }
+        },
+        {
+          "from": {
+            "name": "small-electric-pole",
+            "type": "entity"
+          },
+          "index": 26,
+          "to": {
+            "name": "small-electric-pole",
+            "quality": "legendary",
+            "type": "entity"
+          }
+        },
+        {
+          "from": {
+            "name": "locomotive",
+            "type": "entity"
+          },
+          "index": 27,
+          "to": {
+            "name": "locomotive",
+            "quality": "legendary",
+            "type": "entity"
+          }
+        },
+        {
+          "from": {
+            "name": "electromagnetic-plant",
+            "type": "entity"
+          },
+          "index": 28,
+          "to": {
+            "name": "electromagnetic-plant",
+            "quality": "legendary",
+            "type": "entity"
+          }
+        },
+        {
+          "from": {
+            "name": "steam-turbine",
+            "type": "entity"
+          },
+          "index": 29,
+          "to": {
+            "name": "steam-turbine",
+            "quality": "legendary",
+            "type": "entity"
+          }
+        },
+        {
+          "from": {
+            "name": "medium-electric-pole",
+            "type": "entity"
+          },
+          "index": 30,
+          "to": {
+            "name": "medium-electric-pole",
+            "quality": "legendary",
+            "type": "entity"
+          }
+        },
+        {
+          "from": {
+            "name": "cargo-wagon",
+            "type": "entity"
+          },
+          "index": 31,
+          "to": {
+            "name": "cargo-wagon",
+            "quality": "legendary",
+            "type": "entity"
+          }
+        },
+        {
+          "from": {
+            "name": "cryogenic-plant",
+            "type": "entity"
+          },
+          "index": 32,
+          "to": {
+            "name": "cryogenic-plant",
+            "quality": "legendary",
+            "type": "entity"
+          }
+        },
+        {
+          "from": {
+            "name": "fusion-reactor",
+            "type": "entity"
+          },
+          "index": 33,
+          "to": {
+            "name": "fusion-reactor",
+            "quality": "legendary",
+            "type": "entity"
+          }
+        },
+        {
+          "from": {
+            "name": "big-electric-pole",
+            "type": "entity"
+          },
+          "index": 34,
+          "to": {
+            "name": "big-electric-pole",
+            "quality": "legendary",
+            "type": "entity"
+          }
+        },
+        {
+          "from": {
+            "name": "fluid-wagon",
+            "type": "entity"
+          },
+          "index": 35,
+          "to": {
+            "name": "fluid-wagon",
+            "quality": "legendary",
+            "type": "entity"
+          }
+        },
+        {
+          "from": {
+            "name": "centrifuge",
+            "type": "entity"
+          },
+          "index": 36,
+          "to": {
+            "name": "centrifuge",
+            "quality": "legendary",
+            "type": "entity"
+          }
+        },
+        {
+          "from": {
+            "name": "fusion-generator",
+            "type": "entity"
+          },
+          "index": 37,
+          "to": {
+            "name": "fusion-generator",
+            "quality": "legendary",
+            "type": "entity"
+          }
+        },
+        {
+          "from": {
+            "name": "substation",
+            "type": "entity"
+          },
+          "index": 38,
+          "to": {
+            "name": "substation",
+            "quality": "legendary",
+            "type": "entity"
+          }
+        },
+        {
+          "from": {
+            "name": "artillery-wagon",
+            "type": "entity"
+          },
+          "index": 39,
+          "to": {
+            "name": "artillery-wagon",
+            "quality": "legendary",
+            "type": "entity"
+          }
+        },
+        {
+          "from": {
+            "name": "beacon",
+            "type": "entity"
+          },
+          "index": 40,
+          "to": {
+            "name": "beacon",
+            "quality": "legendary",
+            "type": "entity"
+          }
+        },
+        {
+          "from": {
+            "name": "heating-tower",
+            "type": "entity"
+          },
+          "index": 41,
+          "to": {
+            "name": "heating-tower",
+            "quality": "legendary",
+            "type": "entity"
+          }
+        },
+        {
+          "from": {
+            "name": "radar",
+            "type": "entity"
+          },
+          "index": 42,
+          "to": {
+            "name": "radar",
+            "quality": "legendary",
+            "type": "entity"
+          }
+        },
+        {
+          "from": {
+            "name": "asteroid-collector",
+            "type": "entity"
+          },
+          "index": 43,
+          "to": {
+            "name": "asteroid-collector",
+            "quality": "legendary",
+            "type": "entity"
+          }
+        },
+        {
+          "from": {
+            "name": "speed-module",
+            "type": "item"
+          },
+          "index": 44,
+          "to": {
+            "name": "speed-module",
+            "quality": "legendary",
+            "type": "item"
+          }
+        },
+        {
+          "from": {
+            "name": "boiler",
+            "type": "entity"
+          },
+          "index": 45,
+          "to": {
+            "name": "boiler",
+            "quality": "legendary",
+            "type": "entity"
+          }
+        },
+        {
+          "from": {
+            "name": "land-mine",
+            "type": "entity"
+          },
+          "index": 46,
+          "to": {
+            "name": "land-mine",
+            "quality": "legendary",
+            "type": "entity"
+          }
+        },
+        {
+          "from": {
+            "name": "crusher",
+            "type": "entity"
+          },
+          "index": 47,
+          "to": {
+            "name": "crusher",
+            "quality": "legendary",
+            "type": "entity"
+          }
+        },
+        {
+          "from": {
+            "name": "speed-module-2",
+            "type": "item"
+          },
+          "index": 48,
+          "to": {
+            "name": "speed-module-2",
+            "quality": "legendary",
+            "type": "item"
+          }
+        },
+        {
+          "from": {
+            "name": "steam-engine",
+            "type": "entity"
+          },
+          "index": 49,
+          "to": {
+            "name": "steam-engine",
+            "quality": "legendary",
+            "type": "entity"
+          }
+        },
+        {
+          "from": {
+            "name": "gun-turret",
+            "type": "entity"
+          },
+          "index": 50,
+          "to": {
+            "name": "gun-turret",
+            "quality": "legendary",
+            "type": "entity"
+          }
+        },
+        {
+          "from": {
+            "name": "thruster",
+            "type": "entity"
+          },
+          "index": 51,
+          "to": {
+            "name": "thruster",
+            "quality": "legendary",
+            "type": "entity"
+          }
+        },
+        {
+          "from": {
+            "name": "speed-module-3",
+            "type": "item"
+          },
+          "index": 52,
+          "to": {
+            "name": "speed-module-3",
+            "quality": "legendary",
+            "type": "item"
+          }
+        },
+        {
+          "from": {
+            "name": "recycler",
+            "type": "entity"
+          },
+          "index": 53,
+          "to": {
+            "name": "recycler",
+            "quality": "legendary",
+            "type": "entity"
+          }
+        },
+        {
+          "from": {
+            "name": "laser-turret",
+            "type": "entity"
+          },
+          "index": 54,
+          "to": {
+            "name": "laser-turret",
+            "quality": "legendary",
+            "type": "entity"
+          }
+        },
+        {
+          "from": {
+            "name": "cargo-bay",
+            "type": "entity"
+          },
+          "index": 55,
+          "to": {
+            "name": "cargo-bay",
+            "quality": "legendary",
+            "type": "entity"
+          }
+        },
+        {
+          "from": {
+            "name": "efficiency-module",
+            "type": "item"
+          },
+          "index": 56,
+          "to": {
+            "name": "efficiency-module",
+            "quality": "legendary",
+            "type": "item"
+          }
+        },
+        {
+          "from": {
+            "name": "stone-furnace",
+            "type": "entity"
+          },
+          "index": 57,
+          "to": {
+            "name": "stone-furnace",
+            "quality": "legendary",
+            "type": "entity"
+          }
+        },
+        {
+          "from": {
+            "name": "flamethrower-turret",
+            "type": "entity"
+          },
+          "index": 58,
+          "to": {
+            "name": "flamethrower-turret",
+            "quality": "legendary",
+            "type": "entity"
+          }
+        },
+        {
+          "from": {
+            "name": "landing-pad-unloading-bay",
+            "type": "entity"
+          },
+          "index": 59,
+          "to": {
+            "name": "landing-pad-unloading-bay",
+            "quality": "legendary",
+            "type": "entity"
+          }
+        },
+        {
+          "from": {
+            "name": "efficiency-module-2",
+            "type": "item"
+          },
+          "index": 60,
+          "to": {
+            "name": "efficiency-module-2",
+            "quality": "legendary",
+            "type": "item"
+          }
+        },
+        {
+          "from": {
+            "name": "lightning-rod",
+            "type": "entity"
+          },
+          "index": 61,
+          "to": {
+            "name": "lightning-rod",
+            "quality": "legendary",
+            "type": "entity"
+          }
+        },
+        {
+          "from": {
+            "name": "artillery-turret",
+            "type": "entity"
+          },
+          "index": 62,
+          "to": {
+            "name": "artillery-turret",
+            "quality": "legendary",
+            "type": "entity"
+          }
+        },
+        {
+          "from": {
+            "name": "rocket-silo",
+            "type": "entity"
+          },
+          "index": 63,
+          "to": {
+            "name": "rocket-silo",
+            "quality": "legendary",
+            "type": "entity"
+          }
+        },
+        {
+          "from": {
+            "name": "efficiency-module-3",
+            "type": "item"
+          },
+          "index": 64,
+          "to": {
+            "name": "efficiency-module-3",
+            "quality": "legendary",
+            "type": "item"
+          }
+        },
+        {
+          "from": {
+            "name": "lightning-collector",
+            "type": "entity"
+          },
+          "index": 65,
+          "to": {
+            "name": "lightning-collector",
+            "quality": "legendary",
+            "type": "entity"
+          }
+        },
+        {
+          "from": {
+            "name": "rocket-turret",
+            "type": "entity"
+          },
+          "index": 66,
+          "to": {
+            "name": "rocket-turret",
+            "quality": "legendary",
+            "type": "entity"
+          }
+        },
+        {
+          "from": {
+            "name": "cargo-landing-pad",
+            "type": "entity"
+          },
+          "index": 67,
+          "to": {
+            "name": "cargo-landing-pad",
+            "quality": "legendary",
+            "type": "entity"
+          }
+        },
+        {
+          "from": {
+            "name": "productivity-module",
+            "type": "item"
+          },
+          "index": 68,
+          "to": {
+            "name": "productivity-module",
+            "quality": "legendary",
+            "type": "item"
+          }
+        },
+        {
+          "from": {
+            "name": "wooden-chest",
+            "type": "entity"
+          },
+          "index": 69,
+          "to": {
+            "name": "wooden-chest",
+            "quality": "legendary",
+            "type": "entity"
+          }
+        },
+        {
+          "from": {
+            "name": "tesla-turret",
+            "type": "entity"
+          },
+          "index": 70,
+          "to": {
+            "name": "tesla-turret",
+            "quality": "legendary",
+            "type": "entity"
+          }
+        },
+        {
+          "from": {
+            "name": "active-provider-chest",
+            "type": "entity"
+          },
+          "index": 71,
+          "to": {
+            "name": "active-provider-chest",
+            "quality": "legendary",
+            "type": "entity"
+          }
+        },
+        {
+          "from": {
+            "name": "productivity-module-2",
+            "type": "item"
+          },
+          "index": 72,
+          "to": {
+            "name": "productivity-module-2",
+            "quality": "legendary",
+            "type": "item"
+          }
+        },
+        {
+          "from": {
+            "name": "iron-chest",
+            "type": "entity"
+          },
+          "index": 73,
+          "to": {
+            "name": "iron-chest",
+            "quality": "legendary",
+            "type": "entity"
+          }
+        },
+        {
+          "from": {
+            "name": "railgun-turret",
+            "type": "entity"
+          },
+          "index": 74,
+          "to": {
+            "name": "railgun-turret",
+            "quality": "legendary",
+            "type": "entity"
+          }
+        },
+        {
+          "from": {
+            "name": "passive-provider-chest",
+            "type": "entity"
+          },
+          "index": 75,
+          "to": {
+            "name": "passive-provider-chest",
+            "quality": "legendary",
+            "type": "entity"
+          }
+        },
+        {
+          "from": {
+            "name": "productivity-module-3",
+            "type": "item"
+          },
+          "index": 76,
+          "to": {
+            "name": "productivity-module-3",
+            "quality": "legendary",
+            "type": "item"
+          }
+        },
+        {
+          "from": {
+            "name": "steel-chest",
+            "type": "entity"
+          },
+          "index": 77,
+          "to": {
+            "name": "steel-chest",
+            "quality": "legendary",
+            "type": "entity"
+          }
+        },
+        {
+          "from": {
+            "name": "storage-chest",
+            "type": "entity"
+          },
+          "index": 79,
+          "to": {
+            "name": "storage-chest",
+            "quality": "legendary",
+            "type": "entity"
+          }
+        },
+        {
+          "from": {
+            "name": "quality-module",
+            "type": "item"
+          },
+          "index": 80,
+          "to": {
+            "name": "quality-module",
+            "quality": "legendary",
+            "type": "item"
+          }
+        },
+        {
+          "from": {
+            "name": "storage-tank",
+            "type": "entity"
+          },
+          "index": 81,
+          "to": {
+            "name": "storage-tank",
+            "quality": "legendary",
+            "type": "entity"
+          }
+        },
+        {
+          "from": {
+            "name": "buffer-chest",
+            "type": "entity"
+          },
+          "index": 83,
+          "to": {
+            "name": "buffer-chest",
+            "quality": "legendary",
+            "type": "entity"
+          }
+        },
+        {
+          "from": {
+            "name": "quality-module-2",
+            "type": "item"
+          },
+          "index": 84,
+          "to": {
+            "name": "quality-module-2",
+            "quality": "legendary",
+            "type": "item"
+          }
+        },
+        {
+          "from": {
+            "name": "steel-furnace",
+            "type": "entity"
+          },
+          "index": 85,
+          "to": {
+            "name": "steel-furnace",
+            "quality": "legendary",
+            "type": "entity"
+          }
+        },
+        {
+          "from": {
+            "name": "requester-chest",
+            "type": "entity"
+          },
+          "index": 87,
+          "to": {
+            "name": "requester-chest",
+            "quality": "legendary",
+            "type": "entity"
+          }
+        },
+        {
+          "from": {
+            "name": "quality-module-3",
+            "type": "item"
+          },
+          "index": 88,
+          "to": {
+            "name": "quality-module-3",
+            "quality": "legendary",
+            "type": "item"
+          }
+        },
+        {
+          "from": {
+            "name": "electric-furnace",
+            "type": "entity"
+          },
+          "index": 89,
+          "to": {
+            "name": "electric-furnace",
+            "quality": "legendary",
+            "type": "entity"
+          }
+        }
+      ]
+    },
+    "version": 562954249306113
+  },
+  "index": 40
+}

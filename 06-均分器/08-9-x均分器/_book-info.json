@@ -1,0 +1,23 @@
+{
+  "active_index": 8,
+  "blueprints": [],
+  "icons": [
+    {
+      "index": 1,
+      "signal": {
+        "name": "signal-9",
+        "type": "virtual"
+      }
+    },
+    {
+      "index": 2,
+      "signal": {
+        "name": "signal-X",
+        "type": "virtual"
+      }
+    }
+  ],
+  "item": "blueprint-book",
+  "label": "9-x均分器",
+  "version": 562954249306113
+}

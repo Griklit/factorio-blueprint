@@ -1,0 +1,71 @@
+{
+  "blueprint": {
+    "item": "blueprint",
+    "label": "1拖2 货运",
+    "entities": [
+      {
+        "enable_logistics_while_moving": false,
+        "entity_number": 1,
+        "name": "locomotive",
+        "orientation": 0.75,
+        "position": {
+          "x": 92.71875,
+          "y": 65
+        }
+      },
+      {
+        "enable_logistics_while_moving": false,
+        "entity_number": 2,
+        "inventory": null,
+        "name": "cargo-wagon",
+        "orientation": 0.25,
+        "position": {
+          "x": 99.71875,
+          "y": 65
+        }
+      },
+      {
+        "enable_logistics_while_moving": false,
+        "entity_number": 3,
+        "inventory": null,
+        "name": "cargo-wagon",
+        "orientation": 0.25,
+        "position": {
+          "x": 106.71875,
+          "y": 65
+        }
+      }
+    ],
+    "icons": [
+      {
+        "index": 1,
+        "signal": {
+          "name": "locomotive"
+        }
+      },
+      {
+        "index": 2,
+        "signal": {
+          "name": "cargo-wagon"
+        }
+      }
+    ],
+    "stock_connections": [
+      {
+        "back": 2,
+        "stock": 1
+      },
+      {
+        "back": 1,
+        "front": 3,
+        "stock": 2
+      },
+      {
+        "back": 2,
+        "stock": 3
+      }
+    ],
+    "version": 562954249306113
+  },
+  "index": 0
+}

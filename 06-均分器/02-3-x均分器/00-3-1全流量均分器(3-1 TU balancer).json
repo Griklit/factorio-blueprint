@@ -1,0 +1,186 @@
+{
+  "blueprint": {
+    "item": "blueprint",
+    "label": "3-1全流量均分器(3-1 TU balancer)",
+    "description": "-“全流量均分器(Throughput-unlimited (TU) balancers)”\n：也叫吞吐量无限制均分器。无论输出是否堵塞、输入是否不足，始终提供满带吞吐量\n——而对于普通n-m均分器来说，只有当所有输入都为满带或所有输出都不堵塞时，普通均分器才能保证提供全吞吐量\n*串联两个普通均分器，可得到TU均分器",
+    "entities": [
+      {
+        "direction": 12,
+        "entity_number": 1,
+        "name": "express-transport-belt",
+        "position": {
+          "x": -0.5,
+          "y": -2.5
+        }
+      },
+      {
+        "direction": 8,
+        "entity_number": 2,
+        "name": "express-transport-belt",
+        "position": {
+          "x": -1.5,
+          "y": -2.5
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 3,
+        "name": "express-splitter",
+        "position": {
+          "x": -0.5,
+          "y": -1
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 4,
+        "name": "express-transport-belt",
+        "position": {
+          "x": -1.5,
+          "y": -1.5
+        }
+      },
+      {
+        "entity_number": 5,
+        "name": "express-transport-belt",
+        "position": {
+          "x": 1.5,
+          "y": -2.5
+        }
+      },
+      {
+        "direction": 12,
+        "entity_number": 6,
+        "name": "express-transport-belt",
+        "position": {
+          "x": 0.5,
+          "y": -2.5
+        }
+      },
+      {
+        "entity_number": 7,
+        "name": "express-splitter",
+        "output_priority": "right",
+        "position": {
+          "x": 1,
+          "y": -1.5
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 8,
+        "name": "express-transport-belt",
+        "position": {
+          "x": -1.5,
+          "y": -0.5
+        }
+      },
+      {
+        "direction": 12,
+        "entity_number": 9,
+        "name": "express-transport-belt",
+        "position": {
+          "x": -0.5,
+          "y": 0.5
+        }
+      },
+      {
+        "entity_number": 10,
+        "name": "express-transport-belt",
+        "position": {
+          "x": -1.5,
+          "y": 0.5
+        }
+      },
+      {
+        "entity_number": 11,
+        "name": "express-transport-belt",
+        "position": {
+          "x": 1.5,
+          "y": -0.5
+        }
+      },
+      {
+        "entity_number": 12,
+        "name": "express-transport-belt",
+        "position": {
+          "x": 0.5,
+          "y": -0.5
+        }
+      },
+      {
+        "entity_number": 13,
+        "name": "express-transport-belt",
+        "position": {
+          "x": 1.5,
+          "y": 0.5
+        }
+      },
+      {
+        "entity_number": 14,
+        "name": "express-transport-belt",
+        "position": {
+          "x": -0.5,
+          "y": 1.5
+        }
+      },
+      {
+        "entity_number": 15,
+        "name": "express-transport-belt",
+        "position": {
+          "x": -0.5,
+          "y": 2.5
+        }
+      },
+      {
+        "entity_number": 16,
+        "name": "express-splitter",
+        "position": {
+          "x": 1,
+          "y": 1.5
+        }
+      },
+      {
+        "entity_number": 17,
+        "name": "express-transport-belt",
+        "position": {
+          "x": 1.5,
+          "y": 2.5
+        }
+      },
+      {
+        "entity_number": 18,
+        "name": "express-transport-belt",
+        "position": {
+          "x": 0.5,
+          "y": 2.5
+        }
+      }
+    ],
+    "icons": [
+      {
+        "index": 1,
+        "signal": {
+          "name": "signal-3",
+          "type": "virtual"
+        }
+      },
+      {
+        "index": 2,
+        "signal": {
+          "name": "signal-1",
+          "type": "virtual"
+        }
+      },
+      {
+        "index": 3,
+        "signal": {
+          "name": "signal-T",
+          "type": "virtual"
+        }
+      }
+    ],
+    "version": 562954249306113
+  },
+  "index": 0
+}

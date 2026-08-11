@@ -1,0 +1,119 @@
+{
+  "blueprint": {
+    "item": "blueprint",
+    "entities": [
+      {
+        "direction": 4,
+        "entity_number": 1,
+        "name": "electric-mining-drill",
+        "position": {
+          "x": 1.5,
+          "y": 1.5
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 2,
+        "name": "electric-mining-drill",
+        "position": {
+          "x": 1.5,
+          "y": 4.5
+        }
+      },
+      {
+        "entity_number": 3,
+        "name": "transport-belt",
+        "position": {
+          "x": 3.5,
+          "y": 0.5
+        }
+      },
+      {
+        "entity_number": 4,
+        "name": "underground-belt",
+        "position": {
+          "x": 3.5,
+          "y": 1.5
+        },
+        "type": "output"
+      },
+      {
+        "entity_number": 5,
+        "name": "small-electric-pole",
+        "position": {
+          "x": 3.5,
+          "y": 2.5
+        }
+      },
+      {
+        "entity_number": 6,
+        "name": "underground-belt",
+        "position": {
+          "x": 3.5,
+          "y": 3.5
+        },
+        "type": "input"
+      },
+      {
+        "entity_number": 7,
+        "name": "transport-belt",
+        "position": {
+          "x": 3.5,
+          "y": 4.5
+        }
+      },
+      {
+        "entity_number": 8,
+        "name": "transport-belt",
+        "position": {
+          "x": 3.5,
+          "y": 5.5
+        }
+      },
+      {
+        "direction": 12,
+        "entity_number": 9,
+        "name": "electric-mining-drill",
+        "position": {
+          "x": 5.5,
+          "y": 1.5
+        }
+      },
+      {
+        "direction": 12,
+        "entity_number": 10,
+        "name": "electric-mining-drill",
+        "position": {
+          "x": 5.5,
+          "y": 4.5
+        }
+      }
+    ],
+    "icons": [
+      {
+        "index": 1,
+        "signal": {
+          "name": "electric-mining-drill"
+        }
+      },
+      {
+        "index": 2,
+        "signal": {
+          "name": "small-electric-pole"
+        }
+      },
+      {
+        "index": 3,
+        "signal": {
+          "name": "underground-belt"
+        }
+      }
+    ],
+    "snap-to-grid": {
+      "x": 7,
+      "y": 6
+    },
+    "version": 562954249306113
+  },
+  "index": 2
+}

@@ -1,0 +1,16 @@
+{
+  "active_index": 0,
+  "blueprints": [],
+  "description": "v260809",
+  "icons": [
+    {
+      "index": 1,
+      "signal": {
+        "name": "raw-fish"
+      }
+    }
+  ],
+  "item": "blueprint-book",
+  "label": "其他",
+  "version": 562954249306113
+}

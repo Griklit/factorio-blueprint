@@ -1,0 +1,33 @@
+{
+  "upgrade_planner": {
+    "label": "置入 节能插件1",
+    "item": "upgrade-planner",
+    "settings": {
+      "icons": [
+        {
+          "index": 1,
+          "signal": {
+            "name": "efficiency-module"
+          }
+        }
+      ],
+      "mappers": [
+        {
+          "from": {
+            "comparator": "=",
+            "name": "empty-module-slot",
+            "quality": "normal",
+            "type": "item"
+          },
+          "index": 0,
+          "to": {
+            "name": "efficiency-module",
+            "type": "item"
+          }
+        }
+      ]
+    },
+    "version": 562954249306113
+  },
+  "index": 21
+}

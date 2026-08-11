@@ -1,0 +1,77 @@
+{
+  "deconstruction_planner": {
+    "label": "拆除 地砖",
+    "item": "deconstruction-planner",
+    "settings": {
+      "icons": [
+        {
+          "index": 1,
+          "signal": {
+            "name": "stone-brick"
+          }
+        }
+      ],
+      "tile_filters": [
+        {
+          "index": 0,
+          "name": "stone-path"
+        },
+        {
+          "index": 1,
+          "name": "concrete"
+        },
+        {
+          "index": 2,
+          "name": "hazard-concrete-left"
+        },
+        {
+          "index": 3,
+          "name": "hazard-concrete-right"
+        },
+        {
+          "index": 4,
+          "name": "refined-concrete"
+        },
+        {
+          "index": 5,
+          "name": "refined-hazard-concrete-left"
+        },
+        {
+          "index": 6,
+          "name": "refined-hazard-concrete-right"
+        },
+        {
+          "index": 10,
+          "name": "frozen-concrete"
+        },
+        {
+          "index": 11,
+          "name": "frozen-hazard-concrete-left"
+        },
+        {
+          "index": 12,
+          "name": "frozen-hazard-concrete-right"
+        },
+        {
+          "index": 13,
+          "name": "frozen-refined-concrete"
+        },
+        {
+          "index": 14,
+          "name": "frozen-refined-hazard-concrete-left"
+        },
+        {
+          "index": 15,
+          "name": "frozen-refined-hazard-concrete-right"
+        },
+        {
+          "index": 16,
+          "name": "frozen-stone-path"
+        }
+      ],
+      "tile_selection_mode": 3
+    },
+    "version": 562954249306113
+  },
+  "index": 48
+}

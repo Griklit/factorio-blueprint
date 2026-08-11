@@ -1,0 +1,71 @@
+{
+  "deconstruction_planner": {
+    "label": "拆除 地基",
+    "item": "deconstruction-planner",
+    "settings": {
+      "icons": [
+        {
+          "index": 1,
+          "signal": {
+            "name": "landfill"
+          }
+        },
+        {
+          "index": 2,
+          "signal": {
+            "name": "foundation"
+          }
+        },
+        {
+          "index": 3,
+          "signal": {
+            "name": "ice-platform"
+          }
+        },
+        {
+          "index": 4,
+          "signal": {
+            "name": "artificial-yumako-soil"
+          }
+        }
+      ],
+      "tile_filters": [
+        {
+          "index": 0,
+          "name": "landfill"
+        },
+        {
+          "index": 1,
+          "name": "space-platform-foundation"
+        },
+        {
+          "index": 2,
+          "name": "foundation"
+        },
+        {
+          "index": 3,
+          "name": "artificial-yumako-soil"
+        },
+        {
+          "index": 4,
+          "name": "overgrowth-yumako-soil"
+        },
+        {
+          "index": 5,
+          "name": "artificial-jellynut-soil"
+        },
+        {
+          "index": 6,
+          "name": "overgrowth-jellynut-soil"
+        },
+        {
+          "index": 7,
+          "name": "ice-platform"
+        }
+      ],
+      "tile_selection_mode": 3
+    },
+    "version": 562954249306113
+  },
+  "index": 49
+}

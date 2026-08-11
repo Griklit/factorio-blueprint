@@ -1,0 +1,1092 @@
+{
+  "blueprint": {
+    "item": "blueprint",
+    "label": "90/min",
+    "entities": [
+      {
+        "control_behavior": {
+          "circuit_condition": {
+            "comparator": "<",
+            "constant": 8,
+            "first_signal": {
+              "name": "bioflux"
+            }
+          },
+          "circuit_enabled": true
+        },
+        "direction": 12,
+        "entity_number": 1,
+        "name": "fast-inserter",
+        "position": {
+          "x": -297.5,
+          "y": 735.5
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 2,
+        "icon": {
+          "name": "bioflux"
+        },
+        "name": "display-panel",
+        "position": {
+          "x": -297.5,
+          "y": 736.5
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 3,
+        "icon": {
+          "name": "water",
+          "type": "fluid"
+        },
+        "name": "display-panel",
+        "position": {
+          "x": -297.5,
+          "y": 740.5
+        }
+      },
+      {
+        "control_behavior": {
+          "circuit_contents_read_mode": 2,
+          "circuit_read_hand_contents": true
+        },
+        "direction": 4,
+        "entity_number": 4,
+        "name": "fast-transport-belt",
+        "position": {
+          "x": -296.5,
+          "y": 735.5
+        }
+      },
+      {
+        "direction": 8,
+        "entity_number": 5,
+        "name": "fast-inserter",
+        "position": {
+          "x": -296.5,
+          "y": 736.5
+        }
+      },
+      {
+        "direction": 8,
+        "entity_number": 6,
+        "name": "biochamber",
+        "position": {
+          "x": -296.5,
+          "y": 738.5
+        },
+        "recipe": "pentapod-egg",
+        "recipe_quality": "normal"
+      },
+      {
+        "direction": 4,
+        "entity_number": 7,
+        "name": "pipe-to-ground",
+        "position": {
+          "x": -296.5,
+          "y": 740.5
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 8,
+        "name": "fast-transport-belt",
+        "position": {
+          "x": -295.5,
+          "y": 735.5
+        }
+      },
+      {
+        "entity_number": 9,
+        "name": "fast-inserter",
+        "position": {
+          "x": -295.5,
+          "y": 736.5
+        }
+      },
+      {
+        "entity_number": 10,
+        "name": "pipe",
+        "position": {
+          "x": -295.5,
+          "y": 740.5
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 11,
+        "name": "fast-transport-belt",
+        "position": {
+          "x": -294.5,
+          "y": 735.5
+        }
+      },
+      {
+        "entity_number": 12,
+        "name": "medium-electric-pole",
+        "position": {
+          "x": -294.5,
+          "y": 736.5
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 13,
+        "name": "fast-inserter",
+        "position": {
+          "x": -294.5,
+          "y": 739.5
+        }
+      },
+      {
+        "direction": 12,
+        "entity_number": 14,
+        "name": "pipe-to-ground",
+        "position": {
+          "x": -294.5,
+          "y": 740.5
+        }
+      },
+      {
+        "entity_number": 15,
+        "name": "medium-electric-pole",
+        "position": {
+          "x": -294.5,
+          "y": 741.5
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 16,
+        "name": "fast-transport-belt",
+        "position": {
+          "x": -293.5,
+          "y": 735.5
+        }
+      },
+      {
+        "entity_number": 17,
+        "name": "bulk-inserter",
+        "position": {
+          "x": -293.5,
+          "y": 740.5
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 18,
+        "name": "fast-transport-belt",
+        "position": {
+          "x": -293.5,
+          "y": 741.5
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 19,
+        "name": "fast-transport-belt",
+        "position": {
+          "x": -292.5,
+          "y": 735.5
+        }
+      },
+      {
+        "entity_number": 20,
+        "name": "fast-inserter",
+        "position": {
+          "x": -292.5,
+          "y": 736.5
+        }
+      },
+      {
+        "entity_number": 21,
+        "name": "biochamber",
+        "position": {
+          "x": -292.5,
+          "y": 738.5
+        },
+        "recipe": "nutrients-from-bioflux",
+        "recipe_quality": "normal"
+      },
+      {
+        "entity_number": 22,
+        "name": "bulk-inserter",
+        "position": {
+          "x": -292.5,
+          "y": 740.5
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 23,
+        "name": "fast-transport-belt",
+        "position": {
+          "x": -292.5,
+          "y": 741.5
+        }
+      },
+      {
+        "control_behavior": {
+          "circuit_condition": {
+            "comparator": "<",
+            "constant": 12,
+            "first_signal": {
+              "name": "bioflux"
+            }
+          },
+          "circuit_enabled": true
+        },
+        "direction": 12,
+        "entity_number": 24,
+        "name": "fast-inserter",
+        "position": {
+          "x": -291.5,
+          "y": 735.5
+        }
+      },
+      {
+        "direction": 8,
+        "entity_number": 25,
+        "name": "fast-inserter",
+        "position": {
+          "x": -291.5,
+          "y": 740.5
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 26,
+        "name": "fast-transport-belt",
+        "position": {
+          "x": -291.5,
+          "y": 741.5
+        }
+      },
+      {
+        "control_behavior": {
+          "circuit_contents_read_mode": 2,
+          "circuit_read_hand_contents": true
+        },
+        "direction": 4,
+        "entity_number": 27,
+        "name": "fast-transport-belt",
+        "position": {
+          "x": -290.5,
+          "y": 735.5
+        }
+      },
+      {
+        "entity_number": 28,
+        "name": "medium-electric-pole",
+        "position": {
+          "x": -290.5,
+          "y": 736.5
+        }
+      },
+      {
+        "direction": 12,
+        "entity_number": 29,
+        "name": "fast-inserter",
+        "position": {
+          "x": -290.5,
+          "y": 739.5
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 30,
+        "filter": {
+          "comparator": "=",
+          "name": "deconstruction-planner",
+          "quality": "normal"
+        },
+        "name": "fast-splitter",
+        "output_priority": "right",
+        "position": {
+          "x": -290.5,
+          "y": 741
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 31,
+        "name": "fast-transport-belt",
+        "position": {
+          "x": -289.5,
+          "y": 735.5
+        }
+      },
+      {
+        "direction": 8,
+        "entity_number": 32,
+        "name": "fast-transport-belt",
+        "position": {
+          "x": -289.5,
+          "y": 740.5
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 33,
+        "name": "fast-transport-belt",
+        "position": {
+          "x": -289.5,
+          "y": 741.5
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 34,
+        "name": "fast-transport-belt",
+        "position": {
+          "x": -288.5,
+          "y": 735.5
+        }
+      },
+      {
+        "direction": 8,
+        "entity_number": 35,
+        "name": "fast-inserter",
+        "position": {
+          "x": -288.5,
+          "y": 736.5
+        }
+      },
+      {
+        "direction": 8,
+        "entity_number": 36,
+        "name": "biochamber",
+        "position": {
+          "x": -288.5,
+          "y": 738.5
+        },
+        "recipe": "pentapod-egg",
+        "recipe_quality": "normal"
+      },
+      {
+        "direction": 4,
+        "entity_number": 37,
+        "name": "pipe-to-ground",
+        "position": {
+          "x": -288.5,
+          "y": 740.5
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 38,
+        "name": "fast-underground-belt",
+        "position": {
+          "x": -288.5,
+          "y": 741.5
+        },
+        "type": "input"
+      },
+      {
+        "direction": 4,
+        "entity_number": 39,
+        "name": "fast-transport-belt",
+        "position": {
+          "x": -287.5,
+          "y": 735.5
+        }
+      },
+      {
+        "entity_number": 40,
+        "name": "fast-inserter",
+        "position": {
+          "x": -287.5,
+          "y": 736.5
+        }
+      },
+      {
+        "entity_number": 41,
+        "name": "pipe",
+        "position": {
+          "x": -287.5,
+          "y": 740.5
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 42,
+        "name": "fast-transport-belt",
+        "position": {
+          "x": -286.5,
+          "y": 735.5
+        }
+      },
+      {
+        "entity_number": 43,
+        "name": "medium-electric-pole",
+        "position": {
+          "x": -286.5,
+          "y": 736.5
+        }
+      },
+      {
+        "entity_number": 44,
+        "name": "pipe",
+        "position": {
+          "x": -286.5,
+          "y": 740.5
+        }
+      },
+      {
+        "entity_number": 45,
+        "name": "medium-electric-pole",
+        "position": {
+          "x": -286.5,
+          "y": 741.5
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 46,
+        "name": "fast-transport-belt",
+        "position": {
+          "x": -285.5,
+          "y": 735.5
+        }
+      },
+      {
+        "direction": 8,
+        "entity_number": 47,
+        "name": "fast-inserter",
+        "position": {
+          "x": -285.5,
+          "y": 736.5
+        }
+      },
+      {
+        "direction": 8,
+        "entity_number": 48,
+        "name": "biochamber",
+        "position": {
+          "x": -285.5,
+          "y": 738.5
+        },
+        "recipe": "pentapod-egg",
+        "recipe_quality": "normal"
+      },
+      {
+        "direction": 12,
+        "entity_number": 49,
+        "name": "pipe-to-ground",
+        "position": {
+          "x": -285.5,
+          "y": 740.5
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 50,
+        "name": "fast-transport-belt",
+        "position": {
+          "x": -284.5,
+          "y": 735.5
+        }
+      },
+      {
+        "entity_number": 51,
+        "name": "fast-inserter",
+        "position": {
+          "x": -284.5,
+          "y": 736.5
+        }
+      },
+      {
+        "direction": 8,
+        "entity_number": 52,
+        "name": "fast-inserter",
+        "position": {
+          "x": -284.5,
+          "y": 740.5
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 53,
+        "name": "fast-underground-belt",
+        "position": {
+          "x": -284.5,
+          "y": 741.5
+        },
+        "type": "output"
+      },
+      {
+        "direction": 4,
+        "entity_number": 54,
+        "name": "fast-transport-belt",
+        "position": {
+          "x": -283.5,
+          "y": 735.5
+        }
+      },
+      {
+        "direction": 8,
+        "entity_number": 55,
+        "name": "fast-inserter",
+        "position": {
+          "x": -283.5,
+          "y": 740.5
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 56,
+        "name": "fast-underground-belt",
+        "position": {
+          "x": -283.5,
+          "y": 741.5
+        },
+        "type": "input"
+      },
+      {
+        "direction": 4,
+        "entity_number": 57,
+        "name": "fast-transport-belt",
+        "position": {
+          "x": -282.5,
+          "y": 735.5
+        }
+      },
+      {
+        "direction": 8,
+        "entity_number": 58,
+        "name": "fast-inserter",
+        "position": {
+          "x": -282.5,
+          "y": 736.5
+        }
+      },
+      {
+        "direction": 8,
+        "entity_number": 59,
+        "name": "biochamber",
+        "position": {
+          "x": -282.5,
+          "y": 738.5
+        },
+        "recipe": "pentapod-egg",
+        "recipe_quality": "normal"
+      },
+      {
+        "direction": 4,
+        "entity_number": 60,
+        "name": "pipe-to-ground",
+        "position": {
+          "x": -282.5,
+          "y": 740.5
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 61,
+        "name": "fast-transport-belt",
+        "position": {
+          "x": -281.5,
+          "y": 735.5
+        }
+      },
+      {
+        "entity_number": 62,
+        "name": "fast-inserter",
+        "position": {
+          "x": -281.5,
+          "y": 736.5
+        }
+      },
+      {
+        "entity_number": 63,
+        "name": "pipe",
+        "position": {
+          "x": -281.5,
+          "y": 740.5
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 64,
+        "name": "fast-transport-belt",
+        "position": {
+          "x": -280.5,
+          "y": 735.5
+        }
+      },
+      {
+        "entity_number": 65,
+        "name": "medium-electric-pole",
+        "position": {
+          "x": -280.5,
+          "y": 736.5
+        }
+      },
+      {
+        "entity_number": 66,
+        "name": "pipe",
+        "position": {
+          "x": -280.5,
+          "y": 740.5
+        }
+      },
+      {
+        "entity_number": 67,
+        "name": "medium-electric-pole",
+        "position": {
+          "x": -280.5,
+          "y": 741.5
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 68,
+        "name": "fast-transport-belt",
+        "position": {
+          "x": -279.5,
+          "y": 735.5
+        }
+      },
+      {
+        "direction": 8,
+        "entity_number": 69,
+        "name": "fast-inserter",
+        "position": {
+          "x": -279.5,
+          "y": 736.5
+        }
+      },
+      {
+        "direction": 8,
+        "entity_number": 70,
+        "name": "biochamber",
+        "position": {
+          "x": -279.5,
+          "y": 738.5
+        },
+        "recipe": "pentapod-egg",
+        "recipe_quality": "normal"
+      },
+      {
+        "direction": 12,
+        "entity_number": 71,
+        "name": "pipe-to-ground",
+        "position": {
+          "x": -279.5,
+          "y": 740.5
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 72,
+        "name": "fast-transport-belt",
+        "position": {
+          "x": -278.5,
+          "y": 735.5
+        }
+      },
+      {
+        "entity_number": 73,
+        "name": "fast-inserter",
+        "position": {
+          "x": -278.5,
+          "y": 736.5
+        }
+      },
+      {
+        "direction": 8,
+        "entity_number": 74,
+        "name": "fast-inserter",
+        "position": {
+          "x": -278.5,
+          "y": 740.5
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 75,
+        "name": "fast-underground-belt",
+        "position": {
+          "x": -278.5,
+          "y": 741.5
+        },
+        "type": "output"
+      },
+      {
+        "direction": 4,
+        "entity_number": 76,
+        "name": "fast-transport-belt",
+        "position": {
+          "x": -277.5,
+          "y": 735.5
+        }
+      },
+      {
+        "direction": 8,
+        "entity_number": 77,
+        "name": "inserter",
+        "position": {
+          "x": -277.5,
+          "y": 740.5
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 78,
+        "name": "fast-transport-belt",
+        "position": {
+          "x": -277.5,
+          "y": 741.5
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 79,
+        "name": "fast-transport-belt",
+        "position": {
+          "x": -276.5,
+          "y": 735.5
+        }
+      },
+      {
+        "entity_number": 80,
+        "name": "biochamber",
+        "position": {
+          "x": -276.5,
+          "y": 738.5
+        },
+        "recipe": "agricultural-science-pack",
+        "recipe_quality": "normal"
+      },
+      {
+        "direction": 4,
+        "entity_number": 81,
+        "name": "fast-transport-belt",
+        "position": {
+          "x": -276.5,
+          "y": 741.5
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 82,
+        "name": "fast-transport-belt",
+        "position": {
+          "x": -275.5,
+          "y": 735.5
+        }
+      },
+      {
+        "entity_number": 83,
+        "name": "inserter",
+        "position": {
+          "x": -275.5,
+          "y": 736.5
+        }
+      },
+      {
+        "entity_number": 84,
+        "name": "inserter",
+        "position": {
+          "x": -275.5,
+          "y": 740.5
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 85,
+        "name": "fast-transport-belt",
+        "position": {
+          "x": -275.5,
+          "y": 741.5
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 86,
+        "name": "fast-transport-belt",
+        "position": {
+          "x": -274.5,
+          "y": 735.5
+        }
+      },
+      {
+        "entity_number": 87,
+        "name": "inserter",
+        "position": {
+          "x": -274.5,
+          "y": 736.5
+        }
+      },
+      {
+        "entity_number": 88,
+        "name": "inserter",
+        "position": {
+          "x": -274.5,
+          "y": 740.5
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 89,
+        "name": "fast-transport-belt",
+        "position": {
+          "x": -274.5,
+          "y": 741.5
+        }
+      },
+      {
+        "direction": 12,
+        "entity_number": 90,
+        "filters": [
+          {
+            "comparator": "=",
+            "index": 1,
+            "name": "spoilage",
+            "quality": "normal"
+          }
+        ],
+        "name": "long-handed-inserter",
+        "position": {
+          "x": -273.5,
+          "y": 735.5
+        },
+        "use_filters": true
+      },
+      {
+        "entity_number": 91,
+        "name": "medium-electric-pole",
+        "position": {
+          "x": -273.5,
+          "y": 736.5
+        }
+      },
+      {
+        "entity_number": 92,
+        "name": "biochamber",
+        "position": {
+          "x": -273.5,
+          "y": 738.5
+        },
+        "recipe": "agricultural-science-pack",
+        "recipe_quality": "normal"
+      },
+      {
+        "entity_number": 93,
+        "name": "medium-electric-pole",
+        "position": {
+          "x": -273.5,
+          "y": 740.5
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 94,
+        "name": "fast-transport-belt",
+        "position": {
+          "x": -273.5,
+          "y": 741.5
+        }
+      },
+      {
+        "direction": 12,
+        "entity_number": 95,
+        "filters": [
+          {
+            "comparator": "=",
+            "index": 1,
+            "name": "spoilage",
+            "quality": "normal"
+          }
+        ],
+        "name": "long-handed-inserter",
+        "position": {
+          "x": -272.5,
+          "y": 735.5
+        },
+        "use_filters": true
+      },
+      {
+        "direction": 8,
+        "entity_number": 96,
+        "name": "inserter",
+        "position": {
+          "x": -272.5,
+          "y": 740.5
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 97,
+        "name": "fast-transport-belt",
+        "position": {
+          "x": -272.5,
+          "y": 741.5
+        }
+      },
+      {
+        "direction": 8,
+        "entity_number": 98,
+        "filters": [
+          {
+            "comparator": "=",
+            "index": 1,
+            "name": "spoilage",
+            "quality": "normal"
+          }
+        ],
+        "name": "long-handed-inserter",
+        "position": {
+          "x": -271.5,
+          "y": 738.5
+        },
+        "use_filters": true
+      },
+      {
+        "direction": 8,
+        "entity_number": 99,
+        "filters": [
+          {
+            "comparator": "=",
+            "index": 1,
+            "name": "spoilage",
+            "quality": "normal"
+          }
+        ],
+        "name": "long-handed-inserter",
+        "position": {
+          "x": -271.5,
+          "y": 739.5
+        },
+        "use_filters": true
+      },
+      {
+        "direction": 4,
+        "entity_number": 100,
+        "filter": {
+          "comparator": "=",
+          "name": "agricultural-science-pack",
+          "quality": "normal"
+        },
+        "name": "fast-splitter",
+        "output_priority": "right",
+        "position": {
+          "x": -271.5,
+          "y": 741
+        }
+      },
+      {
+        "entity_number": 101,
+        "name": "heating-tower",
+        "position": {
+          "x": -270.5,
+          "y": 736.5
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 102,
+        "name": "fast-transport-belt",
+        "position": {
+          "x": -270.5,
+          "y": 741.5
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 103,
+        "name": "fast-transport-belt",
+        "position": {
+          "x": -269.5,
+          "y": 741.5
+        }
+      }
+    ],
+    "icons": [
+      {
+        "index": 1,
+        "signal": {
+          "name": "agricultural-science-pack"
+        }
+      }
+    ],
+    "version": 562954249306113,
+    "wires": [
+      [
+        1,
+        1,
+        4,
+        1
+      ],
+      [
+        12,
+        5,
+        15,
+        5
+      ],
+      [
+        12,
+        5,
+        28,
+        5
+      ],
+      [
+        15,
+        5,
+        45,
+        5
+      ],
+      [
+        24,
+        1,
+        27,
+        1
+      ],
+      [
+        28,
+        5,
+        43,
+        5
+      ],
+      [
+        43,
+        5,
+        45,
+        5
+      ],
+      [
+        43,
+        5,
+        65,
+        5
+      ],
+      [
+        45,
+        5,
+        67,
+        5
+      ],
+      [
+        65,
+        5,
+        67,
+        5
+      ],
+      [
+        65,
+        5,
+        91,
+        5
+      ],
+      [
+        91,
+        5,
+        93,
+        5
+      ]
+    ]
+  },
+  "index": 3
+}

@@ -1,0 +1,1166 @@
+{
+  "blueprint": {
+    "item": "blueprint",
+    "label": "高等原油处理 [堆叠]",
+    "entities": [
+      {
+        "entity_number": 1,
+        "name": "pipe",
+        "position": {
+          "x": 0.5,
+          "y": 1.5
+        }
+      },
+      {
+        "entity_number": 2,
+        "name": "pipe",
+        "position": {
+          "x": 0.5,
+          "y": 5.5
+        }
+      },
+      {
+        "entity_number": 3,
+        "name": "pipe",
+        "position": {
+          "x": 0.5,
+          "y": 6.5
+        }
+      },
+      {
+        "entity_number": 4,
+        "name": "pipe",
+        "position": {
+          "x": 0.5,
+          "y": 7.5
+        }
+      },
+      {
+        "entity_number": 5,
+        "name": "pipe",
+        "position": {
+          "x": 0.5,
+          "y": 15.5
+        }
+      },
+      {
+        "direction": 12,
+        "entity_number": 6,
+        "name": "pipe-to-ground",
+        "position": {
+          "x": 1.5,
+          "y": 1.5
+        }
+      },
+      {
+        "direction": 8,
+        "entity_number": 7,
+        "name": "chemical-plant",
+        "position": {
+          "x": 1.5,
+          "y": 3.5
+        },
+        "recipe": "heavy-oil-cracking",
+        "recipe_quality": "normal"
+      },
+      {
+        "direction": 12,
+        "entity_number": 8,
+        "name": "pipe-to-ground",
+        "position": {
+          "x": 1.5,
+          "y": 5.5
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 9,
+        "name": "pipe-to-ground",
+        "position": {
+          "x": 1.5,
+          "y": 6.5
+        }
+      },
+      {
+        "entity_number": 10,
+        "name": "pipe",
+        "position": {
+          "x": 1.5,
+          "y": 13.5
+        }
+      },
+      {
+        "entity_number": 11,
+        "name": "pipe",
+        "position": {
+          "x": 1.5,
+          "y": 14.5
+        }
+      },
+      {
+        "entity_number": 12,
+        "name": "pipe",
+        "position": {
+          "x": 1.5,
+          "y": 15.5
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 13,
+        "name": "pipe-to-ground",
+        "position": {
+          "x": 2.5,
+          "y": 0.5
+        }
+      },
+      {
+        "entity_number": 14,
+        "name": "pipe-to-ground",
+        "position": {
+          "x": 2.5,
+          "y": 5.5
+        }
+      },
+      {
+        "entity_number": 15,
+        "name": "pipe",
+        "position": {
+          "x": 2.5,
+          "y": 6.5
+        }
+      },
+      {
+        "entity_number": 16,
+        "name": "pipe",
+        "position": {
+          "x": 2.5,
+          "y": 7.5
+        }
+      },
+      {
+        "entity_number": 17,
+        "name": "oil-refinery",
+        "position": {
+          "x": 2.5,
+          "y": 10.5
+        },
+        "recipe": "advanced-oil-processing",
+        "recipe_quality": "normal"
+      },
+      {
+        "direction": 4,
+        "entity_number": 18,
+        "name": "pipe-to-ground",
+        "position": {
+          "x": 2.5,
+          "y": 13.5
+        }
+      },
+      {
+        "direction": 8,
+        "entity_number": 19,
+        "name": "pipe-to-ground",
+        "position": {
+          "x": 2.5,
+          "y": 14.5
+        }
+      },
+      {
+        "entity_number": 20,
+        "name": "pipe",
+        "position": {
+          "x": 2.5,
+          "y": 15.5
+        }
+      },
+      {
+        "entity_number": 21,
+        "name": "pipe",
+        "position": {
+          "x": 3.5,
+          "y": 0.5
+        }
+      },
+      {
+        "entity_number": 22,
+        "name": "pipe",
+        "position": {
+          "x": 3.5,
+          "y": 1.5
+        }
+      },
+      {
+        "entity_number": 23,
+        "name": "pipe",
+        "position": {
+          "x": 3.5,
+          "y": 6.5
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 24,
+        "name": "pipe-to-ground",
+        "position": {
+          "x": 3.5,
+          "y": 7.5
+        }
+      },
+      {
+        "entity_number": 25,
+        "name": "pipe",
+        "position": {
+          "x": 3.5,
+          "y": 13.5
+        }
+      },
+      {
+        "direction": 12,
+        "entity_number": 26,
+        "name": "pipe-to-ground",
+        "position": {
+          "x": 3.5,
+          "y": 15.5
+        }
+      },
+      {
+        "direction": 12,
+        "entity_number": 27,
+        "name": "pipe-to-ground",
+        "position": {
+          "x": 4.5,
+          "y": 0.5
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 28,
+        "name": "pipe-to-ground",
+        "position": {
+          "x": 4.5,
+          "y": 1.5
+        }
+      },
+      {
+        "entity_number": 29,
+        "name": "chemical-plant",
+        "position": {
+          "x": 4.5,
+          "y": 3.5
+        },
+        "recipe": "light-oil-cracking",
+        "recipe_quality": "normal"
+      },
+      {
+        "entity_number": 30,
+        "name": "medium-electric-pole",
+        "position": {
+          "x": 4.5,
+          "y": 5.5
+        }
+      },
+      {
+        "direction": 12,
+        "entity_number": 31,
+        "name": "pipe-to-ground",
+        "position": {
+          "x": 4.5,
+          "y": 6.5
+        }
+      },
+      {
+        "entity_number": 32,
+        "name": "pipe",
+        "position": {
+          "x": 4.5,
+          "y": 7.5
+        }
+      },
+      {
+        "entity_number": 33,
+        "name": "pipe",
+        "position": {
+          "x": 4.5,
+          "y": 13.5
+        }
+      },
+      {
+        "entity_number": 34,
+        "name": "medium-electric-pole",
+        "position": {
+          "x": 4.5,
+          "y": 14.5
+        }
+      },
+      {
+        "entity_number": 35,
+        "name": "pipe",
+        "position": {
+          "x": 5.5,
+          "y": 1.5
+        }
+      },
+      {
+        "entity_number": 36,
+        "name": "pipe",
+        "position": {
+          "x": 5.5,
+          "y": 5.5
+        }
+      },
+      {
+        "entity_number": 37,
+        "name": "pipe",
+        "position": {
+          "x": 5.5,
+          "y": 6.5
+        }
+      },
+      {
+        "entity_number": 38,
+        "name": "pipe",
+        "position": {
+          "x": 5.5,
+          "y": 7.5
+        }
+      },
+      {
+        "entity_number": 39,
+        "name": "pipe",
+        "position": {
+          "x": 5.5,
+          "y": 13.5
+        }
+      },
+      {
+        "entity_number": 40,
+        "name": "pipe",
+        "position": {
+          "x": 6.5,
+          "y": 1.5
+        }
+      },
+      {
+        "entity_number": 41,
+        "name": "pipe",
+        "position": {
+          "x": 6.5,
+          "y": 5.5
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 42,
+        "name": "pipe-to-ground",
+        "position": {
+          "x": 6.5,
+          "y": 6.5
+        }
+      },
+      {
+        "direction": 12,
+        "entity_number": 43,
+        "name": "pipe-to-ground",
+        "position": {
+          "x": 6.5,
+          "y": 7.5
+        }
+      },
+      {
+        "entity_number": 44,
+        "name": "pipe",
+        "position": {
+          "x": 6.5,
+          "y": 13.5
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 45,
+        "name": "pipe-to-ground",
+        "position": {
+          "x": 7.5,
+          "y": 0.5
+        }
+      },
+      {
+        "direction": 12,
+        "entity_number": 46,
+        "name": "pipe-to-ground",
+        "position": {
+          "x": 7.5,
+          "y": 1.5
+        }
+      },
+      {
+        "entity_number": 47,
+        "mirror": true,
+        "name": "chemical-plant",
+        "position": {
+          "x": 7.5,
+          "y": 3.5
+        },
+        "recipe": "light-oil-cracking",
+        "recipe_quality": "normal"
+      },
+      {
+        "entity_number": 48,
+        "name": "pipe",
+        "position": {
+          "x": 7.5,
+          "y": 6.5
+        }
+      },
+      {
+        "entity_number": 49,
+        "name": "pipe",
+        "position": {
+          "x": 7.5,
+          "y": 7.5
+        }
+      },
+      {
+        "entity_number": 50,
+        "mirror": true,
+        "name": "oil-refinery",
+        "position": {
+          "x": 7.5,
+          "y": 10.5
+        },
+        "recipe": "advanced-oil-processing",
+        "recipe_quality": "normal"
+      },
+      {
+        "direction": 12,
+        "entity_number": 51,
+        "name": "pipe-to-ground",
+        "position": {
+          "x": 7.5,
+          "y": 13.5
+        }
+      },
+      {
+        "entity_number": 52,
+        "name": "pipe",
+        "position": {
+          "x": 8.5,
+          "y": 0.5
+        }
+      },
+      {
+        "entity_number": 53,
+        "name": "pipe",
+        "position": {
+          "x": 8.5,
+          "y": 1.5
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 54,
+        "name": "pipe-to-ground",
+        "position": {
+          "x": 8.5,
+          "y": 5.5
+        }
+      },
+      {
+        "direction": 12,
+        "entity_number": 55,
+        "name": "pipe-to-ground",
+        "position": {
+          "x": 8.5,
+          "y": 6.5
+        }
+      },
+      {
+        "entity_number": 56,
+        "name": "pipe",
+        "position": {
+          "x": 8.5,
+          "y": 13.5
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 57,
+        "name": "pipe-to-ground",
+        "position": {
+          "x": 8.5,
+          "y": 15.5
+        }
+      },
+      {
+        "entity_number": 58,
+        "name": "pipe",
+        "position": {
+          "x": 9.5,
+          "y": 0.5
+        }
+      },
+      {
+        "entity_number": 59,
+        "name": "pipe",
+        "position": {
+          "x": 9.5,
+          "y": 5.5
+        }
+      },
+      {
+        "entity_number": 60,
+        "name": "medium-electric-pole",
+        "position": {
+          "x": 9.5,
+          "y": 6.5
+        }
+      },
+      {
+        "entity_number": 61,
+        "name": "pipe",
+        "position": {
+          "x": 9.5,
+          "y": 7.5
+        }
+      },
+      {
+        "entity_number": 62,
+        "name": "pipe",
+        "position": {
+          "x": 9.5,
+          "y": 13.5
+        }
+      },
+      {
+        "entity_number": 63,
+        "name": "pipe",
+        "position": {
+          "x": 9.5,
+          "y": 14.5
+        }
+      },
+      {
+        "entity_number": 64,
+        "name": "pipe",
+        "position": {
+          "x": 9.5,
+          "y": 15.5
+        }
+      },
+      {
+        "entity_number": 65,
+        "name": "pipe",
+        "position": {
+          "x": 10.5,
+          "y": 0.5
+        }
+      },
+      {
+        "entity_number": 66,
+        "name": "pipe",
+        "position": {
+          "x": 10.5,
+          "y": 1.5
+        }
+      },
+      {
+        "entity_number": 67,
+        "name": "pipe",
+        "position": {
+          "x": 10.5,
+          "y": 2.5
+        }
+      },
+      {
+        "entity_number": 68,
+        "name": "pipe",
+        "position": {
+          "x": 10.5,
+          "y": 3.5
+        }
+      },
+      {
+        "entity_number": 69,
+        "name": "pipe-to-ground",
+        "position": {
+          "x": 10.5,
+          "y": 4.5
+        }
+      },
+      {
+        "entity_number": 70,
+        "name": "pipe",
+        "position": {
+          "x": 10.5,
+          "y": 5.5
+        }
+      },
+      {
+        "entity_number": 71,
+        "name": "pipe",
+        "position": {
+          "x": 10.5,
+          "y": 6.5
+        }
+      },
+      {
+        "entity_number": 72,
+        "name": "pipe",
+        "position": {
+          "x": 10.5,
+          "y": 7.5
+        }
+      },
+      {
+        "entity_number": 73,
+        "name": "pipe",
+        "position": {
+          "x": 10.5,
+          "y": 13.5
+        }
+      },
+      {
+        "direction": 8,
+        "entity_number": 74,
+        "name": "pipe-to-ground",
+        "position": {
+          "x": 10.5,
+          "y": 14.5
+        }
+      },
+      {
+        "entity_number": 75,
+        "name": "pipe",
+        "position": {
+          "x": 10.5,
+          "y": 15.5
+        }
+      },
+      {
+        "entity_number": 76,
+        "name": "pipe",
+        "position": {
+          "x": 11.5,
+          "y": 0.5
+        }
+      },
+      {
+        "direction": 12,
+        "entity_number": 77,
+        "name": "pipe-to-ground",
+        "position": {
+          "x": 11.5,
+          "y": 5.5
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 78,
+        "name": "pipe-to-ground",
+        "position": {
+          "x": 11.5,
+          "y": 6.5
+        }
+      },
+      {
+        "entity_number": 79,
+        "name": "pipe",
+        "position": {
+          "x": 11.5,
+          "y": 13.5
+        }
+      },
+      {
+        "direction": 12,
+        "entity_number": 80,
+        "name": "pipe-to-ground",
+        "position": {
+          "x": 11.5,
+          "y": 15.5
+        }
+      },
+      {
+        "direction": 12,
+        "entity_number": 81,
+        "name": "pipe-to-ground",
+        "position": {
+          "x": 12.5,
+          "y": 0.5
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 82,
+        "name": "pipe-to-ground",
+        "position": {
+          "x": 12.5,
+          "y": 1.5
+        }
+      },
+      {
+        "entity_number": 83,
+        "name": "chemical-plant",
+        "position": {
+          "x": 12.5,
+          "y": 3.5
+        },
+        "recipe": "light-oil-cracking",
+        "recipe_quality": "normal"
+      },
+      {
+        "entity_number": 84,
+        "name": "pipe",
+        "position": {
+          "x": 12.5,
+          "y": 6.5
+        }
+      },
+      {
+        "entity_number": 85,
+        "name": "pipe",
+        "position": {
+          "x": 12.5,
+          "y": 7.5
+        }
+      },
+      {
+        "entity_number": 86,
+        "name": "oil-refinery",
+        "position": {
+          "x": 12.5,
+          "y": 10.5
+        },
+        "recipe": "advanced-oil-processing",
+        "recipe_quality": "normal"
+      },
+      {
+        "direction": 4,
+        "entity_number": 87,
+        "name": "pipe-to-ground",
+        "position": {
+          "x": 12.5,
+          "y": 13.5
+        }
+      },
+      {
+        "entity_number": 88,
+        "name": "pipe",
+        "position": {
+          "x": 13.5,
+          "y": 1.5
+        }
+      },
+      {
+        "entity_number": 89,
+        "name": "pipe",
+        "position": {
+          "x": 13.5,
+          "y": 5.5
+        }
+      },
+      {
+        "direction": 12,
+        "entity_number": 90,
+        "name": "pipe-to-ground",
+        "position": {
+          "x": 13.5,
+          "y": 6.5
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 91,
+        "name": "pipe-to-ground",
+        "position": {
+          "x": 13.5,
+          "y": 7.5
+        }
+      },
+      {
+        "entity_number": 92,
+        "name": "pipe",
+        "position": {
+          "x": 13.5,
+          "y": 13.5
+        }
+      },
+      {
+        "entity_number": 93,
+        "name": "pipe",
+        "position": {
+          "x": 14.5,
+          "y": 1.5
+        }
+      },
+      {
+        "entity_number": 94,
+        "name": "pipe",
+        "position": {
+          "x": 14.5,
+          "y": 5.5
+        }
+      },
+      {
+        "entity_number": 95,
+        "name": "pipe",
+        "position": {
+          "x": 14.5,
+          "y": 6.5
+        }
+      },
+      {
+        "entity_number": 96,
+        "name": "pipe",
+        "position": {
+          "x": 14.5,
+          "y": 7.5
+        }
+      },
+      {
+        "entity_number": 97,
+        "name": "pipe",
+        "position": {
+          "x": 14.5,
+          "y": 13.5
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 98,
+        "name": "pipe-to-ground",
+        "position": {
+          "x": 15.5,
+          "y": 0.5
+        }
+      },
+      {
+        "direction": 12,
+        "entity_number": 99,
+        "name": "pipe-to-ground",
+        "position": {
+          "x": 15.5,
+          "y": 1.5
+        }
+      },
+      {
+        "entity_number": 100,
+        "mirror": true,
+        "name": "chemical-plant",
+        "position": {
+          "x": 15.5,
+          "y": 3.5
+        },
+        "recipe": "light-oil-cracking",
+        "recipe_quality": "normal"
+      },
+      {
+        "entity_number": 101,
+        "name": "medium-electric-pole",
+        "position": {
+          "x": 15.5,
+          "y": 5.5
+        }
+      },
+      {
+        "entity_number": 102,
+        "name": "pipe",
+        "position": {
+          "x": 15.5,
+          "y": 7.5
+        }
+      },
+      {
+        "entity_number": 103,
+        "name": "pipe",
+        "position": {
+          "x": 15.5,
+          "y": 13.5
+        }
+      },
+      {
+        "entity_number": 104,
+        "name": "medium-electric-pole",
+        "position": {
+          "x": 15.5,
+          "y": 14.5
+        }
+      },
+      {
+        "entity_number": 105,
+        "name": "pipe",
+        "position": {
+          "x": 16.5,
+          "y": 0.5
+        }
+      },
+      {
+        "entity_number": 106,
+        "name": "pipe",
+        "position": {
+          "x": 16.5,
+          "y": 1.5
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 107,
+        "name": "pipe-to-ground",
+        "position": {
+          "x": 16.5,
+          "y": 6.5
+        }
+      },
+      {
+        "direction": 12,
+        "entity_number": 108,
+        "name": "pipe-to-ground",
+        "position": {
+          "x": 16.5,
+          "y": 7.5
+        }
+      },
+      {
+        "entity_number": 109,
+        "name": "pipe",
+        "position": {
+          "x": 16.5,
+          "y": 13.5
+        }
+      },
+      {
+        "direction": 12,
+        "entity_number": 110,
+        "name": "pipe-to-ground",
+        "position": {
+          "x": 17.5,
+          "y": 0.5
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 111,
+        "name": "pipe-to-ground",
+        "position": {
+          "x": 17.5,
+          "y": 1.5
+        }
+      },
+      {
+        "entity_number": 112,
+        "name": "pipe",
+        "position": {
+          "x": 17.5,
+          "y": 2.5
+        }
+      },
+      {
+        "entity_number": 113,
+        "name": "pipe",
+        "position": {
+          "x": 17.5,
+          "y": 3.5
+        }
+      },
+      {
+        "entity_number": 114,
+        "name": "pipe",
+        "position": {
+          "x": 17.5,
+          "y": 4.5
+        }
+      },
+      {
+        "entity_number": 115,
+        "name": "pipe",
+        "position": {
+          "x": 17.5,
+          "y": 5.5
+        }
+      },
+      {
+        "entity_number": 116,
+        "name": "pipe",
+        "position": {
+          "x": 17.5,
+          "y": 6.5
+        }
+      },
+      {
+        "entity_number": 117,
+        "name": "pipe",
+        "position": {
+          "x": 17.5,
+          "y": 7.5
+        }
+      },
+      {
+        "entity_number": 118,
+        "mirror": true,
+        "name": "oil-refinery",
+        "position": {
+          "x": 17.5,
+          "y": 10.5
+        },
+        "recipe": "advanced-oil-processing",
+        "recipe_quality": "normal"
+      },
+      {
+        "direction": 12,
+        "entity_number": 119,
+        "name": "pipe-to-ground",
+        "position": {
+          "x": 17.5,
+          "y": 13.5
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 120,
+        "name": "pipe-to-ground",
+        "position": {
+          "x": 17.5,
+          "y": 15.5
+        }
+      },
+      {
+        "entity_number": 121,
+        "name": "pipe",
+        "position": {
+          "x": 18.5,
+          "y": 1.5
+        }
+      },
+      {
+        "entity_number": 122,
+        "name": "pipe",
+        "position": {
+          "x": 18.5,
+          "y": 2.5
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 123,
+        "name": "pipe-to-ground",
+        "position": {
+          "x": 18.5,
+          "y": 5.5
+        }
+      },
+      {
+        "direction": 12,
+        "entity_number": 124,
+        "name": "pipe-to-ground",
+        "position": {
+          "x": 18.5,
+          "y": 6.5
+        }
+      },
+      {
+        "entity_number": 125,
+        "name": "pipe",
+        "position": {
+          "x": 18.5,
+          "y": 13.5
+        }
+      },
+      {
+        "entity_number": 126,
+        "name": "pipe",
+        "position": {
+          "x": 18.5,
+          "y": 14.5
+        }
+      },
+      {
+        "entity_number": 127,
+        "name": "pipe",
+        "position": {
+          "x": 18.5,
+          "y": 15.5
+        }
+      },
+      {
+        "entity_number": 128,
+        "name": "pipe",
+        "position": {
+          "x": 19.5,
+          "y": 1.5
+        }
+      },
+      {
+        "entity_number": 129,
+        "name": "pipe",
+        "position": {
+          "x": 19.5,
+          "y": 5.5
+        }
+      },
+      {
+        "entity_number": 130,
+        "name": "pipe",
+        "position": {
+          "x": 19.5,
+          "y": 6.5
+        }
+      },
+      {
+        "entity_number": 131,
+        "name": "pipe",
+        "position": {
+          "x": 19.5,
+          "y": 7.5
+        }
+      },
+      {
+        "entity_number": 132,
+        "name": "pipe",
+        "position": {
+          "x": 19.5,
+          "y": 15.5
+        }
+      }
+    ],
+    "icons": [
+      {
+        "index": 1,
+        "signal": {
+          "name": "advanced-oil-processing",
+          "type": "recipe"
+        }
+      }
+    ],
+    "snap-to-grid": {
+      "x": 20,
+      "y": 16
+    },
+    "version": 562954249306113,
+    "wires": [
+      [
+        30,
+        5,
+        60,
+        5
+      ],
+      [
+        30,
+        5,
+        34,
+        5
+      ],
+      [
+        60,
+        5,
+        101,
+        5
+      ],
+      [
+        101,
+        5,
+        104,
+        5
+      ]
+    ]
+  },
+  "index": 0
+}

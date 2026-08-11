@@ -1,0 +1,2097 @@
+{
+  "blueprint": {
+    "item": "blueprint",
+    "label": "雷神星蓄电单元 [对齐]",
+    "absolute-snapping": true,
+    "entities": [
+      {
+        "entity_number": 1,
+        "name": "accumulator",
+        "position": {
+          "x": 1,
+          "y": 1
+        }
+      },
+      {
+        "entity_number": 2,
+        "name": "accumulator",
+        "position": {
+          "x": 1,
+          "y": 3
+        }
+      },
+      {
+        "entity_number": 3,
+        "name": "accumulator",
+        "position": {
+          "x": 1,
+          "y": 5
+        }
+      },
+      {
+        "entity_number": 4,
+        "name": "accumulator",
+        "position": {
+          "x": 1,
+          "y": 7
+        }
+      },
+      {
+        "entity_number": 5,
+        "name": "accumulator",
+        "position": {
+          "x": 1,
+          "y": 9
+        }
+      },
+      {
+        "entity_number": 6,
+        "name": "accumulator",
+        "position": {
+          "x": 1,
+          "y": 11
+        }
+      },
+      {
+        "entity_number": 7,
+        "name": "accumulator",
+        "position": {
+          "x": 1,
+          "y": 13
+        }
+      },
+      {
+        "entity_number": 8,
+        "name": "accumulator",
+        "position": {
+          "x": 1,
+          "y": 15
+        }
+      },
+      {
+        "entity_number": 9,
+        "name": "accumulator",
+        "position": {
+          "x": 1,
+          "y": 17
+        }
+      },
+      {
+        "entity_number": 10,
+        "name": "accumulator",
+        "position": {
+          "x": 1,
+          "y": 19
+        }
+      },
+      {
+        "entity_number": 11,
+        "name": "accumulator",
+        "position": {
+          "x": 1,
+          "y": 21
+        }
+      },
+      {
+        "entity_number": 12,
+        "name": "accumulator",
+        "position": {
+          "x": 1,
+          "y": 23
+        }
+      },
+      {
+        "entity_number": 13,
+        "name": "accumulator",
+        "position": {
+          "x": 1,
+          "y": 25
+        }
+      },
+      {
+        "entity_number": 14,
+        "name": "accumulator",
+        "position": {
+          "x": 1,
+          "y": 27
+        }
+      },
+      {
+        "entity_number": 15,
+        "name": "accumulator",
+        "position": {
+          "x": 1,
+          "y": 29
+        }
+      },
+      {
+        "entity_number": 16,
+        "name": "accumulator",
+        "position": {
+          "x": 1,
+          "y": 31
+        }
+      },
+      {
+        "entity_number": 17,
+        "name": "accumulator",
+        "position": {
+          "x": 3,
+          "y": 1
+        }
+      },
+      {
+        "entity_number": 18,
+        "name": "accumulator",
+        "position": {
+          "x": 3,
+          "y": 3
+        }
+      },
+      {
+        "entity_number": 19,
+        "name": "accumulator",
+        "position": {
+          "x": 3,
+          "y": 5
+        }
+      },
+      {
+        "entity_number": 20,
+        "name": "accumulator",
+        "position": {
+          "x": 3,
+          "y": 7
+        }
+      },
+      {
+        "entity_number": 21,
+        "name": "accumulator",
+        "position": {
+          "x": 3,
+          "y": 9
+        }
+      },
+      {
+        "entity_number": 22,
+        "name": "accumulator",
+        "position": {
+          "x": 3,
+          "y": 11
+        }
+      },
+      {
+        "entity_number": 23,
+        "name": "accumulator",
+        "position": {
+          "x": 3,
+          "y": 13
+        }
+      },
+      {
+        "entity_number": 24,
+        "name": "accumulator",
+        "position": {
+          "x": 3,
+          "y": 15
+        }
+      },
+      {
+        "entity_number": 25,
+        "name": "accumulator",
+        "position": {
+          "x": 3,
+          "y": 17
+        }
+      },
+      {
+        "entity_number": 26,
+        "name": "accumulator",
+        "position": {
+          "x": 3,
+          "y": 19
+        }
+      },
+      {
+        "entity_number": 27,
+        "name": "accumulator",
+        "position": {
+          "x": 3,
+          "y": 21
+        }
+      },
+      {
+        "entity_number": 28,
+        "name": "accumulator",
+        "position": {
+          "x": 3,
+          "y": 23
+        }
+      },
+      {
+        "entity_number": 29,
+        "name": "accumulator",
+        "position": {
+          "x": 3,
+          "y": 25
+        }
+      },
+      {
+        "entity_number": 30,
+        "name": "accumulator",
+        "position": {
+          "x": 3,
+          "y": 27
+        }
+      },
+      {
+        "entity_number": 31,
+        "name": "accumulator",
+        "position": {
+          "x": 3,
+          "y": 29
+        }
+      },
+      {
+        "entity_number": 32,
+        "name": "accumulator",
+        "position": {
+          "x": 3,
+          "y": 31
+        }
+      },
+      {
+        "entity_number": 33,
+        "name": "accumulator",
+        "position": {
+          "x": 5,
+          "y": 1
+        }
+      },
+      {
+        "entity_number": 34,
+        "name": "accumulator",
+        "position": {
+          "x": 5,
+          "y": 3
+        }
+      },
+      {
+        "entity_number": 35,
+        "name": "accumulator",
+        "position": {
+          "x": 5,
+          "y": 5
+        }
+      },
+      {
+        "entity_number": 36,
+        "name": "accumulator",
+        "position": {
+          "x": 5,
+          "y": 7
+        }
+      },
+      {
+        "entity_number": 37,
+        "name": "accumulator",
+        "position": {
+          "x": 5,
+          "y": 9
+        }
+      },
+      {
+        "entity_number": 38,
+        "name": "accumulator",
+        "position": {
+          "x": 5,
+          "y": 11
+        }
+      },
+      {
+        "entity_number": 39,
+        "name": "accumulator",
+        "position": {
+          "x": 5,
+          "y": 13
+        }
+      },
+      {
+        "entity_number": 40,
+        "name": "accumulator",
+        "position": {
+          "x": 5,
+          "y": 15
+        }
+      },
+      {
+        "entity_number": 41,
+        "name": "accumulator",
+        "position": {
+          "x": 5,
+          "y": 17
+        }
+      },
+      {
+        "entity_number": 42,
+        "name": "accumulator",
+        "position": {
+          "x": 5,
+          "y": 19
+        }
+      },
+      {
+        "entity_number": 43,
+        "name": "accumulator",
+        "position": {
+          "x": 5,
+          "y": 21
+        }
+      },
+      {
+        "entity_number": 44,
+        "name": "accumulator",
+        "position": {
+          "x": 5,
+          "y": 23
+        }
+      },
+      {
+        "entity_number": 45,
+        "name": "accumulator",
+        "position": {
+          "x": 5,
+          "y": 25
+        }
+      },
+      {
+        "entity_number": 46,
+        "name": "accumulator",
+        "position": {
+          "x": 5,
+          "y": 27
+        }
+      },
+      {
+        "entity_number": 47,
+        "name": "accumulator",
+        "position": {
+          "x": 5,
+          "y": 29
+        }
+      },
+      {
+        "entity_number": 48,
+        "name": "accumulator",
+        "position": {
+          "x": 5,
+          "y": 31
+        }
+      },
+      {
+        "entity_number": 49,
+        "name": "accumulator",
+        "position": {
+          "x": 7,
+          "y": 1
+        }
+      },
+      {
+        "entity_number": 50,
+        "name": "accumulator",
+        "position": {
+          "x": 7,
+          "y": 3
+        }
+      },
+      {
+        "entity_number": 51,
+        "name": "accumulator",
+        "position": {
+          "x": 7,
+          "y": 5
+        }
+      },
+      {
+        "entity_number": 52,
+        "name": "substation",
+        "position": {
+          "x": 7,
+          "y": 7
+        }
+      },
+      {
+        "entity_number": 53,
+        "name": "accumulator",
+        "position": {
+          "x": 7,
+          "y": 9
+        }
+      },
+      {
+        "entity_number": 54,
+        "name": "accumulator",
+        "position": {
+          "x": 7,
+          "y": 11
+        }
+      },
+      {
+        "entity_number": 55,
+        "name": "accumulator",
+        "position": {
+          "x": 7,
+          "y": 13
+        }
+      },
+      {
+        "entity_number": 56,
+        "name": "accumulator",
+        "position": {
+          "x": 7,
+          "y": 15
+        }
+      },
+      {
+        "entity_number": 57,
+        "name": "accumulator",
+        "position": {
+          "x": 7,
+          "y": 17
+        }
+      },
+      {
+        "entity_number": 58,
+        "name": "accumulator",
+        "position": {
+          "x": 7,
+          "y": 19
+        }
+      },
+      {
+        "entity_number": 59,
+        "name": "accumulator",
+        "position": {
+          "x": 7,
+          "y": 21
+        }
+      },
+      {
+        "entity_number": 60,
+        "name": "accumulator",
+        "position": {
+          "x": 7,
+          "y": 23
+        }
+      },
+      {
+        "entity_number": 61,
+        "name": "substation",
+        "position": {
+          "x": 7,
+          "y": 25
+        }
+      },
+      {
+        "entity_number": 62,
+        "name": "accumulator",
+        "position": {
+          "x": 7,
+          "y": 27
+        }
+      },
+      {
+        "entity_number": 63,
+        "name": "accumulator",
+        "position": {
+          "x": 7,
+          "y": 29
+        }
+      },
+      {
+        "entity_number": 64,
+        "name": "accumulator",
+        "position": {
+          "x": 7,
+          "y": 31
+        }
+      },
+      {
+        "entity_number": 65,
+        "name": "accumulator",
+        "position": {
+          "x": 9,
+          "y": 1
+        }
+      },
+      {
+        "entity_number": 66,
+        "name": "accumulator",
+        "position": {
+          "x": 9,
+          "y": 3
+        }
+      },
+      {
+        "entity_number": 67,
+        "name": "accumulator",
+        "position": {
+          "x": 9,
+          "y": 5
+        }
+      },
+      {
+        "entity_number": 68,
+        "name": "accumulator",
+        "position": {
+          "x": 9,
+          "y": 7
+        }
+      },
+      {
+        "entity_number": 69,
+        "name": "accumulator",
+        "position": {
+          "x": 9,
+          "y": 9
+        }
+      },
+      {
+        "entity_number": 70,
+        "name": "accumulator",
+        "position": {
+          "x": 9,
+          "y": 11
+        }
+      },
+      {
+        "entity_number": 71,
+        "name": "accumulator",
+        "position": {
+          "x": 9,
+          "y": 13
+        }
+      },
+      {
+        "entity_number": 72,
+        "name": "accumulator",
+        "position": {
+          "x": 9,
+          "y": 15
+        }
+      },
+      {
+        "entity_number": 73,
+        "name": "accumulator",
+        "position": {
+          "x": 9,
+          "y": 17
+        }
+      },
+      {
+        "entity_number": 74,
+        "name": "accumulator",
+        "position": {
+          "x": 9,
+          "y": 19
+        }
+      },
+      {
+        "entity_number": 75,
+        "name": "accumulator",
+        "position": {
+          "x": 9,
+          "y": 21
+        }
+      },
+      {
+        "entity_number": 76,
+        "name": "accumulator",
+        "position": {
+          "x": 9,
+          "y": 23
+        }
+      },
+      {
+        "entity_number": 77,
+        "name": "accumulator",
+        "position": {
+          "x": 9,
+          "y": 25
+        }
+      },
+      {
+        "entity_number": 78,
+        "name": "accumulator",
+        "position": {
+          "x": 9,
+          "y": 27
+        }
+      },
+      {
+        "entity_number": 79,
+        "name": "accumulator",
+        "position": {
+          "x": 9,
+          "y": 29
+        }
+      },
+      {
+        "entity_number": 80,
+        "name": "accumulator",
+        "position": {
+          "x": 9,
+          "y": 31
+        }
+      },
+      {
+        "entity_number": 81,
+        "name": "accumulator",
+        "position": {
+          "x": 11,
+          "y": 1
+        }
+      },
+      {
+        "entity_number": 82,
+        "name": "accumulator",
+        "position": {
+          "x": 11,
+          "y": 3
+        }
+      },
+      {
+        "entity_number": 83,
+        "name": "accumulator",
+        "position": {
+          "x": 11,
+          "y": 5
+        }
+      },
+      {
+        "entity_number": 84,
+        "name": "accumulator",
+        "position": {
+          "x": 11,
+          "y": 7
+        }
+      },
+      {
+        "entity_number": 85,
+        "name": "accumulator",
+        "position": {
+          "x": 11,
+          "y": 9
+        }
+      },
+      {
+        "entity_number": 86,
+        "name": "accumulator",
+        "position": {
+          "x": 11,
+          "y": 11
+        }
+      },
+      {
+        "entity_number": 87,
+        "name": "accumulator",
+        "position": {
+          "x": 11,
+          "y": 13
+        }
+      },
+      {
+        "entity_number": 88,
+        "name": "accumulator",
+        "position": {
+          "x": 11,
+          "y": 15
+        }
+      },
+      {
+        "entity_number": 89,
+        "name": "accumulator",
+        "position": {
+          "x": 11,
+          "y": 17
+        }
+      },
+      {
+        "entity_number": 90,
+        "name": "accumulator",
+        "position": {
+          "x": 11,
+          "y": 19
+        }
+      },
+      {
+        "entity_number": 91,
+        "name": "accumulator",
+        "position": {
+          "x": 11,
+          "y": 21
+        }
+      },
+      {
+        "entity_number": 92,
+        "name": "accumulator",
+        "position": {
+          "x": 11,
+          "y": 23
+        }
+      },
+      {
+        "entity_number": 93,
+        "name": "accumulator",
+        "position": {
+          "x": 11,
+          "y": 25
+        }
+      },
+      {
+        "entity_number": 94,
+        "name": "accumulator",
+        "position": {
+          "x": 11,
+          "y": 27
+        }
+      },
+      {
+        "entity_number": 95,
+        "name": "accumulator",
+        "position": {
+          "x": 11,
+          "y": 29
+        }
+      },
+      {
+        "entity_number": 96,
+        "name": "accumulator",
+        "position": {
+          "x": 11,
+          "y": 31
+        }
+      },
+      {
+        "entity_number": 97,
+        "name": "accumulator",
+        "position": {
+          "x": 13,
+          "y": 1
+        }
+      },
+      {
+        "entity_number": 98,
+        "name": "accumulator",
+        "position": {
+          "x": 13,
+          "y": 3
+        }
+      },
+      {
+        "entity_number": 99,
+        "name": "accumulator",
+        "position": {
+          "x": 13,
+          "y": 5
+        }
+      },
+      {
+        "entity_number": 100,
+        "name": "accumulator",
+        "position": {
+          "x": 13,
+          "y": 7
+        }
+      },
+      {
+        "entity_number": 101,
+        "name": "accumulator",
+        "position": {
+          "x": 13,
+          "y": 9
+        }
+      },
+      {
+        "entity_number": 102,
+        "name": "accumulator",
+        "position": {
+          "x": 13,
+          "y": 11
+        }
+      },
+      {
+        "entity_number": 103,
+        "name": "accumulator",
+        "position": {
+          "x": 13,
+          "y": 13
+        }
+      },
+      {
+        "entity_number": 104,
+        "name": "accumulator",
+        "position": {
+          "x": 13,
+          "y": 15
+        }
+      },
+      {
+        "entity_number": 105,
+        "name": "accumulator",
+        "position": {
+          "x": 13,
+          "y": 17
+        }
+      },
+      {
+        "entity_number": 106,
+        "name": "accumulator",
+        "position": {
+          "x": 13,
+          "y": 19
+        }
+      },
+      {
+        "entity_number": 107,
+        "name": "accumulator",
+        "position": {
+          "x": 13,
+          "y": 21
+        }
+      },
+      {
+        "entity_number": 108,
+        "name": "accumulator",
+        "position": {
+          "x": 13,
+          "y": 23
+        }
+      },
+      {
+        "entity_number": 109,
+        "name": "accumulator",
+        "position": {
+          "x": 13,
+          "y": 25
+        }
+      },
+      {
+        "entity_number": 110,
+        "name": "accumulator",
+        "position": {
+          "x": 13,
+          "y": 27
+        }
+      },
+      {
+        "entity_number": 111,
+        "name": "accumulator",
+        "position": {
+          "x": 13,
+          "y": 29
+        }
+      },
+      {
+        "entity_number": 112,
+        "name": "accumulator",
+        "position": {
+          "x": 13,
+          "y": 31
+        }
+      },
+      {
+        "entity_number": 113,
+        "name": "accumulator",
+        "position": {
+          "x": 15,
+          "y": 1
+        }
+      },
+      {
+        "entity_number": 114,
+        "name": "accumulator",
+        "position": {
+          "x": 15,
+          "y": 3
+        }
+      },
+      {
+        "entity_number": 115,
+        "name": "accumulator",
+        "position": {
+          "x": 15,
+          "y": 5
+        }
+      },
+      {
+        "entity_number": 116,
+        "name": "accumulator",
+        "position": {
+          "x": 15,
+          "y": 7
+        }
+      },
+      {
+        "entity_number": 117,
+        "name": "accumulator",
+        "position": {
+          "x": 15,
+          "y": 9
+        }
+      },
+      {
+        "entity_number": 118,
+        "name": "accumulator",
+        "position": {
+          "x": 15,
+          "y": 11
+        }
+      },
+      {
+        "entity_number": 119,
+        "name": "accumulator",
+        "position": {
+          "x": 15,
+          "y": 13
+        }
+      },
+      {
+        "entity_number": 120,
+        "name": "lightning-collector",
+        "position": {
+          "x": 15,
+          "y": 15
+        }
+      },
+      {
+        "entity_number": 121,
+        "name": "accumulator",
+        "position": {
+          "x": 15,
+          "y": 17
+        }
+      },
+      {
+        "entity_number": 122,
+        "name": "accumulator",
+        "position": {
+          "x": 15,
+          "y": 19
+        }
+      },
+      {
+        "entity_number": 123,
+        "name": "accumulator",
+        "position": {
+          "x": 15,
+          "y": 21
+        }
+      },
+      {
+        "entity_number": 124,
+        "name": "accumulator",
+        "position": {
+          "x": 15,
+          "y": 23
+        }
+      },
+      {
+        "entity_number": 125,
+        "name": "accumulator",
+        "position": {
+          "x": 15,
+          "y": 25
+        }
+      },
+      {
+        "entity_number": 126,
+        "name": "accumulator",
+        "position": {
+          "x": 15,
+          "y": 27
+        }
+      },
+      {
+        "entity_number": 127,
+        "name": "accumulator",
+        "position": {
+          "x": 15,
+          "y": 29
+        }
+      },
+      {
+        "entity_number": 128,
+        "name": "accumulator",
+        "position": {
+          "x": 15,
+          "y": 31
+        }
+      },
+      {
+        "entity_number": 129,
+        "name": "accumulator",
+        "position": {
+          "x": 17,
+          "y": 1
+        }
+      },
+      {
+        "entity_number": 130,
+        "name": "accumulator",
+        "position": {
+          "x": 17,
+          "y": 3
+        }
+      },
+      {
+        "entity_number": 131,
+        "name": "accumulator",
+        "position": {
+          "x": 17,
+          "y": 5
+        }
+      },
+      {
+        "entity_number": 132,
+        "name": "accumulator",
+        "position": {
+          "x": 17,
+          "y": 7
+        }
+      },
+      {
+        "entity_number": 133,
+        "name": "accumulator",
+        "position": {
+          "x": 17,
+          "y": 9
+        }
+      },
+      {
+        "entity_number": 134,
+        "name": "accumulator",
+        "position": {
+          "x": 17,
+          "y": 11
+        }
+      },
+      {
+        "entity_number": 135,
+        "name": "accumulator",
+        "position": {
+          "x": 17,
+          "y": 13
+        }
+      },
+      {
+        "entity_number": 136,
+        "name": "accumulator",
+        "position": {
+          "x": 17,
+          "y": 15
+        }
+      },
+      {
+        "entity_number": 137,
+        "name": "accumulator",
+        "position": {
+          "x": 17,
+          "y": 17
+        }
+      },
+      {
+        "entity_number": 138,
+        "name": "accumulator",
+        "position": {
+          "x": 17,
+          "y": 19
+        }
+      },
+      {
+        "entity_number": 139,
+        "name": "accumulator",
+        "position": {
+          "x": 17,
+          "y": 21
+        }
+      },
+      {
+        "entity_number": 140,
+        "name": "accumulator",
+        "position": {
+          "x": 17,
+          "y": 23
+        }
+      },
+      {
+        "entity_number": 141,
+        "name": "accumulator",
+        "position": {
+          "x": 17,
+          "y": 25
+        }
+      },
+      {
+        "entity_number": 142,
+        "name": "accumulator",
+        "position": {
+          "x": 17,
+          "y": 27
+        }
+      },
+      {
+        "entity_number": 143,
+        "name": "accumulator",
+        "position": {
+          "x": 17,
+          "y": 29
+        }
+      },
+      {
+        "entity_number": 144,
+        "name": "accumulator",
+        "position": {
+          "x": 17,
+          "y": 31
+        }
+      },
+      {
+        "entity_number": 145,
+        "name": "accumulator",
+        "position": {
+          "x": 19,
+          "y": 1
+        }
+      },
+      {
+        "entity_number": 146,
+        "name": "accumulator",
+        "position": {
+          "x": 19,
+          "y": 3
+        }
+      },
+      {
+        "entity_number": 147,
+        "name": "accumulator",
+        "position": {
+          "x": 19,
+          "y": 5
+        }
+      },
+      {
+        "entity_number": 148,
+        "name": "accumulator",
+        "position": {
+          "x": 19,
+          "y": 7
+        }
+      },
+      {
+        "entity_number": 149,
+        "name": "accumulator",
+        "position": {
+          "x": 19,
+          "y": 9
+        }
+      },
+      {
+        "entity_number": 150,
+        "name": "accumulator",
+        "position": {
+          "x": 19,
+          "y": 11
+        }
+      },
+      {
+        "entity_number": 151,
+        "name": "accumulator",
+        "position": {
+          "x": 19,
+          "y": 13
+        }
+      },
+      {
+        "entity_number": 152,
+        "name": "accumulator",
+        "position": {
+          "x": 19,
+          "y": 15
+        }
+      },
+      {
+        "entity_number": 153,
+        "name": "accumulator",
+        "position": {
+          "x": 19,
+          "y": 17
+        }
+      },
+      {
+        "entity_number": 154,
+        "name": "accumulator",
+        "position": {
+          "x": 19,
+          "y": 19
+        }
+      },
+      {
+        "entity_number": 155,
+        "name": "accumulator",
+        "position": {
+          "x": 19,
+          "y": 21
+        }
+      },
+      {
+        "entity_number": 156,
+        "name": "accumulator",
+        "position": {
+          "x": 19,
+          "y": 23
+        }
+      },
+      {
+        "entity_number": 157,
+        "name": "accumulator",
+        "position": {
+          "x": 19,
+          "y": 25
+        }
+      },
+      {
+        "entity_number": 158,
+        "name": "accumulator",
+        "position": {
+          "x": 19,
+          "y": 27
+        }
+      },
+      {
+        "entity_number": 159,
+        "name": "accumulator",
+        "position": {
+          "x": 19,
+          "y": 29
+        }
+      },
+      {
+        "entity_number": 160,
+        "name": "accumulator",
+        "position": {
+          "x": 19,
+          "y": 31
+        }
+      },
+      {
+        "entity_number": 161,
+        "name": "accumulator",
+        "position": {
+          "x": 21,
+          "y": 1
+        }
+      },
+      {
+        "entity_number": 162,
+        "name": "accumulator",
+        "position": {
+          "x": 21,
+          "y": 3
+        }
+      },
+      {
+        "entity_number": 163,
+        "name": "accumulator",
+        "position": {
+          "x": 21,
+          "y": 5
+        }
+      },
+      {
+        "entity_number": 164,
+        "name": "accumulator",
+        "position": {
+          "x": 21,
+          "y": 7
+        }
+      },
+      {
+        "entity_number": 165,
+        "name": "accumulator",
+        "position": {
+          "x": 21,
+          "y": 9
+        }
+      },
+      {
+        "entity_number": 166,
+        "name": "accumulator",
+        "position": {
+          "x": 21,
+          "y": 11
+        }
+      },
+      {
+        "entity_number": 167,
+        "name": "accumulator",
+        "position": {
+          "x": 21,
+          "y": 13
+        }
+      },
+      {
+        "entity_number": 168,
+        "name": "accumulator",
+        "position": {
+          "x": 21,
+          "y": 15
+        }
+      },
+      {
+        "entity_number": 169,
+        "name": "accumulator",
+        "position": {
+          "x": 21,
+          "y": 17
+        }
+      },
+      {
+        "entity_number": 170,
+        "name": "accumulator",
+        "position": {
+          "x": 21,
+          "y": 19
+        }
+      },
+      {
+        "entity_number": 171,
+        "name": "accumulator",
+        "position": {
+          "x": 21,
+          "y": 21
+        }
+      },
+      {
+        "entity_number": 172,
+        "name": "accumulator",
+        "position": {
+          "x": 21,
+          "y": 23
+        }
+      },
+      {
+        "entity_number": 173,
+        "name": "accumulator",
+        "position": {
+          "x": 21,
+          "y": 25
+        }
+      },
+      {
+        "entity_number": 174,
+        "name": "accumulator",
+        "position": {
+          "x": 21,
+          "y": 27
+        }
+      },
+      {
+        "entity_number": 175,
+        "name": "accumulator",
+        "position": {
+          "x": 21,
+          "y": 29
+        }
+      },
+      {
+        "entity_number": 176,
+        "name": "accumulator",
+        "position": {
+          "x": 21,
+          "y": 31
+        }
+      },
+      {
+        "entity_number": 177,
+        "name": "accumulator",
+        "position": {
+          "x": 23,
+          "y": 1
+        }
+      },
+      {
+        "entity_number": 178,
+        "name": "accumulator",
+        "position": {
+          "x": 23,
+          "y": 3
+        }
+      },
+      {
+        "entity_number": 179,
+        "name": "accumulator",
+        "position": {
+          "x": 23,
+          "y": 5
+        }
+      },
+      {
+        "entity_number": 180,
+        "name": "accumulator",
+        "position": {
+          "x": 23,
+          "y": 7
+        }
+      },
+      {
+        "entity_number": 181,
+        "name": "accumulator",
+        "position": {
+          "x": 23,
+          "y": 9
+        }
+      },
+      {
+        "entity_number": 182,
+        "name": "accumulator",
+        "position": {
+          "x": 23,
+          "y": 11
+        }
+      },
+      {
+        "entity_number": 183,
+        "name": "accumulator",
+        "position": {
+          "x": 23,
+          "y": 13
+        }
+      },
+      {
+        "entity_number": 184,
+        "name": "accumulator",
+        "position": {
+          "x": 23,
+          "y": 15
+        }
+      },
+      {
+        "entity_number": 185,
+        "name": "accumulator",
+        "position": {
+          "x": 23,
+          "y": 17
+        }
+      },
+      {
+        "entity_number": 186,
+        "name": "accumulator",
+        "position": {
+          "x": 23,
+          "y": 19
+        }
+      },
+      {
+        "entity_number": 187,
+        "name": "accumulator",
+        "position": {
+          "x": 23,
+          "y": 21
+        }
+      },
+      {
+        "entity_number": 188,
+        "name": "accumulator",
+        "position": {
+          "x": 23,
+          "y": 23
+        }
+      },
+      {
+        "entity_number": 189,
+        "name": "accumulator",
+        "position": {
+          "x": 23,
+          "y": 25
+        }
+      },
+      {
+        "entity_number": 190,
+        "name": "accumulator",
+        "position": {
+          "x": 23,
+          "y": 27
+        }
+      },
+      {
+        "entity_number": 191,
+        "name": "accumulator",
+        "position": {
+          "x": 23,
+          "y": 29
+        }
+      },
+      {
+        "entity_number": 192,
+        "name": "accumulator",
+        "position": {
+          "x": 23,
+          "y": 31
+        }
+      },
+      {
+        "entity_number": 193,
+        "name": "accumulator",
+        "position": {
+          "x": 25,
+          "y": 1
+        }
+      },
+      {
+        "entity_number": 194,
+        "name": "accumulator",
+        "position": {
+          "x": 25,
+          "y": 3
+        }
+      },
+      {
+        "entity_number": 195,
+        "name": "accumulator",
+        "position": {
+          "x": 25,
+          "y": 5
+        }
+      },
+      {
+        "entity_number": 196,
+        "name": "substation",
+        "position": {
+          "x": 25,
+          "y": 7
+        }
+      },
+      {
+        "entity_number": 197,
+        "name": "accumulator",
+        "position": {
+          "x": 25,
+          "y": 9
+        }
+      },
+      {
+        "entity_number": 198,
+        "name": "accumulator",
+        "position": {
+          "x": 25,
+          "y": 11
+        }
+      },
+      {
+        "entity_number": 199,
+        "name": "accumulator",
+        "position": {
+          "x": 25,
+          "y": 13
+        }
+      },
+      {
+        "entity_number": 200,
+        "name": "accumulator",
+        "position": {
+          "x": 25,
+          "y": 15
+        }
+      },
+      {
+        "entity_number": 201,
+        "name": "accumulator",
+        "position": {
+          "x": 25,
+          "y": 17
+        }
+      },
+      {
+        "entity_number": 202,
+        "name": "accumulator",
+        "position": {
+          "x": 25,
+          "y": 19
+        }
+      },
+      {
+        "entity_number": 203,
+        "name": "accumulator",
+        "position": {
+          "x": 25,
+          "y": 21
+        }
+      },
+      {
+        "entity_number": 204,
+        "name": "accumulator",
+        "position": {
+          "x": 25,
+          "y": 23
+        }
+      },
+      {
+        "entity_number": 205,
+        "name": "substation",
+        "position": {
+          "x": 25,
+          "y": 25
+        }
+      },
+      {
+        "entity_number": 206,
+        "name": "accumulator",
+        "position": {
+          "x": 25,
+          "y": 27
+        }
+      },
+      {
+        "entity_number": 207,
+        "name": "accumulator",
+        "position": {
+          "x": 25,
+          "y": 29
+        }
+      },
+      {
+        "entity_number": 208,
+        "name": "accumulator",
+        "position": {
+          "x": 25,
+          "y": 31
+        }
+      },
+      {
+        "entity_number": 209,
+        "name": "accumulator",
+        "position": {
+          "x": 27,
+          "y": 1
+        }
+      },
+      {
+        "entity_number": 210,
+        "name": "accumulator",
+        "position": {
+          "x": 27,
+          "y": 3
+        }
+      },
+      {
+        "entity_number": 211,
+        "name": "accumulator",
+        "position": {
+          "x": 27,
+          "y": 5
+        }
+      },
+      {
+        "entity_number": 212,
+        "name": "accumulator",
+        "position": {
+          "x": 27,
+          "y": 7
+        }
+      },
+      {
+        "entity_number": 213,
+        "name": "accumulator",
+        "position": {
+          "x": 27,
+          "y": 9
+        }
+      },
+      {
+        "entity_number": 214,
+        "name": "accumulator",
+        "position": {
+          "x": 27,
+          "y": 11
+        }
+      },
+      {
+        "entity_number": 215,
+        "name": "accumulator",
+        "position": {
+          "x": 27,
+          "y": 13
+        }
+      },
+      {
+        "entity_number": 216,
+        "name": "accumulator",
+        "position": {
+          "x": 27,
+          "y": 15
+        }
+      },
+      {
+        "entity_number": 217,
+        "name": "accumulator",
+        "position": {
+          "x": 27,
+          "y": 17
+        }
+      },
+      {
+        "entity_number": 218,
+        "name": "accumulator",
+        "position": {
+          "x": 27,
+          "y": 19
+        }
+      },
+      {
+        "entity_number": 219,
+        "name": "accumulator",
+        "position": {
+          "x": 27,
+          "y": 21
+        }
+      },
+      {
+        "entity_number": 220,
+        "name": "accumulator",
+        "position": {
+          "x": 27,
+          "y": 23
+        }
+      },
+      {
+        "entity_number": 221,
+        "name": "accumulator",
+        "position": {
+          "x": 27,
+          "y": 25
+        }
+      },
+      {
+        "entity_number": 222,
+        "name": "accumulator",
+        "position": {
+          "x": 27,
+          "y": 27
+        }
+      },
+      {
+        "entity_number": 223,
+        "name": "accumulator",
+        "position": {
+          "x": 27,
+          "y": 29
+        }
+      },
+      {
+        "entity_number": 224,
+        "name": "accumulator",
+        "position": {
+          "x": 27,
+          "y": 31
+        }
+      },
+      {
+        "entity_number": 225,
+        "name": "accumulator",
+        "position": {
+          "x": 29,
+          "y": 1
+        }
+      },
+      {
+        "entity_number": 226,
+        "name": "accumulator",
+        "position": {
+          "x": 29,
+          "y": 3
+        }
+      },
+      {
+        "entity_number": 227,
+        "name": "accumulator",
+        "position": {
+          "x": 29,
+          "y": 5
+        }
+      },
+      {
+        "entity_number": 228,
+        "name": "accumulator",
+        "position": {
+          "x": 29,
+          "y": 7
+        }
+      },
+      {
+        "entity_number": 229,
+        "name": "accumulator",
+        "position": {
+          "x": 29,
+          "y": 9
+        }
+      },
+      {
+        "entity_number": 230,
+        "name": "accumulator",
+        "position": {
+          "x": 29,
+          "y": 11
+        }
+      },
+      {
+        "entity_number": 231,
+        "name": "accumulator",
+        "position": {
+          "x": 29,
+          "y": 13
+        }
+      },
+      {
+        "entity_number": 232,
+        "name": "accumulator",
+        "position": {
+          "x": 29,
+          "y": 15
+        }
+      },
+      {
+        "entity_number": 233,
+        "name": "accumulator",
+        "position": {
+          "x": 29,
+          "y": 17
+        }
+      },
+      {
+        "entity_number": 234,
+        "name": "accumulator",
+        "position": {
+          "x": 29,
+          "y": 19
+        }
+      },
+      {
+        "entity_number": 235,
+        "name": "accumulator",
+        "position": {
+          "x": 29,
+          "y": 21
+        }
+      },
+      {
+        "entity_number": 236,
+        "name": "accumulator",
+        "position": {
+          "x": 29,
+          "y": 23
+        }
+      },
+      {
+        "entity_number": 237,
+        "name": "accumulator",
+        "position": {
+          "x": 29,
+          "y": 25
+        }
+      },
+      {
+        "entity_number": 238,
+        "name": "accumulator",
+        "position": {
+          "x": 29,
+          "y": 27
+        }
+      },
+      {
+        "entity_number": 239,
+        "name": "accumulator",
+        "position": {
+          "x": 29,
+          "y": 29
+        }
+      },
+      {
+        "entity_number": 240,
+        "name": "accumulator",
+        "position": {
+          "x": 29,
+          "y": 31
+        }
+      },
+      {
+        "entity_number": 241,
+        "name": "accumulator",
+        "position": {
+          "x": 31,
+          "y": 1
+        }
+      },
+      {
+        "entity_number": 242,
+        "name": "accumulator",
+        "position": {
+          "x": 31,
+          "y": 3
+        }
+      },
+      {
+        "entity_number": 243,
+        "name": "accumulator",
+        "position": {
+          "x": 31,
+          "y": 5
+        }
+      },
+      {
+        "entity_number": 244,
+        "name": "accumulator",
+        "position": {
+          "x": 31,
+          "y": 7
+        }
+      },
+      {
+        "entity_number": 245,
+        "name": "accumulator",
+        "position": {
+          "x": 31,
+          "y": 9
+        }
+      },
+      {
+        "entity_number": 246,
+        "name": "accumulator",
+        "position": {
+          "x": 31,
+          "y": 11
+        }
+      },
+      {
+        "entity_number": 247,
+        "name": "accumulator",
+        "position": {
+          "x": 31,
+          "y": 13
+        }
+      },
+      {
+        "entity_number": 248,
+        "name": "accumulator",
+        "position": {
+          "x": 31,
+          "y": 15
+        }
+      },
+      {
+        "entity_number": 249,
+        "name": "accumulator",
+        "position": {
+          "x": 31,
+          "y": 17
+        }
+      },
+      {
+        "entity_number": 250,
+        "name": "accumulator",
+        "position": {
+          "x": 31,
+          "y": 19
+        }
+      },
+      {
+        "entity_number": 251,
+        "name": "accumulator",
+        "position": {
+          "x": 31,
+          "y": 21
+        }
+      },
+      {
+        "entity_number": 252,
+        "name": "accumulator",
+        "position": {
+          "x": 31,
+          "y": 23
+        }
+      },
+      {
+        "entity_number": 253,
+        "name": "accumulator",
+        "position": {
+          "x": 31,
+          "y": 25
+        }
+      },
+      {
+        "entity_number": 254,
+        "name": "accumulator",
+        "position": {
+          "x": 31,
+          "y": 27
+        }
+      },
+      {
+        "entity_number": 255,
+        "name": "accumulator",
+        "position": {
+          "x": 31,
+          "y": 29
+        }
+      },
+      {
+        "entity_number": 256,
+        "name": "accumulator",
+        "position": {
+          "x": 31,
+          "y": 31
+        }
+      }
+    ],
+    "icons": [
+      {
+        "index": 1,
+        "signal": {
+          "name": "accumulator"
+        }
+      }
+    ],
+    "snap-to-grid": {
+      "x": 32,
+      "y": 32
+    },
+    "version": 562954249306113,
+    "wires": [
+      [
+        52,
+        5,
+        196,
+        5
+      ],
+      [
+        52,
+        5,
+        61,
+        5
+      ],
+      [
+        61,
+        5,
+        205,
+        5
+      ],
+      [
+        196,
+        5,
+        205,
+        5
+      ]
+    ]
+  },
+  "index": 1
+}

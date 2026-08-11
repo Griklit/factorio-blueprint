@@ -1,0 +1,98 @@
+{
+  "blueprint": {
+    "item": "blueprint",
+    "label": "2-4普通均分器(2-4 balancer)",
+    "entities": [
+      {
+        "entity_number": 1,
+        "name": "express-transport-belt",
+        "position": {
+          "x": -1.5,
+          "y": -1.5
+        }
+      },
+      {
+        "entity_number": 2,
+        "name": "express-splitter",
+        "position": {
+          "x": -1,
+          "y": -0.5
+        }
+      },
+      {
+        "entity_number": 3,
+        "name": "express-transport-belt",
+        "position": {
+          "x": -0.5,
+          "y": -1.5
+        }
+      },
+      {
+        "entity_number": 4,
+        "name": "express-transport-belt",
+        "position": {
+          "x": 0.5,
+          "y": -1.5
+        }
+      },
+      {
+        "entity_number": 5,
+        "name": "express-splitter",
+        "position": {
+          "x": 1,
+          "y": -0.5
+        }
+      },
+      {
+        "entity_number": 6,
+        "name": "express-transport-belt",
+        "position": {
+          "x": 1.5,
+          "y": -1.5
+        }
+      },
+      {
+        "entity_number": 7,
+        "name": "express-transport-belt",
+        "position": {
+          "x": -0.5,
+          "y": 1.5
+        }
+      },
+      {
+        "entity_number": 8,
+        "name": "express-splitter",
+        "position": {
+          "x": 0,
+          "y": 0.5
+        }
+      },
+      {
+        "entity_number": 9,
+        "name": "express-transport-belt",
+        "position": {
+          "x": 0.5,
+          "y": 1.5
+        }
+      }
+    ],
+    "icons": [
+      {
+        "index": 1,
+        "signal": {
+          "name": "signal-2",
+          "type": "virtual"
+        }
+      },
+      {
+        "index": 2,
+        "signal": {
+          "name": "signal-4",
+          "type": "virtual"
+        }
+      }
+    ],
+    "version": 562954249306113
+  },
+  "index": 3
+}

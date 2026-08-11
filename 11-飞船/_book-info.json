@@ -1,0 +1,16 @@
+{
+  "active_index": 6,
+  "blueprints": [],
+  "description": "v2608010\n飞船的分类很痛苦，因为有太多可用tag，比如需要区分该飞船是否能在目标星球长时间悬停。不过姑且按其设计目标的星球来分类吧，我想我们应当有足够的理由相信其递进规则应当是这样的：\n新地星->祝融星->勾芒星->雷神星->玄冥星->星系边缘/破碎星球\n--by Sequence[7]",
+  "icons": [
+    {
+      "index": 1,
+      "signal": {
+        "name": "thruster"
+      }
+    }
+  ],
+  "item": "blueprint-book",
+  "label": "飞船",
+  "version": 562954249306113
+}

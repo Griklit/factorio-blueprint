@@ -1,0 +1,15 @@
+{
+  "active_index": 6,
+  "blueprints": [],
+  "icons": [
+    {
+      "index": 1,
+      "signal": {
+        "name": "fusion-power-cell"
+      }
+    }
+  ],
+  "item": "blueprint-book",
+  "label": "聚变反应堆",
+  "version": 562954249306113
+}

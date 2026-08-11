@@ -1,0 +1,16 @@
+{
+  "active_index": 34,
+  "blueprints": [],
+  "description": "包含了各种类型的开采站，卸货站爪子模板，方便进行火车工厂建设。\n所有车站默认2车头带4车厢，双轨并行，靠右行驶。\n部分改进自@[font=count-font][color=blue]Colonia[/color][/font]。",
+  "icons": [
+    {
+      "index": 1,
+      "signal": {
+        "name": "bulk-inserter"
+      }
+    }
+  ],
+  "item": "blueprint-book",
+  "label": "装卸2",
+  "version": 562954249306113
+}

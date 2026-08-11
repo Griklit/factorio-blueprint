@@ -1,0 +1,189 @@
+{
+  "blueprint": {
+    "item": "blueprint",
+    "entities": [
+      {
+        "direction": 4,
+        "entity_number": 1,
+        "name": "rail-ramp",
+        "position": {
+          "x": -106,
+          "y": 599
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 2,
+        "name": "elevated-straight-rail",
+        "position": {
+          "x": -97,
+          "y": 599
+        }
+      },
+      {
+        "entity_number": 3,
+        "name": "straight-rail",
+        "position": {
+          "x": -97,
+          "y": 599
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 4,
+        "name": "elevated-straight-rail",
+        "position": {
+          "x": -95,
+          "y": 599
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 5,
+        "name": "elevated-straight-rail",
+        "position": {
+          "x": -93,
+          "y": 599
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 6,
+        "name": "elevated-straight-rail",
+        "position": {
+          "x": -91,
+          "y": 599
+        }
+      },
+      {
+        "entity_number": 7,
+        "name": "straight-rail",
+        "position": {
+          "x": -91,
+          "y": 599
+        }
+      },
+      {
+        "direction": 12,
+        "entity_number": 8,
+        "name": "rail-ramp",
+        "position": {
+          "x": -82,
+          "y": 599
+        }
+      },
+      {
+        "entity_number": 9,
+        "name": "straight-rail",
+        "position": {
+          "x": -97,
+          "y": 601
+        }
+      },
+      {
+        "entity_number": 10,
+        "name": "straight-rail",
+        "position": {
+          "x": -91,
+          "y": 601
+        }
+      },
+      {
+        "entity_number": 11,
+        "name": "straight-rail",
+        "position": {
+          "x": -97,
+          "y": 603
+        }
+      },
+      {
+        "entity_number": 12,
+        "name": "straight-rail",
+        "position": {
+          "x": -91,
+          "y": 603
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 13,
+        "name": "rail-ramp",
+        "position": {
+          "x": -106,
+          "y": 605
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 14,
+        "name": "elevated-straight-rail",
+        "position": {
+          "x": -97,
+          "y": 605
+        }
+      },
+      {
+        "entity_number": 15,
+        "name": "straight-rail",
+        "position": {
+          "x": -97,
+          "y": 605
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 16,
+        "name": "elevated-straight-rail",
+        "position": {
+          "x": -95,
+          "y": 605
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 17,
+        "name": "elevated-straight-rail",
+        "position": {
+          "x": -93,
+          "y": 605
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 18,
+        "name": "elevated-straight-rail",
+        "position": {
+          "x": -91,
+          "y": 605
+        }
+      },
+      {
+        "entity_number": 19,
+        "name": "straight-rail",
+        "position": {
+          "x": -91,
+          "y": 605
+        }
+      },
+      {
+        "direction": 12,
+        "entity_number": 20,
+        "name": "rail-ramp",
+        "position": {
+          "x": -82,
+          "y": 605
+        }
+      }
+    ],
+    "icons": [
+      {
+        "index": 1,
+        "signal": {
+          "name": "rail-ramp"
+        }
+      }
+    ],
+    "version": 562954249306113
+  },
+  "index": 7
+}

@@ -1,0 +1,1806 @@
+{
+  "blueprint": {
+    "item": "blueprint",
+    "label": "铀增值 [可堆叠]",
+    "entities": [
+      {
+        "entity_number": 1,
+        "items": [
+          {
+            "id": {
+              "name": "speed-module-3"
+            },
+            "items": {
+              "in_inventory": [
+                {
+                  "inventory": 1,
+                  "stack": 0
+                },
+                {
+                  "inventory": 1,
+                  "stack": 1
+                }
+              ]
+            }
+          }
+        ],
+        "name": "beacon",
+        "position": {
+          "x": -157.5,
+          "y": 263.5
+        }
+      },
+      {
+        "entity_number": 2,
+        "items": [
+          {
+            "id": {
+              "name": "speed-module-3"
+            },
+            "items": {
+              "in_inventory": [
+                {
+                  "inventory": 1,
+                  "stack": 0
+                },
+                {
+                  "inventory": 1,
+                  "stack": 1
+                }
+              ]
+            }
+          }
+        ],
+        "name": "beacon",
+        "position": {
+          "x": -157.5,
+          "y": 266.5
+        }
+      },
+      {
+        "entity_number": 3,
+        "items": [
+          {
+            "id": {
+              "name": "speed-module-3"
+            },
+            "items": {
+              "in_inventory": [
+                {
+                  "inventory": 1,
+                  "stack": 0
+                },
+                {
+                  "inventory": 1,
+                  "stack": 1
+                }
+              ]
+            }
+          }
+        ],
+        "name": "beacon",
+        "position": {
+          "x": -157.5,
+          "y": 269.5
+        }
+      },
+      {
+        "entity_number": 4,
+        "items": [
+          {
+            "id": {
+              "name": "speed-module-3"
+            },
+            "items": {
+              "in_inventory": [
+                {
+                  "inventory": 1,
+                  "stack": 0
+                },
+                {
+                  "inventory": 1,
+                  "stack": 1
+                }
+              ]
+            }
+          }
+        ],
+        "name": "beacon",
+        "position": {
+          "x": -157.5,
+          "y": 272.5
+        }
+      },
+      {
+        "entity_number": 5,
+        "items": [
+          {
+            "id": {
+              "name": "speed-module-3"
+            },
+            "items": {
+              "in_inventory": [
+                {
+                  "inventory": 1,
+                  "stack": 0
+                },
+                {
+                  "inventory": 1,
+                  "stack": 1
+                }
+              ]
+            }
+          }
+        ],
+        "name": "beacon",
+        "position": {
+          "x": -157.5,
+          "y": 275.5
+        }
+      },
+      {
+        "entity_number": 6,
+        "items": [
+          {
+            "id": {
+              "name": "speed-module-3"
+            },
+            "items": {
+              "in_inventory": [
+                {
+                  "inventory": 1,
+                  "stack": 0
+                },
+                {
+                  "inventory": 1,
+                  "stack": 1
+                }
+              ]
+            }
+          }
+        ],
+        "name": "beacon",
+        "position": {
+          "x": -157.5,
+          "y": 278.5
+        }
+      },
+      {
+        "direction": 8,
+        "entity_number": 7,
+        "name": "transport-belt",
+        "position": {
+          "x": -155.5,
+          "y": 262.5
+        }
+      },
+      {
+        "direction": 8,
+        "entity_number": 8,
+        "name": "transport-belt",
+        "position": {
+          "x": -155.5,
+          "y": 263.5
+        }
+      },
+      {
+        "direction": 8,
+        "entity_number": 9,
+        "name": "transport-belt",
+        "position": {
+          "x": -155.5,
+          "y": 264.5
+        }
+      },
+      {
+        "direction": 8,
+        "entity_number": 10,
+        "name": "transport-belt",
+        "position": {
+          "x": -155.5,
+          "y": 265.5
+        }
+      },
+      {
+        "direction": 8,
+        "entity_number": 11,
+        "name": "transport-belt",
+        "position": {
+          "x": -155.5,
+          "y": 266.5
+        }
+      },
+      {
+        "direction": 8,
+        "entity_number": 12,
+        "name": "transport-belt",
+        "position": {
+          "x": -155.5,
+          "y": 267.5
+        }
+      },
+      {
+        "direction": 8,
+        "entity_number": 13,
+        "name": "transport-belt",
+        "position": {
+          "x": -155.5,
+          "y": 268.5
+        }
+      },
+      {
+        "direction": 8,
+        "entity_number": 14,
+        "name": "transport-belt",
+        "position": {
+          "x": -155.5,
+          "y": 269.5
+        }
+      },
+      {
+        "direction": 8,
+        "entity_number": 15,
+        "name": "transport-belt",
+        "position": {
+          "x": -155.5,
+          "y": 270.5
+        }
+      },
+      {
+        "direction": 8,
+        "entity_number": 16,
+        "name": "transport-belt",
+        "position": {
+          "x": -155.5,
+          "y": 271.5
+        }
+      },
+      {
+        "direction": 8,
+        "entity_number": 17,
+        "name": "transport-belt",
+        "position": {
+          "x": -155.5,
+          "y": 272.5
+        }
+      },
+      {
+        "direction": 8,
+        "entity_number": 18,
+        "name": "transport-belt",
+        "position": {
+          "x": -155.5,
+          "y": 273.5
+        }
+      },
+      {
+        "direction": 8,
+        "entity_number": 19,
+        "name": "transport-belt",
+        "position": {
+          "x": -155.5,
+          "y": 274.5
+        }
+      },
+      {
+        "direction": 8,
+        "entity_number": 20,
+        "name": "transport-belt",
+        "position": {
+          "x": -155.5,
+          "y": 275.5
+        }
+      },
+      {
+        "direction": 8,
+        "entity_number": 21,
+        "name": "transport-belt",
+        "position": {
+          "x": -155.5,
+          "y": 276.5
+        }
+      },
+      {
+        "direction": 8,
+        "entity_number": 22,
+        "name": "transport-belt",
+        "position": {
+          "x": -155.5,
+          "y": 277.5
+        }
+      },
+      {
+        "entity_number": 23,
+        "name": "medium-electric-pole",
+        "position": {
+          "x": -154.5,
+          "y": 264.5
+        }
+      },
+      {
+        "direction": 12,
+        "entity_number": 24,
+        "name": "fast-inserter",
+        "position": {
+          "x": -154.5,
+          "y": 266.5
+        }
+      },
+      {
+        "direction": 12,
+        "entity_number": 25,
+        "name": "fast-inserter",
+        "position": {
+          "x": -154.5,
+          "y": 269.5
+        }
+      },
+      {
+        "entity_number": 26,
+        "name": "medium-electric-pole",
+        "position": {
+          "x": -154.5,
+          "y": 270.5
+        }
+      },
+      {
+        "direction": 12,
+        "entity_number": 27,
+        "name": "fast-inserter",
+        "position": {
+          "x": -154.5,
+          "y": 272.5
+        }
+      },
+      {
+        "entity_number": 28,
+        "name": "medium-electric-pole",
+        "position": {
+          "x": -154.5,
+          "y": 276.5
+        }
+      },
+      {
+        "entity_number": 29,
+        "items": [
+          {
+            "id": {
+              "name": "productivity-module-3"
+            },
+            "items": {
+              "in_inventory": [
+                {
+                  "inventory": 4,
+                  "stack": 0
+                },
+                {
+                  "inventory": 4,
+                  "stack": 1
+                }
+              ]
+            }
+          }
+        ],
+        "name": "centrifuge",
+        "position": {
+          "x": -152.5,
+          "y": 267.5
+        },
+        "recipe": "uranium-processing",
+        "recipe_quality": "normal"
+      },
+      {
+        "entity_number": 30,
+        "items": [
+          {
+            "id": {
+              "name": "productivity-module-3"
+            },
+            "items": {
+              "in_inventory": [
+                {
+                  "inventory": 4,
+                  "stack": 0
+                },
+                {
+                  "inventory": 4,
+                  "stack": 1
+                }
+              ]
+            }
+          }
+        ],
+        "name": "centrifuge",
+        "position": {
+          "x": -152.5,
+          "y": 270.5
+        },
+        "recipe": "uranium-processing",
+        "recipe_quality": "normal"
+      },
+      {
+        "entity_number": 31,
+        "items": [
+          {
+            "id": {
+              "name": "productivity-module-3"
+            },
+            "items": {
+              "in_inventory": [
+                {
+                  "inventory": 4,
+                  "stack": 0
+                },
+                {
+                  "inventory": 4,
+                  "stack": 1
+                }
+              ]
+            }
+          }
+        ],
+        "name": "centrifuge",
+        "position": {
+          "x": -152.5,
+          "y": 273.5
+        },
+        "recipe": "uranium-processing",
+        "recipe_quality": "normal"
+      },
+      {
+        "entity_number": 32,
+        "items": [
+          {
+            "id": {
+              "name": "productivity-module-3"
+            },
+            "items": {
+              "in_inventory": [
+                {
+                  "inventory": 4,
+                  "stack": 0
+                },
+                {
+                  "inventory": 4,
+                  "stack": 1
+                }
+              ]
+            }
+          }
+        ],
+        "name": "centrifuge",
+        "position": {
+          "x": -152.5,
+          "y": 276.5
+        },
+        "recipe": "kovarex-enrichment-process",
+        "recipe_quality": "normal"
+      },
+      {
+        "entity_number": 33,
+        "name": "medium-electric-pole",
+        "position": {
+          "x": -150.5,
+          "y": 263.5
+        }
+      },
+      {
+        "control_behavior": {
+          "circuit_condition": {
+            "comparator": "<",
+            "constant": 80,
+            "first_signal": {
+              "name": "uranium-238"
+            }
+          },
+          "circuit_enabled": true
+        },
+        "direction": 12,
+        "entity_number": 34,
+        "name": "inserter",
+        "position": {
+          "x": -150.5,
+          "y": 266.5
+        }
+      },
+      {
+        "control_behavior": {
+          "circuit_condition": {
+            "comparator": "<",
+            "constant": 80,
+            "first_signal": {
+              "name": "uranium-238"
+            }
+          },
+          "circuit_enabled": true
+        },
+        "direction": 12,
+        "entity_number": 35,
+        "name": "inserter",
+        "position": {
+          "x": -150.5,
+          "y": 269.5
+        }
+      },
+      {
+        "entity_number": 36,
+        "name": "medium-electric-pole",
+        "position": {
+          "x": -150.5,
+          "y": 270.5
+        }
+      },
+      {
+        "control_behavior": {
+          "circuit_condition": {
+            "comparator": "<",
+            "constant": 80,
+            "first_signal": {
+              "name": "uranium-238"
+            }
+          },
+          "circuit_enabled": true
+        },
+        "direction": 12,
+        "entity_number": 37,
+        "name": "inserter",
+        "position": {
+          "x": -150.5,
+          "y": 272.5
+        }
+      },
+      {
+        "control_behavior": {
+          "circuit_condition": {
+            "comparator": "<",
+            "constant": 80,
+            "first_signal": {
+              "name": "uranium-235"
+            }
+          },
+          "circuit_enabled": true
+        },
+        "direction": 12,
+        "entity_number": 38,
+        "name": "inserter",
+        "position": {
+          "x": -150.5,
+          "y": 275.5
+        }
+      },
+      {
+        "entity_number": 39,
+        "name": "medium-electric-pole",
+        "position": {
+          "x": -150.5,
+          "y": 276.5
+        }
+      },
+      {
+        "control_behavior": {
+          "circuit_condition": {
+            "comparator": "<",
+            "constant": 200,
+            "first_signal": {
+              "name": "uranium-235"
+            }
+          },
+          "circuit_enabled": true
+        },
+        "direction": 4,
+        "entity_number": 40,
+        "name": "fast-inserter",
+        "position": {
+          "x": -150.5,
+          "y": 277.5
+        }
+      },
+      {
+        "direction": 8,
+        "entity_number": 41,
+        "name": "transport-belt",
+        "position": {
+          "x": -149.5,
+          "y": 264.5
+        }
+      },
+      {
+        "direction": 8,
+        "entity_number": 42,
+        "name": "transport-belt",
+        "position": {
+          "x": -149.5,
+          "y": 265.5
+        }
+      },
+      {
+        "direction": 8,
+        "entity_number": 43,
+        "name": "transport-belt",
+        "position": {
+          "x": -149.5,
+          "y": 266.5
+        }
+      },
+      {
+        "direction": 8,
+        "entity_number": 44,
+        "name": "transport-belt",
+        "position": {
+          "x": -149.5,
+          "y": 267.5
+        }
+      },
+      {
+        "direction": 8,
+        "entity_number": 45,
+        "name": "transport-belt",
+        "position": {
+          "x": -149.5,
+          "y": 268.5
+        }
+      },
+      {
+        "direction": 8,
+        "entity_number": 46,
+        "name": "transport-belt",
+        "position": {
+          "x": -149.5,
+          "y": 269.5
+        }
+      },
+      {
+        "direction": 8,
+        "entity_number": 47,
+        "name": "transport-belt",
+        "position": {
+          "x": -149.5,
+          "y": 270.5
+        }
+      },
+      {
+        "direction": 8,
+        "entity_number": 48,
+        "name": "transport-belt",
+        "position": {
+          "x": -149.5,
+          "y": 271.5
+        }
+      },
+      {
+        "direction": 8,
+        "entity_number": 49,
+        "name": "transport-belt",
+        "position": {
+          "x": -149.5,
+          "y": 272.5
+        }
+      },
+      {
+        "direction": 8,
+        "entity_number": 50,
+        "name": "transport-belt",
+        "position": {
+          "x": -149.5,
+          "y": 273.5
+        }
+      },
+      {
+        "direction": 8,
+        "entity_number": 51,
+        "name": "transport-belt",
+        "position": {
+          "x": -149.5,
+          "y": 274.5
+        }
+      },
+      {
+        "direction": 8,
+        "entity_number": 52,
+        "name": "transport-belt",
+        "position": {
+          "x": -149.5,
+          "y": 275.5
+        }
+      },
+      {
+        "direction": 8,
+        "entity_number": 53,
+        "name": "transport-belt",
+        "position": {
+          "x": -149.5,
+          "y": 276.5
+        }
+      },
+      {
+        "direction": 8,
+        "entity_number": 54,
+        "name": "transport-belt",
+        "position": {
+          "x": -149.5,
+          "y": 277.5
+        }
+      },
+      {
+        "direction": 8,
+        "entity_number": 55,
+        "name": "transport-belt",
+        "position": {
+          "x": -149.5,
+          "y": 278.5
+        }
+      },
+      {
+        "direction": 8,
+        "entity_number": 56,
+        "name": "transport-belt",
+        "position": {
+          "x": -149.5,
+          "y": 279.5
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 57,
+        "name": "transport-belt",
+        "position": {
+          "x": -149.5,
+          "y": 280.5
+        }
+      },
+      {
+        "direction": 8,
+        "entity_number": 58,
+        "name": "transport-belt",
+        "position": {
+          "x": -148.5,
+          "y": 263.5
+        }
+      },
+      {
+        "direction": 12,
+        "entity_number": 59,
+        "name": "transport-belt",
+        "position": {
+          "x": -148.5,
+          "y": 264.5
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 60,
+        "name": "transport-belt",
+        "position": {
+          "x": -148.5,
+          "y": 280.5
+        }
+      },
+      {
+        "direction": 12,
+        "entity_number": 61,
+        "name": "splitter",
+        "position": {
+          "x": -147.5,
+          "y": 264
+        }
+      },
+      {
+        "entity_number": 62,
+        "items": [
+          {
+            "id": {
+              "name": "speed-module-3"
+            },
+            "items": {
+              "in_inventory": [
+                {
+                  "inventory": 1,
+                  "stack": 0
+                },
+                {
+                  "inventory": 1,
+                  "stack": 1
+                }
+              ]
+            }
+          }
+        ],
+        "name": "beacon",
+        "position": {
+          "x": -147.5,
+          "y": 266.5
+        }
+      },
+      {
+        "entity_number": 63,
+        "items": [
+          {
+            "id": {
+              "name": "speed-module-3"
+            },
+            "items": {
+              "in_inventory": [
+                {
+                  "inventory": 1,
+                  "stack": 0
+                },
+                {
+                  "inventory": 1,
+                  "stack": 1
+                }
+              ]
+            }
+          }
+        ],
+        "name": "beacon",
+        "position": {
+          "x": -147.5,
+          "y": 269.5
+        }
+      },
+      {
+        "entity_number": 64,
+        "items": [
+          {
+            "id": {
+              "name": "speed-module-3"
+            },
+            "items": {
+              "in_inventory": [
+                {
+                  "inventory": 1,
+                  "stack": 0
+                },
+                {
+                  "inventory": 1,
+                  "stack": 1
+                }
+              ]
+            }
+          }
+        ],
+        "name": "beacon",
+        "position": {
+          "x": -147.5,
+          "y": 272.5
+        }
+      },
+      {
+        "entity_number": 65,
+        "items": [
+          {
+            "id": {
+              "name": "speed-module-3"
+            },
+            "items": {
+              "in_inventory": [
+                {
+                  "inventory": 1,
+                  "stack": 0
+                },
+                {
+                  "inventory": 1,
+                  "stack": 1
+                }
+              ]
+            }
+          }
+        ],
+        "name": "beacon",
+        "position": {
+          "x": -147.5,
+          "y": 275.5
+        }
+      },
+      {
+        "entity_number": 66,
+        "items": [
+          {
+            "id": {
+              "name": "speed-module-3"
+            },
+            "items": {
+              "in_inventory": [
+                {
+                  "inventory": 1,
+                  "stack": 0
+                },
+                {
+                  "inventory": 1,
+                  "stack": 1
+                }
+              ]
+            }
+          }
+        ],
+        "name": "beacon",
+        "position": {
+          "x": -147.5,
+          "y": 278.5
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 67,
+        "name": "transport-belt",
+        "position": {
+          "x": -147.5,
+          "y": 280.5
+        }
+      },
+      {
+        "control_behavior": {
+          "circuit_contents_read_mode": 2,
+          "circuit_read_hand_contents": true
+        },
+        "direction": 12,
+        "entity_number": 68,
+        "name": "transport-belt",
+        "position": {
+          "x": -146.5,
+          "y": 264.5
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 69,
+        "name": "transport-belt",
+        "position": {
+          "x": -146.5,
+          "y": 280.5
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 70,
+        "name": "transport-belt",
+        "position": {
+          "x": -145.5,
+          "y": 262.5
+        }
+      },
+      {
+        "control_behavior": {
+          "circuit_condition": {
+            "comparator": ">",
+            "constant": 60,
+            "first_signal": {
+              "name": "uranium-235"
+            }
+          },
+          "circuit_enabled": true
+        },
+        "direction": 8,
+        "entity_number": 71,
+        "filters": [
+          {
+            "comparator": "=",
+            "index": 1,
+            "name": "uranium-235",
+            "quality": "normal"
+          }
+        ],
+        "name": "fast-inserter",
+        "position": {
+          "x": -145.5,
+          "y": 263.5
+        },
+        "use_filters": true
+      },
+      {
+        "direction": 12,
+        "entity_number": 72,
+        "name": "transport-belt",
+        "position": {
+          "x": -145.5,
+          "y": 264.5
+        }
+      },
+      {
+        "entity_number": 73,
+        "name": "transport-belt",
+        "position": {
+          "x": -145.5,
+          "y": 265.5
+        }
+      },
+      {
+        "entity_number": 74,
+        "name": "transport-belt",
+        "position": {
+          "x": -145.5,
+          "y": 266.5
+        }
+      },
+      {
+        "entity_number": 75,
+        "name": "transport-belt",
+        "position": {
+          "x": -145.5,
+          "y": 267.5
+        }
+      },
+      {
+        "entity_number": 76,
+        "name": "transport-belt",
+        "position": {
+          "x": -145.5,
+          "y": 268.5
+        }
+      },
+      {
+        "entity_number": 77,
+        "name": "transport-belt",
+        "position": {
+          "x": -145.5,
+          "y": 269.5
+        }
+      },
+      {
+        "entity_number": 78,
+        "name": "transport-belt",
+        "position": {
+          "x": -145.5,
+          "y": 270.5
+        }
+      },
+      {
+        "entity_number": 79,
+        "name": "transport-belt",
+        "position": {
+          "x": -145.5,
+          "y": 271.5
+        }
+      },
+      {
+        "entity_number": 80,
+        "name": "transport-belt",
+        "position": {
+          "x": -145.5,
+          "y": 272.5
+        }
+      },
+      {
+        "entity_number": 81,
+        "name": "transport-belt",
+        "position": {
+          "x": -145.5,
+          "y": 273.5
+        }
+      },
+      {
+        "entity_number": 82,
+        "name": "transport-belt",
+        "position": {
+          "x": -145.5,
+          "y": 274.5
+        }
+      },
+      {
+        "entity_number": 83,
+        "name": "transport-belt",
+        "position": {
+          "x": -145.5,
+          "y": 275.5
+        }
+      },
+      {
+        "entity_number": 84,
+        "name": "transport-belt",
+        "position": {
+          "x": -145.5,
+          "y": 276.5
+        }
+      },
+      {
+        "entity_number": 85,
+        "name": "transport-belt",
+        "position": {
+          "x": -145.5,
+          "y": 277.5
+        }
+      },
+      {
+        "entity_number": 86,
+        "name": "transport-belt",
+        "position": {
+          "x": -145.5,
+          "y": 278.5
+        }
+      },
+      {
+        "entity_number": 87,
+        "name": "transport-belt",
+        "position": {
+          "x": -145.5,
+          "y": 279.5
+        }
+      },
+      {
+        "entity_number": 88,
+        "name": "transport-belt",
+        "position": {
+          "x": -145.5,
+          "y": 280.5
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 89,
+        "name": "transport-belt",
+        "position": {
+          "x": -144.5,
+          "y": 262.5
+        }
+      },
+      {
+        "entity_number": 90,
+        "name": "medium-electric-pole",
+        "position": {
+          "x": -144.5,
+          "y": 263.5
+        }
+      },
+      {
+        "control_behavior": {
+          "circuit_condition": {
+            "comparator": ">",
+            "constant": 60,
+            "first_signal": {
+              "name": "uranium-238"
+            }
+          },
+          "circuit_enabled": true
+        },
+        "direction": 12,
+        "entity_number": 91,
+        "filters": [
+          {
+            "comparator": "=",
+            "index": 1,
+            "name": "uranium-238",
+            "quality": "normal"
+          }
+        ],
+        "name": "fast-inserter",
+        "position": {
+          "x": -144.5,
+          "y": 264.5
+        },
+        "use_filters": true
+      },
+      {
+        "direction": 12,
+        "entity_number": 92,
+        "name": "fast-inserter",
+        "position": {
+          "x": -144.5,
+          "y": 266.5
+        }
+      },
+      {
+        "control_behavior": {
+          "circuit_condition": {
+            "comparator": "<",
+            "constant": 80,
+            "first_signal": {
+              "name": "uranium-235"
+            }
+          },
+          "circuit_enabled": true
+        },
+        "direction": 4,
+        "entity_number": 93,
+        "name": "inserter",
+        "position": {
+          "x": -144.5,
+          "y": 268.5
+        }
+      },
+      {
+        "direction": 12,
+        "entity_number": 94,
+        "name": "fast-inserter",
+        "position": {
+          "x": -144.5,
+          "y": 269.5
+        }
+      },
+      {
+        "entity_number": 95,
+        "name": "medium-electric-pole",
+        "position": {
+          "x": -144.5,
+          "y": 270.5
+        }
+      },
+      {
+        "control_behavior": {
+          "circuit_condition": {
+            "comparator": "<",
+            "constant": 80,
+            "first_signal": {
+              "name": "uranium-235"
+            }
+          },
+          "circuit_enabled": true
+        },
+        "direction": 4,
+        "entity_number": 96,
+        "name": "inserter",
+        "position": {
+          "x": -144.5,
+          "y": 271.5
+        }
+      },
+      {
+        "direction": 12,
+        "entity_number": 97,
+        "name": "fast-inserter",
+        "position": {
+          "x": -144.5,
+          "y": 272.5
+        }
+      },
+      {
+        "control_behavior": {
+          "circuit_condition": {
+            "comparator": "<",
+            "constant": 80,
+            "first_signal": {
+              "name": "uranium-235"
+            }
+          },
+          "circuit_enabled": true
+        },
+        "direction": 4,
+        "entity_number": 98,
+        "name": "inserter",
+        "position": {
+          "x": -144.5,
+          "y": 274.5
+        }
+      },
+      {
+        "direction": 12,
+        "entity_number": 99,
+        "name": "fast-inserter",
+        "position": {
+          "x": -144.5,
+          "y": 275.5
+        }
+      },
+      {
+        "entity_number": 100,
+        "name": "medium-electric-pole",
+        "position": {
+          "x": -144.5,
+          "y": 276.5
+        }
+      },
+      {
+        "control_behavior": {
+          "circuit_condition": {
+            "comparator": "<",
+            "constant": 80,
+            "first_signal": {
+              "name": "uranium-235"
+            }
+          },
+          "circuit_enabled": true
+        },
+        "direction": 4,
+        "entity_number": 101,
+        "name": "inserter",
+        "position": {
+          "x": -144.5,
+          "y": 277.5
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 102,
+        "name": "transport-belt",
+        "position": {
+          "x": -143.5,
+          "y": 262.5
+        }
+      },
+      {
+        "entity_number": 103,
+        "name": "transport-belt",
+        "position": {
+          "x": -143.5,
+          "y": 263.5
+        }
+      },
+      {
+        "entity_number": 104,
+        "name": "transport-belt",
+        "position": {
+          "x": -143.5,
+          "y": 264.5
+        }
+      },
+      {
+        "entity_number": 105,
+        "name": "transport-belt",
+        "position": {
+          "x": -142.5,
+          "y": 262.5
+        }
+      },
+      {
+        "entity_number": 106,
+        "items": [
+          {
+            "id": {
+              "name": "productivity-module-3"
+            },
+            "items": {
+              "in_inventory": [
+                {
+                  "inventory": 4,
+                  "stack": 0
+                },
+                {
+                  "inventory": 4,
+                  "stack": 1
+                }
+              ]
+            }
+          }
+        ],
+        "name": "centrifuge",
+        "position": {
+          "x": -142.5,
+          "y": 267.5
+        },
+        "recipe": "kovarex-enrichment-process",
+        "recipe_quality": "normal"
+      },
+      {
+        "entity_number": 107,
+        "items": [
+          {
+            "id": {
+              "name": "productivity-module-3"
+            },
+            "items": {
+              "in_inventory": [
+                {
+                  "inventory": 4,
+                  "stack": 0
+                },
+                {
+                  "inventory": 4,
+                  "stack": 1
+                }
+              ]
+            }
+          }
+        ],
+        "name": "centrifuge",
+        "position": {
+          "x": -142.5,
+          "y": 270.5
+        },
+        "recipe": "kovarex-enrichment-process",
+        "recipe_quality": "normal"
+      },
+      {
+        "entity_number": 108,
+        "items": [
+          {
+            "id": {
+              "name": "productivity-module-3"
+            },
+            "items": {
+              "in_inventory": [
+                {
+                  "inventory": 4,
+                  "stack": 0
+                },
+                {
+                  "inventory": 4,
+                  "stack": 1
+                }
+              ]
+            }
+          }
+        ],
+        "name": "centrifuge",
+        "position": {
+          "x": -142.5,
+          "y": 273.5
+        },
+        "recipe": "kovarex-enrichment-process",
+        "recipe_quality": "normal"
+      },
+      {
+        "entity_number": 109,
+        "items": [
+          {
+            "id": {
+              "name": "productivity-module-3"
+            },
+            "items": {
+              "in_inventory": [
+                {
+                  "inventory": 4,
+                  "stack": 0
+                },
+                {
+                  "inventory": 4,
+                  "stack": 1
+                }
+              ]
+            }
+          }
+        ],
+        "name": "centrifuge",
+        "position": {
+          "x": -142.5,
+          "y": 276.5
+        },
+        "recipe": "kovarex-enrichment-process",
+        "recipe_quality": "normal"
+      },
+      {
+        "entity_number": 110,
+        "name": "medium-electric-pole",
+        "position": {
+          "x": -140.5,
+          "y": 264.5
+        }
+      },
+      {
+        "entity_number": 111,
+        "name": "medium-electric-pole",
+        "position": {
+          "x": -140.5,
+          "y": 270.5
+        }
+      },
+      {
+        "entity_number": 112,
+        "name": "medium-electric-pole",
+        "position": {
+          "x": -140.5,
+          "y": 276.5
+        }
+      },
+      {
+        "entity_number": 113,
+        "items": [
+          {
+            "id": {
+              "name": "speed-module-3"
+            },
+            "items": {
+              "in_inventory": [
+                {
+                  "inventory": 1,
+                  "stack": 0
+                },
+                {
+                  "inventory": 1,
+                  "stack": 1
+                }
+              ]
+            }
+          }
+        ],
+        "name": "beacon",
+        "position": {
+          "x": -137.5,
+          "y": 263.5
+        }
+      },
+      {
+        "entity_number": 114,
+        "items": [
+          {
+            "id": {
+              "name": "speed-module-3"
+            },
+            "items": {
+              "in_inventory": [
+                {
+                  "inventory": 1,
+                  "stack": 0
+                },
+                {
+                  "inventory": 1,
+                  "stack": 1
+                }
+              ]
+            }
+          }
+        ],
+        "name": "beacon",
+        "position": {
+          "x": -137.5,
+          "y": 266.5
+        }
+      },
+      {
+        "entity_number": 115,
+        "items": [
+          {
+            "id": {
+              "name": "speed-module-3"
+            },
+            "items": {
+              "in_inventory": [
+                {
+                  "inventory": 1,
+                  "stack": 0
+                },
+                {
+                  "inventory": 1,
+                  "stack": 1
+                }
+              ]
+            }
+          }
+        ],
+        "name": "beacon",
+        "position": {
+          "x": -137.5,
+          "y": 269.5
+        }
+      },
+      {
+        "entity_number": 116,
+        "items": [
+          {
+            "id": {
+              "name": "speed-module-3"
+            },
+            "items": {
+              "in_inventory": [
+                {
+                  "inventory": 1,
+                  "stack": 0
+                },
+                {
+                  "inventory": 1,
+                  "stack": 1
+                }
+              ]
+            }
+          }
+        ],
+        "name": "beacon",
+        "position": {
+          "x": -137.5,
+          "y": 272.5
+        }
+      },
+      {
+        "entity_number": 117,
+        "items": [
+          {
+            "id": {
+              "name": "speed-module-3"
+            },
+            "items": {
+              "in_inventory": [
+                {
+                  "inventory": 1,
+                  "stack": 0
+                },
+                {
+                  "inventory": 1,
+                  "stack": 1
+                }
+              ]
+            }
+          }
+        ],
+        "name": "beacon",
+        "position": {
+          "x": -137.5,
+          "y": 275.5
+        }
+      },
+      {
+        "entity_number": 118,
+        "items": [
+          {
+            "id": {
+              "name": "speed-module-3"
+            },
+            "items": {
+              "in_inventory": [
+                {
+                  "inventory": 1,
+                  "stack": 0
+                },
+                {
+                  "inventory": 1,
+                  "stack": 1
+                }
+              ]
+            }
+          }
+        ],
+        "name": "beacon",
+        "position": {
+          "x": -137.5,
+          "y": 278.5
+        }
+      }
+    ],
+    "icons": [
+      {
+        "index": 1,
+        "signal": {
+          "name": "kovarex-enrichment-process",
+          "type": "recipe"
+        }
+      }
+    ],
+    "version": 562954249306113,
+    "wires": [
+      [
+        23,
+        5,
+        26,
+        5
+      ],
+      [
+        23,
+        5,
+        33,
+        5
+      ],
+      [
+        26,
+        5,
+        36,
+        5
+      ],
+      [
+        26,
+        5,
+        28,
+        5
+      ],
+      [
+        28,
+        5,
+        39,
+        5
+      ],
+      [
+        33,
+        5,
+        36,
+        5
+      ],
+      [
+        33,
+        5,
+        90,
+        5
+      ],
+      [
+        34,
+        1,
+        35,
+        1
+      ],
+      [
+        34,
+        1,
+        68,
+        1
+      ],
+      [
+        35,
+        1,
+        37,
+        1
+      ],
+      [
+        36,
+        5,
+        95,
+        5
+      ],
+      [
+        36,
+        5,
+        39,
+        5
+      ],
+      [
+        37,
+        1,
+        38,
+        1
+      ],
+      [
+        39,
+        5,
+        100,
+        5
+      ],
+      [
+        68,
+        1,
+        93,
+        1
+      ],
+      [
+        68,
+        1,
+        71,
+        1
+      ],
+      [
+        90,
+        5,
+        95,
+        5
+      ],
+      [
+        90,
+        5,
+        110,
+        5
+      ],
+      [
+        93,
+        1,
+        96,
+        1
+      ],
+      [
+        95,
+        5,
+        111,
+        5
+      ],
+      [
+        95,
+        5,
+        100,
+        5
+      ],
+      [
+        96,
+        1,
+        98,
+        1
+      ],
+      [
+        98,
+        1,
+        101,
+        1
+      ],
+      [
+        100,
+        5,
+        112,
+        5
+      ],
+      [
+        110,
+        5,
+        111,
+        5
+      ],
+      [
+        111,
+        5,
+        112,
+        5
+      ]
+    ]
+  },
+  "index": 6
+}

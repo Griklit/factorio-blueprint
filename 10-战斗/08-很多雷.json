@@ -1,0 +1,168 @@
+{
+  "blueprint": {
+    "item": "blueprint",
+    "label": "很多雷",
+    "entities": [
+      {
+        "entity_number": 1,
+        "name": "land-mine",
+        "position": {
+          "x": 0.5,
+          "y": 0.5
+        }
+      },
+      {
+        "entity_number": 2,
+        "name": "land-mine",
+        "position": {
+          "x": 0.5,
+          "y": 1.5
+        }
+      },
+      {
+        "entity_number": 3,
+        "name": "land-mine",
+        "position": {
+          "x": 0.5,
+          "y": 2.5
+        }
+      },
+      {
+        "entity_number": 4,
+        "name": "land-mine",
+        "position": {
+          "x": 0.5,
+          "y": 3.5
+        }
+      },
+      {
+        "entity_number": 5,
+        "name": "land-mine",
+        "position": {
+          "x": 1.5,
+          "y": 0.5
+        }
+      },
+      {
+        "entity_number": 6,
+        "name": "land-mine",
+        "position": {
+          "x": 1.5,
+          "y": 1.5
+        }
+      },
+      {
+        "entity_number": 7,
+        "name": "land-mine",
+        "position": {
+          "x": 1.5,
+          "y": 2.5
+        }
+      },
+      {
+        "entity_number": 8,
+        "name": "land-mine",
+        "position": {
+          "x": 1.5,
+          "y": 3.5
+        }
+      },
+      {
+        "entity_number": 9,
+        "name": "land-mine",
+        "position": {
+          "x": 2.5,
+          "y": 0.5
+        }
+      },
+      {
+        "entity_number": 10,
+        "name": "land-mine",
+        "position": {
+          "x": 2.5,
+          "y": 1.5
+        }
+      },
+      {
+        "entity_number": 11,
+        "name": "land-mine",
+        "position": {
+          "x": 2.5,
+          "y": 2.5
+        }
+      },
+      {
+        "entity_number": 12,
+        "name": "land-mine",
+        "position": {
+          "x": 2.5,
+          "y": 3.5
+        }
+      },
+      {
+        "entity_number": 13,
+        "name": "land-mine",
+        "position": {
+          "x": 3.5,
+          "y": 0.5
+        }
+      },
+      {
+        "entity_number": 14,
+        "name": "land-mine",
+        "position": {
+          "x": 3.5,
+          "y": 1.5
+        }
+      },
+      {
+        "entity_number": 15,
+        "name": "land-mine",
+        "position": {
+          "x": 3.5,
+          "y": 2.5
+        }
+      },
+      {
+        "entity_number": 16,
+        "name": "land-mine",
+        "position": {
+          "x": 3.5,
+          "y": 3.5
+        }
+      }
+    ],
+    "icons": [
+      {
+        "index": 1,
+        "signal": {
+          "name": "land-mine"
+        }
+      },
+      {
+        "index": 2,
+        "signal": {
+          "name": "land-mine"
+        }
+      },
+      {
+        "index": 3,
+        "signal": {
+          "name": "land-mine"
+        }
+      },
+      {
+        "index": 4,
+        "signal": {
+          "name": "land-mine"
+        }
+      }
+    ],
+    "snap-to-grid": {
+      "x": 4,
+      "y": 4
+    },
+    "version": 562954249306113
+  },
+  "index": 8
+}

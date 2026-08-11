@@ -1,0 +1,17 @@
+{
+  "active_index": 0,
+  "blueprints": [],
+  "description": "By Vitamin_C\n\n先解锁传说，再使用此蓝图。\n满配7/min传说品质2和1/min传说品质3，50分钟到1小时即可达到目标产量。\n响铃了就看警报覆盖下一个阶段的蓝图。\n输入1M熔融铁/300k铜，混品煤矿，水，50/min钬矿，石矿\n物流网络输入重油桶。\n仅传说材料和三级插件进入物流网，机器人用量极少",
+  "icons": [
+    {
+      "index": 1,
+      "signal": {
+        "name": "turbo-transport-belt",
+        "quality": "legendary"
+      }
+    }
+  ],
+  "item": "blueprint-book",
+  "label": "1小时0科技起步2.0.2",
+  "version": 562954249306113
+}

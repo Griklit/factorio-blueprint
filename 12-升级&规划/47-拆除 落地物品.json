@@ -1,0 +1,28 @@
+{
+  "deconstruction_planner": {
+    "label": "拆除 落地物品",
+    "item": "deconstruction-planner",
+    "settings": {
+      "entity_filters": [
+        {
+          "comparator": "=",
+          "index": 0,
+          "name": "item-on-ground",
+          "quality": "normal"
+        }
+      ],
+      "icons": [
+        {
+          "index": 1,
+          "signal": {
+            "name": "item-on-ground",
+            "type": "entity"
+          }
+        }
+      ],
+      "tile_selection_mode": 2
+    },
+    "version": 562954249306113
+  },
+  "index": 47
+}

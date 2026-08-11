@@ -1,0 +1,15 @@
+{
+  "active_index": 1,
+  "blueprints": [],
+  "icons": [
+    {
+      "index": 1,
+      "signal": {
+        "name": "train-stop"
+      }
+    }
+  ],
+  "item": "blueprint-book",
+  "label": "车站",
+  "version": 562954249306113
+}

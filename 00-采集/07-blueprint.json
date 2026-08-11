@@ -1,0 +1,355 @@
+{
+  "blueprint": {
+    "item": "blueprint",
+    "entities": [
+      {
+        "entity_number": 1,
+        "name": "beacon",
+        "position": {
+          "x": -136.5,
+          "y": -103.5
+        }
+      },
+      {
+        "entity_number": 2,
+        "name": "beacon",
+        "position": {
+          "x": -136.5,
+          "y": -100.5
+        }
+      },
+      {
+        "entity_number": 3,
+        "name": "beacon",
+        "position": {
+          "x": -136.5,
+          "y": -97.5
+        }
+      },
+      {
+        "entity_number": 4,
+        "name": "beacon",
+        "position": {
+          "x": -136.5,
+          "y": -94.5
+        }
+      },
+      {
+        "entity_number": 5,
+        "name": "beacon",
+        "position": {
+          "x": -136.5,
+          "y": -91.5
+        }
+      },
+      {
+        "entity_number": 6,
+        "name": "beacon",
+        "position": {
+          "x": -136.5,
+          "y": -88.5
+        }
+      },
+      {
+        "entity_number": 7,
+        "name": "beacon",
+        "position": {
+          "x": -136.5,
+          "y": -85.5
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 8,
+        "name": "big-mining-drill",
+        "position": {
+          "x": -132.5,
+          "y": -102.5
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 9,
+        "name": "big-mining-drill",
+        "position": {
+          "x": -132.5,
+          "y": -97.5
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 10,
+        "name": "big-mining-drill",
+        "position": {
+          "x": -132.5,
+          "y": -92.5
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 11,
+        "name": "big-mining-drill",
+        "position": {
+          "x": -132.5,
+          "y": -87.5
+        }
+      },
+      {
+        "entity_number": 12,
+        "name": "turbo-underground-belt",
+        "position": {
+          "x": -129.5,
+          "y": -103.5
+        },
+        "type": "input"
+      },
+      {
+        "entity_number": 13,
+        "name": "turbo-transport-belt",
+        "position": {
+          "x": -129.5,
+          "y": -102.5
+        }
+      },
+      {
+        "entity_number": 14,
+        "name": "turbo-underground-belt",
+        "position": {
+          "x": -129.5,
+          "y": -101.5
+        },
+        "type": "output"
+      },
+      {
+        "direction": 4,
+        "entity_number": 15,
+        "name": "turbo-transport-belt",
+        "position": {
+          "x": -129.5,
+          "y": -97.5
+        }
+      },
+      {
+        "entity_number": 16,
+        "name": "turbo-underground-belt",
+        "position": {
+          "x": -129.5,
+          "y": -93.5
+        },
+        "type": "input"
+      },
+      {
+        "entity_number": 17,
+        "name": "turbo-transport-belt",
+        "position": {
+          "x": -129.5,
+          "y": -92.5
+        }
+      },
+      {
+        "entity_number": 18,
+        "name": "turbo-underground-belt",
+        "position": {
+          "x": -129.5,
+          "y": -91.5
+        },
+        "type": "output"
+      },
+      {
+        "direction": 4,
+        "entity_number": 19,
+        "name": "turbo-transport-belt",
+        "position": {
+          "x": -129.5,
+          "y": -87.5
+        }
+      },
+      {
+        "entity_number": 20,
+        "name": "substation",
+        "position": {
+          "x": -129,
+          "y": -95
+        }
+      },
+      {
+        "direction": 12,
+        "entity_number": 21,
+        "name": "turbo-transport-belt",
+        "position": {
+          "x": -128.5,
+          "y": -102.5
+        }
+      },
+      {
+        "entity_number": 22,
+        "name": "turbo-underground-belt",
+        "position": {
+          "x": -128.5,
+          "y": -98.5
+        },
+        "type": "input"
+      },
+      {
+        "entity_number": 23,
+        "name": "turbo-transport-belt",
+        "position": {
+          "x": -128.5,
+          "y": -97.5
+        }
+      },
+      {
+        "entity_number": 24,
+        "name": "turbo-underground-belt",
+        "position": {
+          "x": -128.5,
+          "y": -96.5
+        },
+        "type": "output"
+      },
+      {
+        "direction": 12,
+        "entity_number": 25,
+        "name": "turbo-transport-belt",
+        "position": {
+          "x": -128.5,
+          "y": -92.5
+        }
+      },
+      {
+        "entity_number": 26,
+        "name": "turbo-underground-belt",
+        "position": {
+          "x": -128.5,
+          "y": -88.5
+        },
+        "type": "input"
+      },
+      {
+        "entity_number": 27,
+        "name": "turbo-transport-belt",
+        "position": {
+          "x": -128.5,
+          "y": -87.5
+        }
+      },
+      {
+        "entity_number": 28,
+        "name": "turbo-underground-belt",
+        "position": {
+          "x": -128.5,
+          "y": -86.5
+        },
+        "type": "output"
+      },
+      {
+        "direction": 12,
+        "entity_number": 29,
+        "name": "big-mining-drill",
+        "position": {
+          "x": -125.5,
+          "y": -102.5
+        }
+      },
+      {
+        "direction": 12,
+        "entity_number": 30,
+        "name": "big-mining-drill",
+        "position": {
+          "x": -125.5,
+          "y": -97.5
+        }
+      },
+      {
+        "direction": 12,
+        "entity_number": 31,
+        "name": "big-mining-drill",
+        "position": {
+          "x": -125.5,
+          "y": -92.5
+        }
+      },
+      {
+        "direction": 12,
+        "entity_number": 32,
+        "name": "big-mining-drill",
+        "position": {
+          "x": -125.5,
+          "y": -87.5
+        }
+      },
+      {
+        "entity_number": 33,
+        "name": "beacon",
+        "position": {
+          "x": -121.5,
+          "y": -103.5
+        }
+      },
+      {
+        "entity_number": 34,
+        "name": "beacon",
+        "position": {
+          "x": -121.5,
+          "y": -100.5
+        }
+      },
+      {
+        "entity_number": 35,
+        "name": "beacon",
+        "position": {
+          "x": -121.5,
+          "y": -97.5
+        }
+      },
+      {
+        "entity_number": 36,
+        "name": "beacon",
+        "position": {
+          "x": -121.5,
+          "y": -94.5
+        }
+      },
+      {
+        "entity_number": 37,
+        "name": "beacon",
+        "position": {
+          "x": -121.5,
+          "y": -91.5
+        }
+      },
+      {
+        "entity_number": 38,
+        "name": "beacon",
+        "position": {
+          "x": -121.5,
+          "y": -88.5
+        }
+      },
+      {
+        "entity_number": 39,
+        "name": "beacon",
+        "position": {
+          "x": -121.5,
+          "y": -85.5
+        }
+      }
+    ],
+    "icons": [
+      {
+        "index": 1,
+        "signal": {
+          "name": "big-mining-drill"
+        }
+      },
+      {
+        "index": 2,
+        "signal": {
+          "name": "beacon"
+        }
+      }
+    ],
+    "version": 562954249306113
+  },
+  "index": 7
+}

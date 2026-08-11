@@ -1,0 +1,15 @@
+{
+  "active_index": 6,
+  "blueprints": [],
+  "icons": [
+    {
+      "index": 1,
+      "signal": {
+        "name": "locomotive"
+      }
+    }
+  ],
+  "item": "blueprint-book",
+  "label": "机车",
+  "version": 562954249306113
+}

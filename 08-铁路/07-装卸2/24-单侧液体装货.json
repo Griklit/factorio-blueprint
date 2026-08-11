@@ -1,0 +1,513 @@
+{
+  "blueprint": {
+    "item": "blueprint",
+    "label": "单侧液体装货",
+    "entities": [
+      {
+        "entity_number": 1,
+        "name": "small-lamp",
+        "position": {
+          "x": -6.5,
+          "y": 154.5
+        }
+      },
+      {
+        "entity_number": 2,
+        "name": "medium-electric-pole",
+        "position": {
+          "x": -5.5,
+          "y": 154.5
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 3,
+        "name": "pump",
+        "position": {
+          "x": -6,
+          "y": 155.5
+        }
+      },
+      {
+        "entity_number": 4,
+        "name": "pipe",
+        "position": {
+          "x": -10.5,
+          "y": 157.5
+        }
+      },
+      {
+        "control_behavior": {
+          "temperature_signal": {
+            "name": "signal-T",
+            "type": "virtual"
+          }
+        },
+        "direction": 4,
+        "entity_number": 5,
+        "name": "storage-tank",
+        "position": {
+          "x": -8.5,
+          "y": 156.5
+        }
+      },
+      {
+        "entity_number": 6,
+        "name": "pipe",
+        "position": {
+          "x": -10.5,
+          "y": 158.5
+        }
+      },
+      {
+        "entity_number": 7,
+        "name": "pipe-to-ground",
+        "position": {
+          "x": -10.5,
+          "y": 159.5
+        }
+      },
+      {
+        "control_behavior": {
+          "temperature_signal": {
+            "name": "signal-T",
+            "type": "virtual"
+          }
+        },
+        "entity_number": 8,
+        "name": "storage-tank",
+        "position": {
+          "x": -8.5,
+          "y": 159.5
+        }
+      },
+      {
+        "entity_number": 9,
+        "name": "small-lamp",
+        "position": {
+          "x": -6.5,
+          "y": 161.5
+        }
+      },
+      {
+        "entity_number": 10,
+        "name": "pipe",
+        "position": {
+          "x": -7.5,
+          "y": 161.5
+        }
+      },
+      {
+        "entity_number": 11,
+        "name": "medium-electric-pole",
+        "position": {
+          "x": -5.5,
+          "y": 161.5
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 12,
+        "name": "pump",
+        "position": {
+          "x": -6,
+          "y": 160.5
+        }
+      },
+      {
+        "direction": 8,
+        "entity_number": 13,
+        "name": "pipe-to-ground",
+        "position": {
+          "x": -10.5,
+          "y": 163.5
+        }
+      },
+      {
+        "control_behavior": {
+          "temperature_signal": {
+            "name": "signal-T",
+            "type": "virtual"
+          }
+        },
+        "direction": 4,
+        "entity_number": 14,
+        "name": "storage-tank",
+        "position": {
+          "x": -8.5,
+          "y": 163.5
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 15,
+        "name": "pump",
+        "position": {
+          "x": -6,
+          "y": 162.5
+        }
+      },
+      {
+        "entity_number": 16,
+        "name": "pipe",
+        "position": {
+          "x": -10.5,
+          "y": 164.5
+        }
+      },
+      {
+        "entity_number": 17,
+        "name": "pipe",
+        "position": {
+          "x": -10.5,
+          "y": 165.5
+        }
+      },
+      {
+        "entity_number": 18,
+        "name": "pipe-to-ground",
+        "position": {
+          "x": -10.5,
+          "y": 166.5
+        }
+      },
+      {
+        "control_behavior": {
+          "temperature_signal": {
+            "name": "signal-T",
+            "type": "virtual"
+          }
+        },
+        "entity_number": 19,
+        "name": "storage-tank",
+        "position": {
+          "x": -8.5,
+          "y": 166.5
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 20,
+        "name": "pump",
+        "position": {
+          "x": -6,
+          "y": 167.5
+        }
+      },
+      {
+        "entity_number": 21,
+        "name": "small-lamp",
+        "position": {
+          "x": -6.5,
+          "y": 168.5
+        }
+      },
+      {
+        "entity_number": 22,
+        "name": "pipe",
+        "position": {
+          "x": -7.5,
+          "y": 168.5
+        }
+      },
+      {
+        "entity_number": 23,
+        "name": "medium-electric-pole",
+        "position": {
+          "x": -5.5,
+          "y": 168.5
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 24,
+        "name": "pump",
+        "position": {
+          "x": -6,
+          "y": 169.5
+        }
+      },
+      {
+        "entity_number": 25,
+        "name": "pipe",
+        "position": {
+          "x": -10.5,
+          "y": 171.5
+        }
+      },
+      {
+        "direction": 8,
+        "entity_number": 26,
+        "name": "pipe-to-ground",
+        "position": {
+          "x": -10.5,
+          "y": 170.5
+        }
+      },
+      {
+        "control_behavior": {
+          "temperature_signal": {
+            "name": "signal-T",
+            "type": "virtual"
+          }
+        },
+        "direction": 4,
+        "entity_number": 27,
+        "name": "storage-tank",
+        "position": {
+          "x": -8.5,
+          "y": 170.5
+        }
+      },
+      {
+        "entity_number": 28,
+        "name": "pipe",
+        "position": {
+          "x": -10.5,
+          "y": 172.5
+        }
+      },
+      {
+        "entity_number": 29,
+        "name": "pipe-to-ground",
+        "position": {
+          "x": -10.5,
+          "y": 173.5
+        }
+      },
+      {
+        "control_behavior": {
+          "temperature_signal": {
+            "name": "signal-T",
+            "type": "virtual"
+          }
+        },
+        "entity_number": 30,
+        "name": "storage-tank",
+        "position": {
+          "x": -8.5,
+          "y": 173.5
+        }
+      },
+      {
+        "entity_number": 31,
+        "name": "small-lamp",
+        "position": {
+          "x": -6.5,
+          "y": 175.5
+        }
+      },
+      {
+        "entity_number": 32,
+        "name": "pipe",
+        "position": {
+          "x": -7.5,
+          "y": 175.5
+        }
+      },
+      {
+        "entity_number": 33,
+        "name": "medium-electric-pole",
+        "position": {
+          "x": -5.5,
+          "y": 175.5
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 34,
+        "name": "pump",
+        "position": {
+          "x": -6,
+          "y": 174.5
+        }
+      },
+      {
+        "direction": 8,
+        "entity_number": 35,
+        "name": "pipe-to-ground",
+        "position": {
+          "x": -10.5,
+          "y": 177.5
+        }
+      },
+      {
+        "control_behavior": {
+          "temperature_signal": {
+            "name": "signal-T",
+            "type": "virtual"
+          }
+        },
+        "direction": 4,
+        "entity_number": 36,
+        "name": "storage-tank",
+        "position": {
+          "x": -8.5,
+          "y": 177.5
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 37,
+        "name": "pump",
+        "position": {
+          "x": -6,
+          "y": 176.5
+        }
+      },
+      {
+        "entity_number": 38,
+        "name": "pipe",
+        "position": {
+          "x": -10.5,
+          "y": 178.5
+        }
+      },
+      {
+        "entity_number": 39,
+        "name": "pipe",
+        "position": {
+          "x": -10.5,
+          "y": 179.5
+        }
+      },
+      {
+        "control_behavior": {
+          "temperature_signal": {
+            "name": "signal-T",
+            "type": "virtual"
+          }
+        },
+        "entity_number": 40,
+        "name": "storage-tank",
+        "position": {
+          "x": -8.5,
+          "y": 180.5
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 41,
+        "name": "pump",
+        "position": {
+          "x": -6,
+          "y": 181.5
+        }
+      },
+      {
+        "entity_number": 42,
+        "name": "small-lamp",
+        "position": {
+          "x": -6.5,
+          "y": 182.5
+        }
+      },
+      {
+        "entity_number": 43,
+        "name": "medium-electric-pole",
+        "position": {
+          "x": -5.5,
+          "y": 182.5
+        }
+      }
+    ],
+    "icons": [
+      {
+        "index": 1,
+        "signal": {
+          "name": "signal-1",
+          "type": "virtual"
+        }
+      },
+      {
+        "index": 2,
+        "signal": {
+          "name": "signal-4",
+          "type": "virtual"
+        }
+      },
+      {
+        "index": 3,
+        "signal": {
+          "name": "pipe"
+        }
+      },
+      {
+        "index": 4,
+        "signal": {
+          "name": "pump"
+        }
+      }
+    ],
+    "version": 562954249306113,
+    "wires": [
+      [
+        2,
+        5,
+        11,
+        5
+      ],
+      [
+        5,
+        1,
+        8,
+        1
+      ],
+      [
+        8,
+        1,
+        14,
+        1
+      ],
+      [
+        11,
+        5,
+        23,
+        5
+      ],
+      [
+        14,
+        1,
+        19,
+        1
+      ],
+      [
+        19,
+        1,
+        27,
+        1
+      ],
+      [
+        23,
+        5,
+        33,
+        5
+      ],
+      [
+        27,
+        1,
+        30,
+        1
+      ],
+      [
+        30,
+        1,
+        36,
+        1
+      ],
+      [
+        33,
+        5,
+        43,
+        5
+      ],
+      [
+        36,
+        1,
+        40,
+        1
+      ]
+    ]
+  },
+  "index": 24
+}

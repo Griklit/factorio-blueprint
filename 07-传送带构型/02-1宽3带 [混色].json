@@ -1,0 +1,94 @@
+{
+  "blueprint": {
+    "item": "blueprint",
+    "label": "1宽3带 [混色]",
+    "entities": [
+      {
+        "direction": 4,
+        "entity_number": 1,
+        "name": "underground-belt",
+        "position": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "type": "output"
+      },
+      {
+        "direction": 4,
+        "entity_number": 2,
+        "name": "underground-belt",
+        "position": {
+          "x": 1.5,
+          "y": 0.5
+        },
+        "type": "input"
+      },
+      {
+        "direction": 4,
+        "entity_number": 3,
+        "name": "fast-underground-belt",
+        "position": {
+          "x": 2.5,
+          "y": 0.5
+        },
+        "type": "output"
+      },
+      {
+        "direction": 4,
+        "entity_number": 4,
+        "name": "fast-underground-belt",
+        "position": {
+          "x": 3.5,
+          "y": 0.5
+        },
+        "type": "input"
+      },
+      {
+        "direction": 4,
+        "entity_number": 5,
+        "name": "express-underground-belt",
+        "position": {
+          "x": 4.5,
+          "y": 0.5
+        },
+        "type": "output"
+      },
+      {
+        "direction": 4,
+        "entity_number": 6,
+        "name": "express-underground-belt",
+        "position": {
+          "x": 5.5,
+          "y": 0.5
+        },
+        "type": "input"
+      }
+    ],
+    "icons": [
+      {
+        "index": 1,
+        "signal": {
+          "name": "underground-belt"
+        }
+      },
+      {
+        "index": 2,
+        "signal": {
+          "name": "fast-underground-belt"
+        }
+      },
+      {
+        "index": 3,
+        "signal": {
+          "name": "express-underground-belt"
+        }
+      }
+    ],
+    "snap-to-grid": {
+      "x": 6,
+      "y": 1
+    },
+    "version": 562954249306113
+  },
+  "index": 2
+}

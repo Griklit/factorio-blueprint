@@ -1,0 +1,54 @@
+{
+  "blueprint": {
+    "item": "blueprint",
+    "label": "避雷单元",
+    "entities": [
+      {
+        "entity_number": 1,
+        "name": "lightning-rod",
+        "position": {
+          "x": 0.5,
+          "y": 0.5
+        }
+      },
+      {
+        "entity_number": 2,
+        "name": "lightning-rod",
+        "position": {
+          "x": 0.5,
+          "y": 35.5
+        }
+      },
+      {
+        "entity_number": 3,
+        "name": "lightning-rod",
+        "position": {
+          "x": 35.5,
+          "y": 0.5
+        }
+      },
+      {
+        "entity_number": 4,
+        "name": "lightning-rod",
+        "position": {
+          "x": 35.5,
+          "y": 35.5
+        }
+      }
+    ],
+    "icons": [
+      {
+        "index": 1,
+        "signal": {
+          "name": "lightning-rod"
+        }
+      }
+    ],
+    "snap-to-grid": {
+      "x": 35,
+      "y": 35
+    },
+    "version": 562954249306113
+  },
+  "index": 12
+}

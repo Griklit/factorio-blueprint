@@ -1,0 +1,238 @@
+{
+  "blueprint": {
+    "item": "blueprint",
+    "label": "2宽3物 [插件塔]",
+    "entities": [
+      {
+        "entity_number": 1,
+        "name": "beacon",
+        "position": {
+          "x": -2.5,
+          "y": 1.5
+        }
+      },
+      {
+        "entity_number": 2,
+        "name": "beacon",
+        "position": {
+          "x": -2.5,
+          "y": 9.5
+        }
+      },
+      {
+        "entity_number": 3,
+        "name": "beacon",
+        "position": {
+          "x": 0.5,
+          "y": 1.5
+        }
+      },
+      {
+        "direction": 8,
+        "entity_number": 4,
+        "name": "bulk-inserter",
+        "position": {
+          "x": 0.5,
+          "y": 6.5
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 5,
+        "name": "turbo-underground-belt",
+        "position": {
+          "x": 0.5,
+          "y": 7.5
+        },
+        "type": "output"
+      },
+      {
+        "entity_number": 6,
+        "name": "beacon",
+        "position": {
+          "x": 0.5,
+          "y": 9.5
+        }
+      },
+      {
+        "entity_number": 7,
+        "name": "assembling-machine-3",
+        "position": {
+          "x": 1.5,
+          "y": 4.5
+        }
+      },
+      {
+        "entity_number": 8,
+        "name": "medium-electric-pole",
+        "position": {
+          "x": 1.5,
+          "y": 6.5
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 9,
+        "name": "turbo-underground-belt",
+        "position": {
+          "x": 1.5,
+          "y": 7.5
+        },
+        "type": "input"
+      },
+      {
+        "direction": 12,
+        "entity_number": 10,
+        "name": "bulk-inserter",
+        "position": {
+          "x": 2.5,
+          "y": 7.5
+        }
+      },
+      {
+        "entity_number": 11,
+        "name": "beacon",
+        "position": {
+          "x": 3.5,
+          "y": 1.5
+        }
+      },
+      {
+        "direction": 12,
+        "entity_number": 12,
+        "name": "bulk-inserter",
+        "position": {
+          "x": 3.5,
+          "y": 3.5
+        }
+      },
+      {
+        "entity_number": 13,
+        "name": "beacon",
+        "position": {
+          "x": 3.5,
+          "y": 9.5
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 14,
+        "name": "turbo-underground-belt",
+        "position": {
+          "x": 4.5,
+          "y": 3.5
+        },
+        "type": "output"
+      },
+      {
+        "entity_number": 15,
+        "name": "medium-electric-pole",
+        "position": {
+          "x": 4.5,
+          "y": 4.5
+        }
+      },
+      {
+        "entity_number": 16,
+        "name": "assembling-machine-3",
+        "position": {
+          "x": 4.5,
+          "y": 6.5
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 17,
+        "name": "turbo-underground-belt",
+        "position": {
+          "x": 5.5,
+          "y": 3.5
+        },
+        "type": "input"
+      },
+      {
+        "direction": 8,
+        "entity_number": 18,
+        "name": "bulk-inserter",
+        "position": {
+          "x": 5.5,
+          "y": 4.5
+        }
+      },
+      {
+        "entity_number": 19,
+        "name": "beacon",
+        "position": {
+          "x": 6.5,
+          "y": 1.5
+        }
+      },
+      {
+        "entity_number": 20,
+        "name": "beacon",
+        "position": {
+          "x": 6.5,
+          "y": 9.5
+        }
+      },
+      {
+        "entity_number": 21,
+        "name": "beacon",
+        "position": {
+          "x": 9.5,
+          "y": 1.5
+        }
+      },
+      {
+        "entity_number": 22,
+        "name": "beacon",
+        "position": {
+          "x": 9.5,
+          "y": 9.5
+        }
+      }
+    ],
+    "icons": [
+      {
+        "index": 1,
+        "signal": {
+          "name": "signal-2",
+          "type": "virtual"
+        }
+      },
+      {
+        "index": 2,
+        "signal": {
+          "name": "signal-3",
+          "type": "virtual"
+        }
+      },
+      {
+        "index": 3,
+        "signal": {
+          "name": "assembling-machine-3"
+        }
+      },
+      {
+        "index": 4,
+        "signal": {
+          "name": "beacon"
+        }
+      }
+    ],
+    "snap-to-grid": {
+      "x": 6,
+      "y": 11
+    },
+    "version": 562954249306113,
+    "wires": [
+      [
+        8,
+        5,
+        15,
+        5
+      ]
+    ]
+  },
+  "index": 24
+}

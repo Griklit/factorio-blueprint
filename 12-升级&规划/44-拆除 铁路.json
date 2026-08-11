@@ -1,0 +1,53 @@
+{
+  "deconstruction_planner": {
+    "label": "拆除 铁路",
+    "item": "deconstruction-planner",
+    "settings": {
+      "entity_filters": [
+        {
+          "index": 0,
+          "name": "straight-rail"
+        },
+        {
+          "index": 1,
+          "name": "elevated-straight-rail"
+        },
+        {
+          "index": 2,
+          "name": "rail-ramp"
+        },
+        {
+          "index": 3,
+          "name": "rail-support"
+        },
+        {
+          "index": 4,
+          "name": "rail-signal"
+        },
+        {
+          "index": 5,
+          "name": "rail-chain-signal"
+        },
+        {
+          "index": 6,
+          "name": "big-electric-pole"
+        },
+        {
+          "index": 7,
+          "name": "train-stop"
+        }
+      ],
+      "icons": [
+        {
+          "index": 1,
+          "signal": {
+            "name": "rail"
+          }
+        }
+      ],
+      "tile_selection_mode": 2
+    },
+    "version": 562954249306113
+  },
+  "index": 44
+}

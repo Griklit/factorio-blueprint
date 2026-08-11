@@ -1,0 +1,28 @@
+{
+  "blueprint": {
+    "item": "blueprint",
+    "label": "[virtual-signal=signal-L]&[virtual-signal=signal-T]是什么意思？(*可参考官网wiki中\"Balancer mechanics\"板块)",
+    "description": "[virtual-signal=signal-L]“完全均分器(Lane balancers)”\n：哪怕输出发生半带堵塞，也会均分输入带两侧的所有物品\n\n[virtual-signal=signal-T]“全流量均分器(Throughput-unlimited (TU) balancers)”\n：也叫吞吐量无限制均分器。无论输出是否堵塞、输入是否不足，始终提供满带吞吐量\n——而对于普通n-m均分器来说，只有当所有输入都为满带或所有输出都不堵塞时，普通均分器才能保证提供全吞吐量",
+    "entities": [
+      {
+        "direction": 12,
+        "entity_number": 1,
+        "name": "express-splitter",
+        "position": {
+          "x": 1567.5,
+          "y": -128
+        }
+      }
+    ],
+    "icons": [
+      {
+        "index": 1,
+        "signal": {
+          "name": "express-splitter"
+        }
+      }
+    ],
+    "version": 562954249306113
+  },
+  "index": 11
+}

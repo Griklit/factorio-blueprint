@@ -1,0 +1,1529 @@
+{
+  "blueprint": {
+    "item": "blueprint",
+    "label": "虫卵火箭",
+    "entities": [
+      {
+        "entity_number": 1,
+        "name": "roboport",
+        "position": {
+          "x": 148,
+          "y": 504
+        },
+        "request_filters": {
+          "sections": [
+            {
+              "index": 1
+            }
+          ]
+        }
+      },
+      {
+        "entity_number": 2,
+        "name": "active-provider-chest",
+        "position": {
+          "x": 151.5,
+          "y": 505.5
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 3,
+        "filters": [
+          {
+            "comparator": "=",
+            "index": 1,
+            "name": "spoilage",
+            "quality": "normal"
+          }
+        ],
+        "name": "inserter",
+        "position": {
+          "x": 152.5,
+          "y": 505.5
+        },
+        "use_filters": true
+      },
+      {
+        "entity_number": 4,
+        "name": "roboport",
+        "position": {
+          "x": 171,
+          "y": 504
+        },
+        "request_filters": {
+          "sections": [
+            {
+              "index": 1
+            }
+          ]
+        }
+      },
+      {
+        "direction": 8,
+        "entity_number": 5,
+        "filters": [
+          {
+            "comparator": "=",
+            "index": 1,
+            "name": "spoilage",
+            "quality": "normal"
+          }
+        ],
+        "name": "inserter",
+        "position": {
+          "x": 151.5,
+          "y": 506.5
+        },
+        "use_filters": true
+      },
+      {
+        "entity_number": 6,
+        "name": "medium-electric-pole",
+        "position": {
+          "x": 152.5,
+          "y": 506.5
+        }
+      },
+      {
+        "entity_number": 7,
+        "name": "captive-biter-spawner",
+        "position": {
+          "x": 155.5,
+          "y": 506.5
+        },
+        "recipe": "biter-egg",
+        "recipe_quality": "normal"
+      },
+      {
+        "entity_number": 8,
+        "name": "captive-biter-spawner",
+        "position": {
+          "x": 160.5,
+          "y": 506.5
+        },
+        "recipe": "biter-egg",
+        "recipe_quality": "normal"
+      },
+      {
+        "entity_number": 9,
+        "name": "captive-biter-spawner",
+        "position": {
+          "x": 165.5,
+          "y": 506.5
+        },
+        "recipe": "biter-egg",
+        "recipe_quality": "normal"
+      },
+      {
+        "entity_number": 10,
+        "name": "active-provider-chest",
+        "position": {
+          "x": 169.5,
+          "y": 507.5
+        }
+      },
+      {
+        "direction": 12,
+        "entity_number": 11,
+        "filters": [
+          {
+            "comparator": "=",
+            "index": 1,
+            "name": "spoilage",
+            "quality": "normal"
+          }
+        ],
+        "name": "inserter",
+        "position": {
+          "x": 168.5,
+          "y": 507.5
+        },
+        "use_filters": true
+      },
+      {
+        "entity_number": 12,
+        "name": "captive-biter-spawner",
+        "position": {
+          "x": 150.5,
+          "y": 509.5
+        },
+        "recipe": "biter-egg",
+        "recipe_quality": "normal"
+      },
+      {
+        "entity_number": 13,
+        "name": "medium-electric-pole",
+        "position": {
+          "x": 153.5,
+          "y": 509.5
+        }
+      },
+      {
+        "direction": 8,
+        "entity_number": 14,
+        "name": "inserter",
+        "position": {
+          "x": 154.5,
+          "y": 509.5
+        }
+      },
+      {
+        "control_behavior": {
+          "circuit_condition": {
+            "comparator": "≥",
+            "constant": 500,
+            "first_signal": {
+              "name": "biter-egg"
+            }
+          },
+          "circuit_enabled": true
+        },
+        "entity_number": 15,
+        "name": "long-handed-inserter",
+        "position": {
+          "x": 155.5,
+          "y": 509.5
+        }
+      },
+      {
+        "control_behavior": {
+          "circuit_condition": {
+            "comparator": "≥",
+            "constant": 500,
+            "first_signal": {
+              "name": "biter-egg"
+            }
+          },
+          "circuit_enabled": true
+        },
+        "entity_number": 16,
+        "name": "long-handed-inserter",
+        "position": {
+          "x": 159.5,
+          "y": 509.5
+        }
+      },
+      {
+        "entity_number": 17,
+        "name": "medium-electric-pole",
+        "position": {
+          "x": 158.5,
+          "y": 509.5
+        }
+      },
+      {
+        "direction": 8,
+        "entity_number": 18,
+        "name": "inserter",
+        "position": {
+          "x": 160.5,
+          "y": 509.5
+        }
+      },
+      {
+        "entity_number": 19,
+        "filters": [
+          {
+            "comparator": "=",
+            "index": 1,
+            "name": "spoilage",
+            "quality": "normal"
+          }
+        ],
+        "name": "inserter",
+        "position": {
+          "x": 161.5,
+          "y": 509.5
+        },
+        "use_filters": true
+      },
+      {
+        "control_behavior": {
+          "circuit_condition": {
+            "comparator": "≥",
+            "constant": 500,
+            "first_signal": {
+              "name": "biter-egg"
+            }
+          },
+          "circuit_enabled": true
+        },
+        "entity_number": 20,
+        "name": "long-handed-inserter",
+        "position": {
+          "x": 163.5,
+          "y": 509.5
+        }
+      },
+      {
+        "direction": 8,
+        "entity_number": 21,
+        "name": "inserter",
+        "position": {
+          "x": 164.5,
+          "y": 509.5
+        }
+      },
+      {
+        "entity_number": 22,
+        "name": "medium-electric-pole",
+        "position": {
+          "x": 165.5,
+          "y": 509.5
+        }
+      },
+      {
+        "direction": 8,
+        "entity_number": 23,
+        "filters": [
+          {
+            "comparator": "=",
+            "index": 1,
+            "name": "spoilage",
+            "quality": "normal"
+          }
+        ],
+        "name": "inserter",
+        "position": {
+          "x": 169.5,
+          "y": 508.5
+        },
+        "use_filters": true
+      },
+      {
+        "entity_number": 24,
+        "name": "medium-electric-pole",
+        "position": {
+          "x": 168.5,
+          "y": 508.5
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 25,
+        "name": "inserter",
+        "position": {
+          "x": 153.5,
+          "y": 510.5
+        }
+      },
+      {
+        "control_behavior": {
+          "circuit_condition": {
+            "comparator": "≥",
+            "constant": 1000,
+            "first_signal": {
+              "name": "biter-egg"
+            }
+          },
+          "circuit_enabled": true
+        },
+        "direction": 12,
+        "entity_number": 26,
+        "name": "long-handed-inserter",
+        "position": {
+          "x": 153.5,
+          "y": 511.5
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 27,
+        "name": "transport-belt",
+        "position": {
+          "x": 155.5,
+          "y": 510.5
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 28,
+        "name": "transport-belt",
+        "position": {
+          "x": 154.5,
+          "y": 510.5
+        }
+      },
+      {
+        "entity_number": 29,
+        "name": "transport-belt",
+        "position": {
+          "x": 154.5,
+          "y": 511.5
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 30,
+        "name": "transport-belt",
+        "position": {
+          "x": 157.5,
+          "y": 510.5
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 31,
+        "name": "transport-belt",
+        "position": {
+          "x": 156.5,
+          "y": 510.5
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 32,
+        "name": "transport-belt",
+        "position": {
+          "x": 159.5,
+          "y": 510.5
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 33,
+        "name": "transport-belt",
+        "position": {
+          "x": 158.5,
+          "y": 510.5
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 34,
+        "name": "transport-belt",
+        "position": {
+          "x": 161.5,
+          "y": 510.5
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 35,
+        "name": "transport-belt",
+        "position": {
+          "x": 160.5,
+          "y": 510.5
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 36,
+        "name": "transport-belt",
+        "position": {
+          "x": 163.5,
+          "y": 510.5
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 37,
+        "name": "transport-belt",
+        "position": {
+          "x": 162.5,
+          "y": 510.5
+        }
+      },
+      {
+        "direction": 12,
+        "entity_number": 38,
+        "name": "inserter",
+        "position": {
+          "x": 165.5,
+          "y": 510.5
+        }
+      },
+      {
+        "direction": 8,
+        "entity_number": 39,
+        "name": "transport-belt",
+        "position": {
+          "x": 164.5,
+          "y": 511.5
+        }
+      },
+      {
+        "direction": 8,
+        "entity_number": 40,
+        "name": "transport-belt",
+        "position": {
+          "x": 164.5,
+          "y": 510.5
+        }
+      },
+      {
+        "control_behavior": {
+          "circuit_condition": {
+            "comparator": "≥",
+            "constant": 500,
+            "first_signal": {
+              "name": "biter-egg"
+            }
+          },
+          "circuit_enabled": true
+        },
+        "direction": 4,
+        "entity_number": 41,
+        "name": "long-handed-inserter",
+        "position": {
+          "x": 165.5,
+          "y": 511.5
+        }
+      },
+      {
+        "entity_number": 42,
+        "name": "captive-biter-spawner",
+        "position": {
+          "x": 168.5,
+          "y": 511.5
+        },
+        "recipe": "biter-egg",
+        "recipe_quality": "normal"
+      },
+      {
+        "direction": 12,
+        "entity_number": 43,
+        "filters": [
+          {
+            "comparator": "=",
+            "index": 1,
+            "name": "spoilage",
+            "quality": "normal"
+          }
+        ],
+        "name": "inserter",
+        "position": {
+          "x": 153.5,
+          "y": 513.5
+        },
+        "use_filters": true
+      },
+      {
+        "entity_number": 44,
+        "name": "transport-belt",
+        "position": {
+          "x": 154.5,
+          "y": 512.5
+        }
+      },
+      {
+        "entity_number": 45,
+        "name": "transport-belt",
+        "position": {
+          "x": 154.5,
+          "y": 513.5
+        }
+      },
+      {
+        "direction": 8,
+        "entity_number": 46,
+        "name": "transport-belt",
+        "position": {
+          "x": 164.5,
+          "y": 513.5
+        }
+      },
+      {
+        "direction": 8,
+        "entity_number": 47,
+        "name": "transport-belt",
+        "position": {
+          "x": 164.5,
+          "y": 512.5
+        }
+      },
+      {
+        "entity_number": 48,
+        "name": "captive-biter-spawner",
+        "position": {
+          "x": 150.5,
+          "y": 514.5
+        },
+        "recipe": "biter-egg",
+        "recipe_quality": "normal"
+      },
+      {
+        "direction": 4,
+        "entity_number": 49,
+        "name": "inserter",
+        "position": {
+          "x": 153.5,
+          "y": 514.5
+        }
+      },
+      {
+        "control_behavior": {
+          "circuit_condition": {
+            "comparator": "≥",
+            "constant": 500,
+            "first_signal": {
+              "name": "biter-egg"
+            }
+          },
+          "circuit_enabled": true
+        },
+        "direction": 12,
+        "entity_number": 50,
+        "name": "long-handed-inserter",
+        "position": {
+          "x": 153.5,
+          "y": 515.5
+        }
+      },
+      {
+        "entity_number": 51,
+        "name": "underground-belt",
+        "position": {
+          "x": 154.5,
+          "y": 515.5
+        },
+        "type": "output"
+      },
+      {
+        "control_behavior": {
+          "circuit_contents_read_mode": 2,
+          "circuit_read_hand_contents": true
+        },
+        "entity_number": 52,
+        "name": "turbo-transport-belt",
+        "position": {
+          "x": 154.5,
+          "y": 514.5
+        }
+      },
+      {
+        "control_behavior": {
+          "read_items_mode": 2
+        },
+        "entity_number": 53,
+        "items": [
+          {
+            "id": {
+              "name": "productivity-module-3"
+            },
+            "items": {
+              "in_inventory": [
+                {
+                  "inventory": 4,
+                  "stack": 0
+                },
+                {
+                  "inventory": 4,
+                  "stack": 1
+                },
+                {
+                  "inventory": 4,
+                  "stack": 2
+                },
+                {
+                  "inventory": 4,
+                  "stack": 3
+                }
+              ]
+            }
+          }
+        ],
+        "name": "rocket-silo",
+        "position": {
+          "x": 159.5,
+          "y": 515.5
+        },
+        "recipe": "rocket-part",
+        "recipe_quality": "normal"
+      },
+      {
+        "direction": 8,
+        "entity_number": 54,
+        "name": "transport-belt",
+        "position": {
+          "x": 164.5,
+          "y": 515.5
+        }
+      },
+      {
+        "direction": 8,
+        "entity_number": 55,
+        "name": "transport-belt",
+        "position": {
+          "x": 164.5,
+          "y": 514.5
+        }
+      },
+      {
+        "entity_number": 56,
+        "name": "medium-electric-pole",
+        "position": {
+          "x": 165.5,
+          "y": 514.5
+        }
+      },
+      {
+        "control_behavior": {
+          "circuit_condition": {
+            "comparator": "≥",
+            "constant": 500,
+            "first_signal": {
+              "name": "biter-egg"
+            }
+          },
+          "circuit_enabled": true
+        },
+        "direction": 4,
+        "entity_number": 57,
+        "name": "long-handed-inserter",
+        "position": {
+          "x": 165.5,
+          "y": 515.5
+        }
+      },
+      {
+        "entity_number": 58,
+        "name": "medium-electric-pole",
+        "position": {
+          "x": 153.5,
+          "y": 516.5
+        }
+      },
+      {
+        "control_behavior": {
+          "circuit_condition": {
+            "comparator": "<",
+            "constant": 10,
+            "first_signal": {
+              "name": "bioflux"
+            }
+          },
+          "circuit_enabled": true
+        },
+        "direction": 8,
+        "entity_number": 59,
+        "name": "fast-inserter",
+        "position": {
+          "x": 154.5,
+          "y": 516.5
+        }
+      },
+      {
+        "entity_number": 60,
+        "name": "buffer-chest",
+        "position": {
+          "x": 154.5,
+          "y": 517.5
+        },
+        "request_filters": {
+          "sections": [
+            {
+              "filters": [
+                {
+                  "comparator": "=",
+                  "count": 10,
+                  "import_from": "gleba",
+                  "index": 1,
+                  "name": "bioflux",
+                  "quality": "normal"
+                }
+              ],
+              "index": 1
+            }
+          ],
+          "trash_not_requested": true
+        }
+      },
+      {
+        "direction": 12,
+        "entity_number": 61,
+        "name": "inserter",
+        "position": {
+          "x": 165.5,
+          "y": 516.5
+        }
+      },
+      {
+        "direction": 8,
+        "entity_number": 62,
+        "name": "transport-belt",
+        "position": {
+          "x": 164.5,
+          "y": 517.5
+        }
+      },
+      {
+        "direction": 8,
+        "entity_number": 63,
+        "name": "transport-belt",
+        "position": {
+          "x": 164.5,
+          "y": 516.5
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 64,
+        "filters": [
+          {
+            "comparator": "=",
+            "index": 1,
+            "name": "spoilage",
+            "quality": "normal"
+          }
+        ],
+        "name": "inserter",
+        "position": {
+          "x": 165.5,
+          "y": 517.5
+        },
+        "use_filters": true
+      },
+      {
+        "entity_number": 65,
+        "name": "captive-biter-spawner",
+        "position": {
+          "x": 168.5,
+          "y": 516.5
+        },
+        "recipe": "biter-egg",
+        "recipe_quality": "normal"
+      },
+      {
+        "entity_number": 66,
+        "name": "captive-biter-spawner",
+        "position": {
+          "x": 150.5,
+          "y": 519.5
+        },
+        "recipe": "biter-egg",
+        "recipe_quality": "normal"
+      },
+      {
+        "control_behavior": {
+          "circuit_condition": {
+            "comparator": "≥",
+            "constant": 500,
+            "first_signal": {
+              "name": "biter-egg"
+            }
+          },
+          "circuit_enabled": true
+        },
+        "direction": 12,
+        "entity_number": 67,
+        "name": "long-handed-inserter",
+        "position": {
+          "x": 153.5,
+          "y": 519.5
+        }
+      },
+      {
+        "entity_number": 68,
+        "name": "underground-belt",
+        "position": {
+          "x": 154.5,
+          "y": 519.5
+        },
+        "type": "input"
+      },
+      {
+        "control_behavior": {
+          "circuit_condition": {
+            "comparator": "<",
+            "constant": 50,
+            "first_signal": {
+              "name": "bioflux"
+            }
+          },
+          "circuit_enabled": true
+        },
+        "direction": 8,
+        "entity_number": 69,
+        "filters": [
+          {
+            "comparator": "=",
+            "index": 1,
+            "name": "spoilage",
+            "quality": "normal"
+          }
+        ],
+        "name": "fast-inserter",
+        "position": {
+          "x": 154.5,
+          "y": 518.5
+        },
+        "use_filters": true
+      },
+      {
+        "direction": 8,
+        "entity_number": 70,
+        "name": "transport-belt",
+        "position": {
+          "x": 164.5,
+          "y": 519.5
+        }
+      },
+      {
+        "direction": 8,
+        "entity_number": 71,
+        "name": "transport-belt",
+        "position": {
+          "x": 164.5,
+          "y": 518.5
+        }
+      },
+      {
+        "control_behavior": {
+          "circuit_condition": {
+            "comparator": "≥",
+            "constant": 500,
+            "first_signal": {
+              "name": "biter-egg"
+            }
+          },
+          "circuit_enabled": true
+        },
+        "direction": 4,
+        "entity_number": 72,
+        "name": "long-handed-inserter",
+        "position": {
+          "x": 165.5,
+          "y": 519.5
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 73,
+        "name": "inserter",
+        "position": {
+          "x": 153.5,
+          "y": 520.5
+        }
+      },
+      {
+        "entity_number": 74,
+        "name": "medium-electric-pole",
+        "position": {
+          "x": 153.5,
+          "y": 521.5
+        }
+      },
+      {
+        "entity_number": 75,
+        "name": "inserter",
+        "position": {
+          "x": 154.5,
+          "y": 521.5
+        }
+      },
+      {
+        "entity_number": 76,
+        "name": "transport-belt",
+        "position": {
+          "x": 154.5,
+          "y": 520.5
+        }
+      },
+      {
+        "direction": 12,
+        "entity_number": 77,
+        "name": "transport-belt",
+        "position": {
+          "x": 155.5,
+          "y": 520.5
+        }
+      },
+      {
+        "control_behavior": {
+          "circuit_condition": {
+            "comparator": "≥",
+            "constant": 500,
+            "first_signal": {
+              "name": "biter-egg"
+            }
+          },
+          "circuit_enabled": true
+        },
+        "direction": 8,
+        "entity_number": 78,
+        "name": "long-handed-inserter",
+        "position": {
+          "x": 155.5,
+          "y": 521.5
+        }
+      },
+      {
+        "direction": 12,
+        "entity_number": 79,
+        "name": "transport-belt",
+        "position": {
+          "x": 156.5,
+          "y": 520.5
+        }
+      },
+      {
+        "direction": 12,
+        "entity_number": 80,
+        "name": "transport-belt",
+        "position": {
+          "x": 157.5,
+          "y": 520.5
+        }
+      },
+      {
+        "direction": 8,
+        "entity_number": 81,
+        "filters": [
+          {
+            "comparator": "=",
+            "index": 1,
+            "name": "spoilage",
+            "quality": "normal"
+          }
+        ],
+        "name": "inserter",
+        "position": {
+          "x": 157.5,
+          "y": 521.5
+        },
+        "use_filters": true
+      },
+      {
+        "entity_number": 82,
+        "name": "inserter",
+        "position": {
+          "x": 158.5,
+          "y": 521.5
+        }
+      },
+      {
+        "direction": 12,
+        "entity_number": 83,
+        "name": "transport-belt",
+        "position": {
+          "x": 158.5,
+          "y": 520.5
+        }
+      },
+      {
+        "direction": 12,
+        "entity_number": 84,
+        "name": "transport-belt",
+        "position": {
+          "x": 159.5,
+          "y": 520.5
+        }
+      },
+      {
+        "control_behavior": {
+          "circuit_condition": {
+            "comparator": "≥",
+            "constant": 500,
+            "first_signal": {
+              "name": "biter-egg"
+            }
+          },
+          "circuit_enabled": true
+        },
+        "direction": 8,
+        "entity_number": 85,
+        "name": "long-handed-inserter",
+        "position": {
+          "x": 159.5,
+          "y": 521.5
+        }
+      },
+      {
+        "direction": 12,
+        "entity_number": 86,
+        "name": "underground-belt",
+        "position": {
+          "x": 160.5,
+          "y": 520.5
+        },
+        "type": "output"
+      },
+      {
+        "entity_number": 87,
+        "name": "buffer-chest",
+        "position": {
+          "x": 161.5,
+          "y": 521.5
+        },
+        "request_filters": {
+          "sections": [
+            {
+              "filters": [
+                {
+                  "comparator": "=",
+                  "count": 100,
+                  "import_from": "nauvis",
+                  "index": 1,
+                  "name": "processing-unit",
+                  "quality": "normal"
+                },
+                {
+                  "comparator": "=",
+                  "count": 50,
+                  "import_from": "nauvis",
+                  "index": 2,
+                  "name": "low-density-structure",
+                  "quality": "normal"
+                },
+                {
+                  "comparator": "=",
+                  "count": 20,
+                  "import_from": "nauvis",
+                  "index": 3,
+                  "name": "rocket-fuel",
+                  "quality": "normal"
+                }
+              ],
+              "index": 1
+            }
+          ]
+        }
+      },
+      {
+        "direction": 8,
+        "entity_number": 88,
+        "name": "fast-inserter",
+        "position": {
+          "x": 161.5,
+          "y": 520.5
+        }
+      },
+      {
+        "entity_number": 89,
+        "name": "medium-electric-pole",
+        "position": {
+          "x": 160.5,
+          "y": 521.5
+        }
+      },
+      {
+        "direction": 12,
+        "entity_number": 90,
+        "name": "underground-belt",
+        "position": {
+          "x": 162.5,
+          "y": 520.5
+        },
+        "type": "input"
+      },
+      {
+        "direction": 12,
+        "entity_number": 91,
+        "name": "transport-belt",
+        "position": {
+          "x": 163.5,
+          "y": 520.5
+        }
+      },
+      {
+        "control_behavior": {
+          "circuit_condition": {
+            "comparator": "≥",
+            "constant": 500,
+            "first_signal": {
+              "name": "biter-egg"
+            }
+          },
+          "circuit_enabled": true
+        },
+        "direction": 8,
+        "entity_number": 92,
+        "name": "long-handed-inserter",
+        "position": {
+          "x": 163.5,
+          "y": 521.5
+        }
+      },
+      {
+        "entity_number": 93,
+        "name": "inserter",
+        "position": {
+          "x": 164.5,
+          "y": 521.5
+        }
+      },
+      {
+        "direction": 12,
+        "entity_number": 94,
+        "name": "inserter",
+        "position": {
+          "x": 165.5,
+          "y": 520.5
+        }
+      },
+      {
+        "direction": 12,
+        "entity_number": 95,
+        "name": "transport-belt",
+        "position": {
+          "x": 164.5,
+          "y": 520.5
+        }
+      },
+      {
+        "entity_number": 96,
+        "name": "medium-electric-pole",
+        "position": {
+          "x": 165.5,
+          "y": 521.5
+        }
+      },
+      {
+        "entity_number": 97,
+        "name": "captive-biter-spawner",
+        "position": {
+          "x": 168.5,
+          "y": 521.5
+        },
+        "recipe": "biter-egg",
+        "recipe_quality": "normal"
+      },
+      {
+        "entity_number": 98,
+        "filters": [
+          {
+            "comparator": "=",
+            "index": 1,
+            "name": "spoilage",
+            "quality": "normal"
+          }
+        ],
+        "name": "inserter",
+        "position": {
+          "x": 149.5,
+          "y": 522.5
+        },
+        "use_filters": true
+      },
+      {
+        "entity_number": 99,
+        "name": "active-provider-chest",
+        "position": {
+          "x": 149.5,
+          "y": 523.5
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 100,
+        "filters": [
+          {
+            "comparator": "=",
+            "index": 1,
+            "name": "spoilage",
+            "quality": "normal"
+          }
+        ],
+        "name": "inserter",
+        "position": {
+          "x": 150.5,
+          "y": 523.5
+        },
+        "use_filters": true
+      },
+      {
+        "entity_number": 101,
+        "name": "medium-electric-pole",
+        "position": {
+          "x": 150.5,
+          "y": 522.5
+        }
+      },
+      {
+        "entity_number": 102,
+        "name": "captive-biter-spawner",
+        "position": {
+          "x": 153.5,
+          "y": 524.5
+        },
+        "recipe": "biter-egg",
+        "recipe_quality": "normal"
+      },
+      {
+        "entity_number": 103,
+        "name": "captive-biter-spawner",
+        "position": {
+          "x": 158.5,
+          "y": 524.5
+        },
+        "recipe": "biter-egg",
+        "recipe_quality": "normal"
+      },
+      {
+        "entity_number": 104,
+        "name": "captive-biter-spawner",
+        "position": {
+          "x": 163.5,
+          "y": 524.5
+        },
+        "recipe": "biter-egg",
+        "recipe_quality": "normal"
+      },
+      {
+        "entity_number": 105,
+        "filters": [
+          {
+            "comparator": "=",
+            "index": 1,
+            "name": "spoilage",
+            "quality": "normal"
+          }
+        ],
+        "name": "inserter",
+        "position": {
+          "x": 167.5,
+          "y": 524.5
+        },
+        "use_filters": true
+      },
+      {
+        "entity_number": 106,
+        "name": "active-provider-chest",
+        "position": {
+          "x": 167.5,
+          "y": 525.5
+        }
+      },
+      {
+        "direction": 12,
+        "entity_number": 107,
+        "filters": [
+          {
+            "comparator": "=",
+            "index": 1,
+            "name": "spoilage",
+            "quality": "normal"
+          }
+        ],
+        "name": "inserter",
+        "position": {
+          "x": 166.5,
+          "y": 525.5
+        },
+        "use_filters": true
+      },
+      {
+        "entity_number": 108,
+        "name": "medium-electric-pole",
+        "position": {
+          "x": 166.5,
+          "y": 524.5
+        }
+      },
+      {
+        "entity_number": 109,
+        "name": "roboport",
+        "position": {
+          "x": 148,
+          "y": 527
+        },
+        "request_filters": {
+          "sections": [
+            {
+              "index": 1
+            }
+          ]
+        }
+      },
+      {
+        "entity_number": 110,
+        "name": "roboport",
+        "position": {
+          "x": 171,
+          "y": 527
+        },
+        "request_filters": {
+          "sections": [
+            {
+              "index": 1
+            }
+          ]
+        }
+      }
+    ],
+    "icons": [
+      {
+        "index": 1,
+        "signal": {
+          "name": "captive-biter-spawner"
+        }
+      },
+      {
+        "index": 2,
+        "signal": {
+          "name": "rocket-part",
+          "type": "recipe"
+        }
+      },
+      {
+        "index": 3,
+        "signal": {
+          "name": "signal-stack-size",
+          "type": "virtual"
+        }
+      }
+    ],
+    "version": 562954249306113,
+    "wires": [
+      [
+        6,
+        5,
+        13,
+        5
+      ],
+      [
+        13,
+        5,
+        17,
+        5
+      ],
+      [
+        13,
+        5,
+        58,
+        5
+      ],
+      [
+        15,
+        2,
+        16,
+        2
+      ],
+      [
+        15,
+        2,
+        26,
+        2
+      ],
+      [
+        16,
+        2,
+        20,
+        2
+      ],
+      [
+        17,
+        5,
+        22,
+        5
+      ],
+      [
+        20,
+        2,
+        41,
+        2
+      ],
+      [
+        22,
+        5,
+        24,
+        5
+      ],
+      [
+        22,
+        5,
+        56,
+        5
+      ],
+      [
+        26,
+        2,
+        50,
+        2
+      ],
+      [
+        41,
+        2,
+        57,
+        2
+      ],
+      [
+        50,
+        2,
+        67,
+        2
+      ],
+      [
+        52,
+        1,
+        59,
+        1
+      ],
+      [
+        53,
+        2,
+        85,
+        2
+      ],
+      [
+        56,
+        5,
+        96,
+        5
+      ],
+      [
+        57,
+        2,
+        72,
+        2
+      ],
+      [
+        58,
+        5,
+        74,
+        5
+      ],
+      [
+        67,
+        2,
+        78,
+        2
+      ],
+      [
+        72,
+        2,
+        92,
+        2
+      ],
+      [
+        74,
+        5,
+        89,
+        5
+      ],
+      [
+        74,
+        5,
+        101,
+        5
+      ],
+      [
+        78,
+        2,
+        85,
+        2
+      ],
+      [
+        85,
+        2,
+        92,
+        2
+      ],
+      [
+        89,
+        5,
+        96,
+        5
+      ],
+      [
+        96,
+        5,
+        108,
+        5
+      ]
+    ]
+  },
+  "index": 12
+}

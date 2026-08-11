@@ -1,0 +1,65 @@
+{
+  "blueprint": {
+    "item": "blueprint",
+    "label": "永久雷达 [祝融星]",
+    "entities": [
+      {
+        "entity_number": 1,
+        "name": "solar-panel",
+        "position": {
+          "x": -113.5,
+          "y": 224.5
+        }
+      },
+      {
+        "entity_number": 2,
+        "name": "solar-panel",
+        "position": {
+          "x": -113.5,
+          "y": 227.5
+        }
+      },
+      {
+        "entity_number": 3,
+        "name": "accumulator",
+        "position": {
+          "x": -111,
+          "y": 227
+        }
+      },
+      {
+        "entity_number": 4,
+        "name": "radar",
+        "position": {
+          "x": -110.5,
+          "y": 224.5
+        }
+      },
+      {
+        "entity_number": 5,
+        "name": "medium-electric-pole",
+        "position": {
+          "x": -109.5,
+          "y": 226.5
+        }
+      }
+    ],
+    "icons": [
+      {
+        "index": 1,
+        "signal": {
+          "name": "radar"
+        }
+      },
+      {
+        "index": 2,
+        "signal": {
+          "name": "vulcanus",
+          "type": "space-location"
+        }
+      }
+    ],
+    "version": 562954249306113
+  },
+  "index": 2
+}

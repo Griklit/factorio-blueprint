@@ -1,0 +1,3098 @@
+{
+  "blueprint": {
+    "item": "blueprint",
+    "label": "雷神星特产",
+    "description": "依靠无人机运输\n特斯拉并非特产，只是顺带的\n我觉得你应该有能把铸造厂改成组装机的能力",
+    "entities": [
+      {
+        "direction": 4,
+        "entity_number": 1,
+        "name": "fast-transport-belt",
+        "position": {
+          "x": -720.5,
+          "y": 75.5
+        }
+      },
+      {
+        "entity_number": 2,
+        "name": "fast-transport-belt",
+        "position": {
+          "x": -720.5,
+          "y": 76.5
+        }
+      },
+      {
+        "entity_number": 3,
+        "name": "fast-transport-belt",
+        "position": {
+          "x": -720.5,
+          "y": 77.5
+        }
+      },
+      {
+        "entity_number": 4,
+        "name": "fast-transport-belt",
+        "position": {
+          "x": -720.5,
+          "y": 78.5
+        }
+      },
+      {
+        "entity_number": 5,
+        "name": "fast-transport-belt",
+        "position": {
+          "x": -720.5,
+          "y": 79.5
+        }
+      },
+      {
+        "entity_number": 6,
+        "name": "fast-underground-belt",
+        "position": {
+          "x": -720.5,
+          "y": 80.5
+        },
+        "type": "output"
+      },
+      {
+        "entity_number": 7,
+        "icon": {
+          "name": "heavy-oil",
+          "type": "fluid"
+        },
+        "name": "display-panel",
+        "position": {
+          "x": -720.5,
+          "y": 81.5
+        }
+      },
+      {
+        "bar": 3,
+        "entity_number": 8,
+        "name": "steel-chest",
+        "position": {
+          "x": -720.5,
+          "y": 82.5
+        }
+      },
+      {
+        "direction": 8,
+        "entity_number": 9,
+        "filters": [
+          {
+            "comparator": "=",
+            "index": 1,
+            "name": "stone",
+            "quality": "normal"
+          }
+        ],
+        "name": "fast-inserter",
+        "position": {
+          "x": -720.5,
+          "y": 83.5
+        },
+        "use_filters": true
+      },
+      {
+        "entity_number": 10,
+        "name": "fast-underground-belt",
+        "position": {
+          "x": -720.5,
+          "y": 84.5
+        },
+        "type": "input"
+      },
+      {
+        "entity_number": 11,
+        "name": "fast-transport-belt",
+        "position": {
+          "x": -720.5,
+          "y": 85.5
+        }
+      },
+      {
+        "entity_number": 12,
+        "name": "fast-transport-belt",
+        "position": {
+          "x": -720.5,
+          "y": 87.5
+        }
+      },
+      {
+        "entity_number": 13,
+        "name": "fast-splitter",
+        "output_priority": "right",
+        "position": {
+          "x": -720,
+          "y": 86.5
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 14,
+        "name": "fast-transport-belt",
+        "position": {
+          "x": -719.5,
+          "y": 75.5
+        }
+      },
+      {
+        "entity_number": 15,
+        "name": "long-handed-inserter",
+        "position": {
+          "x": -719.5,
+          "y": 77.5
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 16,
+        "name": "pipe-to-ground",
+        "position": {
+          "x": -719.5,
+          "y": 81.5
+        }
+      },
+      {
+        "direction": 12,
+        "entity_number": 17,
+        "name": "fast-inserter",
+        "position": {
+          "x": -719.5,
+          "y": 82.5
+        }
+      },
+      {
+        "entity_number": 18,
+        "name": "medium-electric-pole",
+        "position": {
+          "x": -719.5,
+          "y": 83.5
+        }
+      },
+      {
+        "direction": 12,
+        "entity_number": 19,
+        "name": "fast-transport-belt",
+        "position": {
+          "x": -719.5,
+          "y": 85.5
+        }
+      },
+      {
+        "direction": 12,
+        "entity_number": 20,
+        "name": "fast-transport-belt",
+        "position": {
+          "x": -719.5,
+          "y": 87.5
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 21,
+        "name": "fast-transport-belt",
+        "position": {
+          "x": -718.5,
+          "y": 75.5
+        }
+      },
+      {
+        "entity_number": 22,
+        "name": "medium-electric-pole",
+        "position": {
+          "x": -718.5,
+          "y": 77.5
+        }
+      },
+      {
+        "direction": 8,
+        "entity_number": 23,
+        "name": "chemical-plant",
+        "position": {
+          "x": -718.5,
+          "y": 79.5
+        },
+        "recipe": "ice-melting",
+        "recipe_quality": "normal"
+      },
+      {
+        "entity_number": 24,
+        "name": "pipe",
+        "position": {
+          "x": -718.5,
+          "y": 81.5
+        }
+      },
+      {
+        "entity_number": 25,
+        "name": "medium-electric-pole",
+        "position": {
+          "x": -718.5,
+          "y": 86.5
+        }
+      },
+      {
+        "direction": 12,
+        "entity_number": 26,
+        "name": "fast-transport-belt",
+        "position": {
+          "x": -718.5,
+          "y": 87.5
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 27,
+        "name": "fast-transport-belt",
+        "position": {
+          "x": -717.5,
+          "y": 75.5
+        }
+      },
+      {
+        "entity_number": 28,
+        "name": "pipe",
+        "position": {
+          "x": -717.5,
+          "y": 77.5
+        }
+      },
+      {
+        "entity_number": 29,
+        "name": "pipe",
+        "position": {
+          "x": -717.5,
+          "y": 81.5
+        }
+      },
+      {
+        "direction": 8,
+        "entity_number": 30,
+        "name": "fast-inserter",
+        "position": {
+          "x": -717.5,
+          "y": 86.5
+        }
+      },
+      {
+        "direction": 12,
+        "entity_number": 31,
+        "name": "fast-transport-belt",
+        "position": {
+          "x": -717.5,
+          "y": 87.5
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 32,
+        "items": [
+          {
+            "id": {
+              "name": "speed-module-2"
+            },
+            "items": {
+              "in_inventory": [
+                {
+                  "inventory": 4,
+                  "stack": 4
+                }
+              ]
+            }
+          },
+          {
+            "id": {
+              "name": "productivity-module-2"
+            },
+            "items": {
+              "in_inventory": [
+                {
+                  "inventory": 4,
+                  "stack": 0
+                },
+                {
+                  "inventory": 4,
+                  "stack": 1
+                },
+                {
+                  "inventory": 4,
+                  "stack": 2
+                },
+                {
+                  "inventory": 4,
+                  "stack": 3
+                }
+              ]
+            }
+          }
+        ],
+        "name": "electromagnetic-plant",
+        "position": {
+          "x": -717,
+          "y": 84
+        },
+        "recipe": "electrolyte",
+        "recipe_quality": "normal"
+      },
+      {
+        "direction": 4,
+        "entity_number": 33,
+        "name": "fast-transport-belt",
+        "position": {
+          "x": -716.5,
+          "y": 75.5
+        }
+      },
+      {
+        "entity_number": 34,
+        "name": "pipe",
+        "position": {
+          "x": -716.5,
+          "y": 76.5
+        }
+      },
+      {
+        "entity_number": 35,
+        "name": "pipe",
+        "position": {
+          "x": -716.5,
+          "y": 77.5
+        }
+      },
+      {
+        "entity_number": 36,
+        "name": "pipe",
+        "position": {
+          "x": -716.5,
+          "y": 78.5
+        }
+      },
+      {
+        "entity_number": 37,
+        "name": "pipe",
+        "position": {
+          "x": -716.5,
+          "y": 80.5
+        }
+      },
+      {
+        "entity_number": 38,
+        "name": "pipe",
+        "position": {
+          "x": -716.5,
+          "y": 81.5
+        }
+      },
+      {
+        "entity_number": 39,
+        "name": "pipe",
+        "position": {
+          "x": -716.5,
+          "y": 86.5
+        }
+      },
+      {
+        "direction": 12,
+        "entity_number": 40,
+        "name": "fast-transport-belt",
+        "position": {
+          "x": -716.5,
+          "y": 87.5
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 41,
+        "name": "fast-transport-belt",
+        "position": {
+          "x": -715.5,
+          "y": 75.5
+        }
+      },
+      {
+        "direction": 12,
+        "entity_number": 42,
+        "name": "pipe-to-ground",
+        "position": {
+          "x": -715.5,
+          "y": 76.5
+        }
+      },
+      {
+        "direction": 12,
+        "entity_number": 43,
+        "name": "pipe-to-ground",
+        "position": {
+          "x": -715.5,
+          "y": 86.5
+        }
+      },
+      {
+        "direction": 12,
+        "entity_number": 44,
+        "name": "fast-transport-belt",
+        "position": {
+          "x": -715.5,
+          "y": 87.5
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 45,
+        "name": "fast-transport-belt",
+        "position": {
+          "x": -714.5,
+          "y": 75.5
+        }
+      },
+      {
+        "direction": 12,
+        "entity_number": 46,
+        "mirror": true,
+        "name": "chemical-plant",
+        "position": {
+          "x": -714.5,
+          "y": 79.5
+        },
+        "recipe": "heavy-oil-cracking",
+        "recipe_quality": "normal"
+      },
+      {
+        "direction": 8,
+        "entity_number": 47,
+        "name": "fast-inserter",
+        "position": {
+          "x": -714.5,
+          "y": 86.5
+        }
+      },
+      {
+        "direction": 12,
+        "entity_number": 48,
+        "name": "fast-transport-belt",
+        "position": {
+          "x": -714.5,
+          "y": 87.5
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 49,
+        "name": "fast-transport-belt",
+        "position": {
+          "x": -713.5,
+          "y": 75.5
+        }
+      },
+      {
+        "entity_number": 50,
+        "name": "medium-electric-pole",
+        "position": {
+          "x": -713.5,
+          "y": 77.5
+        }
+      },
+      {
+        "entity_number": 51,
+        "name": "medium-electric-pole",
+        "position": {
+          "x": -713.5,
+          "y": 86.5
+        }
+      },
+      {
+        "direction": 12,
+        "entity_number": 52,
+        "name": "fast-underground-belt",
+        "position": {
+          "x": -713.5,
+          "y": 87.5
+        },
+        "type": "output"
+      },
+      {
+        "entity_number": 53,
+        "mirror": true,
+        "name": "electromagnetic-plant",
+        "position": {
+          "x": -713,
+          "y": 84
+        },
+        "recipe": "teslagun",
+        "recipe_quality": "normal"
+      },
+      {
+        "direction": 4,
+        "entity_number": 54,
+        "name": "fast-transport-belt",
+        "position": {
+          "x": -712.5,
+          "y": 75.5
+        }
+      },
+      {
+        "entity_number": 55,
+        "name": "fast-inserter",
+        "position": {
+          "x": -712.5,
+          "y": 76.5
+        }
+      },
+      {
+        "control_behavior": {
+          "circuit_condition": {
+            "comparator": "<",
+            "constant": 5,
+            "first_signal": {
+              "name": "teslagun"
+            }
+          },
+          "circuit_enabled": true
+        },
+        "entity_number": 56,
+        "name": "inserter",
+        "position": {
+          "x": -712.5,
+          "y": 86.5
+        }
+      },
+      {
+        "control_behavior": {
+          "circuit_condition_enabled": false
+        },
+        "entity_number": 57,
+        "name": "storage-chest",
+        "position": {
+          "x": -712.5,
+          "y": 87.5
+        },
+        "request_filters": {
+          "sections": [
+            {
+              "filters": [
+                {
+                  "comparator": "=",
+                  "count": 0,
+                  "import_from": "fulgora",
+                  "index": 1,
+                  "name": "recycler",
+                  "quality": "normal"
+                }
+              ],
+              "index": 1
+            }
+          ]
+        }
+      },
+      {
+        "control_behavior": {
+          "circuit_contents_read_mode": 2,
+          "circuit_read_hand_contents": true
+        },
+        "direction": 4,
+        "entity_number": 58,
+        "name": "fast-transport-belt",
+        "position": {
+          "x": -711.5,
+          "y": 75.5
+        }
+      },
+      {
+        "control_behavior": {
+          "circuit_condition": {
+            "comparator": "<",
+            "constant": 16,
+            "first_signal": {
+              "name": "superconductor"
+            }
+          },
+          "circuit_enabled": true
+        },
+        "direction": 8,
+        "entity_number": 59,
+        "name": "inserter",
+        "position": {
+          "x": -711.5,
+          "y": 76.5
+        }
+      },
+      {
+        "entity_number": 60,
+        "name": "inserter",
+        "position": {
+          "x": -711.5,
+          "y": 81.5
+        }
+      },
+      {
+        "direction": 12,
+        "entity_number": 61,
+        "name": "fast-underground-belt",
+        "position": {
+          "x": -711.5,
+          "y": 87.5
+        },
+        "type": "input"
+      },
+      {
+        "direction": 8,
+        "entity_number": 62,
+        "items": [
+          {
+            "id": {
+              "name": "productivity-module-2"
+            },
+            "items": {
+              "in_inventory": [
+                {
+                  "inventory": 4,
+                  "stack": 0
+                },
+                {
+                  "inventory": 4,
+                  "stack": 1
+                },
+                {
+                  "inventory": 4,
+                  "stack": 2
+                },
+                {
+                  "inventory": 4,
+                  "stack": 3
+                },
+                {
+                  "inventory": 4,
+                  "stack": 4
+                }
+              ]
+            }
+          }
+        ],
+        "mirror": true,
+        "name": "electromagnetic-plant",
+        "position": {
+          "x": -711,
+          "y": 79
+        },
+        "recipe": "superconductor",
+        "recipe_quality": "normal"
+      },
+      {
+        "direction": 4,
+        "entity_number": 63,
+        "name": "fast-transport-belt",
+        "position": {
+          "x": -710.5,
+          "y": 75.5
+        }
+      },
+      {
+        "entity_number": 64,
+        "name": "fast-inserter",
+        "position": {
+          "x": -710.5,
+          "y": 76.5
+        }
+      },
+      {
+        "control_behavior": {
+          "circuit_condition": {
+            "comparator": "<",
+            "constant": 1000,
+            "first_signal": {
+              "name": "superconductor"
+            }
+          },
+          "circuit_enabled": true
+        },
+        "entity_number": 65,
+        "name": "inserter",
+        "position": {
+          "x": -710.5,
+          "y": 81.5
+        }
+      },
+      {
+        "control_behavior": {
+          "circuit_condition_enabled": false
+        },
+        "entity_number": 66,
+        "name": "storage-chest",
+        "position": {
+          "x": -710.5,
+          "y": 82.5
+        },
+        "request_filters": {
+          "sections": [
+            {
+              "filters": [
+                {
+                  "comparator": "=",
+                  "count": 0,
+                  "import_from": "fulgora",
+                  "index": 1,
+                  "name": "superconductor",
+                  "quality": "normal"
+                }
+              ],
+              "index": 1
+            }
+          ]
+        }
+      },
+      {
+        "entity_number": 67,
+        "name": "pipe",
+        "position": {
+          "x": -710.5,
+          "y": 84.5
+        }
+      },
+      {
+        "direction": 12,
+        "entity_number": 68,
+        "name": "inserter",
+        "position": {
+          "x": -710.5,
+          "y": 85.5
+        }
+      },
+      {
+        "direction": 12,
+        "entity_number": 69,
+        "name": "fast-transport-belt",
+        "position": {
+          "x": -710.5,
+          "y": 87.5
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 70,
+        "name": "fast-transport-belt",
+        "position": {
+          "x": -709.5,
+          "y": 75.5
+        }
+      },
+      {
+        "entity_number": 71,
+        "name": "inserter",
+        "position": {
+          "x": -709.5,
+          "y": 81.5
+        }
+      },
+      {
+        "direction": 8,
+        "entity_number": 72,
+        "name": "fast-inserter",
+        "position": {
+          "x": -709.5,
+          "y": 86.5
+        }
+      },
+      {
+        "direction": 12,
+        "entity_number": 73,
+        "name": "fast-transport-belt",
+        "position": {
+          "x": -709.5,
+          "y": 87.5
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 74,
+        "name": "fast-transport-belt",
+        "position": {
+          "x": -708.5,
+          "y": 75.5
+        }
+      },
+      {
+        "entity_number": 75,
+        "name": "medium-electric-pole",
+        "position": {
+          "x": -708.5,
+          "y": 77.5
+        }
+      },
+      {
+        "entity_number": 76,
+        "name": "medium-electric-pole",
+        "position": {
+          "x": -708.5,
+          "y": 81.5
+        }
+      },
+      {
+        "entity_number": 77,
+        "name": "medium-electric-pole",
+        "position": {
+          "x": -708.5,
+          "y": 86.5
+        }
+      },
+      {
+        "direction": 12,
+        "entity_number": 78,
+        "name": "fast-underground-belt",
+        "position": {
+          "x": -708.5,
+          "y": 87.5
+        },
+        "type": "output"
+      },
+      {
+        "entity_number": 79,
+        "name": "electromagnetic-plant",
+        "position": {
+          "x": -708,
+          "y": 84
+        },
+        "recipe": "tesla-turret",
+        "recipe_quality": "normal"
+      },
+      {
+        "direction": 4,
+        "entity_number": 80,
+        "name": "fast-transport-belt",
+        "position": {
+          "x": -707.5,
+          "y": 75.5
+        }
+      },
+      {
+        "entity_number": 81,
+        "name": "long-handed-inserter",
+        "position": {
+          "x": -707.5,
+          "y": 77.5
+        }
+      },
+      {
+        "entity_number": 82,
+        "items": [
+          {
+            "id": {
+              "name": "productivity-module-2"
+            },
+            "items": {
+              "in_inventory": [
+                {
+                  "inventory": 4,
+                  "stack": 0
+                },
+                {
+                  "inventory": 4,
+                  "stack": 1
+                },
+                {
+                  "inventory": 4,
+                  "stack": 2
+                }
+              ]
+            }
+          }
+        ],
+        "name": "chemical-plant",
+        "position": {
+          "x": -707.5,
+          "y": 79.5
+        },
+        "recipe": "holmium-solution",
+        "recipe_quality": "normal"
+      },
+      {
+        "control_behavior": {
+          "circuit_condition": {
+            "comparator": "<",
+            "constant": 100,
+            "first_signal": {
+              "name": "tesla-turret"
+            }
+          },
+          "circuit_enabled": true
+        },
+        "entity_number": 83,
+        "name": "inserter",
+        "position": {
+          "x": -707.5,
+          "y": 86.5
+        }
+      },
+      {
+        "control_behavior": {
+          "circuit_condition_enabled": false
+        },
+        "entity_number": 84,
+        "name": "storage-chest",
+        "position": {
+          "x": -707.5,
+          "y": 87.5
+        },
+        "request_filters": {
+          "sections": [
+            {
+              "filters": [
+                {
+                  "comparator": "=",
+                  "count": 0,
+                  "import_from": "fulgora",
+                  "index": 1,
+                  "name": "recycler",
+                  "quality": "normal"
+                }
+              ],
+              "index": 1
+            }
+          ]
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 85,
+        "name": "fast-transport-belt",
+        "position": {
+          "x": -706.5,
+          "y": 75.5
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 86,
+        "name": "pipe-to-ground",
+        "position": {
+          "x": -706.5,
+          "y": 76.5
+        }
+      },
+      {
+        "entity_number": 87,
+        "name": "pipe",
+        "position": {
+          "x": -706.5,
+          "y": 77.5
+        }
+      },
+      {
+        "entity_number": 88,
+        "name": "pipe",
+        "position": {
+          "x": -706.5,
+          "y": 81.5
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 89,
+        "name": "pipe-to-ground",
+        "position": {
+          "x": -706.5,
+          "y": 86.5
+        }
+      },
+      {
+        "direction": 12,
+        "entity_number": 90,
+        "name": "fast-underground-belt",
+        "position": {
+          "x": -706.5,
+          "y": 87.5
+        },
+        "type": "input"
+      },
+      {
+        "direction": 4,
+        "entity_number": 91,
+        "name": "fast-transport-belt",
+        "position": {
+          "x": -705.5,
+          "y": 75.5
+        }
+      },
+      {
+        "entity_number": 92,
+        "name": "pipe",
+        "position": {
+          "x": -705.5,
+          "y": 76.5
+        }
+      },
+      {
+        "entity_number": 93,
+        "name": "pipe",
+        "position": {
+          "x": -705.5,
+          "y": 77.5
+        }
+      },
+      {
+        "entity_number": 94,
+        "name": "pipe",
+        "position": {
+          "x": -705.5,
+          "y": 81.5
+        }
+      },
+      {
+        "entity_number": 95,
+        "name": "pipe",
+        "position": {
+          "x": -705.5,
+          "y": 83.5
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 96,
+        "name": "inserter",
+        "position": {
+          "x": -705.5,
+          "y": 85.5
+        }
+      },
+      {
+        "direction": 12,
+        "entity_number": 97,
+        "name": "pipe-to-ground",
+        "position": {
+          "x": -705.5,
+          "y": 86.5
+        }
+      },
+      {
+        "direction": 12,
+        "entity_number": 98,
+        "name": "fast-transport-belt",
+        "position": {
+          "x": -705.5,
+          "y": 87.5
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 99,
+        "name": "fast-transport-belt",
+        "position": {
+          "x": -704.5,
+          "y": 75.5
+        }
+      },
+      {
+        "entity_number": 100,
+        "name": "pipe",
+        "position": {
+          "x": -704.5,
+          "y": 76.5
+        }
+      },
+      {
+        "entity_number": 101,
+        "items": [
+          {
+            "id": {
+              "name": "speed-module-2"
+            },
+            "items": {
+              "in_inventory": [
+                {
+                  "inventory": 1,
+                  "stack": 0
+                },
+                {
+                  "inventory": 1,
+                  "stack": 1
+                }
+              ]
+            }
+          }
+        ],
+        "name": "beacon",
+        "position": {
+          "x": -704.5,
+          "y": 79.5
+        }
+      },
+      {
+        "entity_number": 102,
+        "name": "pipe",
+        "position": {
+          "x": -704.5,
+          "y": 81.5
+        }
+      },
+      {
+        "direction": 8,
+        "entity_number": 103,
+        "name": "fast-inserter",
+        "position": {
+          "x": -704.5,
+          "y": 86.5
+        }
+      },
+      {
+        "direction": 12,
+        "entity_number": 104,
+        "name": "fast-transport-belt",
+        "position": {
+          "x": -704.5,
+          "y": 87.5
+        }
+      },
+      {
+        "control_behavior": {
+          "circuit_contents_read_mode": 2,
+          "circuit_read_hand_contents": true
+        },
+        "direction": 4,
+        "entity_number": 105,
+        "name": "fast-transport-belt",
+        "position": {
+          "x": -703.5,
+          "y": 75.5
+        }
+      },
+      {
+        "entity_number": 106,
+        "name": "pipe",
+        "position": {
+          "x": -703.5,
+          "y": 76.5
+        }
+      },
+      {
+        "entity_number": 107,
+        "name": "medium-electric-pole",
+        "position": {
+          "x": -703.5,
+          "y": 77.5
+        }
+      },
+      {
+        "entity_number": 108,
+        "name": "pipe",
+        "position": {
+          "x": -703.5,
+          "y": 81.5
+        }
+      },
+      {
+        "entity_number": 109,
+        "name": "medium-electric-pole",
+        "position": {
+          "x": -703.5,
+          "y": 86.5
+        }
+      },
+      {
+        "direction": 12,
+        "entity_number": 110,
+        "name": "fast-underground-belt",
+        "position": {
+          "x": -703.5,
+          "y": 87.5
+        },
+        "type": "output"
+      },
+      {
+        "entity_number": 111,
+        "items": [
+          {
+            "id": {
+              "name": "productivity-module-2"
+            },
+            "items": {
+              "in_inventory": [
+                {
+                  "inventory": 4,
+                  "stack": 0
+                },
+                {
+                  "inventory": 4,
+                  "stack": 1
+                },
+                {
+                  "inventory": 4,
+                  "stack": 2
+                },
+                {
+                  "inventory": 4,
+                  "stack": 3
+                },
+                {
+                  "inventory": 4,
+                  "stack": 4
+                }
+              ]
+            }
+          }
+        ],
+        "mirror": true,
+        "name": "electromagnetic-plant",
+        "position": {
+          "x": -703,
+          "y": 84
+        },
+        "recipe": "supercapacitor",
+        "recipe_quality": "normal"
+      },
+      {
+        "direction": 4,
+        "entity_number": 112,
+        "name": "fast-transport-belt",
+        "position": {
+          "x": -702.5,
+          "y": 75.5
+        }
+      },
+      {
+        "entity_number": 113,
+        "name": "pipe",
+        "position": {
+          "x": -702.5,
+          "y": 76.5
+        }
+      },
+      {
+        "entity_number": 114,
+        "name": "pipe",
+        "position": {
+          "x": -702.5,
+          "y": 81.5
+        }
+      },
+      {
+        "control_behavior": {
+          "circuit_condition": {
+            "comparator": "<",
+            "constant": 500,
+            "first_signal": {
+              "name": "supercapacitor"
+            }
+          },
+          "circuit_enabled": true
+        },
+        "entity_number": 115,
+        "name": "inserter",
+        "position": {
+          "x": -702.5,
+          "y": 86.5
+        }
+      },
+      {
+        "control_behavior": {
+          "circuit_condition_enabled": false
+        },
+        "entity_number": 116,
+        "name": "storage-chest",
+        "position": {
+          "x": -702.5,
+          "y": 87.5
+        },
+        "request_filters": {
+          "sections": [
+            {
+              "filters": [
+                {
+                  "comparator": "=",
+                  "count": 0,
+                  "import_from": "fulgora",
+                  "index": 1,
+                  "name": "supercapacitor",
+                  "quality": "normal"
+                }
+              ],
+              "index": 1
+            }
+          ]
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 117,
+        "name": "fast-transport-belt",
+        "position": {
+          "x": -701.5,
+          "y": 75.5
+        }
+      },
+      {
+        "entity_number": 118,
+        "name": "pipe",
+        "position": {
+          "x": -701.5,
+          "y": 76.5
+        }
+      },
+      {
+        "entity_number": 119,
+        "name": "long-handed-inserter",
+        "position": {
+          "x": -701.5,
+          "y": 77.5
+        }
+      },
+      {
+        "entity_number": 120,
+        "items": [
+          {
+            "id": {
+              "name": "productivity-module-2"
+            },
+            "items": {
+              "in_inventory": [
+                {
+                  "inventory": 4,
+                  "stack": 0
+                },
+                {
+                  "inventory": 4,
+                  "stack": 1
+                },
+                {
+                  "inventory": 4,
+                  "stack": 2
+                }
+              ]
+            }
+          }
+        ],
+        "name": "chemical-plant",
+        "position": {
+          "x": -701.5,
+          "y": 79.5
+        },
+        "recipe": "holmium-solution",
+        "recipe_quality": "normal"
+      },
+      {
+        "entity_number": 121,
+        "name": "pipe",
+        "position": {
+          "x": -701.5,
+          "y": 81.5
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 122,
+        "name": "pipe-to-ground",
+        "position": {
+          "x": -701.5,
+          "y": 86.5
+        }
+      },
+      {
+        "direction": 12,
+        "entity_number": 123,
+        "name": "fast-underground-belt",
+        "position": {
+          "x": -701.5,
+          "y": 87.5
+        },
+        "type": "input"
+      },
+      {
+        "direction": 4,
+        "entity_number": 124,
+        "name": "fast-transport-belt",
+        "position": {
+          "x": -700.5,
+          "y": 75.5
+        }
+      },
+      {
+        "entity_number": 125,
+        "name": "pipe",
+        "position": {
+          "x": -700.5,
+          "y": 76.5
+        }
+      },
+      {
+        "entity_number": 126,
+        "name": "pipe",
+        "position": {
+          "x": -700.5,
+          "y": 77.5
+        }
+      },
+      {
+        "entity_number": 127,
+        "name": "pipe",
+        "position": {
+          "x": -700.5,
+          "y": 81.5
+        }
+      },
+      {
+        "entity_number": 128,
+        "name": "pipe-to-ground",
+        "position": {
+          "x": -700.5,
+          "y": 82.5
+        }
+      },
+      {
+        "direction": 12,
+        "entity_number": 129,
+        "name": "inserter",
+        "position": {
+          "x": -700.5,
+          "y": 83.5
+        }
+      },
+      {
+        "entity_number": 130,
+        "name": "pipe",
+        "position": {
+          "x": -700.5,
+          "y": 84.5
+        }
+      },
+      {
+        "direction": 8,
+        "entity_number": 131,
+        "name": "pipe-to-ground",
+        "position": {
+          "x": -700.5,
+          "y": 85.5
+        }
+      },
+      {
+        "entity_number": 132,
+        "name": "pipe",
+        "position": {
+          "x": -700.5,
+          "y": 86.5
+        }
+      },
+      {
+        "direction": 12,
+        "entity_number": 133,
+        "name": "fast-transport-belt",
+        "position": {
+          "x": -700.5,
+          "y": 87.5
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 134,
+        "name": "fast-transport-belt",
+        "position": {
+          "x": -699.5,
+          "y": 75.5
+        }
+      },
+      {
+        "entity_number": 135,
+        "name": "pipe",
+        "position": {
+          "x": -699.5,
+          "y": 76.5
+        }
+      },
+      {
+        "entity_number": 136,
+        "name": "pipe",
+        "position": {
+          "x": -699.5,
+          "y": 77.5
+        }
+      },
+      {
+        "entity_number": 137,
+        "name": "pipe",
+        "position": {
+          "x": -699.5,
+          "y": 81.5
+        }
+      },
+      {
+        "direction": 8,
+        "entity_number": 138,
+        "name": "fast-inserter",
+        "position": {
+          "x": -699.5,
+          "y": 86.5
+        }
+      },
+      {
+        "direction": 12,
+        "entity_number": 139,
+        "name": "fast-transport-belt",
+        "position": {
+          "x": -699.5,
+          "y": 87.5
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 140,
+        "name": "fast-transport-belt",
+        "position": {
+          "x": -698.5,
+          "y": 75.5
+        }
+      },
+      {
+        "entity_number": 141,
+        "name": "pipe",
+        "position": {
+          "x": -698.5,
+          "y": 76.5
+        }
+      },
+      {
+        "entity_number": 142,
+        "name": "long-handed-inserter",
+        "position": {
+          "x": -698.5,
+          "y": 77.5
+        }
+      },
+      {
+        "entity_number": 143,
+        "items": [
+          {
+            "id": {
+              "name": "productivity-module-2"
+            },
+            "items": {
+              "in_inventory": [
+                {
+                  "inventory": 4,
+                  "stack": 0
+                },
+                {
+                  "inventory": 4,
+                  "stack": 1
+                },
+                {
+                  "inventory": 4,
+                  "stack": 2
+                }
+              ]
+            }
+          }
+        ],
+        "name": "chemical-plant",
+        "position": {
+          "x": -698.5,
+          "y": 79.5
+        },
+        "recipe": "holmium-solution",
+        "recipe_quality": "normal"
+      },
+      {
+        "entity_number": 144,
+        "name": "pipe",
+        "position": {
+          "x": -698.5,
+          "y": 81.5
+        }
+      },
+      {
+        "entity_number": 145,
+        "name": "medium-electric-pole",
+        "position": {
+          "x": -698.5,
+          "y": 86.5
+        }
+      },
+      {
+        "direction": 12,
+        "entity_number": 146,
+        "name": "fast-underground-belt",
+        "position": {
+          "x": -698.5,
+          "y": 87.5
+        },
+        "type": "output"
+      },
+      {
+        "entity_number": 147,
+        "name": "electromagnetic-plant",
+        "position": {
+          "x": -698,
+          "y": 84
+        },
+        "recipe": "tesla-ammo",
+        "recipe_quality": "normal"
+      },
+      {
+        "direction": 4,
+        "entity_number": 148,
+        "name": "fast-transport-belt",
+        "position": {
+          "x": -697.5,
+          "y": 75.5
+        }
+      },
+      {
+        "entity_number": 149,
+        "name": "pipe",
+        "position": {
+          "x": -697.5,
+          "y": 76.5
+        }
+      },
+      {
+        "entity_number": 150,
+        "name": "medium-electric-pole",
+        "position": {
+          "x": -697.5,
+          "y": 77.5
+        }
+      },
+      {
+        "entity_number": 151,
+        "name": "pipe",
+        "position": {
+          "x": -697.5,
+          "y": 81.5
+        }
+      },
+      {
+        "control_behavior": {
+          "circuit_condition": {
+            "comparator": "<",
+            "constant": 300,
+            "first_signal": {
+              "name": "tesla-ammo"
+            }
+          },
+          "circuit_enabled": true
+        },
+        "entity_number": 152,
+        "name": "inserter",
+        "position": {
+          "x": -697.5,
+          "y": 86.5
+        }
+      },
+      {
+        "control_behavior": {
+          "circuit_condition_enabled": false
+        },
+        "entity_number": 153,
+        "name": "storage-chest",
+        "position": {
+          "x": -697.5,
+          "y": 87.5
+        },
+        "request_filters": {
+          "sections": [
+            {
+              "filters": [
+                {
+                  "comparator": "=",
+                  "count": 0,
+                  "import_from": "fulgora",
+                  "index": 1,
+                  "name": "recycler",
+                  "quality": "normal"
+                }
+              ],
+              "index": 1
+            }
+          ]
+        }
+      },
+      {
+        "control_behavior": {
+          "circuit_contents_read_mode": 2,
+          "circuit_read_hand_contents": true
+        },
+        "direction": 4,
+        "entity_number": 154,
+        "name": "fast-transport-belt",
+        "position": {
+          "x": -696.5,
+          "y": 75.5
+        }
+      },
+      {
+        "entity_number": 155,
+        "name": "pipe",
+        "position": {
+          "x": -696.5,
+          "y": 76.5
+        }
+      },
+      {
+        "entity_number": 156,
+        "name": "pipe",
+        "position": {
+          "x": -696.5,
+          "y": 77.5
+        }
+      },
+      {
+        "entity_number": 157,
+        "name": "pipe",
+        "position": {
+          "x": -696.5,
+          "y": 81.5
+        }
+      },
+      {
+        "direction": 12,
+        "entity_number": 158,
+        "name": "fast-underground-belt",
+        "position": {
+          "x": -696.5,
+          "y": 87.5
+        },
+        "type": "input"
+      },
+      {
+        "direction": 4,
+        "entity_number": 159,
+        "name": "fast-underground-belt",
+        "position": {
+          "x": -695.5,
+          "y": 75.5
+        },
+        "type": "input"
+      },
+      {
+        "direction": 12,
+        "entity_number": 160,
+        "name": "pipe-to-ground",
+        "position": {
+          "x": -695.5,
+          "y": 76.5
+        }
+      },
+      {
+        "entity_number": 161,
+        "name": "long-handed-inserter",
+        "position": {
+          "x": -695.5,
+          "y": 77.5
+        }
+      },
+      {
+        "entity_number": 162,
+        "items": [
+          {
+            "id": {
+              "name": "productivity-module-2"
+            },
+            "items": {
+              "in_inventory": [
+                {
+                  "inventory": 4,
+                  "stack": 0
+                },
+                {
+                  "inventory": 4,
+                  "stack": 1
+                },
+                {
+                  "inventory": 4,
+                  "stack": 2
+                }
+              ]
+            }
+          }
+        ],
+        "name": "chemical-plant",
+        "position": {
+          "x": -695.5,
+          "y": 79.5
+        },
+        "recipe": "holmium-solution",
+        "recipe_quality": "normal"
+      },
+      {
+        "entity_number": 163,
+        "name": "pipe",
+        "position": {
+          "x": -695.5,
+          "y": 81.5
+        }
+      },
+      {
+        "direction": 8,
+        "entity_number": 164,
+        "name": "long-handed-inserter",
+        "position": {
+          "x": -695.5,
+          "y": 85.5
+        }
+      },
+      {
+        "direction": 12,
+        "entity_number": 165,
+        "name": "fast-transport-belt",
+        "position": {
+          "x": -695.5,
+          "y": 87.5
+        }
+      },
+      {
+        "control_behavior": {
+          "circuit_condition": {
+            "comparator": "<",
+            "constant": 32,
+            "first_signal": {
+              "name": "holmium-plate"
+            }
+          },
+          "circuit_enabled": true
+        },
+        "direction": 4,
+        "entity_number": 166,
+        "mirror": true,
+        "name": "fast-inserter",
+        "position": {
+          "x": -694.5,
+          "y": 75.5
+        }
+      },
+      {
+        "entity_number": 167,
+        "name": "pipe",
+        "position": {
+          "x": -694.5,
+          "y": 81.5
+        }
+      },
+      {
+        "entity_number": 168,
+        "name": "assembling-machine-3",
+        "position": {
+          "x": -694.5,
+          "y": 83.5
+        },
+        "recipe": "recycler",
+        "recipe_quality": "normal"
+      },
+      {
+        "direction": 8,
+        "entity_number": 169,
+        "name": "long-handed-inserter",
+        "position": {
+          "x": -694.5,
+          "y": 85.5
+        }
+      },
+      {
+        "direction": 12,
+        "entity_number": 170,
+        "name": "fast-transport-belt",
+        "position": {
+          "x": -694.5,
+          "y": 87.5
+        }
+      },
+      {
+        "entity_number": 171,
+        "name": "pipe",
+        "position": {
+          "x": -693.5,
+          "y": 81.5
+        }
+      },
+      {
+        "control_behavior": {
+          "circuit_condition_enabled": false,
+          "read_contents": false,
+          "set_requests": true
+        },
+        "entity_number": 172,
+        "name": "requester-chest",
+        "position": {
+          "x": -693.5,
+          "y": 85.5
+        }
+      },
+      {
+        "control_behavior": {
+          "circuit_set_filters": true
+        },
+        "entity_number": 173,
+        "filters": [
+          {
+            "comparator": "=",
+            "index": 1,
+            "name": "concrete",
+            "quality": "normal"
+          }
+        ],
+        "name": "bulk-inserter",
+        "position": {
+          "x": -693.5,
+          "y": 86.5
+        },
+        "use_filters": true
+      },
+      {
+        "direction": 12,
+        "entity_number": 174,
+        "name": "fast-transport-belt",
+        "position": {
+          "x": -693.5,
+          "y": 87.5
+        }
+      },
+      {
+        "entity_number": 175,
+        "name": "pipe",
+        "position": {
+          "x": -692.5,
+          "y": 80.5
+        }
+      },
+      {
+        "entity_number": 176,
+        "name": "pipe",
+        "position": {
+          "x": -692.5,
+          "y": 81.5
+        }
+      },
+      {
+        "control_behavior": {
+          "circuit_condition": {
+            "comparator": "<",
+            "constant": 100,
+            "first_signal": {
+              "name": "recycler"
+            }
+          },
+          "circuit_enabled": true
+        },
+        "direction": 12,
+        "entity_number": 177,
+        "name": "inserter",
+        "position": {
+          "x": -692.5,
+          "y": 82.5
+        }
+      },
+      {
+        "control_behavior": {
+          "sections": {
+            "sections": [
+              {
+                "filters": [
+                  {
+                    "comparator": "=",
+                    "count": 128,
+                    "import_from": "nauvis",
+                    "index": 1,
+                    "name": "concrete",
+                    "quality": "normal"
+                  },
+                  {
+                    "comparator": "=",
+                    "count": 32,
+                    "import_from": "nauvis",
+                    "index": 2,
+                    "name": "steel-plate",
+                    "quality": "normal"
+                  },
+                  {
+                    "comparator": "=",
+                    "count": 32,
+                    "import_from": "nauvis",
+                    "index": 3,
+                    "name": "processing-unit",
+                    "quality": "normal"
+                  },
+                  {
+                    "comparator": "=",
+                    "count": 32,
+                    "import_from": "nauvis",
+                    "index": 4,
+                    "name": "iron-gear-wheel",
+                    "quality": "normal"
+                  },
+                  {
+                    "comparator": "=",
+                    "count": 32,
+                    "import_from": "fulgora",
+                    "index": 5,
+                    "name": "holmium-ore",
+                    "quality": "normal"
+                  },
+                  {
+                    "comparator": "=",
+                    "count": 32,
+                    "import_from": "nauvis",
+                    "index": 6,
+                    "name": "ice",
+                    "quality": "normal"
+                  },
+                  {
+                    "comparator": "=",
+                    "count": 32,
+                    "import_from": "nauvis",
+                    "index": 7,
+                    "name": "stone",
+                    "quality": "normal"
+                  },
+                  {
+                    "comparator": "=",
+                    "count": 16,
+                    "import_from": "nauvis",
+                    "index": 8,
+                    "name": "iron-plate",
+                    "quality": "normal"
+                  },
+                  {
+                    "comparator": "=",
+                    "count": 32,
+                    "import_from": "nauvis",
+                    "index": 9,
+                    "name": "plastic-bar",
+                    "quality": "normal"
+                  },
+                  {
+                    "comparator": "=",
+                    "count": 32,
+                    "import_from": "nauvis",
+                    "index": 10,
+                    "name": "electronic-circuit",
+                    "quality": "normal"
+                  },
+                  {
+                    "comparator": "=",
+                    "count": 32,
+                    "import_from": "nauvis",
+                    "index": 11,
+                    "name": "copper-plate",
+                    "quality": "normal"
+                  },
+                  {
+                    "comparator": "=",
+                    "count": 32,
+                    "import_from": "nauvis",
+                    "index": 12,
+                    "name": "battery",
+                    "quality": "normal"
+                  }
+                ],
+                "index": 1
+              }
+            ]
+          }
+        },
+        "direction": 8,
+        "entity_number": 178,
+        "name": "constant-combinator",
+        "position": {
+          "x": -692.5,
+          "y": 83.5
+        }
+      },
+      {
+        "control_behavior": {
+          "circuit_condition_enabled": false,
+          "read_contents": false,
+          "set_requests": true
+        },
+        "entity_number": 179,
+        "name": "requester-chest",
+        "position": {
+          "x": -692.5,
+          "y": 85.5
+        }
+      },
+      {
+        "control_behavior": {
+          "circuit_set_filters": true
+        },
+        "entity_number": 180,
+        "filters": [
+          {
+            "comparator": "=",
+            "index": 1,
+            "name": "concrete",
+            "quality": "normal"
+          }
+        ],
+        "name": "bulk-inserter",
+        "position": {
+          "x": -692.5,
+          "y": 86.5
+        },
+        "use_filters": true
+      },
+      {
+        "direction": 12,
+        "entity_number": 181,
+        "name": "fast-transport-belt",
+        "position": {
+          "x": -692.5,
+          "y": 87.5
+        }
+      },
+      {
+        "entity_number": 182,
+        "items": [
+          {
+            "id": {
+              "name": "productivity-module-2"
+            },
+            "items": {
+              "in_inventory": [
+                {
+                  "inventory": 4,
+                  "stack": 0
+                },
+                {
+                  "inventory": 4,
+                  "stack": 1
+                },
+                {
+                  "inventory": 4,
+                  "stack": 2
+                },
+                {
+                  "inventory": 4,
+                  "stack": 3
+                }
+              ]
+            }
+          }
+        ],
+        "name": "foundry",
+        "position": {
+          "x": -691.5,
+          "y": 77.5
+        },
+        "recipe": "holmium-plate",
+        "recipe_quality": "normal"
+      },
+      {
+        "entity_number": 183,
+        "name": "medium-electric-pole",
+        "position": {
+          "x": -691.5,
+          "y": 81.5
+        }
+      },
+      {
+        "control_behavior": {
+          "circuit_condition_enabled": false
+        },
+        "entity_number": 184,
+        "name": "storage-chest",
+        "position": {
+          "x": -691.5,
+          "y": 82.5
+        },
+        "request_filters": {
+          "sections": [
+            {
+              "filters": [
+                {
+                  "comparator": "=",
+                  "count": 0,
+                  "import_from": "fulgora",
+                  "index": 1,
+                  "name": "recycler",
+                  "quality": "normal"
+                }
+              ],
+              "index": 1
+            }
+          ]
+        }
+      },
+      {
+        "control_behavior": {
+          "arithmetic_conditions": {
+            "first_signal": {
+              "name": "signal-each",
+              "type": "virtual"
+            },
+            "first_signal_networks": {
+              "green": true,
+              "red": false
+            },
+            "operation": "-",
+            "output_signal": {
+              "name": "signal-each",
+              "type": "virtual"
+            },
+            "second_signal": {
+              "name": "signal-each",
+              "type": "virtual"
+            },
+            "second_signal_networks": {
+              "green": false,
+              "red": true
+            }
+          }
+        },
+        "direction": 8,
+        "entity_number": 185,
+        "name": "arithmetic-combinator",
+        "position": {
+          "x": -691.5,
+          "y": 84
+        }
+      },
+      {
+        "direction": 12,
+        "entity_number": 186,
+        "name": "fast-inserter",
+        "position": {
+          "x": -691.5,
+          "y": 85.5
+        }
+      },
+      {
+        "entity_number": 187,
+        "name": "medium-electric-pole",
+        "position": {
+          "x": -691.5,
+          "y": 86.5
+        }
+      },
+      {
+        "control_behavior": {
+          "circuit_contents_read_mode": 2,
+          "circuit_read_hand_contents": true
+        },
+        "direction": 12,
+        "entity_number": 188,
+        "name": "fast-transport-belt",
+        "position": {
+          "x": -691.5,
+          "y": 87.5
+        }
+      },
+      {
+        "control_behavior": {
+          "circuit_condition_enabled": false
+        },
+        "entity_number": 189,
+        "name": "storage-chest",
+        "position": {
+          "x": -690.5,
+          "y": 80.5
+        },
+        "request_filters": {
+          "sections": [
+            {
+              "filters": [
+                {
+                  "comparator": "=",
+                  "count": 0,
+                  "import_from": "fulgora",
+                  "index": 1,
+                  "name": "electromagnetic-plant",
+                  "quality": "normal"
+                }
+              ],
+              "index": 1
+            }
+          ]
+        }
+      },
+      {
+        "control_behavior": {
+          "circuit_condition": {
+            "comparator": "<",
+            "constant": 100,
+            "first_signal": {
+              "name": "electromagnetic-plant"
+            }
+          },
+          "circuit_enabled": true
+        },
+        "direction": 8,
+        "entity_number": 190,
+        "name": "inserter",
+        "position": {
+          "x": -690.5,
+          "y": 81.5
+        }
+      },
+      {
+        "direction": 8,
+        "entity_number": 191,
+        "name": "fast-inserter",
+        "position": {
+          "x": -690.5,
+          "y": 86.5
+        }
+      },
+      {
+        "direction": 12,
+        "entity_number": 192,
+        "name": "fast-transport-belt",
+        "position": {
+          "x": -690.5,
+          "y": 87.5
+        }
+      },
+      {
+        "entity_number": 193,
+        "name": "long-handed-inserter",
+        "position": {
+          "x": -689.5,
+          "y": 80.5
+        }
+      },
+      {
+        "entity_number": 194,
+        "name": "long-handed-inserter",
+        "position": {
+          "x": -689.5,
+          "y": 81.5
+        }
+      },
+      {
+        "direction": 12,
+        "entity_number": 195,
+        "name": "fast-transport-belt",
+        "position": {
+          "x": -689.5,
+          "y": 87.5
+        }
+      },
+      {
+        "entity_number": 196,
+        "name": "electromagnetic-plant",
+        "position": {
+          "x": -689,
+          "y": 84
+        },
+        "recipe": "electromagnetic-plant",
+        "recipe_quality": "normal"
+      },
+      {
+        "direction": 4,
+        "entity_number": 197,
+        "name": "fast-underground-belt",
+        "position": {
+          "x": -688.5,
+          "y": 75.5
+        },
+        "type": "output"
+      },
+      {
+        "direction": 4,
+        "entity_number": 198,
+        "name": "pipe-to-ground",
+        "position": {
+          "x": -688.5,
+          "y": 76.5
+        }
+      },
+      {
+        "entity_number": 199,
+        "name": "medium-electric-pole",
+        "position": {
+          "x": -688.5,
+          "y": 77.5
+        }
+      },
+      {
+        "entity_number": 200,
+        "name": "medium-electric-pole",
+        "position": {
+          "x": -688.5,
+          "y": 81.5
+        }
+      },
+      {
+        "entity_number": 201,
+        "name": "medium-electric-pole",
+        "position": {
+          "x": -688.5,
+          "y": 86.5
+        }
+      },
+      {
+        "direction": 12,
+        "entity_number": 202,
+        "name": "fast-transport-belt",
+        "position": {
+          "x": -688.5,
+          "y": 87.5
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 203,
+        "name": "fast-transport-belt",
+        "position": {
+          "x": -687.5,
+          "y": 75.5
+        }
+      },
+      {
+        "entity_number": 204,
+        "name": "pipe",
+        "position": {
+          "x": -687.5,
+          "y": 76.5
+        }
+      },
+      {
+        "entity_number": 205,
+        "name": "pipe",
+        "position": {
+          "x": -687.5,
+          "y": 77.5
+        }
+      },
+      {
+        "entity_number": 206,
+        "name": "assembling-machine-3",
+        "position": {
+          "x": -687.5,
+          "y": 79.5
+        },
+        "recipe": "refined-concrete",
+        "recipe_quality": "normal"
+      },
+      {
+        "entity_number": 207,
+        "name": "inserter",
+        "position": {
+          "x": -687.5,
+          "y": 81.5
+        }
+      },
+      {
+        "direction": 12,
+        "entity_number": 208,
+        "name": "fast-transport-belt",
+        "position": {
+          "x": -687.5,
+          "y": 87.5
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 209,
+        "name": "fast-transport-belt",
+        "position": {
+          "x": -686.5,
+          "y": 75.5
+        }
+      },
+      {
+        "entity_number": 210,
+        "name": "pipe",
+        "position": {
+          "x": -686.5,
+          "y": 76.5
+        }
+      },
+      {
+        "entity_number": 211,
+        "name": "long-handed-inserter",
+        "position": {
+          "x": -686.5,
+          "y": 77.5
+        }
+      },
+      {
+        "direction": 8,
+        "entity_number": 212,
+        "name": "inserter",
+        "position": {
+          "x": -686.5,
+          "y": 81.5
+        }
+      },
+      {
+        "direction": 8,
+        "entity_number": 213,
+        "name": "long-handed-inserter",
+        "position": {
+          "x": -686.5,
+          "y": 85.5
+        }
+      },
+      {
+        "direction": 12,
+        "entity_number": 214,
+        "name": "fast-transport-belt",
+        "position": {
+          "x": -686.5,
+          "y": 87.5
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 215,
+        "name": "fast-transport-belt",
+        "position": {
+          "x": -685.5,
+          "y": 75.5
+        }
+      },
+      {
+        "entity_number": 216,
+        "name": "pipe",
+        "position": {
+          "x": -685.5,
+          "y": 76.5
+        }
+      },
+      {
+        "entity_number": 217,
+        "name": "long-handed-inserter",
+        "position": {
+          "x": -685.5,
+          "y": 77.5
+        }
+      },
+      {
+        "direction": 8,
+        "entity_number": 218,
+        "name": "inserter",
+        "position": {
+          "x": -685.5,
+          "y": 81.5
+        }
+      },
+      {
+        "entity_number": 219,
+        "name": "assembling-machine-3",
+        "position": {
+          "x": -685.5,
+          "y": 83.5
+        },
+        "recipe": "iron-stick",
+        "recipe_quality": "normal"
+      },
+      {
+        "direction": 4,
+        "entity_number": 220,
+        "name": "long-handed-inserter",
+        "position": {
+          "x": -685.5,
+          "y": 85.5
+        }
+      },
+      {
+        "direction": 12,
+        "entity_number": 221,
+        "name": "fast-transport-belt",
+        "position": {
+          "x": -685.5,
+          "y": 87.5
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 222,
+        "name": "fast-transport-belt",
+        "position": {
+          "x": -684.5,
+          "y": 75.5
+        }
+      },
+      {
+        "entity_number": 223,
+        "name": "pipe",
+        "position": {
+          "x": -684.5,
+          "y": 76.5
+        }
+      },
+      {
+        "entity_number": 224,
+        "name": "pipe",
+        "position": {
+          "x": -684.5,
+          "y": 77.5
+        }
+      },
+      {
+        "entity_number": 225,
+        "name": "assembling-machine-3",
+        "position": {
+          "x": -684.5,
+          "y": 79.5
+        },
+        "recipe": "refined-concrete",
+        "recipe_quality": "normal"
+      },
+      {
+        "entity_number": 226,
+        "name": "medium-electric-pole",
+        "position": {
+          "x": -684.5,
+          "y": 81.5
+        }
+      },
+      {
+        "entity_number": 227,
+        "name": "medium-electric-pole",
+        "position": {
+          "x": -684.5,
+          "y": 86.5
+        }
+      },
+      {
+        "direction": 12,
+        "entity_number": 228,
+        "name": "fast-transport-belt",
+        "position": {
+          "x": -684.5,
+          "y": 87.5
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 229,
+        "name": "fast-transport-belt",
+        "position": {
+          "x": -683.5,
+          "y": 75.5
+        }
+      },
+      {
+        "entity_number": 230,
+        "name": "inserter",
+        "position": {
+          "x": -683.5,
+          "y": 81.5
+        }
+      },
+      {
+        "direction": 8,
+        "entity_number": 231,
+        "name": "fast-transport-belt",
+        "position": {
+          "x": -683.5,
+          "y": 82.5
+        }
+      },
+      {
+        "direction": 8,
+        "entity_number": 232,
+        "name": "fast-transport-belt",
+        "position": {
+          "x": -683.5,
+          "y": 83.5
+        }
+      },
+      {
+        "direction": 8,
+        "entity_number": 233,
+        "name": "fast-transport-belt",
+        "position": {
+          "x": -683.5,
+          "y": 84.5
+        }
+      },
+      {
+        "direction": 8,
+        "entity_number": 234,
+        "name": "fast-transport-belt",
+        "position": {
+          "x": -683.5,
+          "y": 85.5
+        }
+      },
+      {
+        "direction": 12,
+        "entity_number": 235,
+        "name": "fast-transport-belt",
+        "position": {
+          "x": -683.5,
+          "y": 87.5
+        }
+      },
+      {
+        "direction": 8,
+        "entity_number": 236,
+        "name": "fast-transport-belt",
+        "position": {
+          "x": -682.5,
+          "y": 75.5
+        }
+      },
+      {
+        "direction": 8,
+        "entity_number": 237,
+        "name": "fast-transport-belt",
+        "position": {
+          "x": -682.5,
+          "y": 76.5
+        }
+      },
+      {
+        "direction": 8,
+        "entity_number": 238,
+        "name": "fast-transport-belt",
+        "position": {
+          "x": -682.5,
+          "y": 77.5
+        }
+      },
+      {
+        "direction": 8,
+        "entity_number": 239,
+        "name": "fast-transport-belt",
+        "position": {
+          "x": -682.5,
+          "y": 78.5
+        }
+      },
+      {
+        "direction": 8,
+        "entity_number": 240,
+        "name": "fast-transport-belt",
+        "position": {
+          "x": -682.5,
+          "y": 79.5
+        }
+      },
+      {
+        "direction": 8,
+        "entity_number": 241,
+        "name": "fast-transport-belt",
+        "position": {
+          "x": -682.5,
+          "y": 80.5
+        }
+      },
+      {
+        "direction": 8,
+        "entity_number": 242,
+        "name": "fast-transport-belt",
+        "position": {
+          "x": -682.5,
+          "y": 81.5
+        }
+      },
+      {
+        "direction": 8,
+        "entity_number": 243,
+        "name": "fast-transport-belt",
+        "position": {
+          "x": -682.5,
+          "y": 82.5
+        }
+      },
+      {
+        "direction": 8,
+        "entity_number": 244,
+        "name": "fast-transport-belt",
+        "position": {
+          "x": -682.5,
+          "y": 83.5
+        }
+      },
+      {
+        "direction": 8,
+        "entity_number": 245,
+        "name": "fast-transport-belt",
+        "position": {
+          "x": -682.5,
+          "y": 84.5
+        }
+      },
+      {
+        "direction": 8,
+        "entity_number": 246,
+        "name": "fast-transport-belt",
+        "position": {
+          "x": -682.5,
+          "y": 85.5
+        }
+      },
+      {
+        "direction": 8,
+        "entity_number": 247,
+        "name": "fast-transport-belt",
+        "position": {
+          "x": -682.5,
+          "y": 86.5
+        }
+      },
+      {
+        "direction": 12,
+        "entity_number": 248,
+        "name": "fast-transport-belt",
+        "position": {
+          "x": -682.5,
+          "y": 87.5
+        }
+      }
+    ],
+    "icons": [
+      {
+        "index": 1,
+        "signal": {
+          "name": "electromagnetic-plant"
+        }
+      },
+      {
+        "index": 2,
+        "signal": {
+          "name": "recycler"
+        }
+      },
+      {
+        "index": 3,
+        "signal": {
+          "name": "tesla-turret"
+        }
+      },
+      {
+        "index": 4,
+        "signal": {
+          "name": "tesla-ammo"
+        }
+      }
+    ],
+    "version": 562954249306113,
+    "wires": [
+      [
+        18,
+        5,
+        22,
+        5
+      ],
+      [
+        22,
+        5,
+        25,
+        5
+      ],
+      [
+        22,
+        5,
+        50,
+        5
+      ],
+      [
+        25,
+        5,
+        51,
+        5
+      ],
+      [
+        50,
+        5,
+        51,
+        5
+      ],
+      [
+        50,
+        5,
+        75,
+        5
+      ],
+      [
+        51,
+        5,
+        77,
+        5
+      ],
+      [
+        56,
+        1,
+        57,
+        1
+      ],
+      [
+        58,
+        1,
+        59,
+        1
+      ],
+      [
+        65,
+        1,
+        66,
+        1
+      ],
+      [
+        75,
+        5,
+        76,
+        5
+      ],
+      [
+        75,
+        5,
+        107,
+        5
+      ],
+      [
+        76,
+        5,
+        77,
+        5
+      ],
+      [
+        77,
+        5,
+        109,
+        5
+      ],
+      [
+        83,
+        1,
+        84,
+        1
+      ],
+      [
+        107,
+        5,
+        109,
+        5
+      ],
+      [
+        107,
+        5,
+        150,
+        5
+      ],
+      [
+        109,
+        5,
+        145,
+        5
+      ],
+      [
+        115,
+        1,
+        116,
+        1
+      ],
+      [
+        145,
+        5,
+        187,
+        5
+      ],
+      [
+        150,
+        5,
+        199,
+        5
+      ],
+      [
+        152,
+        1,
+        153,
+        1
+      ],
+      [
+        154,
+        1,
+        166,
+        1
+      ],
+      [
+        172,
+        2,
+        179,
+        2
+      ],
+      [
+        173,
+        2,
+        180,
+        2
+      ],
+      [
+        177,
+        1,
+        184,
+        1
+      ],
+      [
+        178,
+        2,
+        185,
+        2
+      ],
+      [
+        178,
+        2,
+        179,
+        2
+      ],
+      [
+        180,
+        2,
+        185,
+        4
+      ],
+      [
+        183,
+        5,
+        187,
+        5
+      ],
+      [
+        183,
+        5,
+        200,
+        5
+      ],
+      [
+        185,
+        1,
+        188,
+        1
+      ],
+      [
+        187,
+        5,
+        201,
+        5
+      ],
+      [
+        189,
+        1,
+        190,
+        1
+      ],
+      [
+        199,
+        5,
+        200,
+        5
+      ],
+      [
+        200,
+        5,
+        201,
+        5
+      ],
+      [
+        200,
+        5,
+        226,
+        5
+      ],
+      [
+        201,
+        5,
+        227,
+        5
+      ],
+      [
+        226,
+        5,
+        227,
+        5
+      ]
+    ]
+  },
+  "index": 7
+}

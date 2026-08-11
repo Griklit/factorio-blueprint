@@ -1,0 +1,410 @@
+{
+  "blueprint": {
+    "item": "blueprint",
+    "label": "物流网络",
+    "entities": [
+      {
+        "entity_number": 1,
+        "name": "roboport",
+        "position": {
+          "x": -431,
+          "y": -68
+        },
+        "request_filters": {
+          "sections": [
+            {
+              "index": 1
+            }
+          ]
+        }
+      },
+      {
+        "entity_number": 2,
+        "name": "roboport",
+        "position": {
+          "x": -431,
+          "y": -62
+        },
+        "request_filters": {
+          "sections": [
+            {
+              "index": 1
+            }
+          ]
+        }
+      },
+      {
+        "entity_number": 3,
+        "name": "roboport",
+        "position": {
+          "x": -431,
+          "y": -12
+        },
+        "request_filters": {
+          "sections": [
+            {
+              "index": 1
+            }
+          ]
+        }
+      },
+      {
+        "entity_number": 4,
+        "name": "roboport",
+        "position": {
+          "x": -431,
+          "y": -6
+        },
+        "request_filters": {
+          "sections": [
+            {
+              "index": 1
+            }
+          ]
+        }
+      },
+      {
+        "entity_number": 5,
+        "name": "big-electric-pole",
+        "position": {
+          "x": -428,
+          "y": -65
+        }
+      },
+      {
+        "entity_number": 6,
+        "name": "big-electric-pole",
+        "position": {
+          "x": -428,
+          "y": -37
+        }
+      },
+      {
+        "entity_number": 7,
+        "name": "big-electric-pole",
+        "position": {
+          "x": -428,
+          "y": -9
+        }
+      },
+      {
+        "entity_number": 8,
+        "name": "roboport",
+        "position": {
+          "x": -425,
+          "y": -68
+        },
+        "request_filters": {
+          "sections": [
+            {
+              "index": 1
+            }
+          ]
+        }
+      },
+      {
+        "entity_number": 9,
+        "name": "roboport",
+        "position": {
+          "x": -425,
+          "y": -62
+        },
+        "request_filters": {
+          "sections": [
+            {
+              "index": 1
+            }
+          ]
+        }
+      },
+      {
+        "entity_number": 10,
+        "name": "roboport",
+        "position": {
+          "x": -425,
+          "y": -12
+        },
+        "request_filters": {
+          "sections": [
+            {
+              "index": 1
+            }
+          ]
+        }
+      },
+      {
+        "entity_number": 11,
+        "name": "roboport",
+        "position": {
+          "x": -425,
+          "y": -6
+        },
+        "request_filters": {
+          "sections": [
+            {
+              "index": 1
+            }
+          ]
+        }
+      },
+      {
+        "entity_number": 12,
+        "name": "big-electric-pole",
+        "position": {
+          "x": -400,
+          "y": -65
+        }
+      },
+      {
+        "entity_number": 13,
+        "name": "big-electric-pole",
+        "position": {
+          "x": -400,
+          "y": -37
+        }
+      },
+      {
+        "entity_number": 14,
+        "name": "big-electric-pole",
+        "position": {
+          "x": -400,
+          "y": -9
+        }
+      },
+      {
+        "entity_number": 15,
+        "name": "roboport",
+        "position": {
+          "x": -375,
+          "y": -68
+        },
+        "request_filters": {
+          "sections": [
+            {
+              "index": 1
+            }
+          ]
+        }
+      },
+      {
+        "entity_number": 16,
+        "name": "roboport",
+        "position": {
+          "x": -375,
+          "y": -62
+        },
+        "request_filters": {
+          "sections": [
+            {
+              "index": 1
+            }
+          ]
+        }
+      },
+      {
+        "entity_number": 17,
+        "name": "roboport",
+        "position": {
+          "x": -375,
+          "y": -12
+        },
+        "request_filters": {
+          "sections": [
+            {
+              "index": 1
+            }
+          ]
+        }
+      },
+      {
+        "entity_number": 18,
+        "name": "roboport",
+        "position": {
+          "x": -375,
+          "y": -6
+        },
+        "request_filters": {
+          "sections": [
+            {
+              "index": 1
+            }
+          ]
+        }
+      },
+      {
+        "entity_number": 19,
+        "name": "big-electric-pole",
+        "position": {
+          "x": -372,
+          "y": -65
+        }
+      },
+      {
+        "entity_number": 20,
+        "name": "big-electric-pole",
+        "position": {
+          "x": -372,
+          "y": -37
+        }
+      },
+      {
+        "entity_number": 21,
+        "name": "big-electric-pole",
+        "position": {
+          "x": -372,
+          "y": -9
+        }
+      },
+      {
+        "entity_number": 22,
+        "name": "roboport",
+        "position": {
+          "x": -369,
+          "y": -68
+        },
+        "request_filters": {
+          "sections": [
+            {
+              "index": 1
+            }
+          ]
+        }
+      },
+      {
+        "entity_number": 23,
+        "name": "roboport",
+        "position": {
+          "x": -369,
+          "y": -62
+        },
+        "request_filters": {
+          "sections": [
+            {
+              "index": 1
+            }
+          ]
+        }
+      },
+      {
+        "entity_number": 24,
+        "name": "roboport",
+        "position": {
+          "x": -369,
+          "y": -12
+        },
+        "request_filters": {
+          "sections": [
+            {
+              "index": 1
+            }
+          ]
+        }
+      },
+      {
+        "entity_number": 25,
+        "name": "roboport",
+        "position": {
+          "x": -369,
+          "y": -6
+        },
+        "request_filters": {
+          "sections": [
+            {
+              "index": 1
+            }
+          ]
+        }
+      }
+    ],
+    "icons": [
+      {
+        "index": 1,
+        "signal": {
+          "name": "roboport"
+        }
+      },
+      {
+        "index": 2,
+        "signal": {
+          "name": "big-electric-pole"
+        }
+      }
+    ],
+    "version": 562954249306113,
+    "wires": [
+      [
+        5,
+        5,
+        12,
+        5
+      ],
+      [
+        5,
+        5,
+        6,
+        5
+      ],
+      [
+        6,
+        5,
+        7,
+        5
+      ],
+      [
+        6,
+        5,
+        13,
+        5
+      ],
+      [
+        7,
+        5,
+        14,
+        5
+      ],
+      [
+        12,
+        5,
+        19,
+        5
+      ],
+      [
+        12,
+        5,
+        13,
+        5
+      ],
+      [
+        13,
+        5,
+        20,
+        5
+      ],
+      [
+        13,
+        5,
+        14,
+        5
+      ],
+      [
+        14,
+        5,
+        21,
+        5
+      ],
+      [
+        19,
+        5,
+        20,
+        5
+      ],
+      [
+        20,
+        5,
+        21,
+        5
+      ]
+    ]
+  },
+  "index": 10
+}

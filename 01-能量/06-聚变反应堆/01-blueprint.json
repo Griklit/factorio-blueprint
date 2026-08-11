@@ -1,0 +1,304 @@
+{
+  "blueprint": {
+    "item": "blueprint",
+    "entities": [
+      {
+        "direction": 8,
+        "entity_number": 1,
+        "name": "turbo-transport-belt",
+        "position": {
+          "x": -71.5,
+          "y": 419.5
+        }
+      },
+      {
+        "direction": 8,
+        "entity_number": 2,
+        "name": "turbo-transport-belt",
+        "position": {
+          "x": -71.5,
+          "y": 418.5
+        }
+      },
+      {
+        "entity_number": 3,
+        "name": "turbo-transport-belt",
+        "position": {
+          "x": -56.5,
+          "y": 419.5
+        }
+      },
+      {
+        "entity_number": 4,
+        "name": "turbo-transport-belt",
+        "position": {
+          "x": -56.5,
+          "y": 418.5
+        }
+      },
+      {
+        "entity_number": 5,
+        "name": "pipe",
+        "position": {
+          "x": -55.5,
+          "y": 419.5
+        }
+      },
+      {
+        "entity_number": 6,
+        "name": "pipe",
+        "position": {
+          "x": -55.5,
+          "y": 418.5
+        }
+      },
+      {
+        "entity_number": 7,
+        "name": "pipe",
+        "position": {
+          "x": -49.5,
+          "y": 419.5
+        }
+      },
+      {
+        "entity_number": 8,
+        "name": "pipe",
+        "position": {
+          "x": -49.5,
+          "y": 418.5
+        }
+      },
+      {
+        "direction": 8,
+        "entity_number": 9,
+        "name": "turbo-transport-belt",
+        "position": {
+          "x": -71.5,
+          "y": 421.5
+        }
+      },
+      {
+        "direction": 8,
+        "entity_number": 10,
+        "name": "turbo-transport-belt",
+        "position": {
+          "x": -71.5,
+          "y": 420.5
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 11,
+        "name": "fusion-reactor",
+        "position": {
+          "x": -61,
+          "y": 421
+        }
+      },
+      {
+        "entity_number": 12,
+        "name": "turbo-transport-belt",
+        "position": {
+          "x": -56.5,
+          "y": 421.5
+        }
+      },
+      {
+        "entity_number": 13,
+        "name": "turbo-transport-belt",
+        "position": {
+          "x": -56.5,
+          "y": 420.5
+        }
+      },
+      {
+        "entity_number": 14,
+        "name": "pipe",
+        "position": {
+          "x": -55.5,
+          "y": 421.5
+        }
+      },
+      {
+        "entity_number": 15,
+        "name": "pipe",
+        "position": {
+          "x": -55.5,
+          "y": 420.5
+        }
+      },
+      {
+        "direction": 12,
+        "entity_number": 16,
+        "items": [
+          {
+            "id": {
+              "name": "speed-module-3"
+            },
+            "items": {
+              "in_inventory": [
+                {
+                  "inventory": 4,
+                  "stack": 0
+                },
+                {
+                  "inventory": 4,
+                  "stack": 1
+                }
+              ]
+            }
+          }
+        ],
+        "name": "cryogenic-plant",
+        "position": {
+          "x": -52.5,
+          "y": 421.5
+        },
+        "recipe": "fluoroketone-cooling",
+        "recipe_quality": "normal"
+      },
+      {
+        "entity_number": 17,
+        "name": "pipe",
+        "position": {
+          "x": -49.5,
+          "y": 421.5
+        }
+      },
+      {
+        "entity_number": 18,
+        "name": "pipe",
+        "position": {
+          "x": -49.5,
+          "y": 420.5
+        }
+      },
+      {
+        "direction": 8,
+        "entity_number": 19,
+        "name": "turbo-transport-belt",
+        "position": {
+          "x": -71.5,
+          "y": 423.5
+        }
+      },
+      {
+        "direction": 12,
+        "entity_number": 20,
+        "name": "inserter",
+        "position": {
+          "x": -70.5,
+          "y": 423.5
+        }
+      },
+      {
+        "direction": 8,
+        "entity_number": 21,
+        "name": "turbo-transport-belt",
+        "position": {
+          "x": -71.5,
+          "y": 422.5
+        }
+      },
+      {
+        "entity_number": 22,
+        "name": "medium-electric-pole",
+        "position": {
+          "x": -70.5,
+          "y": 422.5
+        }
+      },
+      {
+        "entity_number": 23,
+        "name": "turbo-transport-belt",
+        "position": {
+          "x": -56.5,
+          "y": 423.5
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 24,
+        "name": "inserter",
+        "position": {
+          "x": -57.5,
+          "y": 423.5
+        }
+      },
+      {
+        "entity_number": 25,
+        "name": "turbo-transport-belt",
+        "position": {
+          "x": -56.5,
+          "y": 422.5
+        }
+      },
+      {
+        "entity_number": 26,
+        "name": "medium-electric-pole",
+        "position": {
+          "x": -57.5,
+          "y": 422.5
+        }
+      },
+      {
+        "entity_number": 27,
+        "name": "pipe",
+        "position": {
+          "x": -55.5,
+          "y": 423.5
+        }
+      },
+      {
+        "entity_number": 28,
+        "name": "pipe",
+        "position": {
+          "x": -55.5,
+          "y": 422.5
+        }
+      },
+      {
+        "entity_number": 29,
+        "name": "pipe",
+        "position": {
+          "x": -49.5,
+          "y": 423.5
+        }
+      },
+      {
+        "entity_number": 30,
+        "name": "pipe",
+        "position": {
+          "x": -49.5,
+          "y": 422.5
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 31,
+        "name": "fusion-reactor",
+        "position": {
+          "x": -67,
+          "y": 424
+        }
+      }
+    ],
+    "icons": [
+      {
+        "index": 1,
+        "signal": {
+          "name": "fusion-reactor"
+        }
+      },
+      {
+        "index": 2,
+        "signal": {
+          "name": "signal-stack-size",
+          "type": "virtual"
+        }
+      }
+    ],
+    "version": 562954249306113
+  },
+  "index": 1
+}

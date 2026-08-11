@@ -1,0 +1,61 @@
+{
+  "upgrade_planner": {
+    "label": "[item=speed-module][item=speed-module-3]升级为[item=speed-module,quality=legendary]",
+    "item": "upgrade-planner",
+    "settings": {
+      "icons": [
+        {
+          "index": 1,
+          "signal": {
+            "name": "speed-module"
+          }
+        },
+        {
+          "index": 2,
+          "signal": {
+            "name": "speed-module-3"
+          }
+        },
+        {
+          "index": 3,
+          "signal": {
+            "name": "speed-module",
+            "quality": "legendary"
+          }
+        }
+      ],
+      "mappers": [
+        {
+          "from": {
+            "comparator": "=",
+            "name": "speed-module",
+            "quality": "normal",
+            "type": "item"
+          },
+          "index": 0,
+          "to": {
+            "name": "speed-module",
+            "quality": "legendary",
+            "type": "item"
+          }
+        },
+        {
+          "from": {
+            "comparator": "=",
+            "name": "speed-module-3",
+            "quality": "normal",
+            "type": "item"
+          },
+          "index": 4,
+          "to": {
+            "name": "speed-module",
+            "quality": "legendary",
+            "type": "item"
+          }
+        }
+      ]
+    },
+    "version": 562954249306113
+  },
+  "index": 6
+}

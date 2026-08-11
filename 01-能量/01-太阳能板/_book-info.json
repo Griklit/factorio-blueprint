@@ -1,0 +1,15 @@
+{
+  "active_index": 0,
+  "blueprints": [],
+  "icons": [
+    {
+      "index": 1,
+      "signal": {
+        "name": "solar-panel"
+      }
+    }
+  ],
+  "item": "blueprint-book",
+  "label": "太阳能板",
+  "version": 562954249306113
+}

@@ -1,0 +1,128 @@
+{
+  "blueprint": {
+    "item": "blueprint",
+    "label": "脉冲式永久雷达",
+    "description": "通过电闸的反复开关，自动节电雷达，保持永久视野，不过虫子的仇恨可能有点高。\n[virtual-signal=signal-ampersand]",
+    "entities": [
+      {
+        "control_behavior": {
+          "circuit_condition": {
+            "comparator": ">",
+            "constant": 1570000000,
+            "first_signal": {
+              "name": "signal-A",
+              "type": "virtual"
+            }
+          },
+          "circuit_enabled": true
+        },
+        "entity_number": 1,
+        "name": "power-switch",
+        "position": {
+          "x": -540,
+          "y": -302
+        },
+        "switch_state": false
+      },
+      {
+        "entity_number": 2,
+        "name": "accumulator",
+        "position": {
+          "x": -538,
+          "y": -302
+        }
+      },
+      {
+        "control_behavior": {
+          "arithmetic_conditions": {
+            "first_signal": {
+              "name": "signal-A",
+              "type": "virtual"
+            },
+            "operation": "+",
+            "output_signal": {
+              "name": "signal-A",
+              "type": "virtual"
+            },
+            "second_constant": 100000000
+          }
+        },
+        "direction": 12,
+        "entity_number": 3,
+        "name": "arithmetic-combinator",
+        "position": {
+          "x": -539,
+          "y": -303.5
+        }
+      },
+      {
+        "entity_number": 4,
+        "name": "small-electric-pole",
+        "position": {
+          "x": -541.5,
+          "y": -301.5
+        }
+      },
+      {
+        "entity_number": 5,
+        "name": "radar",
+        "position": {
+          "x": -540.5,
+          "y": -299.5
+        }
+      },
+      {
+        "entity_number": 6,
+        "name": "solar-panel",
+        "position": {
+          "x": -537.5,
+          "y": -299.5
+        }
+      },
+      {
+        "entity_number": 7,
+        "name": "small-electric-pole",
+        "position": {
+          "x": -536.5,
+          "y": -301.5
+        }
+      }
+    ],
+    "icons": [
+      {
+        "index": 1,
+        "signal": {
+          "name": "radar"
+        }
+      }
+    ],
+    "version": 562954249306113,
+    "wires": [
+      [
+        1,
+        2,
+        3,
+        4
+      ],
+      [
+        1,
+        5,
+        4,
+        5
+      ],
+      [
+        1,
+        6,
+        7,
+        5
+      ],
+      [
+        3,
+        2,
+        3,
+        4
+      ]
+    ]
+  },
+  "index": 0
+}

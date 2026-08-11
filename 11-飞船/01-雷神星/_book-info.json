@@ -1,0 +1,16 @@
+{
+  "active_index": 0,
+  "blueprints": [],
+  "icons": [
+    {
+      "index": 1,
+      "signal": {
+        "name": "fulgora",
+        "type": "space-location"
+      }
+    }
+  ],
+  "item": "blueprint-book",
+  "label": "雷神星",
+  "version": 562954249306113
+}

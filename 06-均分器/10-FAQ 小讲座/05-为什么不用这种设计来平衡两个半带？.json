@@ -1,0 +1,228 @@
+{
+  "blueprint": {
+    "item": "blueprint",
+    "label": "为什么不用这种设计来平衡两个半带？",
+    "description": "如果你只想要输出的两侧半带是均匀输出的，你可以使用它\n但如果你想要输入的两侧半带是均匀消耗的，这不起作用\n均分两个半带输入仅适用于输出不堵塞的情况。而当输出堵塞时，[virtual-signal=signal-L] 和[virtual-signal=signal-R]仅仅会交换位置，而不会均匀消耗。\n这就是为什么这种设计多用于产线的输出端(可以让输出免受半侧堵带影响)，而不是用在任何完全均分器里。(*有特例)",
+    "entities": [
+      {
+        "control_behavior": {
+          "sections": {
+            "sections": [
+              {
+                "filters": [
+                  {
+                    "comparator": "=",
+                    "count": 1,
+                    "index": 1,
+                    "name": "signal-L",
+                    "quality": "normal",
+                    "type": "virtual"
+                  }
+                ],
+                "index": 1
+              }
+            ]
+          }
+        },
+        "direction": 4,
+        "entity_number": 1,
+        "name": "constant-combinator",
+        "position": {
+          "x": 501.5,
+          "y": 311.5
+        }
+      },
+      {
+        "direction": 8,
+        "entity_number": 2,
+        "name": "express-transport-belt",
+        "position": {
+          "x": 505.5,
+          "y": 311.5
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 3,
+        "name": "express-transport-belt",
+        "position": {
+          "x": 504.5,
+          "y": 311.5
+        }
+      },
+      {
+        "control_behavior": {
+          "sections": {
+            "sections": [
+              {
+                "filters": [
+                  {
+                    "comparator": "=",
+                    "count": 1,
+                    "index": 1,
+                    "name": "signal-R",
+                    "quality": "normal",
+                    "type": "virtual"
+                  }
+                ],
+                "index": 1
+              }
+            ]
+          }
+        },
+        "direction": 4,
+        "entity_number": 4,
+        "name": "constant-combinator",
+        "position": {
+          "x": 507.5,
+          "y": 311.5
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 5,
+        "name": "express-transport-belt",
+        "position": {
+          "x": 501.5,
+          "y": 312.5
+        }
+      },
+      {
+        "control_behavior": {
+          "sections": {
+            "sections": [
+              {
+                "filters": [
+                  {
+                    "comparator": "=",
+                    "count": 1,
+                    "index": 2,
+                    "name": "signal-R",
+                    "quality": "normal",
+                    "type": "virtual"
+                  }
+                ],
+                "index": 1
+              }
+            ]
+          }
+        },
+        "direction": 4,
+        "entity_number": 6,
+        "name": "constant-combinator",
+        "position": {
+          "x": 501.5,
+          "y": 313.5
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 7,
+        "name": "express-splitter",
+        "position": {
+          "x": 503.5,
+          "y": 313
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 8,
+        "name": "express-transport-belt",
+        "position": {
+          "x": 502.5,
+          "y": 312.5
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 9,
+        "name": "express-transport-belt",
+        "position": {
+          "x": 505.5,
+          "y": 312.5
+        }
+      },
+      {
+        "entity_number": 10,
+        "name": "express-transport-belt",
+        "position": {
+          "x": 504.5,
+          "y": 312.5
+        }
+      },
+      {
+        "entity_number": 11,
+        "name": "express-transport-belt",
+        "position": {
+          "x": 505.5,
+          "y": 313.5
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 12,
+        "name": "express-transport-belt",
+        "position": {
+          "x": 504.5,
+          "y": 313.5
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 13,
+        "name": "express-transport-belt",
+        "position": {
+          "x": 507.5,
+          "y": 312.5
+        }
+      },
+      {
+        "control_behavior": {
+          "sections": {
+            "sections": [
+              {
+                "filters": [
+                  {
+                    "comparator": "=",
+                    "count": 1,
+                    "index": 2,
+                    "name": "signal-L",
+                    "quality": "normal",
+                    "type": "virtual"
+                  }
+                ],
+                "index": 1
+              }
+            ]
+          }
+        },
+        "direction": 4,
+        "entity_number": 14,
+        "name": "constant-combinator",
+        "position": {
+          "x": 507.5,
+          "y": 313.5
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 15,
+        "name": "express-transport-belt",
+        "position": {
+          "x": 506.5,
+          "y": 312.5
+        }
+      }
+    ],
+    "icons": [
+      {
+        "index": 1,
+        "signal": {
+          "name": "express-splitter"
+        }
+      }
+    ],
+    "version": 562954249306113
+  },
+  "index": 5
+}

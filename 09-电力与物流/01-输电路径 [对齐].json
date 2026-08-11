@@ -1,0 +1,68 @@
+{
+  "blueprint": {
+    "item": "blueprint",
+    "label": "输电路径 [对齐]",
+    "absolute-snapping": true,
+    "entities": [
+      {
+        "entity_number": 1,
+        "name": "big-electric-pole",
+        "position": {
+          "x": -16,
+          "y": 16
+        }
+      },
+      {
+        "entity_number": 2,
+        "name": "big-electric-pole",
+        "position": {
+          "x": 16,
+          "y": 16
+        }
+      },
+      {
+        "entity_number": 3,
+        "name": "big-electric-pole",
+        "position": {
+          "x": 48,
+          "y": 16
+        }
+      }
+    ],
+    "icons": [
+      {
+        "index": 1,
+        "signal": {
+          "name": "big-electric-pole"
+        }
+      },
+      {
+        "index": 2,
+        "signal": {
+          "name": "shape-horizontal",
+          "type": "virtual"
+        }
+      }
+    ],
+    "snap-to-grid": {
+      "x": 32,
+      "y": 32
+    },
+    "version": 562954249306113,
+    "wires": [
+      [
+        1,
+        5,
+        2,
+        5
+      ],
+      [
+        2,
+        5,
+        3,
+        5
+      ]
+    ]
+  },
+  "index": 1
+}
