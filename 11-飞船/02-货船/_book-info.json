@@ -5,12 +5,12 @@
     {
       "index": 1,
       "signal": {
-        "name": "nauvis",
-        "type": "space-location"
+        "name": "signal-stack-size",
+        "type": "virtual"
       }
     }
   ],
   "item": "blueprint-book",
-  "label": "新地星",
+  "label": "货船",
   "version": 562954249306113
 }

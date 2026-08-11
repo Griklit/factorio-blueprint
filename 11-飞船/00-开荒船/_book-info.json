@@ -5,12 +5,12 @@
     {
       "index": 1,
       "signal": {
-        "name": "aquilo",
-        "type": "space-location"
+        "name": "signal-white-flag",
+        "type": "virtual"
       }
     }
   ],
   "item": "blueprint-book",
-  "label": "玄冥星",
+  "label": "开荒船",
   "version": 562954249306113
 }

@@ -5,12 +5,12 @@
     {
       "index": 1,
       "signal": {
-        "name": "fulgora",
-        "type": "space-location"
+        "name": "signal-science-pack",
+        "type": "virtual"
       }
     }
   ],
   "item": "blueprint-book",
-  "label": "雷神星",
+  "label": "科研船",
   "version": 562954249306113
 }
