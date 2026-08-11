@@ -1,0 +1,16 @@
+{
+  "active_index": 0,
+  "blueprints": [],
+  "description": "by A4Paper",
+  "icons": [
+    {
+      "index": 1,
+      "signal": {
+        "name": "space-platform-foundation"
+      }
+    }
+  ],
+  "item": "blueprint-book",
+  "label": "飞船基座采集 每模块28/min",
+  "version": 562954249306113
+}
