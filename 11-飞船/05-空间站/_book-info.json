@@ -1,16 +1,16 @@
 {
   "active_index": 0,
   "blueprints": [],
-  "description": "v260816\n--by Sequence[7]",
   "icons": [
     {
       "index": 1,
       "signal": {
-        "name": "accumulator"
+        "name": "tile-ghost",
+        "type": "entity"
       }
     }
   ],
   "item": "blueprint-book",
-  "label": "能量",
+  "label": "空间站",
   "version": 562954249306113
 }

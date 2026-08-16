@@ -1,0 +1,1448 @@
+{
+  "blueprint": {
+    "item": "blueprint",
+    "label": "雷神星分拣器",
+    "description": "经过这样一番分拣，将每一种可能的产物都缓存了一箱\n现在我们终于有资格认定多余的东西应当被销毁了。\n不过我搞得太紧凑没地方插电线杆以及爪子偶尔会漏爪就是另一回事了……",
+    "entities": [
+      {
+        "direction": 12,
+        "entity_number": 1,
+        "name": "fast-transport-belt",
+        "position": {
+          "x": -860.5,
+          "y": 200.5
+        }
+      },
+      {
+        "entity_number": 2,
+        "name": "storage-chest",
+        "position": {
+          "x": -860.5,
+          "y": 206.5
+        },
+        "request_filters": {
+          "sections": [
+            {
+              "filters": [
+                {
+                  "comparator": "=",
+                  "count": 0,
+                  "import_from": "nauvis",
+                  "index": 1,
+                  "name": "stone",
+                  "quality": "normal"
+                }
+              ],
+              "index": 1
+            }
+          ]
+        }
+      },
+      {
+        "direction": 8,
+        "entity_number": 3,
+        "filters": [
+          {
+            "comparator": "=",
+            "index": 1,
+            "name": "stone",
+            "quality": "normal"
+          }
+        ],
+        "name": "bulk-inserter",
+        "position": {
+          "x": -860.5,
+          "y": 207.5
+        },
+        "use_filters": true
+      },
+      {
+        "direction": 4,
+        "entity_number": 4,
+        "name": "fast-transport-belt",
+        "position": {
+          "x": -860.5,
+          "y": 208.5
+        }
+      },
+      {
+        "direction": 8,
+        "entity_number": 5,
+        "mirror": true,
+        "name": "recycler",
+        "position": {
+          "x": -860,
+          "y": 204
+        }
+      },
+      {
+        "direction": 12,
+        "entity_number": 6,
+        "name": "fast-transport-belt",
+        "position": {
+          "x": -859.5,
+          "y": 200.5
+        }
+      },
+      {
+        "entity_number": 7,
+        "filters": [
+          {
+            "comparator": "=",
+            "index": 1,
+            "name": "stone-brick",
+            "quality": "normal"
+          }
+        ],
+        "name": "bulk-inserter",
+        "position": {
+          "x": -859.5,
+          "y": 201.5
+        },
+        "use_filters": true
+      },
+      {
+        "entity_number": 8,
+        "name": "storage-chest",
+        "position": {
+          "x": -859.5,
+          "y": 206.5
+        },
+        "request_filters": {
+          "sections": [
+            {
+              "filters": [
+                {
+                  "comparator": "=",
+                  "count": 0,
+                  "import_from": "nauvis",
+                  "index": 1,
+                  "name": "iron-gear-wheel",
+                  "quality": "normal"
+                }
+              ],
+              "index": 1
+            }
+          ]
+        }
+      },
+      {
+        "direction": 8,
+        "entity_number": 9,
+        "filters": [
+          {
+            "comparator": "=",
+            "index": 1,
+            "name": "iron-gear-wheel",
+            "quality": "normal"
+          }
+        ],
+        "name": "bulk-inserter",
+        "position": {
+          "x": -859.5,
+          "y": 207.5
+        },
+        "use_filters": true
+      },
+      {
+        "direction": 4,
+        "entity_number": 10,
+        "name": "fast-transport-belt",
+        "position": {
+          "x": -859.5,
+          "y": 208.5
+        }
+      },
+      {
+        "direction": 12,
+        "entity_number": 11,
+        "name": "fast-transport-belt",
+        "position": {
+          "x": -858.5,
+          "y": 200.5
+        }
+      },
+      {
+        "entity_number": 12,
+        "filters": [
+          {
+            "comparator": "=",
+            "index": 1,
+            "name": "solid-fuel",
+            "quality": "normal"
+          }
+        ],
+        "name": "bulk-inserter",
+        "position": {
+          "x": -858.5,
+          "y": 201.5
+        },
+        "use_filters": true
+      },
+      {
+        "entity_number": 13,
+        "name": "storage-chest",
+        "position": {
+          "x": -858.5,
+          "y": 202.5
+        },
+        "request_filters": {
+          "sections": [
+            {
+              "filters": [
+                {
+                  "comparator": "=",
+                  "count": 0,
+                  "import_from": "nauvis",
+                  "index": 1,
+                  "name": "solid-fuel",
+                  "quality": "normal"
+                }
+              ],
+              "index": 1
+            }
+          ]
+        }
+      },
+      {
+        "direction": 8,
+        "entity_number": 14,
+        "filters": [
+          {
+            "comparator": "=",
+            "index": 1,
+            "name": "iron-gear-wheel",
+            "quality": "normal"
+          }
+        ],
+        "name": "bulk-inserter",
+        "position": {
+          "x": -858.5,
+          "y": 207.5
+        },
+        "use_filters": true
+      },
+      {
+        "direction": 4,
+        "entity_number": 15,
+        "name": "fast-transport-belt",
+        "position": {
+          "x": -858.5,
+          "y": 208.5
+        }
+      },
+      {
+        "direction": 8,
+        "entity_number": 16,
+        "name": "recycler",
+        "position": {
+          "x": -858,
+          "y": 205
+        }
+      },
+      {
+        "direction": 12,
+        "entity_number": 17,
+        "name": "fast-transport-belt",
+        "position": {
+          "x": -857.5,
+          "y": 200.5
+        }
+      },
+      {
+        "entity_number": 18,
+        "filters": [
+          {
+            "comparator": "=",
+            "index": 1,
+            "name": "stone-brick",
+            "quality": "normal"
+          }
+        ],
+        "name": "bulk-inserter",
+        "position": {
+          "x": -857.5,
+          "y": 201.5
+        },
+        "use_filters": true
+      },
+      {
+        "entity_number": 19,
+        "name": "storage-chest",
+        "position": {
+          "x": -857.5,
+          "y": 202.5
+        },
+        "request_filters": {
+          "sections": [
+            {
+              "filters": [
+                {
+                  "comparator": "=",
+                  "count": 0,
+                  "import_from": "nauvis",
+                  "index": 1,
+                  "name": "stone-brick",
+                  "quality": "normal"
+                }
+              ],
+              "index": 1
+            }
+          ]
+        }
+      },
+      {
+        "direction": 8,
+        "entity_number": 20,
+        "name": "fast-transport-belt",
+        "position": {
+          "x": -857.5,
+          "y": 207.5
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 21,
+        "name": "fast-transport-belt",
+        "position": {
+          "x": -857.5,
+          "y": 208.5
+        }
+      },
+      {
+        "direction": 12,
+        "entity_number": 22,
+        "name": "fast-transport-belt",
+        "position": {
+          "x": -856.5,
+          "y": 200.5
+        }
+      },
+      {
+        "entity_number": 23,
+        "name": "fast-transport-belt",
+        "position": {
+          "x": -856.5,
+          "y": 201.5
+        }
+      },
+      {
+        "entity_number": 24,
+        "name": "storage-chest",
+        "position": {
+          "x": -856.5,
+          "y": 206.5
+        },
+        "request_filters": {
+          "sections": [
+            {
+              "filters": [
+                {
+                  "comparator": "=",
+                  "count": 0,
+                  "import_from": "nauvis",
+                  "index": 1,
+                  "name": "ice",
+                  "quality": "normal"
+                }
+              ],
+              "index": 1
+            }
+          ]
+        }
+      },
+      {
+        "direction": 8,
+        "entity_number": 25,
+        "filters": [
+          {
+            "comparator": "=",
+            "index": 1,
+            "name": "ice",
+            "quality": "normal"
+          }
+        ],
+        "name": "bulk-inserter",
+        "position": {
+          "x": -856.5,
+          "y": 207.5
+        },
+        "use_filters": true
+      },
+      {
+        "direction": 4,
+        "entity_number": 26,
+        "name": "fast-transport-belt",
+        "position": {
+          "x": -856.5,
+          "y": 208.5
+        }
+      },
+      {
+        "entity_number": 27,
+        "name": "recycler",
+        "position": {
+          "x": -856,
+          "y": 204
+        }
+      },
+      {
+        "direction": 12,
+        "entity_number": 28,
+        "name": "fast-transport-belt",
+        "position": {
+          "x": -855.5,
+          "y": 200.5
+        }
+      },
+      {
+        "entity_number": 29,
+        "filters": [
+          {
+            "comparator": "=",
+            "index": 1,
+            "name": "concrete",
+            "quality": "normal"
+          }
+        ],
+        "name": "bulk-inserter",
+        "position": {
+          "x": -855.5,
+          "y": 201.5
+        },
+        "use_filters": true
+      },
+      {
+        "entity_number": 30,
+        "name": "storage-chest",
+        "position": {
+          "x": -855.5,
+          "y": 206.5
+        },
+        "request_filters": {
+          "sections": [
+            {
+              "filters": [
+                {
+                  "comparator": "=",
+                  "count": 0,
+                  "import_from": "nauvis",
+                  "index": 1,
+                  "name": "battery",
+                  "quality": "normal"
+                }
+              ],
+              "index": 1
+            }
+          ]
+        }
+      },
+      {
+        "direction": 8,
+        "entity_number": 31,
+        "filters": [
+          {
+            "comparator": "=",
+            "index": 1,
+            "name": "battery",
+            "quality": "normal"
+          }
+        ],
+        "name": "bulk-inserter",
+        "position": {
+          "x": -855.5,
+          "y": 207.5
+        },
+        "use_filters": true
+      },
+      {
+        "direction": 4,
+        "entity_number": 32,
+        "name": "fast-transport-belt",
+        "position": {
+          "x": -855.5,
+          "y": 208.5
+        }
+      },
+      {
+        "direction": 12,
+        "entity_number": 33,
+        "name": "fast-transport-belt",
+        "position": {
+          "x": -854.5,
+          "y": 200.5
+        }
+      },
+      {
+        "entity_number": 34,
+        "filters": [
+          {
+            "comparator": "=",
+            "index": 1,
+            "name": "concrete",
+            "quality": "normal"
+          }
+        ],
+        "name": "bulk-inserter",
+        "position": {
+          "x": -854.5,
+          "y": 201.5
+        },
+        "use_filters": true
+      },
+      {
+        "entity_number": 35,
+        "name": "storage-chest",
+        "position": {
+          "x": -854.5,
+          "y": 202.5
+        },
+        "request_filters": {
+          "sections": [
+            {
+              "filters": [
+                {
+                  "comparator": "=",
+                  "count": 0,
+                  "import_from": "nauvis",
+                  "index": 1,
+                  "name": "concrete",
+                  "quality": "normal"
+                }
+              ],
+              "index": 1
+            }
+          ]
+        }
+      },
+      {
+        "direction": 8,
+        "entity_number": 36,
+        "filters": [
+          {
+            "comparator": "=",
+            "index": 1,
+            "name": "battery",
+            "quality": "normal"
+          }
+        ],
+        "name": "bulk-inserter",
+        "position": {
+          "x": -854.5,
+          "y": 207.5
+        },
+        "use_filters": true
+      },
+      {
+        "direction": 4,
+        "entity_number": 37,
+        "name": "fast-transport-belt",
+        "position": {
+          "x": -854.5,
+          "y": 208.5
+        }
+      },
+      {
+        "direction": 8,
+        "entity_number": 38,
+        "name": "recycler",
+        "position": {
+          "x": -854,
+          "y": 205
+        }
+      },
+      {
+        "direction": 12,
+        "entity_number": 39,
+        "name": "fast-transport-belt",
+        "position": {
+          "x": -853.5,
+          "y": 200.5
+        }
+      },
+      {
+        "entity_number": 40,
+        "filters": [
+          {
+            "comparator": "=",
+            "index": 1,
+            "name": "copper-plate",
+            "quality": "normal"
+          }
+        ],
+        "name": "bulk-inserter",
+        "position": {
+          "x": -853.5,
+          "y": 201.5
+        },
+        "use_filters": true
+      },
+      {
+        "entity_number": 41,
+        "name": "storage-chest",
+        "position": {
+          "x": -853.5,
+          "y": 202.5
+        },
+        "request_filters": {
+          "sections": [
+            {
+              "filters": [
+                {
+                  "comparator": "=",
+                  "count": 0,
+                  "import_from": "nauvis",
+                  "index": 1,
+                  "name": "copper-plate",
+                  "quality": "normal"
+                }
+              ],
+              "index": 1
+            }
+          ]
+        }
+      },
+      {
+        "direction": 8,
+        "entity_number": 42,
+        "name": "fast-transport-belt",
+        "position": {
+          "x": -853.5,
+          "y": 207.5
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 43,
+        "name": "fast-transport-belt",
+        "position": {
+          "x": -853.5,
+          "y": 208.5
+        }
+      },
+      {
+        "direction": 12,
+        "entity_number": 44,
+        "name": "fast-transport-belt",
+        "position": {
+          "x": -852.5,
+          "y": 200.5
+        }
+      },
+      {
+        "entity_number": 45,
+        "name": "fast-transport-belt",
+        "position": {
+          "x": -852.5,
+          "y": 201.5
+        }
+      },
+      {
+        "entity_number": 46,
+        "name": "storage-chest",
+        "position": {
+          "x": -852.5,
+          "y": 206.5
+        },
+        "request_filters": {
+          "sections": [
+            {
+              "filters": [
+                {
+                  "comparator": "=",
+                  "count": 0,
+                  "import_from": "fulgora",
+                  "index": 1,
+                  "name": "holmium-ore",
+                  "quality": "normal"
+                }
+              ],
+              "index": 1
+            }
+          ]
+        }
+      },
+      {
+        "direction": 8,
+        "entity_number": 47,
+        "filters": [
+          {
+            "comparator": "=",
+            "index": 1,
+            "name": "holmium-ore",
+            "quality": "normal"
+          }
+        ],
+        "name": "bulk-inserter",
+        "position": {
+          "x": -852.5,
+          "y": 207.5
+        },
+        "use_filters": true
+      },
+      {
+        "direction": 4,
+        "entity_number": 48,
+        "name": "fast-transport-belt",
+        "position": {
+          "x": -852.5,
+          "y": 208.5
+        }
+      },
+      {
+        "entity_number": 49,
+        "name": "recycler",
+        "position": {
+          "x": -852,
+          "y": 204
+        }
+      },
+      {
+        "direction": 12,
+        "entity_number": 50,
+        "name": "fast-transport-belt",
+        "position": {
+          "x": -851.5,
+          "y": 200.5
+        }
+      },
+      {
+        "entity_number": 51,
+        "filters": [
+          {
+            "comparator": "=",
+            "index": 2,
+            "name": "copper-cable",
+            "quality": "normal"
+          }
+        ],
+        "name": "bulk-inserter",
+        "position": {
+          "x": -851.5,
+          "y": 201.5
+        },
+        "use_filters": true
+      },
+      {
+        "entity_number": 52,
+        "name": "storage-chest",
+        "position": {
+          "x": -851.5,
+          "y": 206.5
+        },
+        "request_filters": {
+          "sections": [
+            {
+              "filters": [
+                {
+                  "comparator": "=",
+                  "count": 0,
+                  "import_from": "nauvis",
+                  "index": 1,
+                  "name": "low-density-structure",
+                  "quality": "normal"
+                }
+              ],
+              "index": 1
+            }
+          ]
+        }
+      },
+      {
+        "direction": 8,
+        "entity_number": 53,
+        "filters": [
+          {
+            "comparator": "=",
+            "index": 1,
+            "name": "low-density-structure",
+            "quality": "normal"
+          }
+        ],
+        "name": "bulk-inserter",
+        "position": {
+          "x": -851.5,
+          "y": 207.5
+        },
+        "use_filters": true
+      },
+      {
+        "direction": 4,
+        "entity_number": 54,
+        "name": "fast-transport-belt",
+        "position": {
+          "x": -851.5,
+          "y": 208.5
+        }
+      },
+      {
+        "direction": 12,
+        "entity_number": 55,
+        "name": "fast-transport-belt",
+        "position": {
+          "x": -850.5,
+          "y": 200.5
+        }
+      },
+      {
+        "entity_number": 56,
+        "filters": [
+          {
+            "comparator": "=",
+            "index": 1,
+            "name": "copper-cable",
+            "quality": "normal"
+          }
+        ],
+        "name": "bulk-inserter",
+        "position": {
+          "x": -850.5,
+          "y": 201.5
+        },
+        "use_filters": true
+      },
+      {
+        "entity_number": 57,
+        "name": "storage-chest",
+        "position": {
+          "x": -850.5,
+          "y": 202.5
+        },
+        "request_filters": {
+          "sections": [
+            {
+              "filters": [
+                {
+                  "comparator": "=",
+                  "count": 0,
+                  "import_from": "nauvis",
+                  "index": 1,
+                  "name": "copper-cable",
+                  "quality": "normal"
+                }
+              ],
+              "index": 1
+            }
+          ]
+        }
+      },
+      {
+        "direction": 8,
+        "entity_number": 58,
+        "filters": [
+          {
+            "comparator": "=",
+            "index": 1,
+            "name": "low-density-structure",
+            "quality": "normal"
+          }
+        ],
+        "name": "bulk-inserter",
+        "position": {
+          "x": -850.5,
+          "y": 207.5
+        },
+        "use_filters": true
+      },
+      {
+        "direction": 4,
+        "entity_number": 59,
+        "name": "fast-transport-belt",
+        "position": {
+          "x": -850.5,
+          "y": 208.5
+        }
+      },
+      {
+        "direction": 8,
+        "entity_number": 60,
+        "name": "recycler",
+        "position": {
+          "x": -850,
+          "y": 205
+        }
+      },
+      {
+        "direction": 12,
+        "entity_number": 61,
+        "name": "fast-transport-belt",
+        "position": {
+          "x": -849.5,
+          "y": 200.5
+        }
+      },
+      {
+        "entity_number": 62,
+        "filters": [
+          {
+            "comparator": "=",
+            "index": 1,
+            "name": "iron-plate",
+            "quality": "normal"
+          }
+        ],
+        "name": "bulk-inserter",
+        "position": {
+          "x": -849.5,
+          "y": 201.5
+        },
+        "use_filters": true
+      },
+      {
+        "entity_number": 63,
+        "name": "storage-chest",
+        "position": {
+          "x": -849.5,
+          "y": 202.5
+        },
+        "request_filters": {
+          "sections": [
+            {
+              "filters": [
+                {
+                  "comparator": "=",
+                  "count": 0,
+                  "import_from": "nauvis",
+                  "index": 1,
+                  "name": "iron-plate",
+                  "quality": "normal"
+                }
+              ],
+              "index": 1
+            }
+          ]
+        }
+      },
+      {
+        "direction": 8,
+        "entity_number": 64,
+        "name": "fast-transport-belt",
+        "position": {
+          "x": -849.5,
+          "y": 207.5
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 65,
+        "name": "fast-transport-belt",
+        "position": {
+          "x": -849.5,
+          "y": 208.5
+        }
+      },
+      {
+        "direction": 12,
+        "entity_number": 66,
+        "name": "fast-transport-belt",
+        "position": {
+          "x": -848.5,
+          "y": 200.5
+        }
+      },
+      {
+        "entity_number": 67,
+        "name": "fast-transport-belt",
+        "position": {
+          "x": -848.5,
+          "y": 201.5
+        }
+      },
+      {
+        "entity_number": 68,
+        "name": "storage-chest",
+        "position": {
+          "x": -848.5,
+          "y": 206.5
+        },
+        "request_filters": {
+          "sections": [
+            {
+              "filters": [
+                {
+                  "comparator": "=",
+                  "count": 0,
+                  "import_from": "nauvis",
+                  "index": 1,
+                  "name": "steel-plate",
+                  "quality": "normal"
+                }
+              ],
+              "index": 1
+            }
+          ]
+        }
+      },
+      {
+        "direction": 8,
+        "entity_number": 69,
+        "filters": [
+          {
+            "comparator": "=",
+            "index": 1,
+            "name": "steel-plate",
+            "quality": "normal"
+          }
+        ],
+        "name": "bulk-inserter",
+        "position": {
+          "x": -848.5,
+          "y": 207.5
+        },
+        "use_filters": true
+      },
+      {
+        "direction": 4,
+        "entity_number": 70,
+        "name": "fast-transport-belt",
+        "position": {
+          "x": -848.5,
+          "y": 208.5
+        }
+      },
+      {
+        "entity_number": 71,
+        "name": "recycler",
+        "position": {
+          "x": -848,
+          "y": 204
+        }
+      },
+      {
+        "direction": 12,
+        "entity_number": 72,
+        "name": "fast-transport-belt",
+        "position": {
+          "x": -847.5,
+          "y": 200.5
+        }
+      },
+      {
+        "entity_number": 73,
+        "filters": [
+          {
+            "comparator": "=",
+            "index": 1,
+            "name": "electronic-circuit",
+            "quality": "normal"
+          }
+        ],
+        "name": "bulk-inserter",
+        "position": {
+          "x": -847.5,
+          "y": 201.5
+        },
+        "use_filters": true
+      },
+      {
+        "entity_number": 74,
+        "name": "storage-chest",
+        "position": {
+          "x": -847.5,
+          "y": 206.5
+        },
+        "request_filters": {
+          "sections": [
+            {
+              "filters": [
+                {
+                  "comparator": "=",
+                  "count": 0,
+                  "import_from": "nauvis",
+                  "index": 1,
+                  "name": "processing-unit",
+                  "quality": "normal"
+                }
+              ],
+              "index": 1
+            }
+          ]
+        }
+      },
+      {
+        "direction": 8,
+        "entity_number": 75,
+        "filters": [
+          {
+            "comparator": "=",
+            "index": 1,
+            "name": "processing-unit",
+            "quality": "normal"
+          }
+        ],
+        "name": "bulk-inserter",
+        "position": {
+          "x": -847.5,
+          "y": 207.5
+        },
+        "use_filters": true
+      },
+      {
+        "direction": 4,
+        "entity_number": 76,
+        "name": "fast-transport-belt",
+        "position": {
+          "x": -847.5,
+          "y": 208.5
+        }
+      },
+      {
+        "direction": 12,
+        "entity_number": 77,
+        "name": "fast-transport-belt",
+        "position": {
+          "x": -846.5,
+          "y": 200.5
+        }
+      },
+      {
+        "entity_number": 78,
+        "filters": [
+          {
+            "comparator": "=",
+            "index": 1,
+            "name": "electronic-circuit",
+            "quality": "normal"
+          }
+        ],
+        "name": "bulk-inserter",
+        "position": {
+          "x": -846.5,
+          "y": 201.5
+        },
+        "use_filters": true
+      },
+      {
+        "entity_number": 79,
+        "name": "storage-chest",
+        "position": {
+          "x": -846.5,
+          "y": 202.5
+        },
+        "request_filters": {
+          "sections": [
+            {
+              "filters": [
+                {
+                  "comparator": "=",
+                  "count": 0,
+                  "import_from": "nauvis",
+                  "index": 1,
+                  "name": "electronic-circuit",
+                  "quality": "normal"
+                }
+              ],
+              "index": 1
+            }
+          ]
+        }
+      },
+      {
+        "direction": 8,
+        "entity_number": 80,
+        "filters": [
+          {
+            "comparator": "=",
+            "index": 1,
+            "name": "processing-unit",
+            "quality": "normal"
+          }
+        ],
+        "name": "bulk-inserter",
+        "position": {
+          "x": -846.5,
+          "y": 207.5
+        },
+        "use_filters": true
+      },
+      {
+        "direction": 4,
+        "entity_number": 81,
+        "name": "fast-transport-belt",
+        "position": {
+          "x": -846.5,
+          "y": 208.5
+        }
+      },
+      {
+        "direction": 8,
+        "entity_number": 82,
+        "name": "recycler",
+        "position": {
+          "x": -846,
+          "y": 205
+        }
+      },
+      {
+        "direction": 12,
+        "entity_number": 83,
+        "name": "fast-transport-belt",
+        "position": {
+          "x": -845.5,
+          "y": 200.5
+        }
+      },
+      {
+        "entity_number": 84,
+        "filters": [
+          {
+            "comparator": "=",
+            "index": 1,
+            "name": "plastic-bar",
+            "quality": "normal"
+          }
+        ],
+        "name": "bulk-inserter",
+        "position": {
+          "x": -845.5,
+          "y": 201.5
+        },
+        "use_filters": true
+      },
+      {
+        "entity_number": 85,
+        "name": "storage-chest",
+        "position": {
+          "x": -845.5,
+          "y": 202.5
+        },
+        "request_filters": {
+          "sections": [
+            {
+              "filters": [
+                {
+                  "comparator": "=",
+                  "count": 0,
+                  "import_from": "nauvis",
+                  "index": 1,
+                  "name": "plastic-bar",
+                  "quality": "normal"
+                }
+              ],
+              "index": 1
+            }
+          ]
+        }
+      },
+      {
+        "direction": 8,
+        "entity_number": 86,
+        "name": "fast-transport-belt",
+        "position": {
+          "x": -845.5,
+          "y": 207.5
+        }
+      },
+      {
+        "direction": 4,
+        "entity_number": 87,
+        "name": "fast-transport-belt",
+        "position": {
+          "x": -845.5,
+          "y": 208.5
+        }
+      },
+      {
+        "direction": 12,
+        "entity_number": 88,
+        "name": "fast-transport-belt",
+        "position": {
+          "x": -844.5,
+          "y": 200.5
+        }
+      },
+      {
+        "entity_number": 89,
+        "name": "fast-transport-belt",
+        "position": {
+          "x": -844.5,
+          "y": 201.5
+        }
+      },
+      {
+        "entity_number": 90,
+        "name": "storage-chest",
+        "position": {
+          "x": -844.5,
+          "y": 206.5
+        },
+        "request_filters": {
+          "sections": [
+            {
+              "filters": [
+                {
+                  "comparator": "=",
+                  "count": 0,
+                  "import_from": "nauvis",
+                  "index": 1,
+                  "name": "advanced-circuit",
+                  "quality": "normal"
+                }
+              ],
+              "index": 1
+            }
+          ]
+        }
+      },
+      {
+        "direction": 8,
+        "entity_number": 91,
+        "filters": [
+          {
+            "comparator": "=",
+            "index": 1,
+            "name": "advanced-circuit",
+            "quality": "normal"
+          }
+        ],
+        "name": "bulk-inserter",
+        "position": {
+          "x": -844.5,
+          "y": 207.5
+        },
+        "use_filters": true
+      },
+      {
+        "direction": 4,
+        "entity_number": 92,
+        "name": "fast-transport-belt",
+        "position": {
+          "x": -844.5,
+          "y": 208.5
+        }
+      },
+      {
+        "entity_number": 93,
+        "name": "recycler",
+        "position": {
+          "x": -844,
+          "y": 204
+        }
+      },
+      {
+        "direction": 12,
+        "entity_number": 94,
+        "name": "fast-transport-belt",
+        "position": {
+          "x": -843.5,
+          "y": 200.5
+        }
+      },
+      {
+        "entity_number": 95,
+        "filters": [
+          {
+            "comparator": "=",
+            "index": 1,
+            "name": "advanced-circuit",
+            "quality": "normal"
+          }
+        ],
+        "name": "bulk-inserter",
+        "position": {
+          "x": -843.5,
+          "y": 201.5
+        },
+        "use_filters": true
+      },
+      {
+        "direction": 4,
+        "entity_number": 96,
+        "name": "fast-transport-belt",
+        "position": {
+          "x": -843.5,
+          "y": 208.5
+        }
+      },
+      {
+        "direction": 12,
+        "entity_number": 97,
+        "name": "fast-transport-belt",
+        "position": {
+          "x": -842.5,
+          "y": 200.5
+        }
+      },
+      {
+        "entity_number": 98,
+        "name": "fast-transport-belt",
+        "position": {
+          "x": -842.5,
+          "y": 201.5
+        }
+      },
+      {
+        "entity_number": 99,
+        "name": "fast-transport-belt",
+        "position": {
+          "x": -842.5,
+          "y": 202.5
+        }
+      },
+      {
+        "entity_number": 100,
+        "name": "fast-transport-belt",
+        "position": {
+          "x": -842.5,
+          "y": 203.5
+        }
+      },
+      {
+        "entity_number": 101,
+        "name": "fast-transport-belt",
+        "position": {
+          "x": -842.5,
+          "y": 204.5
+        }
+      },
+      {
+        "entity_number": 102,
+        "name": "fast-transport-belt",
+        "position": {
+          "x": -842.5,
+          "y": 205.5
+        }
+      },
+      {
+        "entity_number": 103,
+        "name": "fast-transport-belt",
+        "position": {
+          "x": -842.5,
+          "y": 206.5
+        }
+      },
+      {
+        "entity_number": 104,
+        "name": "fast-transport-belt",
+        "position": {
+          "x": -842.5,
+          "y": 207.5
+        }
+      },
+      {
+        "entity_number": 105,
+        "name": "fast-transport-belt",
+        "position": {
+          "x": -842.5,
+          "y": 208.5
+        }
+      }
+    ],
+    "icons": [
+      {
+        "index": 1,
+        "signal": {
+          "name": "recycler"
+        }
+      },
+      {
+        "index": 2,
+        "signal": {
+          "name": "storage-chest"
+        }
+      }
+    ],
+    "version": 562954249306113
+  },
+  "index": 2
+}

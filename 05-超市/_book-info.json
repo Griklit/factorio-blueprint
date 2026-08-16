@@ -6,11 +6,12 @@
     {
       "index": 1,
       "signal": {
-        "name": "accumulator"
+        "name": "signal-everything",
+        "type": "virtual"
       }
     }
   ],
   "item": "blueprint-book",
-  "label": "能量",
+  "label": "超市",
   "version": 562954249306113
 }

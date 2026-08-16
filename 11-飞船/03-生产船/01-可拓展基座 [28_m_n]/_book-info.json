@@ -1,16 +1,16 @@
 {
   "active_index": 0,
   "blueprints": [],
-  "description": "v260816\n--by Sequence[7]",
+  "description": "by A4Paper",
   "icons": [
     {
       "index": 1,
       "signal": {
-        "name": "accumulator"
+        "name": "space-platform-foundation"
       }
     }
   ],
   "item": "blueprint-book",
-  "label": "能量",
+  "label": "可拓展基座 [28/m/n]",
   "version": 562954249306113
 }

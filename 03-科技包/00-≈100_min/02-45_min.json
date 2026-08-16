@@ -2,7 +2,7 @@
   "blueprint": {
     "item": "blueprint",
     "label": "45/min",
-    "description": "雷神星造插件比较容易，而且钬矿能省则省，固而插了点插件",
+    "description": "串行设计，废料挑选完继续传递给下游\n雷神星造插件比较容易，而且钬矿能省则省，固而插了点插件",
     "entities": [
       {
         "direction": 12,
